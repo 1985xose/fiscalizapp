@@ -14,6 +14,17 @@ var FLAG_TIPOS = {
 var allFlags = [];
 var currentFilter = "todos";
 var contractSearchQuery = "";
+var contractSearchTerms = [];
+
+// Normaliza tildes y ñ para que "andalucia" encuentre "Andalucía", "cadiz" encuentre "Cádiz", etc.
+function normalizarBusquedaContratos(s) {
+  if (s == null) return "";
+  return String(s)
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .trim();
+}
 
 function fmtMoney(n) {
   if (!n) return "—";
@@ -21,7 +32,8 @@ function fmtMoney(n) {
 }
 
 window.searchContracts = function(query) {
-  contractSearchQuery = query.toLowerCase().trim();
+  contractSearchQuery = normalizarBusquedaContratos(query);
+  contractSearchTerms = contractSearchQuery.split(/\s+/).filter(function(p){ return p.length > 0; });
   window.renderFlags();
 };
 
@@ -49,16 +61,21 @@ window.renderFlags = function() {
   else if (currentFilter === "media") filtered = allFlags.filter(function(f){ return f.severidad === "media"; });
   else if (FLAG_TIPOS[currentFilter]) filtered = allFlags.filter(function(f){ return f.tipo === currentFilter; });
 
-  if (contractSearchQuery) {
+  if (contractSearchTerms.length > 0) {
     filtered = filtered.filter(function(f) {
-      var text = [f.descripcion||"", f.organo||"", f.adjudicatario||"", f.tipo||""].join(" ").toLowerCase();
-      if (f.contratos) f.contratos.forEach(function(c){ text += " " + (c.objeto||"") + " " + (c.expediente||""); });
-      if (f.organos) text += " " + f.organos.join(" ");
-      return text.includes(contractSearchQuery);
+      if (!f._buscable) {
+        var text = [f.descripcion||"", f.organo||"", f.adjudicatario||"", f.tipo||"", f.cpv||"", f.expediente||""].join(" ");
+        if (f.contratos) f.contratos.forEach(function(c){ text += " " + (c.objeto||"") + " " + (c.expediente||"") + " " + (c.adjudicatario||"") + " " + (c.organo||""); });
+        if (f.organos) text += " " + f.organos.join(" ");
+        if (f.adjudicatarios) text += " " + f.adjudicatarios.join(" ");
+        f._buscable = normalizarBusquedaContratos(text);
+      }
+      // TODAS las palabras deben aparecer en algún lugar del texto buscable
+      return contractSearchTerms.every(function(p){ return f._buscable.indexOf(p) !== -1; });
     });
   }
 
-  if (filtered.length === 0 && (currentFilter !== "todos" || contractSearchQuery)) {
+  if (filtered.length === 0 && (currentFilter !== "todos" || contractSearchTerms.length > 0)) {
     container.innerHTML = '<div style="text-align:center;padding:2rem;color:#5a5a72;font-style:italic">Sin resultados. <a href="#" onclick="window.setFilter(\'todos\');document.querySelector(\'#contract-search\').value=\'\';window.searchContracts(\'\');return false" style="color:#2a9d8f">Ver todas</a></div>';
     return;
   }

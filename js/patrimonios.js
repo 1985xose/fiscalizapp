@@ -416,9 +416,11 @@ function renderTarjeta(p, m, pos) {
 
   const partidoKey = partidoNormalizado(p.partido);
   const nombreLower = p.nombre.toLowerCase();
+  // Normalizado para buscador: sin tildes ni ñ → así "feijoo" encuentra "Feijóo"
+  const nombreBuscable = nombreLower.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 
   return `
-    <article class="politico-card" data-id="${p.id}" data-partido="${partidoKey}" data-nombre="${nombreLower}">
+    <article class="politico-card" data-id="${p.id}" data-partido="${partidoKey}" data-nombre="${nombreLower}" data-buscable="${nombreBuscable} ${partidoKey}">
       <header onclick="toggleFicha('${p.id}')">
         ${pos ? `<span class="posicion">#${pos}</span>` : ''}
         <div class="card-titulo">
@@ -809,15 +811,21 @@ function filtrarPorPartido(p) {
 
 function filtrarPatrimonios() {
   const inputBusqueda = document.getElementById('pat-buscador');
-  const query = inputBusqueda ? inputBusqueda.value.trim().toLowerCase() : '';
+  const rawQuery = inputBusqueda ? inputBusqueda.value : '';
+  // Normaliza tildes y ñ para que "abalos" encuentre "Ábalos", "feijoo" encuentre "Feijóo"
+  const query = rawQuery.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+  const terms = query.split(/\s+/).filter(p => p.length > 0);
+
   const cards = document.querySelectorAll('.politico-card');
   let visibles = 0;
   cards.forEach(card => {
-    const nombre = card.dataset.nombre || '';
+    // El atributo data-buscable contiene nombre sin tildes + clave de partido normalizada
+    const buscable = card.dataset.buscable || (card.dataset.nombre || '');
     const partido = card.dataset.partido || '';
-    const matchNombre = !query || nombre.includes(query);
+    // Multi-palabra AND: cada palabra debe aparecer en algún sitio del texto buscable
+    const matchBusqueda = terms.length === 0 || terms.every(t => buscable.includes(t));
     const matchPartido = FILTRO_PARTIDO === 'todos' || partido === FILTRO_PARTIDO;
-    const visible = matchNombre && matchPartido;
+    const visible = matchBusqueda && matchPartido;
     card.style.display = visible ? '' : 'none';
     if (visible) visibles++;
   });
