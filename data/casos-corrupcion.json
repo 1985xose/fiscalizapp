@@ -1,9 +1,9 @@
 {
   "meta": {
-    "version": "3.0.0",
+    "version": "3.1.0",
     "actualizado": "2026-05-20",
-    "total_casos": 21,
-    "nota": "Datos verificados con fuentes a mayo de 2026. FiscalizApp no es un medio: enlazamos fuentes para que cada ciudadano juzgue. v3.0.0: revisión completa de casos existentes, casos archivados sin condena retirados según política editorial.",
+    "total_casos": 25,
+    "nota": "Datos verificados con fuentes a mayo de 2026. FiscalizApp no es un medio: enlazamos fuentes para que cada ciudadano juzgue. v3.1.0: añadidos 4 casos históricos del PSOE pre-2000 (Roldán, Juan Guerra, Urralburu, Fondos Reservados).",
     "chascarrillos": [
       "Si la corrupción fuera deporte olímpico, España iría sobrada de medallas.",
       "«No tengo nada que ocultar» — frase que precede al 90% de las imputaciones.",
@@ -915,6 +915,198 @@
         {
           "fecha": "1998-12-15",
           "evento": "Felipe González declara como testigo en el Supremo. Mantiene no haber tenido conocimiento de la trama"
+        }
+      ]
+    },
+    {
+      "id": "roldan",
+      "nombre": "Caso Roldán",
+      "partido": "PSOE",
+      "emoji": "🚔",
+      "protagonistas": [
+        "Luis Roldán (ex director Guardia Civil)",
+        "Francisco Paesa (espía, gestor de la fuga)",
+        "Juan Alberto Belloch (ministro Justicia e Interior)"
+      ],
+      "descripcion": "El primer alto cargo condenado por corrupción en democracia. Luis Roldán fue el primer civil al frente de la Guardia Civil (1986-1993) bajo Felipe González. Diario 16 destapó que su sueldo no encajaba con un patrimonio de 10M€ en cuatro viviendas. Saqueó fondos reservados, cobró comisiones por contratos de cuarteles y defraudó a Hacienda. Huyó en 1994 y fue capturado en Laos en 1995 tras una de las fugas más mediáticas de la democracia, orquestada por el espía Paesa. Cumplió 15 años de prisión y nunca devolvió el dinero robado.",
+      "juzgado": "Audiencia Provincial de Madrid / Tribunal Supremo",
+      "juez": "Varios",
+      "estado": "sentencia",
+      "importe_estimado": 10000000,
+      "fecha_inicio": "1993-11",
+      "timeline": [
+        {
+          "fecha": "1993-11-29",
+          "evento": "Diario 16 destapa que el sueldo de Roldán (3.600€/mes) no encaja con su patrimonio millonario (cuatro viviendas, propiedades rurales por 10M€)"
+        },
+        {
+          "fecha": "1993-12-02",
+          "evento": "Felipe González cesa a Roldán como director de la Guardia Civil. Imputado por enriquecimiento ilícito"
+        },
+        {
+          "fecha": "1994-04-29",
+          "evento": "FUGA: Roldán desaparece antes de que el juez le retire el pasaporte. Comienzan dos años en paradero desconocido"
+        },
+        {
+          "fecha": "1995-02-27",
+          "evento": "Capturado en Bangkok (Tailandia) y trasladado a España. Los 'papeles de Laos' que circulaban resultaron ser una invención del espía Paesa"
+        },
+        {
+          "fecha": "1995-03-01",
+          "evento": "Ingresa en la prisión de Brieva (Ávila), módulo especial aislado custodiado por la Policía"
+        },
+        {
+          "fecha": "1998-02-25",
+          "evento": "La Audiencia Provincial de Madrid lo condena a 28 años de prisión por cohecho, malversación, estafa y delitos contra Hacienda",
+          "fuente": "https://elcierredigital.com/investigacion/dia-que-condenaron-luis-roldan-exjefe-guardia-civil"
+        },
+        {
+          "fecha": "1998-09-07",
+          "evento": "Audiencia de Navarra le impone 3 años adicionales por el caso Urralburu (trama navarra)"
+        },
+        {
+          "fecha": "1999",
+          "evento": "El Tribunal Supremo eleva la pena a 31 años de prisión"
+        },
+        {
+          "fecha": "2010-03-19",
+          "evento": "Sale en libertad de la prisión de Zuera (Zaragoza) tras 15 años encarcelado. Solo se recuperaron 1,6M€ — el grueso de los 10M€ sigue sin localizar"
+        },
+        {
+          "fecha": "2022-03-24",
+          "evento": "Roldán fallece en el Hospital San Juan de Dios de Zaragoza a los 78 años"
+        }
+      ]
+    },
+    {
+      "id": "juan-guerra",
+      "nombre": "Caso Juan Guerra",
+      "partido": "PSOE",
+      "emoji": "☕",
+      "protagonistas": [
+        "Juan Guerra (hermano del vicepresidente)",
+        "Alfonso Guerra (vicepresidente del Gobierno)"
+      ],
+      "descripcion": "Los 'cafelitos' que tumbaron al vicepresidente. Juan Guerra, hermano de Alfonso Guerra (nº2 de Felipe González), utilizaba un despacho oficial en la Delegación del Gobierno en Sevilla para recibir empresarios y cobrar por gestionar contactos. Cobraba un sueldo público de 129.370 pesetas como asistente, pero amasó un patrimonio millonario con un centenar de sociedades inmobiliarias. Imputado por cohecho, fraude fiscal, prevaricación, malversación y usurpación de funciones, fue absuelto en la mayoría de causas pero condenado por fraude a Hacienda. Alfonso Guerra dimitió como vicepresidente el 12 de enero de 1991.",
+      "juzgado": "Tribunal Supremo / Audiencia Provincial de Sevilla",
+      "juez": "Varios",
+      "estado": "sentencia",
+      "importe_estimado": null,
+      "fecha_inicio": "1990-01",
+      "timeline": [
+        {
+          "fecha": "1990-01-25",
+          "evento": "El diario El Independiente publica los negocios privados de Juan Guerra desde su despacho oficial de la Delegación del Gobierno en Sevilla. Estalla el escándalo de 'los cafelitos'"
+        },
+        {
+          "fecha": "1990-02",
+          "evento": "Comparecencia parlamentaria. Alfonso Guerra niega conocer los negocios de su hermano. La oposición pide su dimisión"
+        },
+        {
+          "fecha": "1991-01-12",
+          "evento": "DIMISIÓN: Alfonso Guerra anuncia su renuncia como vicepresidente del Gobierno en el congreso del PSOE de Extremadura. Felipe González designa a Narcís Serra el 11 de marzo",
+          "fuente": "https://lahemerotecadelbuitre.com/piezas/dimision-de-alfonso-guerra-como-vicepresidente-del-gobierno/"
+        },
+        {
+          "fecha": "1991",
+          "evento": "Juan Guerra se da de baja del PSOE. Comienza un periplo de juicios que se prolongará hasta 1995"
+        },
+        {
+          "fecha": "1995",
+          "evento": "SENTENCIA: condenado por fraude fiscal. Absuelto de cohecho, prevaricación, malversación y usurpación de funciones tras siete juicios",
+          "fuente": "https://es.wikipedia.org/wiki/Caso_Guerra"
+        }
+      ]
+    },
+    {
+      "id": "urralburu",
+      "nombre": "Caso Urralburu / Trama navarra",
+      "partido": "PSOE",
+      "emoji": "🛣️",
+      "protagonistas": [
+        "Gabriel Urralburu (expresidente de Navarra, ex secretario general PSN-PSOE)",
+        "Antonio Aragón (ex consejero de Obras Públicas)",
+        "Luis Roldán (conexión con la trama)",
+        "Jorge Esparza (testaferro, ex directivo de Huarte)"
+      ],
+      "descripcion": "El primer presidente autonómico condenado por corrupción en democracia. Urralburu, presidente de Navarra (1984-1991) y secretario general del PSN-PSOE, montó con su consejero de Obras Públicas Antonio Aragón una trama paralela a la de Roldán: comisiones a cambio de adjudicaciones. Diario 16 destapó el caso en abril de 1994. Ocho constructoras (Huarte, Agromán, Obrascón, Laín, Aldesa, FOCSA, Cubiertas, MZOV) pagaron al menos 770 millones de pesetas en comisiones ilegales.",
+      "juzgado": "Audiencia Provincial de Navarra / Tribunal Supremo",
+      "juez": "Varios",
+      "estado": "sentencia",
+      "importe_estimado": 4600000,
+      "fecha_inicio": "1994-04",
+      "timeline": [
+        {
+          "fecha": "1994-04",
+          "evento": "Diario 16 destapa la trama: en la contabilidad suiza de Roldán aparecen las siglas L.R., G.U. y A.A. (Roldán, Urralburu y Aragón) con cantidades millonarias"
+        },
+        {
+          "fecha": "1994-06",
+          "evento": "Urralburu renuncia a su reelección como secretario general del PSN-PSOE. Cede el cargo a Javier Otano"
+        },
+        {
+          "fecha": "1995-11",
+          "evento": "Expulsión del PSOE"
+        },
+        {
+          "fecha": "1998-09-07",
+          "evento": "SENTENCIA Audiencia de Navarra: Urralburu condenado a 11 años de cárcel y 780M ptas (~4,7M€) de multa por cohecho continuado y dos delitos de fraude a la Hacienda Foral. Aragón a 7 años, Esparza a 4, Roldán a 3",
+          "fuente": "https://www.eldiario.es/navarra/25-anos-condena-socialista-urralburu-primer-presidente-autonomico-encarcelado-cobro-comisiones_1_10494636.html"
+        },
+        {
+          "fecha": "2001-03",
+          "evento": "El Tribunal Supremo (ponente Conde Pumpido) revisa y rebaja las condenas a Urralburu y Aragón a 4 años de cárcel cada uno"
+        },
+        {
+          "fecha": "1996",
+          "evento": "Su sucesor en la presidencia, Javier Otano, también del PSOE, dimite tras menos de un año en el cargo cuando se le descubre una cuenta suiza vinculada al caso Roldán"
+        }
+      ]
+    },
+    {
+      "id": "fondos-reservados",
+      "nombre": "Caso de los Fondos Reservados",
+      "partido": "PSOE",
+      "emoji": "💼",
+      "protagonistas": [
+        "Rafael Vera (ex secretario de Estado para la Seguridad)",
+        "Julián Sancristóbal (ex director de Seguridad del Estado)",
+        "Francisco Álvarez (ex jefe de la Lucha Antiterrorista)",
+        "José Barrionuevo (ex ministro Interior, absuelto)",
+        "José Luis Corcuera (ex ministro Interior, absuelto)"
+      ],
+      "descripcion": "Desvío de fondos reservados del Ministerio del Interior para enriquecimiento personal y sobresueldos a altos cargos. Las partidas, destinadas oficialmente a lucha antiterrorista, fueron utilizadas para uso privado entre 1987 y 1993. Causa abierta en 1994 tras denuncia de Federico Trillo (PP). Los exministros Barrionuevo y Corcuera fueron absueltos al no acreditarse enriquecimiento personal, pero Vera fue condenado por malversar 'cantidades importantísimas'.",
+      "juzgado": "Audiencia Provincial de Madrid / Tribunal Supremo",
+      "juez": "Varios",
+      "estado": "sentencia",
+      "importe_estimado": 5000000,
+      "fecha_inicio": "1994",
+      "timeline": [
+        {
+          "fecha": "1994",
+          "evento": "Federico Trillo (diputado del PP) denuncia ante el juzgado de guardia el desvío de fondos reservados del Ministerio del Interior"
+        },
+        {
+          "fecha": "2002",
+          "evento": "Audiencia Provincial de Madrid: absuelve a Barrionuevo y Corcuera (sin enriquecimiento personal), condena a Vera, Sancristóbal y otros"
+        },
+        {
+          "fecha": "2004-10-19",
+          "evento": "SENTENCIA del Tribunal Supremo: confirma la condena a Rafael Vera a 7 años de prisión y 18 de inhabilitación por malversación continuada. Considera probado que se lucró personalmente 'en cantidades importantísimas'",
+          "fuente": "https://es.wikipedia.org/wiki/Rafael_Vera"
+        },
+        {
+          "fecha": "2005-02",
+          "evento": "El Supremo confirma penas a Julián Sancristóbal (4 años), Francisco Álvarez (11 meses) e Iñaki López Rodríguez (10 meses). PSOE expulsa a Vera y a Rodríguez Colorado"
+        },
+        {
+          "fecha": "2007",
+          "evento": "Vera vuelve a ser condenado en el 'caso de los maletines': 1,5 años más por desviar 206M ptas de fondos reservados para pagar a los expolicías Amedo y Domínguez y garantizar su silencio sobre los GAL",
+          "fuente": "https://lahemerotecadelbuitre.com/piezas/caso-fondos-reservados-la-audiencia-absuelve-a-los-ex-ministros-barrionuevo-y-corcuera-pero-machaca-a-rafael-vera/"
+        },
+        {
+          "fecha": "2010-01",
+          "evento": "El Tribunal Europeo de Derechos Humanos rechaza por 4 votos contra 3 los recursos de Vera"
         }
       ]
     }
