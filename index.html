@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FiscalizApp — Fiscalización ciudadana del poder</title>
+<meta name="description" content="Herramienta ciudadana para fiscalizar contratos públicos, subvenciones y casos de corrupción en España.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg-deep: #0b0b1a;
+  --bg-card: #131328;
+  --bg-surface: #1a1a35;
+  --text-primary: #e2e2e8;
+  --text-secondary: #8e8ea0;
+  --text-muted: #5a5a72;
+  --accent-red: #e63946;
+  --accent-blue: #457b9d;
+  --accent-amber: #e9c46a;
+  --accent-green: #2a9d8f;
+  --accent-purple: #7b5ea7;
+  --accent-orange: #f4a261;
+  --border-subtle: rgba(255,255,255,0.06);
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Source Serif 4', Georgia, serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+body {
+  background: var(--bg-deep);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* HEADER */
+.header {
+  background: linear-gradient(135deg, #1a0005 0%, var(--bg-deep) 50%, #001a1a 100%);
+  border-bottom: 1px solid var(--border-subtle);
+  padding: 2rem 1.5rem 1.5rem;
+}
+.header-inner { max-width: 960px; margin: 0 auto; }
+.live-badge {
+  display: inline-flex; align-items: center; gap: 6px;
+  margin-bottom: 8px;
+}
+.live-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--accent-red);
+  animation: pulse 2s infinite;
+}
+.live-text {
+  font-family: var(--font-mono); font-size: 10px;
+  color: var(--accent-red); text-transform: uppercase;
+  letter-spacing: 0.2em; font-weight: 600;
+}
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+
+h1 {
+  font-family: var(--font-display); font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 900; letter-spacing: -0.03em; line-height: 1.1;
+  background: linear-gradient(135deg, var(--text-primary), var(--text-secondary));
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  margin-bottom: 6px;
+}
+.subtitle {
+  font-size: 15px; color: var(--text-secondary);
+  font-style: italic; margin-bottom: 1.25rem;
+}
+.chascarrillo-box {
+  background: rgba(255,255,255,0.03); border: 1px solid var(--border-subtle);
+  padding: 12px 16px; display: flex; align-items: center; gap: 12px;
+  border-radius: 2px;
+}
+.chascarrillo-text {
+  font-size: 13px; color: var(--text-secondary);
+  font-style: italic; transition: opacity 0.5s;
+}
+
+/* STATS */
+.stats {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 12px; margin-bottom: 2rem;
+}
+.stat-card {
+  background: var(--bg-card); padding: 16px; text-align: center;
+  border: 1px solid var(--border-subtle); border-radius: 2px;
+}
+.stat-icon { font-size: 22px; }
+.stat-value {
+  font-family: var(--font-display); font-size: 26px;
+  font-weight: 700; color: var(--text-primary); margin-top: 2px;
+}
+.stat-label {
+  font-family: var(--font-mono); font-size: 10px;
+  color: var(--text-muted); text-transform: uppercase;
+  letter-spacing: 0.1em; margin-top: 2px;
+}
+
+/* NAV TABS */
+.nav-tabs {
+  display: flex; gap: 0; margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-subtle);
+  overflow-x: auto;
+}
+.nav-tab {
+  background: none; border: none; padding: 10px 20px;
+  font-family: var(--font-mono); font-size: 12px;
+  color: var(--text-muted); cursor: pointer;
+  text-transform: uppercase; letter-spacing: 0.05em;
+  border-bottom: 2px solid transparent;
+  white-space: nowrap; transition: all 0.2s;
+}
+.nav-tab:hover { color: var(--text-secondary); }
+.nav-tab.active {
+  color: var(--accent-red);
+  border-bottom-color: var(--accent-red);
+}
+
+/* FILTERS */
+.filters {
+  display: flex; flex-wrap: wrap; gap: 8px;
+  margin-bottom: 1.5rem; align-items: center;
+}
+.filter-btn {
+  background: rgba(255,255,255,0.04); border: 1px solid var(--border-subtle);
+  color: var(--text-secondary); padding: 6px 14px; border-radius: 2px;
+  font-family: var(--font-mono); font-size: 11px; cursor: pointer;
+  text-transform: uppercase; letter-spacing: 0.05em; transition: all 0.2s;
+}
+.filter-btn:hover { border-color: rgba(255,255,255,0.15); color: var(--text-primary); }
+.filter-btn.active { background: var(--accent-red); border-color: var(--accent-red); color: #fff; }
+
+.filter-count {
+  font-family: var(--font-mono); font-size: 12px;
+  color: var(--text-muted); margin-left: auto;
+}
+
+/* CASE CARDS */
+.case-card {
+  background: var(--bg-card); border-left: 4px solid var(--accent-blue);
+  border-radius: 2px; padding: 20px 24px; margin-bottom: 14px;
+  cursor: pointer; transition: all 0.15s; position: relative; overflow: hidden;
+}
+.case-card:hover { background: var(--bg-surface); }
+.case-card[data-partido="PSOE"] { border-left-color: var(--accent-red); }
+.case-card[data-partido="PP"] { border-left-color: var(--accent-blue); }
+.case-card[data-partido="Podemos"] { border-left-color: var(--accent-purple); }
+.case-card[data-partido="CDC/PDeCAT"], .case-card[data-partido="CDC/CiU"] { border-left-color: var(--accent-amber); }
+
+.case-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 10px; }
+.case-title-area { display: flex; align-items: center; gap: 12px; flex: 1; }
+.case-emoji { font-size: 26px; flex-shrink: 0; }
+.case-name {
+  font-family: var(--font-display); font-size: 18px;
+  font-weight: 700; color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+.case-party {
+  font-family: var(--font-mono); font-size: 10px;
+  color: var(--text-muted); text-transform: uppercase;
+  letter-spacing: 0.1em; margin-top: 2px;
+}
+.case-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+.case-tag {
+  font-family: var(--font-mono); font-size: 10px;
+  background: rgba(255,255,255,0.04); color: var(--text-muted);
+  padding: 2px 8px; border-radius: 2px;
+}
+
+/* BADGES */
+.badge {
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 4px 10px; border-radius: 2px;
+  font-family: var(--font-mono); font-size: 11px;
+  font-weight: 600; white-space: nowrap; flex-shrink: 0;
+}
+.badge-instruccion { background: #fef3c7; color: #92400e; }
+.badge-sentencia { background: #fce7f3; color: #9d174d; }
+.badge-juicio_oral { background: #dbeafe; color: #1e40af; }
+.badge-diligencias { background: #e0e7ff; color: #3730a3; }
+.badge-archivado { background: #f3f4f6; color: #374151; }
+
+.case-desc {
+  font-size: 14px; color: var(--text-secondary);
+  line-height: 1.65; margin-bottom: 0;
+}
+
+/* EXPANDED DETAILS */
+.case-details {
+  display: none; margin-top: 16px; padding-top: 16px;
+  border-top: 1px solid var(--border-subtle);
+  animation: fadeIn 0.3s ease;
+}
+.case-card.expanded .case-details { display: block; }
+@keyframes fadeIn { from { opacity:0; transform:translateY(-6px); } to { opacity:1; transform:translateY(0); } }
+
+.detail-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 12px;
+  margin-bottom: 16px;
+}
+.detail-box {
+  background: rgba(255,255,255,0.02); padding: 12px; border-radius: 2px;
+}
+.detail-label {
+  font-family: var(--font-mono); font-size: 10px;
+  color: var(--text-muted); text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.detail-value {
+  color: var(--text-secondary); font-size: 13px; margin-top: 4px;
+}
+
+/* TIMELINE */
+.timeline { position: relative; padding-left: 20px; }
+.timeline::before {
+  content: ''; position: absolute; left: 4px; top: 6px; bottom: 6px;
+  width: 1px; background: var(--border-subtle);
+}
+.timeline-item { position: relative; padding-bottom: 14px; }
+.timeline-item:last-child { padding-bottom: 0; }
+.timeline-item::before {
+  content: ''; position: absolute; left: -20px; top: 6px;
+  width: 9px; height: 9px; border-radius: 50%;
+  background: var(--bg-surface); border: 2px solid var(--text-muted);
+}
+.timeline-item:first-child::before { border-color: var(--accent-red); background: var(--accent-red); }
+.timeline-date {
+  font-family: var(--font-mono); font-size: 11px;
+  color: var(--text-muted);
+}
+.timeline-text { font-size: 13px; color: var(--text-secondary); margin-top: 2px; }
+
+.expand-hint {
+  text-align: right; margin-top: 10px;
+  font-family: var(--font-mono); font-size: 11px; color: var(--text-muted);
+}
+
+/* IMPORTE */
+.case-importe {
+  font-family: var(--font-mono); font-size: 13px;
+  color: var(--accent-amber); font-weight: 600;
+  margin-top: 8px;
+}
+
+/* MAIN */
+.main { max-width: 960px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+/* FOOTER */
+.footer {
+  text-align: center; padding: 2.5rem 1.5rem 1.5rem;
+  border-top: 1px solid var(--border-subtle); margin-top: 2rem;
+}
+.footer p {
+  font-family: var(--font-mono); font-size: 11px; color: var(--text-muted);
+  margin-bottom: 4px;
+}
+.footer .credit { color: var(--text-secondary); margin-top: 8px; }
+.footer a { color: var(--accent-green); text-decoration: none; }
+
+/* SECTION PLACEHOLDER */
+.section-placeholder {
+  background: var(--bg-card); border: 1px dashed var(--border-subtle);
+  border-radius: 2px; padding: 3rem 2rem; text-align: center;
+}
+.section-placeholder h3 {
+  font-family: var(--font-display); font-size: 20px;
+  margin-bottom: 8px;
+}
+.section-placeholder p { color: var(--text-secondary); font-size: 14px; }
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .detail-grid { grid-template-columns: 1fr; }
+  .case-header { flex-direction: column; }
+  .badge { align-self: flex-start; }
+  .stats { grid-template-columns: repeat(2, 1fr); }
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <div class="live-badge">
+      <span class="live-dot"></span>
+      <span class="live-text">Fiscalización ciudadana</span>
+    </div>
+    <h1>FiscalizApp</h1>
+    <p class="subtitle">Porque alguien tiene que llevar la cuenta — y ahora puedes ser tú</p>
+    <div class="chascarrillo-box">
+      <span>🫠</span>
+      <span class="chascarrillo-text" id="chascarrillo"></span>
+    </div>
+  </div>
+</header>
+
+<main class="main">
+  <!-- TABS -->
+  <nav class="nav-tabs">
+    <button class="nav-tab active" data-section="corrupcion">Casos de corrupción</button>
+    <button class="nav-tab" data-section="contratos">Contratos públicos</button>
+    <button class="nav-tab" data-section="subvenciones">Subvenciones</button>
+  </nav>
+
+  <!-- SECCIÓN: CORRUPCIÓN -->
+  <section id="sec-corrupcion">
+    <div class="stats" id="stats"></div>
+    <div class="filters" id="filters"></div>
+    <div id="cases-container"></div>
+  </section>
+
+  <!-- SECCIÓN: CONTRATOS (placeholder) -->
+  <section id="sec-contratos" style="display:none">
+    <div class="section-placeholder">
+      <h3>🏗️ Contratos públicos</h3>
+      <p>Próximamente: datos de la PLACSP con detección automática de banderas rojas.<br>
+      Contratos a dedo, fraccionamientos y concentración de adjudicaciones.</p>
+    </div>
+  </section>
+
+  <!-- SECCIÓN: SUBVENCIONES (placeholder) -->
+  <section id="sec-subvenciones" style="display:none">
+    <div class="section-placeholder">
+      <h3>💰 Subvenciones</h3>
+      <p>Próximamente: datos de la BDNS.<br>
+      Quién recibe dinero público, cuánto y para qué.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>FISCALIZAPP v1.0 — Datos judiciales públicos — Código abierto</p>
+  <p>«La transparencia no es un favor del poder, es un derecho del ciudadano»</p>
+  <p class="credit">Desarrollado por <a href="https://github.com/1985xose" target="_blank">Xosé Fernández</a> — Gijón, Asturias</p>
+</footer>
+
+<script>
+const CHASCARRILLOS = [
+  "Si la corrupción fuera deporte olímpico, España iría sobrada de medallas.",
+  "«No tengo nada que ocultar» — frase que precede al 90% de las imputaciones.",
+  "Instrucción es la forma elegante de decir 'esto huele pero aún no han encontrado el queso'.",
+  "Más tramas que una serie de Netflix, pero con peor guión.",
+  "En España, la presunción de inocencia aguanta lo que le eches… hasta que no.",
+  "Si conectas los hilos de todos los casos, te sale un jersey.",
+  "Nivel de transparencia: cristal de baño.",
+  "Esto tiene más capítulos que Cuéntame.",
+  "La caja B es como el bote de las chuches: todos saben dónde está pero nadie la ha visto.",
+  "No es bulo si tiene auto del juez.",
+  "El bingo de la corrupción: si te tocan tres investigados, grita ¡línea!",
+  "Un país donde 'aforado' no es un tipo de queso.",
+  "Aquí no dimite ni el apuntador.",
+  "Fondos reservados: el eufemismo favorito del poder.",
+  "Cuando el río suena, agua lleva. Y comisiones.",
+  "Cualquier parecido con la realidad es deliberado.",
+];
+
+const ESTADO_LABELS = {
+  instruccion: { text: "🔍 En instrucción", class: "badge-instruccion" },
+  sentencia: { text: "⚖️ Sentencia", class: "badge-sentencia" },
+  juicio_oral: { text: "🏛️ Juicio oral", class: "badge-juicio_oral" },
+  diligencias: { text: "📋 Diligencias previas", class: "badge-diligencias" },
+  archivado: { text: "📦 Archivado", class: "badge-archivado" },
+};
+
+const PARTIDOS_COLORES = {
+  "PSOE": "var(--accent-red)",
+  "PP": "var(--accent-blue)",
+  "Podemos": "var(--accent-purple)",
+  "CDC/PDeCAT": "var(--accent-amber)",
+  "CDC/CiU": "var(--accent-amber)",
+};
+
+let casosData = [];
+let filtroActual = "todos";
+
+// Chascarrillos
+function rotarChascarrillo() {
+  const el = document.getElementById("chascarrillo");
+  el.style.opacity = 0;
+  setTimeout(() => {
+    el.textContent = CHASCARRILLOS[Math.floor(Math.random() * CHASCARRILLOS.length)];
+    el.style.opacity = 1;
+  }, 400);
+}
+rotarChascarrillo();
+setInterval(rotarChascarrillo, 10000);
+
+// Tabs
+document.querySelectorAll(".nav-tab").forEach(tab => {
+  tab.addEventListener("click", () => {
+    document.querySelectorAll(".nav-tab").forEach(t => t.classList.remove("active"));
+    tab.classList.add("active");
+    document.querySelectorAll("main > section").forEach(s => s.style.display = "none");
+    document.getElementById("sec-" + tab.dataset.section).style.display = "block";
+  });
+});
+
+function formatImporte(n) {
+  if (!n) return null;
+  if (n >= 1000000) return (n / 1000000).toFixed(0) + "M€";
+  if (n >= 1000) return (n / 1000).toFixed(0) + "K€";
+  return n + "€";
+}
+
+function renderStats(casos) {
+  const total = casos.length;
+  const instruccion = casos.filter(c => c.estado === "instruccion").length;
+  const partidos = [...new Set(casos.map(c => c.partido))].length;
+  const totalImporte = casos.reduce((s, c) => s + (c.importe_estimado || 0), 0);
+
+  document.getElementById("stats").innerHTML = [
+    { icon: "📂", value: total, label: "Casos totales" },
+    { icon: "🔍", value: instruccion, label: "En instrucción" },
+    { icon: "🏛️", value: partidos, label: "Partidos" },
+    { icon: "💰", value: formatImporte(totalImporte), label: "Importe estimado" },
+  ].map(s => `
+    <div class="stat-card">
+      <div class="stat-icon">${s.icon}</div>
+      <div class="stat-value">${s.value}</div>
+      <div class="stat-label">${s.label}</div>
+    </div>
+  `).join("");
+}
+
+function renderFilters(casos) {
+  const partidos = [...new Set(casos.map(c => c.partido))];
+  const estados = [...new Set(casos.map(c => c.estado))];
+  
+  let html = `<button class="filter-btn active" data-filter="todos">Todos</button>`;
+  partidos.forEach(p => {
+    const count = casos.filter(c => c.partido === p).length;
+    html += `<button class="filter-btn" data-filter="partido:${p}">${p} (${count})</button>`;
+  });
+  html += `<button class="filter-btn" data-filter="estado:instruccion">En instrucción</button>`;
+  html += `<button class="filter-btn" data-filter="estado:juicio_oral">Juicio oral</button>`;
+  html += `<button class="filter-btn" data-filter="estado:sentencia">Con sentencia</button>`;
+  html += `<span class="filter-count" id="filter-count"></span>`;
+  
+  document.getElementById("filters").innerHTML = html;
+  
+  document.querySelectorAll(".filter-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      filtroActual = btn.dataset.filter;
+      renderCases(casosData);
+    });
+  });
+}
+
+function renderCases(casos) {
+  let filtered = casos;
+  if (filtroActual.startsWith("partido:")) {
+    filtered = casos.filter(c => c.partido === filtroActual.split(":")[1]);
+  } else if (filtroActual.startsWith("estado:")) {
+    filtered = casos.filter(c => c.estado === filtroActual.split(":")[1]);
+  }
+
+  document.getElementById("filter-count").textContent = filtered.length + " de " + casos.length;
+
+  const container = document.getElementById("cases-container");
+  container.innerHTML = filtered.map(c => {
+    const estado = ESTADO_LABELS[c.estado] || ESTADO_LABELS.instruccion;
+    const importe = formatImporte(c.importe_estimado);
+    const timeline = (c.timeline || []).slice().reverse();
+
+    return `
+      <div class="case-card" data-partido="${c.partido}" onclick="this.classList.toggle('expanded')">
+        <div class="case-header">
+          <div class="case-title-area">
+            <span class="case-emoji">${c.emoji}</span>
+            <div>
+              <div class="case-name">${c.nombre}</div>
+              <div class="case-party">${c.partido}</div>
+              <div class="case-tags">
+                ${c.protagonistas.map(p => `<span class="case-tag">${p}</span>`).join("")}
+              </div>
+            </div>
+          </div>
+          <span class="badge ${estado.class}">${estado.text}</span>
+        </div>
+        <p class="case-desc">${c.descripcion}</p>
+        ${importe ? `<div class="case-importe">Importe estimado: ${importe}</div>` : ""}
+        <div class="case-details">
+          <div class="detail-grid">
+            <div class="detail-box">
+              <div class="detail-label">Juzgado</div>
+              <div class="detail-value">${c.juzgado}</div>
+            </div>
+            <div class="detail-box">
+              <div class="detail-label">Juez</div>
+              <div class="detail-value">${c.juez}</div>
+            </div>
+          </div>
+          ${timeline.length ? `
+            <div class="detail-label" style="margin-bottom:10px">Cronología</div>
+            <div class="timeline">
+              ${timeline.map(t => `
+                <div class="timeline-item">
+                  <span class="timeline-date">${t.fecha}</span>
+                  <div class="timeline-text">${t.evento}</div>
+                </div>
+              `).join("")}
+            </div>
+          ` : ""}
+        </div>
+        <div class="expand-hint">${"▼ Detalles y cronología"}</div>
+      </div>
+    `;
+  }).join("");
+}
+
+// INIT
+fetch("data/casos-corrupcion.json")
+  .then(r => r.json())
+  .then(data => {
+    casosData = data.casos;
+    renderStats(casosData);
+    renderFilters(casosData);
+    renderCases(casosData);
+  })
+  .catch(err => {
+    document.getElementById("cases-container").innerHTML = `
+      <div class="section-placeholder">
+        <h3>Error cargando datos</h3>
+        <p>${err.message}</p>
+      </div>
+    `;
+  });
+</script>
+</body>
+</html>

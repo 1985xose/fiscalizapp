@@ -1,0 +1,379 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "actualizado": "2026-05-20",
+    "total_casos": 20,
+    "nota": "Datos de fuentes judiciales públicas. Actualización manual."
+  },
+  "casos": [
+    {
+      "id": "begona-gomez",
+      "nombre": "Caso Begoña Gómez",
+      "partido": "PSOE",
+      "emoji": "👜",
+      "protagonistas": ["Begoña Gómez", "Pedro Sánchez"],
+      "descripcion": "Investigación por tráfico de influencias, corrupción en los negocios y apropiación indebida. Cátedra en la Complutense, software con Indra/Telefónica, cartas de recomendación desde Moncloa.",
+      "juzgado": "Juzgado de Instrucción nº 41 de Madrid",
+      "juez": "Juan Carlos Peinado",
+      "estado": "instruccion",
+      "importe_estimado": null,
+      "fecha_inicio": "2024-04",
+      "timeline": [
+        {"fecha": "2024-04-16", "evento": "Se abre investigación tras denuncia de Manos Limpias"},
+        {"fecha": "2024-07-01", "evento": "Sánchez declara por escrito como testigo"},
+        {"fecha": "2024-10-29", "evento": "Begoña Gómez declara como investigada"},
+        {"fecha": "2025-01-15", "evento": "Se amplía investigación a contratos con Telefónica"},
+        {"fecha": "2025-07-07", "evento": "Auto de apertura de juicio oral"}
+      ]
+    },
+    {
+      "id": "koldo-mascarillas",
+      "nombre": "Caso Koldo / Mascarillas",
+      "partido": "PSOE",
+      "emoji": "😷",
+      "protagonistas": ["Koldo García", "José Luis Ábalos", "Víctor de Aldama"],
+      "descripcion": "Trama de comisiones en la compra de mascarillas durante el COVID por el Ministerio de Transportes. Mediación de Koldo García, asesor de Ábalos, con empresarios como Aldama.",
+      "juzgado": "Audiencia Nacional",
+      "juez": "Ismael Moreno",
+      "estado": "instruccion",
+      "importe_estimado": 53000000,
+      "fecha_inicio": "2024-02",
+      "timeline": [
+        {"fecha": "2024-02-20", "evento": "Operación Delorme: detención de Koldo García"},
+        {"fecha": "2024-03-15", "evento": "Ábalos renuncia a su escaño"},
+        {"fecha": "2024-10-15", "evento": "Aldama declara como investigado colaborador"},
+        {"fecha": "2025-03-20", "evento": "Se amplía investigación a nuevos contratos COVID"}
+      ]
+    },
+    {
+      "id": "aldama-hidrocarburos",
+      "nombre": "Caso Aldama / Hidrocarburos",
+      "partido": "PSOE",
+      "emoji": "⛽",
+      "protagonistas": ["Víctor de Aldama", "Claudio Rivas"],
+      "descripcion": "Fraude al IVA en comercio de hidrocarburos. Aldama como eje central de la trama, vinculado también al caso Koldo. Declaraciones implicando a cargos del PSOE.",
+      "juzgado": "Audiencia Nacional",
+      "juez": "Santiago Pedraz",
+      "estado": "instruccion",
+      "importe_estimado": 182000000,
+      "fecha_inicio": "2023-10",
+      "timeline": [
+        {"fecha": "2023-10-05", "evento": "Aldama entra en prisión por fraude de hidrocarburos"},
+        {"fecha": "2024-03-18", "evento": "Sale de prisión con medidas cautelares"},
+        {"fecha": "2024-11-21", "evento": "Aldama declara ante el juez e implica a Santos Cerdán y Ángel Víctor Torres"},
+        {"fecha": "2025-02-10", "evento": "Se incorporan nuevas pruebas documentales"}
+      ]
+    },
+    {
+      "id": "david-sanchez",
+      "nombre": "Caso David Sánchez",
+      "partido": "PSOE",
+      "emoji": "🎵",
+      "protagonistas": ["David Sánchez Pérez-Castejón"],
+      "descripcion": "Investigación al hermano del presidente por su puesto en la Diputación de Badajoz como coordinador de actividades musicales. Presuntos delitos contra la Hacienda Pública y tráfico de influencias.",
+      "juzgado": "Juzgado de Instrucción nº 3 de Badajoz",
+      "juez": "Adolfo Domínguez",
+      "estado": "instruccion",
+      "importe_estimado": null,
+      "fecha_inicio": "2024-09",
+      "timeline": [
+        {"fecha": "2024-09-10", "evento": "Se admite a trámite querella del sindicato Manos Limpias"},
+        {"fecha": "2024-12-03", "evento": "Registro del domicilio de David Sánchez"},
+        {"fecha": "2025-04-15", "evento": "Declaración como investigado"}
+      ]
+    },
+    {
+      "id": "ere-andalucia",
+      "nombre": "Caso ERE de Andalucía",
+      "partido": "PSOE",
+      "emoji": "💸",
+      "protagonistas": ["Manuel Chaves", "José Antonio Griñán", "Magdalena Álvarez"],
+      "descripcion": "Mayor caso de corrupción institucional en España: 680M€ en ayudas irregulares a empresas y prejubilaciones sin control durante más de una década.",
+      "juzgado": "Tribunal Supremo / Tribunal Constitucional",
+      "juez": "Varios",
+      "estado": "sentencia",
+      "importe_estimado": 680000000,
+      "fecha_inicio": "2011-01",
+      "timeline": [
+        {"fecha": "2011-01-15", "evento": "Se abre la investigación judicial"},
+        {"fecha": "2019-11-19", "evento": "Sentencia de la Audiencia Provincial de Sevilla"},
+        {"fecha": "2022-07-26", "evento": "Tribunal Supremo confirma condenas"},
+        {"fecha": "2024-11-13", "evento": "TC anula parcialmente condena de Griñán por malversación"},
+        {"fecha": "2025-06-10", "evento": "Recursos pendientes en TC para otros condenados"}
+      ]
+    },
+    {
+      "id": "delcy-rodriguez",
+      "nombre": "Caso Delcy Rodríguez",
+      "partido": "PSOE",
+      "emoji": "✈️",
+      "protagonistas": ["José Luis Ábalos", "Delcy Rodríguez", "Koldo García"],
+      "descripcion": "Escala de la vicepresidenta venezolana (sancionada por la UE) en Barajas en enero 2020. Ábalos acudió al aeropuerto de madrugada.",
+      "juzgado": "Tribunal Supremo",
+      "juez": "Pendiente",
+      "estado": "diligencias",
+      "importe_estimado": null,
+      "fecha_inicio": "2020-01",
+      "timeline": [
+        {"fecha": "2020-01-20", "evento": "Escala de Delcy Rodríguez en Barajas"},
+        {"fecha": "2020-02-03", "evento": "Sale a la luz que Ábalos estuvo en el aeropuerto"},
+        {"fecha": "2024-12-10", "evento": "Fiscalía pide investigar a Ábalos por su aforamiento"}
+      ]
+    },
+    {
+      "id": "tito-berni",
+      "nombre": "Caso Tito Berni",
+      "partido": "PSOE",
+      "emoji": "🍽️",
+      "protagonistas": ["José Fernández (Tito Berni)", "Koldo García", "Víctor de Aldama"],
+      "descripcion": "Cenas, regalos y pagos a cargos del PSOE en el restaurante de Tito Berni. Nodo de conexión entre la trama Koldo-Aldama y altos cargos.",
+      "juzgado": "Audiencia Nacional",
+      "juez": "Ismael Moreno",
+      "estado": "instruccion",
+      "importe_estimado": null,
+      "fecha_inicio": "2024-02",
+      "timeline": [
+        {"fecha": "2024-02-20", "evento": "Implicado en la Operación Delorme"},
+        {"fecha": "2024-11-22", "evento": "Aldama lo menciona en su declaración"}
+      ]
+    },
+    {
+      "id": "gurtel",
+      "nombre": "Caso Gürtel",
+      "partido": "PP",
+      "emoji": "🎩",
+      "protagonistas": ["Francisco Correa", "Luis Bárcenas", "Álvaro Pérez (El Bigotes)", "Mariano Rajoy"],
+      "descripcion": "Trama de corrupción vinculada al PP: comisiones ilegales, financiación irregular, sobornos a cargos públicos. Provocó la moción de censura que sacó a Rajoy del poder.",
+      "juzgado": "Audiencia Nacional",
+      "juez": "José de la Mata",
+      "estado": "sentencia",
+      "importe_estimado": 120000000,
+      "fecha_inicio": "2009-02",
+      "timeline": [
+        {"fecha": "2009-02-06", "evento": "Operación Gürtel: detención de Correa"},
+        {"fecha": "2018-05-24", "evento": "Sentencia: PP condenado como partícipe a título lucrativo"},
+        {"fecha": "2018-06-01", "evento": "Moción de censura exitosa contra Rajoy"},
+        {"fecha": "2021-10-14", "evento": "Sentencia firme en segunda época de Gürtel"}
+      ]
+    },
+    {
+      "id": "barcenas",
+      "nombre": "Caso Bárcenas / Caja B del PP",
+      "partido": "PP",
+      "emoji": "📒",
+      "protagonistas": ["Luis Bárcenas", "Mariano Rajoy", "Dolores de Cospedal"],
+      "descripcion": "Contabilidad B del PP. Bárcenas gestionaba pagos en negro a dirigentes del partido. Los famosos 'papeles de Bárcenas' destaparon sobresueldos a la cúpula.",
+      "juzgado": "Audiencia Nacional",
+      "juez": "José de la Mata",
+      "estado": "sentencia",
+      "importe_estimado": null,
+      "fecha_inicio": "2013-01",
+      "timeline": [
+        {"fecha": "2013-01-31", "evento": "El País publica los papeles de Bárcenas"},
+        {"fecha": "2013-06-27", "evento": "Bárcenas entra en prisión preventiva"},
+        {"fecha": "2020-02-24", "evento": "Sentencia: Bárcenas condenado a 29 años por Gürtel"},
+        {"fecha": "2022-11-03", "evento": "Bárcenas obtiene tercer grado penitenciario"}
+      ]
+    },
+    {
+      "id": "kitchen",
+      "nombre": "Operación Kitchen",
+      "partido": "PP",
+      "emoji": "🔓",
+      "protagonistas": ["Jorge Fernández Díaz", "María Dolores de Cospedal", "Sergio Ríos"],
+      "descripcion": "Uso de fondos reservados del Ministerio del Interior para espiar a Bárcenas y robar documentación comprometedora para el PP. Policía patriótica.",
+      "juzgado": "Audiencia Nacional",
+      "juez": "Manuel García-Castellón",
+      "estado": "juicio_oral",
+      "importe_estimado": null,
+      "fecha_inicio": "2019-11",
+      "timeline": [
+        {"fecha": "2019-11-05", "evento": "Se abre investigación por uso de fondos reservados"},
+        {"fecha": "2021-05-04", "evento": "Villarejo implica a Cospedal y Fernández Díaz"},
+        {"fecha": "2023-10-30", "evento": "Cospedal declarada investigada"},
+        {"fecha": "2025-03-15", "evento": "Auto de apertura de juicio oral"}
+      ]
+    },
+    {
+      "id": "punica",
+      "nombre": "Operación Púnica",
+      "partido": "PP",
+      "emoji": "🏛️",
+      "protagonistas": ["Francisco Granados", "David Marjaliza", "Ignacio González"],
+      "descripcion": "Trama de corrupción en la Comunidad de Madrid: comisiones a cambio de adjudicaciones públicas, blanqueo de capitales. Afectó a ayuntamientos y diputaciones gobernados por el PP.",
+      "juzgado": "Audiencia Nacional",
+      "juez": "Manuel García-Castellón",
+      "estado": "juicio_oral",
+      "importe_estimado": 250000000,
+      "fecha_inicio": "2014-10",
+      "timeline": [
+        {"fecha": "2014-10-27", "evento": "Operación Púnica: 51 detenidos"},
+        {"fecha": "2015-04-22", "evento": "Ignacio González imputado"},
+        {"fecha": "2024-09-10", "evento": "Comienza juicio oral en la Audiencia Nacional"}
+      ]
+    },
+    {
+      "id": "lezo",
+      "nombre": "Operación Lezo",
+      "partido": "PP",
+      "emoji": "🏗️",
+      "protagonistas": ["Ignacio González", "Pablo González"],
+      "descripcion": "Sobornos y comisiones en el Canal de Isabel II de la Comunidad de Madrid. Adjudicaciones irregulares y blanqueo de capitales.",
+      "juzgado": "Audiencia Nacional",
+      "juez": "Manuel García-Castellón",
+      "estado": "juicio_oral",
+      "importe_estimado": 25000000,
+      "fecha_inicio": "2017-04",
+      "timeline": [
+        {"fecha": "2017-04-19", "evento": "Detención de Ignacio González"},
+        {"fecha": "2019-06-12", "evento": "Auto de apertura de juicio oral"},
+        {"fecha": "2024-10-21", "evento": "Se retoma el juicio tras recursos"}
+      ]
+    },
+    {
+      "id": "neurona",
+      "nombre": "Caso Neurona",
+      "partido": "Podemos",
+      "emoji": "🧠",
+      "protagonistas": ["Juan Carlos Monedero", "Podemos"],
+      "descripcion": "Investigación por presunta financiación irregular: contrato de consultoría con la empresa Neurona Comunidad para las elecciones de 2019 por 363.000€. Sospechas de facturación por servicios no prestados.",
+      "juzgado": "Juzgado de Instrucción nº 42 de Madrid",
+      "juez": "Juan Carlos Peinado",
+      "estado": "instruccion",
+      "importe_estimado": 363000,
+      "fecha_inicio": "2020-06",
+      "timeline": [
+        {"fecha": "2020-06-15", "evento": "Tribunal de Cuentas abre diligencias"},
+        {"fecha": "2021-03-10", "evento": "Se amplía investigación a más contratos"},
+        {"fecha": "2023-11-20", "evento": "Podemos absuelto en primer procedimiento"},
+        {"fecha": "2024-05-14", "evento": "Se reabren diligencias por nuevas pruebas"}
+      ]
+    },
+    {
+      "id": "dina-bousselham",
+      "nombre": "Caso Dina Bousselham",
+      "partido": "Podemos",
+      "emoji": "📱",
+      "protagonistas": ["Pablo Iglesias", "Dina Bousselham"],
+      "descripcion": "Robo y filtración de la tarjeta del móvil de Dina Bousselham, asesora de Iglesias. Iglesias recibió una copia de la tarjeta de Villarejo y tardó meses en entregarla al juzgado, con parte del contenido destruido.",
+      "juzgado": "Audiencia Provincial de Madrid",
+      "juez": "Varios",
+      "estado": "sentencia",
+      "importe_estimado": null,
+      "fecha_inicio": "2019-01",
+      "timeline": [
+        {"fecha": "2019-01-22", "evento": "Sale a la luz que Iglesias tenía la tarjeta"},
+        {"fecha": "2021-07-15", "evento": "Iglesias entrega la tarjeta al juzgado"},
+        {"fecha": "2024-02-20", "evento": "Archivado por prescripción y falta de pruebas"}
+      ]
+    },
+    {
+      "id": "caso-3-percent",
+      "nombre": "Caso 3% / CDC",
+      "partido": "CDC/PDeCAT",
+      "emoji": "🏴",
+      "protagonistas": ["Convergència Democràtica", "Germà Gordó", "David Madí"],
+      "descripcion": "Financiación ilegal de Convergència Democràtica de Catalunya mediante comisiones del 3% en obra pública adjudicada por la Generalitat.",
+      "juzgado": "Audiencia Provincial de Barcelona",
+      "juez": "Varios",
+      "estado": "juicio_oral",
+      "importe_estimado": null,
+      "fecha_inicio": "2015-06",
+      "timeline": [
+        {"fecha": "2015-06-02", "evento": "Operación Petrum: detenciones por comisiones en obra pública"},
+        {"fecha": "2017-11-20", "evento": "Gordó declara como investigado"},
+        {"fecha": "2024-04-08", "evento": "Comienza juicio oral"}
+      ]
+    },
+    {
+      "id": "palau",
+      "nombre": "Caso Palau de la Música",
+      "partido": "CDC/CiU",
+      "emoji": "🎶",
+      "protagonistas": ["Fèlix Millet", "Jordi Montull", "Convergència"],
+      "descripcion": "Expolio del Palau de la Música de Barcelona: desvío de 23M€ por Millet y Montull, parte destinada a financiar CDC.",
+      "juzgado": "Audiencia Provincial de Barcelona",
+      "juez": "Varios",
+      "estado": "sentencia",
+      "importe_estimado": 23000000,
+      "fecha_inicio": "2009-07",
+      "timeline": [
+        {"fecha": "2009-07-23", "evento": "Detención de Millet y Montull"},
+        {"fecha": "2018-01-29", "evento": "Sentencia: Millet condenado a 9 años y 8 meses"},
+        {"fecha": "2020-03-05", "evento": "Tribunal Supremo confirma condenas"}
+      ]
+    },
+    {
+      "id": "filesa",
+      "nombre": "Caso Filesa",
+      "partido": "PSOE",
+      "emoji": "📁",
+      "protagonistas": ["Carlos Navarro", "Luis Oliveró", "Alberto Flores"],
+      "descripcion": "Red de empresas (Filesa, Malesa, Time Export) creadas para financiar ilegalmente al PSOE en los años 80-90 mediante informes ficticios a grandes empresas.",
+      "juzgado": "Tribunal Supremo",
+      "juez": "Varios",
+      "estado": "sentencia",
+      "importe_estimado": 6000000,
+      "fecha_inicio": "1991-05",
+      "timeline": [
+        {"fecha": "1991-05-15", "evento": "El Mundo destapa la trama"},
+        {"fecha": "1997-10-28", "evento": "Sentencia condenatoria del Tribunal Supremo"}
+      ]
+    },
+    {
+      "id": "gal",
+      "nombre": "Caso GAL",
+      "partido": "PSOE",
+      "emoji": "💀",
+      "protagonistas": ["José Barrionuevo", "Rafael Vera", "Felipe González"],
+      "descripcion": "Grupos Antiterroristas de Liberación: guerra sucia contra ETA financiada con fondos reservados. 27 asesinados entre 1983 y 1987.",
+      "juzgado": "Tribunal Supremo",
+      "juez": "Varios",
+      "estado": "sentencia",
+      "importe_estimado": null,
+      "fecha_inicio": "1988-01",
+      "timeline": [
+        {"fecha": "1988-12-16", "evento": "Primera confesión de un mercenario del GAL"},
+        {"fecha": "1995-07-20", "evento": "Barrionuevo y Vera imputados"},
+        {"fecha": "1998-07-29", "evento": "Barrionuevo y Vera condenados a 10 años"}
+      ]
+    },
+    {
+      "id": "acuamed",
+      "nombre": "Caso Acuamed",
+      "partido": "PP",
+      "emoji": "💧",
+      "protagonistas": ["Varios altos cargos del Ministerio de Medio Ambiente"],
+      "descripcion": "Adjudicaciones irregulares y comisiones en la empresa pública Acuamed (gestión de aguas). Sobrecostes y contratos amañados por centenares de millones.",
+      "juzgado": "Audiencia Nacional",
+      "juez": "Ismael Moreno",
+      "estado": "juicio_oral",
+      "importe_estimado": 300000000,
+      "fecha_inicio": "2016-03",
+      "timeline": [
+        {"fecha": "2016-03-15", "evento": "Operación Frontino: detenciones"},
+        {"fecha": "2019-11-04", "evento": "Se amplía investigación"},
+        {"fecha": "2024-06-10", "evento": "Comienza juicio oral"}
+      ]
+    },
+    {
+      "id": "mediador",
+      "nombre": "Caso Mediador / Aldama-PSOE",
+      "partido": "PSOE",
+      "emoji": "🤝",
+      "protagonistas": ["Víctor de Aldama", "Santos Cerdán", "Ángel Víctor Torres"],
+      "descripcion": "Presunta mediación de Aldama para conseguir cargos y contratos a cambio de pagos a dirigentes del PSOE. Santos Cerdán dimitió como secretario de organización tras publicarse fotos de entregas de dinero.",
+      "juzgado": "Tribunal Supremo / Audiencia Nacional",
+      "juez": "Varios",
+      "estado": "instruccion",
+      "importe_estimado": null,
+      "fecha_inicio": "2024-11",
+      "timeline": [
+        {"fecha": "2024-11-21", "evento": "Aldama declara e implica a Santos Cerdán y Torres"},
+        {"fecha": "2024-11-28", "evento": "Se publican fotos de entrega de dinero"},
+        {"fecha": "2024-12-05", "evento": "Santos Cerdán dimite de la ejecutiva del PSOE"},
+        {"fecha": "2025-01-20", "evento": "Ángel Víctor Torres declarado investigado"}
+      ]
+    }
+  ]
+}
