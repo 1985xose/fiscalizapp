@@ -2609,6 +2609,545 @@
       },
       "datos_pendientes": "Declaración Bienes 28/01/2026 (XV Legislatura actualizada) no consultada para esta versión. Cifras de derechos de autor por libros no localizadas.",
       "limitaciones_metodologicas": "Patrimonio líquido NEGATIVO (-219K€) refleja sólo cuenta menos préstamos. El 50% de la vivienda no se valora en la declaración del Congreso. Si la casa vale 200-400K€ (mercado Cataluña), su 50% aporta 100-200K€ que NO se ven en el cálculo. El patrimonio real es probablemente ligeramente negativo o cercano a cero."
+    },
+    {
+      "id": "belarra",
+      "nombre": "Ione Belarra Urteaga",
+      "partido": "Podemos",
+      "cargo_destacado": "Secretaria General de Podemos (desde 2021), exministra de Derechos Sociales",
+      "version_ficha": "2.2",
+      "verificado_fecha": "2026-05-20",
+      "calidad_global": "DOBLE_CRUCE",
+      "iconos": [],
+      "nota_iconos": "Carrera política íntegramente pública desde 2016. Antes de la política trabajó en Cruz Roja, Comisión Española de Ayuda al Refugiado (CEAR), Ministerio de Educación y Universidad Autónoma de Madrid. Licenciada en Psicología, máster en psicología de la educación, segundo año de doctorado.",
+      "trayectoria_publica": [
+        {
+          "cargo": null,
+          "desde": "2010-01",
+          "hasta": "2015-12",
+          "remunerado": false,
+          "nota": "Trabajos pre-política: Cruz Roja, CEAR (Comisión Española Ayuda Refugiado), MECD y UAM. SOS Racismo. Consejo Ciudadano Navarra Podemos."
+        },
+        {
+          "cargo": "diputado_congreso",
+          "legislatura": "XI-XII-XIII-XIV-XV",
+          "desde": "2016-01",
+          "hasta": "2020-01",
+          "remunerado": true,
+          "nota": "Diputada por Navarra (2016-2023). Consejo Ciudadano Estatal Podemos."
+        },
+        {
+          "cargo": "secretario_estado",
+          "desde": "2020-01",
+          "hasta": "2021-03",
+          "remunerado": true,
+          "nota": "Secretaria de Estado para la Agenda 2030."
+        },
+        {
+          "cargo": "ministro",
+          "desde": "2021-03",
+          "hasta": "2023-11",
+          "remunerado": true,
+          "nota": "Ministra de Derechos Sociales y Agenda 2030. Sustituyó a Pablo Iglesias tras su salida. Secretaria General de Podemos desde 13/06/2021."
+        },
+        {
+          "cargo": "diputado_congreso",
+          "desde": "2023-08",
+          "hasta": null,
+          "remunerado": true,
+          "nota": "Diputada Congreso XV por Madrid (cambió de circunscripción). Líder de Podemos en oposición al Gobierno actual."
+        }
+      ],
+      "declaraciones": [
+        {
+          "anio": 2023,
+          "fecha_declaracion": "2023-08-11",
+          "tipo_documento": "congreso_diputado_xv",
+          "documento_oficial": {
+            "nombre": "Declaración inicial XV Legislatura",
+            "url_ficha_congreso": "https://www.congreso.es/es/busqueda-de-diputados",
+            "nota": "Datos del Telemadrid reportan vivienda Madrid + cuenta corriente + hipoteca."
+          },
+          "calidad_declaracion": "DOBLE_CRUCE",
+          "fuentes_secundarias": [
+            {
+              "medio": "Telemadrid",
+              "url": "https://www.telemadrid.es/programas/telenoticias-2/Asi-son-los-bienes-y-el-patrimonio-que-declaran-nuestros-politicos-2-2594460580--20230906093015.html",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "Newtral",
+              "url": "https://www.newtral.es/declaracion-bienes-patrimonio-diputados-cesados-2023/20230804/",
+              "fecha_consulta": "2026-05-20"
+            }
+          ],
+          "bloques": {
+            "liquido": {
+              "cuenta_corriente": {
+                "valor": 84245,
+                "calidad": "DOBLE_CRUCE"
+              }
+            },
+            "inmuebles": [
+              {
+                "tipo": "vivienda",
+                "ubicacion": "Madrid",
+                "regimen": "privativo",
+                "valor_declarado": 40000,
+                "calidad": "DOBLE_CRUCE",
+                "detalle": "Valor catastral menor de 40.000€"
+              }
+            ],
+            "pasivos": {
+              "hipoteca": {
+                "valor": 70700,
+                "calidad": "DOBLE_CRUCE"
+              }
+            }
+          },
+          "totales_derivados": {
+            "patrimonio_liquido_neto": 13545,
+            "calidad": "DOBLE_CRUCE",
+            "nota": "84.245€ cuenta - 70.700€ hipoteca = 13.545€. Sin valoración real de la vivienda en la declaración del Congreso."
+          }
+        }
+      ],
+      "ingresos_privados_documentados": {
+        "total_estimado": 0,
+        "nota": "Sin ingresos privados conocidos durante o tras la actividad política."
+      },
+      "datos_pendientes": "Declaración como ministra (BOE) no localizada en esta versión.",
+      "limitaciones_metodologicas": "Vivienda Madrid sin valoración de mercado en la declaración del Congreso. El patrimonio real puede ser superior si el valor de mercado de la vivienda supera la hipoteca pendiente."
+    },
+    {
+      "id": "gamarra",
+      "nombre": "Concepción 'Cuca' Gamarra Ruiz-Clavijo",
+      "partido": "PP",
+      "cargo_destacado": "Exsecretaria General del PP (2022-2025), exalcaldesa de Logroño",
+      "version_ficha": "2.2",
+      "verificado_fecha": "2026-05-20",
+      "calidad_global": "TRIPLE_CRUCE",
+      "iconos": [],
+      "nota_iconos": "Carrera política íntegramente pública desde 2003. Licenciada en Derecho Económico por la Universidad de Deusto. Larga trayectoria municipal en Logroño (concejala 2003-2019, alcaldesa 2011-2019) antes de su salto al Congreso. Cobra 'sobresueldos del PP' además del salario público (~55K€ en 2022), patrón habitual en la cúpula del partido.",
+      "trayectoria_publica": [
+        {
+          "cargo": "concejal_mediano_municipio",
+          "desde": "2003-06",
+          "hasta": "2011-06",
+          "remunerado": true,
+          "nota": "Concejala Ayuntamiento Logroño. Vicealcaldesa 2003-2007."
+        },
+        {
+          "cargo": "alcalde_capital_provincia",
+          "desde": "2011-06",
+          "hasta": "2019-06",
+          "remunerado": true,
+          "nota": "Alcaldesa de Logroño. Dos mandatos (2011-2015, 2015-2019)."
+        },
+        {
+          "cargo": "diputado_congreso",
+          "legislatura": "XIII-XIV-XV",
+          "desde": "2019-05",
+          "hasta": null,
+          "remunerado": true,
+          "nota": "Diputada por La Rioja desde 21/05/2019. Portavoz Grupo Parlamentario PP en Congreso 21/08/2020 - mayo 2023. Secretaria General PP 02/04/2022 - 04/07/2025 (sustituida por Miguel Tellado). Actualmente diputada rasa."
+        }
+      ],
+      "declaraciones": [
+        {
+          "anio": 2023,
+          "fecha_declaracion": "2023-08",
+          "tipo_documento": "congreso_diputado_xv",
+          "documento_oficial": {
+            "nombre": "Declaración inicial XV Legislatura",
+            "url_ficha_congreso": "https://www.congreso.es/es/busqueda-de-diputados",
+            "nota": "Sueldo público 2022: 113.468€ brutos (incluía complemento portavoz)."
+          },
+          "calidad_declaracion": "TRIPLE_CRUCE",
+          "fuentes_secundarias": [
+            {
+              "medio": "Sueldos Públicos",
+              "url": "https://www.sueldospublicos.com/texto-diario/mostrar/5351513/quedara-cuca-gamarra-sueldo-publico-diputada-rasa-dejar-secretaria-general-pp",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "Nueve Cuatro Uno",
+              "url": "https://nuevecuatrouno.com/2023/09/07/cuca-gamarra-sobresueldos-partido-popular-congreso-diputados/",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "Newtral",
+              "url": "https://www.newtral.es/declaracion-bienes-patrimonio-diputados-cesados-2023/20230804/",
+              "fecha_consulta": "2026-05-20"
+            }
+          ],
+          "bloques": {
+            "liquido": {
+              "cuentas_bancarias_depositos_fondos": {
+                "valor": 22250,
+                "calidad": "TRIPLE_CRUCE",
+                "detalle": "Cuentas + depósitos + fondos de inversión"
+              },
+              "plan_pensiones_y_otras_cuentas": {
+                "valor": 170061,
+                "calidad": "TRIPLE_CRUCE",
+                "detalle": "Plan de pensiones + otras cuentas"
+              }
+            },
+            "inmuebles": [
+              {
+                "tipo": "vivienda + plaza garaje",
+                "ubicacion": "Logroño",
+                "regimen": "privativo",
+                "valor_declarado": null
+              }
+            ]
+          },
+          "totales_derivados": {
+            "patrimonio_liquido_neto": 192311,
+            "calidad": "TRIPLE_CRUCE",
+            "nota": "22.250€ + 170.061€. Vivienda Logroño sin valorar en la declaración del Congreso."
+          },
+          "ingresos_ejercicio_anterior": {
+            "ejercicio_fiscal": 2022,
+            "sueldo_diputada_portavoz": {
+              "valor": 113468,
+              "calidad": "TRIPLE_CRUCE",
+              "detalle": "Bruto Congreso incluyendo complemento portavoz"
+            },
+            "pp_gastos_representacion": {
+              "valor": 26860,
+              "fuente": "Partido Popular",
+              "calidad": "TRIPLE_CRUCE",
+              "detalle": "Sobresueldo PP (NO sueldo del Estado)"
+            },
+            "grupo_parlamentario_pp": {
+              "valor": 28759,
+              "fuente": "Grupo Parlamentario PP",
+              "calidad": "TRIPLE_CRUCE",
+              "detalle": "Pago del Grupo Parlamentario (subvención Congreso → partido → diputada)"
+            },
+            "irpf_pagado": {
+              "valor": 72540,
+              "calidad": "TRIPLE_CRUCE"
+            }
+          }
+        }
+      ],
+      "ingresos_privados_documentados": {
+        "total_estimado": 0,
+        "nota": "Carrera 100% pública desde 2003. Los 'sobresueldos' del PP son del partido, no de actividad privada externa."
+      },
+      "datos_pendientes": "Declaración inicial 2019 sin desglose detallado disponible.",
+      "limitaciones_metodologicas": "Vivienda + garaje Logroño sin valoración en la declaración del Congreso."
+    },
+    {
+      "id": "millan_pepa",
+      "nombre": "María José 'Pepa' Rodríguez de Millán Parro",
+      "partido": "Vox",
+      "cargo_destacado": "Portavoz Vox en el Congreso (desde 2023)",
+      "version_ficha": "2.2",
+      "verificado_fecha": "2026-05-20",
+      "calidad_global": "DOBLE_CRUCE",
+      "iconos": [
+        "privados"
+      ],
+      "nota_iconos": "Nacida en Cabra (Córdoba) 1995. Carrera política reciente (2022). Antes columnista del diario La Razón desde 2014. Graduada en Derecho por la Universidad de Sevilla, estudios oposición Registro de la Propiedad, doble máster en Acceso a la Abogacía. La portavoz más joven del parlamento español al asumir el cargo (28 años).",
+      "trayectoria_publica": [
+        {
+          "cargo": null,
+          "desde": "2014-01",
+          "hasta": "2022-04",
+          "remunerado": false,
+          "nota": "Pre-política: columnista La Razón, estudios universitarios Derecho + opositiones + másteres. Ingresos privados periodísticos no documentados con precisión."
+        },
+        {
+          "cargo": "senador",
+          "desde": "2022-04",
+          "hasta": "2023-08",
+          "remunerado": true,
+          "nota": "Senadora autonómica por Vox. Portavoz adjunta Grupo Mixto. ~7.400€ brutos/mes + 2.037€ indemnización exenta."
+        },
+        {
+          "cargo": "diputado_congreso",
+          "legislatura": "XV",
+          "desde": "2023-08",
+          "hasta": null,
+          "remunerado": true,
+          "nota": "Diputada por Madrid desde 17/08/2023. Portavoz Grupo Parlamentario Vox desde 23/08/2023 (sustituyó a Iván Espinosa de los Monteros)."
+        }
+      ],
+      "declaraciones": [
+        {
+          "anio": 2023,
+          "fecha_declaracion": "2023-08",
+          "tipo_documento": "congreso_diputado_xv",
+          "documento_oficial": {
+            "nombre": "Declaración inicial XV Legislatura",
+            "url_ficha_congreso": "https://www.congreso.es/es/busqueda-de-diputados",
+            "nota": "Primera declaración como diputada Congreso. Patrimonio prácticamente cero."
+          },
+          "calidad_declaracion": "DOBLE_CRUCE",
+          "fuentes_secundarias": [
+            {
+              "medio": "Estrella Digital",
+              "url": "https://www.estrelladigital.es/espana/20230913/pepa-millan-la-portavoz-de-vox-en-el-congreso-que-cobraba-7-000-euros-brutos-y-2-000-libres-de-impuestos-al-mes-como-senadora-con-28-anos/",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "Newtral",
+              "url": "https://www.newtral.es/declaracion-bienes-vox/20240321/",
+              "fecha_consulta": "2026-05-20"
+            }
+          ],
+          "bloques": {
+            "liquido": {
+              "cuenta_corriente": {
+                "valor": 462,
+                "calidad": "DOBLE_CRUCE",
+                "detalle": "Saldo declarado"
+              }
+            },
+            "inmuebles": [],
+            "pasivos": {
+              "deudas": {
+                "valor": 0,
+                "calidad": "DOBLE_CRUCE",
+                "detalle": "Sin hipotecas ni préstamos personales"
+              }
+            }
+          },
+          "totales_derivados": {
+            "patrimonio_liquido_neto": 462,
+            "calidad": "DOBLE_CRUCE",
+            "nota": "Patrimonio mínimo: 462€ en cuenta. Sin inmuebles ni deudas. Carrera política recién iniciada (28 años)."
+          },
+          "ingresos_ejercicio_anterior": {
+            "ejercicio_fiscal": 2022,
+            "grupo_parlamentario_vox_andalucia": {
+              "valor": 10919,
+              "calidad": "DOBLE_CRUCE",
+              "detalle": "Rentas netas trabajo en Grupo Parlamentario Vox Andalucía"
+            },
+            "irpf_pagado": {
+              "valor": 13152,
+              "calidad": "DOBLE_CRUCE"
+            }
+          }
+        }
+      ],
+      "ingresos_privados_documentados": {
+        "total_estimado": null,
+        "nota": "Columnista La Razón desde 2014 (ingresos no documentados). Probablemente moderados al ser columnista colaboradora."
+      },
+      "datos_pendientes": "Declaración Senado 2022 no localizada con detalle. Posible declaración actualizada XV.",
+      "limitaciones_metodologicas": "Sólo 1 año en política activa institucional (2022). Carrera política muy corta, datos limitados."
+    },
+    {
+      "id": "montero_maria_jesus",
+      "nombre": "María Jesús Montero Cuadrado",
+      "partido": "PSOE",
+      "cargo_destacado": "Exvicepresidenta Primera y exministra de Hacienda. Candidata PSOE Andalucía 2026",
+      "version_ficha": "2.2",
+      "verificado_fecha": "2026-05-20",
+      "calidad_global": "TRIPLE_CRUCE",
+      "iconos": [],
+      "nota_iconos": "Carrera 100% pública desde 1996. Médica de profesión (licenciada en Medicina por la Universidad de Sevilla). Larga trayectoria en la Junta de Andalucía (Consejera de Salud 2004-2013 y de Hacienda 2013-2018) antes del salto a la política nacional. Ministra de Hacienda desde junio 2018 (7 años continuados). Vicepresidenta Primera julio 2024 - mayo 2026. Mayo 2026: candidata PSOE Andalucía.",
+      "trayectoria_publica": [
+        {
+          "cargo": null,
+          "desde": "1990-01",
+          "hasta": "1995-12",
+          "remunerado": false,
+          "nota": "Médica de familia tras licenciatura Medicina Universidad Sevilla. Trabajo en sistema público de salud."
+        },
+        {
+          "cargo": "alto_cargo_xunta_galicia",
+          "desde": "1996-01",
+          "hasta": "2004-04",
+          "remunerado": true,
+          "nota": "Cargos directivos en sistema público de salud Andalucía (gerente hospital, directora SAS). Cargos de designación política."
+        },
+        {
+          "cargo": "consejero_junta_andalucia",
+          "desde": "2004-04",
+          "hasta": "2018-06",
+          "remunerado": true,
+          "nota": "Consejera de Salud Junta Andalucía (2004-2013) y luego Consejera de Hacienda Junta Andalucía (2013-2018). 14 años como consejera."
+        },
+        {
+          "cargo": "ministro",
+          "desde": "2018-06",
+          "hasta": null,
+          "remunerado": true,
+          "nota": "Ministra Hacienda (07/06/2018). Vicepresidenta Cuarta (julio 2021), Primera (julio 2024 - mayo 2026). Portavoz Gobierno temporal en varios periodos. Sigue como ministra Hacienda en mayo 2026."
+        }
+      ],
+      "declaraciones": [
+        {
+          "anio": 2018,
+          "fecha_declaracion": "2018-06",
+          "tipo_documento": "boe_alto_cargo_entrada",
+          "documento_oficial": {
+            "nombre": "BOE 29/09/2018 - Declaración entrada Ministra Hacienda",
+            "url_referencia": "https://www.publico.es/politica/son-declaraciones-patrimoniales-ministros-sanchez.html"
+          },
+          "calidad_declaracion": "DOBLE_CRUCE",
+          "fuentes_secundarias": [
+            {
+              "medio": "Público",
+              "url": "https://www.publico.es/politica/son-declaraciones-patrimoniales-ministros-sanchez.html",
+              "fecha_consulta": "2026-05-20"
+            }
+          ],
+          "bloques": {
+            "liquido": {
+              "cuentas_corrientes": {
+                "valor": 3847,
+                "calidad": "DOBLE_CRUCE"
+              }
+            },
+            "inmuebles": [
+              {
+                "tipo": "viviendas Sevilla",
+                "ubicacion": "Sevilla",
+                "regimen": "varios",
+                "valor_declarado": 109933,
+                "calidad": "DOBLE_CRUCE"
+              }
+            ],
+            "pasivos": {
+              "deudas": {
+                "valor": 122742,
+                "calidad": "DOBLE_CRUCE"
+              }
+            }
+          },
+          "totales_oficiales": {
+            "activos_total": 113780,
+            "pasivos_total": 122742,
+            "patrimonio_neto_consolidado": -8962,
+            "calidad": "DOBLE_CRUCE",
+            "nota": "Patrimonio neto NEGATIVO al entrar al Ministerio."
+          }
+        },
+        {
+          "anio": 2021,
+          "fecha_declaracion": "2020-01",
+          "tipo_documento": "boe_alto_cargo_actualizacion",
+          "documento_oficial": {
+            "nombre": "BOE 26/03/2021 - Declaración actualizada Ministra Hacienda",
+            "url": "https://www.boe.es/boe/dias/2021/03/26/pdfs/BOE-A-2021-4751.pdf"
+          },
+          "calidad_declaracion": "TRIPLE_CRUCE",
+          "fuentes_secundarias": [
+            {
+              "medio": "eldiario.es",
+              "url": "https://www.eldiario.es/politica/boe-publica-patrimonio-gobierno-altos-cargos-detalle-bienes-deudas-acciones_1_7349810.html",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "Vozpópuli",
+              "url": "https://www.vozpopuli.com/espana/patrimonio-iglesias-montero-sanchez.html",
+              "fecha_consulta": "2026-05-20"
+            }
+          ],
+          "bloques": {
+            "liquido": {
+              "cuentas_corrientes": {
+                "valor": 18124,
+                "calidad": "TRIPLE_CRUCE"
+              },
+              "otros_bienes": {
+                "valor": 500,
+                "calidad": "TRIPLE_CRUCE"
+              }
+            },
+            "inmuebles": [
+              {
+                "tipo": "bienes inmuebles",
+                "ubicacion": "Sevilla",
+                "regimen": "varios",
+                "valor_declarado": 113200,
+                "calidad": "TRIPLE_CRUCE"
+              }
+            ],
+            "pasivos": {
+              "deudas": {
+                "valor": 112800,
+                "calidad": "TRIPLE_CRUCE"
+              }
+            }
+          },
+          "totales_oficiales": {
+            "activos_total": 131824,
+            "pasivos_total": 112800,
+            "patrimonio_neto_consolidado": 19024,
+            "calidad": "TRIPLE_CRUCE"
+          }
+        },
+        {
+          "anio": 2026,
+          "fecha_declaracion": "2026-05",
+          "tipo_documento": "boja_candidato_andalucia",
+          "documento_oficial": {
+            "nombre": "Boletín Oficial Junta de Andalucía (BOJA) - Declaración candidata PSOE elecciones Andalucía 2026",
+            "url_referencia": "https://www.infobae.com/espana/2026/05/11/este-es-el-patrimonio-de-maria-jesus-montero-candidata-del-psoe-a-las-elecciones-de-andalucia-cuatro-viviendas-en-sevilla-y-casi-94000-euros-en-el-banco/"
+          },
+          "calidad_declaracion": "CITA_UNICA",
+          "fuentes_secundarias": [
+            {
+              "medio": "Infobae",
+              "url": "https://www.infobae.com/espana/2026/05/11/este-es-el-patrimonio-de-maria-jesus-montero-candidata-del-psoe-a-las-elecciones-de-andalucia-cuatro-viviendas-en-sevilla-y-casi-94000-euros-en-el-banco/",
+              "fecha_consulta": "2026-05-20"
+            }
+          ],
+          "bloques": {
+            "liquido": {
+              "cuentas_corrientes": {
+                "valor": 93300,
+                "calidad": "CITA_UNICA",
+                "detalle": "Notable incremento respecto a 2021"
+              }
+            },
+            "inmuebles": [
+              {
+                "tipo": "4 viviendas Sevilla",
+                "ubicacion": "Sevilla",
+                "regimen": "pleno dominio",
+                "valor_declarado": 117500,
+                "calidad": "CITA_UNICA",
+                "detalle": "Suma valores catastrales 22.643€ a 36.728€ por vivienda"
+              },
+              {
+                "tipo": "otro inmueble urbano",
+                "ubicacion": "Sevilla",
+                "regimen": "pleno dominio",
+                "valor_declarado": 6308,
+                "calidad": "CITA_UNICA"
+              }
+            ],
+            "pasivos": {
+              "hipotecas": {
+                "valor": 72000,
+                "calidad": "CITA_UNICA",
+                "detalle": "Dos préstamos hipotecarios"
+              }
+            }
+          },
+          "totales_derivados": {
+            "patrimonio_liquido_neto": 145108,
+            "calidad": "CITA_UNICA",
+            "nota": "93.300€ + 117.500€ inmuebles + 6.308€ - 72.000€ hipotecas. Crecimiento notable respecto a 2021 (era 19K€). Coherente con 5 años más de sueldo de ministra/vicepresidenta."
+          }
+        }
+      ],
+      "ingresos_privados_documentados": {
+        "total_estimado": 0,
+        "nota": "Sin ingresos privados conocidos. Algún alquiler local Sevilla (~1.125€/año según declaración Congreso inicial)."
+      },
+      "datos_pendientes": "Declaraciones intermedias 2022-2025 BOE no consultadas en esta versión.",
+      "limitaciones_metodologicas": "Las 4 viviendas en Sevilla tienen valores catastrales bajos (22-36K€ cada una). El valor de mercado real podría ser sustancialmente superior."
     }
   ]
 }
