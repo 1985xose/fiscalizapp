@@ -340,46 +340,22 @@ h1 {
 </footer>
 
 <script>
-const CHASCARRILLOS = [
-  "Si la corrupción fuera deporte olímpico, España iría sobrada de medallas.",
-  "«No tengo nada que ocultar» — frase que precede al 90% de las imputaciones.",
-  "Instrucción es la forma elegante de decir 'esto huele pero aún no han encontrado el queso'.",
-  "Más tramas que una serie de Netflix, pero con peor guión.",
-  "En España, la presunción de inocencia aguanta lo que le eches… hasta que no.",
-  "Si conectas los hilos de todos los casos, te sale un jersey.",
-  "Nivel de transparencia: cristal de baño.",
-  "Esto tiene más capítulos que Cuéntame.",
-  "La caja B es como el bote de las chuches: todos saben dónde está pero nadie la ha visto.",
-  "No es bulo si tiene auto del juez.",
-  "El bingo de la corrupción: si te tocan tres investigados, grita ¡línea!",
-  "Un país donde 'aforado' no es un tipo de queso.",
-  "Aquí no dimite ni el apuntador.",
-  "Fondos reservados: el eufemismo favorito del poder.",
-  "Cuando el río suena, agua lleva. Y comisiones.",
-  "Cualquier parecido con la realidad es deliberado.",
-];
+let CHASCARRILLOS = [];
 
 const ESTADO_LABELS = {
   instruccion: { text: "🔍 En instrucción", class: "badge-instruccion" },
   sentencia: { text: "⚖️ Sentencia", class: "badge-sentencia" },
   juicio_oral: { text: "🏛️ Juicio oral", class: "badge-juicio_oral" },
   diligencias: { text: "📋 Diligencias previas", class: "badge-diligencias" },
-  archivado: { text: "📦 Archivado", class: "badge-archivado" },
-};
-
-const PARTIDOS_COLORES = {
-  "PSOE": "var(--accent-red)",
-  "PP": "var(--accent-blue)",
-  "Podemos": "var(--accent-purple)",
-  "CDC/PDeCAT": "var(--accent-amber)",
-  "CDC/CiU": "var(--accent-amber)",
+  archivado: { text: "✅ Archivado", class: "badge-archivado" },
 };
 
 let casosData = [];
 let filtroActual = "todos";
 
-// Chascarrillos
+// Chascarrillos (loaded from JSON)
 function rotarChascarrillo() {
+  if (!CHASCARRILLOS.length) return;
   const el = document.getElementById("chascarrillo");
   el.style.opacity = 0;
   setTimeout(() => {
@@ -387,7 +363,6 @@ function rotarChascarrillo() {
     el.style.opacity = 1;
   }, 400);
 }
-rotarChascarrillo();
 setInterval(rotarChascarrillo, 10000);
 
 // Tabs
@@ -402,6 +377,7 @@ document.querySelectorAll(".nav-tab").forEach(tab => {
 
 function formatImporte(n) {
   if (!n) return null;
+  if (n >= 1000000000) return (n / 1000000000).toFixed(1) + " mil M€";
   if (n >= 1000000) return (n / 1000000).toFixed(0) + "M€";
   if (n >= 1000) return (n / 1000).toFixed(0) + "K€";
   return n + "€";
@@ -409,13 +385,13 @@ function formatImporte(n) {
 
 function renderStats(casos) {
   const total = casos.length;
-  const instruccion = casos.filter(c => c.estado === "instruccion").length;
+  const activos = casos.filter(c => !["sentencia","archivado"].includes(c.estado)).length;
   const partidos = [...new Set(casos.map(c => c.partido))].length;
   const totalImporte = casos.reduce((s, c) => s + (c.importe_estimado || 0), 0);
 
   document.getElementById("stats").innerHTML = [
     { icon: "📂", value: total, label: "Casos totales" },
-    { icon: "🔍", value: instruccion, label: "En instrucción" },
+    { icon: "🔥", value: activos, label: "Casos activos" },
     { icon: "🏛️", value: partidos, label: "Partidos" },
     { icon: "💰", value: formatImporte(totalImporte), label: "Importe estimado" },
   ].map(s => `
@@ -429,7 +405,6 @@ function renderStats(casos) {
 
 function renderFilters(casos) {
   const partidos = [...new Set(casos.map(c => c.partido))];
-  const estados = [...new Set(casos.map(c => c.estado))];
   
   let html = `<button class="filter-btn active" data-filter="todos">Todos</button>`;
   partidos.forEach(p => {
@@ -439,6 +414,7 @@ function renderFilters(casos) {
   html += `<button class="filter-btn" data-filter="estado:instruccion">En instrucción</button>`;
   html += `<button class="filter-btn" data-filter="estado:juicio_oral">Juicio oral</button>`;
   html += `<button class="filter-btn" data-filter="estado:sentencia">Con sentencia</button>`;
+  html += `<button class="filter-btn" data-filter="estado:archivado">Archivados</button>`;
   html += `<span class="filter-count" id="filter-count"></span>`;
   
   document.getElementById("filters").innerHTML = html;
@@ -460,6 +436,8 @@ function renderCases(casos) {
   } else if (filtroActual.startsWith("estado:")) {
     filtered = casos.filter(c => c.estado === filtroActual.split(":")[1]);
   }
+  // Destacados primero
+  filtered = [...filtered].sort((a, b) => (b.destacado ? 1 : 0) - (a.destacado ? 1 : 0));
 
   document.getElementById("filter-count").textContent = filtered.length + " de " + casos.length;
 
@@ -468,9 +446,11 @@ function renderCases(casos) {
     const estado = ESTADO_LABELS[c.estado] || ESTADO_LABELS.instruccion;
     const importe = formatImporte(c.importe_estimado);
     const timeline = (c.timeline || []).slice().reverse();
+    const isDestacado = c.destacado ? ' style="border-width:4px;box-shadow:0 0 20px rgba(230,57,70,0.15)"' : '';
 
     return `
-      <div class="case-card" data-partido="${c.partido}" onclick="this.classList.toggle('expanded')">
+      <div class="case-card${c.destacado ? ' expanded' : ''}" data-partido="${c.partido}" onclick="this.classList.toggle('expanded')"${isDestacado}>
+        ${c.destacado ? '<div style="font-family:var(--font-mono);font-size:10px;color:var(--accent-red);text-transform:uppercase;letter-spacing:0.15em;margin-bottom:8px;font-weight:600">🔴 Última hora — ' + c.timeline[c.timeline.length-1].fecha + '</div>' : ''}
         <div class="case-header">
           <div class="case-title-area">
             <span class="case-emoji">${c.emoji}</span>
@@ -498,18 +478,18 @@ function renderCases(casos) {
             </div>
           </div>
           ${timeline.length ? `
-            <div class="detail-label" style="margin-bottom:10px">Cronología</div>
+            <div class="detail-label" style="margin-bottom:10px">Cronología (más reciente primero)</div>
             <div class="timeline">
               ${timeline.map(t => `
                 <div class="timeline-item">
                   <span class="timeline-date">${t.fecha}</span>
-                  <div class="timeline-text">${t.evento}</div>
+                  <div class="timeline-text">${t.evento}${t.fuente ? ` <a href="${t.fuente}" target="_blank" rel="noopener" onclick="event.stopPropagation()" style="color:var(--accent-green);font-family:var(--font-mono);font-size:11px;text-decoration:none">📰 fuente</a>` : ''}</div>
                 </div>
               `).join("")}
             </div>
           ` : ""}
         </div>
-        <div class="expand-hint">${"▼ Detalles y cronología"}</div>
+        <div class="expand-hint">▼ Detalles y cronología</div>
       </div>
     `;
   }).join("");
@@ -520,9 +500,14 @@ fetch("data/casos-corrupcion.json")
   .then(r => r.json())
   .then(data => {
     casosData = data.casos;
+    CHASCARRILLOS = data.meta.chascarrillos || [];
+    rotarChascarrillo();
     renderStats(casosData);
     renderFilters(casosData);
     renderCases(casosData);
+    // Mostrar fecha de actualización
+    document.querySelector('.footer p:first-child').textContent = 
+      `FISCALIZAPP v${data.meta.version} — Actualizado: ${data.meta.actualizado} — ${data.meta.total_casos} casos — Código abierto`;
   })
   .catch(err => {
     document.getElementById("cases-container").innerHTML = `
