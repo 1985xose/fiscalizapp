@@ -1,9 +1,9 @@
 {
   "meta": {
-    "version": "3.7.0",
+    "version": "3.8.0",
     "actualizado": "2026-05-20",
-    "total_casos": 53,
-    "nota": "Datos verificados con fuentes a mayo de 2026. FiscalizApp no es un medio: enlazamos fuentes para que cada ciudadano juzgue. v3.7.0: Bloque 6 final - PP histórico (Banesto), PSOE histórico (CESID), empresa pública (Defex), familia presidencial (Begoña Gómez, David Sánchez), entorno PP (González Amador).",
+    "total_casos": 56,
+    "nota": "Datos verificados con fuentes a mayo de 2026. FiscalizApp no es un medio: enlazamos fuentes para que cada ciudadano juzgue. v3.8.0: Bloque 7 - Más PP con sentencia firme (Papeles Bárcenas/caja B PP, Imelsa/Rus, EMARSA).",
     "chascarrillos": [
       "Si la corrupción fuera deporte olímpico, España iría sobrada de medallas.",
       "«No tengo nada que ocultar» — frase que precede al 90% de las imputaciones.",
@@ -2399,6 +2399,154 @@
         {
           "fecha": "2026",
           "evento": "Pendiente de fijar fecha de juicio oral en el procedimiento principal"
+        }
+      ]
+    },
+    {
+      "id": "barcenas-papeles",
+      "nombre": "Caso Papeles de Bárcenas / Caja B PP",
+      "partido": "PP",
+      "emoji": "📒",
+      "protagonistas": [
+        "Luis Bárcenas Gutiérrez (extesorero PP)",
+        "Cristóbal Páez (exgerente PP)",
+        "Gonzalo Urquijo y Belén García (administradores de Unifica, reforma sede Génova)",
+        "Partido Popular (responsable civil subsidiario)",
+        "Jorge Trías Sagnier (exdiputado PP que entregó los papeles a El País)"
+      ],
+      "descripcion": "El juicio independiente sobre la 'caja B' del PP nacional, una contabilidad paralela manuscrita por Bárcenas durante casi 20 años con donaciones de empresarios y sobresueldos en negro a la cúpula popular. La pieza centrada en los hechos: la reforma de la sede del PP en la calle Génova de Madrid, ejecutada por la empresa Unifica y pagada en parte con dinero opaco, más la compra con esos mismos fondos de acciones del diario Libertad Digital. Distinto del 'caso Bárcenas' incluido en Gürtel (que cubría su papel como intermediario): aquí se juzgó específicamente la existencia de esa contabilidad B. El PP fue declarado RESPONSABLE CIVIL SUBSIDIARIO. Trías Sagnier (exdiputado PP) fue quien entregó los papeles a El País en 2013.",
+      "juzgado": "Audiencia Nacional / Tribunal Supremo",
+      "juez": "José Antonio Mora Alarcón (presidente AN)",
+      "estado": "sentencia",
+      "importe_estimado": 1000000,
+      "fecha_inicio": "2013-01",
+      "timeline": [
+        {
+          "fecha": "2013-01-31",
+          "evento": "El País y El Mundo publican los 'papeles de Bárcenas': contabilidad paralela del PP entre 1990-2009 con donaciones de empresarios y sobresueldos en negro a la cúpula popular"
+        },
+        {
+          "fecha": "2013-07-15",
+          "evento": "Bárcenas declara ante el juez Ruz y CONFIRMA la autoría de los papeles. Entrega un pendrive con la contabilidad B. Implica directamente a Mariano Rajoy"
+        },
+        {
+          "fecha": "2018-05-24",
+          "evento": "La sentencia de Gürtel época 1 (AN) reconoce la existencia de una caja B en el PP 'al menos desde 1989'. Esto precipita la moción de censura del 1 de junio que lleva a Sánchez a Moncloa",
+          "fuente": "https://www.eldiario.es/politica/derivadas-judiciales-financiacion-irregular-pp_1_7191802.html"
+        },
+        {
+          "fecha": "2020-10-14",
+          "evento": "El Supremo confirma la condena al PP como 'partícipe a título lucrativo' en Gürtel, pero matiza las menciones a la caja B alegando que no había acusación formal"
+        },
+        {
+          "fecha": "2021-02-08",
+          "evento": "Comienza el juicio independiente sobre los papeles de Bárcenas en la Audiencia Nacional. Declaran como testigos Mariano Rajoy, Cospedal, Acebes, Rato y Javier Arenas. 27 sesiones en tres meses"
+        },
+        {
+          "fecha": "2022",
+          "evento": "SENTENCIA Audiencia Nacional: Bárcenas condenado a 2 años, administradores de Unifica a 2 años 9 meses cada uno, por defraudación tributaria y falsedad. PP CONDENADO como responsable civil subsidiario"
+        },
+        {
+          "fecha": "2024-11-15",
+          "evento": "El Tribunal Supremo CONFIRMA la defraudación tributaria y la responsabilidad civil subsidiaria del PP. Absuelve por falsedad y aprecia dilaciones indebidas, REBAJANDO penas: Bárcenas 8 meses, socios Unifica 9 meses cada uno. Multas: 200K€ administradores, 180K€ Bárcenas (rebajada desde 1,2M€)",
+          "fuente": "https://www.laregion.es/espana/supremo-reduce-condenas-caso-papeles-barcenas_1_20241115-3300642.html"
+        }
+      ]
+    },
+    {
+      "id": "imelsa-rus",
+      "nombre": "Caso Imelsa / Alfonso Rus",
+      "partido": "PP",
+      "emoji": "🧟",
+      "protagonistas": [
+        "Alfonso Rus (expresidente Diputación Valencia 2007-2015, expresidente PP provincial)",
+        "Marcos Benavent ('el yonqui del dinero', exgerente Imelsa)",
+        "Máximo Caturla (exconsejero delegado Ciegsa)",
+        "José Estarlich (testaferro de Benavent)"
+      ],
+      "descripcion": "Trama de 'zombis' del PP: contrataciones ficticias en las empresas públicas Imelsa (Diputación de Valencia) y Ciegsa (Generalitat Valenciana) en favor de cargos del PP, amigos, jugadores del club de fútbol presidido por Rus (Olímpic de Xàtiva) y testaferros, pagados con dinero público sin prestación real de servicios. La famosa frase 'tio, manda huevos' que Benavent grabó pronunciada por Rus contando billetes ('m'agrá, m'agrá'). La instrucción salpicó a la Generalitat de Camps y abrió numerosas piezas (Imelsa, Taula, Call Center, Ciegsa). Sentencia firme en la pieza principal noviembre 2023; pieza Call Center absueltos firmes marzo 2024.",
+      "juzgado": "Audiencia Provincial de Valencia",
+      "juez": "Sección Segunda",
+      "estado": "sentencia",
+      "importe_estimado": 500000,
+      "fecha_inicio": "2014-09",
+      "timeline": [
+        {
+          "fecha": "2014-09",
+          "evento": "La UCO de la Guardia Civil registra Imelsa (empresa pública de la Diputación de Valencia presidida por Rus). Marcos Benavent, exgerente, comienza a colaborar con la justicia y entrega audios"
+        },
+        {
+          "fecha": "2015-01",
+          "evento": "Detenciones masivas en Valencia. Rus dimite como presidente de la Diputación y del PP provincial tras la difusión de los audios en los que se le ve contando billetes ('m'agrá, m'agrá')"
+        },
+        {
+          "fecha": "2023-01-24",
+          "evento": "Primera sentencia del caso Imelsa: Marcos Benavent condenado a 8 años de prisión. El PP de Valencia es absuelto como persona jurídica (los hechos son anteriores a 2010)",
+          "fuente": "https://en.wikipedia.org/wiki/Marcos_Benavent"
+        },
+        {
+          "fecha": "2023-11-17",
+          "evento": "SENTENCIA pieza B 'Taula': Alfonso Rus condenado a 5 años de prisión por malversación continuada, prevaricación y falsedad. Benavent a 5 años más. Máximo Caturla condenado. 19 de 25 acusados condenados",
+          "fuente": "https://www.elespanol.com/valencia/20231117/alfonso-rus-expresidente-pp-valencia-condenado-anos-prision-corrupcion/810419056_0.html"
+        },
+        {
+          "fecha": "2023-11-18",
+          "evento": "La sentencia acredita la contratación de 'zombis': empleados ficticios pagados con dinero público para favores políticos al PP, incluyendo jugadores del Olímpic de Xàtiva (club presidido por Rus). Coste documentado: 89.243€ solo por Eva Luis Sarrión, más otros casos"
+        },
+        {
+          "fecha": "2024-03-22",
+          "evento": "Audiencia Provincial declara FIRME la ABSOLUCIÓN de Rus y Benavent en la pieza Call Center (contrato de Servimun por 843.000€). El TSJ desestima el recurso de la Fiscalía"
+        }
+      ]
+    },
+    {
+      "id": "emarsa",
+      "nombre": "Caso Emarsa",
+      "partido": "PP",
+      "emoji": "🚽",
+      "protagonistas": [
+        "Enrique Crespo (expresidente Emarsa, exvicepresidente Diputación Valencia, exalcalde Manises)",
+        "Esteban Cuesta (exgerente Emarsa, exalcalde pedáneo Benimàmet)",
+        "José Juan Morenilla (exgerente Epsar)",
+        "Jorge Ignacio Roca Samper (cerebro financiero, fugado 4 años en Moldavia)",
+        "Ignacio Bernácer (ex alto cargo Generalitat Valenciana)"
+      ],
+      "descripcion": "El mayor saqueo vinculado al PP en la Comunidad Valenciana: 23,5 millones de euros desviados entre 2004 y 2010 desde Emarsa (Empresa Metropolitana de Aguas Residuales), gestora de la depuradora de Pinedo que trataba las aguas del área metropolitana de Valencia antes de verterlas al mar o destinarlas a la Albufera. Modus operandi: la Epsar (Generalitat) sobrefinanciaba el coste del tratamiento de lodos y desbastes; Emarsa contrataba a empresas pantalla del entorno de Roca Samper que emitían facturas falsas; el sobrecoste se repartía entre los cabecillas. Sentencia AP Valencia de 22-jun-2018 con más de 90 años de cárcel acumulados. Supremo 9-oct-2020 confirmó el grueso de las penas. La empresa salió a la luz al ser liquidada en 2011 por quiebra.",
+      "juzgado": "Audiencia Provincial de Valencia / Tribunal Supremo",
+      "juez": "AP Valencia",
+      "estado": "sentencia",
+      "importe_estimado": 23500000,
+      "fecha_inicio": "2011-11",
+      "timeline": [
+        {
+          "fecha": "2010",
+          "evento": "Se inicia la liquidación de Emarsa por quiebra. Empieza a destaparse el agujero patrimonial millonario"
+        },
+        {
+          "fecha": "2011-11",
+          "evento": "Imputación de los directivos de Emarsa. Salta el escándalo a la opinión pública"
+        },
+        {
+          "fecha": "2012-02-02",
+          "evento": "Enrique Crespo DIMITE como alcalde de Manises y vicepresidente de la Diputación de Valencia"
+        },
+        {
+          "fecha": "2014-07-04",
+          "evento": "La Fiscalía presenta escrito de acusación pidiendo 14 años para Crespo, Morenilla y Bernácer; 12 años para Cuesta"
+        },
+        {
+          "fecha": "2015-06-11",
+          "evento": "Jorge Ignacio Roca Samper, cerebro financiero, es DETENIDO en Moldavia tras 4 años huido de la justicia"
+        },
+        {
+          "fecha": "2018-06-22",
+          "evento": "SENTENCIA Audiencia Provincial de Valencia (2.200 páginas): Esteban Cuesta 12 años 6 meses, Enrique Crespo 10 años, José Juan Morenilla 9 años, Roca Samper 6 años 1 día. 24 personas condenadas, total 90+ años de cárcel. Indemnización solidaria de 23,5M€",
+          "fuente": "https://valenciaplaza.com/valenciaplaza/sentencia-caso-emarsa"
+        },
+        {
+          "fecha": "2020-10-09",
+          "evento": "El TRIBUNAL SUPREMO confirma el grueso de las penas. Cuesta queda en 12 años, Roca Samper en 7 años. Quebranto acreditado: 23,5M€ de saqueo de dinero público mediante sistema fraudulento de facturación",
+          "fuente": "https://www.elespanol.com/espana/comunidad-valenciana/20201109/emarsa-saqueo-vinculado-cargos-pp-valencia-resuelto/534447157_0.html"
         }
       ]
     }
