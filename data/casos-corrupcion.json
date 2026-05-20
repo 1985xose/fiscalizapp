@@ -1,9 +1,9 @@
 {
   "meta": {
-    "version": "3.8.0",
+    "version": "3.9.0",
     "actualizado": "2026-05-20",
-    "total_casos": 56,
-    "nota": "Datos verificados con fuentes a mayo de 2026. FiscalizApp no es un medio: enlazamos fuentes para que cada ciudadano juzgue. v3.8.0: Bloque 7 - Más PP con sentencia firme (Papeles Bárcenas/caja B PP, Imelsa/Rus, EMARSA).",
+    "total_casos": 58,
+    "nota": "Datos verificados con fuentes a mayo de 2026. FiscalizApp no es un medio: enlazamos fuentes para que cada ciudadano juzgue. v3.9.0: Bloque 8 - Diversificación partidista con PNV (De Miguel, mayor caso de corrupción de Euskadi) y CC (Las Teresitas, pelotazo urbanístico Tenerife).",
     "chascarrillos": [
       "Si la corrupción fuera deporte olímpico, España iría sobrada de medallas.",
       "«No tengo nada que ocultar» — frase que precede al 90% de las imputaciones.",
@@ -2547,6 +2547,110 @@
           "fecha": "2020-10-09",
           "evento": "El TRIBUNAL SUPREMO confirma el grueso de las penas. Cuesta queda en 12 años, Roca Samper en 7 años. Quebranto acreditado: 23,5M€ de saqueo de dinero público mediante sistema fraudulento de facturación",
           "fuente": "https://www.elespanol.com/espana/comunidad-valenciana/20201109/emarsa-saqueo-vinculado-cargos-pp-valencia-resuelto/534447157_0.html"
+        }
+      ]
+    },
+    {
+      "id": "de-miguel",
+      "nombre": "Caso De Miguel",
+      "partido": "PNV",
+      "emoji": "🍷",
+      "protagonistas": [
+        "Alfredo De Miguel 'Txitxo' (exdiputado foral Administración Local y Urbanismo de Álava, exvicesecretario PNV Álava)",
+        "Aitor Tellería (responsable CEIA, empresa pública)",
+        "Koldo Ochandiano (contable de la trama)",
+        "Jon Iñaki Etxaburu (constructor militante PNV)",
+        "Ainhoa Alberdi (empresaria denunciante)"
+      ],
+      "descripcion": "El mayor caso de corrupción conocido en Euskadi. Tres dirigentes del PNV de Álava (la 'ejecutiva alavesa') idearon en 2005 un entramado de empresas pantalla (Kataia Consulting, Errexal, Ortzi Muga) para aprovecharse del poder institucional que les daba su pertenencia al partido, cobrar comisiones a empresas adjudicatarias y simular servicios. Origen: la empresaria Ainhoa Alberdi denunció en diciembre 2009 que De Miguel y Tellería le exigían 100.000€ por la adjudicación de la ampliación del Parque Tecnológico de Miñano. Sentencia firme tras 13 años de proceso. Condenados por tráfico de influencias, prevaricación, cohecho, malversación, falsedad documental, asociación ilícita y blanqueo de capitales. 27 años de cárcel acumulados entre los tres principales.",
+      "juzgado": "Audiencia Provincial de Álava / Tribunal Supremo",
+      "juez": "Jaime Tapia (presidente AP, ponente)",
+      "estado": "sentencia",
+      "importe_estimado": 200000,
+      "fecha_inicio": "2009-12",
+      "timeline": [
+        {
+          "fecha": "2005",
+          "evento": "De Miguel, Tellería y Ochandiano constituyen Kataia Consulting y otras empresas pantalla (Errexal, Ortzi Muga) para canalizar comisiones cobradas por adjudicaciones de la Administración aprovechando su posición en el PNV alavés"
+        },
+        {
+          "fecha": "2009-12",
+          "evento": "Ainhoa Alberdi presenta denuncia ante la Fiscalía de Álava: De Miguel ('Txitxo') le ha exigido una comisión de 100.000€ por la ampliación del Parque Tecnológico de Miñano. Aporta grabaciones donde el constructor Etxaburu reconoce las mordidas como 'algo dentro de lo normal'"
+        },
+        {
+          "fecha": "2010-2018",
+          "evento": "Larga instrucción a cargo de la Fiscalía de Álava (fiscal jefe Josu Izaguirre). Se documenta el entramado y se imputa a múltiples cargos del PNV alavés"
+        },
+        {
+          "fecha": "2019-12-17",
+          "evento": "SENTENCIA Audiencia Provincial de Álava: De Miguel, Tellería y Ochandiano condenados por tráfico de influencias, prevaricación, cohecho, malversación, falsedad, asociación ilícita y blanqueo. 27 años de cárcel acumulados entre los tres. Ochandiano: 7 años 6 meses (6 años 9 meses efectivos)",
+          "fuente": "https://www.elespanol.com/espana/tribunales/20191217/condenan-carcel-exdirigente-pnv-alava-alfredo-miguel/452705077_0.html"
+        },
+        {
+          "fecha": "2023-03",
+          "evento": "El TRIBUNAL SUPREMO (ponente Pablo Llarena) confirma las principales penas. La sentencia es FIRME. La Audiencia de Álava da diez días a los condenados para ingresar en prisión"
+        },
+        {
+          "fecha": "2023-03",
+          "evento": "Ingreso voluntario en prisión de De Miguel, Tellería, Ochandiano y Sánchez Robles. Catorce condenados en total. El Gobierno vasco da por hecho el despido de De Miguel de su puesto en Hazi",
+          "fuente": "https://www.eldiario.es/euskadi/cronologia-miguel-macroproceso-quedar-sentencia_1_1776937.html"
+        }
+      ]
+    },
+    {
+      "id": "las-teresitas",
+      "nombre": "Caso Las Teresitas",
+      "partido": "CC",
+      "emoji": "🏖️",
+      "protagonistas": [
+        "Miguel Zerolo (exalcalde Santa Cruz de Tenerife, exsenador CC)",
+        "Manuel Parejo (exconcejal Urbanismo, CC)",
+        "José Tomás Martín (exgerente Urbanismo)",
+        "Juan Víctor Reyes (exsecretario delegado Gerencia Urbanismo)",
+        "Antonio Plasencia (expresidente Fepeco, patronal de la construcción)",
+        "Ignacio González (expresidente Cámara de Comercio de Santa Cruz, fallecido en prisión 2019)"
+      ],
+      "descripcion": "Uno de los mayores pelotazos urbanísticos de Canarias. En 2001, el Ayuntamiento de Santa Cruz de Tenerife compró el frente de la playa de Las Teresitas por 52,5 millones de euros (8.750 millones de pesetas), muy por encima del valor real de tasación. La sentencia describe la operación como un 'proceso administrativo criminalizado': cuatro altos cargos del consistorio aprovecharon su posición privilegiada para favorecer a los empresarios vendedores. El denunciante fue el concejal lagunero Santiago Pérez (PSOE Tenerife), que intentó parar el convenio primero con alegaciones y luego con un recurso contencioso. 13 años de proceso hasta la sentencia firme. Ignacio González (no confundir con el expresidente PP de Madrid) falleció en prisión en 2019.",
+      "juzgado": "Audiencia Provincial Santa Cruz de Tenerife / Tribunal Supremo",
+      "juez": "AP Santa Cruz de Tenerife",
+      "estado": "sentencia",
+      "importe_estimado": 52500000,
+      "fecha_inicio": "2001",
+      "timeline": [
+        {
+          "fecha": "2001",
+          "evento": "El Ayuntamiento de Santa Cruz de Tenerife (Coalición Canaria) compra el frente de la playa de Las Teresitas a los empresarios Plasencia y Ignacio González por 8.750 millones de pesetas (52,5M€), muy por encima de la tasación"
+        },
+        {
+          "fecha": "2001-2006",
+          "evento": "El concejal Santiago Pérez (PSOE) presenta alegaciones y un recurso contencioso-administrativo para parar la operación. Es derrotado en primera instancia, pero la denuncia ante la Fiscalía pone en marcha la investigación penal"
+        },
+        {
+          "fecha": "2006-2017",
+          "evento": "Larga instrucción judicial: 13 años de proceso, declaraciones, peritajes que demuestran el sobreprecio"
+        },
+        {
+          "fecha": "2017-04-27",
+          "evento": "SENTENCIA Audiencia Provincial Santa Cruz de Tenerife: Miguel Zerolo (exalcalde, CC) condenado a 7 años de prisión por malversación y prevaricación. Manuel Parejo (exconcejal Urbanismo) a 7 años. José Tomás Martín a 4 años 6 meses. Víctor Reyes a 4 años. Plasencia y González (empresarios) a 5 años 3 meses cada uno",
+          "fuente": "https://es.wikipedia.org/wiki/Miguel_Zerolo_Aguilar"
+        },
+        {
+          "fecha": "2019-03-28",
+          "evento": "El TRIBUNAL SUPREMO (sentencia de 558 páginas) CONFIRMA todas las penas. La sentencia es FIRME. El Supremo describe la operación como 'proceso administrativo criminalizado'",
+          "fuente": "https://www.publico.es/politica/ts-confirma-penas-prision-implicados-caso-teresitas.html"
+        },
+        {
+          "fecha": "2019-04-01",
+          "evento": "Miguel Zerolo INGRESA en la prisión Tenerife II. También entran Parejo, Reyes y Martín. Plasencia y González también"
+        },
+        {
+          "fecha": "2019",
+          "evento": "El empresario Ignacio González FALLECE en prisión cumpliendo condena"
+        },
+        {
+          "fecha": "2022-07-28",
+          "evento": "Zerolo obtiene TERCER GRADO penitenciario: régimen de semilibertad, solo pernocta en Tenerife II",
+          "fuente": "https://diariodeavisos.elespanol.com/2022/07/conceden-a-zerolo-el-tercer-grado-por-la-condena-del-caso-las-teresitas/"
         }
       ]
     }
