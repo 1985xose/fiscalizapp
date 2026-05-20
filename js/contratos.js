@@ -1,207 +1,245 @@
-/**
- * FiscalizApp — Contratos públicos y banderas rojas v2
- * Stats clickables como filtros, órgano y empresa destacados
+/*
+ * FiscalizApp — Contratos públicos y banderas rojas
+ * Stats clickables | Órgano y empresa destacados | Filtro por tipo/severidad
  */
-const FLAG_TIPOS = {
-  fraccionamiento: { label: "Fraccionamiento", icon: "✂️", explica: "3+ contratos del mismo proveedor al mismo órgano justo bajo el umbral de licitación" },
-  concentracion: { label: "Concentración extrema", icon: "🎯", explica: "Un proveedor gana 80%+ de los contratos de un órgano (mín. 5 contratos)" },
-  patron_umbral: { label: "Patrón de umbral", icon: "📊", explica: "Un órgano con >40% de sus contratos justo bajo el límite legal — estadísticamente improbable" },
-  omnipresente: { label: "Proveedor omnipresente", icon: "👁️", explica: "Mismo proveedor con contratos cerca del umbral en 3+ administraciones distintas" },
+var FLAG_TIPOS = {
+  fraccionamiento: { label: "Fraccionamiento", icon: "✂️", explica: "3+ contratos mismo proveedor/órgano justo bajo el umbral de licitación" },
+  concentracion: { label: "Concentración extrema", icon: "🎯", explica: "80%+ de contratos de un órgano al mismo proveedor (mín. 5)" },
+  patron_umbral: { label: "Patrón de umbral", icon: "📊", explica: ">40% de contratos de un órgano justo bajo el límite legal" },
+  omnipresente: { label: "Omnipresente", icon: "👁️", explica: "Mismo proveedor en 3+ administraciones cerca del umbral" },
 };
 
-let allFlags = [];
-let currentFilter = "todos";
+var allFlags = [];
+var currentFilter = "todos";
 
 function fmtMoney(n) {
   if (!n) return "—";
   return n.toLocaleString("es-ES", { style: "currency", currency: "EUR", maximumFractionDigits: 0 });
 }
 
-function setFilter(filter) {
+// GLOBAL — llamada desde onclick en los stat cards
+window.setFilter = function(filter) {
   currentFilter = filter;
-  document.querySelectorAll(".cstat").forEach(el => {
-    el.style.outline = el.dataset.filter === filter ? "2px solid var(--accent-red)" : "none";
-    el.style.outlineOffset = "-2px";
+  // Marcar stat activo
+  document.querySelectorAll(".cstat").forEach(function(el) {
+    if (el.dataset.filter === filter) {
+      el.style.outline = "2px solid #e63946";
+      el.style.outlineOffset = "-2px";
+      el.style.background = "rgba(230,57,70,0.08)";
+    } else {
+      el.style.outline = "none";
+      el.style.background = "";
+    }
   });
-  renderFlags();
-}
+  window.renderFlags();
+};
 
-function renderFlags() {
-  const container = document.getElementById("flags-container");
+// GLOBAL — renderiza las banderas rojas filtradas
+window.renderFlags = function() {
+  var container = document.getElementById("flags-container");
   if (!container) return;
 
-  let filtered = allFlags;
-  if (currentFilter === "alta") filtered = allFlags.filter(f => f.severidad === "alta");
-  else if (currentFilter === "media") filtered = allFlags.filter(f => f.severidad === "media");
-  else if (FLAG_TIPOS[currentFilter]) filtered = allFlags.filter(f => f.tipo === currentFilter);
+  var filtered = allFlags;
+  if (currentFilter === "alta") filtered = allFlags.filter(function(f){ return f.severidad === "alta"; });
+  else if (currentFilter === "media") filtered = allFlags.filter(function(f){ return f.severidad === "media"; });
+  else if (FLAG_TIPOS[currentFilter]) filtered = allFlags.filter(function(f){ return f.tipo === currentFilter; });
 
   if (filtered.length === 0 && currentFilter !== "todos") {
-    container.innerHTML = `<div style="text-align:center;padding:2rem;color:var(--text-muted);font-style:italic">
-      No hay banderas rojas con este filtro. <a href="#" onclick="setFilter('todos');return false" style="color:var(--accent-green)">Ver todas</a>
-    </div>`;
+    container.innerHTML = '<div style="text-align:center;padding:2rem;color:#5a5a72;font-style:italic">Sin resultados para este filtro. <a href="#" onclick="window.setFilter(\'todos\');return false" style="color:#2a9d8f">Ver todas</a></div>';
     return;
   }
 
-  container.innerHTML = filtered.map(flag => {
-    const tipo = FLAG_TIPOS[flag.tipo] || { label: flag.tipo, icon: "🚩", explica: "" };
-    const sevClass = flag.severidad === "alta" ? "badge-instruccion" : "badge-diligencias";
+  if (filtered.length === 0) {
+    container.innerHTML = '<div class="section-placeholder"><h3>✅ Sin banderas rojas</h3><p>No se detectaron patrones sospechosos en los datos disponibles.</p></div>';
+    return;
+  }
 
-    return `<div class="case-card" style="border-left-color:${flag.severidad==='alta'?'var(--accent-red)':'var(--accent-amber)'}" onclick="this.classList.toggle('expanded')">
-      <div class="case-header"><div class="case-title-area"><span class="case-emoji">${flag.emoji||tipo.icon}</span>
-        <div><div class="case-name">${tipo.label}</div><div class="case-party">${tipo.explica}</div></div>
-      </div><span class="badge ${sevClass}">${flag.severidad==='alta'?'🔴 Alta':'🟡 Media'}</span></div>
+  var html = "";
+  filtered.forEach(function(flag) {
+    var tipo = FLAG_TIPOS[flag.tipo] || { label: flag.tipo, icon: "🚩", explica: "" };
+    var sevClass = flag.severidad === "alta" ? "badge-instruccion" : "badge-diligencias";
+    var borderColor = flag.severidad === "alta" ? "#e63946" : "#e9c46a";
 
-      <p class="case-desc">${flag.descripcion}</p>
+    html += '<div class="case-card" style="border-left-color:' + borderColor + '" onclick="this.classList.toggle(\'expanded\')">';
 
-      ${flag.organo || flag.adjudicatario ? `
-        <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:12px">
-          ${flag.organo ? `<div style="background:rgba(230,57,70,0.1);border:1px solid rgba(230,57,70,0.2);padding:8px 14px;border-radius:2px;flex:1;min-width:200px">
-            <div style="font-family:var(--font-mono);font-size:10px;color:var(--accent-red);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:2px">Administración que adjudica</div>
-            <div style="font-size:14px;color:var(--text-primary);font-weight:600">${flag.organo}</div>
-          </div>` : ""}
-          ${flag.adjudicatario ? `<div style="background:rgba(233,196,106,0.1);border:1px solid rgba(233,196,106,0.2);padding:8px 14px;border-radius:2px;flex:1;min-width:200px">
-            <div style="font-family:var(--font-mono);font-size:10px;color:var(--accent-amber);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:2px">Empresa adjudicataria</div>
-            <div style="font-size:14px;color:var(--text-primary);font-weight:600">${flag.adjudicatario}</div>
-          </div>` : ""}
-        </div>
-      ` : ""}
+    // Header
+    html += '<div class="case-header"><div class="case-title-area">';
+    html += '<span class="case-emoji">' + (flag.emoji || tipo.icon) + '</span>';
+    html += '<div><div class="case-name">' + tipo.label + '</div>';
+    html += '<div class="case-party">' + tipo.explica + '</div></div>';
+    html += '</div><span class="badge ' + sevClass + '">' + (flag.severidad === "alta" ? "🔴 Alta" : "🟡 Media") + '</span></div>';
 
-      <div class="case-details">
-        <div class="detail-grid">
-          ${flag.importe_total?`<div class="detail-box"><div class="detail-label">Importe total</div><div class="detail-value" style="color:var(--accent-amber);font-weight:600;font-size:18px">${fmtMoney(flag.importe_total)}</div></div>`:""}
-          ${flag.num_contratos?`<div class="detail-box"><div class="detail-label">Contratos sospechosos</div><div class="detail-value" style="font-size:18px">${flag.num_contratos}</div></div>`:""}
-          ${flag.porcentaje_contratos?`<div class="detail-box"><div class="detail-label">Concentración</div><div class="detail-value" style="color:var(--accent-red);font-weight:600;font-size:18px">${flag.porcentaje_contratos}%</div></div>`:""}
-          ${flag.porcentaje_importe?`<div class="detail-box"><div class="detail-label">% del importe total</div><div class="detail-value">${flag.porcentaje_importe}%</div></div>`:""}
-          ${flag.porcentaje?`<div class="detail-box"><div class="detail-label">Contratos en franja</div><div class="detail-value" style="color:var(--accent-red);font-weight:600;font-size:18px">${flag.porcentaje}%</div></div>`:""}
-          ${flag.proveedores_distintos?`<div class="detail-box"><div class="detail-label">Proveedores</div><div class="detail-value">${flag.proveedores_distintos}</div></div>`:""}
-          ${flag.num_organos?`<div class="detail-box"><div class="detail-label">Administraciones</div><div class="detail-value" style="font-size:18px">${flag.num_organos}</div></div>`:""}
-          ${flag.umbral_legal?`<div class="detail-box"><div class="detail-label">Umbral legal</div><div class="detail-value">${fmtMoney(flag.umbral_legal)}</div></div>`:""}
-        </div>
+    // Descripción
+    html += '<p class="case-desc">' + flag.descripcion + '</p>';
 
-        ${flag.contratos ? `<div class="detail-label" style="margin:16px 0 8px">Contratos implicados</div>
-          ${flag.contratos.map(c=>`<div style="background:rgba(255,255,255,0.02);padding:10px 14px;margin-bottom:4px;border-radius:2px;border-left:3px solid var(--accent-amber)">
-            <div style="font-size:13px;color:var(--text-secondary);line-height:1.5">${c.objeto||"Sin título"}</div>
-            <div style="font-family:var(--font-mono);font-size:12px;color:var(--text-muted);margin-top:4px;display:flex;flex-wrap:wrap;gap:12px;align-items:center">
-              <span style="color:var(--accent-amber);font-weight:600">${fmtMoney(c.importe)}</span>
-              ${c.expediente?`<span>${c.expediente}</span>`:""}
-              ${c.enlace?`<a href="${c.enlace}" target="_blank" onclick="event.stopPropagation()" style="color:var(--accent-green);text-decoration:none">📄 Ver en PLACSP →</a>`:""}
-            </div>
-          </div>`).join("")}
-        `:""}
+    // ÓRGANO Y EMPRESA — bien destacados
+    if (flag.organo || flag.adjudicatario) {
+      html += '<div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:14px">';
+      if (flag.organo) {
+        html += '<div style="background:rgba(230,57,70,0.12);border:1px solid rgba(230,57,70,0.25);padding:10px 16px;border-radius:3px;flex:1;min-width:220px">';
+        html += '<div style="font-family:var(--font-mono);font-size:10px;color:#e63946;text-transform:uppercase;letter-spacing:0.12em;margin-bottom:4px;font-weight:600">📍 Administración que adjudica</div>';
+        html += '<div style="font-size:15px;color:var(--text-primary);font-weight:600">' + flag.organo + '</div>';
+        html += '</div>';
+      }
+      if (flag.adjudicatario) {
+        html += '<div style="background:rgba(233,196,106,0.12);border:1px solid rgba(233,196,106,0.25);padding:10px 16px;border-radius:3px;flex:1;min-width:220px">';
+        html += '<div style="font-family:var(--font-mono);font-size:10px;color:#e9c46a;text-transform:uppercase;letter-spacing:0.12em;margin-bottom:4px;font-weight:600">🏢 Empresa adjudicataria</div>';
+        html += '<div style="font-size:15px;color:var(--text-primary);font-weight:600">' + flag.adjudicatario + '</div>';
+        html += '</div>';
+      }
+      html += '</div>';
+    }
 
-        ${flag.organos ? `<div class="detail-label" style="margin:16px 0 8px">Administraciones donde aparece</div>
-          <div style="display:flex;flex-wrap:wrap;gap:6px">
-          ${flag.organos.map(o=>`<span style="background:rgba(230,57,70,0.1);border:1px solid rgba(230,57,70,0.15);padding:4px 10px;border-radius:2px;font-size:12px;color:var(--text-secondary)">${o}</span>`).join("")}
-          </div>
-        `:""}
-      </div>
-      <div class="expand-hint">▼ Ver detalles y contratos</div>
-    </div>`;
-  }).join("");
-}
+    // Detalles expandibles
+    html += '<div class="case-details"><div class="detail-grid">';
+    if (flag.importe_total) html += '<div class="detail-box"><div class="detail-label">Importe total</div><div class="detail-value" style="color:#e9c46a;font-weight:600;font-size:18px">' + fmtMoney(flag.importe_total) + '</div></div>';
+    if (flag.num_contratos) html += '<div class="detail-box"><div class="detail-label">Contratos</div><div class="detail-value" style="font-size:18px">' + flag.num_contratos + '</div></div>';
+    if (flag.porcentaje_contratos) html += '<div class="detail-box"><div class="detail-label">Concentración</div><div class="detail-value" style="color:#e63946;font-weight:600;font-size:18px">' + flag.porcentaje_contratos + '%</div></div>';
+    if (flag.porcentaje) html += '<div class="detail-box"><div class="detail-label">En franja sospechosa</div><div class="detail-value" style="color:#e63946;font-weight:600;font-size:18px">' + flag.porcentaje + '%</div></div>';
+    if (flag.num_organos) html += '<div class="detail-box"><div class="detail-label">Administraciones</div><div class="detail-value" style="font-size:18px">' + flag.num_organos + '</div></div>';
+    if (flag.umbral_legal) html += '<div class="detail-box"><div class="detail-label">Umbral legal</div><div class="detail-value">' + fmtMoney(flag.umbral_legal) + '</div></div>';
+    if (flag.porcentaje_importe) html += '<div class="detail-box"><div class="detail-label">% del importe</div><div class="detail-value">' + flag.porcentaje_importe + '%</div></div>';
+    if (flag.proveedores_distintos) html += '<div class="detail-box"><div class="detail-label">Proveedores</div><div class="detail-value">' + flag.proveedores_distintos + '</div></div>';
+    html += '</div>';
+
+    // Contratos implicados
+    if (flag.contratos && flag.contratos.length) {
+      html += '<div class="detail-label" style="margin:16px 0 8px">Contratos implicados</div>';
+      flag.contratos.forEach(function(c) {
+        html += '<div style="background:rgba(255,255,255,0.03);padding:10px 14px;margin-bottom:5px;border-radius:2px;border-left:3px solid #e9c46a">';
+        html += '<div style="font-size:13px;color:var(--text-secondary);line-height:1.5">' + (c.objeto || "Sin título") + '</div>';
+        html += '<div style="font-family:var(--font-mono);font-size:12px;color:var(--text-muted);margin-top:4px;display:flex;flex-wrap:wrap;gap:10px;align-items:center">';
+        html += '<span style="color:#e9c46a;font-weight:600">' + fmtMoney(c.importe) + '</span>';
+        if (c.expediente) html += '<span>' + c.expediente + '</span>';
+        if (c.enlace) html += '<a href="' + c.enlace + '" target="_blank" onclick="event.stopPropagation()" style="color:#2a9d8f;text-decoration:none">📄 Ver en PLACSP →</a>';
+        html += '</div></div>';
+      });
+    }
+
+    // Órganos (para omnipresente)
+    if (flag.organos && flag.organos.length) {
+      html += '<div class="detail-label" style="margin:16px 0 8px">Administraciones donde aparece</div><div style="display:flex;flex-wrap:wrap;gap:6px">';
+      flag.organos.forEach(function(o) {
+        html += '<span style="background:rgba(230,57,70,0.1);border:1px solid rgba(230,57,70,0.2);padding:4px 10px;border-radius:2px;font-size:12px;color:var(--text-secondary)">' + o + '</span>';
+      });
+      html += '</div>';
+    }
+
+    html += '</div>'; // case-details
+    html += '<div class="expand-hint">▼ Ver detalles y contratos</div>';
+    html += '</div>'; // case-card
+  });
+
+  container.innerHTML = html;
+};
 
 function renderContratosSection() {
-  const container = document.getElementById("sec-contratos");
+  var container = document.getElementById("sec-contratos");
   container.innerHTML = '<div class="section-placeholder"><h3>⏳ Cargando datos de la PLACSP...</h3></div>';
 
   Promise.all([
-    fetch("data/banderas-rojas/latest.json").then(r => r.ok ? r.json() : null).catch(() => null),
-    fetch("data/contratos/resumen.json").then(r => r.ok ? r.json() : null).catch(() => null),
-  ]).then(([flagsData, resumenData]) => {
+    fetch("data/banderas-rojas/latest.json").then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; }),
+    fetch("data/contratos/resumen.json").then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; }),
+  ]).then(function(results) {
+    var flagsData = results[0];
+    var resumenData = results[1];
+
     if (!flagsData && !resumenData) {
-      container.innerHTML = `<div class="section-placeholder"><h3>🏗️ Contratos públicos</h3>
-        <p>Ve a GitHub → Actions → Run workflow para la primera carga.</p></div>`;
+      container.innerHTML = '<div class="section-placeholder"><h3>🏗️ Contratos públicos</h3><p>Ve a GitHub → Actions → Run workflow.</p></div>';
       return;
     }
 
-    allFlags = flagsData?.flags || [];
-    const stats = flagsData?.stats || {};
-    const fmeta = flagsData?.meta || {};
-    const rmeta = resumenData?.meta || {};
-    const ultMen = resumenData?.ultimos_menores || [];
-    const ultLic = resumenData?.ultimas_licitaciones || [];
+    allFlags = (flagsData && flagsData.flags) ? flagsData.flags : [];
+    var stats = (flagsData && flagsData.stats) ? flagsData.stats : {};
+    var fmeta = (flagsData && flagsData.meta) ? flagsData.meta : {};
+    var rmeta = (resumenData && resumenData.meta) ? resumenData.meta : {};
+    var ultMen = (resumenData && resumenData.ultimos_menores) ? resumenData.ultimos_menores : [];
+    var ultLic = (resumenData && resumenData.ultimas_licitaciones) ? resumenData.ultimas_licitaciones : [];
+    var tipoCount = stats.por_tipo || {};
 
-    // Contar tipos para los stats
-    const tipoCount = stats.por_tipo || {};
+    var html = "";
 
-    let html = "";
+    // STATS CLICKABLES
+    html += '<div class="stats">';
+    html += statCard("📋", (fmeta.menores||0)+(fmeta.licitaciones||0), "Analizados", "todos");
+    html += statCard("🚩", stats.total_flags||0, "Banderas rojas", "todos");
+    html += statCard("🔴", stats.severidad_alta||0, "Sev. alta", "alta");
+    html += statCard("✂️", tipoCount.fraccionamiento||0, "Fraccionamiento", "fraccionamiento");
+    html += statCard("🎯", tipoCount.concentracion||0, "Concentración", "concentracion");
+    html += statCard("📊", tipoCount.patron_umbral||0, "Patrón umbral", "patron_umbral");
+    html += '</div>';
 
-    // Stats clickables
-    html += `<div class="stats">`;
-    html += cstat("📋", (fmeta.menores||0)+(fmeta.licitaciones||0), "Analizados", "todos");
-    html += cstat("🚩", stats.total_flags||0, "Banderas rojas", "todos");
-    html += cstat("🔴", stats.severidad_alta||0, "Severidad alta", "alta");
-    html += cstat("✂️", tipoCount.fraccionamiento||0, "Fraccionamiento", "fraccionamiento");
-    html += cstat("🎯", tipoCount.concentracion||0, "Concentración", "concentracion");
-    html += cstat("📊", tipoCount.patron_umbral||0, "Patrón umbral", "patron_umbral");
-    html += `</div>`;
-
-    // Meta info
+    // Meta
     if (fmeta.generado) {
-      html += `<div style="font-family:var(--font-mono);font-size:11px;color:var(--text-muted);margin-bottom:1.5rem">
-        Actualizado: ${fmeta.generado} · ${fmeta.menores||0} menores · ${fmeta.licitaciones||0} licitaciones
-      </div>`;
+      html += '<div style="font-family:var(--font-mono);font-size:11px;color:var(--text-muted);margin-bottom:1.5rem">';
+      html += 'Actualizado: ' + fmeta.generado + ' · ' + (fmeta.menores||0) + ' menores · ' + (fmeta.licitaciones||0) + ' licitaciones';
+      html += '</div>';
     }
 
     // Explainer
-    html += `<div style="background:var(--bg-card);border:1px solid var(--border-subtle);padding:16px 20px;border-radius:2px;margin-bottom:1.5rem">
-      <div style="font-family:var(--font-display);font-size:16px;margin-bottom:8px">¿Qué estás viendo?</div>
-      <p style="font-size:14px;color:var(--text-secondary);margin:0">
-        FiscalizApp descarga contratos de la <a href="https://contrataciondelsectorpublico.gob.es" target="_blank" style="color:var(--accent-green)">PLACSP</a>
-        y pasa 4 detectores automáticos. Pulsa en los contadores de arriba para filtrar por tipo.
-        No significa corrupción — significa que merece una mirada más atenta.
-      </p>
-    </div>`;
+    html += '<div style="background:var(--bg-card);border:1px solid var(--border-subtle);padding:16px 20px;border-radius:2px;margin-bottom:1.5rem">';
+    html += '<div style="font-family:var(--font-display);font-size:16px;margin-bottom:8px">¿Qué estás viendo?</div>';
+    html += '<p style="font-size:14px;color:var(--text-secondary);margin:0">';
+    html += 'FiscalizApp descarga contratos de la <a href="https://contrataciondelsectorpublico.gob.es" target="_blank" style="color:#2a9d8f">PLACSP</a> ';
+    html += 'y pasa 4 detectores. <strong>Pulsa los contadores de arriba para filtrar.</strong> No significa corrupción — significa que merece mirada atenta.';
+    html += '</p></div>';
 
-    // Reglas colapsables
+    // Reglas
     if (fmeta.reglas) {
-      html += `<details style="margin-bottom:1.5rem"><summary style="cursor:pointer;font-family:var(--font-mono);font-size:12px;color:var(--text-muted)">📐 Reglas del detector (click para ver)</summary>
-        <div style="background:var(--bg-card);padding:12px 16px;margin-top:8px;border-radius:2px;font-size:13px;color:var(--text-secondary)">
-          ${fmeta.reglas.map(r => `<div style="margin-bottom:6px">• ${r}</div>`).join("")}
-        </div></details>`;
+      html += '<details style="margin-bottom:1.5rem"><summary style="cursor:pointer;font-family:var(--font-mono);font-size:12px;color:var(--text-muted)">📐 Reglas del detector</summary>';
+      html += '<div style="background:var(--bg-card);padding:12px 16px;margin-top:8px;border-radius:2px;font-size:13px;color:var(--text-secondary)">';
+      fmeta.reglas.forEach(function(r) { html += '<div style="margin-bottom:6px">• ' + r + '</div>'; });
+      html += '</div></details>';
     }
 
-    // Container para flags (se re-renderiza al filtrar)
-    html += `<div style="font-family:var(--font-display);font-size:20px;margin-bottom:16px">🚩 Banderas rojas detectadas</div>`;
-    html += `<div id="flags-container"></div>`;
+    // Flags container
+    html += '<div style="font-family:var(--font-display);font-size:20px;margin-bottom:16px">🚩 Banderas rojas detectadas</div>';
+    html += '<div id="flags-container"></div>';
 
     // Últimos contratos
-    const ultimos = [...ultMen, ...ultLic].filter(c=>c.titulo||c.objeto).sort((a,b)=>(b.actualizado||"").localeCompare(a.actualizado||"")).slice(0,30);
+    var ultimos = ultMen.concat(ultLic).filter(function(c){ return c.titulo || c.objeto; });
+    ultimos.sort(function(a,b){ return (b.actualizado||"").localeCompare(a.actualizado||""); });
+    ultimos = ultimos.slice(0, 30);
+
     if (ultimos.length) {
-      html += `<div style="font-family:var(--font-display);font-size:20px;margin:2rem 0 16px">📋 Últimos contratos publicados</div>`;
-      ultimos.forEach(c => {
-        const i = c.importe_adjudicacion || c.presupuesto_base;
-        html += `<div style="background:var(--bg-card);border-left:3px solid var(--border-subtle);padding:14px 18px;margin-bottom:8px;border-radius:2px">
-          <div style="font-size:14px;color:var(--text-primary);margin-bottom:6px">${c.objeto||c.titulo||"Sin título"}</div>
-          <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:4px">
-            ${c.organo?`<span style="font-family:var(--font-mono);font-size:11px;background:rgba(230,57,70,0.08);color:var(--text-secondary);padding:3px 8px;border-radius:2px">📍 ${c.organo}</span>`:""}
-            ${c.adjudicatario?`<span style="font-family:var(--font-mono);font-size:11px;background:rgba(233,196,106,0.08);color:var(--text-secondary);padding:3px 8px;border-radius:2px">🏢 ${c.adjudicatario}</span>`:""}
-          </div>
-          <div style="font-family:var(--font-mono);font-size:11px;color:var(--text-muted);display:flex;flex-wrap:wrap;gap:12px">
-            ${i?`<span style="color:var(--accent-amber);font-weight:600">${fmtMoney(i)}</span>`:""}
-            ${c.enlace?`<a href="${c.enlace}" target="_blank" style="color:var(--accent-green);text-decoration:none">Ver en PLACSP →</a>`:""}
-          </div></div>`;
+      html += '<div style="font-family:var(--font-display);font-size:20px;margin:2rem 0 16px">📋 Últimos contratos publicados</div>';
+      ultimos.forEach(function(c) {
+        var imp = c.importe_adjudicacion || c.presupuesto_base;
+        html += '<div style="background:var(--bg-card);border-left:3px solid var(--border-subtle);padding:14px 18px;margin-bottom:8px;border-radius:2px">';
+        html += '<div style="font-size:14px;color:var(--text-primary);margin-bottom:6px">' + (c.objeto||c.titulo||"Sin título") + '</div>';
+        html += '<div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:4px">';
+        if (c.organo) html += '<span style="font-family:var(--font-mono);font-size:11px;background:rgba(230,57,70,0.08);color:var(--text-secondary);padding:3px 8px;border-radius:2px">📍 ' + c.organo + '</span>';
+        if (c.adjudicatario) html += '<span style="font-family:var(--font-mono);font-size:11px;background:rgba(233,196,106,0.08);color:var(--text-secondary);padding:3px 8px;border-radius:2px">🏢 ' + c.adjudicatario + '</span>';
+        html += '</div>';
+        html += '<div style="font-family:var(--font-mono);font-size:11px;color:var(--text-muted);display:flex;flex-wrap:wrap;gap:12px">';
+        if (imp) html += '<span style="color:#e9c46a;font-weight:600">' + fmtMoney(imp) + '</span>';
+        if (c.enlace) html += '<a href="' + c.enlace + '" target="_blank" style="color:#2a9d8f;text-decoration:none">Ver en PLACSP →</a>';
+        html += '</div></div>';
       });
     }
 
     container.innerHTML = html;
-    renderFlags(); // Render inicial de flags
+    window.renderFlags();
   });
 }
 
-function cstat(icon, val, label, filter) {
-  return `<div class="stat-card cstat" data-filter="${filter}" onclick="setFilter('${filter}')" style="cursor:pointer;transition:all 0.15s${filter===currentFilter?';outline:2px solid var(--accent-red);outline-offset:-2px':''}">
-    <div class="stat-icon">${icon}</div>
-    <div class="stat-value">${val}</div>
-    <div class="stat-label">${label}</div>
-  </div>`;
+function statCard(icon, val, label, filter) {
+  return '<div class="stat-card cstat" data-filter="' + filter + '" onclick="window.setFilter(\'' + filter + '\')" style="cursor:pointer;transition:all 0.15s;user-select:none">' +
+    '<div class="stat-icon">' + icon + '</div>' +
+    '<div class="stat-value">' + val + '</div>' +
+    '<div class="stat-label">' + label + '</div>' +
+    '</div>';
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  let loaded = false;
-  document.querySelectorAll(".nav-tab").forEach(tab => {
-    tab.addEventListener("click", () => {
-      if (tab.dataset.section === "contratos" && !loaded) { loaded = true; renderContratosSection(); }
+// Init: cargar cuando se pulse la pestaña
+document.addEventListener("DOMContentLoaded", function() {
+  var loaded = false;
+  document.querySelectorAll(".nav-tab").forEach(function(tab) {
+    tab.addEventListener("click", function() {
+      if (tab.dataset.section === "contratos" && !loaded) {
+        loaded = true;
+        renderContratosSection();
+      }
     });
   });
 });

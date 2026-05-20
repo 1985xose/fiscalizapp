@@ -100,6 +100,10 @@ h1 {
   color: var(--text-muted); text-transform: uppercase;
   letter-spacing: 0.1em; margin-top: 2px;
 }
+.stat-card.cstat:hover {
+  background: var(--bg-surface) !important;
+  transform: translateY(-1px);
+}
 
 /* NAV TABS */
 .nav-tabs {
@@ -345,6 +349,7 @@ let CHASCARRILLOS = [];
 const ESTADO_LABELS = {
   instruccion: { text: "🔍 En instrucción", class: "badge-instruccion" },
   sentencia: { text: "⚖️ Sentencia", class: "badge-sentencia" },
+  visto_sentencia: { text: "⏳ Visto para sentencia", class: "badge-sentencia" },
   juicio_oral: { text: "🏛️ Juicio oral", class: "badge-juicio_oral" },
   diligencias: { text: "📋 Diligencias previas", class: "badge-diligencias" },
   archivado: { text: "✅ Archivado", class: "badge-archivado" },
