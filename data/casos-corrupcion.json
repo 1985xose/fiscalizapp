@@ -1,9 +1,9 @@
 {
   "meta": {
-    "version": "3.3.0",
+    "version": "3.4.0",
     "actualizado": "2026-05-20",
-    "total_casos": 28,
-    "nota": "Datos verificados con fuentes a mayo de 2026. FiscalizApp no es un medio: enlazamos fuentes para que cada ciudadano juzgue. v3.3.0: añadidos Naseiro y Casinos-CiU como archivados por defecto procesal (regla extendida: archivos por nulidad de pruebas o ausencia de tipo penal, no por inocencia probada).",
+    "total_casos": 38,
+    "nota": "Datos verificados con fuentes a mayo de 2026. FiscalizApp no es un medio: enlazamos fuentes para que cada ciudadano juzgue. v3.4.0: añadido Bloque 3 - Etapa Aznar/Zapatero 2000-2011 (Malaya, Nóos, Pretoria, Palma Arena, Brugal, Faisán, Pallerols, Andratx, Pokémon, Mercasevilla).",
     "chascarrillos": [
       "Si la corrupción fuera deporte olímpico, España iría sobrada de medallas.",
       "«No tengo nada que ocultar» — frase que precede al 90% de las imputaciones.",
@@ -1263,6 +1263,453 @@
         {
           "fecha": "2026-01",
           "evento": "En el juicio a los Pujol, el fiscal Anticorrupción intenta vincular sin pruebas a los Suqué con la financiación de CDC. Su hijo Javier Suqué aclara: 'No fue condenado'"
+        }
+      ]
+    },
+    {
+      "id": "malaya",
+      "nombre": "Caso Malaya",
+      "partido": "GIL",
+      "emoji": "🏖️",
+      "protagonistas": [
+        "Juan Antonio Roca (asesor de Urbanismo, cabecilla)",
+        "Jesús Gil (alcalde de Marbella 1991-2002, fallecido 2004)",
+        "Julián Muñoz (alcalde GIL)",
+        "Marisol Yagüe (alcaldesa GIL)",
+        "Tomás Reñones (exconcejal, ex futbolista)",
+        "Isabel Pantoja (blanqueo de capitales)"
+      ],
+      "descripcion": "El mayor caso de corrupción urbanística en la historia de España. Durante la alcaldía de Jesús Gil (GIL, 1991-2002) y sus sucesores en Marbella, Juan Antonio Roca controlaba como asesor de Urbanismo todo el dinero municipal: licencias ilegales, recalificaciones a cambio de comisiones, blanqueo en propiedades de lujo, coches y arte. La operación se desencadenó en marzo de 2006 con 86 procesados. El Gobierno disolvió el Ayuntamiento de Marbella, hecho sin precedentes. 48 condenados en sentencia firme del Supremo (2015).",
+      "juzgado": "Audiencia Provincial de Málaga / Tribunal Supremo",
+      "juez": "Miguel Ángel Torres (instrucción)",
+      "estado": "sentencia",
+      "importe_estimado": 1000000000,
+      "fecha_inicio": "2005-03",
+      "timeline": [
+        {
+          "fecha": "2005-03",
+          "evento": "Comienza la investigación judicial sobre la trama urbanística marbellí"
+        },
+        {
+          "fecha": "2006-03-31",
+          "evento": "DETENCIÓN: prisión incondicional sin fianza para Juan Antonio Roca, cabecilla de la trama. Cae también Marisol Yagüe (alcaldesa) y decenas más",
+          "fuente": "https://es.wikipedia.org/wiki/Caso_Malaya"
+        },
+        {
+          "fecha": "2006-04",
+          "evento": "El Gobierno español DISUELVE el Ayuntamiento de Marbella, hecho sin precedentes en democracia. Administradores designados gestionan la ciudad"
+        },
+        {
+          "fecha": "2007-07",
+          "evento": "El juez Miguel Ángel Torres cierra la instrucción con 86 procesados. La operación se desarrolla en tres fases con detenciones en Málaga, Madrid, Murcia, Huelva y Cádiz"
+        },
+        {
+          "fecha": "2007-11-14",
+          "evento": "Detenida la cantante Isabel Pantoja en la tercera fase, acusada de blanqueo de capitales y delitos contra Hacienda"
+        },
+        {
+          "fecha": "2013-10",
+          "evento": "SENTENCIA Audiencia de Málaga: 52 condenados. Roca a 11 años + 240M€ multa, Marisol Yagüe a 7 años 9 meses + 2M€, Julián Muñoz a 2 años, Reñones a 12 años, Pantoja a 2 años por blanqueo",
+          "fuente": "https://www.poderjudicial.es/cgpj/en/Judiciary/Novelties/La-Audiencia-Provincial-de-Malaga-condena-a-Roca-a-11-anos-de-prision-y-multa-de-240-millones-de-euros--Sentencia-del--Caso-Malaya-"
+        },
+        {
+          "fecha": "2015",
+          "evento": "El Tribunal Supremo confirma 48 condenas en sentencia firme. Roca elevado a 17 años de prisión, Yagüe rebajada a 5,5 años. El Ayuntamiento de Marbella debe pagar 1,4M€ por responsabilidad civil"
+        },
+        {
+          "fecha": "2016-01",
+          "evento": "Los condenados ingresan progresivamente en prisión para cumplir las penas"
+        }
+      ]
+    },
+    {
+      "id": "noos",
+      "nombre": "Caso Nóos",
+      "partido": "Transversal",
+      "emoji": "👑",
+      "protagonistas": [
+        "Iñaki Urdangarin (yerno del Rey Juan Carlos I)",
+        "Diego Torres (socio de Urdangarin)",
+        "Infanta Cristina de Borbón (responsable civil)",
+        "Jaume Matas (expresidente Govern balear, PP)",
+        "Ana María Tejeiro (esposa de Torres)"
+      ],
+      "descripcion": "El primer escándalo de corrupción que salpicó directamente a la Casa Real. Urdangarin, yerno del Rey Juan Carlos I, y su socio Diego Torres usaron el Instituto Nóos —una supuesta entidad sin ánimo de lucro— para captar 6,1M€ de fondos públicos del Govern balear (Matas) y la Generalitat valenciana (Camps) por servicios que nunca se prestaron, derivándolos a sociedades pantalla en Bélgica y a paraísos fiscales. La Infanta Cristina, copropietaria de Aizoon, fue absuelta penalmente pero responsable civil. Urdangarin ingresó en la prisión de Brieva en 2018, el mismo módulo donde Roldán cumplió su condena.",
+      "juzgado": "Audiencia Provincial de Baleares / Tribunal Supremo",
+      "juez": "José Castro (instrucción)",
+      "estado": "sentencia",
+      "importe_estimado": 6100000,
+      "fecha_inicio": "2010-11",
+      "timeline": [
+        {
+          "fecha": "2010-11",
+          "evento": "Comienza la investigación derivada del caso Palma Arena: el juez José Castro detecta el desvío de fondos públicos al Instituto Nóos"
+        },
+        {
+          "fecha": "2014-12-22",
+          "evento": "Apertura de juicio oral contra 17 personas, incluida la Infanta Cristina como cooperadora necesaria de dos delitos contra la Hacienda Pública",
+          "fuente": "https://www.diariodecuyo.com.ar/noticias/la-infanta-cristina-va-a-juicio-oral-por-corrupcion-697162.html"
+        },
+        {
+          "fecha": "2017-02-17",
+          "evento": "SENTENCIA Audiencia de Palma: Urdangarin condenado a 6 años 3 meses, Diego Torres a 8 años 6 meses, Matas a 3 años 8 meses. Infanta Cristina ABSUELTA penalmente, responsable civil de 265.088€"
+        },
+        {
+          "fecha": "2018-06-12",
+          "evento": "El Tribunal Supremo confirma la sentencia con rebaja: Urdangarin a 5 años 10 meses, Torres a 5 años 8 meses. Responsabilidad civil de la Infanta rebajada a 136.950€",
+          "fuente": "https://www.poderjudicial.es/cgpj/es/Poder-Judicial/Tribunal-Supremo/Noticias-Judiciales/El-Tribunal-Supremo-condena-a-Inaki-Urdangarin-a-5-anos-y-10-meses-de-prision-por-malversacion--prevaricacion--fraude--dos-delitos-fiscales-y-trafico-de-influencias-en-el--caso-Noos-"
+        },
+        {
+          "fecha": "2018-06-18",
+          "evento": "Urdangarin ingresa en la prisión de Brieva (Ávila), el mismo módulo especial donde cumplió Luis Roldán. Cumple condena en régimen de tercer grado parcial"
+        },
+        {
+          "fecha": "2022",
+          "evento": "Urdangarin obtiene libertad condicional. Se separa de la Infanta Cristina"
+        }
+      ]
+    },
+    {
+      "id": "pretoria",
+      "nombre": "Caso Pretoria",
+      "partido": "Transversal",
+      "emoji": "🏗️",
+      "protagonistas": [
+        "Macià Alavedra (ex conseller Economía Generalitat, CDC)",
+        "Lluís Prenafeta (ex secretario Presidencia Generalitat, CDC)",
+        "Luis Andrés García 'Luigi' (exdiputado PSC, líder de la trama)",
+        "Bartomeu Muñoz (exalcalde Santa Coloma de Gramanet, PSC)",
+        "Manuel Dobarco (exconcejal PSC)"
+      ],
+      "descripcion": "El caso paradigmático de corrupción TRANSVERSAL en Cataluña: CDC y PSC haciendo negocios urbanísticos juntos. Trama de comisiones del 4% sobre operaciones de especulación inmobiliaria en Santa Coloma de Gramanet, Badalona y Sant Andreu de Llavaneres entre 2002 y 2009. Los exaltos cargos de los gobiernos de Pujol —Alavedra y Prenafeta— intervenían activamente y ocultaban las ganancias en cuentas offshore. Las grabaciones telefónicas demostraron 'trato cordial y familiaridad' con Pujol y Mas, a quienes recurrían para mediar.",
+      "juzgado": "Audiencia Nacional",
+      "juez": "Baltasar Garzón → Pablo Ruz (instrucción)",
+      "estado": "sentencia",
+      "importe_estimado": 5886925,
+      "fecha_inicio": "2009-10",
+      "timeline": [
+        {
+          "fecha": "2009-10-27",
+          "evento": "Detenciones masivas: 'Luigi', Alavedra, Prenafeta, Bartomeu Muñoz y otros bajan de furgonetas con sus pertenencias en bolsas de basura en la Audiencia Nacional"
+        },
+        {
+          "fecha": "2009-10-29",
+          "evento": "Los principales detenidos pasan a prisión preventiva acusados de cohecho, tráfico de influencias y blanqueo de capitales"
+        },
+        {
+          "fecha": "2017-2018",
+          "evento": "Juicio en la Audiencia Nacional. Alavedra y Prenafeta CONFIESAN y pactan con la Fiscalía rebaja de penas"
+        },
+        {
+          "fecha": "2018-07-02",
+          "evento": "SENTENCIA Audiencia Nacional: 11 condenados. 'Luigi' 7 años 1 mes (pena más alta), Bartomeu Muñoz 5 años 8 meses, Manuel Dobarco 8 años 6 meses inhabilitación. Alavedra y Prenafeta 1 año 11 meses cada uno + multas de 3,2M€ y 5,8M€ (evitan cárcel por pacto)",
+          "fuente": "https://www.poderjudicial.es/cgpj/es/Poder-Judicial/Noticias-Judiciales/La-Audiencia-Nacional-condena-a-penas-de-hasta-7-anos-a-los-once-acusados-en-la--operacion-Pretoria-"
+        },
+        {
+          "fecha": "2018-07",
+          "evento": "Sentencia firme. Comiso de las ganancias ilícitas: 5.886.925€ por operaciones, 1.144.724€ a Muñoz, 3.243.103€ a Alavedra y 5.193.170€ a Prenafeta"
+        }
+      ]
+    },
+    {
+      "id": "palma-arena",
+      "nombre": "Caso Palma Arena / Matas",
+      "partido": "PP",
+      "emoji": "🚴",
+      "protagonistas": [
+        "Jaume Matas (expresidente Govern balear, exministro Medio Ambiente)",
+        "Ralph Schürmann (primer arquitecto del velódromo)",
+        "Luis García-Ruiz y Jaime García-Ruiz (arquitectos sustitutos)"
+      ],
+      "descripcion": "El caso que llevó al banquillo al primer expresidente autonómico de la democracia. Jaume Matas (PP), president balear en dos mandatos y exministro de Aznar, fue investigado por sobrecostes y adjudicaciones a dedo en la construcción del velódromo Palma Arena (un sobrecoste de decenas de millones). Del caso matriz derivaron múltiples piezas: artículos pagados con fondos públicos, contratación simulada de su esposa, hospital Son Espases, y el caso Nóos. Cumplió 2 años y medio efectivos entre Aranjuez y Segovia, sumando varias condenas firmes.",
+      "juzgado": "Audiencia Provincial de Palma / Tribunal Supremo",
+      "juez": "José Castro (instrucción)",
+      "estado": "sentencia",
+      "importe_estimado": 20000000,
+      "fecha_inicio": "2008",
+      "timeline": [
+        {
+          "fecha": "2008",
+          "evento": "El juez José Castro abre la investigación tras detectarse sobrecostes millonarios y adjudicaciones a dedo en el velódromo Palma Arena"
+        },
+        {
+          "fecha": "2012-03",
+          "evento": "PRIMERA CONDENA: Audiencia de Palma condena a Matas a 6 años por tráfico de influencias (cobrar artículos elogiosos con fondos públicos)"
+        },
+        {
+          "fecha": "2013",
+          "evento": "El Tribunal Supremo rebaja la condena a 9 meses de prisión. Matas se convierte en el primer expresidente autonómico encarcelado: ingresa en la prisión de Segovia"
+        },
+        {
+          "fecha": "2016-07-22",
+          "evento": "Condena por cohecho: 9.000€ de multa y comiso de 42.111€ por la contratación simulada de su esposa por el hotelero del Valparaíso (Palma)"
+        },
+        {
+          "fecha": "2017-02-17",
+          "evento": "Condena en el caso Nóos: 3 años 8 meses por desvío de fondos del Govern balear al Instituto Nóos (Urdangarin)"
+        },
+        {
+          "fecha": "2018",
+          "evento": "Acepta 10 meses adicionales por amaño en el hospital de Son Espases. Ingresa en Aranjuez para cumplir condena efectiva",
+          "fuente": "https://www.eldiario.es/politica/jaume-matas-sale-tercer-grado-diez-juicios-anos-medio-rejas-acusacion-pendiente_1_6184207.html"
+        },
+        {
+          "fecha": "2022-07-31",
+          "evento": "Sale en tercer grado tras 2 años y medio efectivos en prisión. Ninguna acusación pendiente"
+        }
+      ]
+    },
+    {
+      "id": "brugal",
+      "nombre": "Caso Brugal",
+      "partido": "PP",
+      "emoji": "🗑️",
+      "protagonistas": [
+        "Ángel Fenoll (empresario de residuos, denunciante y luego condenado)",
+        "Javier Morató (exalcalde de Calp, PP)",
+        "Luis Díaz Alperi (exalcalde de Alicante, PP)",
+        "Sonia Castedo (exalcaldesa de Alicante, PP)",
+        "Enrique Ortiz (constructor)"
+      ],
+      "descripcion": "Macrocausa de corrupción urbanística en la Comunidad Valenciana con unas 20 piezas separadas. Originada en Orihuela en 2009 a partir de grabaciones del empresario Ángel Fenoll sobre el amaño de la contrata de basuras. Las piezas se han saldado con resultados mixtos: condenas firmes en Calp (cohecho con comisiones para financiar al equipo de fútbol local) pero ABSOLUCIONES en las piezas más mediáticas (PGOU Alicante con Castedo y Alperi, y basuras de Orihuela) por anulación de las escuchas y falta de pruebas. La pieza Calp es la que sustenta la inclusión del caso.",
+      "juzgado": "Audiencia Provincial de Alicante / Tribunal Supremo",
+      "juez": "Varios (Orihuela, Alicante)",
+      "estado": "sentencia",
+      "importe_estimado": 745254,
+      "fecha_inicio": "2009",
+      "timeline": [
+        {
+          "fecha": "2007-03",
+          "evento": "La jueza de Orihuela autoriza las primeras escuchas tras recibir grabaciones del empresario Ángel Fenoll sobre el supuesto amaño de la contrata de basuras de Orihuela"
+        },
+        {
+          "fecha": "2009",
+          "evento": "Estalla públicamente el caso. Detenciones en Alicante. La macrocausa se ramifica en unas 20 piezas separadas que afectan a varios ayuntamientos del PP valenciano"
+        },
+        {
+          "fecha": "2018",
+          "evento": "Pieza PGOU Alicante: ABSUELTOS Sonia Castedo, Luis Díaz Alperi y Enrique Ortiz por falta de pruebas. Las escuchas son anuladas en esta pieza"
+        },
+        {
+          "fecha": "2019",
+          "evento": "Pieza basuras Orihuela: ABSUELTO Ángel Fenoll y otros por nulidad de las grabaciones que él mismo realizó"
+        },
+        {
+          "fecha": "2022-10-24",
+          "evento": "SENTENCIA Audiencia de Alicante - pieza basuras de Calp: condenas firmes para el exalcalde popular Javier Morató (2 años 6 meses), los exediles Panella y Roselló (2 años 6 meses cada uno) y el empresario Ángel Fenoll (2 años 1 día). Comisiones de 120 millones de pesetas en mordidas, parte para financiar al equipo de fútbol local",
+          "fuente": "https://www.eldiario.es/comunitat-valenciana/trama-basuras-calp-caso-brugal-745-254-euros-mordidas-algas-hinchar-facturas-control_1_9650544.html"
+        }
+      ]
+    },
+    {
+      "id": "faisan",
+      "nombre": "Caso Faisán / Chivatazo a ETA",
+      "partido": "PSOE",
+      "emoji": "🐦",
+      "protagonistas": [
+        "Enrique Pamies (exjefe Superior de Policía del País Vasco)",
+        "José María Ballesteros (inspector jefe de la Brigada de Información de Álava)",
+        "Joseba Elosua (dueño del bar Faisán de Irún, contacto del aparato de extorsión de ETA)"
+      ],
+      "descripcion": "El chivatazo policial que reventó una operación contra el aparato de extorsión de ETA durante el proceso de paz del Gobierno Zapatero. El 4 de mayo de 2006, dos altos mandos policiales avisaron al dueño del bar Faisán de Irún —contacto de la red que recaudaba el 'impuesto revolucionario' de ETA— de que iba a ser detenido. La operación se frustró. Pamies y Ballesteros fueron condenados por revelación de secretos pero ABSUELTOS del delito de colaboración con banda armada (limitación procesal: el Supremo no puede revocar una absolución por ese delito en casación). Caso que marcó profundamente el debate político.",
+      "juzgado": "Audiencia Nacional / Tribunal Supremo",
+      "juez": "Pablo Ruz (instrucción)",
+      "estado": "sentencia",
+      "importe_estimado": null,
+      "fecha_inicio": "2006-05",
+      "timeline": [
+        {
+          "fecha": "2006-05-04",
+          "evento": "CHIVATAZO en el bar Faisán de Irún: alguien avisa a Joseba Elosua (dueño del bar y contacto de la red de extorsión de ETA) de una operación policial inminente. La operación se frustra"
+        },
+        {
+          "fecha": "2007-2013",
+          "evento": "Investigación judicial larga y politizada. Se establece que Pamies, jefe Superior de Policía del País Vasco, ordenó a Ballesteros desplazarse a Irún para dar el aviso"
+        },
+        {
+          "fecha": "2013-04-11",
+          "evento": "La Audiencia Nacional acuerda juzgar a Pamies y Ballesteros por revelación de secretos y colaboración con banda armada",
+          "fuente": "https://www.eleconomista.es/legislacion/noticias/4741031/04/13/La-Audiencia-Nacional-juzgara-a-Pamies-y-Ballesteros-por-el-caso-Faisan.html"
+        },
+        {
+          "fecha": "2013",
+          "evento": "SENTENCIA Audiencia Nacional: condena a 1 año 6 meses + 4 años de inhabilitación por revelación de secretos. Absuelve del delito de colaboración con ETA"
+        },
+        {
+          "fecha": "2014-07-15",
+          "evento": "El Tribunal Supremo CONFIRMA la condena por revelación de secretos. Mantiene la absolución por colaboración con ETA por imposibilidad procesal (TEDH, TC, Supremo: no puede revocarse una absolución en casación). Voto particular del magistrado Colmenero defiende que sí hubo colaboración",
+          "fuente": "https://www.libertaddigital.com/espana/2014-07-15/el-supremo-confirma-las-condenas-a-pamies-y-ballesteros-por-el-caso-faisan-1276523845/"
+        },
+        {
+          "fecha": "2014",
+          "evento": "Al ser pena menor de 2 años y no tener antecedentes, no ingresan en prisión. Pero son expulsados del Cuerpo de Policía"
+        }
+      ]
+    },
+    {
+      "id": "pallerols",
+      "nombre": "Caso Pallerols / UDC",
+      "partido": "CDC/CiU",
+      "emoji": "🎓",
+      "protagonistas": [
+        "Fidel Pallerols (empresario andorrano)",
+        "Lluís Gavaldà (excargo UDC)",
+        "Vicenç Gavaldà (excargo UDC)",
+        "Josep Antoni Duran i Lleida (líder UDC, no condenado)"
+      ],
+      "descripcion": "Financiación ilegal de Unió Democràtica de Catalunya (UDC), socio de Convergència en la coalición CiU. El empresario andorrano Fidel Pallerols impartía desde 1994 cursos de formación a desempleados con subvenciones europeas y de la Generalitat (cerca de 9 millones de euros). El 10% de cada subvención se desviaba al partido. Sentencia de conformidad del TSJC en 2013: los acusados RECONOCIERON haber desviado 595.972€ y UDC fue declarada responsable civil. Es el primer partido catalán condenado por financiación ilegal. UDC se disolvió en 2017.",
+      "juzgado": "Tribunal Superior de Justicia de Cataluña",
+      "juez": "Varios",
+      "estado": "sentencia",
+      "importe_estimado": 595972,
+      "fecha_inicio": "2002",
+      "timeline": [
+        {
+          "fecha": "1994-2002",
+          "evento": "Hechos delictivos: Fidel Pallerols imparte cursos de formación a desempleados subvencionados por la UE y Generalitat (Conselleria de Trabajo). El 10% se desvía a UDC"
+        },
+        {
+          "fecha": "2002",
+          "evento": "Comienza la investigación judicial"
+        },
+        {
+          "fecha": "2000-2003",
+          "evento": "Josep Antoni Duran i Lleida (líder UDC) niega públicamente la financiación ilegal y promete dimitir si se prueba. No dimite cuando se prueba"
+        },
+        {
+          "fecha": "2013-01-10",
+          "evento": "SENTENCIA de conformidad del TSJC: los cuatro acusados (Pallerols, los hermanos Gavaldà y otro) RECONOCEN haber desviado 595.972,61€. UDC es declarada responsable civil. El partido paga la indemnización y multas",
+          "fuente": "https://www.vozbcn.com/2013/01/10/137087/unio-reconoce-beneficio-pallerols/"
+        },
+        {
+          "fecha": "2017-03-24",
+          "evento": "UDC se DISUELVE tras 86 años de historia, lastrada por el caso Pallerols y la ruptura con CDC sobre el procés"
+        }
+      ]
+    },
+    {
+      "id": "andratx",
+      "nombre": "Caso Andratx",
+      "partido": "PP",
+      "emoji": "🏘️",
+      "protagonistas": [
+        "Eugenio Hidalgo (exalcalde de Andratx, PP)",
+        "Jaume Massot (exdirector general de Territorio Govern balear, PP)",
+        "Jaume Gibert (excelador municipal de obras)"
+      ],
+      "descripcion": "El caso de corrupción urbanística más importante de Baleares. En noviembre de 2006 fueron detenidos el alcalde de Andratx (Mallorca) y el director general de Territorio del Govern balear, ambos del PP, por una trama generalizada de construcciones ilegales en suelo protegido a cambio de comisiones. La macrocausa se dividió en más de 70 piezas separadas, generando una treintena de condenas a lo largo de 11 años. Massot acumuló 8 años y medio de cárcel efectivos.",
+      "juzgado": "Audiencia Provincial de Palma",
+      "juez": "Varios",
+      "estado": "sentencia",
+      "importe_estimado": null,
+      "fecha_inicio": "2006-11",
+      "timeline": [
+        {
+          "fecha": "2006-11",
+          "evento": "DETENCIÓN: cae el alcalde de Andratx Eugenio Hidalgo (PP) y el director general de Territorio Jaume Massot (PP), por blanqueo de capitales y corrupción urbanística",
+          "fuente": "https://www.nbcnews.com/news/amp/wbna15920312"
+        },
+        {
+          "fecha": "2007-2017",
+          "evento": "La macrocausa se divide en más de 70 piezas separadas. Decenas de funcionarios municipales, promotores y arquitectos investigados por construcciones ilegales en suelo rústico protegido"
+        },
+        {
+          "fecha": "2010-2017",
+          "evento": "Treintena de sentencias condenatorias acumuladas por prevaricación urbanística, falsedad documental, delitos contra el medio ambiente y negociaciones prohibidas. Massot acumula 8,5 años de cárcel efectivos, Gibert 5 años"
+        },
+        {
+          "fecha": "2012-12-21",
+          "evento": "Condena emblemática a Massot: 1 año de prisión por permitir construcción ilegal en suelo protegido. Mientras tanto cumple ya condena en Palma por otras piezas",
+          "fuente": "https://www.ultimahora.es/noticias/local/2012/12/21/88403/massit-condenado-ano-prision-por-permitir-vivienda-ilegal-andratx.html"
+        },
+        {
+          "fecha": "2017-11",
+          "evento": "Último juicio de la macrocausa: condena de 3.600€ de multa a la arquitecta Isabel Seguí. Massot exonerado en esta pieza por retirada de la acusación"
+        }
+      ]
+    },
+    {
+      "id": "pokemon",
+      "nombre": "Operación Pokémon",
+      "partido": "PSOE",
+      "emoji": "💼",
+      "protagonistas": [
+        "Francisco Fernández Liñares (exconcejal de Urbanismo de Lugo, PSOE)",
+        "Pilar de Lara (jueza instructora)",
+        "Vendex (empresa de limpieza)",
+        "Cechalva (empresa de grúas)"
+      ],
+      "descripcion": "La mayor investigación por corrupción política destapada en Galicia. Comenzada en septiembre de 2012 por la jueza Pilar de Lara, llegó a imputar a cerca de un centenar de personas: políticos, funcionarios y directivos empresariales. Macrocausa con múltiples piezas, pero el balance final es magro: solo UN político condenado en firme, Francisco Fernández Liñares (PSOE), que confesó haber cobrado mordidas de Vendex y Cechalva para amañar contratos municipales. Muchas piezas archivadas por falta de pruebas. Cierre definitivo en 2024.",
+      "juzgado": "Audiencia Provincial de Lugo / Tribunal Supremo",
+      "juez": "Pilar de Lara (instrucción)",
+      "estado": "sentencia",
+      "importe_estimado": null,
+      "fecha_inicio": "2012-09",
+      "timeline": [
+        {
+          "fecha": "2012-09",
+          "evento": "Comienza la macrocausa por la jueza Pilar de Lara (juzgado nº1 de Lugo). Casi 100 imputados. Caen el alcalde de Ourense Francisco Rodríguez (PSOE) y el de Boqueixón Adolfo Gacio, que dimiten"
+        },
+        {
+          "fecha": "2021-03-10",
+          "evento": "SENTENCIA Audiencia de Lugo: Francisco Fernández Liñares (PSOE) condenado a 5 años de cárcel por cohecho y prevaricación. Confesó haber cobrado mordidas para amañar contratos",
+          "fuente": "https://es.wikipedia.org/wiki/Operaci%C3%B3n_Pok%C3%A9mon"
+        },
+        {
+          "fecha": "2022-07-20",
+          "evento": "Condena adicional: Liñares y responsables de Vendex condenados por amañar el contrato de la ORA de Lugo a cambio de sobornos"
+        },
+        {
+          "fecha": "2023-07-12",
+          "evento": "El Tribunal Supremo rebaja la condena a Liñares a 4 años de cárcel. Sentencia firme"
+        },
+        {
+          "fecha": "2024-06-24",
+          "evento": "Fin de la macrocausa: los últimos acusados ratifican sus pactos. Empresas como Cechalva condenadas solo a multas simbólicas y exclusión breve de contratos públicos"
+        },
+        {
+          "fecha": "2026-01-05",
+          "evento": "ARCHIVO de la pieza de Ourense que investigaba al exalcalde Francisco Rodríguez (PSOE) y otros. El Tribunal de Instancia concluye que no hay indicios de entregas reales de dinero"
+        }
+      ]
+    },
+    {
+      "id": "mercasevilla",
+      "nombre": "Caso Mercasevilla",
+      "partido": "PSOE",
+      "emoji": "🐟",
+      "protagonistas": [
+        "Fernando Mellet (exdirector general de Mercasevilla)",
+        "Daniel Ponce (exdirector financiero)",
+        "Empresarios del Grupo La Raza (extorsionados)"
+      ],
+      "descripcion": "El caso que dio origen al macrocaso de los EREs de Andalucía. En 2009 se grabaron dos directivos de Mercasevilla (empresa mixta del Ayuntamiento) pidiendo una mordida de 450.000€ a empresarios del Grupo La Raza a cambio de facilitarles negocios. La grabación destapó luego una red clientelar que desviaba fondos de la Junta de Andalucía vía prejubilaciones a personas que no eran trabajadoras de la empresa. Fernando Mellet, exdirector general, fue condenado por cohecho en 2012. Las piezas posteriores sobre venta de suelos y el ERE de Mercasevilla 2007 acabaron con absoluciones.",
+      "juzgado": "Audiencia Provincial de Sevilla",
+      "juez": "Mercedes Alaya (instrucción inicial)",
+      "estado": "sentencia",
+      "importe_estimado": 450000,
+      "fecha_inicio": "2009-01",
+      "timeline": [
+        {
+          "fecha": "2009-01",
+          "evento": "ORIGEN: dos directivos de Mercasevilla son grabados pidiendo 450.000€ de mordida a empresarios del Grupo La Raza"
+        },
+        {
+          "fecha": "2009-2011",
+          "evento": "La instrucción de la jueza Mercedes Alaya destapa la conexión con desvíos de fondos vía prejubilaciones fraudulentas. Nace el macrocaso de los EREs de Andalucía"
+        },
+        {
+          "fecha": "2012",
+          "evento": "SENTENCIA: Fernando Mellet (exdirector general) condenado por COHECHO por la mordida del Grupo La Raza",
+          "fuente": "https://www.esdiario.com/andalucia/210917/76853/trapicheos-psoe-andaluz-carcel-exdirector-mercasevilla.html"
+        },
+        {
+          "fecha": "2014",
+          "evento": "Pieza de venta de suelos: ABSUELTOS los exconcejales Antonio Rodrigo Torrijos (IU), Gonzalo Crespo (PSOE) y Mellet por la sala de lo penal nº13 de Sevilla. El tribunal concluye que no hubo quebranto patrimonial"
+        },
+        {
+          "fecha": "2021-09",
+          "evento": "Pieza del ERE de Mercasevilla 2007: ABSOLUCIÓN del exdirector general y otros nueve acusados por malversación de fondos públicos en prejubilaciones"
         }
       ]
     }
