@@ -1,0 +1,846 @@
+{
+  "meta": {
+    "generado": "2026-05-20T13:15:31",
+    "version": "2.0",
+    "contratos_analizados": 185553,
+    "menores": 114363,
+    "licitaciones": 71190,
+    "reglas": [
+      "Fraccionamiento: 3+ contratos mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
+      "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
+      "Patrón umbral: >40% menores de un órgano en franja sospechosa (mín 10)",
+      "Omnipresente: proveedor en 3+ órganos con contratos cerca del umbral (mín 5)"
+    ]
+  },
+  "stats": {
+    "total_flags": 33,
+    "por_tipo": {
+      "fraccionamiento": 15,
+      "concentracion": 3,
+      "patron_umbral": 13,
+      "omnipresente": 2
+    },
+    "severidad_alta": 20,
+    "severidad_media": 13
+  },
+  "flags": [
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 12,
+      "adjudicatario": "CENTRO RURAL JOVEN VIDA",
+      "organo": "Consejería de Salud y Servicios Sociales",
+      "num_contratos": 6,
+      "importe_total": 87280.0,
+      "importe_medio": 14546.67,
+      "umbral_legal": 15000,
+      "descripcion": "6 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 87,280€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "PRM/2026/0000027319",
+          "objeto": "Hogar Semiautónomo de 8 Plazas en la localidad de Cáceres, destinadas a Menores/Jóvenes pertenecientes al Sistema de Protección de la Comunidad Autónoma de Extremadura, para el periodo comprendido entre el 31 de marzo de 2026 al 18 de abril de 2026, ambos inclusive.",
+          "importe": 14440.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=fwCwawZO2n0IYE3ZiZ%2BxmQ%3D%3D"
+        },
+        {
+          "expediente": "PRM/2026/0000027418",
+          "objeto": "Contrato de 6 plazas en un hogar semiautónomo en la localidad de Badajoz, destinadas a menores/jóvenes pertenecientes al sistema de protección de la Comunidad Autónoma de Extremadura, para el periodo comprendido entre el 1 de abril de 2026 al 30 de abril de 2026, ambos inclusive.",
+          "importe": 14760.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=cMm%2BamDAWZ03vLk2DU2Ddg%3D%3D"
+        },
+        {
+          "expediente": "PRM/2026/0000027414",
+          "objeto": "Contrato de 8 plazas en un hogar semiautónomo en la localidad de Badajoz, destinadas a menores/jóvenes pertenecientes al sistema de protección de la Comunidad Autónoma de Extremadura, para el periodo comprendido entre el 31 de marzo de 2026 al 18 de abril de 2026, ambos inclusive.",
+          "importe": 14440.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=e694QpdTT9E36J9Lctlsuw%3D%3D"
+        },
+        {
+          "expediente": "PRM/2026/0000046033",
+          "objeto": "Hogar Semiautónomo de 8 Plazas en la localidad de Cáceres, destinadas a Menores/Jóvenes pertenecientes al Sistema de Protección de la Comunidad Autónoma de Extremadura, para el periodo comprendido entre el 19 de abril de 2026 al 7 de mayo de 2026, ambos inclusive.",
+          "importe": 14440.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=fnXVSkQ6B9rgL1BHd3qjQA%3D%3D"
+        },
+        {
+          "expediente": "PRM/2026/0000046143",
+          "objeto": "Contrato de 8 plazas en un hogar semiautónomo en la localidad de Badajoz, destinadas a menores/jóvenes pertenecientes al sistema de protección de la Comunidad Autónoma de Extremadura, para el periodo comprendido entre el 19 de abril de 2026 al 7 de mayo de 2026, ambos inclusive.",
+          "importe": 14440.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=i%2FEskdF7do5eKgd8LfVV9g%3D%3D"
+        },
+        {
+          "expediente": "PRM/2026/0000052182",
+          "objeto": "Contrato de 6 plazas en un hogar semiautónomo en la localidad de Badajoz, destinadas a menores/jóvenes pertenecientes al sistema de protección de la Comunidad Autónoma de Extremadura, para el periodo comprendido entre el 1 y 30 de mayo de 2026, ambos inclusive.",
+          "importe": 14760.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ZoH%2BSrAeiJNJ8Trn0ZPzLw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 12,
+      "adjudicatario": "Joaquín Ferrer y CIA S.L.",
+      "organo": "Órgano de Contratación de la Ciudad Autónoma de Ceuta",
+      "num_contratos": 6,
+      "importe_total": 89831.22,
+      "importe_medio": 14971.87,
+      "umbral_legal": 15000,
+      "descripcion": "6 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 89,831€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/29.156",
+          "objeto": "Contrato menor publicidad institucional medios radiofónicos Joaquín Ferrer y Cía S.L. (Cadena Cope) campaña: \"Todo más fácil con la sede electrónica -sede.ceuta.es-\".",
+          "importe": 14971.87,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=JRWrusIiccxVq4S9zvaQpQ%3D%3D"
+        },
+        {
+          "expediente": "2026/29.155",
+          "objeto": "Contrato menor publicidad institucional medios radiofónicos Joaquín Ferrer y Cía S.L. (Cadena Cope) campaña: \"No te la juegues. La compraventa de productos falsos tiene pena de cárcel\".",
+          "importe": 14971.87,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=uF3U8gA%2FUoNrhBlEHQFSKA%3D%3D"
+        },
+        {
+          "expediente": "2026/29.154 b",
+          "objeto": "Contrato menor publicidad institucional medios radiofónicos Joaquín Ferrer y Cía S.L. (Cadena Cope) campaña: \"La basura de tu negocio, grande o pequeña... siempre dentro del contenedor\".",
+          "importe": 14971.87,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=O3AJexndqiYtm4eBPtV6eQ%3D%3D"
+        },
+        {
+          "expediente": "2026/29.153",
+          "objeto": "Contrato menor publicidad institucional medios radiofónicos Joaquín Ferrer y Cía S.L. (Cadena Cope) campaña: \"Contra los incendios -en caso de emergencia llame al 112\".",
+          "importe": 14971.87,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=129mJ2byrEoXhk1FZxEyvw%3D%3D"
+        },
+        {
+          "expediente": "2026/29.152",
+          "objeto": "Contrato menor publicidad institucional medios radiofónicos Joaquín Ferrer y Cía S.L. (Cadena Cope) campaña: \"Playas sin humo -prohibido tirar colillas\".",
+          "importe": 14971.87,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=KnYKCVWc2VbE6P%2FuLemXRw%3D%3D"
+        },
+        {
+          "expediente": "2026/29.151",
+          "objeto": "Contrato menor publicidad institucional medios radiofónicos Joaquín Ferrer y Cía S.L. (Cadena Cope) campaña: \"Financiación de los costes de funcionamiento de la planta desalinizadora\".",
+          "importe": 14971.87,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=3CBzkXa8g9v%2Fa9DgO%2BoYKQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 12,
+      "adjudicatario": "MONSA URBANISMO S.L.",
+      "organo": "Junta de Gobierno del Ayuntamiento de Lugo",
+      "num_contratos": 5,
+      "importe_total": 65936.24,
+      "importe_medio": 13187.25,
+      "umbral_legal": 15000,
+      "descripcion": "5 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 65,936€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2025/C001/000972",
+          "objeto": "Contratación do servizo de redacción de proxecto de modificación do PEPRI no ámbito do ED 214A.",
+          "importe": 13549.04,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=rxB2UnI70Dq9Hd5zqvq9cg%3D%3D"
+        },
+        {
+          "expediente": "2025/C001/000967",
+          "objeto": "Contratación do servizo de redacción de proxecto de modificación do PXOM no ámbito do polígono de actuación PA-13.3.",
+          "importe": 12644.56,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=lDwYoaOlCYWKeVWTb9Scog%3D%3D"
+        },
+        {
+          "expediente": "2025/C001/000969",
+          "objeto": "Contratación do servizo de redacción de proxecto de modificación do PXOM no ámbito do Polígono C.",
+          "importe": 13549.04,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=CVJmPSlDY8NVq4S9zvaQpQ%3D%3D"
+        },
+        {
+          "expediente": "2025/C001/000976",
+          "objeto": "Contratación do servizo de redacción de proxecto de reparcelación do ámbito do PXOM  recollido como  polígono de actuación PA-8.1 e de expropiación dos terreos privados da rúa Rio Parga dende a rúa San Antonio cualificados como viario polo PXOM.",
+          "importe": 13549.04,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=MX1oRGzdtksIYE3ZiZ%2BxmQ%3D%3D"
+        },
+        {
+          "expediente": "2025/C001/000968",
+          "objeto": "Contratación do servizo de redacción de proxecto de modificación do PXOM no ámbito do polígono de actuación PA-13.2.",
+          "importe": 12644.56,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ss0%2B%2Bbb%2BqnZt5r0ngvMetA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 12,
+      "adjudicatario": "UNIPREX S.A.U.",
+      "organo": "Órgano de Contratación de la Ciudad Autónoma de Ceuta",
+      "num_contratos": 6,
+      "importe_total": 89831.22,
+      "importe_medio": 14971.87,
+      "umbral_legal": 15000,
+      "descripcion": "6 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 89,831€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/29.168",
+          "objeto": "Contrato menor publicidad institucional medios radiofónicos Uniprex S.A.U. (Onda Cero) campaña: \"Todo más fácil con la sede electrónica -sede.ceuta.es-\"",
+          "importe": 14971.87,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=JwXAmdVCmeyS81gZFETWmA%3D%3D"
+        },
+        {
+          "expediente": "2026/29.167",
+          "objeto": "Contrato menor publicidad institucional medios radiofónicos Uniprex S.A.U. (Onda Cero) campaña: \"No te la juegues. La compraventa de productos falsos tiene pena de cárcel\"",
+          "importe": 14971.87,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=xj0hurEtGmXE6P%2FuLemXRw%3D%3D"
+        },
+        {
+          "expediente": "2026/29.166",
+          "objeto": "Contrato menor publicidad institucional medios radiofónicos Uniprex S.A.U. (Onda Cero) campaña: \"La basura de tu negocio, grande o pequeña...siempre dentro del contenedor\"",
+          "importe": 14971.87,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=iJS2so%2FTbxydkQsA7ROvsg%3D%3D"
+        },
+        {
+          "expediente": "2026/29.165",
+          "objeto": "Contrato menor publicidad institucional medios radiofónicos Uniprex S.A.U. (Onda Cero) campaña: \"Contra los incendios -en caso de emergencia llame al 112\"",
+          "importe": 14971.87,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=NyItN1ubi5dq1DdmE7eaXg%3D%3D"
+        },
+        {
+          "expediente": "2026/29.164",
+          "objeto": "Contrato menor publicidad institucional medios radiofónicos Uniprex S.A.U. (Onda Cero) campaña: \"Playas sin humo -prohibido tirar colillas\"",
+          "importe": 14971.87,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=KAIlPESfm4fL1rX3q%2FMAPA%3D%3D"
+        },
+        {
+          "expediente": "2026/29.163",
+          "objeto": "Contrato menor publicidad institucional medios radiofónicos Uniprex S.A.U. (Onda Cero) campaña: \"Financiación de los costes de funcionamiento de la planta desalinizadora\".",
+          "importe": 14971.87,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=4AmPRBQdlho%2FbjW6njtWLw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 12,
+      "adjudicatario": "Sociedad Española Radiodifusión S.L.U.",
+      "organo": "Órgano de Contratación de la Ciudad Autónoma de Ceuta",
+      "num_contratos": 6,
+      "importe_total": 89831.22,
+      "importe_medio": 14971.87,
+      "umbral_legal": 15000,
+      "descripcion": "6 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 89,831€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/29.162",
+          "objeto": "Contrato publicidad institucional medios radiofónicos Sociedad Española Radiodifusión S.L.U. (Cadena Ser) campaña: \"Todo más fácil con la sede electrónica -sede.ceuta.es-\".",
+          "importe": 14971.87,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=hi%2FFp%2F6EdYX5Rey58Yagpg%3D%3D"
+        },
+        {
+          "expediente": "2026/29.161",
+          "objeto": "Contrato publicidad institucional medios radiofónicos Sociedad Española Radiodifusión S.L.U. (Cadena Ser) campaña: \"No te la juegues. La compraventa de productos falsos tiene pena de cárcel\".",
+          "importe": 14971.87,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=070HFl7mviFQFSeKCRun4Q%3D%3D"
+        },
+        {
+          "expediente": "2026/29.160",
+          "objeto": "Contrato publicidad institucional medios radiofónicos Sociedad Española Radiodifusión S.L.U. (Cadena Ser) campaña: \"La basura de tu negocio, grande o pequeña... siempre dentro del contenedor\".",
+          "importe": 14971.87,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=mcyhsmXLwLjCfVQHDepjGQ%3D%3D"
+        },
+        {
+          "expediente": "2026/29.159",
+          "objeto": "Contrato publicidad institucional medios radiofónicos Sociedad Española Radiodifusión S.L.U. (Cadena Ser) campaña: \"Contra los incendios -en caso de emergencia llame al 112\".",
+          "importe": 14971.87,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=D7cgA%2FA8xv1Whbmkna2nXQ%3D%3D"
+        },
+        {
+          "expediente": "2026/29.158",
+          "objeto": "Contrato publicidad institucional medios radiofónicos Sociedad Española Radiodifusión S.L.U. (Cadena Ser) campaña: \"Playas sin humo -prohibido tirar colillas\".",
+          "importe": 14971.87,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=F8A6IywPyd3%2B3JAijKO%2Bkg%3D%3D"
+        },
+        {
+          "expediente": "2026/29.157",
+          "objeto": "Contrato publicidad institucional medios radiofónicos Sociedad Española Radiodifusión S.L.U. (Cadena Ser) campaña: \"Financiación de los costes de funcionamiento de la planta desalinizadora\".",
+          "importe": 14971.87,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Hcfupvg175AaF6cS8TCh%2FA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 9,
+      "adjudicatario": "COSERCAN SOCIEDAD CIVIL",
+      "organo": "Gerencia de Atención Primaria del Area de Salud de Tenerife",
+      "num_contratos": 4,
+      "importe_total": 59973.2,
+      "importe_medio": 14993.3,
+      "umbral_legal": 15000,
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 59,973€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "61/M/25/SS/GE/M/0939",
+          "objeto": "Es para contar con material para llevar a cabo las reparaciones y mantenimientos y evitar dejar sin servicio las diferentes\r\ninstalaciones de los distintos Centros de Salud y Consultorios Locales dependiente de la Gerencia de Atención Primaria del Área de Salud Tenerife, cuando el material de las averías o reformas no depende de la empresa de mantenimiento.",
+          "importe": 14992.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XbLOZ9BbjIU3vLk2DU2Ddg%3D%3D"
+        },
+        {
+          "expediente": "61/M/25/SU/GE/M/0947",
+          "objeto": "El suministro de material para llevar a cabo las reparaciones y mantenimientos y evitar dejar sin servicio las diferentes instalaciones de los distintos Centros de Salud y Consultorios Locales dependiente de la Gerencia de Atención Primaria del Área de Salud Tenerife.",
+          "importe": 14998.2,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=PuFOh3NCrtScTfjQf3USOg%3D%3D"
+        },
+        {
+          "expediente": "61/M/25/SU/GE/M/0956",
+          "objeto": "Suministro de material de iluminación, específicamente PANELES LED destinados a los centros de salud y consultorios locales, dependientes de esta Gerencia.",
+          "importe": 14985.6,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XjD8xNluRZRVq4S9zvaQpQ%3D%3D"
+        },
+        {
+          "expediente": "61/M/25/SU/GE/M/0955",
+          "objeto": "Es para el suministro de material de iluminación específicamente DOWNLIGHTS, con el fin de disponer de unidades de reemplazo que permitan atender las necesidades de mantenimiento y renovación de la iluminación, garantizando la seguridad, el confort visual y el correcto funcionamiento de los Centros de Salud y Consultorios Locales dependientes de esta Gerencia de Atención Primaria de Tenerife.",
+          "importe": 14997.4,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=58SfPFL%2FwRRPpzdqOdhuWg%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 9,
+      "adjudicatario": "CARLOS BERMEJO S.L.",
+      "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
+      "num_contratos": 4,
+      "importe_total": 59996.0,
+      "importe_medio": 14999.0,
+      "umbral_legal": 15000,
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 59,996€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "20264600009",
+          "objeto": "Compra de productos ultramarinos para el Taller de Alimentación de preventivos del Centro Penitenciario de Valencia",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=kFSWwEA1AMZQFSeKCRun4Q%3D%3D"
+        },
+        {
+          "expediente": "20264600008",
+          "objeto": "Compra de productos de ultramarinos para el Taller de Alimentación de cumplimiento del Centro Penitenciario de Valencia",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=yQfUSZdcIUOP66GS%2BONYvQ%3D%3D"
+        },
+        {
+          "expediente": "20264600007",
+          "objeto": "Compra de productos congelados no centralizados para el Taller de Alimentación de preventivos del Centro Penitenciario de Valencia",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=NVMWYWkEKft%2BF6L2uCfUWg%3D%3D"
+        },
+        {
+          "expediente": "20264600006",
+          "objeto": "Compra de productos congelados no centralizados para el Taller de Alimentación de cumplimento del Centro Penitenciario de Valencia",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=8401g3dqYjrIGlsa0Wad%2Bw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 9,
+      "adjudicatario": "REPOSTERIA FLORYS VERGARA",
+      "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
+      "num_contratos": 4,
+      "importe_total": 59996.0,
+      "importe_medio": 14999.0,
+      "umbral_legal": 15000,
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 59,996€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "20251401010",
+          "objeto": "Adquisición de alimentos sin gluten y sin azúcar para el taller de alimentación del centro penitenciario de Córdoba.",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=nsQQrSgM451VkTabT%2FRM8A%3D%3D"
+        },
+        {
+          "expediente": "20251401009",
+          "objeto": "Adquisición de patatas, chi, sopas y varios para la elaboración del racionado de los internos en el taller de alimentación del centro penitenciario de Córdoba.",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=n3CW9sneOnWFlFRHfEzEaw%3D%3D"
+        },
+        {
+          "expediente": "20251401008",
+          "objeto": "Adquisición de materias primas para la elaboración del racionado de los internos en el taller de alimentación del centro penitenciario de Córdoba.",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=p9qv3w9wvnhWhbmkna2nXQ%3D%3D"
+        },
+        {
+          "expediente": "20251401007",
+          "objeto": "Adquisición de bebidas para el taller de alimentación del centro penitenciario de Córdoba.",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VzzeIDRPHdGLAncw3qdZkA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "BANANA PRODUCCIONES S.L.",
+      "organo": "Alcaldía del Ayuntamiento San Sebastián de la Gomera",
+      "num_contratos": 3,
+      "importe_total": 37781.7,
+      "importe_medio": 12593.9,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 37,782€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "1366/4-2025",
+          "objeto": "Producción Gato López y Sinkope Grupos para e concierto IIFestival Otoñal",
+          "importe": 13193.1,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=hDot%2FSCZculQFSeKCRun4Q%3D%3D"
+        },
+        {
+          "expediente": "2079/36-2025",
+          "objeto": "Ejecución de Cabalgata de Reyes 5 de enero 2025 de los barrios de Tecina y casco urbano de San Sebastián de La Gomera",
+          "importe": 12444.1,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9%2B4wFYUdjNTkY6rls5tG9A%3D%3D"
+        },
+        {
+          "expediente": "2079/27-2025",
+          "objeto": "Servicio de iluminación, efectos y sonido y rayder técnico para el espectáculo fin de año infantil, dentro de marco de las\r\nFiestas de Navidad en San Sebastián de La Gomera 2025 y campanadas en directo en la plaza",
+          "importe": 12144.5,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=eMj93eyxtDfyoM4us5k4vw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "SERVICIOS URBANOS DE LIMPIEZA Y ACONDICIONAMIENTO S.L.",
+      "organo": "Gerencia Sector Sanitario de Zaragoza 1",
+      "num_contratos": 3,
+      "importe_total": 44266.05,
+      "importe_medio": 14755.35,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 44,266€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "SAS_Z1-2026-MN21",
+          "objeto": "Servicio de limpieza CSLUNA  abril-agosto 2026",
+          "importe": 14828.19,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=bSQsUn2rzNrmnwcj%2BxbdTg%3D%3D"
+        },
+        {
+          "expediente": "SAS_Z1-2026-MN20",
+          "objeto": "Servicio de Limpieza de CSZUERA marz-abril 2026",
+          "importe": 14718.88,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=bjBU7vQFNCDECtSnloz%2BZQ%3D%3D"
+        },
+        {
+          "expediente": "SAS_Z1-2026-MN28",
+          "objeto": "Servicio de Limpieza de CSZUERA mayo-junio 2026",
+          "importe": 14718.98,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=zkPVIUMzaTf5Rey58Yagpg%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "AR Paisajes Jardineria y Forestal SL",
+      "organo": "Alcaldía del Ayuntamiento de Casares",
+      "num_contratos": 3,
+      "importe_total": 41407.3,
+      "importe_medio": 13802.43,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 41,407€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "5736/2025",
+          "objeto": "Servicio de Limpieza de Parcelas Municipales de Equipamiento Social, Docente y Deportiva de la UR-12",
+          "importe": 13420.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Fcyx0vsOxpV%2FR5QFTlaM4A%3D%3D"
+        },
+        {
+          "expediente": "3847/2024",
+          "objeto": "Contrato menor de servicios por acondicionamiento de jardineras de parada de taxis en Casares Costa",
+          "importe": 14120.7,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=sJcGpFUcz2Tua%2Fi14w%2FPLA%3D%3D"
+        },
+        {
+          "expediente": "3842/2024",
+          "objeto": "Contrato menor de servicios por el mantenimiento de jardines y rotondas en Casares Costa",
+          "importe": 13866.6,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=pGciz0srrdf10HRJw8TEnQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "ALTEN SOLUCIONES, PRODUCTOS, AUDITORIAS E INGENIERIA, S.A.U.",
+      "organo": "Secretaría General del Instituto de Salud Carlos III",
+      "num_contratos": 3,
+      "importe_total": 41712.68,
+      "importe_medio": 13904.23,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 41,713€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "ET0171/2021",
+          "objeto": "soporte y apoyo técnico a la formacion de la ENMT",
+          "importe": 13068.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SqmVCi%2BuGLGdkQsA7ROvsg%3D%3D"
+        },
+        {
+          "expediente": "ET0301/2021",
+          "objeto": "Servicio de apoyo virtual ENMT",
+          "importe": 13690.29,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Tx2eR79T0XF4zIRvjBVCSw%3D%3D"
+        },
+        {
+          "expediente": "SE0246/2020",
+          "objeto": "apoyo tecnológico docencia no presencial ENS",
+          "importe": 14954.39,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=pSYBbAkdm6PXOjazN1Dw9Q%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "MARMADUKE S.L.",
+      "organo": "Presidencia de la Diputación Provincial de Sevilla",
+      "num_contratos": 3,
+      "importe_total": 37026.0,
+      "importe_medio": 12342.0,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 37,026€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/000245-PeM",
+          "objeto": "contratación mediante procedimiento de contrato menor de seis actuaciones de la compañía one pac (música), para el programa cultural de la diputación de sevilla 2026  aprobado por resolución de la presidencia n.º 8773/2025, de 28 de  noviembre de 2025",
+          "importe": 12342.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=8WDpN8etT0q9Hd5zqvq9cg%3D%3D"
+        },
+        {
+          "expediente": "2026/000247-PeM",
+          "objeto": "contratación mediante procedimiento de contrato menor de seis actuaciones de la compañía  antonia ferrà (música), para el programa cultural de la diputación de sevilla 2026,   aprobado por resolución de la presidencia n.º 8773/2025, de 28 de  noviembre de 2025",
+          "importe": 12342.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=HQggLAA%2F52vCfVQHDepjGQ%3D%3D"
+        },
+        {
+          "expediente": "2026/000290-PeM",
+          "objeto": "Contratación mediante procedimiento de contrato menor de seis actuaciones de la compañía padilla siblings (música), para el programa cultural de la diputación de sevilla 2026",
+          "importe": 12342.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=LuHC5GcsN3stm4eBPtV6eQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "MEPABI SL",
+      "organo": "Concejalía Delegada del Área Específica de Turismo y Promoción de la Ciudad del Ayuntamiento de Málaga",
+      "num_contratos": 3,
+      "importe_total": 108384.14,
+      "importe_medio": 36128.05,
+      "umbral_legal": 40000,
+      "descripcion": "3 contratos menores de obras entre 32,000€ y 40,000€ del mismo proveedor al mismo órgano. Total: 108,384€ (supera el umbral de 40,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026000308/MEN/AYTO/OBR",
+          "objeto": "Ejecución de las Obras de Mejoras  de Eficiencia Energética de La Oficina Municipal de Turismo de Plaza de la Marina, en el municipio de Málaga",
+          "importe": 36949.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SdWJ3PNrYOasNfRW6APEDw%3D%3D"
+        },
+        {
+          "expediente": "2026000301/MEN/AYTO/OBR",
+          "objeto": "Ejecución de las obras necesarias para la reparación de la cubierta de la Oficina Municipal de Turismo de Plaza de la Marina, en el municipio de Málaga",
+          "importe": 35181.4,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=k1wmkoexEk02wEhQbcAqug%3D%3D"
+        },
+        {
+          "expediente": "2026000286/MEN/AYTO/OBR",
+          "objeto": "Ejecución de obras para reforma de interior de la redistribución funcional de espacios en la oficina municipal de turismo de Plaza de la Marina”",
+          "importe": 36253.74,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2B6zfQB1h0HZQFSeKCRun4Q%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "concentracion",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "adjudicatario": "VICARIO PALACIOS,Mª PILAR",
+      "organo": "Gerencia de Salud de Área de Burgos",
+      "contratos_proveedor": 66,
+      "contratos_totales": 69,
+      "porcentaje_contratos": 95.7,
+      "importe_proveedor": 34430.0,
+      "porcentaje_importe": 82.3,
+      "descripcion": "VICARIO PALACIOS,Mª PILAR gana 66 de 69 contratos (96%) del Gerencia de Salud de Área de Burgos, 34,430€ de 41,850€ (82%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "concentracion",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "adjudicatario": "CONSTRUCCIONES DIHOR, S.L.",
+      "organo": "Alcaldía del Ayuntamiento de Bergasillas Bajera",
+      "contratos_proveedor": 6,
+      "contratos_totales": 7,
+      "porcentaje_contratos": 85.7,
+      "importe_proveedor": 142963.62,
+      "porcentaje_importe": 91.1,
+      "descripcion": "CONSTRUCCIONES DIHOR, S.L. gana 6 de 7 contratos (86%) del Alcaldía del Ayuntamiento de Bergasillas Bajera, 142,964€ de 156,871€ (91%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "concentracion",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "adjudicatario": "INBONIS SA",
+      "organo": "Dirección General de Comercio Internacional e Inversiones",
+      "contratos_proveedor": 12,
+      "contratos_totales": 12,
+      "porcentaje_contratos": 100.0,
+      "importe_proveedor": 208362.0,
+      "porcentaje_importe": 100.0,
+      "descripcion": "INBONIS SA gana 12 de 12 contratos (100%) del Dirección General de Comercio Internacional e Inversiones, 208,362€ de 208,362€ (100%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "organo": "Alcaldía del Ayuntamiento de Arganda del Rey",
+      "contratos_en_franja": 6,
+      "contratos_totales": 10,
+      "porcentaje": 60.0,
+      "proveedores_distintos": 5,
+      "descripcion": "Alcaldía del Ayuntamiento de Arganda del Rey: 6 de 10 menores (60%) entre 12,000-15,000€. 5 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "organo": "Consejo Rector del Consorcio del Pacto Local por el Empleo de Castelló de la Plana",
+      "contratos_en_franja": 7,
+      "contratos_totales": 10,
+      "porcentaje": 70.0,
+      "proveedores_distintos": 7,
+      "descripcion": "Consejo Rector del Consorcio del Pacto Local por el Empleo de Castelló de la Plana: 7 de 10 menores (70%) entre 12,000-15,000€. 7 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "omnipresente",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "adjudicatario": "CRUZ ROJA ESPAÑOLA",
+      "num_organos": 5,
+      "num_contratos": 6,
+      "importe_total": 85009.2,
+      "organos": [
+        "Organismo Autónomo Madrid Salud",
+        "Junta de Gobierno Local del Ayuntamiento de Jerez",
+        "Junta de Gobierno Local del Ayuntamiento de Alcalá de Guadaíra",
+        "Alcaldía del Ayuntamiento de Crevillent",
+        "Alcaldía del Ayuntamiento de Dénia"
+      ],
+      "descripcion": "CRUZ ROJA ESPAÑOLA en 5 órganos distintos, todos en franja 12,000-15,000€. 6 contratos por 85,009€. Presencia sistemática justo bajo el umbral."
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 6,
+      "adjudicatario": "KOOXCENTER, S.L.",
+      "organo": "Alcaldía del Ayuntamiento de Casares",
+      "num_contratos": 4,
+      "importe_total": 52743.9,
+      "importe_medio": 13185.98,
+      "umbral_legal": 15000,
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 52,744€ (supera el umbral de 15,000€ que obligaría a licitar).",
+      "contratos": [
+        {
+          "expediente": "786/2026",
+          "objeto": "Animación y actividades - Carnaval Casares Pueblo",
+          "importe": 12426.7,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=x2WKIfpw5kgS7pcxhTeWOg%3D%3D"
+        },
+        {
+          "expediente": "1466/2025",
+          "objeto": "Contrato menor de servicios para la Animación y actividades Carnaval Casares.",
+          "importe": 14967.7,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XdBhuBzBuHbpxJFXpLZ%2B2A%3D%3D"
+        },
+        {
+          "expediente": "4675/2025",
+          "objeto": "Contrato menor de servicios para el Pasacalles Animagic casares",
+          "importe": 12100.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=xgcPIN0IjqoeC9GJQOEBkQ%3D%3D"
+        },
+        {
+          "expediente": "4595/2025",
+          "objeto": "Contrato menor de servicios para el Pasacalles feria Costa",
+          "importe": 13249.5,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ob97lEOFqoXECtSnloz%2BZQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Concejalías Delegadas del Ayuntamiento de Vega de San Mateo",
+      "contratos_en_franja": 7,
+      "contratos_totales": 15,
+      "porcentaje": 46.7,
+      "proveedores_distintos": 6,
+      "descripcion": "Concejalías Delegadas del Ayuntamiento de Vega de San Mateo: 7 de 15 menores (47%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Miembros Corporativos titulares de Áreas del Cabildo Insular de la Palma",
+      "contratos_en_franja": 6,
+      "contratos_totales": 14,
+      "porcentaje": 42.9,
+      "proveedores_distintos": 6,
+      "descripcion": "Miembros Corporativos titulares de Áreas del Cabildo Insular de la Palma: 6 de 14 menores (43%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Alcaldía del Ayuntamiento de Camas",
+      "contratos_en_franja": 6,
+      "contratos_totales": 13,
+      "porcentaje": 46.2,
+      "proveedores_distintos": 5,
+      "descripcion": "Alcaldía del Ayuntamiento de Camas: 6 de 13 menores (46%) entre 12,000-15,000€. 5 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Dirección General del Medio Natural de Canarias",
+      "contratos_en_franja": 4,
+      "contratos_totales": 10,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 4,
+      "descripcion": "Dirección General del Medio Natural de Canarias: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
+      "contratos_en_franja": 73,
+      "contratos_totales": 138,
+      "porcentaje": 52.9,
+      "proveedores_distintos": 60,
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 73 de 138 menores (53%) entre 12,000-15,000€. 60 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Gerencia del Consejo Insular de Aguas de Tenerife",
+      "contratos_en_franja": 4,
+      "contratos_totales": 10,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 4,
+      "descripcion": "Gerencia del Consejo Insular de Aguas de Tenerife: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Viceconsejería del Gabinete del Presidente del Gobierno de Canarias",
+      "contratos_en_franja": 6,
+      "contratos_totales": 14,
+      "porcentaje": 42.9,
+      "proveedores_distintos": 6,
+      "descripcion": "Viceconsejería del Gabinete del Presidente del Gobierno de Canarias: 6 de 14 menores (43%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Dirección General de Deportes Autóctonos del Gobierno de Canarias",
+      "contratos_en_franja": 6,
+      "contratos_totales": 12,
+      "porcentaje": 50.0,
+      "proveedores_distintos": 6,
+      "descripcion": "Dirección General de Deportes Autóctonos del Gobierno de Canarias: 6 de 12 menores (50%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Consejo de Administración del Parque Marítimo del Mediterráneo S.A.",
+      "contratos_en_franja": 5,
+      "contratos_totales": 10,
+      "porcentaje": 50.0,
+      "proveedores_distintos": 5,
+      "descripcion": "Consejo de Administración del Parque Marítimo del Mediterráneo S.A.: 5 de 10 menores (50%) entre 12,000-15,000€. 5 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Presidencia de Suministros de Agua La Oliva S.A.",
+      "contratos_en_franja": 6,
+      "contratos_totales": 13,
+      "porcentaje": 46.2,
+      "proveedores_distintos": 5,
+      "descripcion": "Presidencia de Suministros de Agua La Oliva S.A.: 6 de 13 menores (46%) entre 12,000-15,000€. 5 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Presidencia del Consorcio de Seguridad, Emergencia, Salvamento, Prevención y Extinción de Incendios de Lanzarote",
+      "contratos_en_franja": 12,
+      "contratos_totales": 27,
+      "porcentaje": 44.4,
+      "proveedores_distintos": 12,
+      "descripcion": "Presidencia del Consorcio de Seguridad, Emergencia, Salvamento, Prevención y Extinción de Incendios de Lanzarote: 12 de 27 menores (44%) entre 12,000-15,000€. 12 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "omnipresente",
+      "severidad": "media",
+      "emoji": "🟡",
+      "adjudicatario": "SOCIEDAD ESPAÑOLA DE RADIODIFUSIÓN S.L.U",
+      "num_organos": 4,
+      "num_contratos": 5,
+      "importe_total": 65448.37,
+      "organos": [
+        "Consejería de Industria, Comercio y Empleo de la Junta de Castilla y León",
+        "Gerencia de Servicios Sociales de la Junta de Castilla y León",
+        "Instituto para la Competitividad Empresarial de la Junta de Castilla y León",
+        "Instituto Tecnológico Agrario de Castilla y León"
+      ],
+      "descripcion": "SOCIEDAD ESPAÑOLA DE RADIODIFUSIÓN S.L.U en 4 órganos distintos, todos en franja 12,000-15,000€. 5 contratos por 65,448€. Presencia sistemática justo bajo el umbral."
+    }
+  ]
+}
