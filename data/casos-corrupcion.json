@@ -1,9 +1,9 @@
 {
   "meta": {
-    "version": "3.6.0",
+    "version": "3.7.0",
     "actualizado": "2026-05-20",
-    "total_casos": 47,
-    "nota": "Datos verificados con fuentes a mayo de 2026. FiscalizApp no es un medio: enlazamos fuentes para que cada ciudadano juzgue. v3.6.0: añadido Bloque 5 - casos pendientes recientes (Pequeño Nicolás, Montoro/Equipo Económico, Fiscal General García Ortiz).",
+    "total_casos": 53,
+    "nota": "Datos verificados con fuentes a mayo de 2026. FiscalizApp no es un medio: enlazamos fuentes para que cada ciudadano juzgue. v3.7.0: Bloque 6 final - PP histórico (Banesto), PSOE histórico (CESID), empresa pública (Defex), familia presidencial (Begoña Gómez, David Sánchez), entorno PP (González Amador).",
     "chascarrillos": [
       "Si la corrupción fuera deporte olímpico, España iría sobrada de medallas.",
       "«No tengo nada que ocultar» — frase que precede al 90% de las imputaciones.",
@@ -2107,6 +2107,298 @@
           "fecha": "2026-02-26",
           "evento": "El TS RATIFICA la condena al desestimar los incidentes de nulidad de la defensa y del Ministerio Fiscal. Sentencia FIRME",
           "fuente": "https://www.moncloa.com/2026/02/26/tribunal-sentencia-garcia-ortiz-3363224/"
+        }
+      ]
+    },
+    {
+      "id": "banesto",
+      "nombre": "Caso Banesto",
+      "partido": "Transversal",
+      "emoji": "🏦",
+      "protagonistas": [
+        "Mario Conde (expresidente Banesto 1987-1993)",
+        "Arturo Romaní (exvicepresidente Banesto)",
+        "Rafael Pérez Escolar (exconsejero)",
+        "Fernando Garro (exdirector general)",
+        "Jacques Hachuel (financiero)"
+      ],
+      "descripcion": "El mayor caso de delincuencia bancaria de la democracia. Mario Conde, expresidente de Banesto y figura icónica de la 'beautiful people' de los años 90, fue condenado por fraude contable de 501.200 millones de pesetas y agujero patrimonial de 605.000M. Operaciones investigadas: Cementeras, Oil Dor, Centro Comercial Concha Espina, Carburos Metálicos, Isolux. El Banco Central Hispano y otras entidades de la banca privada tuvieron que asumir el rescate. Detenido en diciembre 1994. La sentencia fue uno de los procesos económicos más largos de la historia judicial española.",
+      "juzgado": "Audiencia Nacional / Tribunal Supremo",
+      "juez": "Manuel García-Castellón (instrucción)",
+      "estado": "sentencia",
+      "importe_estimado": 3636000000,
+      "fecha_inicio": "1993-12",
+      "timeline": [
+        {
+          "fecha": "1993-12-28",
+          "evento": "El Banco de España interviene Banesto. Cese fulminante de Mario Conde y todo el consejo. Se descubre un agujero patrimonial de 605.000 millones de pesetas (3.636M€)"
+        },
+        {
+          "fecha": "1994-12-23",
+          "evento": "Mario Conde y Arturo Romaní INGRESAN en prisión preventiva en Alcalá-Meco, acusados de estafa"
+        },
+        {
+          "fecha": "1995-01-30",
+          "evento": "Salen de prisión preventiva tras depositar fianzas de 2.000 y 1.000 millones de pesetas respectivamente"
+        },
+        {
+          "fecha": "1997-12-01",
+          "evento": "Comienza el juicio oral en la Audiencia Nacional. Se prolongará dos años (hasta diciembre 1999)"
+        },
+        {
+          "fecha": "2000-03-31",
+          "evento": "SENTENCIA Audiencia Nacional: Mario Conde condenado a 10 años 2 meses por apropiación indebida, estafa y falsedad. Romaní a 13 años 8 meses, Pérez Escolar y Garro a 6 años, Lasarte y Hachuel absueltos",
+          "fuente": "https://es.wikipedia.org/wiki/Caso_Banesto"
+        },
+        {
+          "fecha": "2002-07-29",
+          "evento": "El Tribunal Supremo AUMENTA la pena de Conde a 20 años. Pérez Escolar pasa a 10 años. Hachuel y Lasarte condenados a 4 años cada uno (revocada absolución). Conde REINGRESA en prisión",
+          "fuente": "https://www.eleconomista.es/empresas-finanzas/noticias/7482773/04/16/Asi-fue-el-caso-Banesto-el-principio-del-fin-de-Mario-Conde.html"
+        },
+        {
+          "fecha": "2006-11",
+          "evento": "El Comité de Derechos Humanos de la ONU dictamina que España vulneró el Pacto de Derechos Civiles al no disponer de segunda instancia para revisar el agravamiento del Supremo (deja a salvo la sentencia)"
+        },
+        {
+          "fecha": "2010",
+          "evento": "Mario Conde sale de prisión tras cumplir condena. Posteriormente investigado por blanqueo en otra causa"
+        }
+      ]
+    },
+    {
+      "id": "cesid-perote",
+      "nombre": "Caso CESID / Escuchas ilegales",
+      "partido": "PSOE",
+      "emoji": "🎧",
+      "protagonistas": [
+        "Emilio Alonso Manglano (director CESID 1981-1995)",
+        "Juan Alberto Perote (coronel, ex jefe AOME del CESID)",
+        "Narcís Serra (vicepresidente Gobierno, cesado por el caso)",
+        "Julián García Vargas (ministro Defensa, cesado por el caso)"
+      ],
+      "descripcion": "El escándalo de espionaje que precipitó la crisis final del felipismo. El Centro Superior de Información de la Defensa (CESID) interceptaba y grababa desde 1984, sin cobertura legal, conversaciones de políticos, empresarios, periodistas e incluso del Rey Juan Carlos I, cubriendo el 30% del área de Madrid. El coronel Perote, tras ser cesado por Manglano, se vengó llevándose miles de documentos que filtró a El Mundo en junio de 1995. El escándalo obligó a dimitir al director del CESID, al ministro de Defensa Julián García Vargas y al vicepresidente Narcís Serra, hombre fuerte de Felipe González.",
+      "juzgado": "Audiencia Provincial de Madrid",
+      "juez": "Perfecto Andrés Ibáñez (ponente)",
+      "estado": "sentencia",
+      "importe_estimado": null,
+      "fecha_inicio": "1995-06",
+      "timeline": [
+        {
+          "fecha": "1995-06-12",
+          "evento": "El Mundo publica que 'el CESID lleva más de 10 años espiando y grabando a políticos, empresarios y periodistas'. Aparecen grabaciones del Rey Juan Carlos I, los ministros Fernández Ordóñez y Barrionuevo, el empresario Ramón Mendoza (Real Madrid), Ruiz-Mateos, y los periodistas Ansón y Campmany",
+          "fuente": "https://es.ara.cat/politica/1995-espionaje-caer-vicepresidentes-ministros_129_4344303.html"
+        },
+        {
+          "fecha": "1995-06-15",
+          "evento": "Manglano DIMITE como director del CESID tras 14 años en el cargo. Cesan también el ministro de Defensa Julián García Vargas y el vicepresidente Narcís Serra"
+        },
+        {
+          "fecha": "1995-1999",
+          "evento": "Instrucción judicial larga y politizada. El PSOE intenta criminalizar a Perote por filtrar documentos clasificados como 'delito de traición'"
+        },
+        {
+          "fecha": "1999-05",
+          "evento": "SENTENCIA Audiencia Provincial Madrid (ponente Perfecto Andrés Ibáñez): Manglano y Perote condenados a 6 meses de arresto + 8 años de inhabilitación. Otros 5 agentes a 4 meses prisión + 6 años inhabilitación. Indemnización a Pablo Castellano (IU) y Ruiz-Mateos como espiados",
+          "fuente": "https://lahemerotecadelbuitre.com/piezas/la-sentencia-por-las-escuchas-ilegales-del-cesid-sentencia-a-leves-condenas-al-general-manglano-y-el-coronel-perote/"
+        },
+        {
+          "fecha": "2002-2004",
+          "evento": "Sentencias posteriores en piezas relacionadas: caso Vitoria (escuchas a Herri Batasuna 1998). Manglano absuelto por el Supremo. La justicia nunca condena de manera contundente el espionaje masivo del CESID"
+        },
+        {
+          "fecha": "2013-07-08",
+          "evento": "Fallece Emilio Alonso Manglano a los 87 años en Madrid"
+        }
+      ]
+    },
+    {
+      "id": "defex",
+      "nombre": "Caso Defex",
+      "partido": "Transversal",
+      "emoji": "🔫",
+      "protagonistas": [
+        "Manuel I.S. (exdirector comercial de Defex)",
+        "Defex (empresa semipública de armamento)",
+        "SEPI (accionista mayoritaria, empresa pública)"
+      ],
+      "descripcion": "Sobornos sistemáticos en exportaciones de armas. La empresa semipública española Defex (controlada por SEPI) pagaba comisiones y dádivas a autoridades extranjeras para asegurarse contratos de suministro de material de defensa. Macrocausa con varias piezas: Camerún, Angola, Arabia Saudí. La primera pieza (Camerún 2005-2013) condenó al director comercial pero ABSOLVIÓ a la empresa por 'suerte legal': la responsabilidad penal de las sociedades mercantiles estatales no existía en el Código Penal hasta la reforma de 2015. La pieza Angola (152M€ adjudicaciones) sigue en curso con 27 personas y 3 sociedades a juicio.",
+      "juzgado": "Audiencia Nacional",
+      "juez": "José de la Mata (instrucción)",
+      "estado": "sentencia",
+      "importe_estimado": 152000000,
+      "fecha_inicio": "2014",
+      "timeline": [
+        {
+          "fecha": "2014",
+          "evento": "Comienza la investigación judicial sobre las irregularidades de Defex en exportación de armamento. La instrucción detecta sobornos a autoridades de Camerún, Angola y Arabia Saudí"
+        },
+        {
+          "fecha": "2019-03",
+          "evento": "El juez De la Mata cierra la instrucción de la pieza ANGOLA: envía a juicio a 27 personas y 3 sociedades por venta irregular de armas por valor de más de 152M€. La Fiscalía pide multas de hasta 315M€ a Defex"
+        },
+        {
+          "fecha": "2023-02-24",
+          "evento": "SENTENCIA pieza CAMERÚN: condenado el exdirector comercial Manuel I.S. a 2 años de prisión por cohecho y falsedad. La empresa Defex ABSUELTA por 'suerte legal' (los hechos son anteriores a 2015, cuando se introdujo la responsabilidad penal de sociedades estatales)",
+          "fuente": "https://www.poderjudicial.es/cgpj/es/Poder-Judicial/Audiencia-Nacional/Oficina-de-Comunicacion/Notas-de-prensa/La-Audiencia-Nacional-absuelve-a-Defex-por-las-adjudicaciones-en-Camerun-y-condena-a-dos-anos-de-carcel-a-su-exdirector-comercial"
+        },
+        {
+          "fecha": "2024-2025",
+          "evento": "Continúa el juicio de las piezas Angola y Arabia Saudí. Defex llegó a pagar 'operaciones de estética' a cambio de contratos según los hechos probados"
+        }
+      ]
+    },
+    {
+      "id": "begona-gomez",
+      "nombre": "Caso Begoña Gómez",
+      "partido": "PSOE",
+      "emoji": "🎓",
+      "protagonistas": [
+        "Begoña Gómez Fernández (esposa del presidente Pedro Sánchez)",
+        "Cristina Álvarez (asesora de Begoña Gómez en Moncloa)",
+        "Juan Carlos Barrabés (empresario beneficiado)",
+        "Joaquín Goyache (rector UCM)"
+      ],
+      "descripcion": "Investigación al entorno familiar del presidente del Gobierno. Begoña Gómez, esposa de Pedro Sánchez, está procesada por tráfico de influencias, corrupción en los negocios, malversación de caudales públicos y apropiación indebida. La causa central: la creación de la Cátedra de Transformación Social Competitiva (TSC) en la UCM, donde supuestamente se aprovechó de su posición como esposa del presidente para captar patrocinadores y contrataciones, registrando además la marca TSC a su nombre. La asesora Cristina Álvarez, pagada con salario público, le asistía en actividades privadas. La causa provocó los cinco días de reflexión de Sánchez en abril de 2024 sobre su posible dimisión.",
+      "juzgado": "Juzgado de Instrucción nº41 de Madrid",
+      "juez": "Juan Carlos Peinado",
+      "estado": "instruccion",
+      "importe_estimado": 8400000,
+      "fecha_inicio": "2024-04",
+      "timeline": [
+        {
+          "fecha": "2024-04-16",
+          "evento": "El juez Juan Carlos Peinado admite a trámite la denuncia del sindicato ultraderechista Manos Limpias contra Begoña Gómez por tráfico de influencias y corrupción en los negocios"
+        },
+        {
+          "fecha": "2024-04-24",
+          "evento": "Pedro Sánchez anuncia que cancela su agenda durante 5 días para 'reflexionar' sobre si dimite. El 29 de abril decide 'seguir, con más fuerza'",
+          "fuente": "https://diariodecuyo.com.ar/cartasdellector/la-mujer-del-presidente-de-espana-se-niega-a-declarar-en-un-caso-de-corrupcion-1640414.html"
+        },
+        {
+          "fecha": "2024-07-05",
+          "evento": "PRIMERA DECLARACIÓN JUDICIAL: Begoña Gómez comparece ante el juez Peinado y se acoge al derecho a no declarar. Su abogado es el exministro del Interior Antonio Camacho"
+        },
+        {
+          "fecha": "2024-12-18",
+          "evento": "Tercera citación: declara sobre apropiación indebida e intrusismo profesional. Dos días después declara su asesora Cristina Álvarez"
+        },
+        {
+          "fecha": "2025-02-19",
+          "evento": "Juan Carlos Doadrio (exvicerrector UCM) declara en la Asamblea de Madrid que el rector Joaquín Goyache le dijo: 'Tenemos que crear una cátedra para Begoña Gómez, la esposa del presidente'"
+        },
+        {
+          "fecha": "2025-09-29",
+          "evento": "La IGAE (Hacienda) informa a la Fiscalía Europea de fraude de ley y discriminación en contratos por 8,4M€ adjudicados a la UTE de Barrabés por la empresa pública Red.es"
+        },
+        {
+          "fecha": "2026-04-13",
+          "evento": "EL JUEZ PEINADO PROCESA a Begoña Gómez por tráfico de influencias, corrupción en los negocios, malversación de caudales públicos y apropiación indebida. También procesados Cristina Álvarez y Juan Carlos Barrabés. Cierra la instrucción. Camino al juicio oral",
+          "fuente": "https://www.infobae.com/espana/2026/04/13/el-juez-peinado-procesa-a-begona-gomez-por-trafico-de-influencias-corrupcion-en-los-negocios-malversacion-de-caudales-publicos-y-apropiacion-indebida/"
+        }
+      ]
+    },
+    {
+      "id": "david-sanchez",
+      "nombre": "Caso David Sánchez / Diputación Badajoz",
+      "partido": "PSOE",
+      "emoji": "🎼",
+      "protagonistas": [
+        "David Sánchez Pérez-Castejón / 'David Azagra' (hermano del presidente)",
+        "Miguel Ángel Gallardo (expresidente Diputación Badajoz, exsecretario general PSOE Extremadura)",
+        "Antonio Garrote Ledesma (exdiputado provincial, alcalde de Monesterio)"
+      ],
+      "descripcion": "Investigación sobre la contratación irregular del hermano del presidente Pedro Sánchez por la Diputación de Badajoz, gobernada por el PSOE. En julio de 2017 David Sánchez fue contratado como Coordinador de Actividades de los Conservatorios de Música, plaza que según la investigación se habría creado a su medida. Pese a exigirse 'plena dedicación' en Badajoz, apenas tenía despacho físico y solicitó el teletrabajo desde Lisboa. Sus funciones derivaron al proyecto 'Ópera Joven' del presidente Gallardo. Primer familiar directo de un presidente del Gobierno que va a juicio por corrupción en democracia. Juicio oral programado para mayo-junio de 2026.",
+      "juzgado": "Audiencia Provincial de Badajoz",
+      "juez": "Beatriz Biedma (instrucción)",
+      "estado": "juicio_oral",
+      "importe_estimado": null,
+      "fecha_inicio": "2024",
+      "timeline": [
+        {
+          "fecha": "2017-07",
+          "evento": "David Sánchez Pérez-Castejón es contratado por la Diputación de Badajoz (PSOE) como Coordinador de Actividades de los Conservatorios de Música. El contrato lo firma el diputado provincial Antonio Garrote Ledesma"
+        },
+        {
+          "fecha": "2017-07-26",
+          "evento": "Email revelador: David Sánchez escribe a un conocido 'me voy a trasladar a trabajar a Badajoz', dando por hecha su contratación antes de que se haya formalizado"
+        },
+        {
+          "fecha": "2022",
+          "evento": "El puesto es modificado para denominarse 'Jefe de la Oficina de Artes Escénicas'. David Sánchez teletrabaja desde Lisboa pese a la exigencia contractual de 'plena dedicación' en Badajoz"
+        },
+        {
+          "fecha": "2024",
+          "evento": "Manos Limpias presenta denuncia. Comienza la investigación judicial por prevaricación administrativa y tráfico de influencias"
+        },
+        {
+          "fecha": "2024-07",
+          "evento": "La UCO de la Guardia Civil registra la Diputación de Badajoz e incauta documentación del proceso de contratación"
+        },
+        {
+          "fecha": "2025-04-25",
+          "evento": "David Sánchez declara como investigado en el Juzgado de Instrucción nº3 de Badajoz",
+          "fuente": "https://www.infobae.com/espana/2025/05/19/del-contrato-a-la-investigacion-claves-del-caso-del-hermano-de-pedro-sanchez/"
+        },
+        {
+          "fecha": "2025-11-24",
+          "evento": "La Audiencia Provincial de Badajoz desestima los recursos de los investigados. CONFIRMA la apertura de juicio oral por prevaricación administrativa y tráfico de influencias contra David Sánchez, Gallardo y otros 9 acusados",
+          "fuente": "https://www.cope.es/emisoras/extremadura/noticias/audiencia-badajoz-avala-investigacion-hermano-pedro-sanchez-ve-indicios-prevaricacion-20251124_3258504.html"
+        },
+        {
+          "fecha": "2026-05-28",
+          "evento": "JUICIO ORAL programado para el 28 de mayo - 4 de junio de 2026 en la Audiencia Provincial de Badajoz. Primer familiar directo de un presidente del Gobierno juzgado por corrupción en democracia"
+        }
+      ]
+    },
+    {
+      "id": "gonzalez-amador",
+      "nombre": "Caso González Amador",
+      "partido": "Otros",
+      "emoji": "🧾",
+      "protagonistas": [
+        "Alberto González Amador (empresario, pareja sentimental de Isabel Díaz Ayuso)",
+        "Carlos Neira (su abogado)",
+        "Daniel Alcázar (socio en Priviet Sportive)"
+      ],
+      "descripcion": "El caso del 'novio comisionista' que destapó la guerra entre la Fiscalía y el Gobierno de Ayuso. González Amador, empresario y pareja de la presidenta madrileña, está procesado por dos delitos fiscales (350.091€ defraudados a Hacienda), falsedad documental, delito contable continuado y pertenencia a organización criminal. Origen: facturas falsas para reducir tributación en operaciones de venta de mascarillas durante la pandemia que le reportaron 2M€. Su abogado ofreció a la Fiscalía un pacto de conformidad en febrero de 2024 — el correo que el Fiscal General fue luego condenado por filtrar. La causa sigue su curso en paralelo a la del Fiscal General.",
+      "juzgado": "Juzgado de Instrucción nº19 de Madrid",
+      "juez": "María Inmaculada Iglesias → Carmen Rodríguez Medel",
+      "estado": "juicio_oral",
+      "importe_estimado": 350091,
+      "fecha_inicio": "2024-02",
+      "timeline": [
+        {
+          "fecha": "2020-2021",
+          "evento": "González Amador, a través de Priviet Sportive y Maxwell Cremona, factura por intermediación en venta de mascarillas durante la pandemia y obtiene unos 2M€. Hacienda detecta facturas falsas para reducir la base imponible"
+        },
+        {
+          "fecha": "2023",
+          "evento": "Inspección de Hacienda concluye fraude por 350.091€. La Fiscalía inicia diligencias previas por dos delitos fiscales"
+        },
+        {
+          "fecha": "2024-02-02",
+          "evento": "El abogado Carlos Neira envía a la Fiscalía un correo proponiendo pacto de conformidad: González Amador reconocería dos delitos fiscales para evitar el juicio (la filtración de este correo costará el cargo al Fiscal General García Ortiz)"
+        },
+        {
+          "fecha": "2024-03",
+          "evento": "El caso salta a la opinión pública por filtraciones a la prensa. Ayuso habla de 'persecución política'"
+        },
+        {
+          "fecha": "2025-08-28",
+          "evento": "La jueza Inmaculada Iglesias PROCESA a González Amador por dos delitos de fraude fiscal en concurso con falsedad documental"
+        },
+        {
+          "fecha": "2025-09-22",
+          "evento": "AUTO DE APERTURA DE JUICIO ORAL: la jueza Rodríguez Medel imputa adicionalmente pertenencia a organización criminal. Se enfrenta a casi 4 años de cárcel",
+          "fuente": "https://www.infobae.com/espana/2025/09/22/la-jueza-abre-juicio-oral-a-alberto-gonzalez-amador-novio-de-ayuso-por-presunto-fraude-fiscal-delito-continuado-contable-y-pertenencia-a-organizacion-criminal/"
+        },
+        {
+          "fecha": "2025-11-13",
+          "evento": "El Tribunal Supremo CONDENA al Fiscal General García Ortiz por revelar el correo del 2-feb-2024 de González Amador (caso conexo)"
+        },
+        {
+          "fecha": "2026",
+          "evento": "Pendiente de fijar fecha de juicio oral en el procedimiento principal"
         }
       ]
     }
