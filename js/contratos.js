@@ -39,40 +39,121 @@ window.searchContracts = function(query) {
 
 window.setFilter = function(filter) {
   currentFilter = filter;
-  document.querySelectorAll(".cstat").forEach(function(el) {
-    if (el.dataset.filter === filter) {
-      el.style.outline = "2px solid #e63946";
-      el.style.outlineOffset = "-2px";
-      el.style.background = "rgba(230,57,70,0.08)";
-    } else {
-      el.style.outline = "none";
-      el.style.background = "";
-    }
-  });
   window.renderFlags();
 };
+
+// Diccionario de etiquetas + tooltips por filtro
+var FILTER_META = {
+  todos: { tooltip: "Todas las banderas rojas detectadas. Pulsa cualquier otra para filtrar por tipo." },
+  alta:  { tooltip: "Banderas de severidad alta: patrones muy difíciles de justificar como contratación regular." },
+  media: { tooltip: "Banderas de severidad media: anomalías estadísticas que merecen mirada atenta." },
+  fraccionamiento: { tooltip: "Varios contratos seguidos al mismo proveedor por importes justo bajo el umbral, evitando licitación pública." },
+  concentracion: { tooltip: "Una entidad concentra una parte desproporcionada de los contratos de un órgano." },
+  negociado_reiterado: { tooltip: "3+ contratos sin licitación pública al mismo proveedor. Adjudicación a dedo reiterada." },
+  umbral_europeo: { tooltip: "Contratos justo por debajo del umbral europeo (~140K€) para evitar supervisión UE." }
+};
+
+// Construye una stat card con el patrón unificado (clickable, tooltip, active)
+function contractStatCard(icon, val, label, filter, sublabel) {
+  var meta = FILTER_META[filter] || {};
+  var isActive = currentFilter === filter;
+  var title = (meta.tooltip || "") + (isActive ? " (filtro activo)" : "");
+  return '<div class="stat-card clickable' + (isActive ? ' active' : '') + '" ' +
+    'data-filter="' + filter + '" ' +
+    'title="' + title.replace(/"/g, '&quot;') + '" ' +
+    'onclick="window.setFilter(\'' + filter + '\')">' +
+    '<div class="stat-icon">' + icon + '</div>' +
+    '<div class="stat-value">' + val + '</div>' +
+    '<div class="stat-label">' + label + '</div>' +
+    (sublabel ? '<div class="stat-sublabel">' + sublabel + '</div>' : '') +
+    '</div>';
+}
+function contractInfoCard(icon, val, label, title) {
+  return '<div class="stat-card" title="' + (title||'').replace(/"/g, '&quot;') + '">' +
+    '<div class="stat-icon">' + icon + '</div>' +
+    '<div class="stat-value">' + val + '</div>' +
+    '<div class="stat-label">' + label + '</div></div>';
+}
+
+// Pinta o repinta las 7 stats de contratos. Si hay filtro activo, se recalculan los totales
+// desde el subconjunto filtrado para que la card "Banderas rojas" muestre el total visible.
+function renderContractStats(allFlagsLocal, statsMeta, fmeta) {
+  var statsContainer = document.getElementById("contract-stats");
+  if (!statsContainer) return;
+
+  // Si hay filtro activo o búsqueda, las cifras de la card "todos" muestran "X / Y"
+  var hayFiltro = currentFilter !== "todos" || contractSearchTerms.length > 0;
+  var totalFlags = statsMeta.total_flags || allFlagsLocal.length;
+  var tc = statsMeta.por_tipo || {};
+  var totalAltaAbs = statsMeta.severidad_alta || 0;
+  var totalMediaAbs = (statsMeta.severidad_media != null) ? statsMeta.severidad_media : (totalFlags - totalAltaAbs);
+
+  // Recalcula desde el conjunto visible (filtrado por currentFilter + search)
+  var visible = filtrarFlagsActual(allFlagsLocal);
+  var visibleAlta = visible.filter(function(f){return f.severidad==='alta';}).length;
+  var visibleTipo = {};
+  visible.forEach(function(f){ visibleTipo[f.tipo] = (visibleTipo[f.tipo]||0) + 1; });
+
+  var html = "";
+  html += contractInfoCard("📋", (fmeta.menores||0)+(fmeta.licitaciones||0), "Analizados",
+    "Total de contratos descargados de la PLACSP y procesados por los detectores.");
+  html += contractStatCard("🚩",
+    hayFiltro ? (visible.length + " / " + totalFlags) : totalFlags,
+    "Banderas rojas", "todos",
+    hayFiltro ? "Pulsa para ver todas" : "Pulsa para resetear");
+  html += contractStatCard("🔴",
+    hayFiltro ? (visibleAlta + " / " + totalAltaAbs) : totalAltaAbs,
+    "Sev. alta", "alta",
+    currentFilter === "alta" ? "Filtro activo" : "Pulsa para filtrar");
+  html += contractStatCard("✂️",
+    hayFiltro ? ((visibleTipo.fraccionamiento||0) + " / " + (tc.fraccionamiento||0)) : (tc.fraccionamiento||0),
+    "Fraccionamiento", "fraccionamiento",
+    currentFilter === "fraccionamiento" ? "Filtro activo" : "Pulsa para filtrar");
+  html += contractStatCard("🎯",
+    hayFiltro ? ((visibleTipo.concentracion||0) + " / " + (tc.concentracion||0)) : (tc.concentracion||0),
+    "Concentración", "concentracion",
+    currentFilter === "concentracion" ? "Filtro activo" : "Pulsa para filtrar");
+  html += contractStatCard("🤝",
+    hayFiltro ? ((visibleTipo.negociado_reiterado||0) + " / " + (tc.negociado_reiterado||0)) : (tc.negociado_reiterado||0),
+    "Negociado", "negociado_reiterado",
+    currentFilter === "negociado_reiterado" ? "Filtro activo" : "Pulsa para filtrar");
+  html += contractStatCard("🇪🇺",
+    hayFiltro ? ((visibleTipo.umbral_europeo||0) + " / " + (tc.umbral_europeo||0)) : (tc.umbral_europeo||0),
+    "Umbral UE", "umbral_europeo",
+    currentFilter === "umbral_europeo" ? "Filtro activo" : "Pulsa para filtrar");
+  statsContainer.innerHTML = html;
+}
+
+// Calcula el subconjunto visible según currentFilter + contractSearchTerms
+function filtrarFlagsActual(arr) {
+  var f = arr;
+  if (currentFilter === "alta") f = f.filter(function(x){ return x.severidad === "alta"; });
+  else if (currentFilter === "media") f = f.filter(function(x){ return x.severidad === "media"; });
+  else if (FLAG_TIPOS[currentFilter]) f = f.filter(function(x){ return x.tipo === currentFilter; });
+  if (contractSearchTerms.length > 0) {
+    f = f.filter(function(x) {
+      if (!x._buscable) {
+        var text = [x.descripcion||"", x.organo||"", x.adjudicatario||"", x.tipo||"", x.cpv||"", x.expediente||""].join(" ");
+        if (x.contratos) x.contratos.forEach(function(c){ text += " " + (c.objeto||"") + " " + (c.expediente||"") + " " + (c.adjudicatario||"") + " " + (c.organo||""); });
+        if (x.organos) text += " " + x.organos.join(" ");
+        if (x.adjudicatarios) text += " " + x.adjudicatarios.join(" ");
+        x._buscable = normalizarBusquedaContratos(text);
+      }
+      return contractSearchTerms.every(function(p){ return x._buscable.indexOf(p) !== -1; });
+    });
+  }
+  return f;
+}
 
 window.renderFlags = function() {
   var container = document.getElementById("flags-container");
   if (!container) return;
 
-  var filtered = allFlags;
-  if (currentFilter === "alta") filtered = allFlags.filter(function(f){ return f.severidad === "alta"; });
-  else if (currentFilter === "media") filtered = allFlags.filter(function(f){ return f.severidad === "media"; });
-  else if (FLAG_TIPOS[currentFilter]) filtered = allFlags.filter(function(f){ return f.tipo === currentFilter; });
+  var filtered = filtrarFlagsActual(allFlags);
 
-  if (contractSearchTerms.length > 0) {
-    filtered = filtered.filter(function(f) {
-      if (!f._buscable) {
-        var text = [f.descripcion||"", f.organo||"", f.adjudicatario||"", f.tipo||"", f.cpv||"", f.expediente||""].join(" ");
-        if (f.contratos) f.contratos.forEach(function(c){ text += " " + (c.objeto||"") + " " + (c.expediente||"") + " " + (c.adjudicatario||"") + " " + (c.organo||""); });
-        if (f.organos) text += " " + f.organos.join(" ");
-        if (f.adjudicatarios) text += " " + f.adjudicatarios.join(" ");
-        f._buscable = normalizarBusquedaContratos(text);
-      }
-      // TODAS las palabras deben aparecer en algún lugar del texto buscable
-      return contractSearchTerms.every(function(p){ return f._buscable.indexOf(p) !== -1; });
-    });
+  // Recalcular stats con el nuevo subconjunto visible
+  if (window._contractStatsMeta && window._contractFmeta) {
+    renderContractStats(allFlags, window._contractStatsMeta, window._contractFmeta);
   }
 
   if (filtered.length === 0 && (currentFilter !== "todos" || contractSearchTerms.length > 0)) {
@@ -174,18 +255,14 @@ function renderContratosSection() {
     var ultLic = (resumenData && resumenData.ultimas_licitaciones) ? resumenData.ultimas_licitaciones : [];
     var tc = stats.por_tipo || {};
 
+    // Guardar meta global para refrescos posteriores de stats
+    window._contractStatsMeta = stats;
+    window._contractFmeta = fmeta;
+
     var html = "";
 
-    // STATS CLICKABLES
-    html += '<div class="stats">';
-    html += infoCard("📋", (fmeta.menores||0)+(fmeta.licitaciones||0), "Analizados");
-    html += statCard("🚩", stats.total_flags||0, "Banderas rojas", "todos");
-    html += statCard("🔴", stats.severidad_alta||0, "Sev. alta", "alta");
-    html += statCard("✂️", tc.fraccionamiento||0, "Fraccionamiento", "fraccionamiento");
-    html += statCard("🎯", tc.concentracion||0, "Concentración", "concentracion");
-    html += statCard("🤝", tc.negociado_reiterado||0, "Negociado", "negociado_reiterado");
-    html += statCard("🇪🇺", tc.umbral_europeo||0, "Umbral UE", "umbral_europeo");
-    html += '</div>';
+    // STATS CLICKABLES (se rellena dinámicamente con renderContractStats)
+    html += '<div class="stats" id="contract-stats"></div>';
 
     if (fmeta.generado) {
       html += '<div style="font-family:var(--font-mono);font-size:11px;color:var(--text-muted);margin-bottom:1rem">';
@@ -232,16 +309,9 @@ function renderContratosSection() {
       });
     }
     container.innerHTML = html;
+    renderContractStats(allFlags, stats, fmeta);
     window.renderFlags();
   });
-}
-
-function statCard(icon, val, label, filter) {
-  return '<div class="stat-card cstat" data-filter="' + filter + '" onclick="window.setFilter(\'' + filter + '\')" style="cursor:pointer;transition:all 0.15s;user-select:none">' +
-    '<div class="stat-icon">' + icon + '</div><div class="stat-value">' + val + '</div><div class="stat-label">' + label + '</div></div>';
-}
-function infoCard(icon, val, label) {
-  return '<div class="stat-card"><div class="stat-icon">' + icon + '</div><div class="stat-value">' + val + '</div><div class="stat-label">' + label + '</div></div>';
 }
 
 document.addEventListener("DOMContentLoaded", function() {

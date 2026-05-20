@@ -282,8 +282,12 @@ function calidadIcon(c) {
 function renderPatrimonios() {
   const container = document.getElementById('patrimonios-container');
   const todos = POLITICOS_DATA.map(p => ({ p, m: calcularMetricas(p) }));
+  // Guardar para cálculos posteriores
+  window._patAllTodos = todos;
 
   let html = `
+    <div class="stats" id="pat-stats" style="margin-bottom:1.5rem"></div>
+
     <div class="patrimonio-header">
       <h2>Patrimonios políticos</h2>
       <p class="pat-intro">
@@ -331,6 +335,8 @@ function renderPatrimonios() {
     </div>
   `;
   container.innerHTML = html;
+  // Pintar stat cards después de tener el DOM listo
+  renderPatStats(todos, todos);
 }
 
 function cambiarVistaPat(v) { VISTA_PATRIMONIOS = v; renderPatrimonios(); }
@@ -418,9 +424,11 @@ function renderTarjeta(p, m, pos) {
   const nombreLower = p.nombre.toLowerCase();
   // Normalizado para buscador: sin tildes ni ñ → así "feijoo" encuentra "Feijóo"
   const nombreBuscable = nombreLower.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  // Categoría de múltiplo (para filtrado desde stat cards)
+  const multCat = m.sinDatos ? 'sindatos' : (m.multiplicador >= 1 ? 'mayor1' : 'menor1');
 
   return `
-    <article class="politico-card" data-id="${p.id}" data-partido="${partidoKey}" data-nombre="${nombreLower}" data-buscable="${nombreBuscable} ${partidoKey}">
+    <article class="politico-card" data-id="${p.id}" data-partido="${partidoKey}" data-nombre="${nombreLower}" data-buscable="${nombreBuscable} ${partidoKey}" data-multcat="${multCat}">
       <header onclick="toggleFicha('${p.id}')">
         ${pos ? `<span class="posicion">#${pos}</span>` : ''}
         <div class="card-titulo">
@@ -781,6 +789,87 @@ const PARTIDO_INFO = {
 
 // Estado de filtros: 'todos' o un partido concreto
 let FILTRO_PARTIDO = 'todos';
+// Filtro por categoría de múltiplo (stat cards): 'todos' | 'mayor1' | 'menor1'
+let FILTRO_MULTIPLO = 'todos';
+
+// Pinta o repinta las 4 stat cards de patrimonios
+function renderPatStats(todos, visibles) {
+  const el = document.getElementById('pat-stats');
+  if (!el) return;
+  const totalAbs = todos.length;
+  const totalVis = visibles.length;
+  const hayFiltro = FILTRO_PARTIDO !== 'todos' || FILTRO_MULTIPLO !== 'todos' ||
+    (document.getElementById('pat-buscador') && document.getElementById('pat-buscador').value.trim() !== '');
+
+  // Mayor 1x / Menor 1x sobre los visibles
+  const conDatos = visibles.filter(t => !t.m.sinDatos);
+  const mayor1 = conDatos.filter(t => t.m.multiplicador >= 1).length;
+  const menor1 = conDatos.filter(t => t.m.multiplicador < 1).length;
+  // Promedio (de los visibles con datos)
+  const promedio = conDatos.length > 0
+    ? (conDatos.reduce((s, t) => s + t.m.multiplicador, 0) / conDatos.length).toFixed(2) + 'x'
+    : '—';
+
+  // Sobre el total absoluto, para mostrar "X / Y"
+  const conDatosAbs = todos.filter(t => !t.m.sinDatos);
+  const mayor1Abs = conDatosAbs.filter(t => t.m.multiplicador >= 1).length;
+  const menor1Abs = conDatosAbs.filter(t => t.m.multiplicador < 1).length;
+
+  const cards = [
+    {
+      icon: '👥', value: hayFiltro ? `${totalVis} / ${totalAbs}` : totalAbs,
+      label: 'Políticos', sublabel: hayFiltro ? 'Pulsa para resetear' : 'Pulsa para resetear',
+      title: 'Total de políticos verificados. Pulsa para limpiar todos los filtros.',
+      activo: !hayFiltro,
+      action: 'todos'
+    },
+    {
+      icon: '🔴', value: hayFiltro ? `${mayor1} / ${mayor1Abs}` : mayor1Abs,
+      label: 'Múltiplo ≥ 1x', sublabel: FILTRO_MULTIPLO === 'mayor1' ? 'Filtro activo' : 'Pulsa para filtrar',
+      title: 'Políticos con patrimonio igual o mayor a su sueldo público neto acumulado. No implica ilegalidad; sí merece explicación.',
+      activo: FILTRO_MULTIPLO === 'mayor1',
+      action: 'mayor1'
+    },
+    {
+      icon: '🟢', value: hayFiltro ? `${menor1} / ${menor1Abs}` : menor1Abs,
+      label: 'Múltiplo < 1x', sublabel: FILTRO_MULTIPLO === 'menor1' ? 'Filtro activo' : 'Pulsa para filtrar',
+      title: 'Políticos con patrimonio inferior al sueldo público neto acumulado. Lo esperable estadísticamente (la gente gasta).',
+      activo: FILTRO_MULTIPLO === 'menor1',
+      action: 'menor1'
+    },
+    {
+      icon: '📊', value: promedio,
+      label: 'Múltiplo medio', sublabel: hayFiltro ? 'En este filtro' : 'De toda la lista',
+      title: 'Media aritmética del múltiplo entre los políticos visibles. Para referencia comparativa: si filtras por PP, sale el promedio del PP, etc.',
+      activo: false,
+      action: null
+    }
+  ];
+
+  el.innerHTML = cards.map(s => `
+    <div class="stat-card${s.action ? ' clickable' : ''}${s.activo ? ' active' : ''}" title="${s.title.replace(/"/g,'&quot;')}"${s.action ? ` onclick="setStatFiltroPat('${s.action}')"` : ''}>
+      <div class="stat-icon">${s.icon}</div>
+      <div class="stat-value">${s.value}</div>
+      <div class="stat-label">${s.label}</div>
+      <div class="stat-sublabel">${s.sublabel}</div>
+    </div>
+  `).join('');
+}
+
+function setStatFiltroPat(action) {
+  if (action === 'todos') {
+    FILTRO_PARTIDO = 'todos';
+    FILTRO_MULTIPLO = 'todos';
+    const inp = document.getElementById('pat-buscador');
+    if (inp) inp.value = '';
+    const cont = document.getElementById('pat-filtros-partido');
+    if (cont) cont.innerHTML = renderBotonesPartido();
+  } else if (action === 'mayor1' || action === 'menor1') {
+    // Toggle: si ya estaba activo el mismo, lo apaga
+    FILTRO_MULTIPLO = (FILTRO_MULTIPLO === action) ? 'todos' : action;
+  }
+  filtrarPatrimonios();
+}
 
 function renderBotonesPartido() {
   // Cuenta políticos por partido
@@ -817,17 +906,17 @@ function filtrarPatrimonios() {
   const terms = query.split(/\s+/).filter(p => p.length > 0);
 
   const cards = document.querySelectorAll('.politico-card');
-  let visibles = 0;
+  const visiblesIds = [];
   cards.forEach(card => {
-    // El atributo data-buscable contiene nombre sin tildes + clave de partido normalizada
     const buscable = card.dataset.buscable || (card.dataset.nombre || '');
     const partido = card.dataset.partido || '';
-    // Multi-palabra AND: cada palabra debe aparecer en algún sitio del texto buscable
+    const multcat = card.dataset.multcat || 'sindatos';
     const matchBusqueda = terms.length === 0 || terms.every(t => buscable.includes(t));
     const matchPartido = FILTRO_PARTIDO === 'todos' || partido === FILTRO_PARTIDO;
-    const visible = matchBusqueda && matchPartido;
+    const matchMultiplo = FILTRO_MULTIPLO === 'todos' || multcat === FILTRO_MULTIPLO;
+    const visible = matchBusqueda && matchPartido && matchMultiplo;
     card.style.display = visible ? '' : 'none';
-    if (visible) visibles++;
+    if (visible) visiblesIds.push(card.dataset.id);
   });
   // Ocultar categorías vacías
   document.querySelectorAll('.categoria-bloque').forEach(bloque => {
@@ -838,11 +927,17 @@ function filtrarPatrimonios() {
   // Contador
   const contador = document.getElementById('pat-filtros-contador');
   if (contador) {
-    if (query || FILTRO_PARTIDO !== 'todos') {
-      contador.textContent = `Mostrando ${visibles} de ${cards.length} políticos`;
+    if (query || FILTRO_PARTIDO !== 'todos' || FILTRO_MULTIPLO !== 'todos') {
+      contador.textContent = `Mostrando ${visiblesIds.length} de ${cards.length} políticos`;
       contador.style.display = '';
     } else {
       contador.style.display = 'none';
     }
+  }
+  // Refrescar stat cards con el subconjunto visible
+  if (window._patAllTodos) {
+    const visiblesSet = new Set(visiblesIds);
+    const visibles = window._patAllTodos.filter(t => visiblesSet.has(t.p.id));
+    renderPatStats(window._patAllTodos, visibles);
   }
 }
