@@ -1,9 +1,9 @@
 {
   "meta": {
-    "version": "2.0.0",
+    "version": "3.0.0",
     "actualizado": "2026-05-20",
-    "total_casos": 23,
-    "nota": "Datos verificados con fuentes a mayo de 2026. FiscalizApp no es un medio: enlazamos fuentes para que cada ciudadano juzgue.",
+    "total_casos": 21,
+    "nota": "Datos verificados con fuentes a mayo de 2026. FiscalizApp no es un medio: enlazamos fuentes para que cada ciudadano juzgue. v3.0.0: revisión completa de casos existentes, casos archivados sin condena retirados según política editorial.",
     "chascarrillos": [
       "Si la corrupción fuera deporte olímpico, España iría sobrada de medallas.",
       "«No tengo nada que ocultar» — frase que precede al 90% de las imputaciones.",
@@ -35,7 +35,12 @@
       "nombre": "Caso Plus Ultra / Zapatero",
       "partido": "PSOE",
       "emoji": "✈️",
-      "protagonistas": ["José Luis Rodríguez Zapatero", "Julio Martínez Martínez", "María Gertrudis Alcázar", "Cristóbal Cano"],
+      "protagonistas": [
+        "José Luis Rodríguez Zapatero",
+        "Julio Martínez Martínez",
+        "María Gertrudis Alcázar",
+        "Cristóbal Cano"
+      ],
       "descripcion": "Primera imputación a un expresidente en democracia. El juez Calama le atribuye liderar una 'estructura estable y jerarquizada' de tráfico de influencias para canalizar el rescate de 53M€ a Plus Ultra. Comisiones de 1,9M€ (1,5M para Zapatero, 423.779€ para sus hijas vía Whathefav SL). Offshore en Dubái, facturas falsas de 50.000€ y orden expresa de eliminar la palabra 'comisión' de los contratos.",
       "juzgado": "Audiencia Nacional, Juzgado Central nº 3",
       "juez": "José Luis Calama",
@@ -44,11 +49,28 @@
       "fecha_inicio": "2024-01",
       "destacado": true,
       "timeline": [
-        {"fecha": "2021-03-09", "evento": "El Gobierno rescata Plus Ultra con 53M€ del FASEE. Polémica: la aerolínea apenas operaba 2 aviones"},
-        {"fecha": "2024-01-15", "evento": "Anticorrupción abre diligencias tras alertas de inteligencia financiera de Francia y Suiza"},
-        {"fecha": "2026-03-02", "evento": "Zapatero comparece en la comisión del Senado: 'He sido el único presidente sin escándalos'"},
-        {"fecha": "2026-05-19", "evento": "IMPUTADO: organización criminal, falsedad documental y tráfico de influencias. Primera vez en democracia. Citado a declarar el 2 de junio. UDEF registra su despacho y empresa de sus hijas", "fuente": "https://www.eldiario.es/politica/zapatero-imputado-blanqueo-capitales-caso-plus-ultra_1_13231540.html"},
-        {"fecha": "2026-05-20", "evento": "Detalles del auto: 1,9M€ en comisiones, orden de borrar 'comisión' de contratos, offshore en Dubái (Landside Dubai Fzco). Sánchez respalda a Zapatero en el Congreso", "fuente": "https://www.infobae.com/espana/2026/05/20/las-presuntas-maniobras-de-zapatero-para-ocultar-el-dinero-del-caso-plus-ultra/"}
+        {
+          "fecha": "2021-03-09",
+          "evento": "El Gobierno rescata Plus Ultra con 53M€ del FASEE. Polémica: la aerolínea apenas operaba 2 aviones"
+        },
+        {
+          "fecha": "2024-01-15",
+          "evento": "Anticorrupción abre diligencias tras alertas de inteligencia financiera de Francia y Suiza"
+        },
+        {
+          "fecha": "2026-03-02",
+          "evento": "Zapatero comparece en la comisión del Senado: 'He sido el único presidente sin escándalos'"
+        },
+        {
+          "fecha": "2026-05-19",
+          "evento": "IMPUTADO: organización criminal, falsedad documental y tráfico de influencias. Primera vez en democracia. Citado a declarar el 2 de junio. UDEF registra su despacho y empresa de sus hijas",
+          "fuente": "https://www.eldiario.es/politica/zapatero-imputado-blanqueo-capitales-caso-plus-ultra_1_13231540.html"
+        },
+        {
+          "fecha": "2026-05-20",
+          "evento": "Detalles del auto: 1,9M€ en comisiones, orden de borrar 'comisión' de contratos, offshore en Dubái (Landside Dubai Fzco). Sánchez respalda a Zapatero en el Congreso",
+          "fuente": "https://www.infobae.com/espana/2026/05/20/las-presuntas-maniobras-de-zapatero-para-ocultar-el-dinero-del-caso-plus-ultra/"
+        }
       ]
     },
     {
@@ -56,7 +78,11 @@
       "nombre": "Caso Koldo / Mascarillas",
       "partido": "PSOE",
       "emoji": "😷",
-      "protagonistas": ["Koldo García", "José Luis Ábalos", "Víctor de Aldama"],
+      "protagonistas": [
+        "Koldo García",
+        "José Luis Ábalos",
+        "Víctor de Aldama"
+      ],
       "descripcion": "Juicio celebrado y visto para sentencia en el Supremo. Ábalos y Koldo en prisión preventiva. Aldama confesó ser parte de la trama y declaró que Sánchez era 'el uno' y 'todo lo sabía'. El fiscal pide 24 años para Ábalos y 19,5 para Koldo. El PP pide 30. Koldo admitió en el juicio que recibió 'chistorras del partido con billetes de 500€'.",
       "juzgado": "Tribunal Supremo",
       "juez": "Sala Penal",
@@ -64,14 +90,49 @@
       "importe_estimado": 53000000,
       "fecha_inicio": "2024-02",
       "timeline": [
-        {"fecha": "2024-02-20", "evento": "Operación Delorme: la UCO detiene a Koldo García y empresarios. Red de intermediación en contratos COVID"},
-        {"fecha": "2024-11-21", "evento": "Aldama declara como cooperador e implica a Santos Cerdán y Torres. Detalla entregas de dinero en efectivo"},
-        {"fecha": "2025-11-15", "evento": "Ábalos y Koldo entran en prisión preventiva por riesgo de fuga"},
-        {"fecha": "2026-04-14", "evento": "Comienza juicio oral en el Tribunal Supremo. Tres acusados: Ábalos, Koldo y Aldama"},
-        {"fecha": "2026-04-30", "evento": "Koldo declara: admite dar oferta de Soluciones de Gestión al subsecretario. Reconoce recibir 'chistorras del partido con billetes de 500€'", "fuente": "https://theobjective.com/espana/tribunales/2026-04-30/juicio-caso-mascarillas-en-directo-koldo-abalos/"},
-        {"fecha": "2026-05-05", "evento": "Aldama declara que Sánchez era 'el uno' de la organización criminal. Dice haber pagado 3-5 millones a Koldo y Ábalos"},
-        {"fecha": "2026-05-06", "evento": "Juicio concluye. Fiscal pide 24 años para Ábalos, 19,5 para Koldo, 7 para Aldama. PP pide 30 años para Ábalos y Koldo"},
-        {"fecha": "2026-05-11", "evento": "El Supremo rechaza excarcelar a Koldo: 'No ha desaparecido el riesgo de fuga'. Tribunal deliberando sentencia", "fuente": "https://www.estrelladigital.es/articulo/tribunales/supremo-rechaza-poner-libertad-koldo-garcia-final-juicio-caso-mascarillas/20260511140121446440.html"}
+        {
+          "fecha": "2024-02-20",
+          "evento": "Operación Delorme: la UCO detiene a Koldo García y empresarios. Red de intermediación en contratos COVID"
+        },
+        {
+          "fecha": "2024-11-21",
+          "evento": "Aldama declara como cooperador e implica a Santos Cerdán y Torres. Detalla entregas de dinero en efectivo"
+        },
+        {
+          "fecha": "2025-06-30",
+          "evento": "Santos Cerdán entra en prisión en el caso conexo de adjudicaciones de obra pública"
+        },
+        {
+          "fecha": "2025-11-15",
+          "evento": "Ábalos y Koldo entran en prisión preventiva por riesgo de fuga"
+        },
+        {
+          "fecha": "2026-01-29",
+          "evento": "Aldama declara en la AN en el caso de hidrocarburos: dice que tenía un sobre de Delcy Rodríguez con pagos de PDVSA al PSOE",
+          "fuente": "https://es.wikipedia.org/wiki/Caso_Koldo"
+        },
+        {
+          "fecha": "2026-04-14",
+          "evento": "Comienza juicio oral en el Tribunal Supremo. Tres acusados: Ábalos, Koldo y Aldama"
+        },
+        {
+          "fecha": "2026-04-30",
+          "evento": "Koldo declara: admite dar oferta de Soluciones de Gestión al subsecretario. Reconoce recibir 'chistorras del partido con billetes de 500€'",
+          "fuente": "https://theobjective.com/espana/tribunales/2026-04-30/juicio-caso-mascarillas-en-directo-koldo-abalos/"
+        },
+        {
+          "fecha": "2026-05-05",
+          "evento": "Aldama declara que Sánchez era 'el uno' de la organización criminal. Dice haber pagado 3-5 millones a Koldo y Ábalos"
+        },
+        {
+          "fecha": "2026-05-06",
+          "evento": "Juicio concluye. Fiscal pide 24 años para Ábalos, 19,5 para Koldo, 7 para Aldama. PP pide 30 años para Ábalos y Koldo"
+        },
+        {
+          "fecha": "2026-05-11",
+          "evento": "El Supremo rechaza excarcelar a Koldo: 'No ha desaparecido el riesgo de fuga'. Tribunal deliberando sentencia",
+          "fuente": "https://www.estrelladigital.es/articulo/tribunales/supremo-rechaza-poner-libertad-koldo-garcia-final-juicio-caso-mascarillas/20260511140121446440.html"
+        }
       ]
     },
     {
@@ -79,7 +140,11 @@
       "nombre": "Caso Begoña Gómez",
       "partido": "PSOE",
       "emoji": "👜",
-      "protagonistas": ["Begoña Gómez", "Cristina Álvarez", "Juan Carlos Barrabés"],
+      "protagonistas": [
+        "Begoña Gómez",
+        "Cristina Álvarez",
+        "Juan Carlos Barrabés"
+      ],
       "descripcion": "Juicio por jurado popular incoado. Investigada por malversación, tráfico de influencias, corrupción en los negocios y apropiación indebida. Cátedra en la Complutense, software con Indra/Telefónica, cartas de recomendación desde Moncloa. Su defensa intenta paralizar el procedimiento alegando recursos pendientes. Ha pedido la absolución por 'inexistencia absoluta de base indiciaria'.",
       "juzgado": "Juzgado de Instrucción nº 41 de Madrid",
       "juez": "Juan Carlos Peinado",
@@ -87,11 +152,28 @@
       "importe_estimado": null,
       "fecha_inicio": "2024-04",
       "timeline": [
-        {"fecha": "2024-04-16", "evento": "Se abre investigación tras denuncia de Manos Limpias. Sánchez se da 5 días de reflexión"},
-        {"fecha": "2024-07-05", "evento": "Begoña se acoge a su derecho a no declarar en su primera comparecencia como investigada"},
-        {"fecha": "2025-07-07", "evento": "El juez Peinado propone juicio ante jurado popular por 4 delitos: malversación, tráfico de influencias, corrupción en los negocios y apropiación indebida"},
-        {"fecha": "2026-05-14", "evento": "Su defensa intenta paralizar el juicio alegando recursos pendientes ante la Audiencia Provincial", "fuente": "https://www.moncloa.com/2026/05/14/begona-gomez-retrasar-juicio-3376839/"},
-        {"fecha": "2026-05-18", "evento": "Presenta escrito de defensa pidiendo absolución: 'inexistencia absoluta de base indiciaria' y 'mala fe de las acusaciones'", "fuente": "https://www.telemadrid.es/programas/120-minutos/Begona-Gomez-reclama-su-absolucion-si-hay-juicio-por-inexistencia-absoluta-de-indicios-y-mala-fe-de-las-acusaciones-2-2889930999--20260518125120.html"}
+        {
+          "fecha": "2024-04-16",
+          "evento": "Se abre investigación tras denuncia de Manos Limpias. Sánchez se da 5 días de reflexión"
+        },
+        {
+          "fecha": "2024-07-05",
+          "evento": "Begoña se acoge a su derecho a no declarar en su primera comparecencia como investigada"
+        },
+        {
+          "fecha": "2025-07-07",
+          "evento": "El juez Peinado propone juicio ante jurado popular por 4 delitos: malversación, tráfico de influencias, corrupción en los negocios y apropiación indebida"
+        },
+        {
+          "fecha": "2026-05-14",
+          "evento": "Su defensa intenta paralizar el juicio alegando recursos pendientes ante la Audiencia Provincial",
+          "fuente": "https://www.moncloa.com/2026/05/14/begona-gomez-retrasar-juicio-3376839/"
+        },
+        {
+          "fecha": "2026-05-18",
+          "evento": "Presenta escrito de defensa pidiendo absolución: 'inexistencia absoluta de base indiciaria' y 'mala fe de las acusaciones'",
+          "fuente": "https://www.telemadrid.es/programas/120-minutos/Begona-Gomez-reclama-su-absolucion-si-hay-juicio-por-inexistencia-absoluta-de-indicios-y-mala-fe-de-las-acusaciones-2-2889930999--20260518125120.html"
+        }
       ]
     },
     {
@@ -99,7 +181,10 @@
       "nombre": "Caso David Sánchez",
       "partido": "PSOE",
       "emoji": "🎵",
-      "protagonistas": ["David Sánchez Pérez-Castejón", "Miguel Ángel Gallardo"],
+      "protagonistas": [
+        "David Sánchez Pérez-Castejón",
+        "Miguel Ángel Gallardo"
+      ],
       "descripcion": "El hermano del presidente cobra 55.000€/año como coordinador de actividades musicales de la Diputación de Badajoz — un puesto creado a medida. Vive en Portugal pero el puesto exigía presencialidad. Gallardo, presidente de la Diputación, imputado por facilitar la contratación. JUICIO LA SEMANA QUE VIENE.",
       "juzgado": "Audiencia Provincial de Badajoz",
       "juez": "Tribunal de enjuiciamiento",
@@ -107,9 +192,19 @@
       "importe_estimado": null,
       "fecha_inicio": "2024-09",
       "timeline": [
-        {"fecha": "2024-09-10", "evento": "Querella admitida por puesto de trabajo diseñado a medida para el hermano del presidente"},
-        {"fecha": "2024-12-03", "evento": "Registro del domicilio de David Sánchez en Elvas (Portugal)"},
-        {"fecha": "2026-05-28", "evento": "JUICIO ORAL: vista fijada para 28-29 de mayo y 1-4 de junio de 2026 en la Audiencia de Badajoz", "fuente": "https://www.infobae.com/espana/2026/01/01/el-calendario-judicial-de-2026/"}
+        {
+          "fecha": "2024-09-10",
+          "evento": "Querella admitida por puesto de trabajo diseñado a medida para el hermano del presidente"
+        },
+        {
+          "fecha": "2024-12-03",
+          "evento": "Registro del domicilio de David Sánchez en Elvas (Portugal)"
+        },
+        {
+          "fecha": "2026-05-28",
+          "evento": "JUICIO ORAL: vista fijada para 28-29 de mayo y 1-4 de junio de 2026 en la Audiencia de Badajoz",
+          "fuente": "https://www.infobae.com/espana/2026/01/01/el-calendario-judicial-de-2026/"
+        }
       ]
     },
     {
@@ -117,7 +212,10 @@
       "nombre": "Caso Aldama / Hidrocarburos",
       "partido": "PSOE",
       "emoji": "⛽",
-      "protagonistas": ["Víctor de Aldama", "Claudio Rivas"],
+      "protagonistas": [
+        "Víctor de Aldama",
+        "Claudio Rivas"
+      ],
       "descripcion": "Fraude al IVA en comercio de hidrocarburos ahora cifrado en 231M€. Aldama confesó en el caso mascarillas y su abogado le presenta como 'captado' por una trama preexistente, no como su líder. El caso de hidrocarburos sigue en instrucción mientras Aldama espera sentencia del Supremo por las mascarillas.",
       "juzgado": "Audiencia Nacional",
       "juez": "Varios",
@@ -125,29 +223,86 @@
       "importe_estimado": 231000000,
       "fecha_inicio": "2023-10",
       "timeline": [
-        {"fecha": "2023-10-05", "evento": "Aldama entra en prisión por fraude de hidrocarburos vía la operadora Villafuel"},
-        {"fecha": "2024-03-18", "evento": "Sale de prisión tras ofrecer cooperación con la justicia en el caso mascarillas"},
-        {"fecha": "2024-11-21", "evento": "Declaración bomba: implica a Santos Cerdán y Torres. Detalla entregas de dinero"},
-        {"fecha": "2026-05-05", "evento": "En el juicio del Supremo, su abogado le presenta como 'captado' por la trama, no su creador. Admite los delitos pero minimiza su papel. Fiscal pide 7 años (atenuante de confesión)", "fuente": "https://www.esdiario.com/nacional/260506/186992/aldama-presenta-captado-trama-asentada-reivindica-confesion-frente-aparato-estatal.html"}
+        {
+          "fecha": "2023-10-05",
+          "evento": "Aldama entra en prisión por fraude de hidrocarburos vía la operadora Villafuel"
+        },
+        {
+          "fecha": "2024-03-18",
+          "evento": "Sale de prisión tras ofrecer cooperación con la justicia en el caso mascarillas"
+        },
+        {
+          "fecha": "2024-11-21",
+          "evento": "Declaración bomba: implica a Santos Cerdán y Torres. Detalla entregas de dinero"
+        },
+        {
+          "fecha": "2026-05-05",
+          "evento": "En el juicio del Supremo, su abogado le presenta como 'captado' por la trama, no su creador. Admite los delitos pero minimiza su papel. Fiscal pide 7 años (atenuante de confesión)",
+          "fuente": "https://www.esdiario.com/nacional/260506/186992/aldama-presenta-captado-trama-asentada-reivindica-confesion-frente-aparato-estatal.html"
+        }
       ]
     },
     {
       "id": "mediador",
-      "nombre": "Caso Mediador / Santos Cerdán",
+      "nombre": "Caso Cerdán / Comisiones de obra pública",
       "partido": "PSOE",
       "emoji": "🤝",
-      "protagonistas": ["Víctor de Aldama", "Santos Cerdán", "Ángel Víctor Torres"],
-      "descripcion": "Las fotos que tumbaron al número 3 del PSOE. Aldama declaró que entregaba sobres con dinero a Santos Cerdán. Se publicaron fotografías. Cerdán dimitió. Torres, investigado por el Supremo.",
-      "juzgado": "Tribunal Supremo / Audiencia Nacional",
-      "juez": "Varios",
+      "protagonistas": [
+        "Santos Cerdán",
+        "José Luis Ábalos",
+        "Koldo García",
+        "Víctor de Aldama",
+        "Joseba Antxon Alonso (Servinabar)",
+        "Javier Herrero (ex Carreteras)",
+        "Isabel Pardo de Vera (ex ADIF)"
+      ],
+      "descripcion": "El número 3 del PSOE en prisión por presuntas mordidas en adjudicación de obra pública. El informe UCO de 490 páginas describe una estructura donde Ábalos y Koldo generaban deudas con constructoras por adjudicaciones fraudulentas, y Cerdán gestionaba los pagos. Cerdán dimitió, perdió el aforamiento y entró en prisión preventiva. Ábalos se convirtió en el primer diputado en activo en entrar en prisión desde 1978.",
+      "juzgado": "Tribunal Supremo (instrucción) / Audiencia Nacional",
+      "juez": "Leopoldo Puente (Supremo); Audiencia Nacional desde feb 2026",
       "estado": "instruccion",
       "importe_estimado": null,
       "fecha_inicio": "2024-11",
       "timeline": [
-        {"fecha": "2024-11-21", "evento": "Aldama implica a Santos Cerdán y Torres en su declaración"},
-        {"fecha": "2024-11-28", "evento": "Fotos de Aldama entregando sobre a Santos Cerdán. PSOE guarda silencio 48 horas"},
-        {"fecha": "2024-12-05", "evento": "Santos Cerdán dimite de la ejecutiva del PSOE"},
-        {"fecha": "2025-01-20", "evento": "Torres declarado investigado por el Supremo (aforado como senador)"}
+        {
+          "fecha": "2024-11-21",
+          "evento": "Aldama declara como cooperador e implica a Santos Cerdán y Torres. Detalla entregas de dinero en efectivo"
+        },
+        {
+          "fecha": "2024-11-28",
+          "evento": "Fotos de Aldama entregando un sobre a Santos Cerdán. PSOE guarda silencio 48 horas"
+        },
+        {
+          "fecha": "2025-06-05",
+          "evento": "La UCO entrega al Supremo informe de 490 páginas con audios de Koldo: 'Cerdán se ha quedado con dinero, lo ha hecho delante de mí'"
+        },
+        {
+          "fecha": "2025-06-12",
+          "evento": "Cerdán DIMITE como secretario de Organización del PSOE tras conocerse el informe UCO. Renuncia a su escaño días después y pierde el aforamiento",
+          "fuente": "https://es.wikipedia.org/wiki/Caso_Koldo"
+        },
+        {
+          "fecha": "2025-06-30",
+          "evento": "Cerdán ENTRA EN PRISIÓN PROVISIONAL sin fianza por orden del juez Leopoldo Puente. Riesgo de fuga y destrucción de pruebas",
+          "fuente": "https://www.moncloa.com/2025/09/18/cerdan-prision-2026-3262869"
+        },
+        {
+          "fecha": "2025-11-27",
+          "evento": "Ábalos ingresa en prisión: primer diputado en activo encarcelado desde el inicio de la democracia en 1978"
+        },
+        {
+          "fecha": "2026-02-02",
+          "evento": "El magistrado Leopoldo Puente envía a la Audiencia Nacional la investigación sobre mordidas en obra pública (pierde el fuero al haber renunciado al acta)"
+        },
+        {
+          "fecha": "2026-03-10",
+          "evento": "La causa queda con 14 investigados: 8 directivos de constructoras, 5 políticos/altos cargos y el intermediario Aldama",
+          "fuente": "https://www.moncloa.com/2026/03/10/santos-cerdan14-investigados-3364850/"
+        },
+        {
+          "fecha": "2026-05-19",
+          "evento": "La UCO sigue sin entregar el informe patrimonial sobre Cerdán casi un año después. Su defensa lo apremia alegando vulneración de presunción de inocencia",
+          "fuente": "https://www.articulo14.es/politica/la-uco-sigue-sin-entregar-el-informe-patrimonial-sobre-cerdan-casi-un-ano-despues-20260519.html"
+        }
       ]
     },
     {
@@ -155,7 +310,11 @@
       "nombre": "Caso ERE de Andalucía",
       "partido": "PSOE",
       "emoji": "💸",
-      "protagonistas": ["Manuel Chaves", "José Antonio Griñán", "Magdalena Álvarez"],
+      "protagonistas": [
+        "Manuel Chaves",
+        "José Antonio Griñán",
+        "Magdalena Álvarez"
+      ],
       "descripcion": "680M€ en ayudas fraudulentas. El TC anuló las condenas en julio 2024 en una decisión sin precedentes. La Audiencia de Sevilla plantó cara y elevó cuestión prejudicial al Tribunal de Justicia de la UE por considerar que el TC dejó 'un evidente espacio de impunidad'. El TJUE podría pronunciarse a finales de 2026. Más de 100 piezas del caso siguen sin enjuiciar.",
       "juzgado": "Audiencia de Sevilla / TJUE",
       "juez": "Varios / TJUE pendiente",
@@ -163,11 +322,32 @@
       "importe_estimado": 680000000,
       "fecha_inicio": "2011-01",
       "timeline": [
-        {"fecha": "2019-11-19", "evento": "Sentencia: Griñán condenado a 6 años, Chaves a 9 de inhabilitación. 19 condenados"},
-        {"fecha": "2022-07-26", "evento": "Supremo confirma condenas. Griñán y otros ingresan en prisión"},
-        {"fecha": "2024-07-15", "evento": "TC anula las condenas por malversación (4-3). Todos los presos excarcelados. El PP acusa al TC de actuar como 'tercera cámara del PSOE'"},
-        {"fecha": "2024-07-30", "evento": "La Audiencia de Sevilla planta cara: eleva cuestión prejudicial al TJUE por considerar que el TC deja impune la corrupción", "fuente": "https://www.elespanol.com/espana/andalucia/20260118/historia-interminable-ere-anos-despues-causas-sin-enjuiciar-chaves-grinan-espera-tjue/1003744082340_0.html"},
-        {"fecha": "2026-01-19", "evento": "15 años del caso: más de 100 piezas sin enjuiciar. El TJUE podría resolver a finales de 2026"}
+        {
+          "fecha": "2019-11-19",
+          "evento": "Sentencia: Griñán condenado a 6 años, Chaves a 9 de inhabilitación. 19 condenados"
+        },
+        {
+          "fecha": "2022-07-26",
+          "evento": "Supremo confirma condenas. Griñán y otros ingresan en prisión"
+        },
+        {
+          "fecha": "2024-07-15",
+          "evento": "TC anula las condenas por malversación (4-3). Todos los presos excarcelados. El PP acusa al TC de actuar como 'tercera cámara del PSOE'"
+        },
+        {
+          "fecha": "2025-07-15",
+          "evento": "La Audiencia de Sevilla planta cara: eleva cuestión prejudicial al TJUE por considerar que el TC genera 'evidente espacio de impunidad' y vulnera el Derecho de la UE",
+          "fuente": "https://elderecho.com/cuestion-prejudicial-ante-el-tjue-sobre-el-caso-ere"
+        },
+        {
+          "fecha": "2026-01-19",
+          "evento": "15 años del caso: más de 100 piezas sin enjuiciar. El TJUE podría resolver a finales de 2026"
+        },
+        {
+          "fecha": "2026-04-29",
+          "evento": "El juez de Sevilla de la pieza separada Ruiz-Mateos plantea NUEVA cuestión prejudicial al TJUE, ampliando las cuestiones de julio 2025",
+          "fuente": "https://www.poderjudicial.es/cgpj/es/Poder-Judicial/Tribunales-Superiores-de-Justicia/TSJ-Andalucia--Ceuta-y-Melilla/Oficina-de-Comunicacion/Archivo-de-notas-de-prensa/El-juez-pregunta-si-debe-plantear-una-cuestion-prejudicial-ante-el-TJUE-sobre-la-aplicacion-de-la-doctrina-del-Tribunal-Constitucional-en-una-pieza-separada-del-caso-ERE"
+        }
       ]
     },
     {
@@ -175,7 +355,11 @@
       "nombre": "Caso Delcy Rodríguez",
       "partido": "PSOE",
       "emoji": "🛬",
-      "protagonistas": ["José Luis Ábalos", "Delcy Rodríguez", "Koldo García"],
+      "protagonistas": [
+        "José Luis Ábalos",
+        "Delcy Rodríguez",
+        "Koldo García"
+      ],
       "descripcion": "El ministro Ábalos acudió a la pista de Barajas de madrugada para recibir a la vicepresidenta venezolana sancionada por la UE. El Gobierno dio tres versiones diferentes en una semana.",
       "juzgado": "Tribunal Supremo",
       "juez": "Pendiente",
@@ -183,9 +367,18 @@
       "importe_estimado": null,
       "fecha_inicio": "2020-01",
       "timeline": [
-        {"fecha": "2020-01-20", "evento": "Delcy Rodríguez aterriza en Barajas. Ábalos acude a la pista de madrugada"},
-        {"fecha": "2020-02-03", "evento": "Sale a la luz. El Gobierno cambia la versión tres veces"},
-        {"fecha": "2024-12-10", "evento": "Fiscalía pide investigar. Conexión directa con el caso Koldo"}
+        {
+          "fecha": "2020-01-20",
+          "evento": "Delcy Rodríguez aterriza en Barajas. Ábalos acude a la pista de madrugada"
+        },
+        {
+          "fecha": "2020-02-03",
+          "evento": "Sale a la luz. El Gobierno cambia la versión tres veces"
+        },
+        {
+          "fecha": "2024-12-10",
+          "evento": "Fiscalía pide investigar. Conexión directa con el caso Koldo"
+        }
       ]
     },
     {
@@ -193,16 +386,40 @@
       "nombre": "Caso Tito Berni",
       "partido": "PSOE",
       "emoji": "🍽️",
-      "protagonistas": ["José Fernández (Tito Berni)", "Koldo García", "Víctor de Aldama"],
-      "descripcion": "El restaurante donde se cocinaban los tratos. Cenas donde empresarios y cargos del PSOE cerraban acuerdos. Conexo al caso Koldo.",
-      "juzgado": "Audiencia Nacional",
-      "juez": "Ismael Moreno",
+      "protagonistas": [
+        "Juan Bernardo Fuentes Curbelo ('Tito Berni')",
+        "Taishet Fuentes (sobrino, ex director Ganadería)",
+        "Francisco Javier Espinosa Navas (general jubilado GC)",
+        "Antonio Navarro Tacoronte ('el Mediador')"
+      ],
+      "descripcion": "El restaurante donde se cocinaban los tratos. Cenas donde empresarios y cargos del PSOE cerraban acuerdos. Trama de favores políticos en Canarias liderada por el exdiputado, su sobrino Taishet Fuentes (ex director Ganadería), el general retirado Espinosa y el empresario Navarro Tacoronte ('el Mediador'). Las empresas pagaban un 'peaje' de 5.000€ para acceder a privilegios. La instrucción se cerró en febrero de 2026 con 23 acusados.",
+      "juzgado": "Juzgado de Instrucción nº 4 de Santa Cruz de Tenerife",
+      "juez": "María Jesús García (sustituta)",
       "estado": "instruccion",
       "importe_estimado": null,
       "fecha_inicio": "2024-02",
       "timeline": [
-        {"fecha": "2024-02-20", "evento": "Implicado en la Operación Delorme"},
-        {"fecha": "2024-11-22", "evento": "Aldama lo menciona como nexo entre empresarios y el entorno de Ábalos"}
+        {
+          "fecha": "2023-02-14",
+          "evento": "Tito Berni abandona su despacho del Congreso. La Guardia Civil destapa la trama tras una denuncia bancaria del exdirector de Deportes del Cabildo de Tenerife"
+        },
+        {
+          "fecha": "2023-03-10",
+          "evento": "Operación Mediador: detenciones en Canarias. Cuatro días antes el sobrino había sido proclamado candidato del PSOE a la alcaldía de Antigua"
+        },
+        {
+          "fecha": "2024-11-22",
+          "evento": "Aldama lo menciona en su declaración como nexo entre empresarios y el entorno de Ábalos en el caso Koldo"
+        },
+        {
+          "fecha": "2026-02-13",
+          "evento": "La jueza termina la instrucción del caso con 23 acusados. Pasa a procedimiento abreviado (previo a apertura de juicio oral)",
+          "fuente": "https://www.moncloa.com/2026/02/13/caso-tito-berni-23-acusados-3360823"
+        },
+        {
+          "fecha": "2026-02-13",
+          "evento": "Pieza separada (empresa fotovoltaica): un jurado popular declara CULPABLES por cohecho a Espinosa, Bautista y Navarro. Fiscal pide 1 año de cárcel a cada uno"
+        }
       ]
     },
     {
@@ -210,19 +427,47 @@
       "nombre": "Operación Kitchen",
       "partido": "PP",
       "emoji": "🔓",
-      "protagonistas": ["Jorge Fernández Díaz", "José Manuel Villarejo", "Francisco Martínez", "Eugenio Pino"],
-      "descripcion": "JUICIO EN CURSO. El Ministerio del Interior del PP usó fondos reservados para espiar a Bárcenas y robarle documentación sobre la caja B. Policías patrióticos, un chófer infiltrado pagado con dinero público, y un operativo para que los papeles no llegaran al juez. Rajoy, Sáenz de Santamaría y Cospedal declaran como testigos.",
-      "juzgado": "Audiencia Nacional",
+      "protagonistas": [
+        "Jorge Fernández Díaz (ex ministro Interior)",
+        "José Manuel Villarejo (ex comisario)",
+        "Francisco Martínez (ex secretario Estado Interior)",
+        "Eugenio Pino (ex director adjunto operativo Policía)",
+        "Sergio Ríos (chófer infiltrado)",
+        "M.ª Dolores de Cospedal (nuevos audios bajo investigación)"
+      ],
+      "descripcion": "Operativo parapolicial del Ministerio del Interior del PP (Gobierno de Rajoy, 2013) para robar a Luis Bárcenas información sobre la caja B del partido. Sergio Ríos, chófer del extesorero, fue captado por la Policía a cambio de 48.000€ de fondos reservados. El juicio arrancó en abril de 2026 con Fernández Díaz, Villarejo, Martínez y Pino en el banquillo. Fiscalía pide 15 años para Fernández Díaz y 19 para Villarejo.",
+      "juzgado": "Audiencia Nacional, San Fernando de Henares",
       "juez": "Sala de lo Penal",
       "estado": "juicio_oral",
       "importe_estimado": null,
       "fecha_inicio": "2019-11",
       "timeline": [
-        {"fecha": "2019-11-05", "evento": "Se abre investigación. Villarejo detalla el operativo desde prisión"},
-        {"fecha": "2020-07-10", "evento": "Sergio Ríos, chófer de Bárcenas, reconoce que fue captado por la Policía a cambio de 48.000€ de fondos reservados"},
-        {"fecha": "2026-04-06", "evento": "COMIENZA JUICIO ORAL en la Audiencia Nacional. Fernández Díaz, Villarejo, Francisco Martínez, Eugenio Pino y otros en el banquillo", "fuente": "https://www.democrata.es/tribunales/establecen-abril-mayo-2026-juicio-operacion-kitchen/"},
-        {"fecha": "2026-04-20", "evento": "Rajoy, Sáenz de Santamaría y Cospedal declaran como testigos"},
-        {"fecha": "2026-05-30", "evento": "Juicio previsto hasta finales de mayo"}
+        {
+          "fecha": "2013-07-09",
+          "evento": "Bárcenas ingresa en prisión preventiva por Gürtel. Comienza el operativo Kitchen para robarle documentación"
+        },
+        {
+          "fecha": "2019-11-05",
+          "evento": "Se abre investigación judicial. Villarejo detalla el operativo desde prisión"
+        },
+        {
+          "fecha": "2020-07-10",
+          "evento": "Sergio Ríos, chófer de Bárcenas, reconoce que fue captado por la Policía a cambio de 48.000€ de fondos reservados"
+        },
+        {
+          "fecha": "2026-04-06",
+          "evento": "ARRANCA JUICIO ORAL en la Audiencia Nacional. Fiscalía pide 15 años para Fernández Díaz y 19 para Villarejo. PSOE como acusación popular pide investigar también a Cospedal",
+          "fuente": "https://es.ara.cat/politica/arranca-juicio-caso-kitchen-villarejo-llega-audiencia-nacional-entusiasmo_1_5699463.html"
+        },
+        {
+          "fecha": "2026-04-20",
+          "evento": "Rajoy, Sáenz de Santamaría y Cospedal declaran como testigos"
+        },
+        {
+          "fecha": "2026-05-16",
+          "evento": "Termina la fase de testificales tras más de 150 declaraciones. Inicio de prueba pericial sobre archivos encriptados de Villarejo. Peritos detectan 'indicios de manipulación' en el mensaje que implica a Fernández Díaz",
+          "fuente": "https://www.infobae.com/espana/agencias/2026/05/16/el-juicio-de-kitchen-centrado-en-los-archivos-encriptados-de-villarejo-y-el-mensaje-que-salpica-a-fernandez-diaz/"
+        }
       ]
     },
     {
@@ -230,7 +475,12 @@
       "nombre": "Caso Gürtel",
       "partido": "PP",
       "emoji": "🎩",
-      "protagonistas": ["Francisco Correa", "Luis Bárcenas", "Álvaro Pérez (El Bigotes)", "Mariano Rajoy"],
+      "protagonistas": [
+        "Francisco Correa",
+        "Luis Bárcenas",
+        "Álvaro Pérez (El Bigotes)",
+        "Mariano Rajoy"
+      ],
       "descripcion": "La trama que tumbó un gobierno. Sobornos a cargos del PP a cambio de adjudicaciones. La sentencia acreditó la caja B del PP y provocó la moción de censura contra Rajoy. Varias piezas siguen activas con sentencias pendientes.",
       "juzgado": "Audiencia Nacional",
       "juez": "Varios",
@@ -238,10 +488,23 @@
       "importe_estimado": 120000000,
       "fecha_inicio": "2009-02",
       "timeline": [
-        {"fecha": "2009-02-06", "evento": "Operación Gürtel: detención de Correa y 20 implicados"},
-        {"fecha": "2018-05-24", "evento": "Sentencia: PP condenado como partícipe a título lucrativo. Se acredita la caja B"},
-        {"fecha": "2018-06-01", "evento": "Moción de censura exitosa contra Rajoy"},
-        {"fecha": "2025-10-15", "evento": "Última pieza juzgada: la mayoría de acusados reconocieron los hechos. Sentencia pendiente"}
+        {
+          "fecha": "2009-02-06",
+          "evento": "Operación Gürtel: detención de Correa y 20 implicados"
+        },
+        {
+          "fecha": "2018-05-24",
+          "evento": "Sentencia: PP condenado como partícipe a título lucrativo. Se acredita la caja B"
+        },
+        {
+          "fecha": "2018-06-01",
+          "evento": "Moción de censura exitosa contra Rajoy"
+        },
+        {
+          "fecha": "2025-10-19",
+          "evento": "Audiencia Nacional juzga la ÚLTIMA pieza del caso (intermediación en adjudicaciones), 17 años después de la denuncia inicial. Comisiones cifradas en 30.945.506,97€. Fiscalía pide 77 años de prisión a Correa, que sigue colaborando con la justicia",
+          "fuente": "https://www.infobae.com/espana/2025/10/19/30-millones-en-comisiones-la-audiencia-nacional-juzga-17-anos-despues-la-ultima-pieza-del-caso-gurtel-para-perseguir-el-dinero-oculto-en-el-extranjero/"
+        }
       ]
     },
     {
@@ -249,7 +512,11 @@
       "nombre": "Caso Bárcenas / Caja B del PP",
       "partido": "PP",
       "emoji": "📒",
-      "protagonistas": ["Luis Bárcenas", "Mariano Rajoy", "Dolores de Cospedal"],
+      "protagonistas": [
+        "Luis Bárcenas",
+        "Mariano Rajoy",
+        "Dolores de Cospedal"
+      ],
       "descripcion": "Contabilidad B del PP. Sobresueldos en negro a la cúpula durante 20 años. Rajoy aparecía como receptor ('M.Rajoy'). Lo negó todo. Tres sentencias posteriores acreditaron lo contrario.",
       "juzgado": "Audiencia Nacional",
       "juez": "Varios",
@@ -257,10 +524,36 @@
       "importe_estimado": null,
       "fecha_inicio": "2013-01",
       "timeline": [
-        {"fecha": "2013-01-31", "evento": "El País publica los papeles manuscritos de Bárcenas"},
-        {"fecha": "2013-06-27", "evento": "Bárcenas en prisión. SMS a Rajoy: 'Sé fuerte'. Rajoy contesta: 'Sé fuerte, Luis'"},
-        {"fecha": "2020-02-24", "evento": "Bárcenas condenado a 29 años por Gürtel"},
-        {"fecha": "2022-11-03", "evento": "Tercer grado penitenciario. Régimen abierto"}
+        {
+          "fecha": "2013-01-31",
+          "evento": "El País publica los papeles manuscritos de Bárcenas"
+        },
+        {
+          "fecha": "2013-06-27",
+          "evento": "Bárcenas en prisión. SMS a Rajoy: 'Sé fuerte'. Rajoy contesta: 'Sé fuerte, Luis'"
+        },
+        {
+          "fecha": "2018-05-24",
+          "evento": "Sentencia Audiencia Nacional: Bárcenas condenado a 33 años de prisión y 44M€ de multa por Gürtel"
+        },
+        {
+          "fecha": "2020-02-24",
+          "evento": "Bárcenas condenado a 29 años por Gürtel"
+        },
+        {
+          "fecha": "2022-11-03",
+          "evento": "Tercer grado penitenciario. Régimen abierto"
+        },
+        {
+          "fecha": "2024-12-16",
+          "evento": "LIBERTAD CONDICIONAL concedida por el Juzgado de Vigilancia Penitenciaria de la AN tras 8 años entre rejas. Cumplidas 2/3 de su condena, pagados 4,5M€ de responsabilidad civil, arrepentido y reinsertado",
+          "fuente": "https://www.poderjudicial.es/cgpj/es/Poder-Judicial/Audiencia-Nacional/Oficina-de-Comunicacion/Notas-de-prensa/El-Juzgado-de-Vigilancia-Penitenciaria-concede-la-libertad-condicional-al-extesorero-del-Partido-Popular-Luis-Barcenas"
+        },
+        {
+          "fecha": "2026-03-12",
+          "evento": "Reaparece públicamente con entrevista en elDiario.es: tilda la Operación Kitchen contra su familia de 'auténtica aberración'. Su condena se extingue previsiblemente en septiembre de 2028",
+          "fuente": "https://www.eldiario.es/politica/barcenas-reaparece-libertad-condicional-operacion-kitchen-familia-autentica-aberracion_1_13059903.html"
+        }
       ]
     },
     {
@@ -268,17 +561,44 @@
       "nombre": "Operación Púnica",
       "partido": "PP",
       "emoji": "🏛️",
-      "protagonistas": ["Francisco Granados", "David Marjaliza", "Ignacio González"],
-      "descripcion": "Trama de la Comunidad de Madrid: 250M€ en contratos amañados. 51 detenidos — récord en España. Juicio de la pieza 7 (comisiones por fiestas municipales) en curso desde enero de 2026.",
-      "juzgado": "Audiencia Nacional",
-      "juez": "Sala de lo Penal",
+      "protagonistas": [
+        "Francisco Granados",
+        "David Marjaliza",
+        "Ignacio González"
+      ],
+      "descripcion": "Trama de corrupción en municipios y comunidades autónomas del PP: Madrid, Murcia, León, Valencia. 250M€ en contratos amañados. 51 detenidos en 2014 — récord en España. La causa se dividió en 12 piezas separadas. Granados, mano derecha de Aguirre, ya fue condenado a 2 años por chivatazo. En enero de 2026 arrancó el juicio de una nueva pieza por contratos amañados a Waiter Music en festejos municipales: Fiscalía pide 6 años para Granados.",
+      "juzgado": "Audiencia Nacional, Sala de lo Penal",
+      "juez": "Varios (Eloy Velasco, instrucción original)",
       "estado": "juicio_oral",
       "importe_estimado": 250000000,
       "fecha_inicio": "2014-10",
       "timeline": [
-        {"fecha": "2014-10-27", "evento": "51 detenidos. Granados en prisión provisional"},
-        {"fecha": "2018-04-25", "evento": "Esperanza Aguirre dimite como presidenta del PP de Madrid"},
-        {"fecha": "2026-01-07", "evento": "Comienza juicio oral de la pieza 7: comisiones ilegales por contratos de fiestas municipales", "fuente": "https://www.teleprensa.com/articulo/nacional-3/an-afronta-2026-pendiente-juicio-kitchen-analisis-pagos-metalico-psoe/202601011002412307112.html"}
+        {
+          "fecha": "2014-10-27",
+          "evento": "Detención de Granados y otras 50 personas (alcaldes, ediles, empresarios). Récord histórico de detenciones por corrupción en España"
+        },
+        {
+          "fecha": "2018-04-25",
+          "evento": "Esperanza Aguirre dimite como presidenta del PP de Madrid"
+        },
+        {
+          "fecha": "2021-06-15",
+          "evento": "Granados condenado a 2 años de prisión por usar el chivatazo de un guardia civil sobre la operación policial"
+        },
+        {
+          "fecha": "2026-01-19",
+          "evento": "ARRANCA juicio por contratos de fiestas municipales (Waiter Music). 14 acusados incluyendo Granados y exalcaldes del PP de Valdemoro, Móstoles, Ciempozuelos y Moraleja",
+          "fuente": "https://www.infobae.com/espana/agencias/2026/01/19/arranca-un-nuevo-juicio-de-punica-con-granados-en-el-banquillo-por-presunta-corrupcion/"
+        },
+        {
+          "fecha": "2026-05-18",
+          "evento": "Exalcaldes del PP niegan en juicio haber amañado adjudicaciones por orden de Granados"
+        },
+        {
+          "fecha": "2026-05-20",
+          "evento": "Granados declara en la AN: rechaza todas las acusaciones y apunta a Esperanza Aguirre: 'En la Comunidad de Madrid no se movía un clavo sin que lo dijera la presidenta y el vicepresidente'",
+          "fuente": "https://www.democrata.es/tribunales/granados-desmarca-punica-audiencia-nacional/"
+        }
       ]
     },
     {
@@ -286,16 +606,30 @@
       "nombre": "Operación Lezo",
       "partido": "PP",
       "emoji": "🏗️",
-      "protagonistas": ["Ignacio González"],
-      "descripcion": "Sobornos en el Canal de Isabel II. La empresa que da de beber a 6 millones de madrileños, usada como cajero automático.",
-      "juzgado": "Audiencia Nacional",
-      "juez": "Varios",
-      "estado": "juicio_oral",
+      "protagonistas": [
+        "Ignacio González"
+      ],
+      "descripcion": "Sobornos en el Canal de Isabel II, la empresa pública que suministra agua a 6 millones de madrileños. Comisiones del 2-3% sobre contratos. Pieza 1 (Inassa) cerrada sin imputar a Gallardón. Pieza 2 (tren a Navalcarnero): la Audiencia Nacional ha aplazado el juicio a Ignacio González hasta septiembre de 2027 — diez años después de la detención.",
+      "juzgado": "Audiencia Nacional, Sala de lo Penal (pieza 2)",
+      "juez": "Manuel García Castellón (instrucción)",
+      "estado": "instruccion",
       "importe_estimado": 25000000,
       "fecha_inicio": "2017-04",
       "timeline": [
-        {"fecha": "2017-04-19", "evento": "Detención de Ignacio González"},
-        {"fecha": "2024-10-21", "evento": "Juicio retomado tras años de recursos dilatorios"}
+        {
+          "fecha": "2017-04-19",
+          "evento": "Operación Lezo: detención de Ignacio González, expresidente de la Comunidad de Madrid, por sobornos en el Canal de Isabel II"
+        },
+        {
+          "fecha": "2020-01-29",
+          "evento": "Fiscalía Anticorrupción pide 8 años de prisión y 19 de inhabilitación para Ignacio González por fraude a la administración y malversación",
+          "fuente": "https://www.publico.es/politica/fiscalia-pide-ocho-anos-carcel-ignacio-gonzalez-caso-lezo.html"
+        },
+        {
+          "fecha": "2025-12-24",
+          "evento": "Auto de la AN: el juicio a Ignacio González por la pieza del tren a Navalcarnero NO se celebrará en 2026 sino en el segundo semestre de 2027, diez años después de la detención",
+          "fuente": "https://www.elplural.com/sociedad/tribunales/juicio-ignacio-gonzalez-marco-operacion-lezo-ultimo-reflejo-doble-velocidad-justicia_368226102"
+        }
       ]
     },
     {
@@ -303,7 +637,10 @@
       "nombre": "Caso González Amador (pareja de Ayuso)",
       "partido": "PP",
       "emoji": "💼",
-      "protagonistas": ["Alberto González Amador", "Isabel Díaz Ayuso"],
+      "protagonistas": [
+        "Alberto González Amador",
+        "Isabel Díaz Ayuso"
+      ],
       "descripcion": "El novio de la presidenta de Madrid defraudó a Hacienda con facturas falsas. Primero lo confesó y pactó con el fiscal para evitar cárcel. Después cambió de versión y ahora dice que es inocente. Los inspectores fiscales concluyeron que usó 'facturas falsas y falseadas emitidas por empresas carentes de medios'. Procesamiento confirmado por la Audiencia de Madrid.",
       "juzgado": "Juzgado de Instrucción nº 19 de Madrid",
       "juez": "Varios",
@@ -311,45 +648,115 @@
       "importe_estimado": 350000,
       "fecha_inicio": "2024-03",
       "timeline": [
-        {"fecha": "2023-10-15", "evento": "González Amador confiesa el doble fraude fiscal ante los inspectores de Hacienda a través de su abogado"},
-        {"fecha": "2024-06-15", "evento": "Pacta con Fiscalía y Abogacía del Estado: admite dos delitos a cambio de 8 meses de cárcel"},
-        {"fecha": "2025-11-07", "evento": "Audiencia de Madrid confirma procesamiento por dos delitos de fraude fiscal y falsificación documental. Rechaza todos los recursos de la defensa", "fuente": "https://www.eldiario.es/politica/audiencia-madrid-confirma-procesamiento-pareja-ayuso-caso-fraude-fiscal_1_12750060.html"},
-        {"fecha": "2026-02-20", "evento": "Da un giro: ahora dice que no cometió los delitos. Su defensa alega que la condena al fiscal general por filtrar su confesión vulnera su presunción de inocencia", "fuente": "https://www.eldiario.es/politica/caso-novio-ayuso-admitir-fraude-hacienda-pactar-fiscal-evitar-carcel-negar-delito_129_13006696.html"}
+        {
+          "fecha": "2023-10-15",
+          "evento": "González Amador confiesa el doble fraude fiscal ante los inspectores de Hacienda a través de su abogado"
+        },
+        {
+          "fecha": "2024-06-15",
+          "evento": "Pacta con Fiscalía y Abogacía del Estado: admite dos delitos a cambio de 8 meses de cárcel"
+        },
+        {
+          "fecha": "2025-11-07",
+          "evento": "Audiencia de Madrid confirma procesamiento por dos delitos de fraude fiscal y falsificación documental. Rechaza todos los recursos de la defensa",
+          "fuente": "https://www.eldiario.es/politica/audiencia-madrid-confirma-procesamiento-pareja-ayuso-caso-fraude-fiscal_1_12750060.html"
+        },
+        {
+          "fecha": "2026-02-20",
+          "evento": "Da un giro: ahora dice que no cometió los delitos. Su defensa alega que la condena al fiscal general por filtrar su confesión vulnera su presunción de inocencia",
+          "fuente": "https://www.eldiario.es/politica/caso-novio-ayuso-admitir-fraude-hacienda-pactar-fiscal-evitar-carcel-negar-delito_129_13006696.html"
+        }
       ]
     },
     {
       "id": "acuamed",
       "nombre": "Caso Acuamed",
-      "partido": "PP",
+      "partido": "Transversal",
       "emoji": "💧",
-      "protagonistas": ["Varios altos cargos Ministerio Medio Ambiente"],
-      "descripcion": "Adjudicaciones irregulares y sobrecostes de cientos de millones en la empresa pública de aguas Acuamed.",
-      "juzgado": "Audiencia Nacional",
-      "juez": "Ismael Moreno",
-      "estado": "juicio_oral",
-      "importe_estimado": 300000000,
+      "protagonistas": [
+        "Varios altos cargos Ministerio Medio Ambiente"
+      ],
+      "descripcion": "Adjudicaciones irregulares en la empresa pública estatal de obras hidráulicas. Los imputados son técnicos e ingenieros, no políticos. La trama, según el juez, favorecía a constructoras a cambio de regalos como entradas de fútbol. Diez años de instrucción sin que la fiscal haya podido cuantificar el sobrecoste. El caso abarca a etapas PSOE (Narbona) y PP (Cañete) sin filiación clara.",
+      "juzgado": "Audiencia Nacional, Juzgado Central de Instrucción nº 6",
+      "juez": "Antonio Piña (cierre instrucción); Eloy Velasco y García Castellón (anteriores)",
+      "estado": "instruccion",
+      "importe_estimado": null,
       "fecha_inicio": "2016-03",
       "timeline": [
-        {"fecha": "2016-03-15", "evento": "Operación Frontino: detenciones"},
-        {"fecha": "2024-06-10", "evento": "Comienza juicio oral"}
+        {
+          "fecha": "2016-01-18",
+          "evento": "Operación Frontino: UCO realiza 13 registros, 5 imputados ingresan en Soto del Real. Eloy Velasco al frente",
+          "fuente": "https://okdiario.com/economia/caso-acuamed-10-anos-instruccion-ni-rastro-del-supuesto-dinero-robado-que-denunciaba-psoe-16087491"
+        },
+        {
+          "fecha": "2022-04-04",
+          "evento": "El Tribunal Constitucional 'dinamita' parcialmente el caso: obliga a Acuamed a pagar 2,9M€ a Torrescamara y Sogeosa por un arbitraje pendiente"
+        },
+        {
+          "fecha": "2023-04-26",
+          "evento": "El juez García Castellón procesa a 42 personas por 6 delitos: corrupción en negocios, falsedad, fraude, prevaricación, malversación y cohecho",
+          "fuente": "https://www.poderjudicial.es/cgpj/ca/Poder-Judicial/Novetats/El-juez-de-la-Audiencia-Nacional-procesa-a-42-personas-por-la-adjudicacion-y-ejecucion-irregular-de-obras-hidraulicas-y-medioambientales-en-el--caso-Acuamed-"
+        },
+        {
+          "fecha": "2025-03-23",
+          "evento": "El juez Antonio Piña cierra la instrucción tras 10 años. Lleva a juicio oral a 43 imputados, sin investigar las acusaciones al PSOE (etapa Narbona)",
+          "fuente": "https://okdiario.com/economia/juez-cierra-instruccion-del-caso-acuamed-sin-investigar-acusaciones-contra-psoe-narbona-14484249"
+        },
+        {
+          "fecha": "2026-01-18",
+          "evento": "10 años después de la Operación Frontino: ni rastro del dinero supuestamente robado. Sentencia firme podría retrasarse a 2030-2032"
+        }
       ]
     },
     {
       "id": "pujol",
-      "nombre": "Caso Pujol / Organización familiar",
+      "nombre": "Caso Pujol Ferrusola / Andorra",
       "partido": "CDC/CiU",
       "emoji": "👨‍👩‍👦‍👦",
-      "protagonistas": ["Jordi Pujol", "Marta Ferrusola", "Jordi Pujol Jr.", "Oleguer Pujol", "y 5 hijos más"],
-      "descripcion": "El expresidente de la Generalitat, sus 7 hijos y más de 15 colaboradores, acusados de organización criminal que se habría enriquecido durante décadas valiéndose de la posición política de Pujol. La gran familia corrupta de la política catalana.",
-      "juzgado": "Audiencia Nacional",
-      "juez": "Sala de lo Penal",
-      "estado": "juicio_oral",
+      "protagonistas": [
+        "Jordi Pujol Soley (eximido)",
+        "Jordi Pujol Ferrusola",
+        "Josep Pujol Ferrusola",
+        "Oriol Pujol Ferrusola",
+        "Mercè Gironés (exesposa)",
+        "Marta, Mireia, Pere y Oleguer Pujol"
+      ],
+      "descripcion": "La fortuna de los Pujol en Andorra durante 34 años. Tras 38 sesiones de juicio entre noviembre 2025 y mayo 2026, la causa quedó VISTA PARA SENTENCIA el 14 de mayo de 2026. Jordi Pujol Soley, expresidente de la Generalitat, fue eximido del juicio en abril por incapacidad cognitiva (95 años). En el banquillo se sentaron sus 7 hijos, la exesposa del primogénito y 9 empresarios. Sentencia esperada a finales de julio.",
+      "juzgado": "Audiencia Nacional, Sala de lo Penal",
+      "juez": "Sala: De Prada (presidente), Del Molino, García Pérez (ponente). Instructor: Pedraz",
+      "estado": "visto_sentencia",
       "importe_estimado": null,
       "fecha_inicio": "2012-07",
       "timeline": [
-        {"fecha": "2014-07-25", "evento": "Pujol confiesa que su familia ocultó dinero en Andorra durante 34 años"},
-        {"fecha": "2020-10-05", "evento": "Auto de apertura de juicio oral contra toda la familia"},
-        {"fecha": "2026-01-08", "evento": "Reanudación del juicio oral en la Audiencia Nacional contra Pujol, sus 7 hijos y colaboradores", "fuente": "https://www.teleprensa.com/articulo/nacional-3/an-afronta-2026-pendiente-juicio-kitchen-analisis-pagos-metalico-psoe/202601011002412307112.html"}
+        {
+          "fecha": "2014-07-25",
+          "evento": "Jordi Pujol Soley confiesa públicamente que su familia ocultó dinero en Andorra durante 34 años"
+        },
+        {
+          "fecha": "2021-06-15",
+          "evento": "El juez Pedraz abre juicio oral contra Pujol Soley, sus 7 hijos, la exesposa del primogénito y 10 empresarios"
+        },
+        {
+          "fecha": "2024-07-08",
+          "evento": "Fallece Marta Ferrusola, esposa de Pujol Soley, antes de poder declarar en juicio"
+        },
+        {
+          "fecha": "2025-01-15",
+          "evento": "El juez Pedraz eleva la causa a la Sala Penal para fijar fecha de juicio. Aceptados 300 testigos"
+        },
+        {
+          "fecha": "2025-11",
+          "evento": "ARRANCA EL JUICIO ORAL en la Audiencia Nacional. Serán 38 sesiones hasta mayo"
+        },
+        {
+          "fecha": "2026-04-27",
+          "evento": "El tribunal exime del juicio a Jordi Pujol Soley (95 años) por estar 'imposibilitado' cognitivamente. Sobreseimiento para él"
+        },
+        {
+          "fecha": "2026-05-14",
+          "evento": "VISTO PARA SENTENCIA. Fiscalía pide 29 años para Pujol Ferrusola, 17 para Gironés, 14 para Josep Pujol, 8 para cada uno de los otros 5 hijos, 5 años para cada empresario. Sentencia esperada a finales de julio",
+          "fuente": "https://www.publico.es/politica/tribunales/visto-sentencia-juicio-pujol-renuncian-derecho-ultima-palabra.html"
+        }
       ]
     },
     {
@@ -357,16 +764,39 @@
       "nombre": "Caso 3% / CDC",
       "partido": "CDC/PDeCAT",
       "emoji": "🏴",
-      "protagonistas": ["Convergència Democràtica", "Germà Gordó", "David Madí"],
-      "descripcion": "CDC cobraba un 3% de comisión sobre los contratos de obra pública adjudicados por la Generalitat. Sistema institucionalizado de financiación ilegal.",
-      "juzgado": "Audiencia Provincial de Barcelona",
-      "juez": "Varios",
+      "protagonistas": [
+        "Convergència Democràtica",
+        "Germà Gordó",
+        "David Madí"
+      ],
+      "descripcion": "Sistema institucionalizado de financiación ilegal: CDC cobraba un 3% de comisión sobre los contratos de obra pública adjudicados por la Generalitat. CDC se disolvió en 2018 y se transformó en PDeCAT, que también fue investigado como sucesor responsable. PDeCAT se disolvió en octubre de 2023. La Audiencia Nacional rechazó en 2024 archivar el caso pese a la extinción de la persona jurídica.",
+      "juzgado": "Audiencia Nacional, Sala de lo Penal",
+      "juez": "José de la Mata (instrucción)",
       "estado": "juicio_oral",
       "importe_estimado": null,
       "fecha_inicio": "2015-06",
       "timeline": [
-        {"fecha": "2015-06-02", "evento": "Operación Petrum: detenciones por comisiones en obra pública"},
-        {"fecha": "2024-04-08", "evento": "Comienza juicio oral tras 9 años de instrucción"}
+        {
+          "fecha": "2005-02-24",
+          "evento": "Pasqual Maragall denuncia el 3% en el Parlament: '¡Ustedes tienen un problema, y se llama el tres por ciento!'"
+        },
+        {
+          "fecha": "2015-06-02",
+          "evento": "Operación Petrum: detenciones por comisiones en obra pública"
+        },
+        {
+          "fecha": "2018-07-27",
+          "evento": "El juez De la Mata imputa formalmente a CDC y a su sucesor PDeCAT como personas jurídicas responsables"
+        },
+        {
+          "fecha": "2023-10-23",
+          "evento": "PDeCAT se disuelve definitivamente, intentando evadir la responsabilidad penal"
+        },
+        {
+          "fecha": "2024-03-04",
+          "evento": "La AN RECHAZA archivar el caso pese a la extinción del PDeCAT. Apertura de juicio oral a 30 personas físicas y 16 jurídicas",
+          "fuente": "https://labandera.es/la-audiencia-nacional-rechaza-archivar-el-caso-3-para-el-pdecat/"
+        }
       ]
     },
     {
@@ -374,7 +804,10 @@
       "nombre": "Caso Palau de la Música",
       "partido": "CDC/CiU",
       "emoji": "🎶",
-      "protagonistas": ["Fèlix Millet", "Jordi Montull"],
+      "protagonistas": [
+        "Fèlix Millet",
+        "Jordi Montull"
+      ],
       "descripcion": "Millet saqueó 23M€ del Palau. Se compró un Porsche Cayenne con dinero de la institución. Parte del botín terminó financiando CDC.",
       "juzgado": "Audiencia Provincial de Barcelona",
       "juez": "Varios",
@@ -382,44 +815,26 @@
       "importe_estimado": 23000000,
       "fecha_inicio": "2009-07",
       "timeline": [
-        {"fecha": "2009-07-23", "evento": "Detención de Millet. Le encuentran un Porsche pagado con fondos del Palau"},
-        {"fecha": "2018-01-29", "evento": "Millet condenado a 9 años y 8 meses"},
-        {"fecha": "2020-03-05", "evento": "Supremo confirma condenas"}
-      ]
-    },
-    {
-      "id": "neurona",
-      "nombre": "Caso Neurona",
-      "partido": "Podemos",
-      "emoji": "🧠",
-      "protagonistas": ["Juan Carlos Monedero", "Podemos"],
-      "descripcion": "La 'Gürtel de Podemos' que no fue. 3 años de investigación por 363.000€. Resultado: archivado. El perito concluyó que Podemos pagó MENOS que el precio de mercado. La Audiencia reprochó a Vox mantener acusaciones sin base.",
-      "juzgado": "Audiencia Provincial de Madrid",
-      "juez": "Juan José Escalonilla",
-      "estado": "archivado",
-      "importe_estimado": 363000,
-      "fecha_inicio": "2020-07",
-      "timeline": [
-        {"fecha": "2020-07-15", "evento": "Calvente, abogado despedido de Podemos, denuncia irregularidades"},
-        {"fecha": "2023-12-12", "evento": "Informe pericial: precio pagado 'dentro del rango medio, incluso por debajo del mercado'. Juez archiva"},
-        {"fecha": "2024-10-09", "evento": "Audiencia Provincial desestima último recurso de Vox. Caso cerrado definitivamente", "fuente": "https://www.eldiario.es/politica/justicia-entierra-forma-definitiva-acusaciones-financiacion-ilegal-caso-neurona_1_11719877.html"}
-      ]
-    },
-    {
-      "id": "dina-bousselham",
-      "nombre": "Caso Dina Bousselham",
-      "partido": "Podemos",
-      "emoji": "📱",
-      "protagonistas": ["Pablo Iglesias", "Dina Bousselham", "José Manuel Villarejo"],
-      "descripcion": "Villarejo robó la tarjeta del móvil de una asesora de Iglesias. Iglesias la recibió, tardó meses en entregarla, y parte estaba dañada. Archivado por prescripción.",
-      "juzgado": "Audiencia Provincial de Madrid",
-      "juez": "Varios",
-      "estado": "archivado",
-      "importe_estimado": null,
-      "fecha_inicio": "2019-01",
-      "timeline": [
-        {"fecha": "2019-01-22", "evento": "Sale a la luz que Iglesias tenía la tarjeta desde hacía meses"},
-        {"fecha": "2024-02-20", "evento": "Archivado por prescripción"}
+        {
+          "fecha": "2009-07-23",
+          "evento": "Detención de Millet. Le encuentran un Porsche pagado con fondos del Palau"
+        },
+        {
+          "fecha": "2018-01-29",
+          "evento": "Millet condenado a 9 años y 8 meses"
+        },
+        {
+          "fecha": "2020-03-05",
+          "evento": "Supremo confirma condenas"
+        },
+        {
+          "fecha": "2023-03-16",
+          "evento": "MUERE Fèlix Millet a los 87 años, principal saqueador del Palau y máximo responsable de la institución durante 35 años. Solo había devuelto 5,6M€ de los 23M€ saqueados"
+        },
+        {
+          "fecha": "2026-04",
+          "evento": "Recuperados ya más de 12M€ de los 23M€ saqueados (más de la mitad del expolio). Pendiente la devolución de los 6,6M€ que cobró CDC en comisiones — depende del concurso de acreedores del partido extinto"
+        }
       ]
     },
     {
@@ -427,7 +842,10 @@
       "nombre": "Caso Filesa",
       "partido": "PSOE",
       "emoji": "📁",
-      "protagonistas": ["Carlos Navarro", "PSOE"],
+      "protagonistas": [
+        "Carlos Navarro",
+        "PSOE"
+      ],
       "descripcion": "El abuelo de la financiación ilegal. Empresas facturaban informes fantasma a grandes empresas para financiar al PSOE. 1.000 millones de pesetas. El primer gran escándalo de la democracia.",
       "juzgado": "Tribunal Supremo",
       "juez": "Varios",
@@ -435,8 +853,26 @@
       "importe_estimado": 6000000,
       "fecha_inicio": "1991-05",
       "timeline": [
-        {"fecha": "1991-05-15", "evento": "El Mundo destapa la red"},
-        {"fecha": "1997-10-28", "evento": "Sentencia condenatoria: penas de hasta 11 años"}
+        {
+          "fecha": "1989",
+          "evento": "Carlos van Schouwen, contable de Filesa, denuncia ante el PSOE la red de facturación falsa. Es despedido"
+        },
+        {
+          "fecha": "1991-05-15",
+          "evento": "El Mundo destapa la red"
+        },
+        {
+          "fecha": "1994-04-21",
+          "evento": "El juez Marino Barbero presenta su informe al Supremo: el PSOE financió ilegalmente con 1.000 millones de pesetas"
+        },
+        {
+          "fecha": "1995-09-26",
+          "evento": "El juez Barbero dimite denunciando 'presiones intolerables' del PSOE y del propio Tribunal Supremo"
+        },
+        {
+          "fecha": "1997-10-28",
+          "evento": "Sentencia condenatoria: penas de hasta 11 años"
+        }
       ]
     },
     {
@@ -444,7 +880,11 @@
       "nombre": "Caso GAL (Terrorismo de Estado)",
       "partido": "PSOE",
       "emoji": "💀",
-      "protagonistas": ["José Barrionuevo", "Rafael Vera", "Felipe González"],
+      "protagonistas": [
+        "José Barrionuevo",
+        "Rafael Vera",
+        "Felipe González"
+      ],
       "descripcion": "Guerra sucia contra ETA con fondos del Estado. 27 asesinados entre 1983-1987, algunos sin vinculación con ETA. La sentencia señaló que la trama se organizó 'desde las más altas instancias del Estado'. González nunca fue imputado.",
       "juzgado": "Tribunal Supremo",
       "juez": "Varios",
@@ -452,8 +892,30 @@
       "importe_estimado": null,
       "fecha_inicio": "1988-01",
       "timeline": [
-        {"fecha": "1983-10-16", "evento": "Primer atentado GAL: secuestro de Segundo Marey, ciudadano español confundido con etarra"},
-        {"fecha": "1998-07-29", "evento": "Barrionuevo y Vera condenados a 10 años. Indultados parcialmente"}
+        {
+          "fecha": "1983-10-16",
+          "evento": "Primer atentado GAL: secuestro de Segundo Marey, ciudadano español confundido con etarra"
+        },
+        {
+          "fecha": "1995-12-22",
+          "evento": "El juez Garzón abre la macrocausa GAL e imputa a Felipe González por presunta financiación con fondos reservados (luego archivada para él)"
+        },
+        {
+          "fecha": "1996-07-15",
+          "evento": "Barrionuevo, Vera y Sancristóbal procesados por el secuestro de Segundo Marey"
+        },
+        {
+          "fecha": "1998-05-25",
+          "evento": "Inicio del juicio Marey en el Tribunal Supremo (causa especial al ser aforados Barrionuevo y Vera)"
+        },
+        {
+          "fecha": "1998-07-29",
+          "evento": "Barrionuevo y Vera condenados a 10 años. Indultados parcialmente"
+        },
+        {
+          "fecha": "1998-12-15",
+          "evento": "Felipe González declara como testigo en el Supremo. Mantiene no haber tenido conocimiento de la trama"
+        }
       ]
     }
   ]
