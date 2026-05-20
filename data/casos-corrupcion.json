@@ -1,9 +1,9 @@
 {
   "meta": {
-    "version": "3.4.0",
+    "version": "3.5.0",
     "actualizado": "2026-05-20",
-    "total_casos": 38,
-    "nota": "Datos verificados con fuentes a mayo de 2026. FiscalizApp no es un medio: enlazamos fuentes para que cada ciudadano juzgue. v3.4.0: añadido Bloque 3 - Etapa Aznar/Zapatero 2000-2011 (Malaya, Nóos, Pretoria, Palma Arena, Brugal, Faisán, Pallerols, Andratx, Pokémon, Mercasevilla).",
+    "total_casos": 44,
+    "nota": "Datos verificados con fuentes a mayo de 2026. FiscalizApp no es un medio: enlazamos fuentes para que cada ciudadano juzgue. v3.5.0: añadido Bloque 4 - Etapa Rajoy 2011-2018 (Taula, Erial, Fabra, Tarjetas Black, Púnica, Tándem/Villarejo).",
     "chascarrillos": [
       "Si la corrupción fuera deporte olímpico, España iría sobrada de medallas.",
       "«No tengo nada que ocultar» — frase que precede al 90% de las imputaciones.",
@@ -1710,6 +1710,261 @@
         {
           "fecha": "2021-09",
           "evento": "Pieza del ERE de Mercasevilla 2007: ABSOLUCIÓN del exdirector general y otros nueve acusados por malversación de fondos públicos en prejubilaciones"
+        }
+      ]
+    },
+    {
+      "id": "taula",
+      "nombre": "Caso Taula",
+      "partido": "PP",
+      "emoji": "🍊",
+      "protagonistas": [
+        "Rita Barberá (alcaldesa de Valencia 1991-2015, fallecida 2016)",
+        "Alfonso Grau (exvicealcalde, mano derecha de Barberá)",
+        "Alfonso Rus (expresidente Diputación Valencia)",
+        "Marcos Benavent ('yonqui del dinero')",
+        "Carmen García-Fuster (exsecretaria del grupo municipal)"
+      ],
+      "descripcion": "La caja B clandestina del PP de Rita Barberá durante 20 años de alcaldía en Valencia. Carmen García-Fuster gestionaba desde 1995 una contabilidad paralela manuscrita donde se anotaban donaciones ilegales de empresas contratistas (1,6M€ documentados solo en las campañas 2007 y 2011). Operación Taula desencadenada el 26-ene-2016 con la detención de Alfonso Rus. Macrocausa con 10+ piezas. La pieza A (sentencia jul-2024) confirma la caja B. Rita Barberá falleció en 2016, sin ser juzgada. Pieza E aplazada a 2026.",
+      "juzgado": "Audiencia Provincial de Valencia",
+      "juez": "Varios",
+      "estado": "sentencia",
+      "importe_estimado": 1600000,
+      "fecha_inicio": "2016-01",
+      "timeline": [
+        {
+          "fecha": "2016-01-26",
+          "evento": "OPERACIÓN TAULA: la UCO ejecuta 15 registros simultáneos. Detenido Alfonso Rus (expresidente Diputación). Se interviene la contabilidad B manuscrita gestionada por Carmen García-Fuster",
+          "fuente": "https://corrupcion-ppsoe.es/casos/pp/taula/"
+        },
+        {
+          "fecha": "2016-11-23",
+          "evento": "Fallece Rita Barberá, alcaldesa de Valencia 1991-2015 e icono del PP valenciano, antes de ser juzgada. Investigada por blanqueo de capitales"
+        },
+        {
+          "fecha": "2019",
+          "evento": "Pieza J: Marcos Benavent, autodenominado 'yonqui del dinero', condenado a casi 8 años de prisión por amaño de contratos en Imelsa"
+        },
+        {
+          "fecha": "2020",
+          "evento": "Pieza B: Alfonso Rus condenado a 5 años de prisión por amaño de adjudicaciones en la Diputación de Valencia"
+        },
+        {
+          "fecha": "2022",
+          "evento": "Pieza D: sentencia ABSOLUTORIA. Pieza K aplazada"
+        },
+        {
+          "fecha": "2024-07-30",
+          "evento": "SENTENCIA Pieza A: el exvicealcalde Alfonso Grau condenado a 4 años 6 meses de prisión + 9 años inhabilitación + multa de 5M€ + indemnización 388.150€ al Ayto Valencia. Se acredita la existencia de la caja B 'clandestina' del PP",
+          "fuente": "https://www.poderjudicial.es/cgpj/es/Poder-Judicial/Tribunal-Supremo/Noticias-Judiciales/El-Tribunal-Supremo-confirma-la-condena-de-Rodrigo-Rato-a-cuatro-anos-y-medio-de-prision-por-las--tarjetas-black-"
+        },
+        {
+          "fecha": "2026-01",
+          "evento": "Pieza E pendiente: contratos de Concejalía de Cultura 2003-2007 (limpieza La Lonja, Torres de Quart)"
+        }
+      ]
+    },
+    {
+      "id": "erial",
+      "nombre": "Caso Erial / Zaplana",
+      "partido": "PP",
+      "emoji": "💸",
+      "protagonistas": [
+        "Eduardo Zaplana (expresidente Generalitat Valenciana, exministro Aznar)",
+        "Joaquín Barceló 'Pachano' (testaferro)",
+        "Francisco Grau Jornet (contable de la trama)",
+        "Vicente Cotino y José Cotino (empresarios)"
+      ],
+      "descripcion": "El expresidente valenciano y exministro de Aznar acusado de blanquear 16,2 millones de euros (6,4M en Luxemburgo + 9,8M en Andorra) en comisiones ilícitas cobradas mientras ocupaba la Presidencia de la Generalitat. El origen del dinero: la privatización amañada de las ITV valencianas y los Parques Eólicos, que produjo un pelotazo a la familia Cotino (86,5M€ por Sedesa). La sentencia califica su conducta de 'especialmente reprobable' y rechaza el argumento salarial: 'no podía proceder de su salario como político, dadas las cuantías'.",
+      "juzgado": "Audiencia Provincial de Valencia / Tribunal Supremo (pendiente)",
+      "juez": "Varios",
+      "estado": "sentencia",
+      "importe_estimado": 16200000,
+      "fecha_inicio": "2018-05",
+      "timeline": [
+        {
+          "fecha": "2018-05-22",
+          "evento": "DETENCIÓN de Zaplana, los hermanos Cotino y otros por cohecho, blanqueo de capitales, malversación y prevaricación. El PP lo suspende de militancia. Telefónica lo cesa como consejero",
+          "fuente": "https://www.pressreader.com/spain/costa-blanca-news-9A60/20180525/281990378191288"
+        },
+        {
+          "fecha": "2019",
+          "evento": "Zaplana sale de prisión preventiva por motivos de salud (leucemia)"
+        },
+        {
+          "fecha": "2024-10-15",
+          "evento": "SENTENCIA Audiencia de Valencia: Zaplana CONDENADO a 10 AÑOS de prisión como jefe de la trama. Pachano (testaferro) 1 año 3 meses; Francisco Grau (contable) 5 años + 20M€ multa; Vicente Cotino 3 años 5 meses; Juan Francisco García (exjefe gabinete) 2 años 9 meses; José Cotino 2 años",
+          "fuente": "https://www.eldiario.es/comunitat-valenciana/eduardo-zaplana-condenado-10-anos-prision-jefe-trama-corrupta-caso-erial_1_11711332.html"
+        },
+        {
+          "fecha": "2024-10-16",
+          "evento": "Zaplana anuncia recurso. La sentencia describe su conducta como 'especialmente reprobable' y le califica de 'corrupto prototípico'. Pendiente Tribunal Supremo"
+        }
+      ]
+    },
+    {
+      "id": "fabra-naranjax",
+      "nombre": "Caso Fabra / Naranjax",
+      "partido": "PP",
+      "emoji": "🍊",
+      "protagonistas": [
+        "Carlos Fabra (expresidente Diputación Castellón 1995-2010, PP)",
+        "María Amparo Fernández (exesposa de Fabra)",
+        "Vicente Vilar (empresario denunciante, propietario de Naranjax)"
+      ],
+      "descripcion": "Carlos Fabra, hombre fuerte del PP en Castellón durante décadas y artífice del polémico aeropuerto de Castellón que apenas tuvo operaciones, fue condenado por cuatro delitos contra la Hacienda Pública. Origen: el empresario Vicente Vilar (Naranjax) lo denunció en 2003 acusándolo de cobrar comisiones para favorecer su producto fitosanitario ante los ministerios. Aunque fue ABSUELTO de cohecho y tráfico de influencias, la Audiencia consideró probado que no había justificado ingresos millonarios. Pasaron nueve jueces por la instrucción a lo largo de 10 años.",
+      "juzgado": "Audiencia Provincial de Castellón",
+      "juez": "Varios (9 jueces pasaron por la instrucción)",
+      "estado": "sentencia",
+      "importe_estimado": 693000,
+      "fecha_inicio": "2003-12",
+      "timeline": [
+        {
+          "fecha": "2003-12",
+          "evento": "El empresario Vicente Vilar, propietario de Naranjax, presenta dos querellas en el juzgado de Nules acusando a Fabra de cobrarle comisiones para favorecer su producto en los Ministerios de Agricultura y Sanidad"
+        },
+        {
+          "fecha": "2010-06",
+          "evento": "Fabra abandona la presidencia de la Diputación de Castellón tras 16 años. En 2012 deja también la dirección provincial del PP"
+        },
+        {
+          "fecha": "2013-11-25",
+          "evento": "SENTENCIA Audiencia de Castellón: Fabra condenado a 4 años de cárcel por 4 delitos contra la Hacienda Pública + multa de 693.000€ + 693.000€ a Hacienda. Su exesposa Amparo Fernández a 2 años. ABSUELTO de cohecho y tráfico de influencias",
+          "fuente": "https://www.publico.es/politica/cuatro-anos-carcel-carlos-fabra-delitos-hacienda-publica.html"
+        },
+        {
+          "fecha": "2014-09",
+          "evento": "Ingresa en la prisión de Aranjuez para cumplir condena. Primer alto cargo del PP valenciano en pisar la cárcel"
+        },
+        {
+          "fecha": "2017-04-28",
+          "evento": "Libertad condicional tras cumplir 3/4 partes de la condena. Anticorrupción se opuso por no haber abonado los intereses de la responsabilidad civil"
+        }
+      ]
+    },
+    {
+      "id": "tarjetas-black",
+      "nombre": "Caso Tarjetas Black / Caja Madrid",
+      "partido": "Transversal",
+      "emoji": "💳",
+      "protagonistas": [
+        "Rodrigo Rato (expresidente Bankia, exministro Economía Aznar)",
+        "Miguel Blesa (expresidente Caja Madrid, fallecido por suicidio en 2017)",
+        "64 exconsejeros y exdirectivos de Caja Madrid/Bankia"
+      ],
+      "descripcion": "El escándalo financiero más mediático del rescate bancario. Caja Madrid (luego Bankia, rescatada con 22.000 millones de dinero público) mantenía desde 1988 un sistema opaco de tarjetas para sus altos cargos y consejeros: gastaban dinero personal en joyerías, hoteles, ropa, supermercados, sin justificación ni tributación. 12 millones de euros desviados. Entre los condenados: representantes del PP, PSOE, IU, sindicatos UGT/CCOO, patronales CEOE/CEIM e incluso un miembro de la Casa Real. Destapado por eldiario.es en diciembre 2013.",
+      "juzgado": "Audiencia Nacional / Tribunal Supremo",
+      "juez": "Fernando Andreu (instrucción)",
+      "estado": "sentencia",
+      "importe_estimado": 12000000,
+      "fecha_inicio": "2013-12",
+      "timeline": [
+        {
+          "fecha": "2013-12",
+          "evento": "Eldiario.es publica los 'correos de Blesa' filtrados desde la plataforma Xnet. Aparece el sistema de tarjetas opacas. Bankia (Goirigolzarri) abre investigación interna que deriva en denuncia judicial"
+        },
+        {
+          "fecha": "2017-02-23",
+          "evento": "SENTENCIA Audiencia Nacional: 65 condenas. Miguel Blesa 6 años, Rodrigo Rato 4 años 6 meses, Ildefonso Sánchez Barcoj 2 años 6 meses. Resto entre 3 meses y 4,5 años. Rato gastó 99.054€ con su tarjeta black"
+        },
+        {
+          "fecha": "2017-07-19",
+          "evento": "Miguel Blesa se suicida en su finca de Córdoba, antes de que la sentencia sea firme"
+        },
+        {
+          "fecha": "2018-10-03",
+          "evento": "El Tribunal Supremo CONFIRMA las condenas. Rato mantiene 4 años 6 meses por apropiación indebida continuada. 12,5M€ a devolver solidariamente como responsabilidad civil (9,3M etapa Blesa + 2,6M etapa Rato)",
+          "fuente": "https://www.poderjudicial.es/cgpj/es/Poder-Judicial/Tribunal-Supremo/Noticias-Judiciales/El-Tribunal-Supremo-confirma-la-condena-de-Rodrigo-Rato-a-cuatro-anos-y-medio-de-prision-por-las--tarjetas-black-"
+        },
+        {
+          "fecha": "2018-10-25",
+          "evento": "Rato ingresa en la prisión de Soto del Real para cumplir condena"
+        }
+      ]
+    },
+    {
+      "id": "punica",
+      "nombre": "Operación Púnica",
+      "partido": "PP",
+      "emoji": "🌳",
+      "protagonistas": [
+        "Francisco Granados (exnúmero 2 PP Madrid, mano derecha de Esperanza Aguirre)",
+        "David Marjaliza (corruptor de la trama, exsocio de Granados)",
+        "6 exalcaldes del PP de la Comunidad de Madrid",
+        "Cofely (empresa adjudicataria)"
+      ],
+      "descripcion": "Macrocausa de corrupción en ayuntamientos del PP en la Comunidad de Madrid: amaño sistemático de contratos de eficiencia energética a favor de la empresa Cofely a cambio de comisiones a alcaldes y funcionarios entre 2012 y 2014. Llamada Púnica por 'Punica granatum' (granado), referencia velada a Francisco Granados, hombre fuerte del PP madrileño bajo Aguirre. La pieza 6 cerró con 29 condenas en diciembre de 2025 — 11 años después de la operación. Granados sigue pendiente de juicio en otras piezas (la principal sobre caja B del PP madrileño llegará después).",
+      "juzgado": "Audiencia Nacional",
+      "juez": "Manuel García-Castellón / Eloy Velasco (instrucción)",
+      "estado": "sentencia",
+      "importe_estimado": 250000000,
+      "fecha_inicio": "2014-06",
+      "timeline": [
+        {
+          "fecha": "2014-06",
+          "evento": "OPERACIÓN PÚNICA: la Guardia Civil detiene a Francisco Granados (exnúmero 2 del PP de Madrid bajo Aguirre), David Marjaliza y decenas de cargos del PP madrileño"
+        },
+        {
+          "fecha": "2015",
+          "evento": "David Marjaliza, principal corruptor de la trama, decide colaborar con la Audiencia Nacional. Apunta a todos los implicados a cambio de rebaja de pena"
+        },
+        {
+          "fecha": "2017-2024",
+          "evento": "La macrocausa se ramifica en múltiples piezas. 13 acusados acuerdan reconocer hechos con la Fiscalía"
+        },
+        {
+          "fecha": "2025-12-22",
+          "evento": "SENTENCIA Audiencia Nacional pieza 6: 29 condenados de 37 juzgados. David Marjaliza a 8 años 2 meses (pena más alta). Condenas de prisión para 6 exalcaldes del PP: Daniel Ortiz Espejo (Móstoles), Agustín Juárez (Collado Villalba), Carlos Alberto Estrada (Moraleja de Enmedio) y otros. Cofely multada con 3,5M€",
+          "fuente": "https://www.elespanol.com/espana/tribunales/20251222/audiencia-nacional-condena-prision-exalcaldes-comunidad-madrid-trama-corrupcion-punica/1003744066688_0.html"
+        },
+        {
+          "fecha": "2026",
+          "evento": "Pendiente el juicio principal a Francisco Granados (líder de la trama) y otras piezas, incluida la caja B del PP de Aguirre"
+        }
+      ]
+    },
+    {
+      "id": "tandem-villarejo",
+      "nombre": "Caso Tándem / Villarejo",
+      "partido": "Transversal",
+      "emoji": "🕵️",
+      "protagonistas": [
+        "José Manuel Villarejo (excomisario del CNP)",
+        "Rafael Redondo (socio en el entramado Cenyt)",
+        "Múltiples clientes privados y públicos"
+      ],
+      "descripcion": "La mayor causa de espionaje y corrupción policial de la democracia. José Manuel Villarejo, excomisario del CNP, montó durante décadas el grupo de empresas Cenyt, que ofrecía servicios de espionaje, dossiers, manipulación mediática y trabajos 'sucios' tanto a clientes privados (BBVA, Iberdrola, Repsol, Planeta…) como a actores políticos. Macrocausa Tándem con casi 50 piezas separadas. La primera sentencia (piezas Iron-Land-Pintor, espionaje a despacho rival) condenó a Villarejo a 19 años, posteriormente rebajados a 13 años por la Sala de Apelación. Múltiples piezas en curso.",
+      "juzgado": "Audiencia Nacional / Tribunal Supremo",
+      "juez": "Diego de Egea / Manuel García-Castellón (instrucción)",
+      "estado": "sentencia",
+      "importe_estimado": null,
+      "fecha_inicio": "2017-11",
+      "timeline": [
+        {
+          "fecha": "2017-11",
+          "evento": "Detención de Villarejo, su esposa y su hijo en el marco de la macrocausa Tándem. Se interviene un archivo masivo de grabaciones y dossiers de espionaje a empresas y políticos"
+        },
+        {
+          "fecha": "2018-07",
+          "evento": "Se filtran los audios de Villarejo con Corinna zu Sayn-Wittgenstein (examante del Rey Juan Carlos I), que precipitan la abdicación financiera del rey emérito"
+        },
+        {
+          "fecha": "2023-07",
+          "evento": "SENTENCIA piezas Iron-Land-Pintor: Villarejo condenado a 19 años por revelación de secretos de empresa y particulares + falsedad documental. Absuelto de cohecho. Su socio Rafael Redondo a 13 años"
+        },
+        {
+          "fecha": "2024-05-21",
+          "evento": "Pieza Editorial Planeta-Kiss FM: Villarejo condenado por cohecho a 3 años por sus trabajos en el laudo arbitral. Primera condena por cohecho de la causa Tándem",
+          "fuente": "https://ernestoekaizer.substack.com/p/la-audiencia-condena-a-villarejo"
+        },
+        {
+          "fecha": "2024-10",
+          "evento": "La AN repite la sentencia Iron-Land-Pintor tras anulación, manteniendo los 19 años"
+        },
+        {
+          "fecha": "2025-09-17",
+          "evento": "La Sala de Apelación de la Audiencia Nacional REBAJA la condena de 19 a 13 años al absolver a Villarejo de falsedad documental. Su socio Rafael Redondo de 13 a 9 años. Pendientes decenas de piezas más",
+          "fuente": "https://www.infobae.com/espana/2025/09/17/la-audiencia-nacional-rebaja-de-19-a-13-anos-de-carcel-la-condena-al-comisario-villarejo/"
         }
       ]
     }
