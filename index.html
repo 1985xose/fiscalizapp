@@ -105,6 +105,37 @@ h1 {
   transform: translateY(-1px);
 }
 
+/* Stat cards clickables en CASOS DE CORRUPCIÓN */
+.stat-card.clickable {
+  cursor: pointer;
+  transition: background 0.15s, transform 0.15s, border-color 0.15s;
+  user-select: none;
+}
+.stat-card.clickable:hover {
+  background: var(--bg-surface);
+  transform: translateY(-2px);
+  border-color: rgba(230,57,70,0.3);
+}
+.stat-card.clickable.active {
+  border-color: var(--accent-red);
+  background: rgba(230,57,70,0.06);
+  box-shadow: 0 0 12px rgba(230,57,70,0.15);
+}
+.stat-card.clickable .stat-sublabel {
+  font-family: var(--font-mono); font-size: 9px;
+  color: var(--text-muted); margin-top: 4px;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  opacity: 0.7;
+}
+/* Highlight temporal para botones de partido cuando se hace clic en stat "Partidos" */
+@keyframes flashPartidos {
+  0%, 100% { box-shadow: none; }
+  50% { box-shadow: 0 0 0 3px rgba(233,196,106,0.5); }
+}
+.filter-btn.flash {
+  animation: flashPartidos 0.6s ease 2;
+}
+
 /* NAV TABS */
 .nav-tabs {
   display: flex; gap: 0; margin-bottom: 1.5rem;
@@ -680,6 +711,7 @@ const ESTADO_LABELS = {
 
 let casosData = [];
 let filtroActual = "todos";
+let ordenActual = "default";   // "default" (destacados primero) o "importe" (desc)
 let searchQuery = "";
 let searchTerms = [];
 
@@ -744,30 +776,132 @@ function formatImporte(n) {
   return n + "€";
 }
 
-function renderStats(casos) {
-  const total = casos.length;
-  const activos = casos.filter(c => !["sentencia","archivado","visto_sentencia"].includes(c.estado)).length;
-  const partidos = [...new Set(casos.map(c => c.partido))].length;
-  const totalImporte = casos.reduce((s, c) => s + (c.importe_estimado || 0), 0);
+// Stat cards clickables (A) + cifras dinámicas según filtro (B) + tooltips (D)
+// Recibe los casos filtrados; el total absoluto lo coge de casosData.
+function renderStats(filtered) {
+  const totalAbsoluto = casosData.length;
+  const totalFiltrado = filtered.length;
+  const ACTIVOS_NO = ["sentencia", "archivado", "visto_sentencia"];
+  const activosFiltrado = filtered.filter(c => !ACTIVOS_NO.includes(c.estado)).length;
+  const activosAbsoluto = casosData.filter(c => !ACTIVOS_NO.includes(c.estado)).length;
+  const partidosFiltrado = [...new Set(filtered.map(c => c.partido))];
+  const totalImporte = filtered.reduce((s, c) => s + (c.importe_estimado || 0), 0);
 
-  document.getElementById("stats").innerHTML = [
-    { icon: "📂", value: total, label: "Casos totales" },
-    { icon: "🔥", value: activos, label: "Casos activos" },
-    { icon: "🏛️", value: partidos, label: "Partidos" },
-    { icon: "💰", value: formatImporte(totalImporte), label: "Importe estimado" },
-  ].map(s => `
-    <div class="stat-card">
+  const hayFiltroActivo = filtroActual !== "todos" || searchTerms.length > 0;
+
+  // Para "Partidos": si solo hay 1 partido filtrado, muestra el nombre. Si no, el número.
+  let partidosValor, partidosSubl;
+  if (partidosFiltrado.length === 1 && hayFiltroActivo) {
+    partidosValor = partidosFiltrado[0];
+    partidosSubl = "Filtrado";
+  } else {
+    partidosValor = partidosFiltrado.length;
+    partidosSubl = hayFiltroActivo ? "En este filtro" : "Distintos";
+  }
+
+  const cards = [
+    {
+      id: "stat-todos",
+      icon: "📂",
+      value: hayFiltroActivo ? `${totalFiltrado} / ${totalAbsoluto}` : totalAbsoluto,
+      label: "Casos totales",
+      sublabel: hayFiltroActivo ? "Pulsa para ver todos" : "Pulsa para resetear",
+      title: hayFiltroActivo
+        ? `Mostrando ${totalFiltrado} de ${totalAbsoluto} casos. Pulsa para quitar el filtro.`
+        : "Total de casos del archivo. Pulsa para resetear filtros y orden.",
+      activo: filtroActual === "todos" && !hayFiltroActivo && ordenActual === "default",
+      action: "todos"
+    },
+    {
+      id: "stat-activos",
+      icon: "🔥",
+      value: activosFiltrado,
+      label: "Casos activos",
+      sublabel: hayFiltroActivo ? `de ${activosAbsoluto} totales` : "Pulsa para filtrar",
+      title: "Casos sin sentencia firme, sin archivar y no vistos para sentencia (instrucción, juicio oral o diligencias). Pulsa para filtrar solo los activos.",
+      activo: filtroActual === "activos",
+      action: "activos"
+    },
+    {
+      id: "stat-partidos",
+      icon: "🏛️",
+      value: partidosValor,
+      label: "Partidos",
+      sublabel: partidosSubl,
+      title: hayFiltroActivo && partidosFiltrado.length === 1
+        ? `Solo ${partidosFiltrado[0]} en el filtro actual.`
+        : `${partidosFiltrado.length} partidos representados. Pulsa para ir a los botones de partido.`,
+      activo: false,
+      action: "partidos"
+    },
+    {
+      id: "stat-importe",
+      icon: "💰",
+      value: formatImporte(totalImporte) || "—",
+      label: "Importe estimado",
+      sublabel: ordenActual === "importe" ? "Ordenando por ↓" : "Pulsa para ordenar ↓",
+      title: "Suma estimada de los importes públicos involucrados. Pulsa para ordenar los casos de mayor a menor importe.",
+      activo: ordenActual === "importe",
+      action: "importe"
+    }
+  ];
+
+  document.getElementById("stats").innerHTML = cards.map(s => `
+    <div class="stat-card clickable${s.activo ? ' active' : ''}" id="${s.id}" title="${s.title}" onclick="setStatFilter('${s.action}')">
       <div class="stat-icon">${s.icon}</div>
       <div class="stat-value">${s.value}</div>
       <div class="stat-label">${s.label}</div>
+      <div class="stat-sublabel">${s.sublabel}</div>
     </div>
   `).join("");
+}
+
+// Acciones de las stat cards (A + D)
+function setStatFilter(action) {
+  if (action === "todos") {
+    // Reset completo: limpia filtros, búsqueda y orden
+    filtroActual = "todos";
+    ordenActual = "default";
+    searchQuery = "";
+    searchTerms = [];
+    const inputBusq = document.getElementById("search-cases");
+    if (inputBusq) inputBusq.value = "";
+    // Resetea botones de filtro
+    document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+    const btnTodos = document.querySelector('.filter-btn[data-filter="todos"]');
+    if (btnTodos) btnTodos.classList.add("active");
+  } else if (action === "activos") {
+    filtroActual = "activos";
+    // Refleja el cambio en la botonera de filtros (si existe el botón)
+    document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+    const btnActivos = document.querySelector('.filter-btn[data-filter="activos"]');
+    if (btnActivos) btnActivos.classList.add("active");
+  } else if (action === "partidos") {
+    // Scroll suave a los botones de partido + flash visual
+    const filtersEl = document.getElementById("filters");
+    if (filtersEl) {
+      filtersEl.scrollIntoView({ behavior: "smooth", block: "center" });
+      document.querySelectorAll('.filter-btn[data-filter^="partido:"]').forEach(b => {
+        b.classList.remove("flash");
+        // Forzar reflow para reiniciar la animación
+        void b.offsetWidth;
+        b.classList.add("flash");
+        setTimeout(() => b.classList.remove("flash"), 1500);
+      });
+    }
+    return; // No re-renderiza, solo destaca
+  } else if (action === "importe") {
+    // Toggle: si ya estaba activo, vuelve al orden por defecto
+    ordenActual = ordenActual === "importe" ? "default" : "importe";
+  }
+  renderCases(casosData);
 }
 
 function renderFilters(casos) {
   const partidos = [...new Set(casos.map(c => c.partido))];
   
   let html = `<button class="filter-btn active" data-filter="todos">Todos</button>`;
+  html += `<button class="filter-btn" data-filter="activos">🔥 Activos</button>`;
   partidos.forEach(p => {
     const count = casos.filter(c => c.partido === p).length;
     html += `<button class="filter-btn" data-filter="partido:${p}">${p} (${count})</button>`;
@@ -796,6 +930,8 @@ function renderCases(casos) {
   let filtered = casos;
   if (filtroActual.startsWith("partido:")) {
     filtered = casos.filter(c => c.partido === filtroActual.split(":")[1]);
+  } else if (filtroActual === "activos") {
+    filtered = casos.filter(c => !["sentencia", "archivado", "visto_sentencia"].includes(c.estado));
   } else if (filtroActual.startsWith("estado:")) {
     const val = filtroActual.split(":")[1];
     if (val === "sentencia") {
@@ -821,10 +957,16 @@ function renderCases(casos) {
       return searchTerms.every(p => c._buscable.includes(p));
     });
   }
-  // Destacados primero
-  filtered = [...filtered].sort((a, b) => (b.destacado ? 1 : 0) - (a.destacado ? 1 : 0));
+  // Ordenación: por importe descendente (toggle) o destacados primero (default)
+  if (ordenActual === "importe") {
+    filtered = [...filtered].sort((a, b) => (b.importe_estimado || 0) - (a.importe_estimado || 0));
+  } else {
+    filtered = [...filtered].sort((a, b) => (b.destacado ? 1 : 0) - (a.destacado ? 1 : 0));
+  }
 
   document.getElementById("filter-count").textContent = filtered.length + " de " + casos.length;
+  // Recalcular las stat cards según el filtrado actual (B)
+  renderStats(filtered);
 
   const container = document.getElementById("cases-container");
   container.innerHTML = filtered.map(c => {
