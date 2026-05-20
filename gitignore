@@ -1,0 +1,9 @@
+# Dataset completo de contratos (puede superar 100MB)
+# Se genera en el workflow y se usa en memoria para detectar banderas rojas
+# Solo el resumen (50 contratos) se commitea para la web
+data/contratos/all_contracts.json
+
+# Ficheros temporales
+*.pyc
+__pycache__/
+.DS_Store

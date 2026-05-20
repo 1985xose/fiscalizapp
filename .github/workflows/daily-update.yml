@@ -8,40 +8,37 @@ on:
 jobs:
   update-contratos:
     runs-on: ubuntu-latest
-    timeout-minutes: 30  # Los ZIPs de la PLACSP pueden tardar
-    
+    timeout-minutes: 30
     permissions:
       contents: write
-    
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Descargar contratos de la PLACSP (6 meses de histórico)
+      - name: Descargar contratos de la PLACSP
         run: python scripts/ingest_placsp.py
 
       - name: Detectar banderas rojas
         run: python scripts/detect_flags.py
 
-      - name: Commit y push si hay cambios
+      - name: Commit y push
         run: |
           git config user.name "FiscalizApp Bot"
           git config user.email "bot@fiscalizapp.es"
-          git add data/contratos/ data/banderas-rojas/
+          
+          # Solo commitear los ficheros pequeños (resumen + flags)
+          # El all_contracts.json es grande y está en .gitignore
+          git add data/contratos/resumen.json data/contratos/.initialized data/banderas-rojas/latest.json
           
           if git diff --staged --quiet; then
             echo "Sin cambios nuevos"
           else
             FECHA=$(date +%Y-%m-%d)
-            CONTRATOS=$(python3 -c "import json; d=json.load(open('data/contratos/licitaciones.json')); print(d['meta']['total'])" 2>/dev/null || echo "?")
-            MENORES=$(python3 -c "import json; d=json.load(open('data/contratos/menores.json')); print(d['meta']['total'])" 2>/dev/null || echo "?")
-            FLAGS=$(python3 -c "import json; d=json.load(open('data/banderas-rojas/latest.json')); print(d['stats']['total_flags'])" 2>/dev/null || echo "?")
-            
-            git commit -m "🔄 Datos ${FECHA}: ${CONTRATOS} licitaciones, ${MENORES} menores, ${FLAGS} banderas rojas"
+            FLAGS=$(python3 -c "import json; print(json.load(open('data/banderas-rojas/latest.json'))['stats']['total_flags'])" 2>/dev/null || echo "?")
+            MEN=$(python3 -c "import json; print(json.load(open('data/contratos/resumen.json'))['meta']['total_menores'])" 2>/dev/null || echo "?")
+            LIC=$(python3 -c "import json; print(json.load(open('data/contratos/resumen.json'))['meta']['total_licitaciones'])" 2>/dev/null || echo "?")
+            git commit -m "🔄 ${FECHA}: ${LIC} licitaciones, ${MEN} menores, ${FLAGS} banderas rojas"
             git push
           fi
