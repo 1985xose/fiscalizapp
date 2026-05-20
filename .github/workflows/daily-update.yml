@@ -2,16 +2,16 @@ name: Actualización diaria de contratos
 
 on:
   schedule:
-    # Cada día a las 8:00 hora española (6:00 UTC en verano, 7:00 UTC en invierno)
     - cron: '0 6 * * *'
-  workflow_dispatch:  # Permite ejecutar manualmente desde GitHub
+  workflow_dispatch:
 
 jobs:
   update-contratos:
     runs-on: ubuntu-latest
+    timeout-minutes: 30  # Los ZIPs de la PLACSP pueden tardar
     
     permissions:
-      contents: write  # Necesario para hacer push al repo
+      contents: write
     
     steps:
       - name: Checkout repo
@@ -22,7 +22,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Descargar contratos de la PLACSP
+      - name: Descargar contratos de la PLACSP (6 meses de histórico)
         run: python scripts/ingest_placsp.py
 
       - name: Detectar banderas rojas
@@ -34,7 +34,6 @@ jobs:
           git config user.email "bot@fiscalizapp.es"
           git add data/contratos/ data/banderas-rojas/
           
-          # Solo commitear si hay cambios reales
           if git diff --staged --quiet; then
             echo "Sin cambios nuevos"
           else
