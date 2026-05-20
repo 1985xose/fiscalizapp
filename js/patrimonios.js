@@ -247,6 +247,7 @@ const CARGO_LABEL = {
   diputado_parlamento_galicia: 'Diputado Parlamento Galicia',
   diputado_parlamento_vasco: 'Diputado Parlamento Vasco',
   concejal_pequeno_municipio: 'Concejal municipio pequeño',
+  concejal_mediano_municipio: 'Concejal municipio mediano',
   juntas_generales_alava: 'Miembro Juntas Generales Álava',
   alto_cargo_comunidad_madrid: 'Alto cargo Comunidad de Madrid',
   presidente_insalud: 'Presidente Insalud',
