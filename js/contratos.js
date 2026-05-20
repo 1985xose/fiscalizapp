@@ -7,17 +7,22 @@ const FLAG_TIPOS = {
   fraccionamiento: { 
     label: "Fraccionamiento", 
     icon: "✂️",
-    explica: "Dividir un contrato grande en varios pequeños para evitar licitación pública" 
+    explica: "3+ contratos del mismo proveedor al mismo órgano justo bajo el umbral de licitación" 
   },
   concentracion: { 
-    label: "Concentración", 
+    label: "Concentración extrema", 
     icon: "🎯",
-    explica: "Un proveedor acapara la mayoría de contratos de un órgano" 
+    explica: "Un proveedor gana 80%+ de los contratos de un órgano (mín. 5 contratos)" 
   },
-  sin_competencia: { 
-    label: "Sin competencia", 
-    icon: "🤷",
-    explica: "Adjudicación al mismo precio que el presupuesto: nadie más pujó" 
+  patron_umbral: { 
+    label: "Patrón de umbral", 
+    icon: "📊",
+    explica: "Un órgano con >40% de sus contratos justo bajo el límite legal — estadísticamente improbable" 
+  },
+  omnipresente: { 
+    label: "Proveedor omnipresente", 
+    icon: "👁️",
+    explica: "Mismo proveedor con contratos cerca del umbral en 3+ administraciones distintas" 
   },
 };
 
