@@ -127,8 +127,13 @@ function extraerPatrimonioDeDeclaracion(d) {
       return { valor: t.patrimonio_neto_consolidado, calidad: t.calidad, fuente: 'consolidado_oficial' };
     }
   }
-  if (d.totales_derivados && d.totales_derivados.patrimonio_liquido_neto != null) {
-    return { valor: d.totales_derivados.patrimonio_liquido_neto, calidad: d.totales_derivados.calidad || d.calidad_declaracion, fuente: 'liquido_neto' };
+  if (d.totales_derivados) {
+    if (d.totales_derivados.patrimonio_liquido_neto != null) {
+      return { valor: d.totales_derivados.patrimonio_liquido_neto, calidad: d.totales_derivados.calidad || d.calidad_declaracion, fuente: 'liquido_neto' };
+    }
+    if (d.totales_derivados.patrimonio_estimado_personal != null) {
+      return { valor: d.totales_derivados.patrimonio_estimado_personal, calidad: d.totales_derivados.calidad || d.calidad_declaracion, fuente: 'estimacion_personal' };
+    }
   }
   // Formato viejo
   if (d.patrimonio_neto != null) return { valor: d.patrimonio_neto, calidad: 'DOBLE_CRUCE', fuente: 'legacy' };
@@ -371,6 +376,17 @@ function renderVistaCrecimiento(todos) {
   `;
 }
 
+function contarFuentesUnicas(p) {
+  // Reúne todos los URLs de fuentes secundarias de todas las declaraciones (dedup por dominio)
+  const urls = new Set();
+  (p.declaraciones || []).forEach(d => {
+    (d.fuentes_secundarias || []).forEach(f => {
+      if (f.url) urls.add(f.url);
+    });
+  });
+  return urls.size;
+}
+
 function renderTarjeta(p, m, pos) {
   const iconos = (p.iconos || []).map(k => {
     const ic = ICONOS[k];
@@ -385,13 +401,18 @@ function renderTarjeta(p, m, pos) {
 
   const calidadGlobal = p.calidad_global ? `<span class="badge-calidad" title="Calidad global de las fuentes">${calidadIcon(p.calidad_global)}</span>` : '';
 
+  const nFuentes = contarFuentesUnicas(p);
+  const fuentesBadge = nFuentes > 0
+    ? `<span class="badge-fuentes" title="Número de fuentes secundarias consultadas para verificar las cifras">📎 ${nFuentes} ${nFuentes === 1 ? 'fuente' : 'fuentes'}</span>`
+    : '';
+
   return `
     <article class="politico-card" data-id="${p.id}">
       <header onclick="toggleFicha('${p.id}')">
         ${pos ? `<span class="posicion">#${pos}</span>` : ''}
         <div class="card-titulo">
           <h4>${p.nombre} <span class="partido">${p.partido}</span> ${calidadGlobal}</h4>
-          <div class="card-iconos">${iconos}</div>
+          <div class="card-iconos">${iconos} ${fuentesBadge}</div>
         </div>
         <div class="card-cifra">${cifra}</div>
         <button class="btn-toggle" aria-label="Expandir">▼</button>
@@ -414,6 +435,7 @@ function renderFichaCompleta(p, m) {
     html += `
       <p><strong>Patrimonio (€ 2024):</strong> ${fmtEuros(m.patFinal.valor)} ${calidadIcon(m.patFinal.calidad)}</p>
       ${m.patFinal.fuente === 'liquido_neto' ? '<p class="nota-icon">Cifra de patrimonio LÍQUIDO neto (activos financieros menos pasivos). No incluye inmuebles porque el Congreso no exige valoración inmobiliaria. El patrimonio total real es necesariamente superior.</p>' : ''}
+      ${m.patFinal.fuente === 'estimacion_personal' ? '<p class="nota-icon">Cifra ESTIMADA personal. El político no es cargo público actualmente y no presenta declaración patrimonial oficial. Reconstruido vía Registro Mercantil de sociedades familiares + investigación periodística. El patrimonio real puede ser superior.</p>' : ''}
       <p><strong>Sueldo público neto acumulado:</strong> ${fmtEuros(m.sueldo.totalNetoEstimado)}</p>
       <p><strong>Diferencia:</strong> ${m.exceso >= 0 ? '+' : ''}${fmtEuros(m.exceso)}</p>
       <p><strong>Múltiplo:</strong> ${fmtMultiplicador(m.multiplicador)}</p>
@@ -421,6 +443,31 @@ function renderFichaCompleta(p, m) {
     `;
   }
   html += '</div>';
+
+  // BLOQUE DESTACADO: Fuentes consultadas (NUEVO - visible desde el primer momento)
+  const todasFuentes = [];
+  const urlsVistas = new Set();
+  (p.declaraciones || []).forEach(d => {
+    (d.fuentes_secundarias || []).forEach(f => {
+      if (f.url && !urlsVistas.has(f.url)) {
+        urlsVistas.add(f.url);
+        todasFuentes.push(f);
+      }
+    });
+  });
+  if (todasFuentes.length > 0) {
+    html += '<div class="ficha-bloque ficha-fuentes"><h5>📎 Fuentes consultadas (' + todasFuentes.length + ')</h5>';
+    html += '<p class="fuentes-intro">De dónde sale la información que ves arriba. Cada declaración patrimonial ha sido contrastada con estos medios.</p>';
+    html += '<ul class="fuentes-list">';
+    todasFuentes.forEach(f => {
+      const medio = f.medio || 'Fuente';
+      const fecha = f.fecha_consulta ? `<span class="fuente-fecha">(consultada ${f.fecha_consulta})</span>` : '';
+      html += `<li><a href="${f.url}" target="_blank" rel="noopener">${medio}</a> ${fecha}</li>`;
+    });
+    html += '</ul>';
+    html += '<p class="fuentes-nota">Calidad global de la verificación: ' + (p.calidad_global ? calidadIcon(p.calidad_global) + ' ' + (CALIDAD_FUENTE[p.calidad_global]?.label || p.calidad_global) : 'sin clasificar') + '</p>';
+    html += '</div>';
+  }
 
   // BLOQUE: Contexto (iconos)
   if ((p.iconos || []).length || p.nota_iconos) {
