@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "generado": "2026-05-20T11:36:05",
+    "contratos_analizados": 944,
+    "contratos_menores": 0,
+    "licitaciones": 944
+  },
+  "stats": {
+    "total_flags": 0,
+    "por_tipo": {
+      "fraccionamiento": 0,
+      "concentracion": 0,
+      "sin_competencia": 0
+    },
+    "severidad_alta": 0,
+    "severidad_media": 0
+  },
+  "flags": []
+}
