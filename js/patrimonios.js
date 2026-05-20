@@ -309,6 +309,14 @@ function renderPatrimonios() {
       <button class="vista-btn ${VISTA_PATRIMONIOS==='absoluto'?'activa':''}" onclick="cambiarVistaPat('absoluto')">Patrimonio absoluto</button>
       <button class="vista-btn ${VISTA_PATRIMONIOS==='crecimiento'?'activa':''}" onclick="cambiarVistaPat('crecimiento')">% crecimiento</button>
     </div>
+
+    <div class="filtros-pat">
+      <input type="text" id="pat-buscador" class="pat-buscador-input" placeholder="🔍 Buscar por nombre..." oninput="filtrarPatrimonios()" />
+      <div class="pat-filtros-partido" id="pat-filtros-partido">
+        ${renderBotonesPartido()}
+      </div>
+      <div class="pat-filtros-contador" id="pat-filtros-contador"></div>
+    </div>
   `;
 
   if (VISTA_PATRIMONIOS === 'categorias') html += renderVistaCategorias(todos);
@@ -406,8 +414,11 @@ function renderTarjeta(p, m, pos) {
     ? `<span class="badge-fuentes" title="Número de fuentes secundarias consultadas para verificar las cifras">📎 ${nFuentes} ${nFuentes === 1 ? 'fuente' : 'fuentes'}</span>`
     : '';
 
+  const partidoKey = partidoNormalizado(p.partido);
+  const nombreLower = p.nombre.toLowerCase();
+
   return `
-    <article class="politico-card" data-id="${p.id}">
+    <article class="politico-card" data-id="${p.id}" data-partido="${partidoKey}" data-nombre="${nombreLower}">
       <header onclick="toggleFicha('${p.id}')">
         ${pos ? `<span class="posicion">#${pos}</span>` : ''}
         <div class="card-titulo">
@@ -736,4 +747,94 @@ function renderGlosario() {
     h += '</section>';
   });
   c.innerHTML = h;
+}
+
+// ============================================================
+// FILTROS PATRIMONIOS v2.9 (buscador + partidos)
+// ============================================================
+
+// Normaliza el campo partido (multipartido, sufijos como "(suspendido)") a una clave única
+function partidoNormalizado(partidoStr) {
+  if (!partidoStr) return 'otros';
+  const s = partidoStr.toLowerCase();
+  // Detección por orden de prioridad
+  if (s.includes('psoe')) return 'psoe';
+  if (s.includes('pp ') || s.startsWith('pp') || s === 'pp') return 'pp';
+  if (s.includes('vox')) return 'vox';
+  if (s.includes('podemos')) return 'podemos';
+  if (s.includes('sumar') || s.includes('pce')) return 'sumar';
+  if (s.includes('erc')) return 'erc';
+  return 'otros';
+}
+
+const PARTIDO_INFO = {
+  psoe: { label: 'PSOE', color: '#e74c3c' },
+  pp: { label: 'PP', color: '#1e88e5' },
+  vox: { label: 'Vox', color: '#5cbf3e' },
+  podemos: { label: 'Podemos', color: '#8e44ad' },
+  sumar: { label: 'Sumar/IU', color: '#e91e63' },
+  erc: { label: 'ERC', color: '#f39c12' },
+  otros: { label: 'Otros', color: '#888' }
+};
+
+// Estado de filtros: 'todos' o un partido concreto
+let FILTRO_PARTIDO = 'todos';
+
+function renderBotonesPartido() {
+  // Cuenta políticos por partido
+  const counts = {};
+  POLITICOS_DATA.forEach(p => {
+    const k = partidoNormalizado(p.partido);
+    counts[k] = (counts[k] || 0) + 1;
+  });
+  let html = `<button class="filtro-partido-btn ${FILTRO_PARTIDO==='todos'?'activo':''}" onclick="filtrarPorPartido('todos')">Todos (${POLITICOS_DATA.length})</button>`;
+  // Orden estable
+  const orden = ['psoe', 'pp', 'vox', 'podemos', 'sumar', 'erc', 'otros'];
+  orden.forEach(k => {
+    if (!counts[k]) return;
+    const info = PARTIDO_INFO[k];
+    const activo = FILTRO_PARTIDO === k ? 'activo' : '';
+    html += `<button class="filtro-partido-btn ${activo}" onclick="filtrarPorPartido('${k}')" style="--p-color:${info.color}">${info.label} (${counts[k]})</button>`;
+  });
+  return html;
+}
+
+function filtrarPorPartido(p) {
+  FILTRO_PARTIDO = p;
+  // Re-renderizar los botones para reflejar el estado activo
+  const cont = document.getElementById('pat-filtros-partido');
+  if (cont) cont.innerHTML = renderBotonesPartido();
+  filtrarPatrimonios();
+}
+
+function filtrarPatrimonios() {
+  const inputBusqueda = document.getElementById('pat-buscador');
+  const query = inputBusqueda ? inputBusqueda.value.trim().toLowerCase() : '';
+  const cards = document.querySelectorAll('.politico-card');
+  let visibles = 0;
+  cards.forEach(card => {
+    const nombre = card.dataset.nombre || '';
+    const partido = card.dataset.partido || '';
+    const matchNombre = !query || nombre.includes(query);
+    const matchPartido = FILTRO_PARTIDO === 'todos' || partido === FILTRO_PARTIDO;
+    const visible = matchNombre && matchPartido;
+    card.style.display = visible ? '' : 'none';
+    if (visible) visibles++;
+  });
+  // Ocultar categorías vacías
+  document.querySelectorAll('.categoria-bloque').forEach(bloque => {
+    const cardsBloque = bloque.querySelectorAll('.politico-card');
+    const visiblesBloque = [...cardsBloque].filter(c => c.style.display !== 'none').length;
+    bloque.style.display = visiblesBloque > 0 ? '' : 'none';
+  });
+  // Contador
+  const contador = document.getElementById('pat-filtros-contador');
+  if (contador) {
+    if (query || FILTRO_PARTIDO !== 'todos') {
+      contador.textContent = `Mostrando ${visibles} de ${cards.length} políticos`;
+      contador.style.display = '';
+    } else {
+      contador.style.display = 'none';
+    }
+  }
 }

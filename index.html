@@ -391,6 +391,68 @@ h1 {
 .vista-btn:hover { background: rgba(255,255,255,0.08); color: var(--text-primary); border-color: rgba(255,255,255,0.15); }
 .vista-btn.activa { background: var(--accent-purple); color: #fff; border-color: var(--accent-purple); }
 
+/* Filtros patrimonios v2.9 */
+.filtros-pat {
+  margin: 0 0 1.5rem 0;
+  padding: .9rem 1rem;
+  background: var(--bg-card);
+  border-radius: 4px;
+  border: 1px solid var(--border-subtle);
+  display: flex;
+  flex-direction: column;
+  gap: .65rem;
+}
+.pat-buscador-input {
+  width: 100%;
+  padding: .55rem .85rem;
+  font-size: 14px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--border-subtle);
+  border-radius: 3px;
+  color: var(--text-primary);
+  font-family: inherit;
+  transition: border-color .15s;
+}
+.pat-buscador-input:focus {
+  outline: none;
+  border-color: var(--accent-purple);
+  background: rgba(255,255,255,0.07);
+}
+.pat-buscador-input::placeholder { color: var(--text-muted); }
+.pat-filtros-partido {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
+}
+.filtro-partido-btn {
+  --p-color: var(--accent-purple);
+  padding: .35rem .7rem;
+  border: 1px solid var(--border-subtle);
+  background: rgba(255,255,255,0.03);
+  color: var(--text-secondary);
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+  font-family: var(--font-mono);
+  transition: all .15s;
+}
+.filtro-partido-btn:hover {
+  border-color: var(--p-color);
+  color: var(--text-primary);
+}
+.filtro-partido-btn.activo {
+  background: var(--p-color);
+  color: #fff;
+  border-color: var(--p-color);
+}
+.pat-filtros-contador {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-style: italic;
+  display: none;
+}
+
 .categoria-bloque { margin-bottom: 2rem; }
 .categoria-header { padding: .85rem 1.1rem; background: var(--bg-card); border-left: 5px solid #888; border-radius: 4px; margin-bottom: 1rem; }
 .categoria-header h3 { margin: 0 0 .35rem 0; font-size: 1.05rem; color: var(--text-primary); font-family: var(--font-display); }
