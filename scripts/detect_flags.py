@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
 """
-FiscalizApp — Detector de banderas rojas v2
+FiscalizApp — Detector de banderas rojas v3 (6 reglas)
 
-Lee all_contracts.json (dataset completo en memoria) y genera banderas rojas.
-
-4 reglas endurecidas contra falsos positivos:
-1. Fraccionamiento: 3+ contratos mismo proveedor/órgano en franja 80-99% del umbral
-2. Concentración: 80%+ contratos de un órgano a un proveedor (mín 5 contratos)
-3. Patrón umbral: >40% de contratos de un órgano justo bajo el límite (mín 10)
-4. Omnipresente: proveedor con contratos cerca del umbral en 3+ órganos
+1. Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral
+2. Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)
+3. Patrón umbral: >40% menores de un órgano en franja sospechosa (mín 10)
+4. Omnipresente: proveedor en 3+ órganos con contratos cerca del umbral
+5. Negociado reiterado: 3+ contratos por negociado sin publicidad al mismo proveedor
+6. Umbral europeo: mismo patrón que fraccionamiento pero con umbral UE ~140K€
 """
 import json, os
 from collections import defaultdict
@@ -24,12 +23,19 @@ UMBRAL_SERV = 15000
 UMBRAL_OBRA = 40000
 FRANJA_SERV = (12000, 14999.99)
 FRANJA_OBRA = (32000, 39999.99)
+# Umbrales UE (contratación armonizada)
+UMBRAL_EU_SERV = 140000
+FRANJA_EU_SERV = (112000, 139999.99)  # 80-99% del umbral
+# Procedimiento negociado sin publicidad (códigos PLACSP)
+NEGOCIADO_SIN_PUB = {"4", "negociado sin publicidad", "negociado sin pub.", "neg. sin publicidad", "procsinneg"}
 
 def imp(c):
-    """Extrae importe de un contrato."""
     v = c.get("importe_adjudicacion") or c.get("presupuesto_base")
     return v if isinstance(v, (int, float)) else None
 
+# ============================================================
+# REGLA 1: FRACCIONAMIENTO (contratos menores)
+# ============================================================
 def detect_fraccionamiento(menores):
     flags = []
     grupos = defaultdict(list)
@@ -61,6 +67,9 @@ def detect_fraccionamiento(menores):
             })
     return flags
 
+# ============================================================
+# REGLA 2: CONCENTRACIÓN EXTREMA
+# ============================================================
 def detect_concentracion(contratos):
     flags = []
     por_org = defaultdict(list)
@@ -94,6 +103,9 @@ def detect_concentracion(contratos):
                 })
     return flags
 
+# ============================================================
+# REGLA 3: PATRÓN DE UMBRAL (estadístico)
+# ============================================================
 def detect_patron_umbral(menores):
     flags = []
     por_org = defaultdict(list)
@@ -124,6 +136,9 @@ def detect_patron_umbral(menores):
             })
     return flags
 
+# ============================================================
+# REGLA 4: PROVEEDOR OMNIPRESENTE
+# ============================================================
 def detect_omnipresente(menores):
     flags = []
     por_prov = defaultdict(lambda: defaultdict(list))
@@ -147,6 +162,86 @@ def detect_omnipresente(menores):
             })
     return flags
 
+# ============================================================
+# REGLA 5: NEGOCIADO SIN PUBLICIDAD REITERADO
+# ============================================================
+def detect_negociado_reiterado(licitaciones):
+    """
+    3+ contratos por procedimiento negociado sin publicidad
+    del mismo proveedor al mismo órgano. Este procedimiento
+    es para situaciones excepcionales — usarlo repetidamente
+    con el mismo proveedor es una adjudicación a dedo encubierta.
+    """
+    flags = []
+    grupos = defaultdict(list)
+    for c in licitaciones:
+        proc = (c.get("procedimiento") or "").lower().strip()
+        # Detectar negociado sin publicidad por código o texto
+        is_neg = proc in NEGOCIADO_SIN_PUB or "negociado sin" in proc or proc == "4"
+        if not is_neg:
+            continue
+        adj = c.get("adjudicatario") or c.get("nif_adjudicatario")
+        org = c.get("organo") or c.get("nif_organo")
+        if adj and org:
+            grupos[(adj, org)].append(c)
+
+    for (adj, org), cs in grupos.items():
+        if len(cs) < 3:
+            continue
+        total = sum(imp(c) or 0 for c in cs)
+        sev = "alta" if len(cs) >= 5 or total > 500000 else "media"
+        flags.append({
+            "tipo": "negociado_reiterado", "severidad": sev,
+            "emoji": "🔴" if sev == "alta" else "🟡",
+            "score": len(cs),
+            "adjudicatario": adj, "organo": org,
+            "num_contratos": len(cs), "importe_total": round(total, 2),
+            "descripcion": f"{adj} gana {len(cs)} contratos por negociado sin publicidad del {org} por {total:,.0f}€. El negociado sin publicidad es para situaciones excepcionales — usarlo repetidamente con el mismo proveedor huele a adjudicación a dedo.",
+            "contratos": [{"expediente": c.get("expediente"), "objeto": c.get("objeto") or c.get("titulo"), "importe": imp(c), "enlace": c.get("enlace")} for c in cs],
+        })
+    return flags
+
+# ============================================================
+# REGLA 6: UMBRAL EUROPEO
+# ============================================================
+def detect_umbral_europeo(licitaciones):
+    """
+    Mismo patrón que fraccionamiento pero con el umbral de
+    contratación armonizada de la UE (~140.000€ en servicios).
+    Contratos del mismo proveedor al mismo órgano entre
+    112.000-139.999€ cuyo total supere el umbral.
+    """
+    flags = []
+    grupos = defaultdict(list)
+    for c in licitaciones:
+        adj = c.get("adjudicatario") or c.get("nif_adjudicatario")
+        org = c.get("organo") or c.get("nif_organo")
+        i = imp(c)
+        if adj and org and i and FRANJA_EU_SERV[0] <= i <= FRANJA_EU_SERV[1]:
+            grupos[(adj, org)].append(c)
+
+    for (adj, org), cs in grupos.items():
+        if len(cs) < 2:  # Solo 2 ya es sospechoso a estos importes
+            continue
+        total = sum(imp(c) or 0 for c in cs)
+        if total <= UMBRAL_EU_SERV:
+            continue
+        sev = "alta" if len(cs) >= 3 or total > UMBRAL_EU_SERV * 2 else "media"
+        flags.append({
+            "tipo": "umbral_europeo", "severidad": sev,
+            "emoji": "🔴" if sev == "alta" else "🟡",
+            "score": len(cs) * 2,
+            "adjudicatario": adj, "organo": org,
+            "num_contratos": len(cs), "importe_total": round(total, 2),
+            "umbral_legal": UMBRAL_EU_SERV,
+            "descripcion": f"{len(cs)} contratos entre {FRANJA_EU_SERV[0]:,.0f}€ y {FRANJA_EU_SERV[1]:,.0f}€ del mismo proveedor al mismo órgano. Total: {total:,.0f}€ — supera el umbral europeo de {UMBRAL_EU_SERV:,.0f}€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+            "contratos": [{"expediente": c.get("expediente"), "objeto": c.get("objeto") or c.get("titulo"), "importe": imp(c), "enlace": c.get("enlace")} for c in cs],
+        })
+    return flags
+
+# ============================================================
+# MAIN
+# ============================================================
 def main():
     os.makedirs(FLAGS_DIR, exist_ok=True)
     ts = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
@@ -162,12 +257,15 @@ def main():
     print(f"   {len(menores)} menores, {len(licitaciones)} licitaciones, {len(todos)} total")
 
     all_flags = []
-    for name, fn, src in [
-        ("Fraccionamiento", detect_fraccionamiento, menores),
-        ("Concentración", detect_concentracion, todos),
-        ("Patrón umbral", detect_patron_umbral, menores),
-        ("Omnipresente", detect_omnipresente, menores),
-    ]:
+    rules = [
+        ("Fraccionamiento (menores)", detect_fraccionamiento, menores),
+        ("Concentración extrema", detect_concentracion, todos),
+        ("Patrón umbral (menores)", detect_patron_umbral, menores),
+        ("Proveedor omnipresente", detect_omnipresente, menores),
+        ("Negociado sin publicidad reiterado", detect_negociado_reiterado, licitaciones),
+        ("Umbral europeo ~140K€", detect_umbral_europeo, licitaciones),
+    ]
+    for name, fn, src in rules:
         print(f"🚩 {name}...")
         f = fn(src)
         print(f"   → {len(f)}")
@@ -176,18 +274,23 @@ def main():
     sev = {"alta": 0, "media": 1}
     all_flags.sort(key=lambda f: (sev.get(f["severidad"], 9), -f.get("score", 0)))
 
+    tipos = ["fraccionamiento","concentracion","patron_umbral","omnipresente","negociado_reiterado","umbral_europeo"]
     stats = {
         "total_flags": len(all_flags),
-        "por_tipo": {t: sum(1 for f in all_flags if f["tipo"]==t) for t in ["fraccionamiento","concentracion","patron_umbral","omnipresente"]},
+        "por_tipo": {t: sum(1 for f in all_flags if f["tipo"]==t) for t in tipos},
         "severidad_alta": sum(1 for f in all_flags if f["severidad"]=="alta"),
         "severidad_media": sum(1 for f in all_flags if f["severidad"]=="media"),
     }
     output = {
-        "meta": {"generado": ts, "version": "2.0", "contratos_analizados": len(todos), "menores": len(menores), "licitaciones": len(licitaciones),
-                 "reglas": ["Fraccionamiento: 3+ contratos mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
-                            "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
-                            "Patrón umbral: >40% menores de un órgano en franja sospechosa (mín 10)",
-                            "Omnipresente: proveedor en 3+ órganos con contratos cerca del umbral (mín 5)"]},
+        "meta": {"generado": ts, "version": "3.0", "contratos_analizados": len(todos), "menores": len(menores), "licitaciones": len(licitaciones),
+                 "reglas": [
+                     "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
+                     "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
+                     "Patrón umbral: >40% menores de un órgano en franja sospechosa (mín 10)",
+                     "Omnipresente: proveedor en 3+ órganos con contratos cerca del umbral (mín 5)",
+                     "Negociado reiterado: 3+ contratos por negociado sin publicidad al mismo proveedor/órgano",
+                     "Umbral europeo: contratos del mismo proveedor/órgano entre 112K-140K€ que acumulados superan el umbral UE",
+                 ]},
         "stats": stats, "flags": all_flags,
     }
     out = os.path.join(FLAGS_DIR, "latest.json")
