@@ -431,56 +431,390 @@
       "id": "feijoo",
       "nombre": "Alberto Núñez Feijóo",
       "partido": "PP",
-      "cargo_destacado": "Líder del PP (2022-)",
+      "cargo_destacado": "Presidente del PP, líder de la oposición (2022-presente)",
+      "version_ficha": "2.2",
+      "verificado_fecha": "2026-05-20",
+      "calidad_global": "TRIPLE_CRUCE",
+      "iconos": [],
+      "nota_iconos": "Carrera íntegramente pública. Funcionario del Cuerpo Superior de Administración General de la Xunta de Galicia desde 1985. Sin ingresos privados conocidos durante el ejercicio del cargo. Sí ha percibido ingresos del Partido Popular en concepto de 'gastos de representación' del propio partido, distintos del sueldo público.",
       "trayectoria_publica": [
         {
-          "anio_inicio": 2009,
-          "anio_fin": 2022,
-          "cargo": "presidente_xunta_galicia"
+          "cargo": "funcionario_xunta_no_politico",
+          "desde": "1985-01",
+          "hasta": "1991-06",
+          "remunerado": false,
+          "nota": "Funcionario del Cuerpo Superior de Administración General de la Xunta. Etapa de funcionariado previo al primer cargo político. No se contabiliza como sueldo público de cargo."
         },
         {
-          "anio_inicio": 2022,
-          "anio_fin": null,
-          "cargo": "diputado_congreso"
+          "cargo": "alto_cargo_xunta_galicia",
+          "desde": "1991-07",
+          "hasta": "1996-04",
+          "remunerado": false,
+          "nota": "Secretario general técnico Agricultura (1991), Secretario general Sanidad (1991-1996), Vicepresidente y SG SERGAS (1992-1996). Cargos de designación política con remuneración, sin cifras públicas específicas documentadas. No se contabiliza por falta de datos verificables."
+        },
+        {
+          "cargo": "presidente_insalud",
+          "desde": "1996-05",
+          "hasta": "2000-05",
+          "remunerado": false,
+          "nota": "Secretario general Asistencia Sanitaria + Presidente Insalud, gobierno Aznar. Cargo de alto nivel ministerial con retribución equivalente a Secretaría de Estado. Cifra específica no documentada."
+        },
+        {
+          "cargo": "presidente_correos",
+          "desde": "2000-05",
+          "hasta": "2003-01",
+          "remunerado": false,
+          "nota": "Director general (2000-2001) y luego Presidente de Sociedad Estatal Correos y Telégrafos S.A. Cargo retribuido por la sociedad estatal. Cifras no localizadas."
+        },
+        {
+          "cargo": "conselleiro_xunta_galicia",
+          "desde": "2003-01",
+          "hasta": "2004-09",
+          "remunerado": true,
+          "nota": "Conselleiro de Política Territorial, Obras Públicas y Vivienda. Gobierno Fraga."
+        },
+        {
+          "cargo": "vicepresidente_xunta_galicia",
+          "desde": "2004-09",
+          "hasta": "2005-08",
+          "remunerado": true,
+          "nota": "Vicepresidente primero de la Xunta de Galicia. Gobierno Fraga."
+        },
+        {
+          "cargo": "diputado_parlamento_galicia",
+          "desde": "2005-08",
+          "hasta": "2009-04",
+          "remunerado": true,
+          "nota": "Diputado autonómico PPdeG por Pontevedra. Líder oposición desde enero 2006 como presidente del PPdeG."
+        },
+        {
+          "cargo": "presidente_xunta_galicia",
+          "desde": "2009-04",
+          "hasta": "2022-05",
+          "remunerado": true,
+          "nota": "Cuatro mayorías absolutas consecutivas (2009, 2012, 2016, 2020). 13 años."
+        },
+        {
+          "cargo": "senador",
+          "desde": "2022-05",
+          "hasta": "2023-08",
+          "remunerado": true,
+          "nota": "Senador por designación del Parlamento de Galicia tras ser elegido presidente del PP nacional (2 de abril de 2022)."
+        },
+        {
+          "cargo": "diputado_congreso",
+          "legislatura": "XV",
+          "desde": "2023-08",
+          "hasta": null,
+          "remunerado": true,
+          "nota": "Líder de la oposición. Elecciones 23J 2023."
         }
       ],
       "declaraciones": [
         {
+          "anio": 2019,
+          "fecha_declaracion": "2019-12",
+          "tipo_documento": "parlamento_galicia",
+          "documento_oficial": {
+            "nombre": "Declaración de bienes Parlamento de Galicia 2019 (XI Legislatura gallega)",
+            "url_referencia": "https://www.elplural.com/politica/espana/feijoo-aumento-su-patrimonio-en-mas-600000-en-dos-anos_291025102",
+            "nota": "Declaración entregada al Parlamento gallego, no al Congreso. Cifras agregadas según prensa."
+          },
+          "calidad_declaracion": "CITA_UNICA",
+          "fuentes_secundarias": [
+            {
+              "medio": "El Plural",
+              "url": "https://www.elplural.com/politica/espana/feijoo-aumento-su-patrimonio-en-mas-600000-en-dos-anos_291025102",
+              "fecha_consulta": "2026-05-20"
+            }
+          ],
+          "bloques": {
+            "liquido": {
+              "cuentas_y_depositos_agregado": {
+                "valor": 319593,
+                "calidad": "CITA_UNICA",
+                "detalle": "Total agregado de cuentas y depósitos. Sin desglose disponible en fuente única."
+              }
+            },
+            "inmuebles": [
+              {
+                "tipo": "vivienda",
+                "ubicacion": "Madrid",
+                "regimen": "privativo",
+                "valor_declarado": null
+              },
+              {
+                "tipo": "vivienda + garaje",
+                "ubicacion": "Vigo",
+                "regimen": "privativo",
+                "valor_declarado": null
+              },
+              {
+                "tipo": "vivienda",
+                "ubicacion": "Moaña (Pontevedra)",
+                "regimen": "privativo",
+                "valor_declarado": null,
+                "nota": "Vendida posteriormente (~2020-2021)"
+              },
+              {
+                "tipo": "finca rústica",
+                "ubicacion": "Ames (A Coruña)",
+                "regimen": "privativo",
+                "valor_declarado": null,
+                "nota": "Adquirida 30/06/1992"
+              }
+            ]
+          },
+          "totales_oficiales": {
+            "patrimonio_neto_consolidado": null,
+            "calidad": "NO_CONSOLIDADO",
+            "nota": "El Parlamento de Galicia tampoco exige consolidación."
+          },
+          "totales_derivados": {
+            "patrimonio_liquido_neto": 319593,
+            "calidad": "CITA_UNICA",
+            "nota": "Solo agregado de líquido disponible. Sin inmuebles valorados."
+          }
+        },
+        {
+          "anio": 2022,
+          "fecha_declaracion": "2022-05-24",
+          "tipo_documento": "senado_entrada",
+          "documento_oficial": {
+            "nombre": "Declaración inicial Senado por designación del Parlamento de Galicia",
+            "url_referencia": "https://www.newtral.es/declaracion-bienes-feijoo-patrimonio/20220601/",
+            "nota": "Tras ser nombrado presidente del PP nacional (2/04/2022) y senador (25/05/2022). Patrimonio crece 611K€ vs 2019 por venta de vivienda Moaña."
+          },
+          "calidad_declaracion": "TRIPLE_CRUCE",
+          "fuentes_secundarias": [
+            {
+              "medio": "Newtral",
+              "url": "https://www.newtral.es/declaracion-bienes-feijoo-patrimonio/20220601/",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "El Plural",
+              "url": "https://www.elplural.com/politica/espana/feijoo-aumento-su-patrimonio-en-mas-600000-en-dos-anos_291025102",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "Republica.com",
+              "url": "https://www.republica.com/espana/el-patrimonio-de-feijoo-dos-pisos-una-finca-rustica-207-000-euros-en-cuenta-y-2-500-acciones-en-inditex-20220601-20081445759/",
+              "fecha_consulta": "2026-05-20"
+            }
+          ],
+          "bloques": {
+            "liquido": {
+              "cuenta_corriente": {
+                "valor": 156613,
+                "calidad": "TRIPLE_CRUCE"
+              },
+              "deposito_plazo": {
+                "valor": 50807,
+                "calidad": "TRIPLE_CRUCE"
+              },
+              "fondo_inversion_abanca": {
+                "valor": 481500,
+                "calidad": "TRIPLE_CRUCE"
+              },
+              "plan_pensiones": {
+                "valor": 190547,
+                "calidad": "TRIPLE_CRUCE"
+              },
+              "acciones_inditex": {
+                "valor": 51050,
+                "calidad": "TRIPLE_CRUCE",
+                "detalle": "2.500 acciones, valor 23/05/2022"
+              },
+              "acciones_telefonica": {
+                "valor": 455,
+                "calidad": "TRIPLE_CRUCE",
+                "detalle": "97 acciones"
+              }
+            },
+            "inmuebles": [
+              {
+                "tipo": "vivienda",
+                "ubicacion": "Madrid",
+                "regimen": "privativo",
+                "valor_declarado": null
+              },
+              {
+                "tipo": "vivienda + garaje",
+                "ubicacion": "Vigo",
+                "regimen": "privativo",
+                "valor_declarado": null
+              },
+              {
+                "tipo": "finca rústica",
+                "ubicacion": "Ames (A Coruña)",
+                "regimen": "privativo",
+                "valor_declarado": null
+              }
+            ],
+            "pasivos": {
+              "deudas": {
+                "valor": 0,
+                "calidad": "TRIPLE_CRUCE",
+                "detalle": "Sin deudas declaradas"
+              }
+            }
+          },
+          "totales_oficiales": {
+            "patrimonio_neto_consolidado": null,
+            "calidad": "NO_CONSOLIDADO"
+          },
+          "totales_derivados": {
+            "patrimonio_liquido_neto": 930972,
+            "calidad": "TRIPLE_CRUCE",
+            "nota": "Suma de todos los activos líquidos (cuenta + depósito + fondo Abanca + plan pensiones + acciones Inditex + acciones Telefónica). Sin pasivos. NO incluye los 3 inmuebles (Madrid, Vigo, finca Ames)."
+          }
+        },
+        {
           "anio": 2023,
-          "fecha": "2023-08",
-          "contexto": "Declaración XV Legislatura como líder de la oposición",
-          "activos_total": 769878,
-          "activos_desglose": {
-            "cuentas_corrientes": 37627,
-            "fondo_inversion_abanca": 403425,
-            "plan_pensiones": 195163,
-            "acciones_inditex": 133200,
-            "acciones_telefonica": 363
+          "fecha_declaracion": "2023-08-31",
+          "tipo_documento": "senado_cese_y_congreso_xv",
+          "documento_oficial": {
+            "nombre": "Declaración cese Senado XIV / Entrada Congreso XV Legislatura",
+            "url_referencia": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-10.PDF",
+            "url_ficha_congreso": "https://www.congreso.es/es/busqueda-de-diputados",
+            "nota": "Misma cifra reportada en declaración Senado de cese (sep 2023) y Congreso de entrada (sep 2023). Compra nueva vivienda A Coruña el 11/08/2023, 7 días antes de la declaración."
           },
-          "pasivos_total": 0,
-          "patrimonio_neto": 769878,
-          "inmuebles_n": 5,
-          "inmuebles_detalle": "Casa Madrid + casa Vigo + garaje Vigo + vivienda y garaje A Coruña + finca rústica Ames (A Coruña)",
-          "nota_inmuebles": "Valor catastral no especificado; con 5 inmuebles, el valor de mercado real probablemente supera el millón de euros.",
-          "ingresos_anuales_declarados": {
-            "sueldo_xunta": 21686,
-            "sueldo_parlamento_gallego": 1770,
-            "sueldo_pp_representacion": 39260,
-            "sueldo_presidente_senado": 31850,
-            "dividendos": 2112,
-            "rendimientos_inmuebles": 5584
+          "calidad_declaracion": "TRIPLE_CRUCE",
+          "fuentes_secundarias": [
+            {
+              "medio": "eldiario.es",
+              "url": "https://www.eldiario.es/politica/nueva-casa-coruna-acciones-inditex-sobresueldos-pp-cambio-patrimonio-feijoo-ano_1_10479110.html",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "Infobae",
+              "url": "https://www.infobae.com/espana/2024/07/18/sueldo-propiedades-ahorros-y-deudas-de-sanchez-diaz-feijoo-y-abascal-las-cifras-de-los-principales-lideres-politicos/",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "Galicia Press",
+              "url": "https://www.galiciapress.es/articulo/politica-espana/2023-09-01/4420253-feijoo-compro-casa-agosto-tiene-4000-acciones-inditex-600000-euros-ahorros-no-tiene-deudas",
+              "fecha_consulta": "2026-05-20"
+            }
+          ],
+          "bloques": {
+            "liquido": {
+              "cuenta_corriente": {
+                "valor": 37627,
+                "calidad": "TRIPLE_CRUCE",
+                "detalle": "Bajada respecto a 2022 explicable por compra vivienda A Coruña agosto 2023"
+              },
+              "fondo_inversion_abanca": {
+                "valor": 403425,
+                "calidad": "TRIPLE_CRUCE",
+                "detalle": "Bajada de 481K a 403K"
+              },
+              "plan_pensiones": {
+                "valor": 195163,
+                "calidad": "TRIPLE_CRUCE"
+              },
+              "acciones_inditex": {
+                "valor": 133200,
+                "calidad": "TRIPLE_CRUCE",
+                "detalle": "4.000 acciones, aumento desde 2.500 anteriores"
+              },
+              "acciones_telefonica": {
+                "valor": 363,
+                "calidad": "TRIPLE_CRUCE",
+                "detalle": "Valor actualizado por cotización"
+              }
+            },
+            "inmuebles": [
+              {
+                "tipo": "vivienda",
+                "ubicacion": "Madrid",
+                "regimen": "privativo",
+                "valor_declarado": null
+              },
+              {
+                "tipo": "vivienda + garaje",
+                "ubicacion": "Vigo",
+                "regimen": "privativo",
+                "valor_declarado": null
+              },
+              {
+                "tipo": "vivienda + garaje",
+                "ubicacion": "A Coruña",
+                "regimen": "privativo",
+                "valor_declarado": null,
+                "nota": "Compra 11/08/2023 (pleno dominio)"
+              },
+              {
+                "tipo": "finca rústica",
+                "ubicacion": "Ames (A Coruña)",
+                "regimen": "privativo",
+                "valor_declarado": null
+              }
+            ],
+            "pasivos": {
+              "deudas": {
+                "valor": 0,
+                "calidad": "TRIPLE_CRUCE",
+                "detalle": "Sin deudas declaradas pese a comprar nueva vivienda"
+              }
+            }
           },
-          "fuente": "Congreso de los Diputados, XV Legislatura",
-          "fuente_url": "https://www.infobae.com/espana/2024/07/18/sueldo-propiedades-ahorros-y-deudas-de-sanchez-diaz-feijoo-y-abascal-las-cifras-de-los-principales-lideres-politicos/"
+          "totales_oficiales": {
+            "patrimonio_neto_consolidado": null,
+            "calidad": "NO_CONSOLIDADO"
+          },
+          "totales_derivados": {
+            "patrimonio_liquido_neto": 769778,
+            "calidad": "TRIPLE_CRUCE",
+            "nota": "Suma de activos líquidos. NO incluye los 4 inmuebles. Bajada respecto a 2022 (-161K€) por compra vivienda A Coruña."
+          },
+          "ingresos_ejercicio_anterior": {
+            "ejercicio_fiscal": 2022,
+            "sueldo_xunta": {
+              "valor": 21686,
+              "fuente": "Xunta de Galicia (sueldo presidente, parcial enero-mayo 2022)",
+              "calidad": "DOBLE_CRUCE"
+            },
+            "sueldo_parlamento_galicia": {
+              "valor": 1770,
+              "calidad": "DOBLE_CRUCE"
+            },
+            "gastos_representacion_pp": {
+              "valor": 39260,
+              "fuente": "Partido Popular",
+              "calidad": "DOBLE_CRUCE",
+              "detalle": "Sobresueldo del PP no procedente del Estado"
+            },
+            "sueldo_senador": {
+              "valor": 31850,
+              "calidad": "DOBLE_CRUCE",
+              "detalle": "Parcial mayo-diciembre 2022"
+            },
+            "dividendos": {
+              "valor": 2112,
+              "calidad": "DOBLE_CRUCE",
+              "detalle": "Acciones"
+            },
+            "rendimientos_inmuebles": {
+              "valor": 5584,
+              "calidad": "DOBLE_CRUCE"
+            },
+            "total_pp_2022": {
+              "valor": 70000,
+              "calidad": "DOBLE_CRUCE",
+              "detalle": "Total percibido del PP durante 2022 según Galicia Press",
+              "donado_totalmente": false
+            }
+          }
         }
       ],
-      "datos_pendientes": "Declaración de inicio como diputado autonómico Galicia (~2003). Sin datos verificados de patrimonio previo a 2009.",
-      "calidad_datos": "media",
-      "iconos": [
-        "privados",
-        "snapshot"
-      ],
-      "nota_iconos": "Carrera previa en Insalud y Administración pública gallega antes de la política activa."
+      "ingresos_privados_documentados": {
+        "total_estimado": 0,
+        "nota": "Sin ingresos privados conocidos. Funcionario público desde 1985 sin interrupción. Los pagos del Partido Popular (~70.000€ en 2022 declarados) son ingresos del propio partido, no de actividad privada externa."
+      },
+      "datos_pendientes": "Sueldos exactos de los periodos como Presidente del Insalud (1996-2000) y Presidente de Correos (2000-2003) no localizados. Estos años quedan sin contabilizar en el sueldo público acumulado, lo que infravalora artificialmente la cifra de comparación.",
+      "limitaciones_metodologicas": "Los 4 inmuebles declarados (Madrid, Vigo, A Coruña, Ames) no llevan valoración en la declaración del Congreso. El patrimonio total real es necesariamente superior al patrimonio líquido neto mostrado (~770K€)."
     },
     {
       "id": "rajoy",
@@ -755,52 +1089,287 @@
       "id": "abascal",
       "nombre": "Santiago Abascal Conde",
       "partido": "Vox",
-      "cargo_destacado": "Líder de Vox (2014-)",
+      "cargo_destacado": "Presidente de Vox (2014-presente), diputado Madrid",
+      "version_ficha": "2.2",
+      "verificado_fecha": "2026-05-20",
+      "calidad_global": "TRIPLE_CRUCE",
+      "iconos": [],
+      "nota_iconos": "Carrera política desde los 23 años (1999). Sin ingresos privados conocidos. El sueldo que percibe como Presidente de Vox y como Presidente del Grupo Parlamentario Vox es retribución del propio partido (vía subvenciones del Congreso), no del Estado directamente, y NO se contabiliza en el sueldo público acumulado para el cálculo del múltiplo.",
       "trayectoria_publica": [
         {
-          "anio_inicio": 2004,
-          "anio_fin": 2007,
-          "cargo": "diputado_autonomico_pais_vasco"
+          "cargo": "concejal_pequeno_municipio",
+          "desde": "1999-01",
+          "hasta": "2007-05",
+          "remunerado": true,
+          "nota": "Concejal Ayuntamiento de Llodio (Álava). Municipio de ~18.000 habitantes. Sueldo estimado de concejal en municipio pequeño."
         },
         {
-          "anio_inicio": 2007,
-          "anio_fin": 2013,
-          "cargo": "asambleista_madrid"
+          "cargo": "juntas_generales_alava",
+          "desde": "2003-06",
+          "hasta": "2004-04",
+          "remunerado": false,
+          "nota": "Miembro Juntas Generales de Álava. Cargo orgánico territorial, sin remuneración pública específica documentada."
         },
         {
-          "anio_inicio": 2019,
-          "anio_fin": null,
-          "cargo": "diputado_congreso"
+          "cargo": "diputado_parlamento_vasco",
+          "desde": "2004-04",
+          "hasta": "2009-03",
+          "remunerado": true,
+          "nota": "Diputado del Parlamento Vasco por el PP."
+        },
+        {
+          "cargo": "alto_cargo_comunidad_madrid",
+          "desde": "2010-01",
+          "hasta": "2013-12",
+          "remunerado": false,
+          "nota": "Dos cargos de libre designación en la administración autonómica de la Comunidad de Madrid (PP). Cifras concretas de remuneración no localizadas. No se contabiliza por falta de dato verificable."
+        },
+        {
+          "cargo": null,
+          "desde": "2014-01",
+          "hasta": "2019-05",
+          "remunerado": false,
+          "nota": "Tras abandonar el PP en 2013, funda Vox (17/12/2013) y es presidente desde 2014. No cargo público remunerado por el Estado durante 5 años (cobra del partido, no del Estado)."
+        },
+        {
+          "cargo": "diputado_congreso",
+          "legislatura": "XIII-XIV-XV",
+          "desde": "2019-05",
+          "hasta": null,
+          "remunerado": true,
+          "nota": "Diputado por Madrid desde mayo 2019. Sigue siendo Presidente de Vox y Presidente del Grupo Parlamentario Vox, ambos cargos retribuidos por el partido."
         }
       ],
       "declaraciones": [
         {
+          "anio": 2019,
+          "fecha_declaracion": "2019-11-20",
+          "tipo_documento": "congreso_diputado_xiii",
+          "documento_oficial": {
+            "nombre": "Declaración inicial Congreso XIII Legislatura",
+            "url_referencia": "https://www.eldiario.es/politica/abascal-actualiza-meses-retraso-declaracion-bienes-congreso-incluir-compra-chale-lujosa-zona-madrid_1_6478976.html",
+            "nota": "Declaración inicial al obtener acta de diputado tras elecciones 10N 2019. Antes de comprar la vivienda de Pinar del Rey."
+          },
+          "calidad_declaracion": "DOBLE_CRUCE",
+          "fuentes_secundarias": [
+            {
+              "medio": "eldiario.es",
+              "url": "https://www.eldiario.es/politica/abascal-actualiza-meses-retraso-declaracion-bienes-congreso-incluir-compra-chale-lujosa-zona-madrid_1_6478976.html",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "Vozpópuli",
+              "url": "https://www.vozpopuli.com/espana/abascal-declaracion-bienes-prestamos-comprar-vivienda_0_1415858823.html",
+              "fecha_consulta": "2026-05-20"
+            }
+          ],
+          "bloques": {
+            "liquido": {
+              "cuenta_corriente": {
+                "valor": 44143,
+                "calidad": "DOBLE_CRUCE",
+                "detalle": "Saldo declarado al inicio XIII Legislatura"
+              }
+            },
+            "inmuebles": [],
+            "pasivos": {
+              "prestamos_personales": {
+                "valor": 12000,
+                "calidad": "DOBLE_CRUCE",
+                "detalle": "Dos préstamos personales aprox., 1.500€ menos que en legislatura anterior"
+              }
+            },
+            "vehiculos": [
+              {
+                "tipo": "todoterreno Jeep Commander"
+              },
+              {
+                "tipo": "motocicleta BMW"
+              }
+            ]
+          },
+          "totales_oficiales": {
+            "patrimonio_neto_consolidado": null,
+            "calidad": "NO_CONSOLIDADO"
+          },
+          "totales_derivados": {
+            "patrimonio_liquido_neto": 32143,
+            "calidad": "DOBLE_CRUCE",
+            "nota": "Cuenta corriente menos préstamos personales. Sin inmuebles, sin hipoteca en este momento."
+          },
+          "ingresos_ejercicio_anterior": {
+            "ejercicio_fiscal": 2018,
+            "sueldo_vox": {
+              "valor": 55148.54,
+              "fuente": "Vox (no del Estado)",
+              "calidad": "DOBLE_CRUCE",
+              "detalle": "Asalariado con cargo de presidente del partido. NO es sueldo público."
+            },
+            "ingresos_totales": {
+              "valor": 120000,
+              "calidad": "DOBLE_CRUCE",
+              "detalle": "Total incluyendo sueldo parlamentario. Estimación de prensa."
+            }
+          }
+        },
+        {
+          "anio": 2020,
+          "fecha_declaracion": "2020-11-26",
+          "tipo_documento": "congreso_actualizacion_xiv",
+          "documento_oficial": {
+            "nombre": "Actualización declaración tras compra vivienda Pinar del Rey",
+            "url_referencia": "https://www.infolibre.es/politica/abascal-actualiza-declaracion-bienes-congreso-revelar-infolibre-oculto-meses-prestamo-comprar-vivienda_1_1190846.html",
+            "nota": "Vivienda formalizada notarialmente 23/07/2020. Hipoteca firmada 06/07/2020. Actualización del Congreso registrada 26/11/2020, casi 5 meses después y solo tras la presión mediática de infoLibre. Vivienda de lujo 185 m2 en barrio Pinar del Rey (Madrid)."
+          },
+          "calidad_declaracion": "TRIPLE_CRUCE",
+          "fuentes_secundarias": [
+            {
+              "medio": "infoLibre",
+              "url": "https://www.infolibre.es/politica/abascal-actualiza-declaracion-bienes-congreso-revelar-infolibre-oculto-meses-prestamo-comprar-vivienda_1_1190846.html",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "Vozpópuli",
+              "url": "https://www.vozpopuli.com/espana/abascal-declaracion-bienes-prestamos-comprar-vivienda_0_1415858823.html",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "eldiario.es",
+              "url": "https://www.eldiario.es/politica/abascal-actualiza-meses-retraso-declaracion-bienes-congreso-incluir-compra-chale-lujosa-zona-madrid_1_6478976.html",
+              "fecha_consulta": "2026-05-20"
+            }
+          ],
+          "bloques": {
+            "inmuebles": [
+              {
+                "tipo": "vivienda 185 m2",
+                "ubicacion": "Pinar del Rey (Madrid)",
+                "regimen": "privativo 40%",
+                "valor_declarado": null,
+                "nota": "Vivienda de lujo dos plantas. Adquirida en común con su pareja. Abascal declara 40% de propiedad. Notaría 23/07/2020."
+              }
+            ],
+            "pasivos": {
+              "hipoteca": {
+                "valor": 365755,
+                "calidad": "TRIPLE_CRUCE",
+                "detalle": "De los 368.000€ originales (50% de hipoteca conjunta de 736.000€). Apenas 3.000€ amortizados en 4 meses."
+              }
+            }
+          },
+          "totales_oficiales": {
+            "patrimonio_neto_consolidado": null,
+            "calidad": "NO_CONSOLIDADO"
+          }
+        },
+        {
           "anio": 2023,
-          "fecha": "2023-08",
-          "contexto": "Declaración XV Legislatura",
-          "activos_total": 29017,
-          "activos_desglose": {
-            "cuentas_corrientes": 29017
+          "fecha_declaracion": "2023-08-22",
+          "tipo_documento": "congreso_diputado_xv",
+          "documento_oficial": {
+            "nombre": "Declaración inicial Congreso XV Legislatura (con actualización 29/09/2023)",
+            "url_ficha_congreso": "https://www.congreso.es/es/busqueda-de-diputados",
+            "url_pdf_patron": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-10.PDF",
+            "nota": "Declaración inicial agosto. En septiembre 2023 actualizó para añadir 18.000€ adicionales por presidir el Grupo Parlamentario Vox que había omitido inicialmente (revelado por El País)."
           },
-          "pasivos_total": 341300,
-          "patrimonio_neto": -312283,
-          "inmuebles_n": 1,
-          "inmuebles_detalle": "40% propiedad vivienda Madrid; hipoteca compartida al 50% (341.300€ pendientes)",
-          "vehiculos": "Jeep Commander + moto BMW R80RT",
-          "ingresos_anuales_declarados": {
-            "sueldo_vox_empleado": 37357
+          "calidad_declaracion": "TRIPLE_CRUCE",
+          "fuentes_secundarias": [
+            {
+              "medio": "Última Hora (Europa Press)",
+              "url": "https://www.ultimahora.es/noticias/nacional/2023/09/06/2007645/vox-abascal-declara-sueldo-mas-37000-euros.html",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "Público",
+              "url": "https://www.publico.es/politica/abascal-cobra-37-000-euros-sobresueldo-presidente-vox.html",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "TheObjective",
+              "url": "https://theobjective.com/espana/politica/2023-09-29/abascal-declaracion-congreso-vox/",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "COPE",
+              "url": "https://www.cope.es/actualidad/espana/noticias/abascal-cambia-declaracion-bienes-del-congreso-para-incluir-18000-euros-que-cobra-por-presidir-grupo-vox-20230929_2923922",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "Infobae",
+              "url": "https://www.infobae.com/espana/2024/07/18/sueldo-propiedades-ahorros-y-deudas-de-sanchez-diaz-feijoo-y-abascal-las-cifras-de-los-principales-lideres-politicos/",
+              "fecha_consulta": "2026-05-20"
+            }
+          ],
+          "bloques": {
+            "liquido": {
+              "cuenta_corriente": {
+                "valor": 29000,
+                "calidad": "TRIPLE_CRUCE",
+                "detalle": "Poco más de 29.000€. Aumento respecto a 13.558€ declarados en 2019."
+              }
+            },
+            "inmuebles": [
+              {
+                "tipo": "vivienda 185 m2",
+                "ubicacion": "Pinar del Rey (Madrid)",
+                "regimen": "privativo 40%",
+                "valor_declarado": null
+              }
+            ],
+            "pasivos": {
+              "hipoteca": {
+                "valor": 341300,
+                "calidad": "TRIPLE_CRUCE",
+                "detalle": "Pendiente amortizar de la hipoteca de 368.000€ (parte proporcional 50% de 736.000€). En 3 años amortizó ~24.500€."
+              }
+            },
+            "vehiculos": [
+              {
+                "tipo": "todoterreno Jeep Commander"
+              },
+              {
+                "tipo": "motocicleta BMW"
+              }
+            ]
           },
-          "fuente": "Congreso de los Diputados, XV Legislatura",
-          "fuente_url": "https://www.infobae.com/espana/2024/07/18/sueldo-propiedades-ahorros-y-deudas-de-sanchez-diaz-feijoo-y-abascal-las-cifras-de-los-principales-lideres-politicos/"
+          "totales_oficiales": {
+            "patrimonio_neto_consolidado": null,
+            "calidad": "NO_CONSOLIDADO"
+          },
+          "totales_derivados": {
+            "patrimonio_liquido_neto": -312300,
+            "calidad": "TRIPLE_CRUCE",
+            "nota": "29.000€ cuenta - 341.300€ hipoteca = -312.300€. Patrimonio NEGATIVO desde el punto de vista líquido. El 40% de la vivienda de Pinar del Rey no está valorado en la declaración del Congreso pero, según informaciones de prensa, sería propiedad de lujo cuyo valor de mercado superaría con creces la hipoteca pendiente. El patrimonio total real es necesariamente positivo."
+          },
+          "ingresos_ejercicio_anterior": {
+            "ejercicio_fiscal": 2022,
+            "sueldo_vox_presidente_partido": {
+              "valor": 37357.8,
+              "fuente": "Vox (no del Estado)",
+              "calidad": "TRIPLE_CRUCE",
+              "detalle": "Como empleado y asalariado con cargo de presidente del partido. NO es sueldo público."
+            },
+            "sueldo_vox_presidente_grupo": {
+              "valor": 18000,
+              "fuente": "Vox (vía subvención Congreso)",
+              "calidad": "TRIPLE_CRUCE",
+              "detalle": "Por presidir el Grupo Parlamentario Vox. Procede de subvenciones del Congreso al partido."
+            },
+            "sueldo_diputado_congreso": {
+              "valor": 39260,
+              "fuente": "Estado (Congreso)",
+              "calidad": "DOBLE_CRUCE",
+              "detalle": "Sueldo público estándar de diputado."
+            }
+          }
         }
       ],
-      "datos_pendientes": "Declaración de inicio (2004 País Vasco). Sin datos verificados anteriores a 2019.",
-      "calidad_datos": "media",
-      "nota": "Abascal declara ingresos de Vox como empleado de la formación, no como cargo del Estado. Es uno de los líderes con patrimonio neto negativo por la hipoteca.",
-      "iconos": [
-        "snapshot"
-      ],
-      "nota_iconos": "Carrera política desde 2004 (Vox desde 2014). Salario actual de la formación política, no del cargo público según declaraciones."
+      "ingresos_privados_documentados": {
+        "total_estimado": 0,
+        "nota": "Sin ingresos privados externos conocidos. Toda su carrera ha sido pública (PP 1994-2013) o financiada por partido (Vox 2013-presente). Los ingresos del Partido Popular y posteriormente de Vox no son ingresos privados externos sino del propio partido."
+      },
+      "datos_pendientes": "Sueldos exactos de cargos en la administración Comunidad de Madrid (2010-2013) no localizados. La vivienda de Pinar del Rey no lleva valoración en la declaración del Congreso, pero según prensa su valor superaría con holgura la hipoteca pendiente.",
+      "limitaciones_metodologicas": "El patrimonio líquido neto NEGATIVO de -312.300€ refleja únicamente la diferencia entre el saldo en cuenta corriente y la hipoteca pendiente. NO incluye el 40% de la propiedad inmobiliaria (vivienda 185m2 de lujo en Pinar del Rey, Madrid). El patrimonio total real es razonablemente positivo. Esta cifra entra en categoría '¿Dónde está el dinero?' por la metodología actual (que se basa en líquido), no por situación financiera real."
     },
     {
       "id": "yolanda_diaz",

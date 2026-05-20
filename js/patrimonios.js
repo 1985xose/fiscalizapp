@@ -240,6 +240,17 @@ const CARGO_LABEL = {
   diputado_congreso: 'Diputado',
   senador: 'Senador',
   presidente_xunta_galicia: 'Presidente Xunta de Galicia',
+  vicepresidente_xunta_galicia: 'Vicepresidente Xunta de Galicia',
+  conselleiro_xunta_galicia: 'Conselleiro Xunta de Galicia',
+  diputado_parlamento_galicia: 'Diputado Parlamento Galicia',
+  diputado_parlamento_vasco: 'Diputado Parlamento Vasco',
+  concejal_pequeno_municipio: 'Concejal municipio pequeño',
+  juntas_generales_alava: 'Miembro Juntas Generales Álava',
+  alto_cargo_comunidad_madrid: 'Alto cargo Comunidad de Madrid',
+  presidente_insalud: 'Presidente Insalud',
+  presidente_correos: 'Presidente Correos y Telégrafos',
+  alto_cargo_xunta_galicia: 'Alto cargo Xunta de Galicia',
+  funcionario_xunta_no_politico: 'Funcionario (no cargo político)',
   eurodiputado: 'Eurodiputado',
   concejal_madrid: 'Concejal Madrid',
   secretario_general_psoe: 'Secretario General PSOE',
@@ -486,7 +497,7 @@ function renderDeclaracion(d) {
   // Formato nuevo v2.2
   let h = `<div class="declaracion-item declaracion-nueva">`;
   h += `<div class="decl-header">
-    <strong>${d.anio}</strong> · ${d.tipo_documento || ''} ${calidadIcon(d.calidad_declaracion)}
+    <strong>${d.anio}</strong> · ${(d.tipo_documento || '').replace(/_/g, ' ')} ${calidadIcon(d.calidad_declaracion)}
     ${d.fecha_declaracion ? `<span class="decl-fecha"> · ${d.fecha_declaracion}</span>` : ''}
   </div>`;
 
@@ -519,7 +530,7 @@ function renderDeclaracion(d) {
     if (b.inmuebles && Array.isArray(b.inmuebles) && b.inmuebles.length) {
       h += '<div class="decl-subbloque"><strong>Inmuebles:</strong>';
       b.inmuebles.forEach(im => {
-        h += `<div class="decl-cifra">${im.tipo} en ${im.ubicacion} (${im.regimen}) — ${im.valor_declarado != null ? fmtEuros(im.valor_declarado) : '<em>sin valoración</em>'}</div>`;
+        h += `<div class="decl-cifra">${im.tipo} en ${im.ubicacion} (${(im.regimen || '').replace(/_/g, ' ')}) — ${im.valor_declarado != null ? fmtEuros(im.valor_declarado) : '<em>sin valoración</em>'}</div>`;
       });
       h += '</div>';
     }
