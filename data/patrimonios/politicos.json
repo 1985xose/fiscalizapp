@@ -1438,137 +1438,371 @@
     {
       "id": "iglesias",
       "nombre": "Pablo Iglesias Turrión",
-      "partido": "Podemos (fuera de política activa)",
-      "cargo_destacado": "Vicepresidente segundo y ministro de Derechos Sociales (2020-2021)",
+      "partido": "Unidas Podemos / Podemos",
+      "cargo_destacado": "Vicepresidente 2º del Gobierno (2020-2021), líder fundador de Podemos",
+      "version_ficha": "2.2",
+      "verificado_fecha": "2026-05-20",
+      "calidad_global": "TRIPLE_CRUCE",
+      "iconos": [
+        "gananciales",
+        "privados"
+      ],
+      "nota_iconos": "Carrera pública corta (2014-2021) pero con periodo de gananciales con Irene Montero (chalé Galapagar). Antes de 2014 trabajó como profesor universitario UCM y tertuliano en medios. Tras abandonar la política en mayo 2021 retomó actividades privadas (programa Twitch 'La Base', tertulias, libros). Ingresos privados pre-política documentados.",
       "trayectoria_publica": [
         {
-          "anio_inicio": 2014,
-          "anio_fin": 2015,
-          "cargo": "eurodiputado"
+          "cargo": null,
+          "desde": "2008-01",
+          "hasta": "2014-06",
+          "remunerado": false,
+          "nota": "Profesor universitario UCM (Ciencia Política) y tertuliano. Periodo pre-político con ingresos privados estimados ~45.000€ anuales."
         },
         {
-          "anio_inicio": 2016,
-          "anio_fin": 2021,
-          "cargo": "diputado_congreso"
+          "cargo": "eurodiputado",
+          "desde": "2014-07",
+          "hasta": "2015-10",
+          "remunerado": true,
+          "nota": "Eurodiputado por Podemos. Renunció al acta para presentarse a las generales españolas."
         },
         {
-          "anio_inicio": 2020,
-          "anio_fin": 2021,
-          "cargo": "vicepresidente"
+          "cargo": "diputado_congreso",
+          "legislatura": "XI-XII-XIII",
+          "desde": "2016-01",
+          "hasta": "2020-01",
+          "remunerado": true,
+          "nota": "Diputado por Madrid. Tres legislaturas consecutivas."
+        },
+        {
+          "cargo": "vicepresidente",
+          "desde": "2020-01",
+          "hasta": "2021-03",
+          "remunerado": true,
+          "nota": "Vicepresidente Segundo y Ministro de Derechos Sociales y Agenda 2030. Coalición PSOE-UP."
+        },
+        {
+          "cargo": null,
+          "desde": "2021-04",
+          "hasta": "2021-05",
+          "remunerado": false,
+          "nota": "Deja vicepresidencia 30/03/2021 para presentarse a Comunidad de Madrid. Tras perder elecciones 4/5/2021 abandona política institucional."
+        },
+        {
+          "cargo": null,
+          "desde": "2021-06",
+          "hasta": null,
+          "remunerado": false,
+          "nota": "Vida post-política: programa Twitch 'La Base' (Canal Red/Jaleos), tertuliano, escritor. Ingresos privados no contabilizados."
         }
       ],
       "declaraciones": [
         {
-          "anio": 2014,
-          "fecha": "2014-12-15",
-          "contexto": "Declaración inicial al ser nombrado Secretario General de Podemos. Presentada al partido (transparencia interna).",
-          "activos_total": 45211,
-          "activos_desglose": {
-            "cuentas_corrientes_y_ahorro": 45211
-          },
-          "pasivos_total": 0,
-          "patrimonio_neto": 45211,
-          "ingresos_anuales_declarados": {
-            "empleado": 19604,
-            "honorarios_autonomo": 50082,
-            "intereses": 242
-          },
-          "fuente": "Declaración de Bienes y Rentas, Podemos (diciembre 2014)",
-          "fuente_url": "https://www.libremercado.com/2016-01-19/iglesias-dobla-su-patrimonio-entra-en-el-1-y-paga-un-35-menos-a-hacienda-1276565872/"
-        },
-        {
           "anio": 2016,
-          "fecha": "2016-01-05",
-          "contexto": "Entrada en el Congreso XI Legislatura",
-          "activos_total": 112432,
-          "activos_desglose": {
-            "cuentas_corrientes_y_ahorro": 112432
+          "fecha_declaracion": "2016-01",
+          "tipo_documento": "congreso_diputado_xi",
+          "documento_oficial": {
+            "nombre": "Declaración inicial XI Legislatura",
+            "url_referencia": "https://www.lapoliticaonline.com/espana/politica-es/irene-montero-de-tener-6-000-euros-en-el-banco-a-un-patrimonio-de-600-000-en-cinco-anos/",
+            "nota": "Primera declaración como diputado tras 20D 2015."
           },
-          "pasivos_total": 0,
-          "patrimonio_neto": 112432,
-          "ingresos_anuales_declarados": {
-            "empleado": 58398,
-            "autonomo": 49299
+          "calidad_declaracion": "DOBLE_CRUCE",
+          "fuentes_secundarias": [
+            {
+              "medio": "La Política Online",
+              "url": "https://www.lapoliticaonline.com/espana/politica-es/irene-montero-de-tener-6-000-euros-en-el-banco-a-un-patrimonio-de-600-000-en-cinco-anos/",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "OKDiario",
+              "url": "https://okdiario.com/espana/pablo-iglesias-entro-politica-59-000-va-7-anos-despues-540-000-7186994",
+              "fecha_consulta": "2026-05-20"
+            }
+          ],
+          "bloques": {
+            "liquido": {
+              "cuentas_total": {
+                "valor": 59000,
+                "calidad": "DOBLE_CRUCE",
+                "detalle": "Patrimonio agregado al entrar al Congreso"
+              }
+            }
           },
-          "fuente": "Congreso de los Diputados, XI Legislatura",
-          "fuente_url": "https://www.elplural.com/politica/espana/iglesias-presenta-al-congreso-su-declaracion-de-2014-y-no-la-de-2015-en-la-que-tuvo-mas-ingresos_77101102"
+          "totales_derivados": {
+            "patrimonio_liquido_neto": 59000,
+            "calidad": "DOBLE_CRUCE",
+            "nota": "Cifra agregada de prensa al inicio carrera política."
+          }
         },
         {
           "anio": 2021,
-          "fecha": "2021-03",
-          "contexto": "Salida del Gobierno y de la política activa. Patrimonio conjunto con Irene Montero (matrimonio en gananciales).",
-          "activos_total_pareja": 1100000,
-          "patrimonio_neto_pareja": 1100000,
-          "inmuebles_n_pareja": 1,
-          "inmuebles_detalle": "Chalet de Galapagar (Madrid), adquirido en 2018 por 615.000€. Resto del patrimonio en cuentas y planes.",
-          "fuente": "BOE altos cargos + COPE/análisis",
-          "fuente_url": "https://www.cope.es/actualidad/espana/noticias/irene-montero-multiplica-por-patrimonio-desde-que-entro-congreso-2016-20210326_1211024"
+          "fecha_declaracion": "2021-03-31",
+          "tipo_documento": "boe_alto_cargo_cese",
+          "documento_oficial": {
+            "nombre": "BOE 26/03/2021 - Resolución 24/03/2021 SG Función Pública - Declaración cese vicepresidente",
+            "url": "https://www.boe.es/boe/dias/2021/03/26/pdfs/BOE-A-2021-4751.pdf",
+            "pagina": 35059,
+            "nota": "Declaración al cesar como vicepresidente y ministro (30/03/2021) para presentarse a Comunidad de Madrid."
+          },
+          "calidad_declaracion": "TRIPLE_CRUCE",
+          "fuentes_secundarias": [
+            {
+              "medio": "Vozpópuli",
+              "url": "https://www.vozpopuli.com/espana/patrimonio-iglesias-montero-sanchez.html",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "El Español",
+              "url": "https://www.elespanol.com/espana/politica/20210327/cuentas-iglesias-montero-suficiente-dinero-liquidar-hipoteca/568944438_0.html",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "Libertad Digital",
+              "url": "https://www.libertaddigital.com/espana/2021-03-26/el-escandaloso-incremento-del-patrimonio-de-irene-montero-y-pablo-iglesias-desde-que-estan-en-politica-declaran-16-mil-6739558/",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "OKDiario",
+              "url": "https://okdiario.com/espana/pablo-iglesias-entro-politica-59-000-va-7-anos-despues-540-000-7186994",
+              "fecha_consulta": "2026-05-20"
+            }
+          ],
+          "bloques": {
+            "liquido": {
+              "depositos_cuentas": {
+                "valor": 111098.1,
+                "calidad": "TRIPLE_CRUCE"
+              },
+              "seguros_vida_planes_pensiones": {
+                "valor": 187500,
+                "calidad": "TRIPLE_CRUCE",
+                "detalle": "Mitad proporcional de 375.000€ compartidos con Irene Montero"
+              },
+              "otros_bienes_derechos": {
+                "valor": 8000,
+                "calidad": "TRIPLE_CRUCE"
+              }
+            },
+            "inmuebles": [
+              {
+                "tipo": "chalé 268m2 + parcela 2.000m2",
+                "ubicacion": "Galapagar (Madrid)",
+                "regimen": "ganancial 50% con Irene Montero",
+                "valor_declarado": 233282.15,
+                "nota": "Mitad proporcional declarada al BOE"
+              },
+              {
+                "tipo": "parcela rústica",
+                "ubicacion": "Ávila",
+                "regimen": "privativo 100%",
+                "valor_declarado": null,
+                "nota": "Sin valoración explícita"
+              }
+            ],
+            "pasivos": {
+              "hipoteca": {
+                "valor": 231156.5,
+                "calidad": "TRIPLE_CRUCE",
+                "detalle": "Mitad proporcional hipoteca Galapagar (Caja Ingenieros, original 540.000€)"
+              }
+            }
+          },
+          "totales_oficiales": {
+            "activos_total": 539880.25,
+            "pasivos_total": 231156.5,
+            "patrimonio_neto_consolidado": 308723.75,
+            "calidad": "TRIPLE_CRUCE",
+            "nota": "Patrimonio neto = 539.880,25 - 231.156,50. Algunas fuentes citan 300.731,75€ omitiendo los 8.000€ de 'otros bienes y derechos'."
+          }
         }
       ],
-      "calidad_datos": "alta",
-      "nota": "Iglesias dejó la vicepresidencia en marzo 2021 y abandonó la política tras las elecciones de Madrid. Patrimonio conjunto con Montero analizado más abajo en su ficha.",
-      "iconos": [
-        "gananciales"
-      ],
-      "nota_iconos": "Régimen de gananciales con Irene Montero. Declaración 2021 incluye patrimonio conjunto."
+      "ingresos_privados_documentados": {
+        "total_estimado_pre_politica": 45000,
+        "nota": "Pre-política (hasta 2014): profesor UCM + tertuliano, ingresos anuales ~45.000€. Post-política (desde junio 2021): Twitch 'La Base', tertulias, libros. Ingresos privados post-2021 significativos pero no rastreados en registros públicos."
+      },
+      "datos_pendientes": "Declaración del Congreso XIII (2019) sin desglose preciso. Patrimonio post-2021 no rastreable en registros públicos.",
+      "limitaciones_metodologicas": "Cifra del cese como vicepresidente (marzo 2021). Iglesias abandonó la política en mayo 2021 tras perder elecciones Madrid. No hay obligación de declarar bienes desde entonces."
     },
     {
       "id": "montero_irene",
       "nombre": "Irene Montero Gil",
-      "partido": "Podemos",
-      "cargo_destacado": "Ministra de Igualdad (2020-2023)",
+      "partido": "Unidas Podemos / Podemos",
+      "cargo_destacado": "Ministra de Igualdad (2020-2023), eurodiputada (desde 2024)",
+      "version_ficha": "2.2",
+      "verificado_fecha": "2026-05-20",
+      "calidad_global": "TRIPLE_CRUCE",
+      "iconos": [
+        "gananciales"
+      ],
+      "nota_iconos": "Carrera política íntegramente pública desde enero 2016. Único periodo no público: beca de personal docente UAM 2014-2015 (13.794€ anuales). Declaración en régimen de gananciales con Pablo Iglesias (chalé Galapagar, hipoteca compartida). Su incremento patrimonial 2016-2021 (de 6.823€ a 398.813€ netos) incluye una herencia documentada de ~76.000€ recibida hacia 2017-2018.",
       "trayectoria_publica": [
         {
-          "anio_inicio": 2016,
-          "anio_fin": 2024,
-          "cargo": "diputada_congreso"
+          "cargo": null,
+          "desde": "2014-01",
+          "hasta": "2015-12",
+          "remunerado": false,
+          "nota": "Beca personal docente e investigador UAM (13.794€/año). Cargos orgánicos Podemos (Consejo Ciudadano Estatal desde 2014) sin remuneración del Estado."
         },
         {
-          "anio_inicio": 2020,
-          "anio_fin": 2023,
-          "cargo": "ministro"
+          "cargo": "diputado_congreso",
+          "legislatura": "XI-XII-XIII-XIV",
+          "desde": "2016-01",
+          "hasta": "2020-01",
+          "remunerado": true,
+          "nota": "Diputada por Madrid en cuatro legislaturas. Portavoz Grupo Parlamentario UP 2017-2020."
         },
         {
-          "anio_inicio": 2024,
-          "anio_fin": null,
-          "cargo": "eurodiputado"
+          "cargo": "ministro",
+          "desde": "2020-01",
+          "hasta": "2023-11",
+          "remunerado": true,
+          "nota": "Ministra de Igualdad. Coalición PSOE-UP. Mantuvo acta de diputada hasta agosto 2023."
+        },
+        {
+          "cargo": null,
+          "desde": "2023-12",
+          "hasta": "2024-07",
+          "remunerado": true,
+          "nota": "Indemnización por cese ministerial (80% del sueldo hasta 2 años, ~5.346€/mes brutos)."
+        },
+        {
+          "cargo": "eurodiputado",
+          "desde": "2024-07",
+          "hasta": null,
+          "remunerado": true,
+          "nota": "Eurodiputada por Podemos desde 16/07/2024."
         }
       ],
       "declaraciones": [
         {
           "anio": 2016,
-          "fecha": "2016-02",
-          "contexto": "Entrada Congreso XI Legislatura",
-          "activos_total": 6823,
-          "activos_desglose": {
-            "cuentas_corrientes": 6823
+          "fecha_declaracion": "2016-01",
+          "tipo_documento": "congreso_diputado_xi",
+          "documento_oficial": {
+            "nombre": "Declaración inicial XI Legislatura tras 20D 2015",
+            "url_referencia": "https://www.cope.es/actualidad/espana/noticias/irene-montero-multiplica-por-patrimonio-desde-que-entro-congreso-2016-20210326_1211024",
+            "nota": "Primera declaración como diputada. Punto de partida de su carrera política institucional."
           },
-          "pasivos_total": 0,
-          "patrimonio_neto": 6823,
-          "fuente": "Congreso de los Diputados, XI Legislatura",
-          "fuente_url": "https://www.cope.es/actualidad/espana/noticias/irene-montero-multiplica-por-patrimonio-desde-que-entro-congreso-2016-20210326_1211024"
+          "calidad_declaracion": "TRIPLE_CRUCE",
+          "fuentes_secundarias": [
+            {
+              "medio": "COPE",
+              "url": "https://www.cope.es/actualidad/espana/noticias/irene-montero-multiplica-por-patrimonio-desde-que-entro-congreso-2016-20210326_1211024",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "La Política Online (con PDF de la declaración)",
+              "url": "https://www.lapoliticaonline.com/espana/politica-es/irene-montero-de-tener-6-000-euros-en-el-banco-a-un-patrimonio-de-600-000-en-cinco-anos/",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "OKDiario",
+              "url": "https://okdiario.com/espana/diputado-pide-saber-como-irene-montero-pasado-tener-6-823-629-969-5-anos-8370781",
+              "fecha_consulta": "2026-05-20"
+            }
+          ],
+          "bloques": {
+            "liquido": {
+              "cuentas_corrientes": {
+                "valor": 6823.88,
+                "calidad": "TRIPLE_CRUCE"
+              }
+            }
+          },
+          "totales_derivados": {
+            "patrimonio_liquido_neto": 6823.88,
+            "calidad": "TRIPLE_CRUCE",
+            "nota": "Patrimonio inicial al entrar al Congreso. Confirmado por 3 fuentes que citan el documento original."
+          },
+          "ingresos_ejercicio_anterior": {
+            "ejercicio_fiscal": 2015,
+            "beca_docente_uam": {
+              "valor": 13794,
+              "calidad": "TRIPLE_CRUCE",
+              "fuente": "Universidad Autónoma de Madrid",
+              "detalle": "Beca personal docente e investigador. No es propiamente sueldo público de cargo."
+            }
+          }
         },
         {
           "anio": 2021,
-          "fecha": "2021-03",
-          "contexto": "Declaración como vicepresidenta (BOE altos cargos)",
-          "activos_total": 629969,
-          "activos_desglose": {
-            "inmuebles_valor": 335049,
-            "cuentas_corrientes": 107420,
-            "otros": 187500
+          "fecha_declaracion": "2019-11-19",
+          "tipo_documento": "boe_alto_cargo",
+          "documento_oficial": {
+            "nombre": "BOE 26/03/2021 - Declaración ministra de Igualdad",
+            "url": "https://www.boe.es/boe/dias/2021/03/26/pdfs/BOE-A-2021-4751.pdf",
+            "nota": "Publicada en BOE marzo 2021 según RD 1208/2018. Fecha de firma 19/11/2019."
           },
-          "patrimonio_neto": 629969,
-          "fuente": "BOE altos cargos, marzo 2021",
-          "fuente_url": "https://www.cope.es/actualidad/espana/noticias/irene-montero-multiplica-por-patrimonio-desde-que-entro-congreso-2016-20210326_1211024"
+          "calidad_declaracion": "TRIPLE_CRUCE",
+          "fuentes_secundarias": [
+            {
+              "medio": "Vozpópuli",
+              "url": "https://www.vozpopuli.com/espana/patrimonio-iglesias-montero-sanchez.html",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "El Español",
+              "url": "https://www.elespanol.com/espana/politica/20210326/irene-montero-azote-cuarto-ministro-patrimonio-inmobiliario/568943618_0.html",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "Maldita.es",
+              "url": "https://maldita.es/malditateexplica/20220105/patrimonio-irene-montero-valorado-62996982-euros-pasivo/",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "Moncloa.com",
+              "url": "https://www.moncloa.com/2022/06/01/irene-montero-alberto-garzon-ocultan-declaracion-bienes-1437905/",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "La Política Online",
+              "url": "https://www.lapoliticaonline.com/espana/politica-es/irene-montero-de-tener-6-000-euros-en-el-banco-a-un-patrimonio-de-600-000-en-cinco-anos/",
+              "fecha_consulta": "2026-05-20"
+            }
+          ],
+          "bloques": {
+            "liquido": {
+              "depositos_cuentas": {
+                "valor": 107420.33,
+                "calidad": "TRIPLE_CRUCE"
+              },
+              "seguros_vida_planes_pensiones": {
+                "valor": 187500,
+                "calidad": "TRIPLE_CRUCE",
+                "detalle": "Mitad proporcional de 375.000€ compartidos con Pablo Iglesias"
+              }
+            },
+            "inmuebles": [
+              {
+                "tipo": "chalé 268m2 + parcela 2.000m2",
+                "ubicacion": "Galapagar (Madrid)",
+                "regimen": "ganancial 50% con Pablo Iglesias",
+                "valor_declarado": 335049.49,
+                "nota": "Diferencia con Iglesias (233.282€) puede deberse a otros inmuebles privativos o metodología distinta"
+              }
+            ],
+            "pasivos": {
+              "hipoteca": {
+                "valor": 231156.5,
+                "calidad": "TRIPLE_CRUCE",
+                "detalle": "Mitad proporcional hipoteca Galapagar"
+              }
+            }
+          },
+          "totales_oficiales": {
+            "activos_total": 629969.82,
+            "pasivos_total": 231156.5,
+            "patrimonio_neto_consolidado": 398813.32,
+            "calidad": "TRIPLE_CRUCE",
+            "nota": "Patrimonio neto = 629.969,82 - 231.156,50. Confirmado por Maldita.es y 4 fuentes adicionales."
+          }
         }
       ],
-      "calidad_datos": "alta",
-      "nota": "Multiplicó por 92 su patrimonio entre 2016 y 2021. Patrimonio en parte gananciales con Pablo Iglesias. La cifra incluye el 50% del chalet de Galapagar.",
-      "iconos": [
-        "gananciales"
-      ],
-      "nota_iconos": "Régimen de gananciales con Pablo Iglesias. Declaración 2021 incluye patrimonio conjunto."
+      "ingresos_privados_documentados": {
+        "herencia_documentada": 76000,
+        "ejercicio_estimado": "2017-2018",
+        "nota": "Herencia documentada ~76.000€ recibida hacia 2017-2018 según declaración 2018 publicada. Esto explica parte del incremento patrimonial. El resto se explica por ahorro de sueldos públicos altos (diputada + ministra) durante 5 años + gananciales con Iglesias."
+      },
+      "datos_pendientes": "Declaración de cese ministerial publicada en BOE 2024 no consultada. Declaración eurodiputada 2024 no consultada.",
+      "limitaciones_metodologicas": "Cifra refleja situación a marzo 2021 (declaración BOE como ministra). Sigue como ministra hasta noviembre 2023 y eurodiputada desde julio 2024. Pueden existir declaraciones posteriores con cifras distintas."
     },
     {
       "id": "rufian",

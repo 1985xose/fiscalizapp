@@ -236,7 +236,9 @@ function fmtPct(n) {
 const CARGO_LABEL = {
   presidente_gobierno: 'Presidente del Gobierno',
   vicepresidente: 'Vicepresidente',
+  vicepresidente_gobierno: 'Vicepresidente del Gobierno',
   ministro: 'Ministro',
+  exministra_indemnizacion: 'Indemnización post-cese ministerial',
   diputado_congreso: 'Diputado',
   senador: 'Senador',
   presidente_xunta_galicia: 'Presidente Xunta de Galicia',
