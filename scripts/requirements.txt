@@ -1,0 +1,3 @@
+# FiscalizApp - Scripts de ingestión y análisis
+# Solo usa la librería estándar de Python (xml, json, urllib, ssl)
+# No se necesitan dependencias externas

@@ -1,0 +1,48 @@
+name: Actualización diaria de contratos
+
+on:
+  schedule:
+    # Cada día a las 8:00 hora española (6:00 UTC en verano, 7:00 UTC en invierno)
+    - cron: '0 6 * * *'
+  workflow_dispatch:  # Permite ejecutar manualmente desde GitHub
+
+jobs:
+  update-contratos:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write  # Necesario para hacer push al repo
+    
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Descargar contratos de la PLACSP
+        run: python scripts/ingest_placsp.py
+
+      - name: Detectar banderas rojas
+        run: python scripts/detect_flags.py
+
+      - name: Commit y push si hay cambios
+        run: |
+          git config user.name "FiscalizApp Bot"
+          git config user.email "bot@fiscalizapp.es"
+          git add data/contratos/ data/banderas-rojas/
+          
+          # Solo commitear si hay cambios reales
+          if git diff --staged --quiet; then
+            echo "Sin cambios nuevos"
+          else
+            FECHA=$(date +%Y-%m-%d)
+            CONTRATOS=$(python3 -c "import json; d=json.load(open('data/contratos/licitaciones.json')); print(d['meta']['total'])" 2>/dev/null || echo "?")
+            MENORES=$(python3 -c "import json; d=json.load(open('data/contratos/menores.json')); print(d['meta']['total'])" 2>/dev/null || echo "?")
+            FLAGS=$(python3 -c "import json; d=json.load(open('data/banderas-rojas/latest.json')); print(d['stats']['total_flags'])" 2>/dev/null || echo "?")
+            
+            git commit -m "🔄 Datos ${FECHA}: ${CONTRATOS} licitaciones, ${MENORES} menores, ${FLAGS} banderas rojas"
+            git push
+          fi
