@@ -1,9 +1,9 @@
 {
   "meta": {
-    "version": "3.1.0",
+    "version": "3.3.0",
     "actualizado": "2026-05-20",
-    "total_casos": 25,
-    "nota": "Datos verificados con fuentes a mayo de 2026. FiscalizApp no es un medio: enlazamos fuentes para que cada ciudadano juzgue. v3.1.0: añadidos 4 casos históricos del PSOE pre-2000 (Roldán, Juan Guerra, Urralburu, Fondos Reservados).",
+    "total_casos": 28,
+    "nota": "Datos verificados con fuentes a mayo de 2026. FiscalizApp no es un medio: enlazamos fuentes para que cada ciudadano juzgue. v3.3.0: añadidos Naseiro y Casinos-CiU como archivados por defecto procesal (regla extendida: archivos por nulidad de pruebas o ausencia de tipo penal, no por inocencia probada).",
     "chascarrillos": [
       "Si la corrupción fuera deporte olímpico, España iría sobrada de medallas.",
       "«No tengo nada que ocultar» — frase que precede al 90% de las imputaciones.",
@@ -1107,6 +1107,162 @@
         {
           "fecha": "2010-01",
           "evento": "El Tribunal Europeo de Derechos Humanos rechaza por 4 votos contra 3 los recursos de Vera"
+        }
+      ]
+    },
+    {
+      "id": "estevill",
+      "nombre": "Caso Estevill / Corrupción judicial",
+      "partido": "CDC/CiU",
+      "emoji": "⚖️",
+      "protagonistas": [
+        "Lluís Pascual Estevill (exjuez de Instrucción, exvocal CGPJ)",
+        "Joan Piqué Vidal (abogado cómplice)",
+        "Jordi Pujol (apoyó su nombramiento al CGPJ)"
+      ],
+      "descripcion": "El caso más grave de corrupción judicial en la democracia española. Estevill, que entró tarde en la carrera judicial por el cuarto turno, extorsionaba a empresarios desde el Juzgado de Instrucción 26 de Barcelona junto con el abogado Joan Piqué Vidal: amenazaba con encarcelarlos dictando resoluciones injustas si no pagaban. Llegó a ingresar unos 750 millones de pesetas (4,5M€) en efectivo. En 1994 fue nombrado vocal del CGPJ con el apoyo de CiU y Pujol, justo cuando empezaron a destaparse sus tropelías. Tres condenas firmes acumuladas.",
+      "juzgado": "Tribunal Supremo / Tribunal Superior de Justicia de Cataluña",
+      "juez": "Varios",
+      "estado": "sentencia",
+      "importe_estimado": 4500000,
+      "fecha_inicio": "1995",
+      "timeline": [
+        {
+          "fecha": "1990-1994",
+          "evento": "Como juez de Instrucción de Terrassa y Barcelona, Estevill extorsiona a empresarios con la complicidad del abogado Joan Piqué Vidal: dicta resoluciones injustas para forzar pagos"
+        },
+        {
+          "fecha": "1994",
+          "evento": "Nombrado vocal del Consejo General del Poder Judicial con apoyo de CiU y Pujol. La denuncia de un empresario al fiscal jefe de Cataluña, Carlos Jiménez Villarejo, marca el principio del fin"
+        },
+        {
+          "fecha": "1996-07",
+          "evento": "PRIMERA CONDENA: el Tribunal Supremo lo condena a 6 años de inhabilitación por prevaricación continuada y dos delitos de detención ilegal. CGPJ lo cesa como vocal",
+          "fuente": "https://www.elplural.com/sociedad/tribunales/jueces-sancionados-expulsados-condenados-prision_343526102"
+        },
+        {
+          "fecha": "1997-02-13",
+          "evento": "El TSJ de Cataluña lo envía a prisión preventiva en un nuevo proceso por extorsión, cohecho, detención ilegal y prevaricación"
+        },
+        {
+          "fecha": "1999-01",
+          "evento": "SEGUNDA CONDENA: 7 años de prisión por delitos fiscales. Ingresa en prisión el 11 de noviembre"
+        },
+        {
+          "fecha": "2005-01",
+          "evento": "TERCERA CONDENA por el TSJ de Cataluña: 9 años 4 meses de prisión + 15 años 4 meses de inhabilitación + multa de 1,8M€ por extorsión a empresarios entre 1990-1994",
+          "fuente": "https://confilegal.com/20170712-el-exjuez-pascual-estevill-ya-ha-cumplido-su-condena-segun-el-tsjc/"
+        },
+        {
+          "fecha": "2006-09",
+          "evento": "El Tribunal Supremo confirma la sentencia. Ingresa nuevamente en prisión el 20 de octubre"
+        },
+        {
+          "fecha": "2011-11-20",
+          "evento": "Cumple condena. Licenciamiento definitivo"
+        },
+        {
+          "fecha": "2017-07",
+          "evento": "El TSJ de Cataluña declara la extinción de su responsabilidad criminal tras pagar la multa de casi 2M€"
+        },
+        {
+          "fecha": "2022-09-01",
+          "evento": "Fallece a los 89 años en un hospital de Barcelona"
+        }
+      ]
+    },
+    {
+      "id": "naseiro",
+      "nombre": "Caso Naseiro",
+      "partido": "PP",
+      "emoji": "📞",
+      "protagonistas": [
+        "Rosendo Naseiro (extesorero del PP)",
+        "Salvador Palop (concejal del PP en Valencia)",
+        "Ángel Sanchis (extesorero del PP, diputado nacional)",
+        "Pedro Agramunt (presidente del PPCV)"
+      ],
+      "descripcion": "El caso que pudo derribar al PP a las puertas del aznarismo. Unas escuchas que se habían ordenado por narcotráfico destaparon conversaciones entre el concejal valenciano Salvador Palop y el extesorero Ángel Sanchis sobre una trama de licencias urbanísticas a cambio de comisiones para financiar al partido. Imputados el tesorero Naseiro, Sanchis, Palop, tres empresarios y un arquitecto. ARCHIVADO en 1992 por el Supremo tras anular las escuchas por defecto procesal (se habían pedido para investigar narcotráfico, no corrupción) — no por inocencia. Hechos no juzgados. Sanchís reaparecería años después en el caso Gürtel.",
+      "juzgado": "Tribunal Supremo (causa archivada)",
+      "juez": "Luis Manglano (instrucción)",
+      "estado": "archivado",
+      "motivo_archivo": "defecto_procesal",
+      "importe_estimado": null,
+      "fecha_inicio": "1989-12",
+      "timeline": [
+        {
+          "fecha": "1989-12-12",
+          "evento": "Escuchas telefónicas autorizadas por narcotráfico captan conversaciones entre Palop (concejal PP Valencia) y Sanchis (extesorero PP, diputado) sobre comisiones por licencias urbanísticas"
+        },
+        {
+          "fecha": "1990-04-01",
+          "evento": "José María Aznar es nombrado presidente del PP. Manuel Fraga se concentra en Galicia"
+        },
+        {
+          "fecha": "1990-04-09",
+          "evento": "DETENCIÓN: el juez Luis Manglano ordena el arresto de Rosendo Naseiro, Salvador Palop, tres empresarios y un arquitecto municipal. Les imputa organizar una trama de comisiones para financiar al PP",
+          "fuente": "https://www.eldiario.es/politica/tesorero-gano-pulso-politico-duro_1_2689064.html"
+        },
+        {
+          "fecha": "1990-04-13",
+          "evento": "Naseiro puesto en libertad con cargos tras cuatro días incomunicado"
+        },
+        {
+          "fecha": "1990-04-16",
+          "evento": "El juez Manglano remite el sumario al Tribunal Supremo al implicar al diputado aforado Ángel Sanchis"
+        },
+        {
+          "fecha": "1990-04-17",
+          "evento": "Naseiro DIMITE como tesorero del PP. Envía carta a Aznar 'poniendo a su disposición el cargo'"
+        },
+        {
+          "fecha": "1992",
+          "evento": "ARCHIVO por el Tribunal Supremo: las escuchas son anuladas porque se habían ordenado para investigar narcotráfico, no corrupción. Los hechos no se juzgan por defecto procesal, NO por inocencia probada",
+          "fuente": "https://es.wikipedia.org/wiki/Caso_Naseiro"
+        },
+        {
+          "fecha": "2009",
+          "evento": "Ángel Sanchís Perales reaparece como imputado en el caso Gürtel, dando pie a numerosos indicios de vinculación con la trama Naseiro"
+        }
+      ]
+    },
+    {
+      "id": "casinos-ciu",
+      "nombre": "Caso Casinos / CiU",
+      "partido": "CDC/CiU",
+      "emoji": "🎰",
+      "protagonistas": [
+        "Artur Suqué (presidente de Casinos-Inverama, amigo de infancia de Pujol)",
+        "Jaume Sentís (ex director financiero, denunciante)"
+      ],
+      "descripcion": "El primer caso conocido de financiación ilegal de Convergència. En 1989 el ex director financiero de Casinos de Cataluña denunció que la empresa había pagado 3.000 millones de pesetas (~18M€) en sobornos a CDC y medios afines, a cambio de mantener las únicas tres licencias de casinos en Cataluña (Peralada, Barcelona, Lloret) y la adjudicación de la lotería de la Generalitat en 1986. Tras Artur Suqué, compañero de clase de Pujol. ARCHIVADO en 1998: el Supremo se apoyó en que 'en el derecho penal vigente no existe el delito de financiación ilegal o encubierta de partidos políticos'. No fue una absolución por inocencia.",
+      "juzgado": "Tribunal Supremo (causa archivada)",
+      "juez": "Varios",
+      "estado": "archivado",
+      "motivo_archivo": "defecto_procesal",
+      "importe_estimado": 18000000,
+      "fecha_inicio": "1989",
+      "timeline": [
+        {
+          "fecha": "1989",
+          "evento": "Jaume Sentís, ex director financiero de Casinos de Cataluña (Casinos-Inverama), denuncia que la empresa pagó 3.000 millones de pesetas a CDC y medios afines"
+        },
+        {
+          "fecha": "1990-1997",
+          "evento": "Investigación judicial. Se documenta el desvío de fondos de Casinos-Inverama por su presidente Artur Suqué, presuntamente con destino a CDC"
+        },
+        {
+          "fecha": "1998",
+          "evento": "ARCHIVO del caso por el Tribunal Supremo. La Sala se apoya en una sentencia que declaraba que 'en el derecho penal vigente no existe el delito de financiación ilegal o encubierta de partidos políticos'. No es absolución por hechos, es defecto del código penal de la época",
+          "fuente": "https://www.elnacional.cat/es/politica/fiscal-caso-pujol-desesperado-implica-sin-pruebas-suque-financiacion-ilegal-cdc_1543993_102.html"
+        },
+        {
+          "fecha": "2021",
+          "evento": "Muere Artur Suqué a los 91 años sin haber sido condenado"
+        },
+        {
+          "fecha": "2026-01",
+          "evento": "En el juicio a los Pujol, el fiscal Anticorrupción intenta vincular sin pruebas a los Suqué con la financiación de CDC. Su hijo Javier Suqué aclara: 'No fue condenado'"
         }
       ]
     }
