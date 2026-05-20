@@ -1,0 +1,171 @@
+{
+  "_meta": {
+    "descripcion": "Glosario de términos políticos, fiscales y económicos en lenguaje plano.",
+    "tono": "Ácido sobre el sistema legal, neutral sobre las personas. Ninguna entrada acusa de ilegalidad a político alguno.",
+    "version": "1.0"
+  },
+  "terminos": [
+    {
+      "id": "patrimonio_neto",
+      "termino": "Patrimonio neto",
+      "categoria": "Economía básica",
+      "definicion": "Lo que tienes menos lo que debes. Si la cifra empieza por dígito de millón y nunca firmaste un contrato fuera de la política, formas parte de una élite muy selecta. Que también es legal."
+    },
+    {
+      "id": "patrimonio_neto_negativo",
+      "termino": "Patrimonio neto negativo",
+      "categoria": "Economía básica",
+      "definicion": "Tener más deudas que activos. Para el común de los mortales con hipoteca pendiente es lo normal durante 25 años. Para un político con sueldo del Estado durante dos décadas resulta llamativo. Llamativo no es ilegal."
+    },
+    {
+      "id": "declaracion_bienes_congreso",
+      "termino": "Declaración de bienes del Congreso",
+      "categoria": "Régimen del cargo público",
+      "definicion": "Documento que cada diputado autocumplimenta sin que nadie audite las cifras. Es como ponerte la nota tú mismo en un examen: el sistema confía en tu honradez. Y debemos confiar también nosotros, porque otra opción no hay."
+    },
+    {
+      "id": "declaracion_alto_cargo_boe",
+      "termino": "Declaración de altos cargos (BOE)",
+      "categoria": "Régimen del cargo público",
+      "definicion": "Declaración patrimonial que ministros y secretarios de Estado publican al entrar y salir del cargo. Más detallada que la del Congreso. Tampoco la audita nadie."
+    },
+    {
+      "id": "valor_catastral",
+      "termino": "Valor catastral",
+      "categoria": "Inmuebles y vivienda",
+      "definicion": "Lo que Hacienda dice que vale tu casa. Suele estar entre el 40% y el 60% del precio real de mercado. Útil para el político: pagas menos IBI **y** declaras menos patrimonio en el Congreso. Un dos por uno permitido por el sistema fiscal español."
+    },
+    {
+      "id": "valor_mercado",
+      "termino": "Valor de mercado",
+      "categoria": "Inmuebles y vivienda",
+      "definicion": "Lo que de verdad cuesta tu casa si la vendes hoy. Casi nadie declara por este valor porque la ley no lo exige. Por eso el patrimonio inmobiliario declarado suele ser entre 1,5 y 2,5 veces inferior al patrimonio inmobiliario real."
+    },
+    {
+      "id": "gananciales",
+      "termino": "Régimen de gananciales",
+      "categoria": "Estructuras patrimoniales",
+      "definicion": "Sistema matrimonial donde los bienes adquiridos durante el matrimonio son de los dos a partes iguales. Declarar en gananciales reduce a la mitad lo que figura como patrimonio individual del político en el Congreso. El otro 50% sigue existiendo dentro del matrimonio. La ley lo permite y la mitad de las parejas españolas lo usa."
+    },
+    {
+      "id": "separacion_bienes",
+      "termino": "Separación de bienes",
+      "categoria": "Estructuras patrimoniales",
+      "definicion": "Sistema matrimonial donde cada cónyuge mantiene su patrimonio separado. Si el cónyuge no es político, su patrimonio no aparece en ninguna declaración pública. Esto es legítimo y privado, no ocultación: el cónyuge no firma un cargo, no debe transparencia."
+    },
+    {
+      "id": "sociedad_patrimonial",
+      "termino": "Sociedad patrimonial",
+      "categoria": "Estructuras patrimoniales",
+      "definicion": "Empresa cuyo único objeto es gestionar el patrimonio de una persona. Tributa entre el 23% y el 25% en Sociedades en vez de hasta el 47% del IRPF personal. La diferencia es sustancial. El Estado diseñó esta figura, la mantiene vigente, y muchos políticos y empresarios la utilizan. Toda la operación es legal."
+    },
+    {
+      "id": "sicav",
+      "termino": "SICAV",
+      "categoria": "Estructuras patrimoniales",
+      "definicion": "Sociedad de inversión que tributa al 1% en lugar del 19-28% que pagaría una persona física por las mismas ganancias. Requiere mínimo 2,4 millones de euros y 100 socios. Los 99 socios adicionales pueden ser amigos con una participación testimonial. Legal, transparente para Hacienda, opaco para la opinión pública."
+    },
+    {
+      "id": "ipc_inflacion",
+      "termino": "IPC e inflación",
+      "categoria": "Economía básica",
+      "definicion": "El IPC mide cuánto suben los precios cada año. 100€ de 1996 valen lo mismo que 182€ en 2024 porque las cosas son ahora un 82% más caras. Comparar cifras de hace 20 años sin ajustar IPC es comparar peras con manzanas. Aquí ajustamos todo a euros de 2024 para que la comparación tenga sentido."
+    },
+    {
+      "id": "sueldo_publico",
+      "termino": "Sueldo público",
+      "categoria": "Régimen del cargo público",
+      "definicion": "Lo que el Estado paga a un cargo. Presidente del Gobierno cobra unos 88.000€ brutos al año. Diputado unos 39.000€ más dietas (unos 1.800€ mensuales exentos de IRPF, oficialmente para 'manutención'). Ministro unos 80.000€. Eurodiputado unos 105.000€ más dietas más coche más asistente más despacho. Todo público, todo verificable."
+    },
+    {
+      "id": "irpf_efectivo",
+      "termino": "IRPF efectivo",
+      "categoria": "Economía básica",
+      "definicion": "Lo que de verdad pagas por IRPF después de deducciones, retenciones y mínimos personales. Para un sueldo público alto suele estar entre el 30% y el 40%. Aquí descontamos un 35% para calcular el sueldo público neto acumulado, que es lo que un político ha cobrado realmente del Estado a lo largo de su carrera."
+    },
+    {
+      "id": "ingresos_privados",
+      "termino": "Ingresos privados",
+      "categoria": "Carrera profesional",
+      "definicion": "Lo que cobra un político por trabajo fuera del cargo: conferencias, consejos de administración, libros, asesorías, profesión previa o posterior. Son ingresos legítimos siempre que se compatibilicen con la legislación de incompatibilidades. Comparar el patrimonio de quien ha tenido carrera privada contra solo el sueldo público da resultados confusos. Por eso los marcamos."
+    },
+    {
+      "id": "consejero_empresa",
+      "termino": "Consejero de empresa (puerta giratoria)",
+      "categoria": "Carrera profesional",
+      "definicion": "Posición remunerada en el consejo de administración de una gran empresa. Tras dejar el cargo público, varios ex altos cargos españoles han pasado a consejos de Endesa, Iberdrola, Telefónica, Repsol y bancos. La ley impone dos años de cuarentena (incompatibilidad). Pasados los dos años, todo legal. La duda razonable sobre el porqué del fichaje queda en el aire."
+    },
+    {
+      "id": "conferencias",
+      "termino": "Conferencias remuneradas",
+      "categoria": "Carrera profesional",
+      "definicion": "Charlas pagadas que ofrecen ex jefes de Estado y de Gobierno. Tarifa habitual en España: entre 30.000€ y 100.000€ por sesión. El ex presidente recibe el cobro a través de su sociedad patrimonial (ver entrada) y tributa por sociedades. Negocio legal y muy rentable."
+    },
+    {
+      "id": "renta_vitalicia_expresidentes",
+      "termino": "Renta vitalicia de expresidentes",
+      "categoria": "Régimen del cargo público",
+      "definicion": "Asignación que reciben de por vida los expresidentes del Gobierno: pensión, despacho, secretaría, seguridad, y dotación para el Consejo de Estado al que pasan a pertenecer. El coste total para el contribuyente ronda los 400.000-600.000€ anuales por cada expresidente vivo. Aprobado por todos los gobiernos sucesivos sin excepción."
+    },
+    {
+      "id": "asignacion_partido",
+      "termino": "Asignación del partido",
+      "categoria": "Régimen del cargo público",
+      "definicion": "Parte del sueldo de un cargo público que el partido le 'pide' devolver a las arcas del partido. La cuota varía entre el 10% y el 30%. Algunos políticos declaran como ingreso el sueldo público bruto, otros solo el neto tras la cesión al partido. Ningún tribunal ha establecido criterio único: cada partido se rige por sus normas internas."
+    },
+    {
+      "id": "incremento_no_justificado",
+      "termino": "Incremento patrimonial no justificado",
+      "categoria": "Derecho",
+      "definicion": "Figura jurídica que se aplica cuando el patrimonio de una persona crece más de lo que justifican sus ingresos declarados. Para Hacienda es una infracción tributaria. En el caso de cargos públicos puede llegar a ser delito si se demuestra origen ilícito (cohecho, prevaricación, tráfico de influencias). El término técnico no implica delito por sí solo: implica una explicación pendiente."
+    },
+    {
+      "id": "bandera_roja",
+      "termino": "Bandera roja",
+      "categoria": "Metodología FiscalizApp",
+      "definicion": "Indicador descriptivo que esta web utiliza cuando un patrón patrimonial merece explicación pública. No es una acusación: es una pregunta. La respuesta corresponde al político, no a esta web."
+    },
+    {
+      "id": "calidad_triple_cruce",
+      "termino": "Triple cruce (verificación de fuentes)",
+      "categoria": "Metodología FiscalizApp",
+      "definicion": "Nuestra cifra de control de calidad. Un dato se marca con triple cruce 🟢 cuando aparece <strong>idéntico</strong> en al menos tres medios independientes que citan la misma fuente primaria (Congreso, BOE, Registro Mercantil). Es nuestro estándar habitual. Aspiramos a la verificación directa del documento original, pero los PDFs del Congreso no son accesibles de forma automatizada; el triple cruce es lo más cerca que llegamos sin tener el papel delante."
+    },
+    {
+      "id": "calidad_doble_cruce",
+      "termino": "Doble cruce 🟡",
+      "categoria": "Metodología FiscalizApp",
+      "definicion": "Cifra confirmada en dos medios independientes que citan la misma fuente primaria. Suficiente para considerarla razonablemente sólida, pero un nivel por debajo del triple cruce. Pendiente de localizar una tercera fuente."
+    },
+    {
+      "id": "calidad_cita_unica",
+      "termino": "Cita única 🟠",
+      "categoria": "Metodología FiscalizApp",
+      "definicion": "Cifra aparece en un solo medio que cita la fuente primaria oficial. Útil pero no robusta. La tratamos con precaución y la mantenemos hasta encontrar segundo cruce o documento original."
+    },
+    {
+      "id": "calidad_estimacion",
+      "termino": "Estimación periodística 🔴",
+      "categoria": "Metodología FiscalizApp",
+      "definicion": "No es una cifra de declaración oficial. Es un análisis, recálculo o estimación que un medio ha hecho a partir de datos parciales. Por ejemplo: el patrimonio inmobiliario familiar estimado de algún expresidente, o la suma de valoración de bienes en sociedades patrimoniales. Información valiosa pero no equiparable a una declaración firmada."
+    },
+    {
+      "id": "calidad_no_consolidado",
+      "termino": "Sin consolidación oficial 🟡",
+      "categoria": "Metodología FiscalizApp",
+      "definicion": "Las declaraciones del Congreso de los Diputados se entregan por bloques (cuentas, fondos, inmuebles, pasivos) sin una cifra final de patrimonio neto consolidado. Solo las declaraciones BOE de altos cargos ofrecen ese total. Cuando solo tenemos declaración del Congreso calculamos el patrimonio líquido neto (activos financieros menos pasivos), que es necesariamente inferior al patrimonio total real porque no incluye los inmuebles."
+    },
+    {
+      "id": "bocg",
+      "termino": "BOCG (Boletín Oficial de las Cortes Generales)",
+      "categoria": "Régimen del cargo público",
+      "definicion": "Publicación oficial del Congreso y del Senado donde se hacen públicas, entre otras cosas, las declaraciones de bienes y rentas de los parlamentarios. Cada diputado debe presentar una declaración al inicio y al final de cada legislatura. El BOCG las publica íntegras y sin corrección alguna. Buena teoría, ejecución mejorable: nadie audita el contenido."
+    },
+    {
+      "id": "boe_altos_cargos",
+      "termino": "Declaración BOE de altos cargos",
+      "categoria": "Régimen del cargo público",
+      "definicion": "Documento que ministros, secretarios de Estado, subsecretarios y otros altos cargos del Ejecutivo deben presentar al tomar posesión y al cesar. Se publica masivamente en el BOE cada cierto tiempo (la última gran publicación cubrió 1.062 cargos de 2014-2018). Más detallada que la del Congreso: sí incluye una cifra consolidada de patrimonio neto."
+    }
+  ]
+}

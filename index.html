@@ -287,12 +287,156 @@ h1 {
 .search-box:focus { border-color: var(--accent-green); }
 .search-box::placeholder { color: var(--text-muted); }
 
+/* ============================================================ */
+/* PATRIMONIOS v2.2 - DARK MODE + CALIDAD FUENTES */
+/* ============================================================ */
+.cal-icon { display: inline-block; font-size: 11px; margin: 0 .15rem; cursor: help; vertical-align: middle; }
+.cal-icon.cal-verde { filter: hue-rotate(0deg); }
+.cal-icon.cal-amarillo { }
+.cal-icon.cal-naranja { }
+.cal-icon.cal-rojo { }
+.cal-icon.cal-gris { opacity: .7; }
+.badge-calidad { margin-left: .35rem; }
+.badge-no-rem { display: inline-block; background: rgba(255,255,255,.06); color: var(--text-muted); font-size: 10px; padding: .1rem .35rem; border-radius: 2px; text-transform: uppercase; letter-spacing: .5px; margin-left: .3rem; font-family: var(--font-mono); }
+.sueldo-no-rem { color: var(--text-muted); font-style: italic; }
+.decl-doc-oficial { background: rgba(123,94,167,0.08); padding: .5rem .65rem; border-radius: 4px; font-size: 12px; margin: .35rem 0; color: var(--text-secondary); border-left: 2px solid var(--accent-purple); }
+.decl-doc-oficial a { color: var(--accent-purple); text-decoration: none; font-weight: 600; }
+.decl-doc-oficial a:hover { text-decoration: underline; }
+.decl-subbloque { background: rgba(255,255,255,.02); padding: .5rem .75rem; border-radius: 3px; margin: .5rem 0; font-size: 12px; }
+.decl-subbloque strong { color: var(--text-primary); display: block; margin-bottom: .3rem; font-size: 11px; text-transform: uppercase; letter-spacing: .5px; }
+.decl-cifra { font-size: 12px; line-height: 1.6; color: var(--text-secondary); margin: .15rem 0; }
+.decl-fecha { color: var(--text-muted); font-size: 11px; }
+.decl-verif { font-size: 10px; color: var(--text-muted); margin-top: .4rem; text-transform: uppercase; letter-spacing: .5px; font-family: var(--font-mono); }
+.declaracion-nueva { border-left-color: var(--accent-purple); }
+
+.patrimonio-header { margin-bottom: 1.5rem; padding: 1.25rem; background: var(--bg-card); border-radius: 4px; border-left: 4px solid var(--accent-purple); }
+.patrimonio-header h2 { margin: 0 0 .5rem 0; color: var(--text-primary); font-family: var(--font-display); }
+.pat-intro { font-size: 14px; line-height: 1.55; color: var(--text-secondary); margin: .25rem 0 .75rem 0; }
+.pat-aviso { font-size: 13px; line-height: 1.6; color: var(--text-secondary); background: var(--bg-surface); padding: .85rem 1rem; border-radius: 4px; border: 1px solid var(--border-subtle); }
+.pat-aviso strong { color: var(--text-primary); font-weight: 600; }
+
+.vistas-toggle { display: flex; gap: .5rem; margin: 1rem 0 1.5rem 0; flex-wrap: wrap; }
+.vista-btn { padding: .5rem 1rem; border: 1px solid var(--border-subtle); background: rgba(255,255,255,0.04); color: var(--text-secondary); border-radius: 2px; cursor: pointer; font-size: 13px; font-family: var(--font-mono); transition: all .15s; }
+.vista-btn:hover { background: rgba(255,255,255,0.08); color: var(--text-primary); border-color: rgba(255,255,255,0.15); }
+.vista-btn.activa { background: var(--accent-purple); color: #fff; border-color: var(--accent-purple); }
+
+.categoria-bloque { margin-bottom: 2rem; }
+.categoria-header { padding: .85rem 1.1rem; background: var(--bg-card); border-left: 5px solid #888; border-radius: 4px; margin-bottom: 1rem; }
+.categoria-header h3 { margin: 0 0 .35rem 0; font-size: 1.05rem; color: var(--text-primary); font-family: var(--font-display); }
+.categoria-header p { margin: 0; font-size: 13px; line-height: 1.55; color: var(--text-secondary); }
+.categoria-rojo .categoria-header { border-left-color: var(--accent-red); }
+.categoria-amarillo .categoria-header { border-left-color: var(--accent-amber); }
+.categoria-verde .categoria-header { border-left-color: var(--accent-green); }
+.categoria-negro .categoria-header { border-left-color: var(--text-muted); }
+.categoria-sin_datos .categoria-header { border-left-color: var(--border-subtle); }
+
+.politicos-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(440px, 1fr)); gap: .75rem; }
+
+.politico-card { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 4px; transition: background .15s, border-color .15s; overflow: hidden; }
+.politico-card:hover { background: var(--bg-surface); border-color: rgba(255,255,255,0.1); }
+.politico-card header { display: grid; grid-template-columns: auto 1fr auto auto; gap: .75rem; align-items: center; padding: .85rem 1rem; cursor: pointer; }
+.politico-card .posicion { background: rgba(255,255,255,0.05); color: var(--text-muted); padding: .25rem .55rem; border-radius: 2px; font-weight: 700; font-size: 12px; font-family: var(--font-mono); }
+.card-titulo h4 { margin: 0; font-size: 1rem; line-height: 1.3; color: var(--text-primary); font-weight: 600; }
+.card-titulo .partido { color: var(--text-muted); font-size: 11px; font-weight: 400; margin-left: .5rem; text-transform: uppercase; letter-spacing: .5px; }
+.card-iconos { display: flex; gap: .35rem; margin-top: .35rem; font-size: 15px; opacity: .85; }
+.icono-info { cursor: help; }
+.card-cifra { text-align: right; }
+.cifra-multiplo { font-size: 1.6rem; font-weight: 700; color: var(--text-primary); font-family: var(--font-display); display: block; line-height: 1.1; }
+.cifra-aclaracion { font-size: 10.5px; color: var(--text-muted); display: block; text-transform: uppercase; letter-spacing: .3px; margin-top: .15rem; }
+.cifra-sin-datos { font-size: 13px; color: var(--text-muted); font-style: italic; }
+.btn-toggle { background: none; border: none; cursor: pointer; font-size: 12px; color: var(--text-muted); padding: .25rem; }
+
+.ficha-completa { padding: 1rem 1.25rem 1.25rem 1.25rem; border-top: 1px solid var(--border-subtle); background: rgba(0,0,0,0.2); }
+.ficha-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .85rem; }
+.ficha-bloque { background: var(--bg-surface); padding: .85rem 1.1rem; border-radius: 4px; border: 1px solid var(--border-subtle); }
+.ficha-bloque-ancho { grid-column: 1 / -1; }
+.ficha-bloque h5 { margin: 0 0 .65rem 0; font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: .8px; font-family: var(--font-mono); }
+.ficha-bloque p { margin: .35rem 0; font-size: 13px; line-height: 1.55; color: var(--text-secondary); }
+.ficha-bloque strong { color: var(--text-primary); font-weight: 600; }
+.emoji-grande { font-size: 17px; }
+.nota-icon { font-size: 12px; color: var(--text-muted); font-style: italic; margin-top: .5rem; padding-top: .5rem; border-top: 1px solid var(--border-subtle); }
+
+.declaracion-item { padding: .65rem .85rem; margin-bottom: .5rem; background: rgba(255,255,255,0.02); border-left: 3px solid var(--border-subtle); border-radius: 2px; }
+.decl-header { font-size: 13px; margin-bottom: .25rem; color: var(--text-primary); }
+.decl-detalle { font-size: 12px; color: var(--text-secondary); margin: .2rem 0; }
+.decl-asterisco { font-style: italic; color: var(--text-muted); font-size: 11px; }
+.decl-fuente { font-size: 11px; color: var(--text-muted); margin-top: .35rem; }
+.decl-fuente a { color: var(--accent-purple); text-decoration: none; }
+.decl-fuente a:hover { text-decoration: underline; }
+.total { font-size: 13px; padding-top: .5rem; margin-top: .5rem; border-top: 1px solid var(--border-subtle); }
+
+.ranking-simple { display: flex; flex-direction: column; gap: .5rem; }
+.ranking-intro { font-size: 13px; color: var(--text-secondary); padding: .65rem .85rem; background: var(--bg-card); border-radius: 4px; border-left: 3px solid var(--accent-purple); margin-bottom: .5rem; }
+
+.pat-footer { margin-top: 2rem; padding: 1rem; background: var(--bg-card); border-radius: 4px; text-align: center; font-size: 13px; color: var(--text-secondary); border: 1px solid var(--border-subtle); }
+.pat-footer a { color: var(--accent-purple); text-decoration: none; }
+.pat-footer a:hover { text-decoration: underline; }
+.pat-footer .sep { color: var(--text-muted); margin: 0 .6rem; }
+
+/* Modal metodología */
+.modal-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,.75); display: flex; align-items: center; justify-content: center; z-index: 1000; padding: 1rem; backdrop-filter: blur(2px); }
+.modal-content { background: var(--bg-card); color: var(--text-secondary); border: 1px solid var(--border-subtle); border-radius: 6px; max-width: 720px; width: 100%; max-height: 85vh; overflow-y: auto; padding: 2rem 2.5rem; position: relative; }
+.modal-content h2 { margin-top: 0; color: var(--text-primary); font-family: var(--font-display); }
+.modal-content h3 { margin-top: 1.5rem; font-size: 1rem; color: var(--text-primary); }
+.modal-content ul { padding-left: 1.25rem; }
+.modal-content li { margin: .4rem 0; font-size: 14px; line-height: 1.55; }
+.modal-content p { font-size: 14px; line-height: 1.65; }
+.modal-content strong { color: var(--text-primary); }
+.modal-close { position: absolute; top: .85rem; right: 1.1rem; background: none; border: none; font-size: 1.75rem; cursor: pointer; color: var(--text-muted); line-height: 1; padding: 0; }
+.modal-close:hover { color: var(--text-primary); }
+
+/* Glosario */
+.glosario-header { margin-bottom: 1.5rem; padding: 1.25rem; background: var(--bg-card); border-radius: 4px; border-left: 4px solid var(--accent-purple); }
+.glosario-header h2 { margin: 0 0 .5rem 0; color: var(--text-primary); font-family: var(--font-display); }
+.glosario-header p { margin: 0; font-size: 14px; line-height: 1.6; color: var(--text-secondary); }
+.glosario-categoria { margin-bottom: 2rem; }
+.glosario-categoria h3 { font-size: 1rem; color: var(--accent-purple); border-bottom: 1px solid var(--border-subtle); padding-bottom: .4rem; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 1px; font-family: var(--font-mono); }
+.glosario-termino { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 4px; padding: 1rem 1.25rem; margin-bottom: .65rem; transition: background .15s; }
+.glosario-termino:hover { background: var(--bg-surface); }
+.glosario-termino h4 { margin: 0 0 .5rem 0; font-size: 1.05rem; color: var(--text-primary); font-family: var(--font-display); }
+.glosario-termino p { margin: 0; font-size: 14px; line-height: 1.7; color: var(--text-secondary); }
+.glosario-termino strong { color: var(--text-primary); }
+
+.cargando { text-align: center; padding: 2rem; color: var(--text-muted); font-size: 14px; }
+.error { padding: 1rem; background: rgba(230,57,70,0.1); border: 1px solid rgba(230,57,70,0.3); border-radius: 4px; color: var(--accent-red); font-size: 14px; }
+
+/* Responsive patrimonios */
+@media (max-width: 600px) {
+  .politicos-grid { grid-template-columns: 1fr; }
+  .ficha-grid { grid-template-columns: 1fr; }
+  .politico-card header { grid-template-columns: 1fr auto; }
+  .card-cifra { grid-column: 1 / -1; text-align: left; padding-top: .25rem; border-top: 1px solid var(--border-subtle); }
+  .posicion { display: none; }
+  .vistas-toggle { flex-direction: column; }
+  .modal-content { padding: 1.25rem; }
+}
+
 /* RESPONSIVE */
 @media (max-width: 600px) {
   .detail-grid { grid-template-columns: 1fr; }
   .case-header { flex-direction: column; }
   .badge { align-self: flex-start; }
   .stats { grid-template-columns: repeat(2, 1fr); }
+  .ficha-grid { grid-template-columns: 1fr 1fr; }
+  .politico-header-row {
+    grid-template-columns: 36px 1fr;
+    gap: 10px;
+  }
+  .politico-valor {
+    grid-column: 1 / -1;
+    text-align: left;
+    padding-top: 8px;
+    border-top: 1px solid var(--border-subtle);
+  }
+  .expand-arrow {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+  }
+  .politico-card { position: relative; }
+  .traj-item { grid-template-columns: 1fr; gap: 2px; }
+  .vistas-toggle { flex-direction: column; align-items: stretch; }
+  .vista-btn { text-align: left; }
 }
 </style>
 </head>
@@ -318,7 +462,10 @@ h1 {
   <nav class="nav-tabs">
     <button class="nav-tab active" data-section="corrupcion">Casos de corrupción</button>
     <button class="nav-tab" data-section="contratos">Contratos públicos</button>
+    <button class="nav-tab" data-section="patrimonios">Patrimonios</button>
     <button class="nav-tab" data-section="subvenciones">Subvenciones</button>
+    <button class="nav-tab" data-section="indultos">Indultos</button>
+    <button class="nav-tab" data-section="glosario">📖 Glosario</button>
   </nav>
 
   <!-- SECCIÓN: CORRUPCIÓN -->
@@ -338,12 +485,39 @@ h1 {
     </div>
   </section>
 
+  <!-- SECCIÓN: PATRIMONIOS -->
+  <section id="sec-patrimonios" style="display:none">
+    <div id="patrimonios-container">
+      <div class="section-placeholder">
+        <h3>⏳ Cargando datos…</h3>
+      </div>
+    </div>
+  </section>
+
   <!-- SECCIÓN: SUBVENCIONES (placeholder) -->
   <section id="sec-subvenciones" style="display:none">
     <div class="section-placeholder">
       <h3>💰 Subvenciones</h3>
       <p>Próximamente: datos de la BDNS.<br>
       Quién recibe dinero público, cuánto y para qué.</p>
+    </div>
+  </section>
+
+  <!-- SECCIÓN: INDULTOS (placeholder) -->
+  <section id="sec-indultos" style="display:none">
+    <div class="section-placeholder">
+      <h3>⚖️ Indultos</h3>
+      <p>Próximamente: datos de BOE y Civio.<br>
+      Quién es indultado, por quién y por qué delitos.</p>
+    </div>
+  </section>
+
+  <!-- SECCIÓN: GLOSARIO -->
+  <section id="sec-glosario" style="display:none">
+    <div id="glosario-container">
+      <div class="section-placeholder">
+        <h3>⏳ Cargando glosario…</h3>
+      </div>
     </div>
   </section>
 </main>
@@ -388,12 +562,25 @@ function rotarChascarrillo() {
 setInterval(rotarChascarrillo, 10000);
 
 // Tabs
+let PATRIMONIOS_LOADED = false;
+let GLOSARIO_LOADED_TAB = false;
 document.querySelectorAll(".nav-tab").forEach(tab => {
   tab.addEventListener("click", () => {
     document.querySelectorAll(".nav-tab").forEach(t => t.classList.remove("active"));
     tab.classList.add("active");
     document.querySelectorAll("main > section").forEach(s => s.style.display = "none");
     document.getElementById("sec-" + tab.dataset.section).style.display = "block";
+    
+    // Carga perezosa de la pata de patrimonios
+    if (tab.dataset.section === "patrimonios" && !PATRIMONIOS_LOADED) {
+      cargarDatosPatrimonios();
+      PATRIMONIOS_LOADED = true;
+    }
+    // Carga perezosa del glosario
+    if (tab.dataset.section === "glosario" && !GLOSARIO_LOADED_TAB) {
+      cargarGlosario();
+      GLOSARIO_LOADED_TAB = true;
+    }
   });
 });
 
@@ -555,5 +742,6 @@ fetch("data/casos-corrupcion.json")
   });
 </script>
 <script src="js/contratos.js"></script>
+<script src="js/patrimonios.js"></script>
 </body>
 </html>

@@ -1,0 +1,1040 @@
+{
+  "_meta": {
+    "descripcion": "Datos de patrimonio de cargos políticos españoles, basados en declaraciones de bienes ante el Congreso, Senado y BOE de altos cargos. Tanda 1 - 12 nombres. Próximas tandas ampliarán a 50 con paridad estricta.",
+    "ultima_actualizacion": "2026-05-20",
+    "metodologia_url": "data/patrimonios/metodologia.md",
+    "advertencias_metodologicas": [
+      "Inmuebles declarados a valor catastral (típicamente 40-60% del valor de mercado).",
+      "Acciones declaradas a valor de adquisición, no actual.",
+      "Solo se contabiliza el sueldo público estricto del Estado o autonomía; no se estima ingreso privado pre-cargo.",
+      "Importes ajustados a euros constantes de 2024 (ver ipc.json).",
+      "Datos parciales se indican expresamente en cada ficha."
+    ]
+  },
+  "politicos": [
+    {
+      "id": "sanchez",
+      "nombre": "Pedro Sánchez Pérez-Castejón",
+      "partido": "PSOE",
+      "cargo_destacado": "Presidente del Gobierno (2018-presente)",
+      "version_ficha": "2.2",
+      "verificado_fecha": "2026-05-20",
+      "calidad_global": "TRIPLE_CRUCE",
+      "iconos": [],
+      "nota_iconos": "Carrera exclusivamente pública desde 2004. Sin ingresos privados conocidos durante el ejercicio del cargo. Derechos de autor del libro 'Manual de Resistencia' (16.666€ en 2019 + 42.000€ en 2023) donados íntegramente a Obra Social Nur.",
+      "trayectoria_publica": [
+        {
+          "cargo": "concejal_madrid",
+          "legislatura": null,
+          "desde": "2004-05",
+          "hasta": "2009-09",
+          "remunerado": true,
+          "nota": "Entró por sustitución de Elena Arnedo en mayo 2004. Revalidó acta en municipales 2007."
+        },
+        {
+          "cargo": "consejero_empresa_municipal_madrid",
+          "legislatura": null,
+          "desde": "2007-01",
+          "hasta": "2009-09",
+          "remunerado": false,
+          "nota": "Cargo adicional al de concejal (Empresa Municipal Promoción Madrid 2007-2008, Vivienda y Suelo Madrid 2008-2009). Sin datos de remuneración específica diferenciada. No se contabiliza en el sueldo acumulado para evitar duplicación con el sueldo de concejal."
+        },
+        {
+          "cargo": "diputado_congreso",
+          "legislatura": "IX",
+          "desde": "2009-09",
+          "hasta": "2011-11",
+          "remunerado": true,
+          "nota": "Sustituyó a Pedro Solbes tras su renuncia."
+        },
+        {
+          "cargo": null,
+          "legislatura": null,
+          "desde": "2011-12",
+          "hasta": "2012-12",
+          "remunerado": false,
+          "nota": "Sin escaño tras elecciones 2011 (puesto 11 en lista PSOE Madrid, no logró acta)."
+        },
+        {
+          "cargo": "diputado_congreso",
+          "legislatura": "X-XI",
+          "desde": "2013-01",
+          "hasta": "2016-10",
+          "remunerado": true,
+          "nota": "Volvió tras renuncia de Cristina Narbona."
+        },
+        {
+          "cargo": "secretario_general_psoe",
+          "legislatura": null,
+          "desde": "2014-07",
+          "hasta": "2016-10",
+          "remunerado": false,
+          "nota": "Cargo orgánico de partido, no remunerado por el Estado."
+        },
+        {
+          "cargo": null,
+          "legislatura": null,
+          "desde": "2016-11",
+          "hasta": "2018-05",
+          "remunerado": false,
+          "nota": "Sin cargo público remunerado. Dimite SG PSOE en oct 2016 y deja acta de diputado el 29-10-2016. SG PSOE de nuevo desde mayo 2017 pero sin remuneración del Estado. Ingresos del periodo no documentados públicamente."
+        },
+        {
+          "cargo": "presidente_gobierno",
+          "legislatura": null,
+          "desde": "2018-06",
+          "hasta": null,
+          "remunerado": true,
+          "nota": "Investido por moción de censura 02/06/2018. Reinvestido enero 2020 y noviembre 2023."
+        }
+      ],
+      "declaraciones": [
+        {
+          "anio": 2018,
+          "fecha_declaracion": "2018-06-26",
+          "tipo_documento": "boe_alto_cargo_entrada",
+          "documento_oficial": {
+            "nombre": "Declaración bienes altos cargos publicada BOE 29/09/2018",
+            "url_referencia": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/territorial/Paginas/2018/290918boe.aspx",
+            "nota": "Publicación masiva en BOE de declaraciones de 1.062 altos cargos cesados o nombrados entre 01/07/2014 y 26/06/2018, incluyendo la toma de posesión de Sánchez."
+          },
+          "calidad_declaracion": "TRIPLE_CRUCE",
+          "fuentes_secundarias": [
+            {
+              "medio": "Telemadrid (Europa Press)",
+              "url": "https://www.telemadrid.es/programas/telenoticias-fin-de-semana/Sanchez-declara-patrimonio-euros-deuda-2-2053614640--20180929035120.html",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "Alicante Plaza",
+              "url": "https://alicanteplaza.es/alicanteplaza/PedroSnchezdeclarabienesde342990eurosyunadeudade192026euros",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "La Moncloa (nota oficial)",
+              "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/territorial/Paginas/2018/290918boe.aspx",
+              "fecha_consulta": "2026-05-20"
+            }
+          ],
+          "bloques": {
+            "liquido": {
+              "cuentas_corrientes": {
+                "valor": 21434,
+                "calidad": "TRIPLE_CRUCE",
+                "detalle": "Depósitos en cuentas corrientes y de ahorro"
+              },
+              "acciones_cotizadas": {
+                "valor": 5667,
+                "calidad": "TRIPLE_CRUCE",
+                "detalle": "Acciones y participaciones en capital social"
+              },
+              "otros_bienes_derechos": {
+                "valor": 135093,
+                "calidad": "TRIPLE_CRUCE",
+                "detalle": "Otros bienes y derechos de contenido económico (no desglosado en BOE)"
+              }
+            },
+            "inmuebles": [
+              {
+                "tipo": "bienes inmuebles",
+                "ubicacion": "no detallado",
+                "regimen": "varios",
+                "valor_declarado": 180794,
+                "calidad": "TRIPLE_CRUCE",
+                "nota": "El BOE agrupa todos los inmuebles en un único valor de 180.794€"
+              }
+            ],
+            "pasivos": {
+              "creditos_prestamos_deudas": {
+                "valor": 192026,
+                "calidad": "TRIPLE_CRUCE",
+                "detalle": "Créditos, préstamos y deudas. Incluye hipoteca de 159.300€ firmada en 2008."
+              }
+            }
+          },
+          "totales_oficiales": {
+            "activos_total": 342990,
+            "pasivos_total": 192026,
+            "patrimonio_neto_consolidado": 150964,
+            "calidad": "TRIPLE_CRUCE",
+            "nota": "Patrimonio neto = activos - pasivos = 342.990 - 192.026 = 150.964€. Las declaraciones BOE de altos cargos sí ofrecen consolidación."
+          },
+          "ingresos_ejercicio_anterior": {
+            "ejercicio_fiscal": 2017,
+            "nota": "No localizado IRPF del ejercicio en BOE. La declaración BOE-altos cargos no detalla ingresos del año anterior, solo el patrimonio."
+          }
+        },
+        {
+          "anio": 2019,
+          "fecha_declaracion": "2019-12",
+          "tipo_documento": "congreso_diputado_xiv",
+          "documento_oficial": {
+            "nombre": "Declaración entrada XIV Legislatura, diciembre 2019",
+            "url_ficha_congreso": "https://www.congreso.es/es/busqueda-de-diputados",
+            "nota": "Sánchez encabeza lista PSOE Madrid en noviembre 2019. Reinvestido presidente en enero 2020 (gobierno de coalición con Unidas Podemos)."
+          },
+          "calidad_declaracion": "DOBLE_CRUCE",
+          "fuentes_secundarias": [
+            {
+              "medio": "ARA",
+              "url": "https://es.ara.cat/politica/cambiado-patrimonio-pedro-sanchez-presidente_1_4770546.html",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "Infobae",
+              "url": "https://www.infobae.com/espana/2023/08/02/la-declaracion-de-bienes-de-pedro-sanchez-menos-de-20000-euros-en-la-cuenta-y-un-fondo-de-inversion-de-mas-de-81000-euros/",
+              "fecha_consulta": "2026-05-20"
+            }
+          ],
+          "bloques": {
+            "liquido": {
+              "cuentas_corrientes": {
+                "valor": 43956.98,
+                "calidad": "DOBLE_CRUCE",
+                "detalle": "3 cuentas"
+              },
+              "acciones_cotizadas": {
+                "valor": 5792,
+                "calidad": "DOBLE_CRUCE"
+              }
+            },
+            "inmuebles": [
+              {
+                "tipo": "vivienda + plaza garaje",
+                "ubicacion": "Madrid",
+                "regimen": "privativo_100",
+                "valor_declarado": null,
+                "nota": "El Congreso no exige valoración"
+              },
+              {
+                "tipo": "vivienda + plaza garaje",
+                "ubicacion": "Madrid",
+                "regimen": "ganancial_50",
+                "valor_declarado": null
+              }
+            ],
+            "pasivos": {
+              "hipoteca": {
+                "valor": 86242,
+                "calidad": "DOBLE_CRUCE",
+                "detalle": "Pendiente de hipoteca original 159.300€ de 2008"
+              },
+              "microcredito_partido": {
+                "valor": 2000,
+                "calidad": "DOBLE_CRUCE",
+                "detalle": "Microcrédito al PSOE"
+              }
+            }
+          },
+          "totales_oficiales": {
+            "activos_total": null,
+            "pasivos_total": 88242,
+            "patrimonio_neto_consolidado": null,
+            "calidad": "NO_CONSOLIDADO",
+            "nota": "Declaración del Congreso por bloques; sin patrimonio neto consolidado oficial."
+          },
+          "totales_derivados": {
+            "patrimonio_liquido_neto": -38493,
+            "nota": "Patrimonio líquido (activos financieros declarados - pasivos): 49.748,98 - 88.242 = -38.493€. NO refleja patrimonio total porque no se valoran inmuebles."
+          },
+          "ingresos_ejercicio_anterior": {
+            "ejercicio_fiscal": 2018,
+            "derechos_autor": {
+              "valor": 16666,
+              "donado_totalmente": true,
+              "destinatario": "Obra Social Nur",
+              "calidad": "DOBLE_CRUCE",
+              "donacion_efectiva": 8990,
+              "nota": "Importe bruto 16.666€. Tras impuestos quedaron 8.990€, donados íntegramente."
+            },
+            "dividendos": {
+              "valor": 294.02,
+              "calidad": "DOBLE_CRUCE"
+            },
+            "irpf_pagado": {
+              "valor": 34709.77,
+              "calidad": "DOBLE_CRUCE"
+            }
+          }
+        },
+        {
+          "anio": 2021,
+          "fecha_declaracion": "2021-03",
+          "tipo_documento": "boe_alto_cargo_actualizacion",
+          "documento_oficial": {
+            "nombre": "Declaración actualizada altos cargos publicada marzo 2021",
+            "url_referencia": "https://www.vozpopuli.com/espana/patrimonio-iglesias-montero-sanchez.html",
+            "nota": "Actualización por cambios en el gobierno de coalición. Publicada por Portal de Transparencia."
+          },
+          "calidad_declaracion": "CITA_UNICA",
+          "fuentes_secundarias": [
+            {
+              "medio": "Vozpópuli",
+              "url": "https://www.vozpopuli.com/espana/patrimonio-iglesias-montero-sanchez.html",
+              "fecha_consulta": "2026-05-20"
+            }
+          ],
+          "bloques": {
+            "nota": "Bloques específicos no desglosados en la fuente. Solo cifra total disponible."
+          },
+          "totales_oficiales": {
+            "activos_total": null,
+            "pasivos_total": null,
+            "patrimonio_neto_consolidado": 372979.36,
+            "calidad": "CITA_UNICA",
+            "nota": "Cifra de patrimonio total. Mayoría en bienes inmuebles según fuente. Requiere segunda fuente para subir a DOBLE_CRUCE."
+          }
+        },
+        {
+          "anio": 2023,
+          "fecha_declaracion": "2023-08-09",
+          "tipo_documento": "congreso_diputado_xv",
+          "documento_oficial": {
+            "nombre": "BOCG Congreso XV Núm. D-10",
+            "fecha_publicacion": "2023-09-15",
+            "pagina": 1660,
+            "url_pdf_patron": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-10.PDF",
+            "url_ficha_congreso": "https://www.congreso.es/es/busqueda-de-diputados?p_p_id=diputadomodule&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_diputadomodule_mostrarFicha=true&codParlamentario=189&idLegislatura=XV",
+            "expediente": "005/000177",
+            "nota": "Declaración inicial XV Legislatura."
+          },
+          "calidad_declaracion": "TRIPLE_CRUCE",
+          "fuentes_secundarias": [
+            {
+              "medio": "ARA",
+              "url": "https://es.ara.cat/politica/cambiado-patrimonio-pedro-sanchez-presidente_1_4770546.html",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "El Economista",
+              "url": "https://www.eleconomista.es/actualidad/noticias/12433689/09/23/cuanto-dinero-tiene-pedro-sanchez-en-su-cuenta-corriente.html",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "Infobae",
+              "url": "https://www.infobae.com/espana/2023/08/02/la-declaracion-de-bienes-de-pedro-sanchez-menos-de-20000-euros-en-la-cuenta-y-un-fondo-de-inversion-de-mas-de-81000-euros/",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "Deia",
+              "url": "https://www.deia.eus/politica/2023/09/06/sueldo-pedro-sanchez-patrimonio-7224330.html",
+              "fecha_consulta": "2026-05-20"
+            },
+            {
+              "medio": "24h economía",
+              "url": "https://www.24heconomia.com/actualidad/politica/20230907/dinero-pedro-sanchez-banco-noticia-1221006538/",
+              "fecha_consulta": "2026-05-20"
+            }
+          ],
+          "bloques": {
+            "liquido": {
+              "cuentas_corrientes": {
+                "valor": 19208.79,
+                "calidad": "TRIPLE_CRUCE",
+                "detalle": "2 cuentas corrientes, saldo 22/06/2023"
+              },
+              "plan_pensiones": {
+                "valor": 105378.1,
+                "calidad": "TRIPLE_CRUCE"
+              },
+              "fondos_inversion": {
+                "valor": 81449.2,
+                "calidad": "TRIPLE_CRUCE"
+              },
+              "acciones_cotizadas": {
+                "valor": 5104,
+                "calidad": "TRIPLE_CRUCE",
+                "detalle": "Valoración 22/06/2023"
+              }
+            },
+            "inmuebles": [
+              {
+                "tipo": "vivienda + plaza garaje",
+                "ubicacion": "Madrid",
+                "regimen": "privativo_100",
+                "valor_declarado": null,
+                "nota": "Mismo inmueble desde 2019"
+              },
+              {
+                "tipo": "vivienda + plaza garaje",
+                "ubicacion": "Madrid",
+                "regimen": "ganancial_50",
+                "valor_declarado": null,
+                "nota": "Adquirido 2008. Hipoteca asociada."
+              }
+            ],
+            "pasivos": {
+              "hipoteca": {
+                "valor": 61786.31,
+                "calidad": "TRIPLE_CRUCE",
+                "detalle": "Pendiente de hipoteca original 159.300€ firmada en 2008. Reducción de 24.456€ vs 2019."
+              }
+            }
+          },
+          "totales_oficiales": {
+            "activos_total": null,
+            "pasivos_total": 61786.31,
+            "patrimonio_neto_consolidado": null,
+            "calidad": "NO_CONSOLIDADO",
+            "nota": "Declaración del Congreso por bloques. Sin patrimonio neto total oficial."
+          },
+          "totales_derivados": {
+            "patrimonio_liquido_bruto": 211140.09,
+            "patrimonio_liquido_neto": 149353.78,
+            "calidad": "TRIPLE_CRUCE",
+            "nota": "Patrimonio LÍQUIDO neto (activos financieros - hipoteca). NO incluye valoración de las dos viviendas en Madrid porque el Congreso no la exige. El patrimonio total real es necesariamente superior."
+          },
+          "ingresos_ejercicio_anterior": {
+            "ejercicio_fiscal": 2022,
+            "sueldo_publico": {
+              "valor": 87814.8,
+              "fuente": "Presidencia del Gobierno",
+              "calidad": "TRIPLE_CRUCE"
+            },
+            "arrendamientos": {
+              "valor": 12845,
+              "calidad": "DOBLE_CRUCE",
+              "nota": "Algunas fuentes citan 12.485€. Discrepancia menor de 360€ entre medios."
+            },
+            "dividendos": {
+              "valor": 360.75,
+              "calidad": "TRIPLE_CRUCE",
+              "nota": "Una fuente cita 360,57€"
+            },
+            "derechos_autor": {
+              "valor": 42000,
+              "donado_totalmente": true,
+              "destinatario": "Obra Social Nur",
+              "calidad": "TRIPLE_CRUCE",
+              "nota": "Importe bruto. Tras impuestos, cantidad restante donada íntegramente."
+            },
+            "cuota_partido": {
+              "valor": 4418.4,
+              "calidad": "TRIPLE_CRUCE",
+              "detalle": "Cuota afiliado PSOE + aportación como cargo público"
+            },
+            "irpf_pagado": {
+              "valor": 10508.62,
+              "calidad": "TRIPLE_CRUCE"
+            }
+          }
+        }
+      ],
+      "ingresos_privados_documentados": {
+        "total_estimado": 0,
+        "nota": "Sin ingresos privados documentados durante el ejercicio del cargo. Profesor universitario a tiempo parcial en Camilo José Cela previo a 2018. Derechos de autor del libro 'Manual de Resistencia' (~58.666€ totales 2019+2023) DONADOS íntegramente y por tanto no incrementan patrimonio personal."
+      },
+      "datos_pendientes": "Falta cifra de IRPF 2017. Falta segunda fuente para confirmar declaración 2021 (actualmente CITA_UNICA). El valor catastral o de mercado de los dos inmuebles en Madrid no se exige declarar al Congreso.",
+      "limitaciones_metodologicas": "El patrimonio inmobiliario no está valorado en ninguna declaración del Congreso. Las cifras de 'patrimonio líquido neto' que se muestran son una infraestimación del patrimonio total real."
+    },
+    {
+      "id": "feijoo",
+      "nombre": "Alberto Núñez Feijóo",
+      "partido": "PP",
+      "cargo_destacado": "Líder del PP (2022-)",
+      "trayectoria_publica": [
+        {
+          "anio_inicio": 2009,
+          "anio_fin": 2022,
+          "cargo": "presidente_xunta_galicia"
+        },
+        {
+          "anio_inicio": 2022,
+          "anio_fin": null,
+          "cargo": "diputado_congreso"
+        }
+      ],
+      "declaraciones": [
+        {
+          "anio": 2023,
+          "fecha": "2023-08",
+          "contexto": "Declaración XV Legislatura como líder de la oposición",
+          "activos_total": 769878,
+          "activos_desglose": {
+            "cuentas_corrientes": 37627,
+            "fondo_inversion_abanca": 403425,
+            "plan_pensiones": 195163,
+            "acciones_inditex": 133200,
+            "acciones_telefonica": 363
+          },
+          "pasivos_total": 0,
+          "patrimonio_neto": 769878,
+          "inmuebles_n": 5,
+          "inmuebles_detalle": "Casa Madrid + casa Vigo + garaje Vigo + vivienda y garaje A Coruña + finca rústica Ames (A Coruña)",
+          "nota_inmuebles": "Valor catastral no especificado; con 5 inmuebles, el valor de mercado real probablemente supera el millón de euros.",
+          "ingresos_anuales_declarados": {
+            "sueldo_xunta": 21686,
+            "sueldo_parlamento_gallego": 1770,
+            "sueldo_pp_representacion": 39260,
+            "sueldo_presidente_senado": 31850,
+            "dividendos": 2112,
+            "rendimientos_inmuebles": 5584
+          },
+          "fuente": "Congreso de los Diputados, XV Legislatura",
+          "fuente_url": "https://www.infobae.com/espana/2024/07/18/sueldo-propiedades-ahorros-y-deudas-de-sanchez-diaz-feijoo-y-abascal-las-cifras-de-los-principales-lideres-politicos/"
+        }
+      ],
+      "datos_pendientes": "Declaración de inicio como diputado autonómico Galicia (~2003). Sin datos verificados de patrimonio previo a 2009.",
+      "calidad_datos": "media",
+      "iconos": [
+        "privados",
+        "snapshot"
+      ],
+      "nota_iconos": "Carrera previa en Insalud y Administración pública gallega antes de la política activa."
+    },
+    {
+      "id": "rajoy",
+      "nombre": "Mariano Rajoy Brey",
+      "partido": "PP",
+      "cargo_destacado": "Presidente del Gobierno (2011-2018)",
+      "trayectoria_publica": [
+        {
+          "anio_inicio": 1981,
+          "anio_fin": 1986,
+          "cargo": "diputado_autonomico_galicia"
+        },
+        {
+          "anio_inicio": 1986,
+          "anio_fin": 2018,
+          "cargo": "diputado_congreso"
+        },
+        {
+          "anio_inicio": 1996,
+          "anio_fin": 2003,
+          "cargo": "ministro"
+        },
+        {
+          "anio_inicio": 2011,
+          "anio_fin": 2018,
+          "cargo": "presidente_gobierno"
+        }
+      ],
+      "declaraciones": [
+        {
+          "anio": 2018,
+          "fecha": "2018-06",
+          "contexto": "Salida de Moncloa tras moción de censura",
+          "activos_total": 1541511,
+          "activos_desglose": {
+            "inmuebles_valor": 578119,
+            "acciones": 666171,
+            "seguros_vida": 261508,
+            "cuentas_corrientes": 28800,
+            "otros": 6913
+          },
+          "pasivos_total": 0,
+          "patrimonio_neto": 1541511,
+          "fuente": "BOE altos cargos, septiembre 2018",
+          "fuente_url": "https://www.elindependiente.com/politica/2018/09/29/mariano-rajoy-declara-patrimonio-13-millones-euros/"
+        }
+      ],
+      "datos_pendientes": "Declaración de inicio como diputado en 1986 no localizada en formato digitalizado.",
+      "calidad_datos": "media",
+      "nota": "Rajoy es registrador de la propiedad, profesión privada con ingresos compatibles. Tras dejar Moncloa volvió a ejercer.",
+      "iconos": [
+        "privados",
+        "snapshot"
+      ],
+      "nota_iconos": "Registrador de la propiedad por oposición. Compatibiliza ingresos privados de su despacho (en excedencia durante cargos) con el sueldo público."
+    },
+    {
+      "id": "aznar",
+      "nombre": "José María Aznar López",
+      "partido": "PP",
+      "cargo_destacado": "Presidente del Gobierno (1996-2004)",
+      "trayectoria_publica": [
+        {
+          "anio_inicio": 1987,
+          "anio_fin": 1989,
+          "cargo": "presidente_castilla_leon"
+        },
+        {
+          "anio_inicio": 1989,
+          "anio_fin": 2004,
+          "cargo": "diputado_congreso"
+        },
+        {
+          "anio_inicio": 1996,
+          "anio_fin": 2004,
+          "cargo": "presidente_gobierno"
+        }
+      ],
+      "declaraciones": [
+        {
+          "anio": 2004,
+          "fecha": "2004-04",
+          "contexto": "Salida de Moncloa. Datos parciales de prensa.",
+          "activos_total": null,
+          "patrimonio_neto": null,
+          "inmuebles_n": 1,
+          "inmuebles_detalle": "Casa familiar en Pozuelo de Alarcón (Monte Alina), adquirida en 1999 por 582.000€. Valor actual estimado en varios millones.",
+          "fuente": "El Mundo / Vozpópuli (registro inmobiliario)",
+          "fuente_url": "https://www.vozpopuli.com/dolcevita/jose-maria-aznar-vida-politica-negocios-hijos-propiedades.html"
+        },
+        {
+          "anio": 2024,
+          "fecha": "2024-12",
+          "contexto": "Patrimonio actual a través de Famaztella S.L., empresa fundada en 2004",
+          "activos_total": 3053000,
+          "patrimonio_neto": 3053000,
+          "fuente_patrimonio": "Famaztella S.L. patrimonio neto a cierre 2024",
+          "ingresos_anuales_estimados": {
+            "asesor_news_corporation": 200000,
+            "conferencias_promedio": 80000,
+            "famaztella_beneficios": 77114,
+            "pension_vitalicia_expresidente": 74000
+          },
+          "ingresos_acumulados_news_corp_hasta_2022": 4000000,
+          "endesa_asesor_2011_2014": 200000,
+          "fuente": "Theobjective + El Plural (informes de Famaztella en Registro Mercantil)",
+          "fuente_url": "https://theobjective.com/economia/2025-08-26/aznar-empresa-patrimonial-beneficios-2024/"
+        }
+      ],
+      "datos_pendientes": "Declaración de inicio como diputado (1989) no localizada.",
+      "calidad_datos": "media",
+      "nota": "El patrimonio principal de Aznar se canaliza a través de Famaztella S.L. (sancionada en 2016 por tributación irregular). En 2022 acumulaba >4M€ de retribución como asesor de Murdoch.",
+      "iconos": [
+        "privados",
+        "sociedad"
+      ],
+      "nota_iconos": "Tras dejar Moncloa: presidente de FAES, asesor de News Corp (Rupert Murdoch), consejero independiente de Endesa (2011-2014), conferencias internacionales. Ingresos canalizados a través de Famaztella SL."
+    },
+    {
+      "id": "zapatero",
+      "nombre": "José Luis Rodríguez Zapatero",
+      "partido": "PSOE",
+      "cargo_destacado": "Presidente del Gobierno (2004-2011)",
+      "trayectoria_publica": [
+        {
+          "anio_inicio": 1986,
+          "anio_fin": 2011,
+          "cargo": "diputado_congreso"
+        },
+        {
+          "anio_inicio": 2004,
+          "anio_fin": 2011,
+          "cargo": "presidente_gobierno"
+        }
+      ],
+      "declaraciones": [
+        {
+          "anio": 2009,
+          "fecha": "2009",
+          "contexto": "Última declaración como presidente (BOE altos cargos)",
+          "activos_total": 209206,
+          "activos_desglose": {
+            "inmuebles_valor_catastral": 37259,
+            "otros_bienes": 171947
+          },
+          "pasivos_total": 80847,
+          "patrimonio_neto": 128359,
+          "fuente": "BOE",
+          "fuente_url": "https://www.moncloa.com/2019/07/02/patrimonio-presidentes-gobierno-42994/"
+        },
+        {
+          "anio": 2011,
+          "fecha": "2011-09-07",
+          "contexto": "Salida de Moncloa. Declaración ante Congreso.",
+          "activos_total": 130562,
+          "activos_desglose": {
+            "inmuebles_valor_catastral": 15955,
+            "otros_bienes": 114607
+          },
+          "pasivos_total": 0,
+          "patrimonio_neto": 130562,
+          "inmuebles_n": 1,
+          "inmuebles_detalle": "Parcela 675 m² en León compartida con esposa",
+          "fuente": "BOE, septiembre 2012",
+          "fuente_url": "https://www.publico.es/actualidad/zapatero-perdio-dinero-siendo-presidente-rubalcaba-fortuna-rajoy.html"
+        },
+        {
+          "anio": 2025,
+          "fecha": "2025-12",
+          "contexto": "Patrimonio familiar estimado por prensa (sin declaración pública obligatoria al no ostentar cargo)",
+          "activos_total": null,
+          "patrimonio_neto": null,
+          "inmuebles_n": 5,
+          "inmuebles_detalle": "Chalet Aravaca (vendido 2025), chalet Famara (Lanzarote, 1,2M€ aprox), chalet Las Rozas (residencia actual, ~2M€, a nombre de tercera persona), pisos comprados por las hijas. Total estimado entre 3,7M y 6M€.",
+          "fuente": "Vozpópuli, El Debate",
+          "fuente_url": "https://www.vozpopuli.com/espana/la-familia-zapatero-multiplica-por-115-su-patrimonio-inmobiliario-desde-que-dejo-la-moncloa-.html",
+          "nota_legal": "Datos de prensa, no de declaración oficial. En mayo 2026 la Fiscalía abrió diligencias para analizar el 'incremento patrimonial' del expresidente. Pendiente de investigación judicial."
+        }
+      ],
+      "calidad_datos": "alta",
+      "nota": "Zapatero salió de Moncloa más pobre que cuando entró (perdió ~78K€). El crecimiento patrimonial posterior es objeto de investigación abierta.",
+      "iconos": [
+        "privados"
+      ],
+      "nota_iconos": "Tras dejar Moncloa: conferencias, mediación internacional en Venezuela, consejos editoriales. Cifras no agregadas públicamente."
+    },
+    {
+      "id": "abalos",
+      "nombre": "José Luis Ábalos Meco",
+      "partido": "PSOE (suspendido militancia 2024)",
+      "cargo_destacado": "Ministro de Fomento (2018-2021), Secretario de Organización del PSOE",
+      "trayectoria_publica": [
+        {
+          "anio_inicio": 1999,
+          "anio_fin": 2007,
+          "cargo": "diputado_autonomico_valencia"
+        },
+        {
+          "anio_inicio": 2009,
+          "anio_fin": null,
+          "cargo": "diputado_congreso"
+        },
+        {
+          "anio_inicio": 2018,
+          "anio_fin": 2021,
+          "cargo": "ministro"
+        }
+      ],
+      "declaraciones": [
+        {
+          "anio": 2018,
+          "fecha": "2018-06",
+          "contexto": "Entrada como ministro de Fomento",
+          "activos_total": null,
+          "pasivos_total": null,
+          "patrimonio_neto_signo": "negativo",
+          "fuente": "BOE altos cargos, septiembre 2018",
+          "fuente_url": "https://www.elespanol.com/espana/20180929/patrimonio-rajoy-millones-veces-sanchez/341716033_0.html",
+          "nota": "Declarado entre los miembros del Gobierno con patrimonio neto negativo (debe más de lo que tiene)."
+        }
+      ],
+      "datos_pendientes": "Declaraciones posteriores y verificación de patrimonio actual. Caso Koldo en investigación abierta desde 2024.",
+      "calidad_datos": "baja",
+      "nota": "Investigación judicial abierta (caso Koldo) sobre presunto enriquecimiento ilícito. Pendiente de sentencia.",
+      "iconos": [
+        "snapshot"
+      ],
+      "nota_iconos": "Carrera política desde joven, sin ingresos privados conocidos. Caso judicial abierto."
+    },
+    {
+      "id": "gonzalez_felipe",
+      "nombre": "Felipe González Márquez",
+      "partido": "PSOE",
+      "cargo_destacado": "Presidente del Gobierno (1982-1996)",
+      "trayectoria_publica": [
+        {
+          "anio_inicio": 1977,
+          "anio_fin": 2004,
+          "cargo": "diputado_congreso"
+        },
+        {
+          "anio_inicio": 1982,
+          "anio_fin": 1996,
+          "cargo": "presidente_gobierno"
+        }
+      ],
+      "declaraciones": [
+        {
+          "anio": 2024,
+          "contexto": "Patrimonio actual a través de prensa (sin obligación de declarar al no ostentar cargo)",
+          "activos_total": null,
+          "patrimonio_neto": null,
+          "inmuebles_n": 1,
+          "inmuebles_detalle": "Finca 'El Penitencial' en Sierra de Guadalupe, Cáceres (50 hectáreas, originalmente propiedad de Joaquín Vázquez). González construyó casa en la finca.",
+          "ingresos_post_moncloa": {
+            "pension_vitalicia_expresidente": 74000,
+            "consejero_gas_natural_fenosa": 126500
+          },
+          "fuente": "Vozpópuli",
+          "fuente_url": "https://www.vozpopuli.com/dolcevita/las-propiedades-de-felipe-gonzalez-jose-maria-aznar-zapatero-y-mariano-rajoy-asi-son-las-casas-de-los-expresidentes.html"
+        }
+      ],
+      "datos_pendientes": "Declaraciones del período como presidente (1982-1996) no digitalizadas públicamente. Necesaria búsqueda en hemeroteca.",
+      "calidad_datos": "baja",
+      "iconos": [
+        "privados",
+        "snapshot"
+      ],
+      "nota_iconos": "Tras dejar Moncloa: consejero de Gas Natural Fenosa (2010-2015) con retribución anual estimada en 126.000€, conferencias internacionales."
+    },
+    {
+      "id": "abascal",
+      "nombre": "Santiago Abascal Conde",
+      "partido": "Vox",
+      "cargo_destacado": "Líder de Vox (2014-)",
+      "trayectoria_publica": [
+        {
+          "anio_inicio": 2004,
+          "anio_fin": 2007,
+          "cargo": "diputado_autonomico_pais_vasco"
+        },
+        {
+          "anio_inicio": 2007,
+          "anio_fin": 2013,
+          "cargo": "asambleista_madrid"
+        },
+        {
+          "anio_inicio": 2019,
+          "anio_fin": null,
+          "cargo": "diputado_congreso"
+        }
+      ],
+      "declaraciones": [
+        {
+          "anio": 2023,
+          "fecha": "2023-08",
+          "contexto": "Declaración XV Legislatura",
+          "activos_total": 29017,
+          "activos_desglose": {
+            "cuentas_corrientes": 29017
+          },
+          "pasivos_total": 341300,
+          "patrimonio_neto": -312283,
+          "inmuebles_n": 1,
+          "inmuebles_detalle": "40% propiedad vivienda Madrid; hipoteca compartida al 50% (341.300€ pendientes)",
+          "vehiculos": "Jeep Commander + moto BMW R80RT",
+          "ingresos_anuales_declarados": {
+            "sueldo_vox_empleado": 37357
+          },
+          "fuente": "Congreso de los Diputados, XV Legislatura",
+          "fuente_url": "https://www.infobae.com/espana/2024/07/18/sueldo-propiedades-ahorros-y-deudas-de-sanchez-diaz-feijoo-y-abascal-las-cifras-de-los-principales-lideres-politicos/"
+        }
+      ],
+      "datos_pendientes": "Declaración de inicio (2004 País Vasco). Sin datos verificados anteriores a 2019.",
+      "calidad_datos": "media",
+      "nota": "Abascal declara ingresos de Vox como empleado de la formación, no como cargo del Estado. Es uno de los líderes con patrimonio neto negativo por la hipoteca.",
+      "iconos": [
+        "snapshot"
+      ],
+      "nota_iconos": "Carrera política desde 2004 (Vox desde 2014). Salario actual de la formación política, no del cargo público según declaraciones."
+    },
+    {
+      "id": "yolanda_diaz",
+      "nombre": "Yolanda Díaz Pérez",
+      "partido": "Sumar (antes IU-PCE)",
+      "cargo_destacado": "Vicepresidenta segunda y ministra de Trabajo (2020-)",
+      "trayectoria_publica": [
+        {
+          "anio_inicio": 2003,
+          "anio_fin": 2011,
+          "cargo": "concejala_ferrol"
+        },
+        {
+          "anio_inicio": 2012,
+          "anio_fin": 2016,
+          "cargo": "diputada_autonomica_galicia"
+        },
+        {
+          "anio_inicio": 2016,
+          "anio_fin": null,
+          "cargo": "diputada_congreso"
+        },
+        {
+          "anio_inicio": 2020,
+          "anio_fin": null,
+          "cargo": "vicepresidente"
+        }
+      ],
+      "declaraciones": [
+        {
+          "anio": 2020,
+          "fecha": "2020-01",
+          "contexto": "Entrada como ministra. Declaración inicial como alto cargo (BOE)",
+          "activos_total": 50552,
+          "patrimonio_neto": 50552,
+          "fuente": "BOE altos cargos, 2020",
+          "fuente_url": "https://www.cope.es/actualidad/espana/noticias/irene-montero-multiplica-por-patrimonio-desde-que-entro-congreso-2016-20210326_1211024"
+        },
+        {
+          "anio": 2023,
+          "fecha": "2023-08",
+          "contexto": "Declaración XV Legislatura",
+          "activos_total": 33200,
+          "activos_desglose": {
+            "cuentas_corrientes_50_porc": 33200
+          },
+          "pasivos_total": 39553,
+          "patrimonio_neto_liquido": -6353,
+          "inmuebles_n": 2,
+          "inmuebles_detalle": "Vivienda en A Coruña (ganancial) + despacho A Coruña (ganancial). Valor no especificado.",
+          "vehiculos": "2 Volkswagen (ganancial)",
+          "ingresos_anuales_declarados": {
+            "sueldo_cargo": 78202
+          },
+          "fuente": "Congreso de los Diputados, XV Legislatura",
+          "fuente_url": "https://www.infobae.com/espana/2024/07/18/sueldo-propiedades-ahorros-y-deudas-de-sanchez-diaz-feijoo-y-abascal-las-cifras-de-los-principales-lideres-politicos/"
+        }
+      ],
+      "calidad_datos": "media",
+      "nota": "Todo el patrimonio en régimen de gananciales. El neto sin contar viviendas es negativo.",
+      "iconos": [
+        "gananciales"
+      ],
+      "nota_iconos": "Régimen de gananciales declarado. Bienes compartidos con su pareja."
+    },
+    {
+      "id": "iglesias",
+      "nombre": "Pablo Iglesias Turrión",
+      "partido": "Podemos (fuera de política activa)",
+      "cargo_destacado": "Vicepresidente segundo y ministro de Derechos Sociales (2020-2021)",
+      "trayectoria_publica": [
+        {
+          "anio_inicio": 2014,
+          "anio_fin": 2015,
+          "cargo": "eurodiputado"
+        },
+        {
+          "anio_inicio": 2016,
+          "anio_fin": 2021,
+          "cargo": "diputado_congreso"
+        },
+        {
+          "anio_inicio": 2020,
+          "anio_fin": 2021,
+          "cargo": "vicepresidente"
+        }
+      ],
+      "declaraciones": [
+        {
+          "anio": 2014,
+          "fecha": "2014-12-15",
+          "contexto": "Declaración inicial al ser nombrado Secretario General de Podemos. Presentada al partido (transparencia interna).",
+          "activos_total": 45211,
+          "activos_desglose": {
+            "cuentas_corrientes_y_ahorro": 45211
+          },
+          "pasivos_total": 0,
+          "patrimonio_neto": 45211,
+          "ingresos_anuales_declarados": {
+            "empleado": 19604,
+            "honorarios_autonomo": 50082,
+            "intereses": 242
+          },
+          "fuente": "Declaración de Bienes y Rentas, Podemos (diciembre 2014)",
+          "fuente_url": "https://www.libremercado.com/2016-01-19/iglesias-dobla-su-patrimonio-entra-en-el-1-y-paga-un-35-menos-a-hacienda-1276565872/"
+        },
+        {
+          "anio": 2016,
+          "fecha": "2016-01-05",
+          "contexto": "Entrada en el Congreso XI Legislatura",
+          "activos_total": 112432,
+          "activos_desglose": {
+            "cuentas_corrientes_y_ahorro": 112432
+          },
+          "pasivos_total": 0,
+          "patrimonio_neto": 112432,
+          "ingresos_anuales_declarados": {
+            "empleado": 58398,
+            "autonomo": 49299
+          },
+          "fuente": "Congreso de los Diputados, XI Legislatura",
+          "fuente_url": "https://www.elplural.com/politica/espana/iglesias-presenta-al-congreso-su-declaracion-de-2014-y-no-la-de-2015-en-la-que-tuvo-mas-ingresos_77101102"
+        },
+        {
+          "anio": 2021,
+          "fecha": "2021-03",
+          "contexto": "Salida del Gobierno y de la política activa. Patrimonio conjunto con Irene Montero (matrimonio en gananciales).",
+          "activos_total_pareja": 1100000,
+          "patrimonio_neto_pareja": 1100000,
+          "inmuebles_n_pareja": 1,
+          "inmuebles_detalle": "Chalet de Galapagar (Madrid), adquirido en 2018 por 615.000€. Resto del patrimonio en cuentas y planes.",
+          "fuente": "BOE altos cargos + COPE/análisis",
+          "fuente_url": "https://www.cope.es/actualidad/espana/noticias/irene-montero-multiplica-por-patrimonio-desde-que-entro-congreso-2016-20210326_1211024"
+        }
+      ],
+      "calidad_datos": "alta",
+      "nota": "Iglesias dejó la vicepresidencia en marzo 2021 y abandonó la política tras las elecciones de Madrid. Patrimonio conjunto con Montero analizado más abajo en su ficha.",
+      "iconos": [
+        "gananciales"
+      ],
+      "nota_iconos": "Régimen de gananciales con Irene Montero. Declaración 2021 incluye patrimonio conjunto."
+    },
+    {
+      "id": "montero_irene",
+      "nombre": "Irene Montero Gil",
+      "partido": "Podemos",
+      "cargo_destacado": "Ministra de Igualdad (2020-2023)",
+      "trayectoria_publica": [
+        {
+          "anio_inicio": 2016,
+          "anio_fin": 2024,
+          "cargo": "diputada_congreso"
+        },
+        {
+          "anio_inicio": 2020,
+          "anio_fin": 2023,
+          "cargo": "ministro"
+        },
+        {
+          "anio_inicio": 2024,
+          "anio_fin": null,
+          "cargo": "eurodiputado"
+        }
+      ],
+      "declaraciones": [
+        {
+          "anio": 2016,
+          "fecha": "2016-02",
+          "contexto": "Entrada Congreso XI Legislatura",
+          "activos_total": 6823,
+          "activos_desglose": {
+            "cuentas_corrientes": 6823
+          },
+          "pasivos_total": 0,
+          "patrimonio_neto": 6823,
+          "fuente": "Congreso de los Diputados, XI Legislatura",
+          "fuente_url": "https://www.cope.es/actualidad/espana/noticias/irene-montero-multiplica-por-patrimonio-desde-que-entro-congreso-2016-20210326_1211024"
+        },
+        {
+          "anio": 2021,
+          "fecha": "2021-03",
+          "contexto": "Declaración como vicepresidenta (BOE altos cargos)",
+          "activos_total": 629969,
+          "activos_desglose": {
+            "inmuebles_valor": 335049,
+            "cuentas_corrientes": 107420,
+            "otros": 187500
+          },
+          "patrimonio_neto": 629969,
+          "fuente": "BOE altos cargos, marzo 2021",
+          "fuente_url": "https://www.cope.es/actualidad/espana/noticias/irene-montero-multiplica-por-patrimonio-desde-que-entro-congreso-2016-20210326_1211024"
+        }
+      ],
+      "calidad_datos": "alta",
+      "nota": "Multiplicó por 92 su patrimonio entre 2016 y 2021. Patrimonio en parte gananciales con Pablo Iglesias. La cifra incluye el 50% del chalet de Galapagar.",
+      "iconos": [
+        "gananciales"
+      ],
+      "nota_iconos": "Régimen de gananciales con Pablo Iglesias. Declaración 2021 incluye patrimonio conjunto."
+    },
+    {
+      "id": "rufian",
+      "nombre": "Gabriel Rufián Romero",
+      "partido": "ERC",
+      "cargo_destacado": "Portavoz de ERC en el Congreso (2016-)",
+      "trayectoria_publica": [
+        {
+          "anio_inicio": 2016,
+          "anio_fin": null,
+          "cargo": "diputado_congreso"
+        }
+      ],
+      "declaraciones": [
+        {
+          "anio": 2016,
+          "fecha": "2016-01",
+          "contexto": "Entrada Congreso XI Legislatura",
+          "activos_total": 7.15,
+          "activos_desglose": {
+            "cuentas_corrientes": 7.15
+          },
+          "pasivos_total": 0,
+          "patrimonio_neto": 7.15,
+          "fuente": "Congreso de los Diputados, XI Legislatura",
+          "fuente_url": "https://www.publico.es/politica/declaracion-bienes-diputados-2016-rufian.html",
+          "nota": "Conocido por declarar literalmente 7,15€ a su entrada en el Congreso."
+        }
+      ],
+      "datos_pendientes": "Declaración última de la XV Legislatura (2023) pendiente de añadir.",
+      "calidad_datos": "media",
+      "iconos": [
+        "snapshot"
+      ],
+      "nota_iconos": "Carrera privada previa en Konecta (call center) y CCOO antes de su entrada en el Congreso."
+    }
+  ]
+}
