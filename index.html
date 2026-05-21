@@ -831,10 +831,10 @@ h1 {
         <span class="ds-label">Senadores XV</span>
         <span class="ds-count">264</span>
       </button>
-      <button class="ds-btn" disabled>
-        <span class="ds-icon">⏳</span>
+      <button class="ds-btn" data-dataset="congresistas" onclick="changeDataset('congresistas')">
+        <span class="ds-icon">🏛️</span>
         <span class="ds-label">Congresistas XV</span>
-        <span class="ds-count">pendiente</span>
+        <span class="ds-count">339</span>
       </button>
     </div>
 
@@ -847,6 +847,12 @@ h1 {
     <div id="senadores-container" style="display:none">
       <div class="section-placeholder">
         <h3>⏳ Cargando 264 senadores…</h3>
+      </div>
+    </div>
+
+    <div id="congresistas-container" style="display:none">
+      <div class="section-placeholder">
+        <h3>⏳ Cargando 339 diputados…</h3>
       </div>
     </div>
   </section>
@@ -1241,18 +1247,18 @@ function changeDataset(ds) {
 
   const cPat = document.getElementById('patrimonios-container');
   const cSen = document.getElementById('senadores-container');
-  if (ds === 'verificados') {
-    if (cPat) cPat.style.display = '';
-    if (cSen) cSen.style.display = 'none';
-  } else if (ds === 'senadores') {
-    if (cPat) cPat.style.display = 'none';
-    if (cSen) cSen.style.display = '';
-    if (window.renderSenadoresXV) window.renderSenadoresXV();
-  }
+  const cCon = document.getElementById('congresistas-container');
+  if (cPat) cPat.style.display = (ds === 'verificados') ? '' : 'none';
+  if (cSen) cSen.style.display = (ds === 'senadores') ? '' : 'none';
+  if (cCon) cCon.style.display = (ds === 'congresistas') ? '' : 'none';
+
+  if (ds === 'senadores' && window.renderSenadoresXV) window.renderSenadoresXV();
+  if (ds === 'congresistas' && window.renderCongresistasXV) window.renderCongresistasXV();
 }
 </script>
 <script src="js/contratos.js"></script>
 <script src="js/patrimonios.js"></script>
 <script src="js/senadores.js"></script>
+<script src="js/congresistas.js"></script>
 </body>
 </html>
