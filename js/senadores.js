@@ -161,11 +161,19 @@
     SENADORES.forEach(function(s){
       counts[s.partido_norm] = (counts[s.partido_norm] || 0) + 1;
     });
-    var orden = ['PP','PSOE','ERC-Bildu','Junts-CC-BNG','PNV','IzqConfederal','Mixto'];
+    // Orden por tamaño en el Senado (PP, PSOE primero) + nacionalistas + minoritarios
+    var orden = ['PP','PSOE','PSC','Vox','EH Bildu','PSE-EE','PNV','ERC','Junts',
+                 'PSdeG','AHI','UPN','BNG','CC','Compromís','Más Madrid','Geroa Bai','ASG','Indep.','Otros'];
     var html = '<button class="sen-filter-btn' + (FILTRO_PARTIDO === 'todos' ? ' active' : '') + '" data-partido="todos" onclick="window.senadoresFiltro(\'todos\')">Todos (' + SENADORES.length + ')</button>';
     orden.forEach(function(p) {
       if (!counts[p]) return;
       html += '<button class="sen-filter-btn' + (FILTRO_PARTIDO === p ? ' active' : '') + '" data-partido="' + p + '" onclick="window.senadoresFiltro(\'' + p + '\')">' + p + ' (' + counts[p] + ')</button>';
+    });
+    // Cualquier partido no incluido en el orden (defensa)
+    Object.keys(counts).forEach(function(p){
+      if (orden.indexOf(p) === -1) {
+        html += '<button class="sen-filter-btn' + (FILTRO_PARTIDO === p ? ' active' : '') + '" data-partido="' + p + '" onclick="window.senadoresFiltro(\'' + p + '\')">' + p + ' (' + counts[p] + ')</button>';
+      }
     });
     return html;
   }
