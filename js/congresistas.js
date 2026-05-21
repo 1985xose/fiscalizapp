@@ -29,6 +29,15 @@
     return new Intl.NumberFormat('es-ES', { maximumFractionDigits: 0 }).format(v) + ' €';
   }
 
+  function escapeHtml(s) {
+    if (s == null) return '';
+    return String(s)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
   function buscableDe(d) {
     if (d._buscable) return d._buscable;
     var partes = [
@@ -119,7 +128,7 @@
     DIPUTADOS.forEach(function(d){
       counts[d.partido_norm] = (counts[d.partido_norm] || 0) + 1;
     });
-    var orden = ['PP','PSOE','Vox','Sumar','ERC','Junts','EH Bildu','PNV','Mixto','Otros'];
+    var orden = ['PP','PSOE','Vox','Sumar','Podemos','ERC','Junts','EH Bildu','PNV','Mixto','Otros'];
     var html = '<button class="sen-filter-btn' + (FILTRO_PARTIDO === 'todos' ? ' active' : '') + '" data-partido="todos" onclick="window.congresistasFiltro(\'todos\')">Todos (' + DIPUTADOS.length + ')</button>';
     orden.forEach(function(p) {
       if (!counts[p]) return;
@@ -168,7 +177,7 @@
       '<div class="senador-header">' +
         '<div class="senador-rank">#' + (idx+1) + '</div>' +
         '<div class="senador-info">' +
-          '<h4>' + nombreShow + '</h4>' +
+          '<h4>' + escapeHtml(nombreShow) + '</h4>' +
           '<div class="senador-meta">' + metas + '</div>' +
         '</div>' +
         '<div class="senador-cifra">' + cifra + '<span class="label">' + label + '</span></div>' +
@@ -202,7 +211,7 @@
       if (rentas.length > 0) {
         html += '<ul>';
         rentas.forEach(function(r) {
-          html += '<li><span class="det-num">' + fmtMoneyFull(r.valor) + '</span> · ' + (r.concepto || '?') + '</li>';
+          html += '<li><span class="det-num">' + fmtMoneyFull(r.valor) + '</span> · ' + (escapeHtml(r.concepto) || '?') + '</li>';
         });
         html += '</ul>';
       }
@@ -220,7 +229,7 @@
         if (i.porcentaje) partes.push(i.porcentaje);
         if (i.derecho) partes.push(i.derecho);
         if (i.forma_adquisicion) partes.push(i.forma_adquisicion);
-        html += '<li>' + partes.join(' · ') + '</li>';
+        html += '<li>' + (partes.length ? partes.join(' · ') : escapeHtml(i.descripcion) || '?') + '</li>';
       });
       html += '</ul></div>';
     }
@@ -234,7 +243,7 @@
         if (i.ubicacion) partes.push('📍 ' + i.ubicacion);
         if (i.year) partes.push('📅 ' + i.year);
         if (i.porcentaje) partes.push(i.porcentaje);
-        html += '<li>' + partes.join(' · ') + '</li>';
+        html += '<li>' + (partes.length ? partes.join(' · ') : escapeHtml(i.descripcion) || '?') + '</li>';
       });
       html += '</ul></div>';
     }
@@ -245,7 +254,7 @@
       if ((d.depositos||[]).length > 0) {
         html += '<ul>';
         d.depositos.forEach(function(dep) {
-          html += '<li>' + (dep.descripcion || '?');
+          html += '<li>' + (escapeHtml(dep.descripcion) || '?');
           if (dep.valor) html += ' · <span class="det-num">' + fmtMoneyFull(dep.valor) + '</span>';
           html += '</li>';
         });
@@ -258,7 +267,7 @@
     if ((d.otros_bienes||[]).length > 0) {
       html += '<div class="det-bloque"><h5>📊 Otros bienes y valores (' + d.otros_bienes.length + ')</h5><ul>';
       d.otros_bienes.forEach(function(o) {
-        html += '<li>' + (o.descripcion || '?');
+        html += '<li>' + (escapeHtml(o.descripcion) || '?');
         if (o.valor) html += ' · <span class="det-num">' + fmtMoneyFull(o.valor) + '</span>';
         html += '</li>';
       });
@@ -269,7 +278,7 @@
     if ((d.vehiculos||[]).length > 0) {
       html += '<div class="det-bloque"><h5>🚗 Vehículos (' + d.vehiculos.length + ')</h5><ul>';
       d.vehiculos.forEach(function(v) {
-        html += '<li>' + (v.descripcion || '?');
+        html += '<li>' + (escapeHtml(v.descripcion) || '?');
         if (v.year) html += ' <em style="color:var(--text-muted);font-size:11px">(' + v.year + ')</em>';
         html += '</li>';
       });
@@ -282,7 +291,7 @@
       if ((d.deudas||[]).length > 0) {
         html += '<ul>';
         d.deudas.forEach(function(dd) {
-          html += '<li>' + (dd.descripcion || '?');
+          html += '<li>' + (escapeHtml(dd.descripcion) || '?');
           if (dd.saldo) html += ' · pendiente <span class="det-num">' + fmtMoneyFull(dd.saldo) + '</span>';
           html += '</li>';
         });
