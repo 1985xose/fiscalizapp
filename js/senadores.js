@@ -155,17 +155,17 @@
     renderAll();
   };
 
-  function renderFiltros(visibles) {
+  function renderFiltros() {
     // Stats por partido sobre el dataset completo
     var counts = {};
     SENADORES.forEach(function(s){
       counts[s.partido_norm] = (counts[s.partido_norm] || 0) + 1;
     });
     var orden = ['PP','PSOE','ERC-Bildu','Junts-CC-BNG','PNV','IzqConfederal','Mixto'];
-    var html = '<button class="sen-filter-btn' + (FILTRO_PARTIDO === 'todos' ? ' active' : '') + '" onclick="window.senadoresFiltro(\'todos\')">Todos (' + SENADORES.length + ')</button>';
+    var html = '<button class="sen-filter-btn' + (FILTRO_PARTIDO === 'todos' ? ' active' : '') + '" data-partido="todos" onclick="window.senadoresFiltro(\'todos\')">Todos (' + SENADORES.length + ')</button>';
     orden.forEach(function(p) {
       if (!counts[p]) return;
-      html += '<button class="sen-filter-btn' + (FILTRO_PARTIDO === p ? ' active' : '') + '" onclick="window.senadoresFiltro(\'' + p + '\')">' + p + ' (' + counts[p] + ')</button>';
+      html += '<button class="sen-filter-btn' + (FILTRO_PARTIDO === p ? ' active' : '') + '" data-partido="' + p + '" onclick="window.senadoresFiltro(\'' + p + '\')">' + p + ' (' + counts[p] + ')</button>';
     });
     return html;
   }
@@ -184,7 +184,7 @@
       {k:'alfabetico',l:'🔤 A-Z'}
     ];
     return '<div class="senado-orden-toggle">' + opts.map(function(o){
-      return '<button class="orden-btn' + (ORDEN===o.k?' active':'') + '" onclick="window.senadoresOrden(\'' + o.k + '\')">' + o.l + '</button>';
+      return '<button class="orden-btn' + (ORDEN===o.k?' active':'') + '" data-orden="' + o.k + '" onclick="window.senadoresOrden(\'' + o.k + '\')">' + o.l + '</button>';
     }).join('') + '</div>';
   }
 
@@ -379,40 +379,58 @@
     var container = document.getElementById('senadores-container');
     if (!container) return;
 
-    var html = '<div class="patrimonio-header">' +
-      '<h2>🏛️ Senadores XV Legislatura</h2>' +
-      '<p class="pat-intro">Datos extraídos del endpoint público de declaraciones del Senado ' +
-      '(<code style="font-size:12px">expedientxmlclobservlet</code>). ' +
-      '<strong>264 senadores</strong>, declaración inicial al inicio de la XV Legislatura. ' +
-      'Los datos reflejan lo declarado por cada senador, no incluyen valoración catastral de inmuebles.</p></div>';
+    // ¿Ya está pintado el shell? Si sí, solo actualizamos stats + lista + active states
+    var shellListo = !!document.getElementById('sen-shell');
 
-    html += '<div class="stats" id="sen-stats">' + renderStats(visibles) + '</div>';
-
-    html += '<div class="filtros-pat">' +
-      '<input type="text" id="sen-search" class="pat-buscador-input" placeholder="🔍 Buscar nombre, partido, circunscripción, descripción..." oninput="window.senadoresBuscar(this.value)" value="' + (document.getElementById('sen-search') ? document.getElementById('sen-search').value : '') + '" />' +
-      '<div class="senado-filtros">' + renderFiltros(visibles) + '</div>' +
-      renderOrdenToggle() +
-      '<div class="pat-filtros-contador" style="font-family:var(--font-mono);font-size:12px;color:var(--text-muted);margin-top:0.5rem">Mostrando ' + visibles.length + ' de ' + SENADORES.length + ' senadores</div>' +
+    if (!shellListo) {
+      // Pintar todo el shell (la primera vez)
+      var html = '<div id="sen-shell">' +
+        '<div class="patrimonio-header">' +
+          '<h2>🏛️ Senadores XV Legislatura</h2>' +
+          '<p class="pat-intro">Datos extraídos del endpoint público de declaraciones del Senado ' +
+          '(<code style="font-size:12px">expedientxmlclobservlet</code>). ' +
+          '<strong>264 senadores</strong>, declaración inicial al inicio de la XV Legislatura. ' +
+          'Los datos reflejan lo declarado por cada senador, no incluyen valoración catastral de inmuebles.</p>' +
+        '</div>' +
+        '<div class="stats" id="sen-stats"></div>' +
+        '<div class="filtros-pat">' +
+          '<input type="text" id="sen-search" class="pat-buscador-input" placeholder="🔍 Buscar nombre, partido, circunscripción, descripción..." oninput="window.senadoresBuscar(this.value)" />' +
+          '<div class="senado-filtros" id="sen-filtros"></div>' +
+          '<div id="sen-orden-toggle"></div>' +
+          '<div class="pat-filtros-contador" id="sen-contador" style="font-family:var(--font-mono);font-size:12px;color:var(--text-muted);margin-top:0.5rem"></div>' +
+        '</div>' +
+        '<div id="sen-lista"></div>' +
       '</div>';
-
-    // Lista de senadores
-    if (visibles.length === 0) {
-      html += '<div class="section-placeholder"><h3>Sin resultados</h3><p>No se encontraron senadores con esos filtros.</p></div>';
+      container.innerHTML = html;
+      // Pintar la parte estable (filtros y toggle) una sola vez
+      document.getElementById('sen-filtros').innerHTML = renderFiltros();
+      document.getElementById('sen-orden-toggle').innerHTML = renderOrdenToggle();
     } else {
-      html += '<div id="sen-lista">';
-      // Limitar a primeros 100 para rendimiento + botón "Ver más"
-      var top = visibles.slice(0, 100);
-      top.forEach(function(s, i){ html += renderCardSenador(s, i); });
-      if (visibles.length > 100) {
-        html += '<div style="text-align:center;padding:1rem"><button onclick="window.senadoresVerTodos()" style="background:var(--bg-card);border:1px solid var(--accent-red);color:var(--text-primary);padding:10px 20px;font-family:var(--font-mono);cursor:pointer">Mostrar todos (' + visibles.length + ')</button></div>';
-      }
-      html += '</div>';
+      // Refrescar SOLO el 'active' de filtros y toggle sin destruir el DOM
+      document.querySelectorAll('#sen-filtros .sen-filter-btn').forEach(function(b){
+        b.classList.toggle('active', b.dataset.partido === FILTRO_PARTIDO);
+      });
+      document.querySelectorAll('#sen-orden-toggle .orden-btn').forEach(function(b){
+        b.classList.toggle('active', b.dataset.orden === ORDEN);
+      });
     }
 
-    container.innerHTML = html;
-    // Restaurar foco en buscador si el usuario estaba escribiendo
-    var inp = document.getElementById('sen-search');
-    if (inp && document.activeElement !== inp && window._senFocus) inp.focus();
+    // Actualizar stats (siempre)
+    document.getElementById('sen-stats').innerHTML = renderStats(visibles);
+    // Actualizar contador
+    document.getElementById('sen-contador').textContent = 'Mostrando ' + visibles.length + ' de ' + SENADORES.length + ' senadores';
+    // Actualizar lista
+    var lista = document.getElementById('sen-lista');
+    if (visibles.length === 0) {
+      lista.innerHTML = '<div class="section-placeholder"><h3>Sin resultados</h3><p>No se encontraron senadores con esos filtros.</p></div>';
+    } else {
+      var top = visibles.slice(0, 100);
+      var listHtml = top.map(function(s, i){ return renderCardSenador(s, i); }).join('');
+      if (visibles.length > 100) {
+        listHtml += '<div style="text-align:center;padding:1rem"><button onclick="window.senadoresVerTodos()" style="background:var(--bg-card);border:1px solid var(--accent-red);color:var(--text-primary);padding:10px 20px;font-family:var(--font-mono);cursor:pointer">Mostrar todos (' + visibles.length + ')</button></div>';
+      }
+      lista.innerHTML = listHtml;
+    }
   }
 
   window.senadoresVerTodos = function() {
@@ -425,9 +443,7 @@
   window.senadoresBuscar = function(q) {
     var qNorm = normaliza(q);
     SEARCH_TERMS = qNorm.split(/\s+/).filter(function(t){return t.length>0;});
-    window._senFocus = true;
     renderAll();
-    setTimeout(function(){ window._senFocus = false; }, 100);
   };
 
   window.renderSenadoresXV = function() {
