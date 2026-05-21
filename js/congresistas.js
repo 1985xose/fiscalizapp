@@ -1,11 +1,8 @@
 // ============================================================================
-// FiscalizApp — Sub-vista "Congresistas XV"
+// FiscalizApp — Sub-vista "Congresistas XV" (UI RICA)
 // ============================================================================
-// Renderiza los 339 diputados de la XV Legislatura con sus declaraciones de
-// bienes extraídas por OCR del BOCG-15-D-10.
-//
-// Estructura paralela a senadores.js (mismo patrón de stat cards, búsqueda,
-// filtros y orden) — los datos vienen del OCR del PDF del Congreso.
+// Datos extraídos por OCR del BOCG-15-D-10.
+// Estructura paralela a senadores.js con listas detalladas.
 // ============================================================================
 
 (function() {
@@ -35,8 +32,16 @@
   function buscableDe(d) {
     if (d._buscable) return d._buscable;
     var partes = [
-      d.nombre_completo, d.apellidos, d.nombre, d.grupo, d.partido_norm, d.estado_civil
+      d.nombre_completo, d.apellidos, d.nombre, d.grupo, d.partido_norm,
+      d.estado_civil, d.circunscripcion
     ];
+    (d.inmuebles_urbanos || []).forEach(function(i){
+      partes.push(i.tipo, i.ubicacion, i.descripcion);
+    });
+    (d.inmuebles_rusticos || []).forEach(function(i){
+      partes.push(i.tipo, i.ubicacion);
+    });
+    (d.vehiculos || []).forEach(function(v){ partes.push(v.descripcion); });
     d._buscable = normaliza(partes.filter(Boolean).join(' '));
     return d._buscable;
   }
@@ -72,22 +77,18 @@
     var deuVis = visibles.reduce(function(s,x){ return s + (x.deudas_total||0); }, 0);
 
     var cards = [
-      { action: 'reset',     icon: '👥', value: hayFiltro ? (totalVis + ' / ' + total) : total,
+      { action: 'reset', icon: '👥', value: hayFiltro ? (totalVis + ' / ' + total) : total,
         label: 'Diputados', sub: hayFiltro ? 'Pulsa para resetear' : 'XV Legislatura',
-        title: 'Total de diputados de la XV Legislatura. Pulsa para limpiar filtros.',
-        activo: !hayFiltro },
+        title: 'Total diputados. Pulsa para limpiar filtros.', activo: !hayFiltro },
       { action: 'depositos', icon: '💰', value: fmtMoney(depVis),
         label: 'Depósitos', sub: hayFiltro ? 'En este filtro' : 'Total declarado',
-        title: 'Suma de depósitos en cuentas. Pulsa para ordenar por depósitos.',
-        activo: ORDEN === 'depositos' },
+        title: 'Suma depósitos. Pulsa para ordenar.', activo: ORDEN === 'depositos' },
       { action: 'inmuebles', icon: '🏠', value: inmVis,
         label: 'Inmuebles', sub: hayFiltro ? 'En este filtro' : 'Urbanos + rústicos',
-        title: 'Total de inmuebles detectados (OCR). Pulsa para ordenar.',
-        activo: ORDEN === 'inmuebles' },
-      { action: 'deudas',    icon: '💸', value: fmtMoney(deuVis),
+        title: 'Inmuebles totales. Pulsa para ordenar.', activo: ORDEN === 'inmuebles' },
+      { action: 'deudas', icon: '💸', value: fmtMoney(deuVis),
         label: 'Deudas', sub: hayFiltro ? 'En este filtro' : 'Pendientes',
-        title: 'Suma de saldos pendientes. Pulsa para ordenar por deudas.',
-        activo: ORDEN === 'deudas' }
+        title: 'Suma deudas. Pulsa para ordenar.', activo: ORDEN === 'deudas' }
     ];
 
     return cards.map(function(c) {
@@ -104,9 +105,7 @@
 
   window.congresistasStatAction = function(action) {
     if (action === 'reset') {
-      FILTRO_PARTIDO = 'todos';
-      ORDEN = 'depositos';
-      SEARCH_TERMS = [];
+      FILTRO_PARTIDO = 'todos'; ORDEN = 'depositos'; SEARCH_TERMS = [];
       var inp = document.getElementById('cong-search');
       if (inp) inp.value = '';
     } else if (action === 'depositos' || action === 'inmuebles' || action === 'deudas') {
@@ -129,10 +128,7 @@
     return html;
   }
 
-  window.congresistasFiltro = function(p) {
-    FILTRO_PARTIDO = p;
-    renderAll();
-  };
+  window.congresistasFiltro = function(p) { FILTRO_PARTIDO = p; renderAll(); };
 
   function renderOrdenToggle() {
     var opts = [
@@ -147,10 +143,7 @@
     }).join('') + '</div>';
   }
 
-  window.congresistasOrden = function(k) {
-    ORDEN = k;
-    renderAll();
-  };
+  window.congresistasOrden = function(k) { ORDEN = k; renderAll(); };
 
   function renderCard(d, idx) {
     var cifra, label;
@@ -161,17 +154,21 @@
 
     var nInm = d.inmuebles_total || 0;
     var nVeh = d.vehiculos_n || 0;
+    var circ = d.circunscripcion ? '<span>📍 ' + d.circunscripcion + '</span>' : '';
     var metas = '<span class="partido-badge">' + (d.partido_norm || '?') + '</span>' +
+                circ +
                 (nInm > 0 ? '<span>🏠 ' + nInm + '</span>' : '') +
                 (nVeh > 0 ? '<span>🚗 ' + nVeh + '</span>' : '') +
                 ((d.deudas_total||0) > 0 ? '<span>💸 ' + fmtMoney(d.deudas_total) + '</span>' : '') +
-                (d.es_modificacion ? '<span style="color:#e9c46a">🔄 modificación</span>' : '');
+                (d.es_modificacion ? '<span style="color:#e9c46a">🔄 modif.</span>' : '');
+
+    var nombreShow = d.nombre_completo || (d.apellidos + (d.nombre ? ', ' + d.nombre : ''));
 
     return '<article class="senador-card" data-partido="' + (d.partido_norm||'') + '" onclick="window.toggleCongresista(this)">' +
       '<div class="senador-header">' +
         '<div class="senador-rank">#' + (idx+1) + '</div>' +
         '<div class="senador-info">' +
-          '<h4>' + (d.nombre_completo || (d.apellidos + ', ' + d.nombre)) + '</h4>' +
+          '<h4>' + nombreShow + '</h4>' +
           '<div class="senador-meta">' + metas + '</div>' +
         '</div>' +
         '<div class="senador-cifra">' + cifra + '<span class="label">' + label + '</span></div>' +
@@ -180,65 +177,138 @@
     '</article>';
   }
 
-  window.toggleCongresista = function(card) {
-    card.classList.toggle('expanded');
-  };
+  window.toggleCongresista = function(card) { card.classList.toggle('expanded'); };
 
   function renderDetalle(d) {
     var html = '';
 
     // Datos personales
     html += '<div class="det-bloque"><h5>Datos</h5><ul>';
-    if (d.apellidos) html += '<li>Apellidos: ' + d.apellidos + '</li>';
-    if (d.nombre) html += '<li>Nombre: ' + d.nombre + '</li>';
-    if (d.grupo) html += '<li>Grupo parlamentario: ' + d.grupo + ' → ' + d.partido_norm + '</li>';
+    if (d.apellidos) html += '<li>Apellidos: <strong>' + d.apellidos + '</strong></li>';
+    if (d.nombre) html += '<li>Nombre: <strong>' + d.nombre + '</strong></li>';
+    if (d.grupo) html += '<li>Grupo parlamentario: ' + d.grupo + ' (' + d.partido_norm + ')</li>';
     if (d.estado_civil) html += '<li>Estado civil: ' + d.estado_civil + '</li>';
+    if (d.regimen_economico) html += '<li>Régimen económico: ' + d.regimen_economico + '</li>';
+    if (d.circunscripcion) html += '<li>Circunscripción: ' + d.circunscripcion + '</li>';
     if (d.expediente_bienes) html += '<li>Expediente bienes: ' + d.expediente_bienes + '</li>';
     if (d.pagina_bienes_inicio) html += '<li>Páginas BOCG: ' + d.pagina_bienes_inicio + '-' + d.pagina_bienes_fin + '</li>';
     html += '</ul></div>';
 
     // Rentas
-    if (d.rentas_total > 0 || d.irpf) {
-      html += '<div class="det-bloque"><h5>💼 Rentas anuales</h5><ul>';
-      if (d.rentas_total > 0) html += '<li>Total rentas declaradas: <span class="det-num">' + fmtMoneyFull(d.rentas_total) + '</span></li>';
-      if (d.irpf) html += '<li>IRPF pagado: <span class="det-num">' + fmtMoneyFull(d.irpf) + '</span></li>';
+    var rentas = d.rentas || [];
+    if ((d.rentas_total||0) > 0 || d.irpf || rentas.length > 0) {
+      html += '<div class="det-bloque"><h5>💼 Rentas anuales — Total: <span class="det-num">' + fmtMoneyFull(d.rentas_total) + '</span></h5>';
+      if (d.irpf) html += '<div style="font-size:11px;color:var(--text-muted);margin-bottom:6px">IRPF pagado: <strong>' + fmtMoneyFull(d.irpf) + '</strong></div>';
+      if (rentas.length > 0) {
+        html += '<ul>';
+        rentas.forEach(function(r) {
+          html += '<li><span class="det-num">' + fmtMoneyFull(r.valor) + '</span> · ' + (r.concepto || '?') + '</li>';
+        });
+        html += '</ul>';
+      }
+      html += '</div>';
+    }
+
+    // Inmuebles urbanos
+    if ((d.inmuebles_urbanos||[]).length > 0) {
+      html += '<div class="det-bloque"><h5>🏢 Inmuebles urbanos (' + d.inmuebles_urbanos.length + ')</h5><ul>';
+      d.inmuebles_urbanos.forEach(function(i) {
+        var partes = [];
+        if (i.tipo) partes.push('<strong>' + i.tipo + '</strong>');
+        if (i.ubicacion) partes.push('📍 ' + i.ubicacion);
+        if (i.year) partes.push('📅 ' + i.year);
+        if (i.porcentaje) partes.push(i.porcentaje);
+        if (i.derecho) partes.push(i.derecho);
+        if (i.forma_adquisicion) partes.push(i.forma_adquisicion);
+        html += '<li>' + partes.join(' · ') + '</li>';
+      });
       html += '</ul></div>';
     }
 
-    // Inmuebles
-    if (d.inmuebles_total > 0) {
-      html += '<div class="det-bloque"><h5>🏠 Inmuebles (' + d.inmuebles_total + ')</h5><ul>';
-      if (d.inmuebles_urbanos_n > 0) html += '<li>Urbanos: <span class="det-num">' + d.inmuebles_urbanos_n + '</span></li>';
-      if (d.inmuebles_rusticos_n > 0) html += '<li>Rústicos: <span class="det-num">' + d.inmuebles_rusticos_n + '</span></li>';
+    // Inmuebles rústicos
+    if ((d.inmuebles_rusticos||[]).length > 0) {
+      html += '<div class="det-bloque"><h5>🌾 Inmuebles rústicos (' + d.inmuebles_rusticos.length + ')</h5><ul>';
+      d.inmuebles_rusticos.forEach(function(i) {
+        var partes = [];
+        if (i.tipo) partes.push('<strong>' + i.tipo + '</strong>');
+        if (i.ubicacion) partes.push('📍 ' + i.ubicacion);
+        if (i.year) partes.push('📅 ' + i.year);
+        if (i.porcentaje) partes.push(i.porcentaje);
+        html += '<li>' + partes.join(' · ') + '</li>';
+      });
       html += '</ul></div>';
     }
 
     // Depósitos
-    if (d.depositos_total > 0) {
-      html += '<div class="det-bloque"><h5>💰 Depósitos en cuentas</h5><div class="det-num">' + fmtMoneyFull(d.depositos_total) + '</div></div>';
+    if ((d.depositos||[]).length > 0 || (d.depositos_total||0) > 0) {
+      html += '<div class="det-bloque"><h5>💰 Depósitos — Total: <span class="det-num">' + fmtMoneyFull(d.depositos_total) + '</span></h5>';
+      if ((d.depositos||[]).length > 0) {
+        html += '<ul>';
+        d.depositos.forEach(function(dep) {
+          html += '<li>' + (dep.descripcion || '?');
+          if (dep.valor) html += ' · <span class="det-num">' + fmtMoneyFull(dep.valor) + '</span>';
+          html += '</li>';
+        });
+        html += '</ul>';
+      }
+      html += '</div>';
     }
 
-    if (d.otros_bienes_total > 0) {
-      html += '<div class="det-bloque"><h5>📊 Otros bienes/valores</h5><div class="det-num">' + fmtMoneyFull(d.otros_bienes_total) + '</div></div>';
+    // Otros bienes y valores
+    if ((d.otros_bienes||[]).length > 0) {
+      html += '<div class="det-bloque"><h5>📊 Otros bienes y valores (' + d.otros_bienes.length + ')</h5><ul>';
+      d.otros_bienes.forEach(function(o) {
+        html += '<li>' + (o.descripcion || '?');
+        if (o.valor) html += ' · <span class="det-num">' + fmtMoneyFull(o.valor) + '</span>';
+        html += '</li>';
+      });
+      html += '</ul></div>';
     }
 
-    if (d.vehiculos_n > 0) {
-      html += '<div class="det-bloque"><h5>🚗 Vehículos</h5><div>' + d.vehiculos_n + ' vehículo(s) detectado(s)</div></div>';
+    // Vehículos
+    if ((d.vehiculos||[]).length > 0) {
+      html += '<div class="det-bloque"><h5>🚗 Vehículos (' + d.vehiculos.length + ')</h5><ul>';
+      d.vehiculos.forEach(function(v) {
+        html += '<li>' + (v.descripcion || '?');
+        if (v.year) html += ' <em style="color:var(--text-muted);font-size:11px">(' + v.year + ')</em>';
+        html += '</li>';
+      });
+      html += '</ul></div>';
     }
 
-    if (d.deudas_total > 0) {
-      html += '<div class="det-bloque"><h5>💸 Deudas pendientes</h5><div class="det-num">' + fmtMoneyFull(d.deudas_total) + '</div></div>';
+    // Deudas
+    if ((d.deudas||[]).length > 0 || (d.deudas_total||0) > 0) {
+      html += '<div class="det-bloque"><h5>💸 Deudas — Pendiente: <span class="det-num">' + fmtMoneyFull(d.deudas_total) + '</span></h5>';
+      if ((d.deudas||[]).length > 0) {
+        html += '<ul>';
+        d.deudas.forEach(function(dd) {
+          html += '<li>' + (dd.descripcion || '?');
+          if (dd.saldo) html += ' · pendiente <span class="det-num">' + fmtMoneyFull(dd.saldo) + '</span>';
+          html += '</li>';
+        });
+        html += '</ul>';
+      }
+      html += '</div>';
     }
 
+    // Aviso modificación
     if (d.es_modificacion) {
-      html += '<div class="det-bloque"><h5>🔄 Declaración modificada</h5><div>Esta declaración es una modificación posterior (versión ' + (d.n_declaraciones_publicadas) + ' de ' + (d.n_declaraciones_publicadas) + ').</div></div>';
+      html += '<div class="det-bloque"><h5>🔄 Declaración modificada</h5><div>Esta declaración es una modificación posterior a la inicial (versión ' + d.version_publicada + ').</div></div>';
     }
+
+    // Enlaces oficiales
+    html += '<div class="det-bloque"><h5>🔗 Fuente</h5><ul>';
+    var url = 'https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-10.PDF';
+    if (d.pagina_bienes_inicio) {
+      html += '<li><a href="' + url + '#page=' + d.pagina_bienes_inicio + '" target="_blank" style="color:#2a9d8f">BOCG-15-D-10 págs. ' + d.pagina_bienes_inicio + '-' + d.pagina_bienes_fin + '</a></li>';
+    } else {
+      html += '<li><a href="' + url + '" target="_blank" style="color:#2a9d8f">BOCG-15-D-10 (PDF oficial)</a></li>';
+    }
+    html += '</ul></div>';
 
     // Nota OCR
-    html += '<div class="det-bloque" style="font-size:11px;color:var(--text-muted);font-style:italic">' +
-      'Datos extraídos por OCR del BOCG-15-D-10. Las cifras agregadas pueden contener errores menores. ' +
-      'Páginas del BOCG: ' + (d.pagina_bienes_inicio || '?') + '-' + (d.pagina_bienes_fin || '?') + '. ' +
-      '<a href="https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-10.PDF" target="_blank" style="color:#2a9d8f">Ver PDF oficial</a>.' +
+    html += '<div class="det-bloque" style="font-size:11px;color:var(--text-muted);font-style:italic;border-top:1px solid var(--border-subtle);padding-top:8px;margin-top:8px">' +
+      'Datos extraídos por OCR del PDF escaneado del Congreso. Las cifras pueden contener errores menores; consulta el PDF original arriba para verificación exacta.' +
       '</div>';
 
     return html;
@@ -255,14 +325,14 @@
       var html = '<div id="cong-shell">' +
         '<div class="patrimonio-header">' +
           '<h2>🏛️ Congresistas XV Legislatura</h2>' +
-          '<p class="pat-intro">Datos extraídos por OCR del <a href="https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-10.PDF" target="_blank" style="color:#2a9d8f">BOCG-15-D-10</a> (Boletín Oficial del Congreso, 15/09/2023). ' +
+          '<p class="pat-intro">Datos extraídos del <a href="https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-10.PDF" target="_blank" style="color:#2a9d8f">BOCG-15-D-10</a> (15/09/2023, PDF escaneado del Congreso) mediante OCR. ' +
           '<strong>339 diputados</strong> con declaración de bienes inicial. ' +
-          'Las cifras son aproximaciones agregadas: las exactas requieren consultar el PDF original. ' +
-          'Los nombres, grupos parlamentarios y números de expediente vienen del índice del propio BOCG (texto puro).</p>' +
+          'Los nombres y grupos parlamentarios vienen del índice del propio BOCG (alta fiabilidad). ' +
+          'Las cifras agregadas son aproximadas; el PDF original es la fuente exacta.</p>' +
         '</div>' +
         '<div class="stats" id="cong-stats"></div>' +
         '<div class="filtros-pat">' +
-          '<input type="text" id="cong-search" class="pat-buscador-input" placeholder="🔍 Buscar nombre, partido..." oninput="window.congresistasBuscar(this.value)" />' +
+          '<input type="text" id="cong-search" class="pat-buscador-input" placeholder="🔍 Buscar nombre, partido, circunscripción, descripción..." oninput="window.congresistasBuscar(this.value)" />' +
           '<div class="senado-filtros" id="cong-filtros"></div>' +
           '<div id="cong-orden-toggle"></div>' +
           '<div class="pat-filtros-contador" id="cong-contador" style="font-family:var(--font-mono);font-size:12px;color:var(--text-muted);margin-top:0.5rem"></div>' +
