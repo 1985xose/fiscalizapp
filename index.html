@@ -100,9 +100,160 @@ h1 {
   color: var(--text-muted); text-transform: uppercase;
   letter-spacing: 0.1em; margin-top: 2px;
 }
-.stat-card.cstat:hover {
-  background: var(--bg-surface) !important;
+/* === Selector de dataset (Patrimonios verificados / Senadores XV / Congresistas XV) === */
+.dataset-selector {
+  display: flex;
+  gap: 12px;
+  margin: 1rem 0 1.5rem 0;
+  flex-wrap: wrap;
+}
+.ds-btn {
+  flex: 1; min-width: 180px;
+  display: flex; align-items: center; gap: 10px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 2px;
+  padding: 14px 18px;
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: var(--font-mono);
+  color: var(--text-secondary);
+  text-align: left;
+}
+.ds-btn:hover:not(:disabled) {
+  border-color: rgba(230,57,70,0.3);
   transform: translateY(-1px);
+}
+.ds-btn.active {
+  border-color: var(--accent-red);
+  background: rgba(230,57,70,0.06);
+  color: var(--text-primary);
+  box-shadow: 0 0 12px rgba(230,57,70,0.15);
+}
+.ds-btn:disabled {
+  opacity: 0.5; cursor: not-allowed;
+}
+.ds-icon { font-size: 1.4rem; }
+.ds-label { flex: 1; font-size: 13px; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+.ds-count {
+  font-family: var(--font-display); font-size: 18px;
+  color: var(--accent-red); font-weight: 600;
+}
+.ds-btn:disabled .ds-count { color: var(--text-muted); font-size: 12px; }
+
+/* === Tarjeta de senador === */
+.senador-card {
+  background: var(--bg-card);
+  border-left: 3px solid var(--border-subtle);
+  border-radius: 2px;
+  padding: 14px 18px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.senador-card:hover { background: var(--bg-surface); }
+.senador-card[data-partido="PP"] { border-left-color: var(--accent-blue); }
+.senador-card[data-partido="PSOE"] { border-left-color: var(--accent-red); }
+.senador-card[data-partido="ERC-Bildu"] { border-left-color: var(--accent-amber); }
+.senador-card[data-partido="Junts-CC-BNG"] { border-left-color: var(--accent-orange); }
+.senador-card[data-partido="PNV"] { border-left-color: var(--accent-green); }
+.senador-card[data-partido="IzqConfederal"] { border-left-color: var(--accent-purple); }
+.senador-card[data-partido="Mixto"] { border-left-color: var(--text-secondary); }
+
+.senador-header {
+  display: flex; align-items: center; gap: 14px;
+}
+.senador-rank {
+  font-family: var(--font-display); font-size: 14px;
+  color: var(--text-muted); min-width: 32px;
+}
+.senador-info { flex: 1; min-width: 0; }
+.senador-info h4 {
+  font-family: var(--font-display); font-size: 16px;
+  margin: 0; color: var(--text-primary);
+}
+.senador-meta {
+  font-family: var(--font-mono); font-size: 11px;
+  color: var(--text-secondary); margin-top: 4px;
+  display: flex; gap: 10px; flex-wrap: wrap;
+}
+.senador-meta .partido-badge {
+  background: rgba(230,57,70,0.08); padding: 2px 8px;
+  border-radius: 2px; color: var(--text-secondary);
+}
+.senador-cifra {
+  font-family: var(--font-display); font-size: 18px;
+  color: #e9c46a; font-weight: 600; text-align: right;
+  min-width: 130px;
+}
+.senador-cifra .label {
+  display: block; font-size: 10px; color: var(--text-muted);
+  font-family: var(--font-mono); text-transform: uppercase; letter-spacing: 0.05em;
+}
+
+.senador-detalle {
+  display: none;
+  margin-top: 14px; padding-top: 14px;
+  border-top: 1px solid var(--border-subtle);
+  font-size: 13px; color: var(--text-secondary);
+}
+.senador-card.expanded .senador-detalle { display: block; }
+.det-bloque { margin-bottom: 12px; }
+.det-bloque h5 {
+  font-family: var(--font-mono); font-size: 11px;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--text-muted); margin: 0 0 6px 0;
+}
+.det-bloque ul { margin: 0; padding-left: 18px; }
+.det-bloque li { margin-bottom: 3px; }
+.det-num {
+  font-family: var(--font-display);
+  color: #e9c46a; font-weight: 600;
+}
+
+/* === Filtros de senado === */
+.senado-filtros {
+  display: flex; gap: 8px; flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.sen-filter-btn {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  padding: 6px 12px;
+  font-family: var(--font-mono); font-size: 12px;
+  cursor: pointer; border-radius: 2px;
+  transition: all 0.15s;
+}
+.sen-filter-btn:hover { border-color: rgba(230,57,70,0.3); }
+.sen-filter-btn.active {
+  background: rgba(230,57,70,0.08);
+  border-color: var(--accent-red);
+  color: var(--text-primary);
+}
+
+/* Toggle de orden */
+.senado-orden-toggle {
+  display: flex; gap: 0;
+  margin-bottom: 1rem;
+  border: 1px solid var(--border-subtle);
+  border-radius: 2px; overflow: hidden;
+  width: fit-content;
+}
+.orden-btn {
+  background: var(--bg-card);
+  border: none; border-right: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  padding: 8px 14px; cursor: pointer;
+  font-family: var(--font-mono); font-size: 12px;
+  letter-spacing: 0.04em; text-transform: uppercase;
+  transition: all 0.15s;
+}
+.orden-btn:last-child { border-right: none; }
+.orden-btn:hover { background: var(--bg-surface); }
+.orden-btn.active {
+  background: rgba(230,57,70,0.08);
+  color: var(--text-primary);
 }
 
 /* Stat cards clickables en CASOS DE CORRUPCIÓN */
@@ -656,9 +807,33 @@ h1 {
 
   <!-- SECCIÓN: PATRIMONIOS -->
   <section id="sec-patrimonios" style="display:none">
+    <div class="dataset-selector">
+      <button class="ds-btn active" data-dataset="verificados" onclick="changeDataset('verificados')">
+        <span class="ds-icon">🔍</span>
+        <span class="ds-label">Patrimonios verificados</span>
+        <span class="ds-count">16</span>
+      </button>
+      <button class="ds-btn" data-dataset="senadores" onclick="changeDataset('senadores')">
+        <span class="ds-icon">🏛️</span>
+        <span class="ds-label">Senadores XV</span>
+        <span class="ds-count">264</span>
+      </button>
+      <button class="ds-btn" disabled>
+        <span class="ds-icon">⏳</span>
+        <span class="ds-label">Congresistas XV</span>
+        <span class="ds-count">pendiente</span>
+      </button>
+    </div>
+
     <div id="patrimonios-container">
       <div class="section-placeholder">
         <h3>⏳ Cargando datos…</h3>
+      </div>
+    </div>
+
+    <div id="senadores-container" style="display:none">
+      <div class="section-placeholder">
+        <h3>⏳ Cargando 264 senadores…</h3>
       </div>
     </div>
   </section>
@@ -1044,8 +1219,27 @@ fetch("data/casos-corrupcion.json")
       </div>
     `;
   });
+
+// Cambio entre datasets dentro de la sección Patrimonios
+function changeDataset(ds) {
+  document.querySelectorAll('.ds-btn').forEach(b => b.classList.remove('active'));
+  const btn = document.querySelector(`.ds-btn[data-dataset="${ds}"]`);
+  if (btn) btn.classList.add('active');
+
+  const cPat = document.getElementById('patrimonios-container');
+  const cSen = document.getElementById('senadores-container');
+  if (ds === 'verificados') {
+    if (cPat) cPat.style.display = '';
+    if (cSen) cSen.style.display = 'none';
+  } else if (ds === 'senadores') {
+    if (cPat) cPat.style.display = 'none';
+    if (cSen) cSen.style.display = '';
+    if (window.renderSenadoresXV) window.renderSenadoresXV();
+  }
+}
 </script>
 <script src="js/contratos.js"></script>
 <script src="js/patrimonios.js"></script>
+<script src="js/senadores.js"></script>
 </body>
 </html>
