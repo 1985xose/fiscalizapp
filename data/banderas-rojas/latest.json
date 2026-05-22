@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-05-21T16:33:31",
+    "generado": "2026-05-22T16:03:05",
     "version": "3.0",
-    "contratos_analizados": 58622,
-    "menores": 29582,
-    "licitaciones": 29040,
+    "contratos_analizados": 62377,
+    "menores": 31686,
+    "licitaciones": 30691,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 21,
+    "total_flags": 24,
     "por_tipo": {
-      "fraccionamiento": 7,
+      "fraccionamiento": 8,
       "concentracion": 3,
       "patron_umbral": 3,
       "omnipresente": 0,
-      "negociado_reiterado": 2,
-      "umbral_europeo": 6
+      "negociado_reiterado": 3,
+      "umbral_europeo": 7
     },
-    "severidad_alta": 10,
-    "severidad_media": 11
+    "severidad_alta": 11,
+    "severidad_media": 13
   },
   "flags": [
     {
@@ -270,6 +270,39 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 8,
+      "adjudicatario": "BIO-RAD LABORATORIES,S.A.",
+      "organo": "Secretaría General del Instituto de Salud Carlos III",
+      "num_contratos": 3,
+      "importe_total": 105282.62,
+      "importe_medio": 35094.21,
+      "umbral_legal": 40000,
+      "descripcion": "3 contratos menores de obras entre 32,000€ y 40,000€ del mismo proveedor al mismo órgano. Total: 105,283€ (supera el umbral de 40,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "GG0283/2021",
+          "objeto": "Suministro de equipos para transferencia proteinas",
+          "importe": 32834.32,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VwFBn3oHbDjjHF5qKI4aaw%3D%3D"
+        },
+        {
+          "expediente": "GG0282/2021",
+          "objeto": "Suministro de 1 procesador de microplacas autonomo",
+          "importe": 38720.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=m4JeJ6cRM0TkY6rls5tG9A%3D%3D"
+        },
+        {
+          "expediente": "GG0265/2021",
+          "objeto": "Suminsitro de accesorios y repuestos para equipos de electroforesis de proteinas y acidos nucleicos",
+          "importe": 33728.3,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=uL3qsWfYYI5%2FP7lJ7Fu0SA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
       "adjudicatario": "MEPABI SL",
       "organo": "Concejalía Delegada del Área Específica de Turismo y Promoción de la Ciudad del Ayuntamiento de Málaga",
       "num_contratos": 3,
@@ -470,6 +503,32 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
+      "adjudicatario": "GRUPO DE INGENIERIA RECONSTRUCCION Y RECAMBIOS JPG SA",
+      "organo": "Jefatura de Asuntos Económicos del Mando de Apoyo Logístico",
+      "num_contratos": 2,
+      "importe_total": 250000.0,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 250,000€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "2026/ETSAE0906/00001972E",
+          "objeto": "Adquisicion Repuestos Anibal Lote 1",
+          "importe": 125000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=RLu7PV4zbtHyoM4us5k4vw%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0906/00001969E",
+          "objeto": "Mantenimiento y reparación conjuntos y subconjuntos ANIBAL Lote 1",
+          "importe": 125000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=J7Gtw%2FT7jptVkTabT%2FRM8A%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
       "adjudicatario": "EXCA OBRA PUBLICA S.L.",
       "organo": "Diputado delegado de Infraestructuras, Sostenibilidad y Agricultura",
       "num_contratos": 2,
@@ -575,6 +634,37 @@
       ]
     },
     {
+      "tipo": "negociado_reiterado",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 3,
+      "adjudicatario": "GRUPO DE INGENIERIA RECONSTRUCCION Y RECAMBIOS JPG SA",
+      "organo": "Jefatura de Asuntos Económicos del Mando de Apoyo Logístico",
+      "num_contratos": 3,
+      "importe_total": 175000.0,
+      "descripcion": "GRUPO DE INGENIERIA RECONSTRUCCION Y RECAMBIOS JPG SA gana 3 contratos por negociado sin publicidad del Jefatura de Asuntos Económicos del Mando de Apoyo Logístico por 175,000€. El negociado sin publicidad es para situaciones excepcionales — usarlo repetidamente con el mismo proveedor huele a adjudicación a dedo.",
+      "contratos": [
+        {
+          "expediente": "2026/ETSAE0906/00002045E",
+          "objeto": "Adquisición de repuestos de vehículos Nissan  lote 2 (Especifico)",
+          "importe": 7000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=6yy9RltH3aGcTfjQf3USOg%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0906/00002044E",
+          "objeto": "Adquisición de repuestos de vehículos Nissan Lote 1 (Comunes)",
+          "importe": 18000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=jmEAWKn7OCqcTfjQf3USOg%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0906/00002096E",
+          "objeto": "Adquisición repuestos IVECO LMV Lince",
+          "importe": 150000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=TypcYLkajBM%2B1TMyIiZmzw%3D%3D"
+        }
+      ]
+    },
+    {
       "tipo": "concentracion",
       "severidad": "media",
       "emoji": "🟡",
@@ -616,22 +706,22 @@
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Alcaldía del Ayuntamiento de Santa Cruz de La Palma",
-      "contratos_en_franja": 5,
-      "contratos_totales": 12,
-      "porcentaje": 41.7,
-      "proveedores_distintos": 4,
-      "descripcion": "Alcaldía del Ayuntamiento de Santa Cruz de La Palma: 5 de 12 menores (42%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 6,
+      "contratos_totales": 13,
+      "porcentaje": 46.2,
+      "proveedores_distintos": 5,
+      "descripcion": "Alcaldía del Ayuntamiento de Santa Cruz de La Palma: 6 de 13 menores (46%) entre 12,000-15,000€. 5 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
-      "contratos_en_franja": 38,
-      "contratos_totales": 75,
-      "porcentaje": 50.7,
-      "proveedores_distintos": 33,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 38 de 75 menores (51%) entre 12,000-15,000€. 33 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 40,
+      "contratos_totales": 78,
+      "porcentaje": 51.3,
+      "proveedores_distintos": 35,
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 40 de 78 menores (51%) entre 12,000-15,000€. 35 proveedores. Estadísticamente improbable sin intervención."
     }
   ]
 }
