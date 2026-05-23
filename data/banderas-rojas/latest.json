@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-05-22T16:03:05",
+    "generado": "2026-05-23T11:03:11",
     "version": "3.0",
-    "contratos_analizados": 62377,
-    "menores": 31686,
-    "licitaciones": 30691,
+    "contratos_analizados": 66535,
+    "menores": 34512,
+    "licitaciones": 32023,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -18,11 +18,11 @@
     "total_flags": 24,
     "por_tipo": {
       "fraccionamiento": 8,
-      "concentracion": 3,
+      "concentracion": 2,
       "patron_umbral": 3,
       "omnipresente": 0,
       "negociado_reiterado": 3,
-      "umbral_europeo": 7
+      "umbral_europeo": 8
     },
     "severidad_alta": 11,
     "severidad_media": 13
@@ -270,39 +270,6 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 8,
-      "adjudicatario": "BIO-RAD LABORATORIES,S.A.",
-      "organo": "Secretaría General del Instituto de Salud Carlos III",
-      "num_contratos": 3,
-      "importe_total": 105282.62,
-      "importe_medio": 35094.21,
-      "umbral_legal": 40000,
-      "descripcion": "3 contratos menores de obras entre 32,000€ y 40,000€ del mismo proveedor al mismo órgano. Total: 105,283€ (supera el umbral de 40,000€ que obligaría a licitar). Importes sospechosamente similares.",
-      "contratos": [
-        {
-          "expediente": "GG0283/2021",
-          "objeto": "Suministro de equipos para transferencia proteinas",
-          "importe": 32834.32,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VwFBn3oHbDjjHF5qKI4aaw%3D%3D"
-        },
-        {
-          "expediente": "GG0282/2021",
-          "objeto": "Suministro de 1 procesador de microplacas autonomo",
-          "importe": 38720.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=m4JeJ6cRM0TkY6rls5tG9A%3D%3D"
-        },
-        {
-          "expediente": "GG0265/2021",
-          "objeto": "Suminsitro de accesorios y repuestos para equipos de electroforesis de proteinas y acidos nucleicos",
-          "importe": 33728.3,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=uL3qsWfYYI5%2FP7lJ7Fu0SA%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 8,
       "adjudicatario": "MEPABI SL",
       "organo": "Concejalía Delegada del Área Específica de Turismo y Promoción de la Ciudad del Ayuntamiento de Málaga",
       "num_contratos": 3,
@@ -328,6 +295,39 @@
           "objeto": "Ejecución de obras para reforma de interior de la redistribución funcional de espacios en la oficina municipal de turismo de Plaza de la Marina”",
           "importe": 36253.74,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2B6zfQB1h0HZQFSeKCRun4Q%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "BIO-RAD LABORATORIES,S.A.",
+      "organo": "Secretaría General del Instituto de Salud Carlos III",
+      "num_contratos": 3,
+      "importe_total": 105282.62,
+      "importe_medio": 35094.21,
+      "umbral_legal": 40000,
+      "descripcion": "3 contratos menores de obras entre 32,000€ y 40,000€ del mismo proveedor al mismo órgano. Total: 105,283€ (supera el umbral de 40,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "GG0283/2021",
+          "objeto": "Suministro de equipos para transferencia proteinas",
+          "importe": 32834.32,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VwFBn3oHbDjjHF5qKI4aaw%3D%3D"
+        },
+        {
+          "expediente": "GG0282/2021",
+          "objeto": "Suministro de 1 procesador de microplacas autonomo",
+          "importe": 38720.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=m4JeJ6cRM0TkY6rls5tG9A%3D%3D"
+        },
+        {
+          "expediente": "GG0265/2021",
+          "objeto": "Suminsitro de accesorios y repuestos para equipos de electroforesis de proteinas y acidos nucleicos",
+          "importe": 33728.3,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=uL3qsWfYYI5%2FP7lJ7Fu0SA%3D%3D"
         }
       ]
     },
@@ -581,6 +581,32 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
+      "adjudicatario": "ELECTROFIL OESTE DISTRIBUCIÓN SL",
+      "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
+      "num_contratos": 2,
+      "importe_total": 232811.3,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 232,811€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "TSA0082597",
+          "objeto": "Suministro de módulo fotovoltaico, optimizadores, inversores y sistema de monitorización y control para la obra \"Proyectos de Instalación Fotovoltaica en Instalaciones de Saneamiento, Depuración, Desalación y Abastecimiento de Titularidad Estatal. Lote 3. Cuencas Intracomunitarias\". Plan de Recuperación, Transformación y Resiliencia-financiado por la Unión Europea-NEXTGENERATION EU",
+          "importe": 120746.87,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=cjnrpeCvWWfjHF5qKI4aaw%3D%3D"
+        },
+        {
+          "expediente": "TSA0081560",
+          "objeto": "Suministro de materiales para canalizaciones eléctricas para las obras de adecuación medioambiental del Parque de Polvorines (Toledo), en el marco del PRTR",
+          "importe": 112064.43,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ZPX0eUPC8d3XOjazN1Dw9Q%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
       "adjudicatario": "ALJIBE CONSULTORES, S.L.",
       "organo": "Presidencia de la Diputación Provincial de Alicante",
       "num_contratos": 2,
@@ -668,19 +694,6 @@
       "tipo": "concentracion",
       "severidad": "media",
       "emoji": "🟡",
-      "adjudicatario": "VICARIO PALACIOS,Mª PILAR",
-      "organo": "Gerencia de Salud de Área de Burgos",
-      "contratos_proveedor": 17,
-      "contratos_totales": 19,
-      "porcentaje_contratos": 89.5,
-      "importe_proveedor": 8280.0,
-      "porcentaje_importe": 52.7,
-      "descripcion": "VICARIO PALACIOS,Mª PILAR gana 17 de 19 contratos (89%) del Gerencia de Salud de Área de Burgos, 8,280€ de 15,700€ (53%). ¿Proveedor único justificado o cautividad?"
-    },
-    {
-      "tipo": "concentracion",
-      "severidad": "media",
-      "emoji": "🟡",
       "adjudicatario": "INFOTELECOM NETWORKS, SL",
       "organo": "Consejería Delegada de Servicios Informáticos Local de Menorca, S.A.",
       "contratos_proveedor": 12,
@@ -718,10 +731,10 @@
       "emoji": "🟡",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
       "contratos_en_franja": 40,
-      "contratos_totales": 78,
-      "porcentaje": 51.3,
+      "contratos_totales": 82,
+      "porcentaje": 48.8,
       "proveedores_distintos": 35,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 40 de 78 menores (51%) entre 12,000-15,000€. 35 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 40 de 82 menores (49%) entre 12,000-15,000€. 35 proveedores. Estadísticamente improbable sin intervención."
     }
   ]
 }
