@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-05-23T11:03:11",
+    "generado": "2026-05-24T11:03:13",
     "version": "3.0",
-    "contratos_analizados": 66535,
-    "menores": 34512,
-    "licitaciones": 32023,
+    "contratos_analizados": 68333,
+    "menores": 36268,
+    "licitaciones": 32065,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
