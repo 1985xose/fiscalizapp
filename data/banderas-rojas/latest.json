@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-05-25T16:11:18",
+    "generado": "2026-05-26T17:50:51",
     "version": "3.0",
-    "contratos_analizados": 68524,
-    "menores": 36344,
-    "licitaciones": 32180,
+    "contratos_analizados": 71286,
+    "menores": 37768,
+    "licitaciones": 33518,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 24,
+    "total_flags": 26,
     "por_tipo": {
-      "fraccionamiento": 8,
+      "fraccionamiento": 9,
       "concentracion": 2,
       "patron_umbral": 3,
       "omnipresente": 0,
       "negociado_reiterado": 3,
-      "umbral_europeo": 8
+      "umbral_europeo": 9
     },
-    "severidad_alta": 11,
-    "severidad_media": 13
+    "severidad_alta": 12,
+    "severidad_media": 14
   },
   "flags": [
     {
@@ -365,6 +365,39 @@
       ]
     },
     {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "CENTRO RURAL JOVEN VIDA",
+      "organo": "Consejería de Salud y Atención a la Dependencia",
+      "num_contratos": 3,
+      "importe_total": 43320.0,
+      "importe_medio": 14440.0,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 43,320€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "PRM/2026/0000058164",
+          "objeto": "Contrato de 8 plazas en un hogar semiautónomo en la localidad de Badajoz, destinadas a menores/jóvenes pertenecientes al sistema de protección de la Comunidad Autónoma de Extremadura, para el periodo comprendido entre el 8 y el 26 de mayo de 2026, ambos inclusive.",
+          "importe": 14440.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XGyRWCj9xzvmnwcj%2BxbdTg%3D%3D"
+        },
+        {
+          "expediente": "PRM/2026/0000058136",
+          "objeto": "Contrato de 8 Plazas en un hogar semiautónomo en la localidad de Cáceres, destinadas a Menores/Jóvenes pertenecientes al Sistema de Protección de la Comunidad Autónoma de Extremadura, para el periodo comprendido entre el 8 y el 26 de mayo de 2026, ambos inclusive.",
+          "importe": 14440.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=kJnacPec6t5%2FP7lJ7Fu0SA%3D%3D"
+        },
+        {
+          "expediente": "PRM/2026/0000063312",
+          "objeto": "Contrato de 8 plazas en un hogar semiautónomo en la localidad de Cáceres, destinadas a Menores/Jóvenes pertenecientes al Sistema de Protección de la Comunidad Autónoma de Extremadura, para el periodo comprendido entre el 27 de mayo y el 14 de junio de 2026, ambos inclusive.",
+          "importe": 14440.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=mSKy1FO4Hed4zIRvjBVCSw%3D%3D"
+        }
+      ]
+    },
+    {
       "tipo": "umbral_europeo",
       "severidad": "alta",
       "emoji": "🔴",
@@ -445,6 +478,43 @@
       "importe_proveedor": 100369.5,
       "porcentaje_importe": 100.0,
       "descripcion": "INBONIS SA gana 5 de 5 contratos (100%) del Dirección General de Comercio Internacional e Inversiones, 100,370€ de 100,370€ (100%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "negociado_reiterado",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "Repsol Soluciones Energéticas, S.A.",
+      "organo": "Subdirección General de Servicios Económicos y Pagadurías",
+      "num_contratos": 4,
+      "importe_total": 105340.0,
+      "descripcion": "Repsol Soluciones Energéticas, S.A. gana 4 contratos por negociado sin publicidad del Subdirección General de Servicios Económicos y Pagadurías por 105,340€. El negociado sin publicidad es para situaciones excepcionales — usarlo repetidamente con el mismo proveedor huele a adjudicación a dedo.",
+      "contratos": [
+        {
+          "expediente": "2026/SP01010020/00000228E",
+          "objeto": "Suministro combustible tipo B agrícola para los Centros Militares Cría Caballar.",
+          "importe": 16500.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=MuxciCvI%2BDZq1DdmE7eaXg%3D%3D"
+        },
+        {
+          "expediente": "2026/SP01010020/00000225E",
+          "objeto": "Suministro de combustible tipo C para Delegaciones de Defensa, ESPEMI Y ESDIMI.",
+          "importe": 63000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=1AAcU4B7297yoM4us5k4vw%3D%3D"
+        },
+        {
+          "expediente": "2026/SP01010020/00000227E",
+          "objeto": "Suministro de combustible tipo C para los Centros Militares Cría Caballar.",
+          "importe": 21000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=H39UVlAba1d%2FP7lJ7Fu0SA%3D%3D"
+        },
+        {
+          "expediente": "2026/SP01010020/00000338E",
+          "objeto": "Suministro de gasóleo B en edificios dependientes de la Subdirección General de Régimen Interior.",
+          "importe": 4840.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9VLZrtINAREUqXM96WStVA%3D%3D"
+        }
+      ]
     },
     {
       "tipo": "umbral_europeo",
@@ -581,6 +651,32 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
+      "adjudicatario": "INSTALACIONES ELECTRICAS ADRIAN SL",
+      "organo": "Junta de Gobierno Local del Ayuntamiento de Ávila",
+      "num_contratos": 2,
+      "importe_total": 254142.67,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 254,143€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "64/2025",
+          "objeto": "Renovación del alumbrado público-luminarias.",
+          "importe": 118499.83,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ghQHXj6Df%2FjECtSnloz%2BZQ%3D%3D"
+        },
+        {
+          "expediente": "68/2025",
+          "objeto": "Se trata de una actuación que pretende garantizar que la instalación eléctrica de las dependencias del Complejo, Polideportivo, Estadio Municipal “Adolfo Suárez”, Campo de tierra, Plaza de Toros, zona de casetas feriantes, vivero municipal y antena de telecomunicaciones, se ajusten al Decreto 2413/1973, de 20 de septiembre, por el que se aprueba el Reglamento Electrotécnico de Baja Tensión",
+          "importe": 135642.84,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9P0bfRnRvKk36J9Lctlsuw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
       "adjudicatario": "ELECTROFIL OESTE DISTRIBUCIÓN SL",
       "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
       "num_contratos": 2,
@@ -625,37 +721,6 @@
           "objeto": "Servicio de creación de gemelos digitales municipales con la aplicación DIANA, vinculado al Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea- NextGeneration EU. Lote 1: Marina Alta (costa).",
           "importe": 138169.3,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=d4OQi8bSJT8%2B1TMyIiZmzw%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "negociado_reiterado",
-      "severidad": "media",
-      "emoji": "🟡",
-      "score": 3,
-      "adjudicatario": "Repsol Soluciones Energéticas, S.A.",
-      "organo": "Subdirección General de Servicios Económicos y Pagadurías",
-      "num_contratos": 3,
-      "importe_total": 100500.0,
-      "descripcion": "Repsol Soluciones Energéticas, S.A. gana 3 contratos por negociado sin publicidad del Subdirección General de Servicios Económicos y Pagadurías por 100,500€. El negociado sin publicidad es para situaciones excepcionales — usarlo repetidamente con el mismo proveedor huele a adjudicación a dedo.",
-      "contratos": [
-        {
-          "expediente": "2026/SP01010020/00000228E",
-          "objeto": "Suministro combustible tipo B agrícola para los Centros Militares Cría Caballar.",
-          "importe": 16500.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=MuxciCvI%2BDZq1DdmE7eaXg%3D%3D"
-        },
-        {
-          "expediente": "2026/SP01010020/00000225E",
-          "objeto": "Suministro de combustible tipo C para Delegaciones de Defensa, ESPEMI Y ESDIMI.",
-          "importe": 63000.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=1AAcU4B7297yoM4us5k4vw%3D%3D"
-        },
-        {
-          "expediente": "2026/SP01010020/00000227E",
-          "objeto": "Suministro de combustible tipo C para los Centros Militares Cría Caballar.",
-          "importe": 21000.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=H39UVlAba1d%2FP7lJ7Fu0SA%3D%3D"
         }
       ]
     },
