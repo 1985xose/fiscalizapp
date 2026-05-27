@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-05-26T17:50:51",
+    "generado": "2026-05-27T17:47:10",
     "version": "3.0",
-    "contratos_analizados": 71286,
-    "menores": 37768,
-    "licitaciones": 33518,
+    "contratos_analizados": 74789,
+    "menores": 39855,
+    "licitaciones": 34934,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -472,12 +472,12 @@
       "emoji": "🔴",
       "adjudicatario": "INBONIS SA",
       "organo": "Dirección General de Comercio Internacional e Inversiones",
-      "contratos_proveedor": 5,
-      "contratos_totales": 5,
+      "contratos_proveedor": 6,
+      "contratos_totales": 6,
       "porcentaje_contratos": 100.0,
-      "importe_proveedor": 100369.5,
+      "importe_proveedor": 123541.0,
       "porcentaje_importe": 100.0,
-      "descripcion": "INBONIS SA gana 5 de 5 contratos (100%) del Dirección General de Comercio Internacional e Inversiones, 100,370€ de 100,370€ (100%). ¿Proveedor único justificado o cautividad?"
+      "descripcion": "INBONIS SA gana 6 de 6 contratos (100%) del Dirección General de Comercio Internacional e Inversiones, 123,541€ de 123,541€ (100%). ¿Proveedor único justificado o cautividad?"
     },
     {
       "tipo": "negociado_reiterado",
