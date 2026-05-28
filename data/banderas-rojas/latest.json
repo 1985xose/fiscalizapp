@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-05-27T17:47:10",
+    "generado": "2026-05-28T17:57:50",
     "version": "3.0",
-    "contratos_analizados": 74789,
-    "menores": 39855,
-    "licitaciones": 34934,
+    "contratos_analizados": 78360,
+    "menores": 41665,
+    "licitaciones": 36695,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,16 +15,16 @@
     ]
   },
   "stats": {
-    "total_flags": 26,
+    "total_flags": 27,
     "por_tipo": {
-      "fraccionamiento": 9,
+      "fraccionamiento": 10,
       "concentracion": 2,
       "patron_umbral": 3,
       "omnipresente": 0,
       "negociado_reiterado": 3,
       "umbral_europeo": 9
     },
-    "severidad_alta": 12,
+    "severidad_alta": 13,
     "severidad_media": 14
   },
   "flags": [
@@ -269,6 +269,45 @@
       "tipo": "fraccionamiento",
       "severidad": "alta",
       "emoji": "🔴",
+      "score": 9,
+      "adjudicatario": "SULO",
+      "organo": "Junta de Gobierno del Ayuntamiento de Vélez-Málaga",
+      "num_contratos": 4,
+      "importe_total": 55696.47,
+      "importe_medio": 13924.12,
+      "umbral_legal": 15000,
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 55,696€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "AVM.MEN-2026000258",
+          "objeto": "Suministro de contenedores en superficie vía pública de 800L para la recogida de biorresiduos",
+          "importe": 12650.02,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=59seLHChPj6S81gZFETWmA%3D%3D"
+        },
+        {
+          "expediente": "AVM.MEN-2026000259",
+          "objeto": "Suministro de contenedores  en superficie vía pública de 1.100L para la recogida de biorresiduos.",
+          "importe": 13441.58,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VWP7bjxMJvXjHF5qKI4aaw%3D%3D"
+        },
+        {
+          "expediente": "AVM.MEN-2026000314",
+          "objeto": "Suministro de cubos domésticos aireados de 10L",
+          "importe": 14800.96,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=yOETOElm6WszjChw4z%2FXvw%3D%3D"
+        },
+        {
+          "expediente": "AVM.MEN-2026000289",
+          "objeto": "Suministro de rollos de bolsas compostables para uso doméstico de 10L",
+          "importe": 14803.91,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=TCk2blTbZ%2F3CfVQHDepjGQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
       "score": 8,
       "adjudicatario": "MEPABI SL",
       "organo": "Concejalía Delegada del Área Específica de Turismo y Promoción de la Ciudad del Ayuntamiento de Málaga",
@@ -401,14 +440,20 @@
       "tipo": "umbral_europeo",
       "severidad": "alta",
       "emoji": "🔴",
-      "score": 6,
+      "score": 8,
       "adjudicatario": "DISHOSPAC SL",
       "organo": "Paradores de Turismo de España, S.M.E., S.A.",
-      "num_contratos": 3,
-      "importe_total": 345240.5,
+      "num_contratos": 4,
+      "importe_total": 462044.0,
       "umbral_legal": 140000,
-      "descripcion": "3 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 345,240€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "descripcion": "4 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 462,044€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
       "contratos": [
+        {
+          "expediente": "PESCADOS RULA DE AVILES PT CANGAS 28 05 03 06 26",
+          "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 28 de mayo al 03 de junio de 2026.",
+          "importe": 116803.5,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=lSl4vwjMQk5QFSeKCRun4Q%3D%3D"
+        },
         {
           "expediente": "PESCADOS RULA DE AVILES PT CANGAS 07 05 13 05 26",
           "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 07 de mayo al 13 de mayo de 2026.",
