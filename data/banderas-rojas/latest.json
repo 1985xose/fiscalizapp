@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-05-28T17:57:50",
+    "generado": "2026-05-29T18:02:10",
     "version": "3.0",
-    "contratos_analizados": 78360,
-    "menores": 41665,
-    "licitaciones": 36695,
+    "contratos_analizados": 81585,
+    "menores": 43410,
+    "licitaciones": 38175,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -18,8 +18,8 @@
     "total_flags": 27,
     "por_tipo": {
       "fraccionamiento": 10,
-      "concentracion": 2,
-      "patron_umbral": 3,
+      "concentracion": 1,
+      "patron_umbral": 4,
       "omnipresente": 0,
       "negociado_reiterado": 3,
       "umbral_europeo": 9
@@ -449,12 +449,6 @@
       "descripcion": "4 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 462,044€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
       "contratos": [
         {
-          "expediente": "PESCADOS RULA DE AVILES PT CANGAS 28 05 03 06 26",
-          "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 28 de mayo al 03 de junio de 2026.",
-          "importe": 116803.5,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=lSl4vwjMQk5QFSeKCRun4Q%3D%3D"
-        },
-        {
           "expediente": "PESCADOS RULA DE AVILES PT CANGAS 07 05 13 05 26",
           "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 07 de mayo al 13 de mayo de 2026.",
           "importe": 116473.5,
@@ -471,6 +465,12 @@
           "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 21 de mayo al 27 de mayo de 2026.",
           "importe": 113965.5,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9ESr61H061AeIBJRHQiPkQ%3D%3D"
+        },
+        {
+          "expediente": "PESCADOS RULA DE AVILES PT CANGAS 28 05 03 06 26",
+          "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 28 de mayo al 03 de junio de 2026.",
+          "importe": 116803.5,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=lSl4vwjMQk5QFSeKCRun4Q%3D%3D"
         }
       ]
     },
@@ -801,19 +801,6 @@
       ]
     },
     {
-      "tipo": "concentracion",
-      "severidad": "media",
-      "emoji": "🟡",
-      "adjudicatario": "INFOTELECOM NETWORKS, SL",
-      "organo": "Consejería Delegada de Servicios Informáticos Local de Menorca, S.A.",
-      "contratos_proveedor": 12,
-      "contratos_totales": 15,
-      "porcentaje_contratos": 80.0,
-      "importe_proveedor": 9791.32,
-      "porcentaje_importe": 9.3,
-      "descripcion": "INFOTELECOM NETWORKS, SL gana 12 de 15 contratos (80%) del Consejería Delegada de Servicios Informáticos Local de Menorca, S.A., 9,791€ de 105,439€ (9%). ¿Proveedor único justificado o cautividad?"
-    },
-    {
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
@@ -845,6 +832,17 @@
       "porcentaje": 48.8,
       "proveedores_distintos": 35,
       "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 40 de 82 menores (49%) entre 12,000-15,000€. 35 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Dirección General de Deportes Autóctonos del Gobierno de Canarias",
+      "contratos_en_franja": 4,
+      "contratos_totales": 10,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 4,
+      "descripcion": "Dirección General de Deportes Autóctonos del Gobierno de Canarias: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
     }
   ]
 }
