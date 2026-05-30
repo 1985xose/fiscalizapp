@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-05-29T18:02:10",
+    "generado": "2026-05-30T11:09:03",
     "version": "3.0",
-    "contratos_analizados": 81585,
+    "contratos_analizados": 82884,
     "menores": 43410,
-    "licitaciones": 38175,
+    "licitaciones": 39474,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 27,
+    "total_flags": 28,
     "por_tipo": {
       "fraccionamiento": 10,
       "concentracion": 1,
       "patron_umbral": 4,
       "omnipresente": 0,
       "negociado_reiterado": 3,
-      "umbral_europeo": 9
+      "umbral_europeo": 10
     },
     "severidad_alta": 13,
-    "severidad_media": 14
+    "severidad_media": 15
   },
   "flags": [
     {
@@ -662,6 +662,32 @@
           "objeto": "Contratación de las obras de mejora del camino de La Pista del 4, en Villanueva del Duque (Córdoba). Obra incluida en el Plan de Humanización de Entornos Urbanos y Agenda Rural 2024-2027 (Plan Agenda Rural, bienio 2026-2027).",
           "importe": 128733.07,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=K%2F2Y2I84btnN3k3tjedSGw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "DIEGO MORENO RUIZ",
+      "organo": "Alcaldía del Ayuntamiento de Jimena",
+      "num_contratos": 2,
+      "importe_total": 249624.66,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 249,625€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "89/2026",
+          "objeto": "Refuerzo mediante pilotes de la Calle García Lorca",
+          "importe": 128922.56,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=dyXvDf4tbl%2BS81gZFETWmA%3D%3D"
+        },
+        {
+          "expediente": "171/2026",
+          "objeto": "Mejora de la envolvente térmica, aseos y sala de lectura de la Biblioteca Municipal",
+          "importe": 120702.1,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2FBWtFqs4gnIl5NjlNci%2BtA%3D%3D"
         }
       ]
     },
