@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-06-02T19:04:42",
+    "generado": "2026-06-03T20:03:12",
     "version": "3.0",
-    "contratos_analizados": 7931,
-    "menores": 4806,
-    "licitaciones": 3125,
+    "contratos_analizados": 12522,
+    "menores": 6410,
+    "licitaciones": 6112,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,32 +15,19 @@
     ]
   },
   "stats": {
-    "total_flags": 3,
+    "total_flags": 5,
     "por_tipo": {
       "fraccionamiento": 0,
-      "concentracion": 2,
+      "concentracion": 3,
       "patron_umbral": 0,
       "omnipresente": 0,
       "negociado_reiterado": 0,
-      "umbral_europeo": 1
+      "umbral_europeo": 2
     },
-    "severidad_alta": 2,
-    "severidad_media": 1
+    "severidad_alta": 3,
+    "severidad_media": 2
   },
   "flags": [
-    {
-      "tipo": "concentracion",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "adjudicatario": "ENDESA ENERGÍA S.L.",
-      "organo": "Alcaldia del Ayuntamiento de Paradas",
-      "contratos_proveedor": 34,
-      "contratos_totales": 34,
-      "porcentaje_contratos": 100.0,
-      "importe_proveedor": 8458.53,
-      "porcentaje_importe": 100.0,
-      "descripcion": "ENDESA ENERGÍA S.L. gana 34 de 34 contratos (100%) del Alcaldia del Ayuntamiento de Paradas, 8,459€ de 8,459€ (100%). ¿Proveedor único justificado o cautividad?"
-    },
     {
       "tipo": "concentracion",
       "severidad": "alta",
@@ -53,6 +40,32 @@
       "importe_proveedor": 19374.25,
       "porcentaje_importe": 91.5,
       "descripcion": "LASAOSA PRODUCTOS QUIMICOS SL gana 4 de 5 contratos (80%) del Alcaldía del Ayuntamiento de Sariñena, 19,374€ de 21,177€ (91%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "concentracion",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "adjudicatario": "GARCIA PEREZ,IDOIA",
+      "organo": "Gerencia de Salud de Área de Burgos",
+      "contratos_proveedor": 15,
+      "contratos_totales": 15,
+      "porcentaje_contratos": 100.0,
+      "importe_proveedor": 8254.63,
+      "porcentaje_importe": 100.0,
+      "descripcion": "GARCIA PEREZ,IDOIA gana 15 de 15 contratos (100%) del Gerencia de Salud de Área de Burgos, 8,255€ de 8,255€ (100%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "concentracion",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "adjudicatario": "Empresa de Transformación Agraria, S.A., S.M.E., M.P.",
+      "organo": "Secretaría de Estado de Migraciones",
+      "contratos_proveedor": 7,
+      "contratos_totales": 7,
+      "porcentaje_contratos": 100.0,
+      "importe_proveedor": 35432243.73,
+      "porcentaje_importe": 100.0,
+      "descripcion": "Empresa de Transformación Agraria, S.A., S.M.E., M.P. gana 7 de 7 contratos (100%) del Secretaría de Estado de Migraciones, 35,432,244€ de 35,432,244€ (100%). ¿Proveedor único justificado o cautividad?"
     },
     {
       "tipo": "umbral_europeo",
@@ -77,6 +90,32 @@
           "objeto": "Adquisición cartucho 7,62 mm fogueo plástico Lote 5",
           "importe": 130843.35,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=62pUlsGsx8HVGIpKDxgsAQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "GAMMA MERKAMAT, S.L",
+      "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
+      "num_contratos": 2,
+      "importe_total": 233355.09,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 233,355€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "TSA0083271",
+          "objeto": "Suministro de materiales en el acondicionamiento de parcelas agrícolas en los municipios afectados por la DANA 2024 en el Municipio de Chiva.",
+          "importe": 116354.02,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=BmQfjBUc2uK2gkLQ8TeYKA%3D%3D"
+        },
+        {
+          "expediente": "TSA0083272",
+          "objeto": "Suministro de materiales en el acondicionamiento de parcelas agrícolas en los municipios afectados por la DANA 2024 en el Municipio de Llíria.",
+          "importe": 117001.07,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Y%2F5maXOGXl7LIx6q1oPaMg%3D%3D"
         }
       ]
     }
