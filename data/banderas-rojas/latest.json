@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-06-04T16:40:38",
+    "generado": "2026-06-05T16:19:03",
     "version": "3.0",
-    "contratos_analizados": 16992,
-    "menores": 7936,
-    "licitaciones": 9056,
+    "contratos_analizados": 0,
+    "menores": 0,
+    "licitaciones": 0,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,122 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 5,
+    "total_flags": 0,
     "por_tipo": {
       "fraccionamiento": 0,
-      "concentracion": 2,
+      "concentracion": 0,
       "patron_umbral": 0,
       "omnipresente": 0,
       "negociado_reiterado": 0,
-      "umbral_europeo": 3
+      "umbral_europeo": 0
     },
-    "severidad_alta": 2,
-    "severidad_media": 3
+    "severidad_alta": 0,
+    "severidad_media": 0
   },
-  "flags": [
-    {
-      "tipo": "concentracion",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "adjudicatario": "LASAOSA PRODUCTOS QUIMICOS SL",
-      "organo": "Alcaldía del Ayuntamiento de Sariñena",
-      "contratos_proveedor": 4,
-      "contratos_totales": 5,
-      "porcentaje_contratos": 80.0,
-      "importe_proveedor": 19374.25,
-      "porcentaje_importe": 91.5,
-      "descripcion": "LASAOSA PRODUCTOS QUIMICOS SL gana 4 de 5 contratos (80%) del Alcaldía del Ayuntamiento de Sariñena, 19,374€ de 21,177€ (91%). ¿Proveedor único justificado o cautividad?"
-    },
-    {
-      "tipo": "concentracion",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "adjudicatario": "GARCIA PEREZ,IDOIA",
-      "organo": "Gerencia de Salud de Área de Burgos",
-      "contratos_proveedor": 15,
-      "contratos_totales": 15,
-      "porcentaje_contratos": 100.0,
-      "importe_proveedor": 8254.63,
-      "porcentaje_importe": 100.0,
-      "descripcion": "GARCIA PEREZ,IDOIA gana 15 de 15 contratos (100%) del Gerencia de Salud de Área de Burgos, 8,255€ de 8,255€ (100%). ¿Proveedor único justificado o cautividad?"
-    },
-    {
-      "tipo": "umbral_europeo",
-      "severidad": "media",
-      "emoji": "🟡",
-      "score": 4,
-      "adjudicatario": "ALTEN SOLUCIONES PRODUCTOS AUDITORIAE INGENIERÍA, S.A.U.",
-      "organo": "Consejería de Agricultura, Ganadería y Desarrollo Rural de la Junta de Castilla y León",
-      "num_contratos": 2,
-      "importe_total": 272685.6,
-      "umbral_legal": 140000,
-      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 272,686€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
-      "contratos": [
-        {
-          "expediente": "D2026/001519",
-          "objeto": "Adaptación de la aplicación MOEX, para la tramitación, informes, propuesta y resolución de las líneas PEPAC 2023-2027, convocatorias 2026 y 2027.",
-          "importe": 136342.8,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=EBtN4jzVe575Rey58Yagpg%3D%3D"
-        },
-        {
-          "expediente": "D2026/001518",
-          "objeto": "Ejecución de las tareas de desarrollo, mantenimiento adaptativo y correctivo de las funcionalidades de la aplicación SEQUÍA 2023, y desarrollo de nuevas funcionalidades asociadas.",
-          "importe": 136342.8,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=OV8%2BRAIuvBf10HRJw8TEnQ%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "umbral_europeo",
-      "severidad": "media",
-      "emoji": "🟡",
-      "score": 4,
-      "adjudicatario": "DESIGN DEFENSE SLU",
-      "organo": "Jefatura de Asuntos Económicos del Mando de Apoyo Logístico",
-      "num_contratos": 2,
-      "importe_total": 251250.45,
-      "umbral_legal": 140000,
-      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 251,250€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
-      "contratos": [
-        {
-          "expediente": "2026/ETSAE0906/00001877E",
-          "objeto": "Adquisición cartucho 7,62 mm fogueo plástico Lote 5",
-          "importe": 120407.1,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=cXiqNG6u1DoIYE3ZiZ%2BxmQ%3D%3D"
-        },
-        {
-          "expediente": "2026/ETSAE0906/00001876E",
-          "objeto": "Adquisición cartucho 7,62 mm fogueo plástico Lote 5",
-          "importe": 130843.35,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=62pUlsGsx8HVGIpKDxgsAQ%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "umbral_europeo",
-      "severidad": "media",
-      "emoji": "🟡",
-      "score": 4,
-      "adjudicatario": "GAMMA MERKAMAT, S.L",
-      "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
-      "num_contratos": 2,
-      "importe_total": 233355.09,
-      "umbral_legal": 140000,
-      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 233,355€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
-      "contratos": [
-        {
-          "expediente": "TSA0083271",
-          "objeto": "Suministro de materiales en el acondicionamiento de parcelas agrícolas en los municipios afectados por la DANA 2024 en el Municipio de Chiva.",
-          "importe": 116354.02,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=BmQfjBUc2uK2gkLQ8TeYKA%3D%3D"
-        },
-        {
-          "expediente": "TSA0083272",
-          "objeto": "Suministro de materiales en el acondicionamiento de parcelas agrícolas en los municipios afectados por la DANA 2024 en el Municipio de Llíria.",
-          "importe": 117001.07,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Y%2F5maXOGXl7LIx6q1oPaMg%3D%3D"
-        }
-      ]
-    }
-  ]
+  "flags": []
 }
