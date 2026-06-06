@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-06-05T16:19:03",
+    "generado": "2026-06-06T11:25:49",
     "version": "3.0",
-    "contratos_analizados": 0,
-    "menores": 0,
-    "licitaciones": 0,
+    "contratos_analizados": 24628,
+    "menores": 11085,
+    "licitaciones": 13543,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,224 @@
     ]
   },
   "stats": {
-    "total_flags": 0,
+    "total_flags": 9,
     "por_tipo": {
-      "fraccionamiento": 0,
-      "concentracion": 0,
-      "patron_umbral": 0,
+      "fraccionamiento": 1,
+      "concentracion": 2,
+      "patron_umbral": 1,
       "omnipresente": 0,
       "negociado_reiterado": 0,
-      "umbral_europeo": 0
+      "umbral_europeo": 5
     },
-    "severidad_alta": 0,
-    "severidad_media": 0
+    "severidad_alta": 2,
+    "severidad_media": 7
   },
-  "flags": []
+  "flags": [
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 9,
+      "adjudicatario": "MEDISCAN EQUIPAMIENTOS MEDICOS, S.L.",
+      "organo": "Gerencia de la Fundación para el Fomento de la Investigación Sanitaria y Biomédica de la Comunitat Valenciana (FISABIO)",
+      "num_contratos": 4,
+      "importe_total": 57983.2,
+      "importe_medio": 14495.8,
+      "umbral_legal": 15000,
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 57,983€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "CMENOR/2026/FISAB/0095",
+          "objeto": "Suministro de sistema mapa y onda de pulso pwa 24 horas",
+          "importe": 14495.8,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=T%2Fg8f2cGdVmIzo3LHNPGcQ%3D%3D"
+        },
+        {
+          "expediente": "CMENOR/2026/FISAB/0094",
+          "objeto": "Suministro de sistema mapa y onda de pulso pwa 24 horas",
+          "importe": 14495.8,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Drpx%2BvGujF1%2FP7lJ7Fu0SA%3D%3D"
+        },
+        {
+          "expediente": "CMENOR/2026/FISAB/0093",
+          "objeto": "Suministro de sistema mapa y onda de pulso pwa 24 horas",
+          "importe": 14495.8,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=j4in2pt1uiQ%2B1TMyIiZmzw%3D%3D"
+        },
+        {
+          "expediente": "CMENOR/2026/FISAB/0092",
+          "objeto": "Suministro de sistema mapa y onda de pulso pwa 24 horas",
+          "importe": 14495.8,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=oetXoRQqGcaFlFRHfEzEaw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "concentracion",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "adjudicatario": "LASAOSA PRODUCTOS QUIMICOS SL",
+      "organo": "Alcaldía del Ayuntamiento de Sariñena",
+      "contratos_proveedor": 4,
+      "contratos_totales": 5,
+      "porcentaje_contratos": 80.0,
+      "importe_proveedor": 19374.25,
+      "porcentaje_importe": 91.5,
+      "descripcion": "LASAOSA PRODUCTOS QUIMICOS SL gana 4 de 5 contratos (80%) del Alcaldía del Ayuntamiento de Sariñena, 19,374€ de 21,177€ (91%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "DESIGN DEFENSE SLU",
+      "organo": "Jefatura de Asuntos Económicos del Mando de Apoyo Logístico",
+      "num_contratos": 2,
+      "importe_total": 251250.45,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 251,250€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "2026/ETSAE0906/00001877E",
+          "objeto": "Adquisición cartucho 7,62 mm fogueo plástico Lote 5",
+          "importe": 120407.1,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=cXiqNG6u1DoIYE3ZiZ%2BxmQ%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0906/00001876E",
+          "objeto": "Adquisición cartucho 7,62 mm fogueo plástico Lote 5",
+          "importe": 130843.35,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=62pUlsGsx8HVGIpKDxgsAQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "GAMMA MERKAMAT, S.L",
+      "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
+      "num_contratos": 2,
+      "importe_total": 233355.09,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 233,355€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "TSA0083271",
+          "objeto": "Suministro de materiales en el acondicionamiento de parcelas agrícolas en los municipios afectados por la DANA 2024 en el Municipio de Chiva.",
+          "importe": 116354.02,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=BmQfjBUc2uK2gkLQ8TeYKA%3D%3D"
+        },
+        {
+          "expediente": "TSA0083272",
+          "objeto": "Suministro de materiales en el acondicionamiento de parcelas agrícolas en los municipios afectados por la DANA 2024 en el Municipio de Llíria.",
+          "importe": 117001.07,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Y%2F5maXOGXl7LIx6q1oPaMg%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "OBRAS RUZ S.L.",
+      "organo": "Sección de Asuntos Económicos de la Dirección de Infraestructura",
+      "num_contratos": 2,
+      "importe_total": 270701.2,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 270,701€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "2025/ETSAE0910/00000105E",
+          "objeto": "Reparación muro perimetral garita paseo ronda en la Base Primo de Rivera (TC 114-05/24)",
+          "importe": 135350.6,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=htRFkIt6G4aExvMJXBMHHQ%3D%3D"
+        },
+        {
+          "expediente": "2025/ETSAE0910/00000671E",
+          "objeto": "Climatizacion comedor Tropa sector oeste Base Goloso. Madrid. TC. 121-15/25",
+          "importe": 135350.6,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=eBqKP2jIEhQ3vLk2DU2Ddg%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "ALTEN SOLUCIONES PRODUCTOS AUDITORIAE INGENIERÍA, S.A.U.",
+      "organo": "Consejería de Agricultura, Ganadería y Desarrollo Rural de la Junta de Castilla y León",
+      "num_contratos": 2,
+      "importe_total": 272685.6,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 272,686€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "D2026/001519",
+          "objeto": "Adaptación de la aplicación MOEX, para la tramitación, informes, propuesta y resolución de las líneas PEPAC 2023-2027, convocatorias 2026 y 2027.",
+          "importe": 136342.8,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=EBtN4jzVe575Rey58Yagpg%3D%3D"
+        },
+        {
+          "expediente": "D2026/001518",
+          "objeto": "Ejecución de las tareas de desarrollo, mantenimiento adaptativo y correctivo de las funcionalidades de la aplicación SEQUÍA 2023, y desarrollo de nuevas funcionalidades asociadas.",
+          "importe": 136342.8,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=OV8%2BRAIuvBf10HRJw8TEnQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "MUNDI-FRUT, S.L.U.",
+      "organo": "Servicio Extremeño de Promoción de la Autonomía y Atención a la Dependencia (SEPAD).Gerencia Territorial de Cáceres",
+      "num_contratos": 2,
+      "importe_total": 246315.11,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 246,315€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "PRCBAM/2026/0000058527",
+          "objeto": "Contrato basado suministro frutas y verduras frescas con destino a los centros adscritos a la Gerencia Territorial del SEPAD de Cáceres, Lote 2 Plasencia",
+          "importe": 132943.93,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=PcNh10uPmyOFQ%2FlhRK79lA%3D%3D"
+        },
+        {
+          "expediente": "PRCBAM/2026/0000058526",
+          "objeto": "Contrato basado suministro frutas y verduras frescas con destino a los centros adscritos a la Gerencia Territorial del SEPAD de Cáceres, Lote 1 Cáceres y Trujillo",
+          "importe": 113371.18,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ga%2BRL2uKikY%2FbjW6njtWLw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "concentracion",
+      "severidad": "media",
+      "emoji": "🟡",
+      "adjudicatario": "GARCIA PEREZ,IDOIA",
+      "organo": "Gerencia de Salud de Área de Burgos",
+      "contratos_proveedor": 15,
+      "contratos_totales": 17,
+      "porcentaje_contratos": 88.2,
+      "importe_proveedor": 8254.63,
+      "porcentaje_importe": 60.9,
+      "descripcion": "GARCIA PEREZ,IDOIA gana 15 de 17 contratos (88%) del Gerencia de Salud de Área de Burgos, 8,255€ de 13,555€ (61%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Consejero Delegado del Instituto Canario de Desarrollo Cultural S.A.",
+      "contratos_en_franja": 4,
+      "contratos_totales": 10,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 4,
+      "descripcion": "Consejero Delegado del Instituto Canario de Desarrollo Cultural S.A.: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
+    }
+  ]
 }
