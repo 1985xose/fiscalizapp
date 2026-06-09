@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-06-08T17:37:09",
+    "generado": "2026-06-09T16:21:12",
     "version": "3.0",
-    "contratos_analizados": 25830,
-    "menores": 12056,
-    "licitaciones": 13774,
+    "contratos_analizados": 29485,
+    "menores": 13581,
+    "licitaciones": 15904,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 8,
+    "total_flags": 10,
     "por_tipo": {
       "fraccionamiento": 1,
       "concentracion": 1,
-      "patron_umbral": 1,
+      "patron_umbral": 2,
       "omnipresente": 0,
       "negociado_reiterado": 0,
-      "umbral_europeo": 5
+      "umbral_europeo": 6
     },
     "severidad_alta": 1,
-    "severidad_media": 7
+    "severidad_media": 9
   },
   "flags": [
     {
@@ -90,6 +90,32 @@
           "objeto": "Adquisición cartucho 7,62 mm fogueo plástico Lote 5",
           "importe": 130843.35,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=62pUlsGsx8HVGIpKDxgsAQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "LIFE TECHNOLOGIES, S.A.",
+      "organo": "Subdirección General de Obras y Patrimonio",
+      "num_contratos": 2,
+      "importe_total": 253472.91,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 253,473€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "INT105/26 - ASU/2026/019",
+          "objeto": "Int105/26 Asu/2026/019 Suministro De Equipos Analíticos Complejos Para Identificación Genética Forense, Equipos Pcr A Tiempo Real Para El Instituto Nacional De Toxicología Y Ciencias Forenses.",
+          "importe": 121237.16,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=uVn%2BRj5n3KZSYrkJkLlFdw%3D%3D"
+        },
+        {
+          "expediente": "ASU/2026/018 - INT104/26",
+          "objeto": "Int104/26 Asu-2026-018 Suministro E Instalación De Equipos Analíticos Complejos Para Identificación Genética Forense, Termocicladores, Para Los Servicios De Biología Del Instituto Nacional De Toxicología Y Ciencias Forenses.",
+          "importe": 132235.75,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=KJ646xFIo81Whbmkna2nXQ%3D%3D"
         }
       ]
     },
@@ -204,11 +230,22 @@
       "adjudicatario": "GARCIA PEREZ,IDOIA",
       "organo": "Gerencia de Salud de Área de Burgos",
       "contratos_proveedor": 15,
-      "contratos_totales": 17,
-      "porcentaje_contratos": 88.2,
+      "contratos_totales": 18,
+      "porcentaje_contratos": 83.3,
       "importe_proveedor": 8254.63,
-      "porcentaje_importe": 60.9,
-      "descripcion": "GARCIA PEREZ,IDOIA gana 15 de 17 contratos (88%) del Gerencia de Salud de Área de Burgos, 8,255€ de 13,555€ (61%). ¿Proveedor único justificado o cautividad?"
+      "porcentaje_importe": 10.8,
+      "descripcion": "GARCIA PEREZ,IDOIA gana 15 de 18 contratos (83%) del Gerencia de Salud de Área de Burgos, 8,255€ de 76,421€ (11%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Concejalía Delegada del Área Específica de Turismo y Promoción de la Ciudad del Ayuntamiento de Málaga",
+      "contratos_en_franja": 6,
+      "contratos_totales": 11,
+      "porcentaje": 54.5,
+      "proveedores_distintos": 6,
+      "descripcion": "Concejalía Delegada del Área Específica de Turismo y Promoción de la Ciudad del Ayuntamiento de Málaga: 6 de 11 menores (55%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
