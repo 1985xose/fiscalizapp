@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generado": "2026-06-09T16:21:12",
+    "generado": "2026-06-10T17:45:07",
     "version": "3.0",
-    "contratos_analizados": 29485,
-    "menores": 13581,
+    "contratos_analizados": 31794,
+    "menores": 15890,
     "licitaciones": 15904,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
@@ -241,11 +241,11 @@
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Concejalía Delegada del Área Específica de Turismo y Promoción de la Ciudad del Ayuntamiento de Málaga",
-      "contratos_en_franja": 6,
-      "contratos_totales": 11,
-      "porcentaje": 54.5,
-      "proveedores_distintos": 6,
-      "descripcion": "Concejalía Delegada del Área Específica de Turismo y Promoción de la Ciudad del Ayuntamiento de Málaga: 6 de 11 menores (55%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 7,
+      "contratos_totales": 12,
+      "porcentaje": 58.3,
+      "proveedores_distintos": 7,
+      "descripcion": "Concejalía Delegada del Área Específica de Turismo y Promoción de la Ciudad del Ayuntamiento de Málaga: 7 de 12 menores (58%) entre 12,000-15,000€. 7 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
