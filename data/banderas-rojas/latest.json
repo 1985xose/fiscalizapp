@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-06-12T16:34:46",
+    "generado": "2026-06-13T12:10:52",
     "version": "3.0",
-    "contratos_analizados": 41327,
-    "menores": 18936,
-    "licitaciones": 22391,
+    "contratos_analizados": 45583,
+    "menores": 21267,
+    "licitaciones": 24316,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,16 +15,16 @@
     ]
   },
   "stats": {
-    "total_flags": 12,
+    "total_flags": 13,
     "por_tipo": {
-      "fraccionamiento": 2,
-      "concentracion": 0,
-      "patron_umbral": 3,
+      "fraccionamiento": 3,
+      "concentracion": 1,
+      "patron_umbral": 2,
       "omnipresente": 0,
       "negociado_reiterado": 0,
       "umbral_europeo": 7
     },
-    "severidad_alta": 2,
+    "severidad_alta": 3,
     "severidad_media": 10
   },
   "flags": [
@@ -64,6 +64,39 @@
           "objeto": "Suministro de sistema mapa y onda de pulso pwa 24 horas",
           "importe": 14495.8,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=oetXoRQqGcaFlFRHfEzEaw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "SONIDOS JUNIOR, S.L.U.",
+      "organo": "Consejería Insular del Área de Servicios Sociales, Educación, Cultura y Deportes del Cabildo Insular de la Gomera",
+      "num_contratos": 3,
+      "importe_total": 39017.95,
+      "importe_medio": 13005.98,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 39,018€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "1455/2026",
+          "objeto": "Producción y celebración del espectáculo de danza: \" Nuit en Danse\", de Ballets de Tenerife. 29 de mayo de 2026 en el municipio de San Sebastián.",
+          "importe": 13340.6,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=j0%2BwgrIEUc47u6%2B%2FR7DUoA%3D%3D"
+        },
+        {
+          "expediente": "1594/2026",
+          "objeto": "Producción y celebración del espectáculo musical: \"La Línea del Horizonte. Palabras Coloreadas\", de Domingo Rodríguez El Colorado. Municipio de San Sebastián. 05 de junio de 2026.",
+          "importe": 13537.1,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Lcnx%2F3QS44NQFSeKCRun4Q%3D%3D"
+        },
+        {
+          "expediente": "1664/2026",
+          "objeto": "Producción y celebración del espectáculo: \"Labradora\". 14 de junio de 2026. Municipio de San Sebastián.",
+          "importe": 12140.25,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=YxomZqKq5WLjHF5qKI4aaw%3D%3D"
         }
       ]
     },
@@ -283,6 +316,19 @@
       ]
     },
     {
+      "tipo": "concentracion",
+      "severidad": "media",
+      "emoji": "🟡",
+      "adjudicatario": "TURA NAZA VIVA, S.L.",
+      "organo": "Delegación Provincial de la Consejería de Fomento en Guadalajara",
+      "contratos_proveedor": 4,
+      "contratos_totales": 5,
+      "porcentaje_contratos": 80.0,
+      "importe_proveedor": 6406.95,
+      "porcentaje_importe": 46.1,
+      "descripcion": "TURA NAZA VIVA, S.L. gana 4 de 5 contratos (80%) del Delegación Provincial de la Consejería de Fomento en Guadalajara, 6,407€ de 13,896€ (46%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
@@ -303,17 +349,6 @@
       "porcentaje": 40.0,
       "proveedores_distintos": 4,
       "descripcion": "Consejero Delegado del Instituto Canario de Desarrollo Cultural S.A.: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
-      "organo": "Junta de Gobierno del Ayuntamiento de Benalmádena",
-      "contratos_en_franja": 6,
-      "contratos_totales": 15,
-      "porcentaje": 40.0,
-      "proveedores_distintos": 5,
-      "descripcion": "Junta de Gobierno del Ayuntamiento de Benalmádena: 6 de 15 menores (40%) entre 12,000-15,000€. 5 proveedores. Estadísticamente improbable sin intervención."
     }
   ]
 }
