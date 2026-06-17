@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-06-16T10:53:56",
+    "generado": "2026-06-17T10:28:34",
     "version": "3.0",
-    "contratos_analizados": 49410,
-    "menores": 23168,
-    "licitaciones": 26242,
+    "contratos_analizados": 52557,
+    "menores": 24577,
+    "licitaciones": 27980,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 14,
+    "total_flags": 17,
     "por_tipo": {
       "fraccionamiento": 3,
-      "concentracion": 1,
-      "patron_umbral": 2,
+      "concentracion": 3,
+      "patron_umbral": 3,
       "omnipresente": 0,
       "negociado_reiterado": 0,
       "umbral_europeo": 8
     },
-    "severidad_alta": 3,
-    "severidad_media": 11
+    "severidad_alta": 5,
+    "severidad_media": 12
   },
   "flags": [
     {
@@ -132,6 +132,32 @@
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=aT%2FHIk%2FDK3I%2B1TMyIiZmzw%3D%3D"
         }
       ]
+    },
+    {
+      "tipo": "concentracion",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "adjudicatario": "TRANSPORTE SANITARIO LANZAROTE S.L.",
+      "organo": "Presidencia del Consorcio de Seguridad, Emergencia, Salvamento, Prevención y Extinción de Incendios de Lanzarote",
+      "contratos_proveedor": 12,
+      "contratos_totales": 13,
+      "porcentaje_contratos": 92.3,
+      "importe_proveedor": 14635.68,
+      "porcentaje_importe": 100.0,
+      "descripcion": "TRANSPORTE SANITARIO LANZAROTE S.L. gana 12 de 13 contratos (92%) del Presidencia del Consorcio de Seguridad, Emergencia, Salvamento, Prevención y Extinción de Incendios de Lanzarote, 14,636€ de 14,636€ (100%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "concentracion",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "adjudicatario": "INBONIS SA",
+      "organo": "Dirección General de Comercio Internacional e Inversiones",
+      "contratos_proveedor": 5,
+      "contratos_totales": 5,
+      "porcentaje_contratos": 100.0,
+      "importe_proveedor": 100369.5,
+      "porcentaje_importe": 100.0,
+      "descripcion": "INBONIS SA gana 5 de 5 contratos (100%) del Dirección General de Comercio Internacional e Inversiones, 100,370€ de 100,370€ (100%). ¿Proveedor único justificado o cautividad?"
     },
     {
       "tipo": "umbral_europeo",
@@ -353,6 +379,17 @@
       "importe_proveedor": 6406.95,
       "porcentaje_importe": 46.1,
       "descripcion": "TURA NAZA VIVA, S.L. gana 4 de 5 contratos (80%) del Delegación Provincial de la Consejería de Fomento en Guadalajara, 6,407€ de 13,896€ (46%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Consejería Insular del Área de Servicios Sociales, Educación, Cultura y Deportes del Cabildo Insular de la Gomera",
+      "contratos_en_franja": 4,
+      "contratos_totales": 10,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 2,
+      "descripcion": "Consejería Insular del Área de Servicios Sociales, Educación, Cultura y Deportes del Cabildo Insular de la Gomera: 4 de 10 menores (40%) entre 12,000-15,000€. 2 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
