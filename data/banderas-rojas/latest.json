@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-06-19T10:12:43",
+    "generado": "2026-06-20T08:41:22",
     "version": "3.0",
-    "contratos_analizados": 58945,
-    "menores": 27728,
-    "licitaciones": 31217,
+    "contratos_analizados": 62498,
+    "menores": 29587,
+    "licitaciones": 32911,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 21,
+    "total_flags": 23,
     "por_tipo": {
       "fraccionamiento": 4,
-      "concentracion": 2,
-      "patron_umbral": 5,
+      "concentracion": 3,
+      "patron_umbral": 6,
       "omnipresente": 1,
       "negociado_reiterado": 0,
       "umbral_europeo": 9
     },
-    "severidad_alta": 7,
-    "severidad_media": 14
+    "severidad_alta": 8,
+    "severidad_media": 15
   },
   "flags": [
     {
@@ -197,6 +197,19 @@
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=fuR59HAJ4dxLAIVZdUs8KA%3D%3D"
         }
       ]
+    },
+    {
+      "tipo": "concentracion",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "adjudicatario": "Arte Consultores Tecnológicos S.L.",
+      "organo": "Instituto de Estadística de las Illes Balears",
+      "contratos_proveedor": 4,
+      "contratos_totales": 5,
+      "porcentaje_contratos": 80.0,
+      "importe_proveedor": 894375.78,
+      "porcentaje_importe": 98.8,
+      "descripcion": "Arte Consultores Tecnológicos S.L. gana 4 de 5 contratos (80%) del Instituto de Estadística de las Illes Balears, 894,376€ de 905,121€ (99%). ¿Proveedor único justificado o cautividad?"
     },
     {
       "tipo": "concentracion",
@@ -437,11 +450,11 @@
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Concejalía Delegada del Área Específica de Turismo y Promoción de la Ciudad del Ayuntamiento de Málaga",
-      "contratos_en_franja": 10,
-      "contratos_totales": 19,
-      "porcentaje": 52.6,
-      "proveedores_distintos": 10,
-      "descripcion": "Concejalía Delegada del Área Específica de Turismo y Promoción de la Ciudad del Ayuntamiento de Málaga: 10 de 19 menores (53%) entre 12,000-15,000€. 10 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 14,
+      "contratos_totales": 27,
+      "porcentaje": 51.9,
+      "proveedores_distintos": 12,
+      "descripcion": "Concejalía Delegada del Área Específica de Turismo y Promoción de la Ciudad del Ayuntamiento de Málaga: 14 de 27 menores (52%) entre 12,000-15,000€. 12 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -469,23 +482,34 @@
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
+      "organo": "Presidencia del Cabildo Insular de La Gomera",
+      "contratos_en_franja": 4,
+      "contratos_totales": 10,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 4,
+      "descripcion": "Presidencia del Cabildo Insular de La Gomera: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Consejería Delegada de Agua y Residuos del Campo de Gibraltar, S.A. (ARCGISA)",
+      "contratos_en_franja": 5,
+      "contratos_totales": 11,
+      "porcentaje": 45.5,
+      "proveedores_distintos": 5,
+      "descripcion": "Consejería Delegada de Agua y Residuos del Campo de Gibraltar, S.A. (ARCGISA): 5 de 11 menores (45%) entre 12,000-15,000€. 5 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
       "contratos_en_franja": 26,
       "contratos_totales": 64,
       "porcentaje": 40.6,
       "proveedores_distintos": 21,
       "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 26 de 64 menores (41%) entre 12,000-15,000€. 21 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
-      "organo": "Subdirección General de Planificacion y Gestion de Infraestructuras y Medios para la Seguridad",
-      "contratos_en_franja": 5,
-      "contratos_totales": 12,
-      "porcentaje": 41.7,
-      "proveedores_distintos": 5,
-      "descripcion": "Subdirección General de Planificacion y Gestion de Infraestructuras y Medios para la Seguridad: 5 de 12 menores (42%) entre 12,000-15,000€. 5 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "omnipresente",
