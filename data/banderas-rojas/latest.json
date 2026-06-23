@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-06-22T11:35:36",
+    "generado": "2026-06-23T08:59:04",
     "version": "3.0",
-    "contratos_analizados": 63398,
-    "menores": 30428,
-    "licitaciones": 32970,
+    "contratos_analizados": 66741,
+    "menores": 32330,
+    "licitaciones": 34411,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -17,15 +17,15 @@
   "stats": {
     "total_flags": 23,
     "por_tipo": {
-      "fraccionamiento": 4,
-      "concentracion": 3,
-      "patron_umbral": 6,
+      "fraccionamiento": 5,
+      "concentracion": 4,
+      "patron_umbral": 3,
       "omnipresente": 1,
       "negociado_reiterado": 0,
-      "umbral_europeo": 9
+      "umbral_europeo": 10
     },
-    "severidad_alta": 8,
-    "severidad_media": 15
+    "severidad_alta": 11,
+    "severidad_media": 12
   },
   "flags": [
     {
@@ -105,6 +105,39 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 8,
+      "adjudicatario": "PROMOCIONES Y CONSTRUCCIONES CONRADO Y TOÑO S.L",
+      "organo": "Alcaldía del Ayuntamiento de Castropodame",
+      "num_contratos": 3,
+      "importe_total": 110715.0,
+      "importe_medio": 36905.0,
+      "umbral_legal": 40000,
+      "descripcion": "3 contratos menores de obras entre 32,000€ y 40,000€ del mismo proveedor al mismo órgano. Total: 110,715€ (supera el umbral de 40,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "542/2026",
+          "objeto": "El objeto del presente contrato lo constituye la ejecución de las obras de “Restauración de tramo de cerramiento del cementerio de la localidad de Castropodame”, conforme a la Memoria Técnica de las obras.",
+          "importe": 36300.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=v6jwadneEWMl5NjlNci%2BtA%3D%3D"
+        },
+        {
+          "expediente": "460/2026",
+          "objeto": "Red separativa de aguas pluviales en la calle La Cerámica de la localidad de Matachana",
+          "importe": 38115.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=gzZ3drzNmsEeC9GJQOEBkQ%3D%3D"
+        },
+        {
+          "expediente": "587/2026",
+          "objeto": "El objeto del presente contrato consistente en la renovación de un tramo de 250 metros de la red general de abastecimiento de agua potable, conforme a la Memoria Técnica de las obras",
+          "importe": 36300.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=RHoY6AKSI027JOCXkOhcDg%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
       "adjudicatario": "DULMONT PRODUCTOS DE OBRADOR S.L.",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
       "num_contratos": 3,
@@ -170,6 +203,44 @@
       "tipo": "umbral_europeo",
       "severidad": "alta",
       "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "UNICO CM S.L.",
+      "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
+      "num_contratos": 4,
+      "importe_total": 459993.6,
+      "umbral_legal": 140000,
+      "descripcion": "4 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 459,994€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "TSA0079661-21",
+          "objeto": "Contrato derivado de Acuerdo Marco para el arrendamiento de maquinaria autopropulsada con conductor en el ámbito territorial de la gerencia de Murcia durante los años 2025-2027.",
+          "importe": 114998.4,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=1sk9lI5L9qakU02jNGj1Fw%3D%3D"
+        },
+        {
+          "expediente": "TSA0079661-16",
+          "objeto": "Contrato derivado de Acuerdo Marco para el arrendamiento de maquinaria autopropulsada con conductor en el ámbito\r\nterritorial de la gerencia de Murcia durante los años 2025-2027",
+          "importe": 114998.4,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Zi2BBQgWPJRxseVhcqrkhw%3D%3D"
+        },
+        {
+          "expediente": "TSA0079661-22",
+          "objeto": "Contrato derivado de Acuerdo Marco para el arrendamiento de maquinaria autopropulsada con conductor en el ámbito territorial de la gerencia de Murcia durante los años 2025-2027.",
+          "importe": 114998.4,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2FMFJ%2FjVRSo4UqXM96WStVA%3D%3D"
+        },
+        {
+          "expediente": "TSA0079661-23",
+          "objeto": "Contrato derivado de Acuerdo Marco para el arrendamiento de maquinaria autopropulsada con conductor en el ámbito territorial de la gerencia de Murcia durante los años 2025-2027.",
+          "importe": 114998.4,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=wHzEm1DyGB%2Fs%2BnLj3vAg5A%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "alta",
+      "emoji": "🔴",
       "score": 6,
       "adjudicatario": "DISHOSPAC SL",
       "organo": "Paradores de Turismo de España, S.M.E., S.A.",
@@ -197,6 +268,19 @@
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=fuR59HAJ4dxLAIVZdUs8KA%3D%3D"
         }
       ]
+    },
+    {
+      "tipo": "concentracion",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "adjudicatario": "Ecoctrl SL",
+      "organo": "Presidencia de la Mancomunidad de la Canal de Navarrés",
+      "contratos_proveedor": 5,
+      "contratos_totales": 6,
+      "porcentaje_contratos": 83.3,
+      "importe_proveedor": 43560.0,
+      "porcentaje_importe": 97.3,
+      "descripcion": "Ecoctrl SL gana 5 de 6 contratos (83%) del Presidencia de la Mancomunidad de la Canal de Navarrés, 43,560€ de 44,790€ (97%). ¿Proveedor único justificado o cautividad?"
     },
     {
       "tipo": "concentracion",
@@ -451,21 +535,10 @@
       "emoji": "🟡",
       "organo": "Concejalía Delegada del Área Específica de Turismo y Promoción de la Ciudad del Ayuntamiento de Málaga",
       "contratos_en_franja": 14,
-      "contratos_totales": 27,
-      "porcentaje": 51.9,
+      "contratos_totales": 31,
+      "porcentaje": 45.2,
       "proveedores_distintos": 12,
-      "descripcion": "Concejalía Delegada del Área Específica de Turismo y Promoción de la Ciudad del Ayuntamiento de Málaga: 14 de 27 menores (52%) entre 12,000-15,000€. 12 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
-      "organo": "Consejero Delegado del Instituto Canario de Desarrollo Cultural S.A.",
-      "contratos_en_franja": 4,
-      "contratos_totales": 10,
-      "porcentaje": 40.0,
-      "proveedores_distintos": 4,
-      "descripcion": "Consejero Delegado del Instituto Canario de Desarrollo Cultural S.A.: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Concejalía Delegada del Área Específica de Turismo y Promoción de la Ciudad del Ayuntamiento de Málaga: 14 de 31 menores (45%) entre 12,000-15,000€. 12 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -482,34 +555,12 @@
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
-      "organo": "Presidencia del Cabildo Insular de La Gomera",
-      "contratos_en_franja": 4,
-      "contratos_totales": 10,
-      "porcentaje": 40.0,
-      "proveedores_distintos": 4,
-      "descripcion": "Presidencia del Cabildo Insular de La Gomera: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
-      "organo": "Consejería Delegada de Agua y Residuos del Campo de Gibraltar, S.A. (ARCGISA)",
-      "contratos_en_franja": 5,
-      "contratos_totales": 11,
-      "porcentaje": 45.5,
-      "proveedores_distintos": 5,
-      "descripcion": "Consejería Delegada de Agua y Residuos del Campo de Gibraltar, S.A. (ARCGISA): 5 de 11 menores (45%) entre 12,000-15,000€. 5 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
-      "contratos_en_franja": 26,
-      "contratos_totales": 64,
-      "porcentaje": 40.6,
-      "proveedores_distintos": 21,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 26 de 64 menores (41%) entre 12,000-15,000€. 21 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 29,
+      "contratos_totales": 69,
+      "porcentaje": 42.0,
+      "proveedores_distintos": 24,
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 29 de 69 menores (42%) entre 12,000-15,000€. 24 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "omnipresente",
