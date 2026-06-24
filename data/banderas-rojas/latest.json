@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-06-23T08:59:04",
+    "generado": "2026-06-24T08:54:10",
     "version": "3.0",
-    "contratos_analizados": 66741,
-    "menores": 32330,
-    "licitaciones": 34411,
+    "contratos_analizados": 69700,
+    "menores": 33985,
+    "licitaciones": 35715,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 23,
+    "total_flags": 24,
     "por_tipo": {
       "fraccionamiento": 5,
-      "concentracion": 4,
-      "patron_umbral": 3,
+      "concentracion": 3,
+      "patron_umbral": 4,
       "omnipresente": 1,
-      "negociado_reiterado": 0,
+      "negociado_reiterado": 1,
       "umbral_europeo": 10
     },
     "severidad_alta": 11,
-    "severidad_media": 12
+    "severidad_media": 13
   },
   "flags": [
     {
@@ -270,17 +270,35 @@
       ]
     },
     {
-      "tipo": "concentracion",
+      "tipo": "negociado_reiterado",
       "severidad": "alta",
       "emoji": "🔴",
-      "adjudicatario": "Ecoctrl SL",
-      "organo": "Presidencia de la Mancomunidad de la Canal de Navarrés",
-      "contratos_proveedor": 5,
-      "contratos_totales": 6,
-      "porcentaje_contratos": 83.3,
-      "importe_proveedor": 43560.0,
-      "porcentaje_importe": 97.3,
-      "descripcion": "Ecoctrl SL gana 5 de 6 contratos (83%) del Presidencia de la Mancomunidad de la Canal de Navarrés, 43,560€ de 44,790€ (97%). ¿Proveedor único justificado o cautividad?"
+      "score": 3,
+      "adjudicatario": "SANTA BARBARA SISTEMAS SA",
+      "organo": "Jefatura de Asuntos Económicos del Mando de Apoyo Logístico",
+      "num_contratos": 3,
+      "importe_total": 16013021.47,
+      "descripcion": "SANTA BARBARA SISTEMAS SA gana 3 contratos por negociado sin publicidad del Jefatura de Asuntos Económicos del Mando de Apoyo Logístico por 16,013,021€. El negociado sin publicidad es para situaciones excepcionales — usarlo repetidamente con el mismo proveedor huele a adjudicación a dedo.",
+      "contratos": [
+        {
+          "expediente": "2026/ETSAE0906/00002609E",
+          "objeto": "Apoyo al mantenimiento de Carros de Combate familia Leopard Lote 2",
+          "importe": 2560000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=RulfCswcvCt9PLkba5eRog%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0906/00002608E",
+          "objeto": "Apoyo al mantenimiento de Carros de Combate familia Leopard Lote 1",
+          "importe": 12953021.47,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=iqs%2F%2BbZlYMCdkQsA7ROvsg%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0906/00001460E",
+          "objeto": "Apoyo al mantenimiento de Carros de Combate familia Leopard Lote 2",
+          "importe": 500000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=RCUC%2BrlCrF6S81gZFETWmA%3D%3D"
+        }
+      ]
     },
     {
       "tipo": "concentracion",
@@ -544,23 +562,34 @@
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
-      "organo": "Consejería Insular del Área de Servicios Sociales, Educación, Cultura y Deportes del Cabildo Insular de la Gomera",
+      "organo": "Dirección Insular de Medio Natural del Cabildo Insular de Tenerife",
+      "contratos_en_franja": 6,
+      "contratos_totales": 11,
+      "porcentaje": 54.5,
+      "proveedores_distintos": 6,
+      "descripcion": "Dirección Insular de Medio Natural del Cabildo Insular de Tenerife: 6 de 11 menores (55%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Junta de Gobierno del Ayuntamiento de Guadarrama",
       "contratos_en_franja": 4,
       "contratos_totales": 10,
       "porcentaje": 40.0,
-      "proveedores_distintos": 2,
-      "descripcion": "Consejería Insular del Área de Servicios Sociales, Educación, Cultura y Deportes del Cabildo Insular de la Gomera: 4 de 10 menores (40%) entre 12,000-15,000€. 2 proveedores. Estadísticamente improbable sin intervención."
+      "proveedores_distintos": 4,
+      "descripcion": "Junta de Gobierno del Ayuntamiento de Guadarrama: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
-      "contratos_en_franja": 29,
-      "contratos_totales": 69,
-      "porcentaje": 42.0,
-      "proveedores_distintos": 24,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 29 de 69 menores (42%) entre 12,000-15,000€. 24 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 32,
+      "contratos_totales": 74,
+      "porcentaje": 43.2,
+      "proveedores_distintos": 27,
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 32 de 74 menores (43%) entre 12,000-15,000€. 27 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "omnipresente",
