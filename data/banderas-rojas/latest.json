@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-06-24T08:54:10",
+    "generado": "2026-06-25T08:53:25",
     "version": "3.0",
-    "contratos_analizados": 69700,
-    "menores": 33985,
-    "licitaciones": 35715,
+    "contratos_analizados": 72418,
+    "menores": 35500,
+    "licitaciones": 36918,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,16 +15,16 @@
     ]
   },
   "stats": {
-    "total_flags": 24,
+    "total_flags": 27,
     "por_tipo": {
-      "fraccionamiento": 5,
+      "fraccionamiento": 7,
       "concentracion": 3,
       "patron_umbral": 4,
       "omnipresente": 1,
       "negociado_reiterado": 1,
-      "umbral_europeo": 10
+      "umbral_europeo": 11
     },
-    "severidad_alta": 11,
+    "severidad_alta": 14,
     "severidad_media": 13
   },
   "flags": [
@@ -105,6 +105,39 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 8,
+      "adjudicatario": "FERRETERÍAS DONCEL, S.L.U.",
+      "organo": "Consejo de Administración de Obimace S.L.",
+      "num_contratos": 3,
+      "importe_total": 42470.03,
+      "importe_medio": 14156.68,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 42,470€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/35800",
+          "objeto": "Suministro e instalación de cinco mesas multisport.",
+          "importe": 13991.8,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VbSyN4ljxEX%2B3JAijKO%2Bkg%3D%3D"
+        },
+        {
+          "expediente": "2026/38148",
+          "objeto": "Suministro de papeleras.",
+          "importe": 14025.24,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=iBMAabNjqECP66GS%2BONYvQ%3D%3D"
+        },
+        {
+          "expediente": "2026/39694",
+          "objeto": "Suministro de aros y redes para canastas y porterías de fútbol sala.",
+          "importe": 14452.99,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=0P2EDfqEOBBrhBlEHQFSKA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
       "adjudicatario": "PROMOCIONES Y CONSTRUCCIONES CONRADO Y TOÑO S.L",
       "organo": "Alcaldía del Ayuntamiento de Castropodame",
       "num_contratos": 3,
@@ -130,6 +163,39 @@
           "objeto": "El objeto del presente contrato consistente en la renovación de un tramo de 250 metros de la red general de abastecimiento de agua potable, conforme a la Memoria Técnica de las obras",
           "importe": 36300.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=RHoY6AKSI027JOCXkOhcDg%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "BCM GESTIÓN DE SERVICIOS S.L",
+      "organo": "Alcaldia del Ayuntamiento del Ayuntamiento de Olivares",
+      "num_contratos": 3,
+      "importe_total": 43137.3,
+      "importe_medio": 14379.1,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 43,137€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "P4106700J-2026/000097-PEM",
+          "objeto": "Servicio de ludoteca en valores para menores escolarizados",
+          "importe": 13740.3,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=wXb89zE8DKg%2Bk2oCbDosIw%3D%3D"
+        },
+        {
+          "expediente": "P4106700J-2026/000114-PEM",
+          "objeto": "Actividades educativas en valores igualitarios. Plan corresponsable.",
+          "importe": 14903.5,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=xR4gFsEJv96kU02jNGj1Fw%3D%3D"
+        },
+        {
+          "expediente": "P4106700J-2026/000112-PEM",
+          "objeto": "Aulas de conciliación para los meses de julio y agosto de 2026",
+          "importe": 14493.5,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9CEYgzHS0IrkY6rls5tG9A%3D%3D"
         }
       ]
     },
@@ -204,6 +270,44 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 8,
+      "adjudicatario": "DISHOSPAC SL",
+      "organo": "Paradores de Turismo de España, S.M.E., S.A.",
+      "num_contratos": 4,
+      "importe_total": 473269.5,
+      "umbral_legal": 140000,
+      "descripcion": "4 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 473,270€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "PESCADOS RULA DE AVILES PT CANGAS 04 06 10 06 26",
+          "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 04 de junio al 10 de junio de 2026.",
+          "importe": 116803.5,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=alKcgbZ6GtKzz8fXU2i3eQ%3D%3D"
+        },
+        {
+          "expediente": "PESCADOS RULA DE AVILES PT CANGAS 11 06 17 06 26",
+          "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 11 de junio al 17 de junio de 2026.",
+          "importe": 119405.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=2%2B7xKmGK5XMmMOlAXxDEjw%3D%3D"
+        },
+        {
+          "expediente": "PESCADOS RULA AVILES PT CANGAS 18 06 24 06 26",
+          "objeto": "Acuerdo marco suministro de pescados frescos con el distintivo pescado de confianza de la Rula de Avilés con destino al Parador de Turismo de Cangas de Onis, (Asturias) desde el 18 de junio al 24 de junio de 2026.",
+          "importe": 117139.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=fuR59HAJ4dxLAIVZdUs8KA%3D%3D"
+        },
+        {
+          "expediente": "PESCADOS RULA DE AVILES PT CANGAS 25 06 01 07 26",
+          "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 25 de junio al 01 de julio de 2026.",
+          "importe": 119922.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ENgP3bzj0HeGCFcHcNGIlQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
       "adjudicatario": "UNICO CM S.L.",
       "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
       "num_contratos": 4,
@@ -234,38 +338,6 @@
           "objeto": "Contrato derivado de Acuerdo Marco para el arrendamiento de maquinaria autopropulsada con conductor en el ámbito territorial de la gerencia de Murcia durante los años 2025-2027.",
           "importe": 114998.4,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=wHzEm1DyGB%2Fs%2BnLj3vAg5A%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "umbral_europeo",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 6,
-      "adjudicatario": "DISHOSPAC SL",
-      "organo": "Paradores de Turismo de España, S.M.E., S.A.",
-      "num_contratos": 3,
-      "importe_total": 353347.5,
-      "umbral_legal": 140000,
-      "descripcion": "3 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 353,348€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
-      "contratos": [
-        {
-          "expediente": "PESCADOS RULA DE AVILES PT CANGAS 04 06 10 06 26",
-          "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 04 de junio al 10 de junio de 2026.",
-          "importe": 116803.5,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=alKcgbZ6GtKzz8fXU2i3eQ%3D%3D"
-        },
-        {
-          "expediente": "PESCADOS RULA DE AVILES PT CANGAS 11 06 17 06 26",
-          "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 11 de junio al 17 de junio de 2026.",
-          "importe": 119405.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=2%2B7xKmGK5XMmMOlAXxDEjw%3D%3D"
-        },
-        {
-          "expediente": "PESCADOS RULA AVILES PT CANGAS 18 06 24 06 26",
-          "objeto": "Acuerdo marco suministro de pescados frescos con el distintivo pescado de confianza de la Rula de Avilés con destino al Parador de Turismo de Cangas de Onis, (Asturias) desde el 18 de junio al 24 de junio de 2026.",
-          "importe": 117139.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=fuR59HAJ4dxLAIVZdUs8KA%3D%3D"
         }
       ]
     },
@@ -319,12 +391,12 @@
       "emoji": "🔴",
       "adjudicatario": "INBONIS SA",
       "organo": "Dirección General de Comercio Internacional e Inversiones",
-      "contratos_proveedor": 5,
-      "contratos_totales": 5,
+      "contratos_proveedor": 7,
+      "contratos_totales": 7,
       "porcentaje_contratos": 100.0,
-      "importe_proveedor": 100369.5,
+      "importe_proveedor": 131224.5,
       "porcentaje_importe": 100.0,
-      "descripcion": "INBONIS SA gana 5 de 5 contratos (100%) del Dirección General de Comercio Internacional e Inversiones, 100,370€ de 100,370€ (100%). ¿Proveedor único justificado o cautividad?"
+      "descripcion": "INBONIS SA gana 7 de 7 contratos (100%) del Dirección General de Comercio Internacional e Inversiones, 131,224€ de 131,224€ (100%). ¿Proveedor único justificado o cautividad?"
     },
     {
       "tipo": "concentracion",
@@ -338,6 +410,23 @@
       "importe_proveedor": 14635.68,
       "porcentaje_importe": 100.0,
       "descripcion": "TRANSPORTE SANITARIO LANZAROTE S.L. gana 12 de 14 contratos (86%) del Presidencia del Consorcio de Seguridad, Emergencia, Salvamento, Prevención y Extinción de Incendios de Lanzarote, 14,636€ de 14,636€ (100%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "omnipresente",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "adjudicatario": "EL NORTE DE CASTILLA, S.A.",
+      "num_organos": 5,
+      "num_contratos": 6,
+      "importe_total": 83753.02,
+      "organos": [
+        "Instituto para la Competitividad Empresarial de la Junta de Castilla y León",
+        "Consejería de Medio Ambiente, Vivienda y Ordenación del Territorio de la Junta de Castilla y León",
+        "Consejería de Sanidad de la Junta de Castilla y León",
+        "Gerencia de Servicios Sociales de la Junta de Castilla y León",
+        "Consejería de Industria, Universidades, Empleo y Comercio de la Junta de Castilla y León"
+      ],
+      "descripcion": "EL NORTE DE CASTILLA, S.A. en 5 órganos distintos, todos en franja 12,000-15,000€. 6 contratos por 83,753€. Presencia sistemática justo bajo el umbral."
     },
     {
       "tipo": "umbral_europeo",
@@ -414,6 +503,32 @@
           "objeto": "Suministro de materiales en el acondicionamiento de parcelas agrícolas en los municipios afectados por la DANA 2024 en el Municipio de Llíria.",
           "importe": 117001.07,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Y%2F5maXOGXl7LIx6q1oPaMg%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "FCC CONSTRUCCION, S.A.",
+      "organo": "Área de Gobierno de Urbanismo, Medio Ambiente y Movilidad del Ayuntamiento de Madrid",
+      "num_contratos": 2,
+      "importe_total": 258380.8,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 258,381€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "511/2025/80202",
+          "objeto": "contrato basado de limpieza y acondicionamiento de solares municipales en el distrito de Carabanchel, Fase 1, Campaña 2026.",
+          "importe": 134266.82,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=6AB6NHuoGhU4NavIWzMcHA%3D%3D"
+        },
+        {
+          "expediente": "511/2026/14041",
+          "objeto": "contrato basado de obras de acondicionamiento limpieza y vallado de solares en varios ámbitos de los distritos de tetúan, chamartin y chamberi",
+          "importe": 124113.98,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=B391TWI51Eazz8fXU2i3eQ%3D%3D"
         }
       ]
     },
@@ -590,22 +705,6 @@
       "porcentaje": 43.2,
       "proveedores_distintos": 27,
       "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 32 de 74 menores (43%) entre 12,000-15,000€. 27 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "omnipresente",
-      "severidad": "media",
-      "emoji": "🟡",
-      "adjudicatario": "EL NORTE DE CASTILLA, S.A.",
-      "num_organos": 4,
-      "num_contratos": 5,
-      "importe_total": 70231.27,
-      "organos": [
-        "Instituto para la Competitividad Empresarial de la Junta de Castilla y León",
-        "Consejería de Medio Ambiente, Vivienda y Ordenación del Territorio de la Junta de Castilla y León",
-        "Consejería de Sanidad de la Junta de Castilla y León",
-        "Gerencia de Servicios Sociales de la Junta de Castilla y León"
-      ],
-      "descripcion": "EL NORTE DE CASTILLA, S.A. en 4 órganos distintos, todos en franja 12,000-15,000€. 5 contratos por 70,231€. Presencia sistemática justo bajo el umbral."
     }
   ]
 }
