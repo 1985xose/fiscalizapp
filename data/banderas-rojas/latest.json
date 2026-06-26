@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-06-25T08:53:25",
+    "generado": "2026-06-26T08:51:40",
     "version": "3.0",
-    "contratos_analizados": 72418,
-    "menores": 35500,
-    "licitaciones": 36918,
+    "contratos_analizados": 75549,
+    "menores": 36999,
+    "licitaciones": 38550,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 27,
+    "total_flags": 30,
     "por_tipo": {
-      "fraccionamiento": 7,
+      "fraccionamiento": 8,
       "concentracion": 3,
       "patron_umbral": 4,
       "omnipresente": 1,
       "negociado_reiterado": 1,
-      "umbral_europeo": 11
+      "umbral_europeo": 13
     },
-    "severidad_alta": 14,
-    "severidad_media": 13
+    "severidad_alta": 15,
+    "severidad_media": 15
   },
   "flags": [
     {
@@ -64,6 +64,39 @@
           "objeto": "Suministro de sistema mapa y onda de pulso pwa 24 horas",
           "importe": 14495.8,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=oetXoRQqGcaFlFRHfEzEaw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "INFORCOPY SISTEMAS, S.L.",
+      "organo": "Secretaría General de la Consejería de Educación, Cultura y Deportes de la Junta de Comunidades de Castilla-La Mancha",
+      "num_contratos": 3,
+      "importe_total": 41087.97,
+      "importe_medio": 13695.99,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 41,088€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/002291",
+          "objeto": "Adquisición de 21 ordenadores portátiles para conformar un aula de informática en CEIP Conde de Ruiseñada",
+          "importe": 13695.99,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=vY%2FtGiI25X8wYTJJ03sHog%3D%3D"
+        },
+        {
+          "expediente": "2026/002289",
+          "objeto": "Adquisición de 21 ordenadores portátiles para conformar un aula de informática en CEIP Santísimo Cristo de las Injurias",
+          "importe": 13695.99,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=D2DFu%2FsQ8nvCfVQHDepjGQ%3D%3D"
+        },
+        {
+          "expediente": "2026/002288",
+          "objeto": "Adquisición de 21 ordenadores portátiles para conformar un aula de informática en CEIP Fernando Martin",
+          "importe": 13695.99,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=JPjoEOzNzpU4NavIWzMcHA%3D%3D"
         }
       ]
     },
@@ -378,12 +411,12 @@
       "emoji": "🔴",
       "adjudicatario": "Arte Consultores Tecnológicos S.L.",
       "organo": "Instituto de Estadística de las Illes Balears",
-      "contratos_proveedor": 4,
-      "contratos_totales": 5,
-      "porcentaje_contratos": 80.0,
-      "importe_proveedor": 894375.78,
-      "porcentaje_importe": 98.8,
-      "descripcion": "Arte Consultores Tecnológicos S.L. gana 4 de 5 contratos (80%) del Instituto de Estadística de las Illes Balears, 894,376€ de 905,121€ (99%). ¿Proveedor único justificado o cautividad?"
+      "contratos_proveedor": 5,
+      "contratos_totales": 6,
+      "porcentaje_contratos": 83.3,
+      "importe_proveedor": 945046.49,
+      "porcentaje_importe": 98.9,
+      "descripcion": "Arte Consultores Tecnológicos S.L. gana 5 de 6 contratos (83%) del Instituto de Estadística de las Illes Balears, 945,046€ de 955,791€ (99%). ¿Proveedor único justificado o cautividad?"
     },
     {
       "tipo": "concentracion",
@@ -503,6 +536,32 @@
           "objeto": "Suministro de materiales en el acondicionamiento de parcelas agrícolas en los municipios afectados por la DANA 2024 en el Municipio de Llíria.",
           "importe": 117001.07,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Y%2F5maXOGXl7LIx6q1oPaMg%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "HEALTH MARKET CONSULTING, SL",
+      "organo": "Servicio Cántabro de Salud",
+      "num_contratos": 2,
+      "importe_total": 238712.0,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 238,712€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "HV/2025/5/0029 1º Basado AM PA SCS 2025/29",
+          "objeto": "El objeto de este expediente es la contratación del servicio para la realización de pruebas de diagnóstico oftalmológico basado en inteligencia artificial para el Servicio de Oftalmología del Hospital Comarcal de Laredo.",
+          "importe": 116600.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ISB6X6GafB7%2B3JAijKO%2Bkg%3D%3D"
+        },
+        {
+          "expediente": "HV/2025/5/0029 2º Basado AM PA SCS 2025/29",
+          "objeto": "Contratación del servicio para la realización de pruebas de diagnóstico oftalmológico basado en inteligencia artificial para el Servicio de Oftalmología",
+          "importe": 122112.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XsvJHJddi67gL1BHd3qjQA%3D%3D"
         }
       ]
     },
@@ -663,6 +722,32 @@
       ]
     },
     {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "SANTA CLARA ALIMENTACION SL",
+      "organo": "Servicio Extremeño de Promoción de la Autonomía y Atención a la Dependencia (SEPAD).Gerencia Territorial de Cáceres",
+      "num_contratos": 2,
+      "importe_total": 255035.65,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 255,036€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "PRCBAM/2026/0000065990",
+          "objeto": "Contrato basado suministro carne fresca con destino a los centros adscritos a la Gerencia Territorial del SEPAD de Cáceres, Lote 2 Plasencia",
+          "importe": 123339.25,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=UCHXGQFsmBHCfVQHDepjGQ%3D%3D"
+        },
+        {
+          "expediente": "PRCBAM/2026/0000065987",
+          "objeto": "Contrato basado suministro carne fresca con destino a los centros adscritos a la Gerencia Territorial del SEPAD de Cáceres, Lote 1 Cáceres y Trujillo",
+          "importe": 131696.4,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Rn8Y1MsP27SAAM7L03kM8A%3D%3D"
+        }
+      ]
+    },
+    {
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
@@ -701,10 +786,10 @@
       "emoji": "🟡",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
       "contratos_en_franja": 32,
-      "contratos_totales": 74,
-      "porcentaje": 43.2,
+      "contratos_totales": 75,
+      "porcentaje": 42.7,
       "proveedores_distintos": 27,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 32 de 74 menores (43%) entre 12,000-15,000€. 27 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 32 de 75 menores (43%) entre 12,000-15,000€. 27 proveedores. Estadísticamente improbable sin intervención."
     }
   ]
 }
