@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-06-26T08:51:40",
+    "generado": "2026-06-27T08:28:27",
     "version": "3.0",
-    "contratos_analizados": 75549,
-    "menores": 36999,
-    "licitaciones": 38550,
+    "contratos_analizados": 78984,
+    "menores": 39195,
+    "licitaciones": 39789,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 30,
+    "total_flags": 32,
     "por_tipo": {
-      "fraccionamiento": 8,
+      "fraccionamiento": 9,
       "concentracion": 3,
-      "patron_umbral": 4,
+      "patron_umbral": 5,
       "omnipresente": 1,
       "negociado_reiterado": 1,
       "umbral_europeo": 13
     },
-    "severidad_alta": 15,
-    "severidad_media": 15
+    "severidad_alta": 16,
+    "severidad_media": 16
   },
   "flags": [
     {
@@ -71,15 +71,27 @@
       "tipo": "fraccionamiento",
       "severidad": "alta",
       "emoji": "🔴",
-      "score": 8,
+      "score": 9,
       "adjudicatario": "INFORCOPY SISTEMAS, S.L.",
       "organo": "Secretaría General de la Consejería de Educación, Cultura y Deportes de la Junta de Comunidades de Castilla-La Mancha",
-      "num_contratos": 3,
-      "importe_total": 41087.97,
-      "importe_medio": 13695.99,
+      "num_contratos": 4,
+      "importe_total": 55292.16,
+      "importe_medio": 13823.04,
       "umbral_legal": 15000,
-      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 41,088€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 55,292€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
       "contratos": [
+        {
+          "expediente": "2026/002288",
+          "objeto": "Adquisición de 21 ordenadores portátiles para conformar un aula de informática en CEIP Fernando Martin",
+          "importe": 13695.99,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=JPjoEOzNzpU4NavIWzMcHA%3D%3D"
+        },
+        {
+          "expediente": "2026/002301",
+          "objeto": "Adquisición de 21 ordenadores portátiles para conformar un aula de informática en IESO Amalia Avia",
+          "importe": 14204.19,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=vGthmqqS5CkeIBJRHQiPkQ%3D%3D"
+        },
         {
           "expediente": "2026/002291",
           "objeto": "Adquisición de 21 ordenadores portátiles para conformar un aula de informática en CEIP Conde de Ruiseñada",
@@ -91,12 +103,6 @@
           "objeto": "Adquisición de 21 ordenadores portátiles para conformar un aula de informática en CEIP Santísimo Cristo de las Injurias",
           "importe": 13695.99,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=D2DFu%2FsQ8nvCfVQHDepjGQ%3D%3D"
-        },
-        {
-          "expediente": "2026/002288",
-          "objeto": "Adquisición de 21 ordenadores portátiles para conformar un aula de informática en CEIP Fernando Martin",
-          "importe": 13695.99,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=JPjoEOzNzpU4NavIWzMcHA%3D%3D"
         }
       ]
     },
@@ -299,6 +305,39 @@
       ]
     },
     {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "OLIMPICO SPORTS EVENTS SL",
+      "organo": "Consejería de Desregulación, Familia y Ayudas Sociales de la Junta de Castilla y León",
+      "num_contratos": 3,
+      "importe_total": 44177.61,
+      "importe_medio": 14725.87,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 44,178€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "B2026/010734",
+          "objeto": "Financiar el coste de las cuotas de participantes con derecho a bonificación en las actividades RA046,RA74,RA50,RA51 y RA69  multiactividad  en Picos de Europa (Potes-Cantabria), aventura en Pirineos(Lleida) y  Surf en Queveda-Suances-Cantabria,",
+          "importe": 14934.45,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=2An2yLit7b3VGIpKDxgsAQ%3D%3D"
+        },
+        {
+          "expediente": "B2026/010653",
+          "objeto": "Financiar el coste de las cuotas de participantes con derecho a bonificación en las actividades RA022 y RA045 Aventura y playa en Marbella (Málaga) de los campamentos de verano Red Activa 2026.",
+          "importe": 14821.46,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2FA37yQZgyFB%2FR5QFTlaM4A%3D%3D"
+        },
+        {
+          "expediente": "B2026/010680",
+          "objeto": "Financiar el coste de las cuotas de participantes con derecho a bonificación   CT012 (Inglés, multiaventura, Cantabria) CT021 (Tecnificación futbol, Murcia) y CT028 (Inglés y aventura playa Málaga) del P. Campamentos Temáticos Juveniles.",
+          "importe": 14421.7,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=WMzRvlGylCR9PLkba5eRog%3D%3D"
+        }
+      ]
+    },
+    {
       "tipo": "umbral_europeo",
       "severidad": "alta",
       "emoji": "🔴",
@@ -437,12 +476,12 @@
       "emoji": "🔴",
       "adjudicatario": "TRANSPORTE SANITARIO LANZAROTE S.L.",
       "organo": "Presidencia del Consorcio de Seguridad, Emergencia, Salvamento, Prevención y Extinción de Incendios de Lanzarote",
-      "contratos_proveedor": 12,
-      "contratos_totales": 14,
-      "porcentaje_contratos": 85.7,
-      "importe_proveedor": 14635.68,
+      "contratos_proveedor": 14,
+      "contratos_totales": 16,
+      "porcentaje_contratos": 87.5,
+      "importe_proveedor": 15902.88,
       "porcentaje_importe": 100.0,
-      "descripcion": "TRANSPORTE SANITARIO LANZAROTE S.L. gana 12 de 14 contratos (86%) del Presidencia del Consorcio de Seguridad, Emergencia, Salvamento, Prevención y Extinción de Incendios de Lanzarote, 14,636€ de 14,636€ (100%). ¿Proveedor único justificado o cautividad?"
+      "descripcion": "TRANSPORTE SANITARIO LANZAROTE S.L. gana 14 de 16 contratos (88%) del Presidencia del Consorcio de Seguridad, Emergencia, Salvamento, Prevención y Extinción de Incendios de Lanzarote, 15,903€ de 15,903€ (100%). ¿Proveedor único justificado o cautividad?"
     },
     {
       "tipo": "omnipresente",
@@ -746,6 +785,17 @@
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Rn8Y1MsP27SAAM7L03kM8A%3D%3D"
         }
       ]
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Secretaria General del Servicio de Salud de Castilla-La Mancha",
+      "contratos_en_franja": 4,
+      "contratos_totales": 10,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 4,
+      "descripcion": "Secretaria General del Servicio de Salud de Castilla-La Mancha: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
