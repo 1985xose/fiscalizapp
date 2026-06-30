@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-06-29T10:24:13",
+    "generado": "2026-06-30T08:59:10",
     "version": "3.0",
-    "contratos_analizados": 80209,
-    "menores": 40244,
-    "licitaciones": 39965,
+    "contratos_analizados": 83640,
+    "menores": 42529,
+    "licitaciones": 41111,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,16 +15,16 @@
     ]
   },
   "stats": {
-    "total_flags": 32,
+    "total_flags": 31,
     "por_tipo": {
       "fraccionamiento": 9,
-      "concentracion": 3,
+      "concentracion": 2,
       "patron_umbral": 5,
       "omnipresente": 1,
       "negociado_reiterado": 1,
       "umbral_europeo": 13
     },
-    "severidad_alta": 16,
+    "severidad_alta": 15,
     "severidad_media": 16
   },
   "flags": [
@@ -469,19 +469,6 @@
       "importe_proveedor": 131224.5,
       "porcentaje_importe": 100.0,
       "descripcion": "INBONIS SA gana 7 de 7 contratos (100%) del Dirección General de Comercio Internacional e Inversiones, 131,224€ de 131,224€ (100%). ¿Proveedor único justificado o cautividad?"
-    },
-    {
-      "tipo": "concentracion",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "adjudicatario": "TRANSPORTE SANITARIO LANZAROTE S.L.",
-      "organo": "Presidencia del Consorcio de Seguridad, Emergencia, Salvamento, Prevención y Extinción de Incendios de Lanzarote",
-      "contratos_proveedor": 14,
-      "contratos_totales": 16,
-      "porcentaje_contratos": 87.5,
-      "importe_proveedor": 15902.88,
-      "porcentaje_importe": 100.0,
-      "descripcion": "TRANSPORTE SANITARIO LANZAROTE S.L. gana 14 de 16 contratos (88%) del Presidencia del Consorcio de Seguridad, Emergencia, Salvamento, Prevención y Extinción de Incendios de Lanzarote, 15,903€ de 15,903€ (100%). ¿Proveedor único justificado o cautividad?"
     },
     {
       "tipo": "omnipresente",
