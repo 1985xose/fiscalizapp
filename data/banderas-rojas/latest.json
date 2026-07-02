@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-07-01T09:26:57",
+    "generado": "2026-07-02T08:39:53",
     "version": "3.0",
-    "contratos_analizados": 0,
-    "menores": 0,
-    "licitaciones": 0,
+    "contratos_analizados": 7518,
+    "menores": 4031,
+    "licitaciones": 3487,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,198 @@
     ]
   },
   "stats": {
-    "total_flags": 0,
+    "total_flags": 5,
     "por_tipo": {
-      "fraccionamiento": 0,
+      "fraccionamiento": 2,
       "concentracion": 0,
       "patron_umbral": 0,
       "omnipresente": 0,
       "negociado_reiterado": 0,
-      "umbral_europeo": 0
+      "umbral_europeo": 3
     },
-    "severidad_alta": 0,
-    "severidad_media": 0
+    "severidad_alta": 3,
+    "severidad_media": 2
   },
-  "flags": []
+  "flags": [
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 12,
+      "adjudicatario": "DIARIO EL PUEBLO DE CEUTA S.L.",
+      "organo": "Órgano de Contratación de la Ciudad Autónoma de Ceuta",
+      "num_contratos": 6,
+      "importe_total": 88279.2,
+      "importe_medio": 14713.2,
+      "umbral_legal": 15000,
+      "descripcion": "6 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 88,279€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/39.447",
+          "objeto": "Contrato menor campañas contra violencia género medios impresos Diario El Pueblo S.L. campaña: \"El sexo es un sí. Di no a la violencia sexual\"",
+          "importe": 14713.2,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=v03caJsXSVrgL1BHd3qjQA%3D%3D"
+        },
+        {
+          "expediente": "2026/39.444",
+          "objeto": "Contrato menor campañas contra violencia género medios impresos Diario El Pueblo S.L. campaña: \"Consentido: Si está dormida, no puede decir que sí\"",
+          "importe": 14713.2,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=CBhfgTEgJe3E6P%2FuLemXRw%3D%3D"
+        },
+        {
+          "expediente": "2026/39.443",
+          "objeto": "Contrato menor campañas contra violencia género medios impresos Diario El Pueblo S.L. campaña: \"Señalar al agresor, no a la víctima -016\"",
+          "importe": 14713.2,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=x9iO%2FLWhsdfN3k3tjedSGw%3D%3D"
+        },
+        {
+          "expediente": "2026/39.442",
+          "objeto": "Contrato menor campañas contra violencia género medios impresos Diario El Pueblo S.L. campaña: \"Confía en tu personal sanitario, cuéntanos lo que te está pasando, hay salida a la violencia de género -016\"",
+          "importe": 14713.2,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Ifi4%2B4EEjUt9PLkba5eRog%3D%3D"
+        },
+        {
+          "expediente": "2026/39.441",
+          "objeto": "Contrato menor campañas contra violencia género medios impresos Diario El Pueblo S.L. campaña: \"No inviertas en sufrimiento, cada vez que pagas, estás invirtiendo en mafias...\"",
+          "importe": 14713.2,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=0PX83VepzDoadbH3CysQuQ%3D%3D"
+        },
+        {
+          "expediente": "2026/39.439",
+          "objeto": "Contrato menor campañas contra violencia género medios impresos Diario El Pueblo S.L. campaña: \"Estás en un lugar seguro, ante una situación de violencia de género, te ayudamos -016\"",
+          "importe": 14713.2,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ZddbrndPJtJeKgd8LfVV9g%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 9,
+      "adjudicatario": "Joaquín Ferrer y CIA S.L.",
+      "organo": "Órgano de Contratación de la Ciudad Autónoma de Ceuta",
+      "num_contratos": 4,
+      "importe_total": 59111.47,
+      "importe_medio": 14777.87,
+      "umbral_legal": 15000,
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 59,111€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/39.448",
+          "objeto": "Contrato menor campañas contra violencia de género medios radiofónicos Cadena COPE (Joaquín Ferrer y Cía S.L.) campaña: \"Estás en un lugar seguro, ante una situación de violencia de género, te ayudamos -016\"",
+          "importe": 14971.87,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=B6dBZ8TdTRJVkTabT%2FRM8A%3D%3D"
+        },
+        {
+          "expediente": "2026/39.438",
+          "objeto": "Contrato menor campañas contra violencia género medios impresos Joaquín Ferrer y Cía S.L. campaña: \"Confía en tu personal sanitario, cuéntanos lo que te está pasando, hay salida a la violencia de género -016\"",
+          "importe": 14713.2,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=719%2BTeb6KpOAAM7L03kM8A%3D%3D"
+        },
+        {
+          "expediente": "2026/39.435",
+          "objeto": "Contrato menor campañas contra violencia género medios impresos Joaquín Ferrer y Cía S.L. campaña: \"No inviertas en sufrimiento, cada vez que pagas, estás invirtiendo en mafias...\"",
+          "importe": 14713.2,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=WRzCYPsFO%2BxPpzdqOdhuWg%3D%3D"
+        },
+        {
+          "expediente": "2026/39.433",
+          "objeto": "Contrato menor campañas contra violencia género medios impresos Joaquín Ferrer y Cía S.L. campaña: \"Estás en un lugar seguro, ante una situación de violencia de género, te ayudamos -016\"",
+          "importe": 14713.2,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=udfX%2FSjZWwol5NjlNci%2BtA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "SEPISUR XXI S.L.",
+      "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
+      "num_contratos": 4,
+      "importe_total": 483395.0,
+      "umbral_legal": 140000,
+      "descripcion": "4 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 483,395€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "TSA0076787-64",
+          "objeto": "Contrato derivado del \"Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU.",
+          "importe": 119306.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=lXLphmxtZUOExvMJXBMHHQ%3D%3D"
+        },
+        {
+          "expediente": "TSA0076787-13",
+          "objeto": "Contrato derivado del Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU",
+          "importe": 121363.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XkCy8G3fiIOHCIsjvJ3rhQ%3D%3D"
+        },
+        {
+          "expediente": "TSA0076787-12",
+          "objeto": "Contrato derivado del Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU",
+          "importe": 121363.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=KfmHsaXWtEj%2Fa9DgO%2BoYKQ%3D%3D"
+        },
+        {
+          "expediente": "TSA0076787-11",
+          "objeto": "Contrato derivado del Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU",
+          "importe": 121363.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=g6WX7HDYL9E7u6%2B%2FR7DUoA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "MAQUINARIAS J.A. CANO, S.L.",
+      "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
+      "num_contratos": 2,
+      "importe_total": 246840.0,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 246,840€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "TSA0076787-35",
+          "objeto": "Contrato derivado del Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU",
+          "importe": 123420.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=L7LUe0a0Lt%2BsNfRW6APEDw%3D%3D"
+        },
+        {
+          "expediente": "TSA0076787-34",
+          "objeto": "Contrato derivado del Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU",
+          "importe": 123420.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=aY3OxLY1xtbXOjazN1Dw9Q%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "MATERIALES DE CONSTRUCCION Y TRANSPORTES ENDRINA, S.L.",
+      "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
+      "num_contratos": 2,
+      "importe_total": 246840.0,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 246,840€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "TSA0076787-31",
+          "objeto": "Contrato derivado del Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU",
+          "importe": 123420.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=OGvfuiFRtU%2F%2Fa9DgO%2BoYKQ%3D%3D"
+        },
+        {
+          "expediente": "TSA0076787-30",
+          "objeto": "Contrato derivado del Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU",
+          "importe": 123420.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=K7hpATutS%2BItm4eBPtV6eQ%3D%3D"
+        }
+      ]
+    }
+  ]
 }
