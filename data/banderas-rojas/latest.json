@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-07-02T08:39:53",
+    "generado": "2026-07-03T08:46:27",
     "version": "3.0",
-    "contratos_analizados": 7518,
-    "menores": 4031,
-    "licitaciones": 3487,
+    "contratos_analizados": 11895,
+    "menores": 5467,
+    "licitaciones": 6428,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 5,
+    "total_flags": 9,
     "por_tipo": {
-      "fraccionamiento": 2,
-      "concentracion": 0,
-      "patron_umbral": 0,
+      "fraccionamiento": 3,
+      "concentracion": 1,
+      "patron_umbral": 1,
       "omnipresente": 0,
       "negociado_reiterado": 0,
-      "umbral_europeo": 3
+      "umbral_europeo": 4
     },
-    "severidad_alta": 3,
-    "severidad_media": 2
+    "severidad_alta": 6,
+    "severidad_media": 3
   },
   "flags": [
     {
@@ -119,6 +119,39 @@
       ]
     },
     {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "HEREDEROS DE M. JUMENA S.L",
+      "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
+      "num_contratos": 3,
+      "importe_total": 44997.0,
+      "importe_medio": 14999.0,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 44,997€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "20265101001",
+          "objeto": "Adquisición de embutidos para la elaboración del racionado de los internos del centro penitenciario de Ceuta.",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SMFUkkQXUJMzjChw4z%2FXvw%3D%3D"
+        },
+        {
+          "expediente": "20265101003",
+          "objeto": "Adquisición de carne de ave para la elaboración del racionado de los internos en el taller de alimentación del centro penitenciario de Ceuta.",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=q%2BcCGIoanAQIYE3ZiZ%2BxmQ%3D%3D"
+        },
+        {
+          "expediente": "20265101002",
+          "objeto": "Adquisición de carne de aves para la elaboración del racionado de los internos en el taller de alimentación del centro penitenciario de Ceuta.",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=yIAstYpdU5hVq4S9zvaQpQ%3D%3D"
+        }
+      ]
+    },
+    {
       "tipo": "umbral_europeo",
       "severidad": "alta",
       "emoji": "🔴",
@@ -155,6 +188,57 @@
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=g6WX7HDYL9E7u6%2B%2FR7DUoA%3D%3D"
         }
       ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "RADO INEL, S.L.",
+      "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
+      "num_contratos": 4,
+      "importe_total": 481338.0,
+      "umbral_legal": 140000,
+      "descripcion": "4 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 481,338€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "TSA0076787-22",
+          "objeto": "Contrato derivado del Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU",
+          "importe": 127534.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=t7O2xSrgk6l6nTs9LZ9RhQ%3D%3D"
+        },
+        {
+          "expediente": "TSA0076787-21",
+          "objeto": "Contrato derivado del Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU",
+          "importe": 127534.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=DMENDjYo66r9pbnDwlaUlg%3D%3D"
+        },
+        {
+          "expediente": "TSA0076787-04",
+          "objeto": "Contrato derivado del Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU",
+          "importe": 113135.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=OzgM4%2Bz0VP7i0Kd8%2Brcp6w%3D%3D"
+        },
+        {
+          "expediente": "TSA0076787-03",
+          "objeto": "Contrato derivado del \"Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU.",
+          "importe": 113135.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=xIgEI%2BMvbQSFlFRHfEzEaw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "concentracion",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "adjudicatario": "SERINGE S.A. INFORMATICA",
+      "organo": "Dirección de la Agencia Estatal Comisión Española para la Lucha Antidopaje en el Deporte (CELAD)",
+      "contratos_proveedor": 4,
+      "contratos_totales": 5,
+      "porcentaje_contratos": 80.0,
+      "importe_proveedor": 57185.81,
+      "porcentaje_importe": 100.0,
+      "descripcion": "SERINGE S.A. INFORMATICA gana 4 de 5 contratos (80%) del Dirección de la Agencia Estatal Comisión Española para la Lucha Antidopaje en el Deporte (CELAD), 57,186€ de 57,186€ (100%). ¿Proveedor único justificado o cautividad?"
     },
     {
       "tipo": "umbral_europeo",
@@ -207,6 +291,17 @@
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=K7hpATutS%2BItm4eBPtV6eQ%3D%3D"
         }
       ]
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
+      "contratos_en_franja": 6,
+      "contratos_totales": 12,
+      "porcentaje": 50.0,
+      "proveedores_distintos": 4,
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 6 de 12 menores (50%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
     }
   ]
 }
