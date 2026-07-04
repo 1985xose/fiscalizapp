@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-07-03T08:46:27",
+    "generado": "2026-07-04T08:21:48",
     "version": "3.0",
-    "contratos_analizados": 11895,
-    "menores": 5467,
-    "licitaciones": 6428,
+    "contratos_analizados": 15951,
+    "menores": 7034,
+    "licitaciones": 8917,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -297,11 +297,11 @@
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
-      "contratos_en_franja": 6,
-      "contratos_totales": 12,
-      "porcentaje": 50.0,
-      "proveedores_distintos": 4,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 6 de 12 menores (50%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 9,
+      "contratos_totales": 16,
+      "porcentaje": 56.2,
+      "proveedores_distintos": 7,
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 9 de 16 menores (56%) entre 12,000-15,000€. 7 proveedores. Estadísticamente improbable sin intervención."
     }
   ]
 }
