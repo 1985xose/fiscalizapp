@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-07-09T09:19:42",
+    "generado": "2026-07-10T09:00:12",
     "version": "3.0",
-    "contratos_analizados": 28616,
+    "contratos_analizados": 30764,
     "menores": 12937,
-    "licitaciones": 15679,
+    "licitaciones": 17827,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -24,8 +24,8 @@
       "negociado_reiterado": 0,
       "umbral_europeo": 6
     },
-    "severidad_alta": 8,
-    "severidad_media": 6
+    "severidad_alta": 9,
+    "severidad_media": 5
   },
   "flags": [
     {
@@ -265,6 +265,38 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 6,
+      "adjudicatario": "MAQUINARIAS J.A. CANO, S.L.",
+      "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
+      "num_contratos": 3,
+      "importe_total": 370260.0,
+      "umbral_legal": 140000,
+      "descripcion": "3 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 370,260€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "TSA0076787-35",
+          "objeto": "Contrato derivado del Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU",
+          "importe": 123420.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=L7LUe0a0Lt%2BsNfRW6APEDw%3D%3D"
+        },
+        {
+          "expediente": "TSA0076787-34",
+          "objeto": "Contrato derivado del Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU",
+          "importe": 123420.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=aY3OxLY1xtbXOjazN1Dw9Q%3D%3D"
+        },
+        {
+          "expediente": "TSA0076787-33",
+          "objeto": "Contrato derivado del Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU",
+          "importe": 123420.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=3%2FiE%2FoZ8RD7%2B3JAijKO%2Bkg%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 6,
       "adjudicatario": "Electrosistemas Bach SA",
       "organo": "ADIF - Presidencia",
       "num_contratos": 3,
@@ -328,32 +360,6 @@
           "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 09 de julio al 15 de julio de 2026.",
           "importe": 116369.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=LaE8bQOygZlSYrkJkLlFdw%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "umbral_europeo",
-      "severidad": "media",
-      "emoji": "🟡",
-      "score": 4,
-      "adjudicatario": "MAQUINARIAS J.A. CANO, S.L.",
-      "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
-      "num_contratos": 2,
-      "importe_total": 246840.0,
-      "umbral_legal": 140000,
-      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 246,840€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
-      "contratos": [
-        {
-          "expediente": "TSA0076787-35",
-          "objeto": "Contrato derivado del Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU",
-          "importe": 123420.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=L7LUe0a0Lt%2BsNfRW6APEDw%3D%3D"
-        },
-        {
-          "expediente": "TSA0076787-34",
-          "objeto": "Contrato derivado del Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU",
-          "importe": 123420.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=aY3OxLY1xtbXOjazN1Dw9Q%3D%3D"
         }
       ]
     },
