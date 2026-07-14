@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-07-13T08:48:59",
+    "generado": "2026-07-14T07:46:18",
     "version": "3.0",
-    "contratos_analizados": 0,
-    "menores": 0,
-    "licitaciones": 0,
+    "contratos_analizados": 40903,
+    "menores": 18942,
+    "licitaciones": 21961,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,497 @@
     ]
   },
   "stats": {
-    "total_flags": 0,
+    "total_flags": 18,
     "por_tipo": {
-      "fraccionamiento": 0,
-      "concentracion": 0,
-      "patron_umbral": 0,
+      "fraccionamiento": 5,
+      "concentracion": 3,
+      "patron_umbral": 3,
       "omnipresente": 0,
       "negociado_reiterado": 0,
-      "umbral_europeo": 0
+      "umbral_europeo": 7
     },
-    "severidad_alta": 0,
-    "severidad_media": 0
+    "severidad_alta": 12,
+    "severidad_media": 6
   },
-  "flags": []
+  "flags": [
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 12,
+      "adjudicatario": "DIARIO EL PUEBLO DE CEUTA S.L.",
+      "organo": "Órgano de Contratación de la Ciudad Autónoma de Ceuta",
+      "num_contratos": 6,
+      "importe_total": 88279.2,
+      "importe_medio": 14713.2,
+      "umbral_legal": 15000,
+      "descripcion": "6 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 88,279€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/39.447",
+          "objeto": "Contrato menor campañas contra violencia género medios impresos Diario El Pueblo S.L. campaña: \"El sexo es un sí. Di no a la violencia sexual\"",
+          "importe": 14713.2,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=v03caJsXSVrgL1BHd3qjQA%3D%3D"
+        },
+        {
+          "expediente": "2026/39.444",
+          "objeto": "Contrato menor campañas contra violencia género medios impresos Diario El Pueblo S.L. campaña: \"Consentido: Si está dormida, no puede decir que sí\"",
+          "importe": 14713.2,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=CBhfgTEgJe3E6P%2FuLemXRw%3D%3D"
+        },
+        {
+          "expediente": "2026/39.443",
+          "objeto": "Contrato menor campañas contra violencia género medios impresos Diario El Pueblo S.L. campaña: \"Señalar al agresor, no a la víctima -016\"",
+          "importe": 14713.2,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=x9iO%2FLWhsdfN3k3tjedSGw%3D%3D"
+        },
+        {
+          "expediente": "2026/39.442",
+          "objeto": "Contrato menor campañas contra violencia género medios impresos Diario El Pueblo S.L. campaña: \"Confía en tu personal sanitario, cuéntanos lo que te está pasando, hay salida a la violencia de género -016\"",
+          "importe": 14713.2,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Ifi4%2B4EEjUt9PLkba5eRog%3D%3D"
+        },
+        {
+          "expediente": "2026/39.441",
+          "objeto": "Contrato menor campañas contra violencia género medios impresos Diario El Pueblo S.L. campaña: \"No inviertas en sufrimiento, cada vez que pagas, estás invirtiendo en mafias...\"",
+          "importe": 14713.2,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=0PX83VepzDoadbH3CysQuQ%3D%3D"
+        },
+        {
+          "expediente": "2026/39.439",
+          "objeto": "Contrato menor campañas contra violencia género medios impresos Diario El Pueblo S.L. campaña: \"Estás en un lugar seguro, ante una situación de violencia de género, te ayudamos -016\"",
+          "importe": 14713.2,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ZddbrndPJtJeKgd8LfVV9g%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 9,
+      "adjudicatario": "Joaquín Ferrer y CIA S.L.",
+      "organo": "Órgano de Contratación de la Ciudad Autónoma de Ceuta",
+      "num_contratos": 4,
+      "importe_total": 59111.47,
+      "importe_medio": 14777.87,
+      "umbral_legal": 15000,
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 59,111€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/39.448",
+          "objeto": "Contrato menor campañas contra violencia de género medios radiofónicos Cadena COPE (Joaquín Ferrer y Cía S.L.) campaña: \"Estás en un lugar seguro, ante una situación de violencia de género, te ayudamos -016\"",
+          "importe": 14971.87,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=B6dBZ8TdTRJVkTabT%2FRM8A%3D%3D"
+        },
+        {
+          "expediente": "2026/39.438",
+          "objeto": "Contrato menor campañas contra violencia género medios impresos Joaquín Ferrer y Cía S.L. campaña: \"Confía en tu personal sanitario, cuéntanos lo que te está pasando, hay salida a la violencia de género -016\"",
+          "importe": 14713.2,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=719%2BTeb6KpOAAM7L03kM8A%3D%3D"
+        },
+        {
+          "expediente": "2026/39.435",
+          "objeto": "Contrato menor campañas contra violencia género medios impresos Joaquín Ferrer y Cía S.L. campaña: \"No inviertas en sufrimiento, cada vez que pagas, estás invirtiendo en mafias...\"",
+          "importe": 14713.2,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=WRzCYPsFO%2BxPpzdqOdhuWg%3D%3D"
+        },
+        {
+          "expediente": "2026/39.433",
+          "objeto": "Contrato menor campañas contra violencia género medios impresos Joaquín Ferrer y Cía S.L. campaña: \"Estás en un lugar seguro, ante una situación de violencia de género, te ayudamos -016\"",
+          "importe": 14713.2,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=udfX%2FSjZWwol5NjlNci%2BtA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "VIAJES NACIENTES, S.L.",
+      "organo": "Consejo de Administración de la Sociedad de Promoción y Desarrollo Económico de la Isla de La Palma, S.A.U. SODEPAL",
+      "num_contratos": 3,
+      "importe_total": 44620.53,
+      "importe_medio": 14873.51,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 44,621€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "CM 141 2026",
+          "objeto": "Emisión de billetes de avión y alojamiento para actos musicales del evento Transvulcania 2026",
+          "importe": 14820.53,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=IhgqO0gSkPt6nTs9LZ9RhQ%3D%3D"
+        },
+        {
+          "expediente": "CM 175 2026",
+          "objeto": "Emisión de billetes de avión y alojamiento para medios acreditados de prensa y comunicación para la promoción del evento Transvulcania 2026",
+          "importe": 14900.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ZCxLZWXmonqdkQsA7ROvsg%3D%3D"
+        },
+        {
+          "expediente": "CM 172 2026",
+          "objeto": "Emisión de billetes de avión para personal de logística del evento Transvulcania 2026",
+          "importe": 14900.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=agVQvm7%2BI%2Bj9pbnDwlaUlg%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "HEREDEROS DE M. JUMENA S.L",
+      "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
+      "num_contratos": 3,
+      "importe_total": 44997.0,
+      "importe_medio": 14999.0,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 44,997€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "20265101001",
+          "objeto": "Adquisición de embutidos para la elaboración del racionado de los internos del centro penitenciario de Ceuta.",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SMFUkkQXUJMzjChw4z%2FXvw%3D%3D"
+        },
+        {
+          "expediente": "20265101003",
+          "objeto": "Adquisición de carne de ave para la elaboración del racionado de los internos en el taller de alimentación del centro penitenciario de Ceuta.",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=q%2BcCGIoanAQIYE3ZiZ%2BxmQ%3D%3D"
+        },
+        {
+          "expediente": "20265101002",
+          "objeto": "Adquisición de carne de aves para la elaboración del racionado de los internos en el taller de alimentación del centro penitenciario de Ceuta.",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=yIAstYpdU5hVq4S9zvaQpQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "SACAI, S.A.",
+      "organo": "Secretaría General de la Consejería de Educación, Cultura y Deportes de la Junta de Comunidades de Castilla-La Mancha",
+      "num_contratos": 3,
+      "importe_total": 36938.88,
+      "importe_medio": 12312.96,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 36,939€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/036192",
+          "objeto": "Adq.Mobiliario cont.menor 04/26 SDA (2023/434)",
+          "importe": 12777.6,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=V5pk5TSBMgCOUi78BmzhOQ%3D%3D"
+        },
+        {
+          "expediente": "2026/036190",
+          "objeto": "Adquisición Mobiliario Contrato. Menor  30/26 SDA (2023/434)",
+          "importe": 12051.6,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=tW7Jy222lEL5Rey58Yagpg%3D%3D"
+        },
+        {
+          "expediente": "2026/036186",
+          "objeto": "Adq.Mobiliario cont.menor 03/26 SDA (2023/434)",
+          "importe": 12109.68,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=kf%2BOrMbN7k3XOjazN1Dw9Q%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "SEPISUR XXI S.L.",
+      "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
+      "num_contratos": 4,
+      "importe_total": 483395.0,
+      "umbral_legal": 140000,
+      "descripcion": "4 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 483,395€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "TSA0076787-64",
+          "objeto": "Contrato derivado del \"Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU.",
+          "importe": 119306.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=lXLphmxtZUOExvMJXBMHHQ%3D%3D"
+        },
+        {
+          "expediente": "TSA0076787-13",
+          "objeto": "Contrato derivado del Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU",
+          "importe": 121363.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XkCy8G3fiIOHCIsjvJ3rhQ%3D%3D"
+        },
+        {
+          "expediente": "TSA0076787-12",
+          "objeto": "Contrato derivado del Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU",
+          "importe": 121363.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=KfmHsaXWtEj%2Fa9DgO%2BoYKQ%3D%3D"
+        },
+        {
+          "expediente": "TSA0076787-11",
+          "objeto": "Contrato derivado del Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU",
+          "importe": 121363.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=g6WX7HDYL9E7u6%2B%2FR7DUoA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "RADO INEL, S.L.",
+      "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
+      "num_contratos": 4,
+      "importe_total": 481338.0,
+      "umbral_legal": 140000,
+      "descripcion": "4 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 481,338€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "TSA0076787-22",
+          "objeto": "Contrato derivado del Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU",
+          "importe": 127534.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=t7O2xSrgk6l6nTs9LZ9RhQ%3D%3D"
+        },
+        {
+          "expediente": "TSA0076787-21",
+          "objeto": "Contrato derivado del Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU",
+          "importe": 127534.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=DMENDjYo66r9pbnDwlaUlg%3D%3D"
+        },
+        {
+          "expediente": "TSA0076787-04",
+          "objeto": "Contrato derivado del Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU",
+          "importe": 113135.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=OzgM4%2Bz0VP7i0Kd8%2Brcp6w%3D%3D"
+        },
+        {
+          "expediente": "TSA0076787-03",
+          "objeto": "Contrato derivado del \"Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU.",
+          "importe": 113135.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=xIgEI%2BMvbQSFlFRHfEzEaw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 6,
+      "adjudicatario": "MAQUINARIAS J.A. CANO, S.L.",
+      "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
+      "num_contratos": 3,
+      "importe_total": 370260.0,
+      "umbral_legal": 140000,
+      "descripcion": "3 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 370,260€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "TSA0076787-35",
+          "objeto": "Contrato derivado del Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU",
+          "importe": 123420.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=L7LUe0a0Lt%2BsNfRW6APEDw%3D%3D"
+        },
+        {
+          "expediente": "TSA0076787-34",
+          "objeto": "Contrato derivado del Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU",
+          "importe": 123420.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=aY3OxLY1xtbXOjazN1Dw9Q%3D%3D"
+        },
+        {
+          "expediente": "TSA0076787-33",
+          "objeto": "Contrato derivado del Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU",
+          "importe": 123420.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=3%2FiE%2FoZ8RD7%2B3JAijKO%2Bkg%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 6,
+      "adjudicatario": "Electrosistemas Bach SA",
+      "organo": "ADIF - Presidencia",
+      "num_contratos": 3,
+      "importe_total": 361412.19,
+      "umbral_legal": 140000,
+      "descripcion": "3 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 361,412€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "3.26/27507.0145",
+          "objeto": "Pedido nº 7 contra Acuerdo Marco 3.22/27507.0220. Sustitución de detectores de presencia en el paso a nivel situado en el p.k. 197/499 de la línea 200 en el municipio de Monreal de Ariza (Zaragoza), lote 3 Noreste, 3.22/27507.0242.",
+          "importe": 119838.63,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=OXenL7OL8EsIYE3ZiZ%2BxmQ%3D%3D"
+        },
+        {
+          "expediente": "3.26/27507.0169",
+          "objeto": "Pedido nº 15 contra acuerdo marco 3.22/27507.0220. Sustitución de detectores de presencia en el paso a nivel situado en el punto kilométrico 275/211 de la línea 200 en el municipio de Ariza (Zaragoza), lote 3 noreste.",
+          "importe": 119838.63,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=vMvlR%2BydHsnzAq95uGTrDQ%3D%3D"
+        },
+        {
+          "expediente": "3.26/27507.0150",
+          "objeto": "Pedido nº 12 contra acuerdo marco 3.22/27507.0220. Sustitución de detectores de presencia en el paso a nivel concatenado situado en el punto kilométrico 267/793 de la línea 200 en el municipio de Chodes (Zaragoza), lote 3 noreste.",
+          "importe": 121734.93,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2BzsM2Ykns0YZDGvgaZEVxQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "concentracion",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "adjudicatario": "CRISTINA PURRIÑOS GONZÁLEZ",
+      "organo": "Gerencia del Instituto Municipal para el Empleo y la Formación",
+      "contratos_proveedor": 5,
+      "contratos_totales": 5,
+      "porcentaje_contratos": 100.0,
+      "importe_proveedor": 14960.0,
+      "porcentaje_importe": 100.0,
+      "descripcion": "CRISTINA PURRIÑOS GONZÁLEZ gana 5 de 5 contratos (100%) del Gerencia del Instituto Municipal para el Empleo y la Formación, 14,960€ de 14,960€ (100%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "concentracion",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "adjudicatario": "JAVIER REDON VILLANUEVA",
+      "organo": "Alcaldía del Ayuntamiento de Olba",
+      "contratos_proveedor": 8,
+      "contratos_totales": 9,
+      "porcentaje_contratos": 88.9,
+      "importe_proveedor": 71052.61,
+      "porcentaje_importe": 91.6,
+      "descripcion": "JAVIER REDON VILLANUEVA gana 8 de 9 contratos (89%) del Alcaldía del Ayuntamiento de Olba, 71,053€ de 77,536€ (92%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "organo": "Junta de Gobierno del Ayuntamiento de Santander",
+      "contratos_en_franja": 6,
+      "contratos_totales": 10,
+      "porcentaje": 60.0,
+      "proveedores_distintos": 6,
+      "descripcion": "Junta de Gobierno del Ayuntamiento de Santander: 6 de 10 menores (60%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "DISHOSPAC SL",
+      "organo": "Paradores de Turismo de España, S.M.E., S.A.",
+      "num_contratos": 2,
+      "importe_total": 234971.0,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 234,971€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "PESCADOS RULA DE AVILES PT CANGAS 02 07 08 07 26",
+          "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 02 de julio al 08 de julio de 2026.",
+          "importe": 118602.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Iy1HVkt3ZsVSYrkJkLlFdw%3D%3D"
+        },
+        {
+          "expediente": "PESCADOS RULA DE AVILES PT CANGAS 09 07 15 07 26",
+          "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 09 de julio al 15 de julio de 2026.",
+          "importe": 116369.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=LaE8bQOygZlSYrkJkLlFdw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "MATERIALES DE CONSTRUCCION Y TRANSPORTES ENDRINA, S.L.",
+      "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
+      "num_contratos": 2,
+      "importe_total": 246840.0,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 246,840€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "TSA0076787-31",
+          "objeto": "Contrato derivado del Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU",
+          "importe": 123420.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=OGvfuiFRtU%2F%2Fa9DgO%2BoYKQ%3D%3D"
+        },
+        {
+          "expediente": "TSA0076787-30",
+          "objeto": "Contrato derivado del Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU",
+          "importe": 123420.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=K7hpATutS%2BItm4eBPtV6eQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "LIFE TECHNOLOGIES, S.A.",
+      "organo": "Subdirección General de Obras y Patrimonio",
+      "num_contratos": 2,
+      "importe_total": 253472.91,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 253,473€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "ASU/2026/018 - INT104/26",
+          "objeto": "Int104/26 Asu-2026-018 Suministro E Instalación De Equipos Analíticos Complejos Para Identificación Genética Forense, Termocicladores, Para Los Servicios De Biología Del Instituto Nacional De Toxicología Y Ciencias Forenses.",
+          "importe": 132235.75,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=KJ646xFIo81Whbmkna2nXQ%3D%3D"
+        },
+        {
+          "expediente": "INT105/26 - ASU/2026/019",
+          "objeto": "Int105/26 Asu/2026/019 Suministro De Equipos Analíticos Complejos Para Identificación Genética Forense, Equipos Pcr A Tiempo Real Para El Instituto Nacional De Toxicología Y Ciencias Forenses.",
+          "importe": 121237.16,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=uVn%2BRj5n3KZSYrkJkLlFdw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "concentracion",
+      "severidad": "media",
+      "emoji": "🟡",
+      "adjudicatario": "TRANSPORTE SANITARIO LANZAROTE S.L.",
+      "organo": "Presidencia del Consorcio de Seguridad, Emergencia, Salvamento, Prevención y Extinción de Incendios de Lanzarote",
+      "contratos_proveedor": 13,
+      "contratos_totales": 15,
+      "porcentaje_contratos": 86.7,
+      "importe_proveedor": 20264.5,
+      "porcentaje_importe": 76.5,
+      "descripcion": "TRANSPORTE SANITARIO LANZAROTE S.L. gana 13 de 15 contratos (87%) del Presidencia del Consorcio de Seguridad, Emergencia, Salvamento, Prevención y Extinción de Incendios de Lanzarote, 20,264€ de 26,502€ (76%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Consejo de Administración de la Sociedad de Promoción y Desarrollo Económico de la Isla de La Palma, S.A.U. SODEPAL",
+      "contratos_en_franja": 10,
+      "contratos_totales": 24,
+      "porcentaje": 41.7,
+      "proveedores_distintos": 8,
+      "descripcion": "Consejo de Administración de la Sociedad de Promoción y Desarrollo Económico de la Isla de La Palma, S.A.U. SODEPAL: 10 de 24 menores (42%) entre 12,000-15,000€. 8 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
+      "contratos_en_franja": 13,
+      "contratos_totales": 24,
+      "porcentaje": 54.2,
+      "proveedores_distintos": 11,
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 13 de 24 menores (54%) entre 12,000-15,000€. 11 proveedores. Estadísticamente improbable sin intervención."
+    }
+  ]
 }
