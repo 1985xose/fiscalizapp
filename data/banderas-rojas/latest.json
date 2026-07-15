@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-07-14T07:46:18",
+    "generado": "2026-07-15T07:50:12",
     "version": "3.0",
-    "contratos_analizados": 40903,
+    "contratos_analizados": 42762,
     "menores": 18942,
-    "licitaciones": 21961,
+    "licitaciones": 23820,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 18,
+    "total_flags": 19,
     "por_tipo": {
       "fraccionamiento": 5,
       "concentracion": 3,
       "patron_umbral": 3,
       "omnipresente": 0,
       "negociado_reiterado": 0,
-      "umbral_europeo": 7
+      "umbral_europeo": 8
     },
     "severidad_alta": 12,
-    "severidad_media": 6
+    "severidad_media": 7
   },
   "flags": [
     {
@@ -443,6 +443,32 @@
           "objeto": "Contrato derivado del Acuerdo Marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la Gerencia provincial de Tragsa en Sevilla, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NEXTGENERATION EU",
           "importe": 123420.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=K7hpATutS%2BItm4eBPtV6eQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "HERKO ALTERNATIVE TRUCKS SL",
+      "organo": "Consejería Delegada de Agua y Residuos del Campo de Gibraltar, S.A. (ARCGISA)",
+      "num_contratos": 2,
+      "importe_total": 267410.0,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 267,410€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "06-1-2026",
+          "objeto": "Suministro de cuatro (4) vehículos tipo camión caja abierta con pluma de menos de 3.500 kg para zonas de difícil acceso, propulsado por biogás de origen renovable, para la fracción orgánica de los municipios de Los Barrios y San Roque, para la empresa Agua y Residuos del Campo de Gibraltar Sociedad Anónima (ARCGISA).",
+          "importe": 133705.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9j1wK3EOC2jLIx6q1oPaMg%3D%3D"
+        },
+        {
+          "expediente": "06-6-2026",
+          "objeto": "Suministro de dos vehículos tipo camión caja abierta con pluma de menos de 3.500 kg para zonas de difícil acceso, propulsado por GLP, para la fracción orgánica de Tarifa, para ARCGISA. Ayudas de la Junta de Andalucía destinadas a cofinanciar la adquisición de vehículos para la recogida separada de biorresiduos para el ejercicio 2025",
+          "importe": 133705.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=IAUeCgzqg9hQFSeKCRun4Q%3D%3D"
         }
       ]
     },
