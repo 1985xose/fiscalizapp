@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-07-16T07:55:45",
+    "generado": "2026-07-17T07:53:21",
     "version": "3.0",
-    "contratos_analizados": 44563,
+    "contratos_analizados": 46246,
     "menores": 18942,
-    "licitaciones": 25621,
+    "licitaciones": 27304,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -306,12 +306,6 @@
       "descripcion": "3 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 347,149€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
       "contratos": [
         {
-          "expediente": "PESCADOS RULA DE AVILES PT CANGAS 16 07 22 07 26",
-          "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 16 de julio al 22 de julio de 2026.",
-          "importe": 112178.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=0NLPiUamvxPVGIpKDxgsAQ%3D%3D"
-        },
-        {
           "expediente": "PESCADOS RULA DE AVILES PT CANGAS 02 07 08 07 26",
           "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 02 de julio al 08 de julio de 2026.",
           "importe": 118602.0,
@@ -322,6 +316,12 @@
           "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 09 de julio al 15 de julio de 2026.",
           "importe": 116369.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=LaE8bQOygZlSYrkJkLlFdw%3D%3D"
+        },
+        {
+          "expediente": "PESCADOS RULA DE AVILES PT CANGAS 16 07 22 07 26",
+          "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 16 de julio al 22 de julio de 2026.",
+          "importe": 112178.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=0NLPiUamvxPVGIpKDxgsAQ%3D%3D"
         }
       ]
     },
@@ -431,32 +431,6 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
-      "adjudicatario": "Hormigones Ornamentales Canarios, SL",
-      "organo": "Intendente de las Palmas",
-      "num_contratos": 2,
-      "importe_total": 249604.66,
-      "umbral_legal": 140000,
-      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 249,605€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
-      "contratos": [
-        {
-          "expediente": "2026/AR45U/00000587E",
-          "objeto": "INFRA 26-119.- Rehabilitación del Edificio del cuerpo de guardia en la Estación de Radio Picacho¨.",
-          "importe": 119661.28,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=dNnI9tomlFMXhk1FZxEyvw%3D%3D"
-        },
-        {
-          "expediente": "2026/AR45U/00000535E",
-          "objeto": "INFRA 26-052.- Reparación de revestimientos de fachada en el Edificio Anexo",
-          "importe": 129943.38,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=PurQlH1Qu%2FAQyBAnWzHfCg%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "umbral_europeo",
-      "severidad": "media",
-      "emoji": "🟡",
-      "score": 4,
       "adjudicatario": "MATERIALES DE CONSTRUCCION Y TRANSPORTES ENDRINA, S.L.",
       "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
       "num_contratos": 2,
@@ -527,6 +501,32 @@
           "objeto": "Int105/26 Asu/2026/019 Suministro De Equipos Analíticos Complejos Para Identificación Genética Forense, Equipos Pcr A Tiempo Real Para El Instituto Nacional De Toxicología Y Ciencias Forenses.",
           "importe": 121237.16,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=uVn%2BRj5n3KZSYrkJkLlFdw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "Hormigones Ornamentales Canarios, SL",
+      "organo": "Intendente de las Palmas",
+      "num_contratos": 2,
+      "importe_total": 249604.66,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 249,605€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "2026/AR45U/00000535E",
+          "objeto": "INFRA 26-052.- Reparación de revestimientos de fachada en el Edificio Anexo",
+          "importe": 129943.38,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=PurQlH1Qu%2FAQyBAnWzHfCg%3D%3D"
+        },
+        {
+          "expediente": "2026/AR45U/00000587E",
+          "objeto": "INFRA 26-119.- Rehabilitación del Edificio del cuerpo de guardia en la Estación de Radio Picacho¨.",
+          "importe": 119661.28,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=dNnI9tomlFMXhk1FZxEyvw%3D%3D"
         }
       ]
     },
