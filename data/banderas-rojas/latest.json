@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-07-17T07:53:21",
+    "generado": "2026-07-18T07:27:58",
     "version": "3.0",
-    "contratos_analizados": 46246,
-    "menores": 18942,
-    "licitaciones": 27304,
+    "contratos_analizados": 54043,
+    "menores": 25144,
+    "licitaciones": 28899,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 20,
+    "total_flags": 22,
     "por_tipo": {
-      "fraccionamiento": 5,
+      "fraccionamiento": 7,
       "concentracion": 3,
       "patron_umbral": 3,
       "omnipresente": 0,
       "negociado_reiterado": 0,
       "umbral_europeo": 9
     },
-    "severidad_alta": 13,
-    "severidad_media": 7
+    "severidad_alta": 14,
+    "severidad_media": 8
   },
   "flags": [
     {
@@ -214,6 +214,72 @@
           "objeto": "Adq.Mobiliario cont.menor 03/26 SDA (2023/434)",
           "importe": 12109.68,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=kf%2BOrMbN7k3XOjazN1Dw9Q%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "HONEYWELL TECNOLOGIA Y SEGURIDAD, S.A.",
+      "organo": "Presidencia de la Autoridad Portuaria de Bilbao",
+      "num_contratos": 3,
+      "importe_total": 37978.27,
+      "importe_medio": 12659.42,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 37,978€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "P-2026-564",
+          "objeto": "Servicio de migración de plataforma Energy Manager Honeywelll.",
+          "importe": 12582.79,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=kPGJiS1raevCfVQHDepjGQ%3D%3D"
+        },
+        {
+          "expediente": "P-2026-551",
+          "objeto": "Servicio de migración de plataforma EBI HONEYWELL R2025",
+          "importe": 12582.79,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=CqofKq0SDsWLAncw3qdZkA%3D%3D"
+        },
+        {
+          "expediente": "P-2026-628",
+          "objeto": "Suministro de licencias para plataformas EBI + Energy manager honeywell",
+          "importe": 12812.69,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Mxqp9Go0Gq6LAncw3qdZkA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "DISA GAS SA",
+      "organo": "Jefatura de Asuntos Económicos del Mando de Canarias",
+      "num_contratos": 3,
+      "importe_total": 44673.56,
+      "importe_medio": 14891.19,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 44,674€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/ETSAE0814/00002214E",
+          "objeto": "JSUIGE5. Suministro de gas propano (26-0108)",
+          "importe": 14907.86,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=fSq8y26uyckaF6cS8TCh%2FA%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0814/00002350E",
+          "objeto": "SUIGE 5. Suministro de gas propano (26-0122)",
+          "importe": 14918.02,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=EFnpmGqlUMQ7%2B9FIQYNjeQ%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0814/00001942E",
+          "objeto": "JSUIGE5. Suministro de Gas Propano",
+          "importe": 14847.68,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=jYk2FXEN2LjyoM4us5k4vw%3D%3D"
         }
       ]
     },
@@ -416,17 +482,6 @@
       "descripcion": "JAVIER REDON VILLANUEVA gana 8 de 9 contratos (89%) del Alcaldía del Ayuntamiento de Olba, 71,053€ de 77,536€ (92%). ¿Proveedor único justificado o cautividad?"
     },
     {
-      "tipo": "patron_umbral",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "organo": "Junta de Gobierno del Ayuntamiento de Santander",
-      "contratos_en_franja": 6,
-      "contratos_totales": 10,
-      "porcentaje": 60.0,
-      "proveedores_distintos": 6,
-      "descripcion": "Junta de Gobierno del Ayuntamiento de Santander: 6 de 10 menores (60%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
       "tipo": "umbral_europeo",
       "severidad": "media",
       "emoji": "🟡",
@@ -560,10 +615,21 @@
       "emoji": "🟡",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
       "contratos_en_franja": 13,
-      "contratos_totales": 24,
-      "porcentaje": 54.2,
+      "contratos_totales": 26,
+      "porcentaje": 50.0,
       "proveedores_distintos": 11,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 13 de 24 menores (54%) entre 12,000-15,000€. 11 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 13 de 26 menores (50%) entre 12,000-15,000€. 11 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Junta de Gobierno del Ayuntamiento de Santander",
+      "contratos_en_franja": 6,
+      "contratos_totales": 12,
+      "porcentaje": 50.0,
+      "proveedores_distintos": 6,
+      "descripcion": "Junta de Gobierno del Ayuntamiento de Santander: 6 de 12 menores (50%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
     }
   ]
 }
