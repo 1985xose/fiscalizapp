@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-07-23T08:16:42",
+    "generado": "2026-07-24T08:13:17",
     "version": "3.0",
-    "contratos_analizados": 63106,
-    "menores": 30072,
-    "licitaciones": 33034,
+    "contratos_analizados": 65868,
+    "menores": 31435,
+    "licitaciones": 34433,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 23,
+    "total_flags": 25,
     "por_tipo": {
-      "fraccionamiento": 7,
-      "concentracion": 3,
+      "fraccionamiento": 8,
+      "concentracion": 4,
       "patron_umbral": 4,
       "omnipresente": 0,
       "negociado_reiterado": 0,
       "umbral_europeo": 9
     },
-    "severidad_alta": 15,
-    "severidad_media": 8
+    "severidad_alta": 16,
+    "severidad_media": 9
   },
   "flags": [
     {
@@ -284,6 +284,39 @@
       ]
     },
     {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "CLUB DEPORTIVO TIBIABIN ECIRA",
+      "organo": "Junta de Gobierno del Ayuntamiento de La Oliva",
+      "num_contratos": 3,
+      "importe_total": 44960.0,
+      "importe_medio": 14986.67,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 44,960€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "12881/2026",
+          "objeto": "El objeto del contrato menor es el  alquiler de  un vehículo Rally 2 FIA para los tramos del  “XXXVI Rallye La Oliva” a celebrarse en el municipio de La Oliva en el mes de noviembre.",
+          "importe": 14990.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=JGs5ZA%2B%2BttmIzo3LHNPGcQ%3D%3D"
+        },
+        {
+          "expediente": "12925/2026",
+          "objeto": "Asegurar los choches del Rallye",
+          "importe": 14990.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=qIrtsECkY6J%2FP7lJ7Fu0SA%3D%3D"
+        },
+        {
+          "expediente": "12918/2026",
+          "objeto": "Logística  del Rallye de La Oliva 2026",
+          "importe": 14980.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=4rYI1f59hF7L1rX3q%2FMAPA%3D%3D"
+        }
+      ]
+    },
+    {
       "tipo": "umbral_europeo",
       "severidad": "alta",
       "emoji": "🔴",
@@ -465,19 +498,6 @@
       "tipo": "concentracion",
       "severidad": "alta",
       "emoji": "🔴",
-      "adjudicatario": "CRISTINA PURRIÑOS GONZÁLEZ",
-      "organo": "Gerencia del Instituto Municipal para el Empleo y la Formación",
-      "contratos_proveedor": 5,
-      "contratos_totales": 5,
-      "porcentaje_contratos": 100.0,
-      "importe_proveedor": 14960.0,
-      "porcentaje_importe": 100.0,
-      "descripcion": "CRISTINA PURRIÑOS GONZÁLEZ gana 5 de 5 contratos (100%) del Gerencia del Instituto Municipal para el Empleo y la Formación, 14,960€ de 14,960€ (100%). ¿Proveedor único justificado o cautividad?"
-    },
-    {
-      "tipo": "concentracion",
-      "severidad": "alta",
-      "emoji": "🔴",
       "adjudicatario": "JAVIER REDON VILLANUEVA",
       "organo": "Alcaldía del Ayuntamiento de Olba",
       "contratos_proveedor": 8,
@@ -486,6 +506,19 @@
       "importe_proveedor": 71052.61,
       "porcentaje_importe": 91.6,
       "descripcion": "JAVIER REDON VILLANUEVA gana 8 de 9 contratos (89%) del Alcaldía del Ayuntamiento de Olba, 71,053€ de 77,536€ (92%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "concentracion",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "adjudicatario": "INFOTELECOM NETWORKS, SL",
+      "organo": "Consejería Delegada de Servicios Informáticos Local de Menorca, S.A.",
+      "contratos_proveedor": 14,
+      "contratos_totales": 16,
+      "porcentaje_contratos": 87.5,
+      "importe_proveedor": 95527.08,
+      "porcentaje_importe": 94.0,
+      "descripcion": "INFOTELECOM NETWORKS, SL gana 14 de 16 contratos (88%) del Consejería Delegada de Servicios Informáticos Local de Menorca, S.A., 95,527€ de 101,635€ (94%). ¿Proveedor único justificado o cautividad?"
     },
     {
       "tipo": "patron_umbral",
@@ -606,6 +639,19 @@
       "tipo": "concentracion",
       "severidad": "media",
       "emoji": "🟡",
+      "adjudicatario": "CRISTINA PURRIÑOS GONZÁLEZ",
+      "organo": "Gerencia del Instituto Municipal para el Empleo y la Formación",
+      "contratos_proveedor": 5,
+      "contratos_totales": 6,
+      "porcentaje_contratos": 83.3,
+      "importe_proveedor": 14960.0,
+      "porcentaje_importe": 74.4,
+      "descripcion": "CRISTINA PURRIÑOS GONZÁLEZ gana 5 de 6 contratos (83%) del Gerencia del Instituto Municipal para el Empleo y la Formación, 14,960€ de 20,096€ (74%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "concentracion",
+      "severidad": "media",
+      "emoji": "🟡",
       "adjudicatario": "TRANSPORTE SANITARIO LANZAROTE S.L.",
       "organo": "Presidencia del Consorcio de Seguridad, Emergencia, Salvamento, Prevención y Extinción de Incendios de Lanzarote",
       "contratos_proveedor": 13,
@@ -619,12 +665,12 @@
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
-      "organo": "Consejo de Administración de la Sociedad de Promoción y Desarrollo Económico de la Isla de La Palma, S.A.U. SODEPAL",
-      "contratos_en_franja": 11,
-      "contratos_totales": 27,
-      "porcentaje": 40.7,
-      "proveedores_distintos": 9,
-      "descripcion": "Consejo de Administración de la Sociedad de Promoción y Desarrollo Económico de la Isla de La Palma, S.A.U. SODEPAL: 11 de 27 menores (41%) entre 12,000-15,000€. 9 proveedores. Estadísticamente improbable sin intervención."
+      "organo": "Dirección General de Cultura y Patrimonio Cultural de Canarias",
+      "contratos_en_franja": 6,
+      "contratos_totales": 15,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 6,
+      "descripcion": "Dirección General de Cultura y Patrimonio Cultural de Canarias: 6 de 15 menores (40%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -642,11 +688,11 @@
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Junta de Gobierno del Ayuntamiento de Santander",
-      "contratos_en_franja": 6,
-      "contratos_totales": 12,
-      "porcentaje": 50.0,
-      "proveedores_distintos": 6,
-      "descripcion": "Junta de Gobierno del Ayuntamiento de Santander: 6 de 12 menores (50%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 7,
+      "contratos_totales": 13,
+      "porcentaje": 53.8,
+      "proveedores_distintos": 7,
+      "descripcion": "Junta de Gobierno del Ayuntamiento de Santander: 7 de 13 menores (54%) entre 12,000-15,000€. 7 proveedores. Estadísticamente improbable sin intervención."
     }
   ]
 }
