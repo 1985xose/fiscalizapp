@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generado": "2026-07-30T08:18:57",
+    "generado": "2026-07-31T08:35:54",
     "version": "3.0",
-    "contratos_analizados": 77634,
-    "menores": 38547,
+    "contratos_analizados": 79201,
+    "menores": 40114,
     "licitaciones": 39087,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
@@ -15,16 +15,16 @@
     ]
   },
   "stats": {
-    "total_flags": 31,
+    "total_flags": 32,
     "por_tipo": {
-      "fraccionamiento": 11,
+      "fraccionamiento": 12,
       "concentracion": 4,
       "patron_umbral": 5,
       "omnipresente": 0,
       "negociado_reiterado": 1,
       "umbral_europeo": 10
     },
-    "severidad_alta": 19,
+    "severidad_alta": 20,
     "severidad_media": 12
   },
   "flags": [
@@ -460,6 +460,39 @@
       ]
     },
     {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "KORACONCEPT MOBILIARIO",
+      "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
+      "num_contratos": 3,
+      "importe_total": 44997.0,
+      "importe_medio": 14999.0,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 44,997€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "20261802010",
+          "objeto": "Adquisición de tubos pvc y conteras para la mesa escolar de resina elaborada en el taller de carpintería metálica del centro penitenciario de Albolote.",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=l0wQpHXeeKV%2FR5QFTlaM4A%3D%3D"
+        },
+        {
+          "expediente": "20261802009",
+          "objeto": "Adquisición de tableros tipo werzalit de 107 centímetros de diámetro y mesa escolar de 45x63 centímetros  para  el taller de carpintería del centro penitenciario de Albolote destinado a la elaboración del mobiliario de reposición de los distintos centros penitenciarios.",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2FGfjrPKEanqHCIsjvJ3rhQ%3D%3D"
+        },
+        {
+          "expediente": "20261802008",
+          "objeto": "Adquisición de tableros de tipo werzalit de 90 cm de diámetro para el taller de carpintería del centro penitenciario de Albolote.",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=O6iLnZ3Tqm6AAM7L03kM8A%3D%3D"
+        }
+      ]
+    },
+    {
       "tipo": "umbral_europeo",
       "severidad": "alta",
       "emoji": "🔴",
@@ -817,22 +850,22 @@
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Dirección General de Cultura y Patrimonio Cultural de Canarias",
-      "contratos_en_franja": 6,
-      "contratos_totales": 15,
-      "porcentaje": 40.0,
-      "proveedores_distintos": 6,
-      "descripcion": "Dirección General de Cultura y Patrimonio Cultural de Canarias: 6 de 15 menores (40%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 7,
+      "contratos_totales": 16,
+      "porcentaje": 43.8,
+      "proveedores_distintos": 7,
+      "descripcion": "Dirección General de Cultura y Patrimonio Cultural de Canarias: 7 de 16 menores (44%) entre 12,000-15,000€. 7 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
-      "contratos_en_franja": 14,
-      "contratos_totales": 34,
-      "porcentaje": 41.2,
-      "proveedores_distintos": 12,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 14 de 34 menores (41%) entre 12,000-15,000€. 12 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 18,
+      "contratos_totales": 39,
+      "porcentaje": 46.2,
+      "proveedores_distintos": 14,
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 18 de 39 menores (46%) entre 12,000-15,000€. 14 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
