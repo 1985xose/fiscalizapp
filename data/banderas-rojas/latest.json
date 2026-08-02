@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-08-01T08:00:16",
+    "generado": "2026-08-02T08:02:21",
     "version": "3.0",
-    "contratos_analizados": 0,
-    "menores": 0,
-    "licitaciones": 0,
+    "contratos_analizados": 2487,
+    "menores": 2036,
+    "licitaciones": 451,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,31 @@
     ]
   },
   "stats": {
-    "total_flags": 0,
+    "total_flags": 1,
     "por_tipo": {
       "fraccionamiento": 0,
-      "concentracion": 0,
+      "concentracion": 1,
       "patron_umbral": 0,
       "omnipresente": 0,
       "negociado_reiterado": 0,
       "umbral_europeo": 0
     },
-    "severidad_alta": 0,
+    "severidad_alta": 1,
     "severidad_media": 0
   },
-  "flags": []
+  "flags": [
+    {
+      "tipo": "concentracion",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "adjudicatario": "SEGUROS CATALANA OCCIDENTE",
+      "organo": "Alcaldía de la Entidad Local Menor de Aguas Nuevas",
+      "contratos_proveedor": 5,
+      "contratos_totales": 6,
+      "porcentaje_contratos": 83.3,
+      "importe_proveedor": 2383.74,
+      "porcentaje_importe": 97.6,
+      "descripcion": "SEGUROS CATALANA OCCIDENTE gana 5 de 6 contratos (83%) del Alcaldía de la Entidad Local Menor de Aguas Nuevas, 2,384€ de 2,443€ (98%). ¿Proveedor único justificado o cautividad?"
+    }
+  ]
 }
