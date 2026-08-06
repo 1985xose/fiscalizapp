@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-08-05T08:14:23",
+    "generado": "2026-08-06T08:13:31",
     "version": "3.0",
-    "contratos_analizados": 15876,
-    "menores": 4964,
-    "licitaciones": 10912,
+    "contratos_analizados": 19088,
+    "menores": 6281,
+    "licitaciones": 12807,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,19 +15,52 @@
     ]
   },
   "stats": {
-    "total_flags": 4,
+    "total_flags": 8,
     "por_tipo": {
-      "fraccionamiento": 1,
-      "concentracion": 3,
-      "patron_umbral": 0,
+      "fraccionamiento": 2,
+      "concentracion": 4,
+      "patron_umbral": 1,
       "omnipresente": 0,
       "negociado_reiterado": 0,
-      "umbral_europeo": 0
+      "umbral_europeo": 1
     },
-    "severidad_alta": 3,
-    "severidad_media": 1
+    "severidad_alta": 5,
+    "severidad_media": 3
   },
   "flags": [
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "INFOBIBLIOTECAS S.L.",
+      "organo": "Concejal de Contratación del Ayuntamiento de Torrejón de Ardoz",
+      "num_contratos": 3,
+      "importe_total": 44997.0,
+      "importe_medio": 14999.0,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 44,997€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "398/2026",
+          "objeto": "Adquisición de fondo bibliográfico para la sección de adultos de las bibliotecas municipales.",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=JMgD07oQAhA2wEhQbcAqug%3D%3D"
+        },
+        {
+          "expediente": "400/2026",
+          "objeto": "Adquisición de fondo bibliotecario de Cómic y Novela gráfica de las bibliotecas municipales",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=laUdOY%2BvOM0kJPJS%2BPS9vg%3D%3D"
+        },
+        {
+          "expediente": "399/2026",
+          "objeto": "Adquisición de fondo bibliográfico subvencionado para la sección juvenil para las bibliotecas municipales de Torrejón de Ardoz durante el año 2026",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=eh%2FTl7EIWYWLAncw3qdZkA%3D%3D"
+        }
+      ]
+    },
     {
       "tipo": "fraccionamiento",
       "severidad": "alta",
@@ -80,25 +113,75 @@
       "emoji": "🔴",
       "adjudicatario": "ABC ARQUITECTURA MODULAR, S.L.",
       "organo": "Instituto Balear de Infraestructuras y Servicios Educativos (IBISEC)",
-      "contratos_proveedor": 8,
-      "contratos_totales": 9,
-      "porcentaje_contratos": 88.9,
-      "importe_proveedor": 873378.0,
-      "porcentaje_importe": 94.6,
-      "descripcion": "ABC ARQUITECTURA MODULAR, S.L. gana 8 de 9 contratos (89%) del Instituto Balear de Infraestructuras y Servicios Educativos (IBISEC), 873,378€ de 923,560€ (95%). ¿Proveedor único justificado o cautividad?"
+      "contratos_proveedor": 9,
+      "contratos_totales": 10,
+      "porcentaje_contratos": 90.0,
+      "importe_proveedor": 950297.7,
+      "porcentaje_importe": 95.0,
+      "descripcion": "ABC ARQUITECTURA MODULAR, S.L. gana 9 de 10 contratos (90%) del Instituto Balear de Infraestructuras y Servicios Educativos (IBISEC), 950,298€ de 1,000,479€ (95%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "concentracion",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "adjudicatario": "RECIO, S.L.",
+      "organo": "Coordinación General de la Alcaldía",
+      "contratos_proveedor": 6,
+      "contratos_totales": 6,
+      "porcentaje_contratos": 100.0,
+      "importe_proveedor": 11830.33,
+      "porcentaje_importe": 100.0,
+      "descripcion": "RECIO, S.L. gana 6 de 6 contratos (100%) del Coordinación General de la Alcaldía, 11,830€ de 11,830€ (100%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "DISHOSPAC SL",
+      "organo": "Paradores de Turismo de España, S.M.E., S.A.",
+      "num_contratos": 2,
+      "importe_total": 239503.0,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 239,503€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "PESCADOS RULA AVILES PT CANGAS 30 07 05 08 26",
+          "objeto": "Acuerdo marco Suministro de pescados frescos con el distintivo pescado de confianza de la Rula de Avilés con destino al Parador de Turismo de Cangas de Onis, (Asturias) desde el 30 de julio al 05 de agosto de 2026.",
+          "importe": 119773.5,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=e5Ail5cqp5aFlFRHfEzEaw%3D%3D"
+        },
+        {
+          "expediente": "PESCADOS RULA DE AVILES PT CANGAS 06 08 12 08 26",
+          "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 06 de agosto al 12 de agosto de 2026.",
+          "importe": 119729.5,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=WfDi5TlbNU4%2FbjW6njtWLw%3D%3D"
+        }
+      ]
     },
     {
       "tipo": "concentracion",
       "severidad": "media",
       "emoji": "🟡",
-      "adjudicatario": "TRANSPORTE SANITARIO LANZAROTE S.L.",
-      "organo": "Presidencia del Consorcio de Seguridad, Emergencia, Salvamento, Prevención y Extinción de Incendios de Lanzarote",
-      "contratos_proveedor": 10,
-      "contratos_totales": 12,
-      "porcentaje_contratos": 83.3,
-      "importe_proveedor": 8187.3,
-      "porcentaje_importe": 75.4,
-      "descripcion": "TRANSPORTE SANITARIO LANZAROTE S.L. gana 10 de 12 contratos (83%) del Presidencia del Consorcio de Seguridad, Emergencia, Salvamento, Prevención y Extinción de Incendios de Lanzarote, 8,187€ de 10,860€ (75%). ¿Proveedor único justificado o cautividad?"
+      "adjudicatario": "CONSULTING DE INGENIERÍA CIVIL, S.L.P.",
+      "organo": "Alcaldía del Ayuntamiento de Simancas",
+      "contratos_proveedor": 4,
+      "contratos_totales": 5,
+      "porcentaje_contratos": 80.0,
+      "importe_proveedor": 8609.78,
+      "porcentaje_importe": 32.2,
+      "descripcion": "CONSULTING DE INGENIERÍA CIVIL, S.L.P. gana 4 de 5 contratos (80%) del Alcaldía del Ayuntamiento de Simancas, 8,610€ de 26,760€ (32%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Guadalajara",
+      "contratos_en_franja": 5,
+      "contratos_totales": 10,
+      "porcentaje": 50.0,
+      "proveedores_distintos": 4,
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Guadalajara: 5 de 10 menores (50%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
     }
   ]
 }
