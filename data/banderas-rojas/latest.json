@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-08-06T08:13:31",
+    "generado": "2026-08-07T06:59:27",
     "version": "3.0",
-    "contratos_analizados": 19088,
-    "menores": 6281,
-    "licitaciones": 12807,
+    "contratos_analizados": 22218,
+    "menores": 7677,
+    "licitaciones": 14541,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -17,8 +17,8 @@
   "stats": {
     "total_flags": 8,
     "por_tipo": {
-      "fraccionamiento": 2,
-      "concentracion": 4,
+      "fraccionamiento": 3,
+      "concentracion": 3,
       "patron_umbral": 1,
       "omnipresente": 0,
       "negociado_reiterado": 0,
@@ -28,6 +28,45 @@
     "severidad_media": 3
   },
   "flags": [
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 9,
+      "adjudicatario": "INSTALACIONES OHR, S.L.",
+      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Guadalajara",
+      "num_contratos": 4,
+      "importe_total": 140797.72,
+      "importe_medio": 35199.43,
+      "umbral_legal": 40000,
+      "descripcion": "4 contratos menores de obras entre 32,000€ y 40,000€ del mismo proveedor al mismo órgano. Total: 140,798€ (supera el umbral de 40,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/037659",
+          "objeto": "GU. 9.02.01 IES Aguas Vivas - climatización",
+          "importe": 35071.47,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=QdlVMKcvOCZrSd8H4b2soA%3D%3D"
+        },
+        {
+          "expediente": "2026/037675",
+          "objeto": "GU. 9.03.01 IES Carmen Burgos de Seguí - climatización",
+          "importe": 36117.97,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=5pJ2MWtR2Z9eKgd8LfVV9g%3D%3D"
+        },
+        {
+          "expediente": "2026/037695",
+          "objeto": "GU. 9.04.01 IES San Isidro - climatización",
+          "importe": 35729.55,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=6gWlu5LMJ99%2FR5QFTlaM4A%3D%3D"
+        },
+        {
+          "expediente": "2026/037713",
+          "objeto": "GU. 9.07.01 IES Newton Salas - climatización",
+          "importe": 33878.73,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=lGIdwEQ2vHo2wEhQbcAqug%3D%3D"
+        }
+      ]
+    },
     {
       "tipo": "fraccionamiento",
       "severidad": "alta",
@@ -111,19 +150,6 @@
       "tipo": "concentracion",
       "severidad": "alta",
       "emoji": "🔴",
-      "adjudicatario": "ABC ARQUITECTURA MODULAR, S.L.",
-      "organo": "Instituto Balear de Infraestructuras y Servicios Educativos (IBISEC)",
-      "contratos_proveedor": 9,
-      "contratos_totales": 10,
-      "porcentaje_contratos": 90.0,
-      "importe_proveedor": 950297.7,
-      "porcentaje_importe": 95.0,
-      "descripcion": "ABC ARQUITECTURA MODULAR, S.L. gana 9 de 10 contratos (90%) del Instituto Balear de Infraestructuras y Servicios Educativos (IBISEC), 950,298€ de 1,000,479€ (95%). ¿Proveedor único justificado o cautividad?"
-    },
-    {
-      "tipo": "concentracion",
-      "severidad": "alta",
-      "emoji": "🔴",
       "adjudicatario": "RECIO, S.L.",
       "organo": "Coordinación General de la Alcaldía",
       "contratos_proveedor": 6,
@@ -176,12 +202,12 @@
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
-      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Guadalajara",
-      "contratos_en_franja": 5,
+      "organo": "Consejo de Administración de la Sociedad de Promoción y Desarrollo Económico de la Isla de La Palma, S.A.U. SODEPAL",
+      "contratos_en_franja": 4,
       "contratos_totales": 10,
-      "porcentaje": 50.0,
+      "porcentaje": 40.0,
       "proveedores_distintos": 4,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Guadalajara: 5 de 10 menores (50%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Consejo de Administración de la Sociedad de Promoción y Desarrollo Económico de la Isla de La Palma, S.A.U. SODEPAL: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
     }
   ]
 }
