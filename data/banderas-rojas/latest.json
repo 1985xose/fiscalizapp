@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-08-07T06:59:27",
+    "generado": "2026-08-08T06:33:07",
     "version": "3.0",
-    "contratos_analizados": 22218,
-    "menores": 7677,
-    "licitaciones": 14541,
+    "contratos_analizados": 25075,
+    "menores": 8955,
+    "licitaciones": 16120,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,16 +15,16 @@
     ]
   },
   "stats": {
-    "total_flags": 8,
+    "total_flags": 7,
     "por_tipo": {
       "fraccionamiento": 3,
-      "concentracion": 3,
+      "concentracion": 2,
       "patron_umbral": 1,
       "omnipresente": 0,
       "negociado_reiterado": 0,
       "umbral_europeo": 1
     },
-    "severidad_alta": 5,
+    "severidad_alta": 4,
     "severidad_media": 3
   },
   "flags": [
@@ -147,19 +147,6 @@
       "descripcion": "SEGUROS CATALANA OCCIDENTE gana 5 de 6 contratos (83%) del Alcaldía de la Entidad Local Menor de Aguas Nuevas, 2,384€ de 2,443€ (98%). ¿Proveedor único justificado o cautividad?"
     },
     {
-      "tipo": "concentracion",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "adjudicatario": "RECIO, S.L.",
-      "organo": "Coordinación General de la Alcaldía",
-      "contratos_proveedor": 6,
-      "contratos_totales": 6,
-      "porcentaje_contratos": 100.0,
-      "importe_proveedor": 11830.33,
-      "porcentaje_importe": 100.0,
-      "descripcion": "RECIO, S.L. gana 6 de 6 contratos (100%) del Coordinación General de la Alcaldía, 11,830€ de 11,830€ (100%). ¿Proveedor único justificado o cautividad?"
-    },
-    {
       "tipo": "umbral_europeo",
       "severidad": "media",
       "emoji": "🟡",
@@ -189,25 +176,25 @@
       "tipo": "concentracion",
       "severidad": "media",
       "emoji": "🟡",
-      "adjudicatario": "CONSULTING DE INGENIERÍA CIVIL, S.L.P.",
-      "organo": "Alcaldía del Ayuntamiento de Simancas",
+      "adjudicatario": "CANTABRA DE MAQUINARIA O.P.S.L.",
+      "organo": "Presidencia de la Mancomunidad El Brusco",
       "contratos_proveedor": 4,
       "contratos_totales": 5,
       "porcentaje_contratos": 80.0,
-      "importe_proveedor": 8609.78,
-      "porcentaje_importe": 32.2,
-      "descripcion": "CONSULTING DE INGENIERÍA CIVIL, S.L.P. gana 4 de 5 contratos (80%) del Alcaldía del Ayuntamiento de Simancas, 8,610€ de 26,760€ (32%). ¿Proveedor único justificado o cautividad?"
+      "importe_proveedor": 2714.89,
+      "porcentaje_importe": 84.7,
+      "descripcion": "CANTABRA DE MAQUINARIA O.P.S.L. gana 4 de 5 contratos (80%) del Presidencia de la Mancomunidad El Brusco, 2,715€ de 3,205€ (85%). ¿Proveedor único justificado o cautividad?"
     },
     {
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Consejo de Administración de la Sociedad de Promoción y Desarrollo Económico de la Isla de La Palma, S.A.U. SODEPAL",
-      "contratos_en_franja": 4,
-      "contratos_totales": 10,
-      "porcentaje": 40.0,
-      "proveedores_distintos": 4,
-      "descripcion": "Consejo de Administración de la Sociedad de Promoción y Desarrollo Económico de la Isla de La Palma, S.A.U. SODEPAL: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 6,
+      "contratos_totales": 12,
+      "porcentaje": 50.0,
+      "proveedores_distintos": 6,
+      "descripcion": "Consejo de Administración de la Sociedad de Promoción y Desarrollo Económico de la Isla de La Palma, S.A.U. SODEPAL: 6 de 12 menores (50%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
     }
   ]
 }
