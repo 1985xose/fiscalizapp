@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-08-08T06:33:07",
+    "generado": "2026-08-09T06:36:53",
     "version": "3.0",
-    "contratos_analizados": 25075,
-    "menores": 8955,
-    "licitaciones": 16120,
+    "contratos_analizados": 25166,
+    "menores": 8978,
+    "licitaciones": 16188,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 7,
+    "total_flags": 8,
     "por_tipo": {
       "fraccionamiento": 3,
       "concentracion": 2,
       "patron_umbral": 1,
       "omnipresente": 0,
       "negociado_reiterado": 0,
-      "umbral_europeo": 1
+      "umbral_europeo": 2
     },
     "severidad_alta": 4,
-    "severidad_media": 3
+    "severidad_media": 4
   },
   "flags": [
     {
@@ -145,6 +145,32 @@
       "importe_proveedor": 2383.74,
       "porcentaje_importe": 97.6,
       "descripcion": "SEGUROS CATALANA OCCIDENTE gana 5 de 6 contratos (83%) del Alcaldía de la Entidad Local Menor de Aguas Nuevas, 2,384€ de 2,443€ (98%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "Specialist Computer Centres, S.L",
+      "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
+      "num_contratos": 2,
+      "importe_total": 255800.98,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 255,801€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "CEA3238/2026",
+          "objeto": "Suministro De Plataforma De Almacenamiento (Ministerio De Hacienda-Dirección General Del Catastro)",
+          "importe": 116815.46,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=BltaDJcjaEcaF6cS8TCh%2FA%3D%3D"
+        },
+        {
+          "expediente": "CBA2767/2026",
+          "objeto": "Adquisición De Estaciones De Trabajo Específicas Para El Sistema Mpds De La Aeronaves C-15 (Ministerio De Defensa-Sea 15 Agrupacion Del Cgea)",
+          "importe": 138985.52,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=c3ompS%2FU3e9VkTabT%2FRM8A%3D%3D"
+        }
+      ]
     },
     {
       "tipo": "umbral_europeo",
