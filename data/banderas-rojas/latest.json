@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-08-09T06:36:53",
+    "generado": "2026-08-10T07:08:16",
     "version": "3.0",
-    "contratos_analizados": 25166,
-    "menores": 8978,
-    "licitaciones": 16188,
+    "contratos_analizados": 25340,
+    "menores": 9011,
+    "licitaciones": 16329,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 8,
+    "total_flags": 9,
     "por_tipo": {
       "fraccionamiento": 3,
       "concentracion": 2,
       "patron_umbral": 1,
       "omnipresente": 0,
       "negociado_reiterado": 0,
-      "umbral_europeo": 2
+      "umbral_europeo": 3
     },
     "severidad_alta": 4,
-    "severidad_media": 4
+    "severidad_media": 5
   },
   "flags": [
     {
@@ -151,32 +151,6 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
-      "adjudicatario": "Specialist Computer Centres, S.L",
-      "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
-      "num_contratos": 2,
-      "importe_total": 255800.98,
-      "umbral_legal": 140000,
-      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 255,801€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
-      "contratos": [
-        {
-          "expediente": "CEA3238/2026",
-          "objeto": "Suministro De Plataforma De Almacenamiento (Ministerio De Hacienda-Dirección General Del Catastro)",
-          "importe": 116815.46,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=BltaDJcjaEcaF6cS8TCh%2FA%3D%3D"
-        },
-        {
-          "expediente": "CBA2767/2026",
-          "objeto": "Adquisición De Estaciones De Trabajo Específicas Para El Sistema Mpds De La Aeronaves C-15 (Ministerio De Defensa-Sea 15 Agrupacion Del Cgea)",
-          "importe": 138985.52,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=c3ompS%2FU3e9VkTabT%2FRM8A%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "umbral_europeo",
-      "severidad": "media",
-      "emoji": "🟡",
-      "score": 4,
       "adjudicatario": "DISHOSPAC SL",
       "organo": "Paradores de Turismo de España, S.M.E., S.A.",
       "num_contratos": 2,
@@ -195,6 +169,58 @@
           "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 06 de agosto al 12 de agosto de 2026.",
           "importe": 119729.5,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=WfDi5TlbNU4%2FbjW6njtWLw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "Specialist Computer Centres, S.L",
+      "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
+      "num_contratos": 2,
+      "importe_total": 255800.98,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 255,801€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "CBA2767/2026",
+          "objeto": "Adquisición De Estaciones De Trabajo Específicas Para El Sistema Mpds De La Aeronaves C-15 (Ministerio De Defensa-Sea 15 Agrupacion Del Cgea)",
+          "importe": 138985.52,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=c3ompS%2FU3e9VkTabT%2FRM8A%3D%3D"
+        },
+        {
+          "expediente": "CEA3238/2026",
+          "objeto": "Suministro De Plataforma De Almacenamiento (Ministerio De Hacienda-Dirección General Del Catastro)",
+          "importe": 116815.46,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=BltaDJcjaEcaF6cS8TCh%2FA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "HERKO ALTERNATIVE TRUCKS SL",
+      "organo": "Consejería Delegada de Agua y Residuos del Campo de Gibraltar, S.A. (ARCGISA)",
+      "num_contratos": 2,
+      "importe_total": 267410.0,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 267,410€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "06-6-2026",
+          "objeto": "Suministro de dos vehículos tipo camión caja abierta con pluma de menos de 3.500 kg para zonas de difícil acceso, propulsado por GLP, para la fracción orgánica de Tarifa, para ARCGISA. Ayudas de la Junta de Andalucía destinadas a cofinanciar la adquisición de vehículos para la recogida separada de biorresiduos para el ejercicio 2025",
+          "importe": 133705.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=IAUeCgzqg9hQFSeKCRun4Q%3D%3D"
+        },
+        {
+          "expediente": "06-1-2026",
+          "objeto": "Suministro de cuatro (4) vehículos tipo camión caja abierta con pluma de menos de 3.500 kg para zonas de difícil acceso, propulsado por biogás de origen renovable, para la fracción orgánica de los municipios de Los Barrios y San Roque, para la empresa Agua y Residuos del Campo de Gibraltar Sociedad Anónima (ARCGISA).",
+          "importe": 133705.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9j1wK3EOC2jLIx6q1oPaMg%3D%3D"
         }
       ]
     },
