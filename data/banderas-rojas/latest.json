@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-08-10T07:08:16",
+    "generado": "2026-08-11T06:47:00",
     "version": "3.0",
-    "contratos_analizados": 25340,
-    "menores": 9011,
-    "licitaciones": 16329,
+    "contratos_analizados": 28253,
+    "menores": 10476,
+    "licitaciones": 17777,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 9,
+    "total_flags": 10,
     "por_tipo": {
       "fraccionamiento": 3,
       "concentracion": 2,
-      "patron_umbral": 1,
+      "patron_umbral": 2,
       "omnipresente": 0,
       "negociado_reiterado": 0,
       "umbral_europeo": 3
     },
     "severidad_alta": 4,
-    "severidad_media": 5
+    "severidad_media": 6
   },
   "flags": [
     {
@@ -236,6 +236,17 @@
       "importe_proveedor": 2714.89,
       "porcentaje_importe": 84.7,
       "descripcion": "CANTABRA DE MAQUINARIA O.P.S.L. gana 4 de 5 contratos (80%) del Presidencia de la Mancomunidad El Brusco, 2,715€ de 3,205€ (85%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
+      "contratos_en_franja": 19,
+      "contratos_totales": 45,
+      "porcentaje": 42.2,
+      "proveedores_distintos": 16,
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 19 de 45 menores (42%) entre 12,000-15,000€. 16 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
