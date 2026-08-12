@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generado": "2026-08-11T06:47:00",
+    "generado": "2026-08-12T07:08:26",
     "version": "3.0",
-    "contratos_analizados": 28253,
-    "menores": 10476,
+    "contratos_analizados": 29638,
+    "menores": 11861,
     "licitaciones": 17777,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
@@ -15,19 +15,58 @@
     ]
   },
   "stats": {
-    "total_flags": 10,
+    "total_flags": 11,
     "por_tipo": {
-      "fraccionamiento": 3,
+      "fraccionamiento": 4,
       "concentracion": 2,
       "patron_umbral": 2,
       "omnipresente": 0,
       "negociado_reiterado": 0,
       "umbral_europeo": 3
     },
-    "severidad_alta": 4,
+    "severidad_alta": 5,
     "severidad_media": 6
   },
   "flags": [
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 9,
+      "adjudicatario": "PROMOINNOVACIONES CHELLA S.L.",
+      "organo": "Presidencia de la Mancomunidad de la Canal de Navarrés",
+      "num_contratos": 4,
+      "importe_total": 58297.08,
+      "importe_medio": 14574.27,
+      "umbral_legal": 15000,
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 58,297€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "473/2026",
+          "objeto": "Acondicionamiento de terreno, solera de hormigón, vallado y accesos electrónicos en área de Aportación de Bolbaite.",
+          "importe": 14574.27,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=AtWoWEf5kIFq1DdmE7eaXg%3D%3D"
+        },
+        {
+          "expediente": "468/2026",
+          "objeto": "Acondicionamiento de terreno, solera de hormigón, vallado y accesos electrónicos en área de Aportación de Navarres zona del instituto.",
+          "importe": 14574.27,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=mB6Z9cBUkUP9pbnDwlaUlg%3D%3D"
+        },
+        {
+          "expediente": "466/2026",
+          "objeto": "Acondicionamiento de terreno, solera de hormigón, vallado y accesos electrónicos en área de Aportación de Anna zona de la Albufera.",
+          "importe": 14574.27,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=goh0HgjYdPgadbH3CysQuQ%3D%3D"
+        },
+        {
+          "expediente": "465/2026",
+          "objeto": "Acondicionamiento de terreno, solera de hormigón, vallado y accesos electrónicos en área de Aportación de la zona de playamonte.",
+          "importe": 14574.27,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Bi5FE9RanhCOUi78BmzhOQ%3D%3D"
+        }
+      ]
+    },
     {
       "tipo": "fraccionamiento",
       "severidad": "alta",
@@ -242,11 +281,11 @@
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
-      "contratos_en_franja": 19,
-      "contratos_totales": 45,
-      "porcentaje": 42.2,
-      "proveedores_distintos": 16,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 19 de 45 menores (42%) entre 12,000-15,000€. 16 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 25,
+      "contratos_totales": 56,
+      "porcentaje": 44.6,
+      "proveedores_distintos": 22,
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 25 de 56 menores (45%) entre 12,000-15,000€. 22 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
