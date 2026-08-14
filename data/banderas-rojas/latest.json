@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generado": "2026-08-13T07:10:25",
+    "generado": "2026-08-14T07:07:33",
     "version": "3.0",
-    "contratos_analizados": 30789,
-    "menores": 13012,
+    "contratos_analizados": 31859,
+    "menores": 14082,
     "licitaciones": 17777,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
@@ -15,19 +15,58 @@
     ]
   },
   "stats": {
-    "total_flags": 11,
+    "total_flags": 12,
     "por_tipo": {
-      "fraccionamiento": 4,
+      "fraccionamiento": 5,
       "concentracion": 1,
       "patron_umbral": 3,
       "omnipresente": 0,
       "negociado_reiterado": 0,
       "umbral_europeo": 3
     },
-    "severidad_alta": 4,
+    "severidad_alta": 5,
     "severidad_media": 7
   },
   "flags": [
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 9,
+      "adjudicatario": "RAMOS BUS S.L.",
+      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Guadalajara",
+      "num_contratos": 4,
+      "importe_total": 53202.0,
+      "importe_medio": 13300.5,
+      "umbral_legal": 15000,
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 53,202€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/037475",
+          "objeto": "Gu.Transporte Escolar.Ruta 29-Bis.Septiembre 2026-Febrero 2027",
+          "importe": 13902.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=n6s4iMuvxupSYrkJkLlFdw%3D%3D"
+        },
+        {
+          "expediente": "2026/037478",
+          "objeto": "Gu.Transporte Escolar.Ruta 193 de comedor. Curso 26/27",
+          "importe": 14000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=5Jnt64Ft6Bl%2FR5QFTlaM4A%3D%3D"
+        },
+        {
+          "expediente": "2026/037742",
+          "objeto": "Gu.Transporte escolar ruta 11SEPT26-ENERO 27",
+          "importe": 13050.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2BL4iKJgLObTE6P%2FuLemXRw%3D%3D"
+        },
+        {
+          "expediente": "2026/037477",
+          "objeto": "Gu.Transporte Escolar.Ruta 133-Bis.Curso Escolar 26/27",
+          "importe": 12250.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=1XRTYzw3k33L1rX3q%2FMAPA%3D%3D"
+        }
+      ]
+    },
     {
       "tipo": "fraccionamiento",
       "severidad": "alta",
