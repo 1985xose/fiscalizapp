@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-08-14T07:07:33",
+    "generado": "2026-08-15T06:20:18",
     "version": "3.0",
-    "contratos_analizados": 31859,
-    "menores": 14082,
-    "licitaciones": 17777,
+    "contratos_analizados": 37770,
+    "menores": 15286,
+    "licitaciones": 22484,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 12,
+    "total_flags": 13,
     "por_tipo": {
       "fraccionamiento": 5,
       "concentracion": 1,
       "patron_umbral": 3,
       "omnipresente": 0,
-      "negociado_reiterado": 0,
+      "negociado_reiterado": 1,
       "umbral_europeo": 3
     },
-    "severidad_alta": 5,
-    "severidad_media": 7
+    "severidad_alta": 7,
+    "severidad_media": 6
   },
   "flags": [
     {
@@ -213,15 +213,15 @@
     },
     {
       "tipo": "umbral_europeo",
-      "severidad": "media",
-      "emoji": "🟡",
-      "score": 4,
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 6,
       "adjudicatario": "DISHOSPAC SL",
       "organo": "Paradores de Turismo de España, S.M.E., S.A.",
-      "num_contratos": 2,
-      "importe_total": 239503.0,
+      "num_contratos": 3,
+      "importe_total": 365145.0,
       "umbral_legal": 140000,
-      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 239,503€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "descripcion": "3 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 365,145€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
       "contratos": [
         {
           "expediente": "PESCADOS RULA AVILES PT CANGAS 30 07 05 08 26",
@@ -234,6 +234,43 @@
           "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 06 de agosto al 12 de agosto de 2026.",
           "importe": 119729.5,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=WfDi5TlbNU4%2FbjW6njtWLw%3D%3D"
+        },
+        {
+          "expediente": "PESCADOS RULA DE AVILES PT CANGAS 13 08 19 08 26",
+          "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 13 de agosto al 19 de agosto de 2026.",
+          "importe": 125642.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=fZnnEKh0p4W8ebB%2FXTwy0A%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "negociado_reiterado",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 3,
+      "adjudicatario": "VOLVO GROUP ESPAÑA S.A",
+      "organo": "Jefatura de Asuntos Económicos del Mando de Apoyo Logístico",
+      "num_contratos": 3,
+      "importe_total": 30422836.4,
+      "descripcion": "VOLVO GROUP ESPAÑA S.A gana 3 contratos por negociado sin publicidad del Jefatura de Asuntos Económicos del Mando de Apoyo Logístico por 30,422,836€. El negociado sin publicidad es para situaciones excepcionales — usarlo repetidamente con el mismo proveedor huele a adjudicación a dedo.",
+      "contratos": [
+        {
+          "expediente": "2026/ETSAE0906/00003736E",
+          "objeto": "Adquisición VPTL cisternas y aljibes.",
+          "importe": 9135500.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ZC2UWoVyEj5q1DdmE7eaXg%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0906/00003734E",
+          "objeto": "Adquisición camiones VPTL versión VEMPAR.",
+          "importe": 12981557.6,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=kllUe6YDVcEl5NjlNci%2BtA%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0906/00003696E",
+          "objeto": "Adquisición de VPTL Puesto de Mando Extensible",
+          "importe": 8305778.8,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XUdqy8Ckr9prhBlEHQFSKA%3D%3D"
         }
       ]
     },
@@ -308,10 +345,10 @@
       "emoji": "🟡",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
       "contratos_en_franja": 25,
-      "contratos_totales": 57,
-      "porcentaje": 43.9,
+      "contratos_totales": 59,
+      "porcentaje": 42.4,
       "proveedores_distintos": 22,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 25 de 57 menores (44%) entre 12,000-15,000€. 22 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 25 de 59 menores (42%) entre 12,000-15,000€. 22 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
