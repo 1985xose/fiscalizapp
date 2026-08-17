@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-08-16T06:22:11",
+    "generado": "2026-08-17T06:33:28",
     "version": "3.0",
-    "contratos_analizados": 38075,
-    "menores": 15469,
-    "licitaciones": 22606,
+    "contratos_analizados": 38377,
+    "menores": 15673,
+    "licitaciones": 22704,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,16 +15,16 @@
     ]
   },
   "stats": {
-    "total_flags": 13,
+    "total_flags": 14,
     "por_tipo": {
-      "fraccionamiento": 5,
+      "fraccionamiento": 6,
       "concentracion": 1,
       "patron_umbral": 3,
       "omnipresente": 0,
       "negociado_reiterado": 1,
       "umbral_europeo": 3
     },
-    "severidad_alta": 7,
+    "severidad_alta": 8,
     "severidad_media": 6
   },
   "flags": [
@@ -142,6 +142,39 @@
           "objeto": "Acondicionamiento de terreno, solera de hormigón, vallado y accesos electrónicos en área de Aportación de Anna zona de la Albufera.",
           "importe": 14574.27,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=goh0HgjYdPgadbH3CysQuQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "AMPARO ALCOVER IBAÑEZ",
+      "organo": "Alcaldía del Ayuntamiento de Sagunto",
+      "num_contratos": 3,
+      "importe_total": 41297.3,
+      "importe_medio": 13765.77,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 41,297€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2967386W",
+          "objeto": "Contrato de servicios de gestión integral, producción y ejecución de un evento de dinamización del centro histórico de Sagunto.",
+          "importe": 13068.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=DP29S48CyeO5HQrHoP3G5A%3D%3D"
+        },
+        {
+          "expediente": "2872628M",
+          "objeto": "Gestión, organización celebración Orgullo en Sagunto- 2026",
+          "importe": 14399.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=BCDA2aDj9rgeIBJRHQiPkQ%3D%3D"
+        },
+        {
+          "expediente": "2938952D",
+          "objeto": "Contrato menor de servicios de organización del evento Eclipse Solar 2026.",
+          "importe": 13830.3,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=mtfXWr%2FTIvuKeVWTb9Scog%3D%3D"
         }
       ]
     },
