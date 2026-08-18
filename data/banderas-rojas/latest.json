@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-08-17T06:33:28",
+    "generado": "2026-08-18T06:25:33",
     "version": "3.0",
-    "contratos_analizados": 38377,
-    "menores": 15673,
-    "licitaciones": 22704,
+    "contratos_analizados": 40632,
+    "menores": 16871,
+    "licitaciones": 23761,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 14,
+    "total_flags": 17,
     "por_tipo": {
       "fraccionamiento": 6,
       "concentracion": 1,
-      "patron_umbral": 3,
+      "patron_umbral": 4,
       "omnipresente": 0,
       "negociado_reiterado": 1,
-      "umbral_europeo": 3
+      "umbral_europeo": 5
     },
     "severidad_alta": 8,
-    "severidad_media": 6
+    "severidad_media": 9
   },
   "flags": [
     {
@@ -150,39 +150,6 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 8,
-      "adjudicatario": "AMPARO ALCOVER IBAÑEZ",
-      "organo": "Alcaldía del Ayuntamiento de Sagunto",
-      "num_contratos": 3,
-      "importe_total": 41297.3,
-      "importe_medio": 13765.77,
-      "umbral_legal": 15000,
-      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 41,297€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
-      "contratos": [
-        {
-          "expediente": "2967386W",
-          "objeto": "Contrato de servicios de gestión integral, producción y ejecución de un evento de dinamización del centro histórico de Sagunto.",
-          "importe": 13068.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=DP29S48CyeO5HQrHoP3G5A%3D%3D"
-        },
-        {
-          "expediente": "2872628M",
-          "objeto": "Gestión, organización celebración Orgullo en Sagunto- 2026",
-          "importe": 14399.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=BCDA2aDj9rgeIBJRHQiPkQ%3D%3D"
-        },
-        {
-          "expediente": "2938952D",
-          "objeto": "Contrato menor de servicios de organización del evento Eclipse Solar 2026.",
-          "importe": 13830.3,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=mtfXWr%2FTIvuKeVWTb9Scog%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 8,
       "adjudicatario": "INFOBIBLIOTECAS S.L.",
       "organo": "Concejal de Contratación del Ayuntamiento de Torrejón de Ardoz",
       "num_contratos": 3,
@@ -241,6 +208,39 @@
           "objeto": "Asfaltado en continuo de 2.500 m2. con barrido, riego asfaltico, suministro de MBC, extendido y compactado en capa en continuo de 5 cm. de espesor, incluido porte de maquinarias.",
           "importe": 38387.25,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=sXkiiF78XL82wEhQbcAqug%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "AMPARO ALCOVER IBAÑEZ",
+      "organo": "Alcaldía del Ayuntamiento de Sagunto",
+      "num_contratos": 3,
+      "importe_total": 41297.3,
+      "importe_medio": 13765.77,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 41,297€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2872628M",
+          "objeto": "Gestión, organización celebración Orgullo en Sagunto- 2026",
+          "importe": 14399.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=BCDA2aDj9rgeIBJRHQiPkQ%3D%3D"
+        },
+        {
+          "expediente": "2938952D",
+          "objeto": "Contrato menor de servicios de organización del evento Eclipse Solar 2026.",
+          "importe": 13830.3,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=mtfXWr%2FTIvuKeVWTb9Scog%3D%3D"
+        },
+        {
+          "expediente": "2967386W",
+          "objeto": "Contrato de servicios de gestión integral, producción y ejecución de un evento de dinamización del centro histórico de Sagunto.",
+          "importe": 13068.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=DP29S48CyeO5HQrHoP3G5A%3D%3D"
         }
       ]
     },
@@ -304,6 +304,58 @@
           "objeto": "Adquisición de VPTL Puesto de Mando Extensible",
           "importe": 8305778.8,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XUdqy8Ckr9prhBlEHQFSKA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "SPECIALIST COMPUTER CENTRES, S.L",
+      "organo": "Concejalía Delegada de Innovación, Tecnología, Agenda Digital y Captación de Inversiones del Ayuntamiento de València",
+      "num_contratos": 2,
+      "importe_total": 238615.32,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 238,615€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "E 801-2022-187",
+          "objeto": "Suministro de licencias de actualización del software IBM Spectrum Protect Suite del Ayuntamiento de València.",
+          "importe": 116405.32,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=V0HlzuJ3%2BSQuf4aBO%2BvQlQ%3D%3D"
+        },
+        {
+          "expediente": "E 801-2022-011",
+          "objeto": "Suministro de una cabina de almacenamiento de altas prestaciones para sistema Mainframe",
+          "importe": 122210.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=WpXB2Q09jROrz3GQd5r6SQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "W.L. GORE Y ASOCIADOS, S.L.",
+      "organo": "Gerencia Sector Sanitario de Zaragoza 2",
+      "num_contratos": 2,
+      "importe_total": 231299.86,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 231,300€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "PA 16 HMS/2023",
+          "objeto": "Suministro de Endoprótesis aorta abdominal para Angiología y Cirugía Vascular del Hospital Universitario Miguel Servet de Zaragoza",
+          "importe": 116600.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=t7PLRqacoj%2Bmq21uxhbaVQ%3D%3D"
+        },
+        {
+          "expediente": "PA 27 HMS/2023",
+          "objeto": "Suministro de endoprotesis para arterias periféricas para el Servicio de Angiología y Cirugía Vascular del Hospital Universitario Miguel Servet de Zaragoza",
+          "importe": 114699.86,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=GQsqzSIwIvcSugstABGr5A%3D%3D"
         }
       ]
     },
@@ -377,11 +429,22 @@
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
-      "contratos_en_franja": 25,
-      "contratos_totales": 59,
-      "porcentaje": 42.4,
-      "proveedores_distintos": 22,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 25 de 59 menores (42%) entre 12,000-15,000€. 22 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 28,
+      "contratos_totales": 63,
+      "porcentaje": 44.4,
+      "proveedores_distintos": 25,
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 28 de 63 menores (44%) entre 12,000-15,000€. 25 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Alcaldía del Ayuntamiento de Pájara",
+      "contratos_en_franja": 6,
+      "contratos_totales": 12,
+      "porcentaje": 50.0,
+      "proveedores_distintos": 5,
+      "descripcion": "Alcaldía del Ayuntamiento de Pájara: 6 de 12 menores (50%) entre 12,000-15,000€. 5 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -389,10 +452,10 @@
       "emoji": "🟡",
       "organo": "Consejo de Administración de la Sociedad de Promoción y Desarrollo Económico de la Isla de La Palma, S.A.U. SODEPAL",
       "contratos_en_franja": 6,
-      "contratos_totales": 12,
-      "porcentaje": 50.0,
+      "contratos_totales": 15,
+      "porcentaje": 40.0,
       "proveedores_distintos": 6,
-      "descripcion": "Consejo de Administración de la Sociedad de Promoción y Desarrollo Económico de la Isla de La Palma, S.A.U. SODEPAL: 6 de 12 menores (50%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Consejo de Administración de la Sociedad de Promoción y Desarrollo Económico de la Isla de La Palma, S.A.U. SODEPAL: 6 de 15 menores (40%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
