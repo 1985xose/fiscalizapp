@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-08-18T06:25:33",
+    "generado": "2026-08-19T06:25:07",
     "version": "3.0",
-    "contratos_analizados": 40632,
-    "menores": 16871,
-    "licitaciones": 23761,
+    "contratos_analizados": 43151,
+    "menores": 18280,
+    "licitaciones": 24871,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,19 +15,58 @@
     ]
   },
   "stats": {
-    "total_flags": 17,
+    "total_flags": 16,
     "por_tipo": {
       "fraccionamiento": 6,
       "concentracion": 1,
-      "patron_umbral": 4,
+      "patron_umbral": 3,
       "omnipresente": 0,
       "negociado_reiterado": 1,
       "umbral_europeo": 5
     },
     "severidad_alta": 8,
-    "severidad_media": 9
+    "severidad_media": 8
   },
   "flags": [
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 9,
+      "adjudicatario": "INFOBIBLIOTECAS S.L.",
+      "organo": "Concejal de Contratación del Ayuntamiento de Torrejón de Ardoz",
+      "num_contratos": 4,
+      "importe_total": 59996.0,
+      "importe_medio": 14999.0,
+      "umbral_legal": 15000,
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 59,996€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "398/2026",
+          "objeto": "Adquisición de fondo bibliográfico para la sección de adultos de las bibliotecas municipales.",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=JMgD07oQAhA2wEhQbcAqug%3D%3D"
+        },
+        {
+          "expediente": "400/2026",
+          "objeto": "Adquisición de fondo bibliotecario de Cómic y Novela gráfica de las bibliotecas municipales",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=laUdOY%2BvOM0kJPJS%2BPS9vg%3D%3D"
+        },
+        {
+          "expediente": "399/2026",
+          "objeto": "Adquisición de fondo bibliográfico subvencionado para la sección juvenil para las bibliotecas municipales de Torrejón de Ardoz durante el año 2026",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=eh%2FTl7EIWYWLAncw3qdZkA%3D%3D"
+        },
+        {
+          "expediente": "405/2026",
+          "objeto": "Adquisición de fondo bibliográfico infantil de las bibliotecas municipales",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=iUAkACyOJJBeKgd8LfVV9g%3D%3D"
+        }
+      ]
+    },
     {
       "tipo": "fraccionamiento",
       "severidad": "alta",
@@ -142,39 +181,6 @@
           "objeto": "Acondicionamiento de terreno, solera de hormigón, vallado y accesos electrónicos en área de Aportación de Anna zona de la Albufera.",
           "importe": 14574.27,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=goh0HgjYdPgadbH3CysQuQ%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 8,
-      "adjudicatario": "INFOBIBLIOTECAS S.L.",
-      "organo": "Concejal de Contratación del Ayuntamiento de Torrejón de Ardoz",
-      "num_contratos": 3,
-      "importe_total": 44997.0,
-      "importe_medio": 14999.0,
-      "umbral_legal": 15000,
-      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 44,997€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
-      "contratos": [
-        {
-          "expediente": "398/2026",
-          "objeto": "Adquisición de fondo bibliográfico para la sección de adultos de las bibliotecas municipales.",
-          "importe": 14999.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=JMgD07oQAhA2wEhQbcAqug%3D%3D"
-        },
-        {
-          "expediente": "400/2026",
-          "objeto": "Adquisición de fondo bibliotecario de Cómic y Novela gráfica de las bibliotecas municipales",
-          "importe": 14999.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=laUdOY%2BvOM0kJPJS%2BPS9vg%3D%3D"
-        },
-        {
-          "expediente": "399/2026",
-          "objeto": "Adquisición de fondo bibliográfico subvencionado para la sección juvenil para las bibliotecas municipales de Torrejón de Ardoz durante el año 2026",
-          "importe": 14999.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=eh%2FTl7EIWYWLAncw3qdZkA%3D%3D"
         }
       ]
     },
@@ -434,17 +440,6 @@
       "porcentaje": 44.4,
       "proveedores_distintos": 25,
       "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 28 de 63 menores (44%) entre 12,000-15,000€. 25 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
-      "organo": "Alcaldía del Ayuntamiento de Pájara",
-      "contratos_en_franja": 6,
-      "contratos_totales": 12,
-      "porcentaje": 50.0,
-      "proveedores_distintos": 5,
-      "descripcion": "Alcaldía del Ayuntamiento de Pájara: 6 de 12 menores (50%) entre 12,000-15,000€. 5 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
