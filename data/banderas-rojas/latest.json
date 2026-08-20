@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-08-19T06:25:07",
+    "generado": "2026-08-20T06:26:21",
     "version": "3.0",
-    "contratos_analizados": 43151,
-    "menores": 18280,
-    "licitaciones": 24871,
+    "contratos_analizados": 45622,
+    "menores": 19613,
+    "licitaciones": 26009,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -19,10 +19,10 @@
     "por_tipo": {
       "fraccionamiento": 6,
       "concentracion": 1,
-      "patron_umbral": 3,
+      "patron_umbral": 2,
       "omnipresente": 0,
       "negociado_reiterado": 1,
-      "umbral_europeo": 5
+      "umbral_europeo": 6
     },
     "severidad_alta": 8,
     "severidad_media": 8
@@ -254,14 +254,20 @@
       "tipo": "umbral_europeo",
       "severidad": "alta",
       "emoji": "🔴",
-      "score": 6,
+      "score": 8,
       "adjudicatario": "DISHOSPAC SL",
       "organo": "Paradores de Turismo de España, S.M.E., S.A.",
-      "num_contratos": 3,
-      "importe_total": 365145.0,
+      "num_contratos": 4,
+      "importe_total": 494230.0,
       "umbral_legal": 140000,
-      "descripcion": "3 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 365,145€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "descripcion": "4 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 494,230€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
       "contratos": [
+        {
+          "expediente": "PESCADOS RULA DE AVILES PT CANGAS 20 08 26 08 26",
+          "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 20 de agosto al 26 de agosto de 2026.",
+          "importe": 129085.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=vSljwp6t3us4NavIWzMcHA%3D%3D"
+        },
         {
           "expediente": "PESCADOS RULA AVILES PT CANGAS 30 07 05 08 26",
           "objeto": "Acuerdo marco Suministro de pescados frescos con el distintivo pescado de confianza de la Rula de Avilés con destino al Parador de Turismo de Cangas de Onis, (Asturias) desde el 30 de julio al 05 de agosto de 2026.",
@@ -418,6 +424,32 @@
       ]
     },
     {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "SERVICIOS INTEGRALES JUALI S.L.",
+      "organo": "Dirección de Asuntos Económicos del Ejército",
+      "num_contratos": 2,
+      "importe_total": 271260.85,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 271,261€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "2026/ETSAE0921/00001180E",
+          "objeto": "TC.112-12/25. Sustitución de cubierta edificio barracón TYCE. ESPOL. Madrid",
+          "importe": 133204.23,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=DO0veoWuvBk36J9Lctlsuw%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0921/00001244E",
+          "objeto": "TC 106-02/26. adecuación sala de calderas compañía Tigre conforme al RITE para certificación ambiental. Base Coronel Sánchez Bilbao, Almagro, Ciudad Real.",
+          "importe": 138056.62,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Qo2Uap6HitnjHF5qKI4aaw%3D%3D"
+        }
+      ]
+    },
+    {
       "tipo": "concentracion",
       "severidad": "media",
       "emoji": "🟡",
@@ -451,17 +483,6 @@
       "porcentaje": 40.0,
       "proveedores_distintos": 6,
       "descripcion": "Consejo de Administración de la Sociedad de Promoción y Desarrollo Económico de la Isla de La Palma, S.A.U. SODEPAL: 6 de 15 menores (40%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
-      "organo": "Alcaldía del Ayuntamiento de Sant Josep de sa Talaia",
-      "contratos_en_franja": 6,
-      "contratos_totales": 15,
-      "porcentaje": 40.0,
-      "proveedores_distintos": 6,
-      "descripcion": "Alcaldía del Ayuntamiento de Sant Josep de sa Talaia: 6 de 15 menores (40%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
     }
   ]
 }
