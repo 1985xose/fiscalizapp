@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generado": "2026-08-20T06:26:21",
+    "generado": "2026-08-21T06:28:10",
     "version": "3.0",
-    "contratos_analizados": 45622,
-    "menores": 19613,
+    "contratos_analizados": 46954,
+    "menores": 20945,
     "licitaciones": 26009,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 16,
+    "total_flags": 15,
     "por_tipo": {
       "fraccionamiento": 6,
       "concentracion": 1,
-      "patron_umbral": 2,
+      "patron_umbral": 1,
       "omnipresente": 0,
       "negociado_reiterado": 1,
       "umbral_europeo": 6
     },
     "severidad_alta": 8,
-    "severidad_media": 8
+    "severidad_media": 7
   },
   "flags": [
     {
@@ -467,22 +467,11 @@
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
-      "contratos_en_franja": 28,
-      "contratos_totales": 63,
-      "porcentaje": 44.4,
-      "proveedores_distintos": 25,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 28 de 63 menores (44%) entre 12,000-15,000€. 25 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
-      "organo": "Consejo de Administración de la Sociedad de Promoción y Desarrollo Económico de la Isla de La Palma, S.A.U. SODEPAL",
-      "contratos_en_franja": 6,
-      "contratos_totales": 15,
-      "porcentaje": 40.0,
-      "proveedores_distintos": 6,
-      "descripcion": "Consejo de Administración de la Sociedad de Promoción y Desarrollo Económico de la Isla de La Palma, S.A.U. SODEPAL: 6 de 15 menores (40%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 32,
+      "contratos_totales": 69,
+      "porcentaje": 46.4,
+      "proveedores_distintos": 28,
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 32 de 69 menores (46%) entre 12,000-15,000€. 28 proveedores. Estadísticamente improbable sin intervención."
     }
   ]
 }
