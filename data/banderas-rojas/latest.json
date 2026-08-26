@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-08-25T06:28:23",
+    "generado": "2026-08-26T06:32:31",
     "version": "3.0",
-    "contratos_analizados": 53707,
-    "menores": 24502,
-    "licitaciones": 29205,
+    "contratos_analizados": 56126,
+    "menores": 25842,
+    "licitaciones": 30284,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -17,8 +17,8 @@
   "stats": {
     "total_flags": 20,
     "por_tipo": {
-      "fraccionamiento": 7,
-      "concentracion": 2,
+      "fraccionamiento": 8,
+      "concentracion": 1,
       "patron_umbral": 4,
       "omnipresente": 0,
       "negociado_reiterado": 1,
@@ -150,6 +150,45 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 9,
+      "adjudicatario": "PLATAFORMA FEMAR S.L.",
+      "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
+      "num_contratos": 4,
+      "importe_total": 59996.0,
+      "importe_medio": 14999.0,
+      "umbral_legal": 15000,
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 59,996€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "20261401010",
+          "objeto": "Adquisición de alubias en conserva y brotes de soja para la elaboración de los racionados en el taller de alimentación del centro penitenciario de Córdoba.",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=GlUa7rB64JCzz8fXU2i3eQ%3D%3D"
+        },
+        {
+          "expediente": "20264504003",
+          "objeto": "Adquisición de carne de mejillón para la elaboración del racionado de los internos del centro penitenciario de Ocaña II.",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9I%2F1QBA2o2aGCFcHcNGIlQ%3D%3D"
+        },
+        {
+          "expediente": "20264501003",
+          "objeto": "Adquisición de aves de caza para la elaboración del racionado de los internos en el taller de alimentación del centro penitenciario de Ocaña I.",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=KTI6xQVv%2ByC8ebB%2FXTwy0A%3D%3D"
+        },
+        {
+          "expediente": "20264504004",
+          "objeto": "Adquisición de carne de pavo del centro penitenciario Ocaña II.",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=HB%2FUoNXa86vgL1BHd3qjQA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 9,
       "adjudicatario": "PROMOINNOVACIONES CHELLA S.L.",
       "organo": "Presidencia de la Mancomunidad de la Canal de Navarrés",
       "num_contratos": 4,
@@ -222,39 +261,6 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 8,
-      "adjudicatario": "PLATAFORMA FEMAR S.L.",
-      "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
-      "num_contratos": 3,
-      "importe_total": 44997.0,
-      "importe_medio": 14999.0,
-      "umbral_legal": 15000,
-      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 44,997€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
-      "contratos": [
-        {
-          "expediente": "20261401010",
-          "objeto": "Adquisición de alubias en conserva y brotes de soja para la elaboración de los racionados en el taller de alimentación del centro penitenciario de Córdoba.",
-          "importe": 14999.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=GlUa7rB64JCzz8fXU2i3eQ%3D%3D"
-        },
-        {
-          "expediente": "20264504003",
-          "objeto": "Adquisición de carne de mejillón para la elaboración del racionado de los internos del centro penitenciario de Ocaña II.",
-          "importe": 14999.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9I%2F1QBA2o2aGCFcHcNGIlQ%3D%3D"
-        },
-        {
-          "expediente": "20264501003",
-          "objeto": "Adquisición de aves de caza para la elaboración del racionado de los internos en el taller de alimentación del centro penitenciario de Ocaña I.",
-          "importe": 14999.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=KTI6xQVv%2ByC8ebB%2FXTwy0A%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 8,
       "adjudicatario": "AMPARO ALCOVER IBAÑEZ",
       "organo": "Alcaldía del Ayuntamiento de Sagunto",
       "num_contratos": 3,
@@ -280,6 +286,39 @@
           "objeto": "Contrato de servicios de gestión integral, producción y ejecución de un evento de dinamización del centro histórico de Sagunto.",
           "importe": 13068.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=DP29S48CyeO5HQrHoP3G5A%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "AGUILAR CORVILLO HNOS.,S.L.",
+      "organo": "Jefatura de Intendencia de Asuntos Económicos Sur",
+      "num_contratos": 3,
+      "importe_total": 112730.62,
+      "importe_medio": 37576.87,
+      "umbral_legal": 40000,
+      "descripcion": "3 contratos menores de obras entre 32,000€ y 40,000€ del mismo proveedor al mismo órgano. Total: 112,731€ (supera el umbral de 40,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/ETSAE0226/00005944E",
+          "objeto": "CM OBRAS. Adecuación explanada cine verano Zona Norte CDM Híspalis ( Sevilla)",
+          "importe": 37582.6,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=jKSsdMsHYiWdkQsA7ROvsg%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0226/00005940E",
+          "objeto": "CM. OBRAS Adecuación pavimentos viales zona jardines patio bandera CDM Híspalis (Sevilla)",
+          "importe": 37556.95,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=YdDsgxk%2FxeuFlFRHfEzEaw%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0226/00005941E",
+          "objeto": "CM. OBRAS. Reforma almacenes empresas externas CDM HISPALIS (Sevilla)",
+          "importe": 37591.07,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=YJHswvEzznBrSd8H4b2soA%3D%3D"
         }
       ]
     },
@@ -357,19 +396,6 @@
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=AnRP%2BrBiRP%2FIGlsa0Wad%2Bw%3D%3D"
         }
       ]
-    },
-    {
-      "tipo": "concentracion",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "adjudicatario": "ANTONIO CARLOS BERZAL HERRERO",
-      "organo": "Alcalde del Ayuntamiento de Alfajarin",
-      "contratos_proveedor": 7,
-      "contratos_totales": 8,
-      "porcentaje_contratos": 87.5,
-      "importe_proveedor": 72113.58,
-      "porcentaje_importe": 100.0,
-      "descripcion": "ANTONIO CARLOS BERZAL HERRERO gana 7 de 8 contratos (88%) del Alcalde del Ayuntamiento de Alfajarin, 72,114€ de 72,114€ (100%). ¿Proveedor único justificado o cautividad?"
     },
     {
       "tipo": "concentracion",
@@ -519,33 +545,33 @@
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
-      "contratos_en_franja": 14,
-      "contratos_totales": 29,
-      "porcentaje": 48.3,
-      "proveedores_distintos": 12,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 14 de 29 menores (48%) entre 12,000-15,000€. 12 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 17,
+      "contratos_totales": 32,
+      "porcentaje": 53.1,
+      "proveedores_distintos": 14,
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 17 de 32 menores (53%) entre 12,000-15,000€. 14 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
-      "contratos_en_franja": 37,
-      "contratos_totales": 77,
-      "porcentaje": 48.1,
-      "proveedores_distintos": 31,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 37 de 77 menores (48%) entre 12,000-15,000€. 31 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 41,
+      "contratos_totales": 84,
+      "porcentaje": 48.8,
+      "proveedores_distintos": 33,
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 41 de 84 menores (49%) entre 12,000-15,000€. 33 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Jefatura de Asuntos Económicos del CG de la Comandancia Gral. de Melilla",
-      "contratos_en_franja": 5,
-      "contratos_totales": 11,
-      "porcentaje": 45.5,
-      "proveedores_distintos": 5,
-      "descripcion": "Jefatura de Asuntos Económicos del CG de la Comandancia Gral. de Melilla: 5 de 11 menores (45%) entre 12,000-15,000€. 5 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 6,
+      "contratos_totales": 12,
+      "porcentaje": 50.0,
+      "proveedores_distintos": 6,
+      "descripcion": "Jefatura de Asuntos Económicos del CG de la Comandancia Gral. de Melilla: 6 de 12 menores (50%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
