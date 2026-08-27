@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-08-26T06:32:31",
+    "generado": "2026-08-27T17:04:30",
     "version": "3.0",
-    "contratos_analizados": 56126,
-    "menores": 25842,
-    "licitaciones": 30284,
+    "contratos_analizados": 58604,
+    "menores": 27178,
+    "licitaciones": 31426,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,19 +15,63 @@
     ]
   },
   "stats": {
-    "total_flags": 20,
+    "total_flags": 21,
     "por_tipo": {
-      "fraccionamiento": 8,
+      "fraccionamiento": 9,
       "concentracion": 1,
       "patron_umbral": 4,
       "omnipresente": 0,
       "negociado_reiterado": 1,
       "umbral_europeo": 6
     },
-    "severidad_alta": 11,
-    "severidad_media": 9
+    "severidad_alta": 13,
+    "severidad_media": 8
   },
   "flags": [
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 10,
+      "adjudicatario": "DISHOSPAC SL",
+      "organo": "Paradores de Turismo de España, S.M.E., S.A.",
+      "num_contratos": 5,
+      "importe_total": 623315.0,
+      "umbral_legal": 140000,
+      "descripcion": "5 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 623,315€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "PESCADOS RULA DE AVILES PT CANGAS 27 08 02 09 26",
+          "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 27 de agosto al 02 de septiembre de 2026.",
+          "importe": 129085.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=CWUQ0YrRd84adbH3CysQuQ%3D%3D"
+        },
+        {
+          "expediente": "PESCADOS RULA AVILES PT CANGAS 30 07 05 08 26",
+          "objeto": "Acuerdo marco Suministro de pescados frescos con el distintivo pescado de confianza de la Rula de Avilés con destino al Parador de Turismo de Cangas de Onis, (Asturias) desde el 30 de julio al 05 de agosto de 2026.",
+          "importe": 119773.5,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=e5Ail5cqp5aFlFRHfEzEaw%3D%3D"
+        },
+        {
+          "expediente": "PESCADOS RULA DE AVILES PT CANGAS 06 08 12 08 26",
+          "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 06 de agosto al 12 de agosto de 2026.",
+          "importe": 119729.5,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=WfDi5TlbNU4%2FbjW6njtWLw%3D%3D"
+        },
+        {
+          "expediente": "PESCADOS RULA DE AVILES PT CANGAS 13 08 19 08 26",
+          "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 13 de agosto al 19 de agosto de 2026.",
+          "importe": 125642.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=fZnnEKh0p4W8ebB%2FXTwy0A%3D%3D"
+        },
+        {
+          "expediente": "PESCADOS RULA DE AVILES PT CANGAS 20 08 26 08 26",
+          "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 20 de agosto al 26 de agosto de 2026.",
+          "importe": 129085.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=vSljwp6t3us4NavIWzMcHA%3D%3D"
+        }
+      ]
+    },
     {
       "tipo": "fraccionamiento",
       "severidad": "alta",
@@ -228,6 +272,39 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 8,
+      "adjudicatario": "AUTOCARES ESTEBAN SANCHEZ S.L.",
+      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
+      "num_contratos": 3,
+      "importe_total": 43506.39,
+      "importe_medio": 14502.13,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 43,506€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/038855",
+          "objeto": "TO - Transporte escolar ruta 272 IES.- Pantoja/Numancia de la Sagra",
+          "importe": 14555.52,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=JqmBiF%2BFckJQFSeKCRun4Q%3D%3D"
+        },
+        {
+          "expediente": "2026/038758",
+          "objeto": "TO - Transporte escolar ruta 104 IES. Alameda de la Sagra/Añover de Tajo",
+          "importe": 14555.52,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2BvpIJo%2Bc4LWP66GS%2BONYvQ%3D%3D"
+        },
+        {
+          "expediente": "2026/038852",
+          "objeto": "TO - Transporte escolar ruta 270 IP.- Pantoja",
+          "importe": 14395.35,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=5vilHQnQ9HNeKgd8LfVV9g%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
       "adjudicatario": "CANTERAS REUNIDAS DE HUELVA, S.L.",
       "organo": "Alcaldía del Ayuntamiento de Moguer",
       "num_contratos": 3,
@@ -323,44 +400,6 @@
       ]
     },
     {
-      "tipo": "umbral_europeo",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 8,
-      "adjudicatario": "DISHOSPAC SL",
-      "organo": "Paradores de Turismo de España, S.M.E., S.A.",
-      "num_contratos": 4,
-      "importe_total": 494230.0,
-      "umbral_legal": 140000,
-      "descripcion": "4 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 494,230€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
-      "contratos": [
-        {
-          "expediente": "PESCADOS RULA AVILES PT CANGAS 30 07 05 08 26",
-          "objeto": "Acuerdo marco Suministro de pescados frescos con el distintivo pescado de confianza de la Rula de Avilés con destino al Parador de Turismo de Cangas de Onis, (Asturias) desde el 30 de julio al 05 de agosto de 2026.",
-          "importe": 119773.5,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=e5Ail5cqp5aFlFRHfEzEaw%3D%3D"
-        },
-        {
-          "expediente": "PESCADOS RULA DE AVILES PT CANGAS 06 08 12 08 26",
-          "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 06 de agosto al 12 de agosto de 2026.",
-          "importe": 119729.5,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=WfDi5TlbNU4%2FbjW6njtWLw%3D%3D"
-        },
-        {
-          "expediente": "PESCADOS RULA DE AVILES PT CANGAS 13 08 19 08 26",
-          "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 13 de agosto al 19 de agosto de 2026.",
-          "importe": 125642.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=fZnnEKh0p4W8ebB%2FXTwy0A%3D%3D"
-        },
-        {
-          "expediente": "PESCADOS RULA DE AVILES PT CANGAS 20 08 26 08 26",
-          "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 20 de agosto al 26 de agosto de 2026.",
-          "importe": 129085.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=vSljwp6t3us4NavIWzMcHA%3D%3D"
-        }
-      ]
-    },
-    {
       "tipo": "negociado_reiterado",
       "severidad": "alta",
       "emoji": "🔴",
@@ -409,6 +448,17 @@
       "importe_proveedor": 32885.17,
       "porcentaje_importe": 98.6,
       "descripcion": "CONSTRUCCIONES CLIMENT Y CAMAÑA SL gana 4 de 5 contratos (80%) del Alcaldía del Ayuntamiento de Terrateig, 32,885€ de 33,337€ (99%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
+      "contratos_en_franja": 23,
+      "contratos_totales": 38,
+      "porcentaje": 60.5,
+      "proveedores_distintos": 17,
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 23 de 38 menores (61%) entre 12,000-15,000€. 17 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "umbral_europeo",
@@ -544,23 +594,12 @@
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
-      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
-      "contratos_en_franja": 17,
-      "contratos_totales": 32,
-      "porcentaje": 53.1,
-      "proveedores_distintos": 14,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 17 de 32 menores (53%) entre 12,000-15,000€. 14 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
-      "contratos_en_franja": 41,
-      "contratos_totales": 84,
-      "porcentaje": 48.8,
-      "proveedores_distintos": 33,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 41 de 84 menores (49%) entre 12,000-15,000€. 33 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 45,
+      "contratos_totales": 104,
+      "porcentaje": 43.3,
+      "proveedores_distintos": 37,
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 45 de 104 menores (43%) entre 12,000-15,000€. 37 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
