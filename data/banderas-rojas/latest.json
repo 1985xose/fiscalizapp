@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-08-28T17:52:18",
+    "generado": "2026-08-29T11:57:45",
     "version": "3.0",
-    "contratos_analizados": 59601,
-    "menores": 27422,
-    "licitaciones": 32179,
+    "contratos_analizados": 60362,
+    "menores": 27595,
+    "licitaciones": 32767,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -594,23 +594,23 @@
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
+      "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
+      "contratos_en_franja": 45,
+      "contratos_totales": 108,
+      "porcentaje": 41.7,
+      "proveedores_distintos": 37,
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 45 de 108 menores (42%) entre 12,000-15,000€. 37 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
       "organo": "Jefatura de Asuntos Económicos del CG de la Comandancia Gral. de Melilla",
       "contratos_en_franja": 8,
       "contratos_totales": 14,
       "porcentaje": 57.1,
       "proveedores_distintos": 8,
       "descripcion": "Jefatura de Asuntos Económicos del CG de la Comandancia Gral. de Melilla: 8 de 14 menores (57%) entre 12,000-15,000€. 8 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
-      "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
-      "contratos_en_franja": 45,
-      "contratos_totales": 104,
-      "porcentaje": 43.3,
-      "proveedores_distintos": 37,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 45 de 104 menores (43%) entre 12,000-15,000€. 37 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
