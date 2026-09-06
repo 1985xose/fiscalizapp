@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generado": "2026-09-05T09:36:22",
+    "generado": "2026-09-06T09:50:56",
     "version": "3.0",
-    "contratos_analizados": 8660,
-    "menores": 1105,
+    "contratos_analizados": 8662,
+    "menores": 1107,
     "licitaciones": 7555,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",

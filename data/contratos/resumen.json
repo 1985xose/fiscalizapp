@@ -1,11 +1,45 @@
 {
   "meta": {
-    "generado": "2026-09-05T09:35:34",
-    "total_menores": 1105,
+    "generado": "2026-09-06T09:50:24",
+    "total_menores": 1107,
     "total_licitaciones": 7555,
     "rango": "202609-202609"
   },
   "ultimos_menores": [
+    {
+      "id": "https://contrataciondelestado.es/sindicacion/datosAbiertosMenores/20374175",
+      "actualizado": "2026-09-06T01:22:05.578+02:00",
+      "titulo": "Suministro de 13 botiquines de primeros auxilios de rescate y salvamento para uso del personal operativo",
+      "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2BtnR21HpWjV%2FR5QFTlaM4A%3D%3D",
+      "expediente": "Q4100884H-2026/000006-PCM",
+      "estado": "RES",
+      "organo": "Gerencia del Consorcio de Prevención, Extinción de Incendios y Salvamento Provincia de Sevilla",
+      "nif_organo": "Q4100884H",
+      "objeto": "Suministro de 13 botiquines de primeros auxilios de rescate y salvamento para uso del personal operativo",
+      "presupuesto_base": 18089.5,
+      "tipo_contrato": "1",
+      "importe_adjudicacion": 9935.85,
+      "adjudicatario": "LOGRO HISPANIA, S.L.",
+      "nif_adjudicatario": "B36322931",
+      "procedimiento": "6"
+    },
+    {
+      "id": "https://contrataciondelestado.es/sindicacion/datosAbiertosMenores/20374176",
+      "actualizado": "2026-09-05T19:54:15.619+02:00",
+      "titulo": "Obras relativas a la reparación y sustitución del saneamiento del cuartel de la Guardia Civil de Barajas de Melo",
+      "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2BoNiSZ4OI3M7u6%2B%2FR7DUoA%3D%3D",
+      "expediente": "P/0243/M/26/2",
+      "estado": "RES",
+      "organo": "Comandancia Guardia Civil de Cuenca",
+      "nif_organo": "E04672403",
+      "objeto": "Obras relativas a la reparación y sustitución del saneamiento del cuartel de la Guardia Civil de Barajas de Melo",
+      "presupuesto_base": 11616.0,
+      "tipo_contrato": "3",
+      "importe_adjudicacion": 11616.0,
+      "adjudicatario": "IOAN MURESAN",
+      "nif_adjudicatario": "****8993*",
+      "procedimiento": "6"
+    },
     {
       "id": "https://contrataciondelestado.es/sindicacion/datosAbiertosMenores/19929322",
       "actualizado": "2026-09-04T16:07:35.316+02:00",
@@ -795,40 +829,6 @@
       "importe_adjudicacion": 9680.0,
       "adjudicatario": "OLUKARPA EVENTOS SL",
       "nif_adjudicatario": "B04870846",
-      "procedimiento": "6"
-    },
-    {
-      "id": "https://contrataciondelestado.es/sindicacion/datosAbiertosMenores/20371857",
-      "actualizado": "2026-09-04T11:30:54.533+02:00",
-      "titulo": "Reforestación y silvicultura distintos puntos ACMT Cenad San Gregorio",
-      "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=4JgaymNCgbFt5r0ngvMetA%3D%3D",
-      "expediente": "2026/ETSAE0327/00005528E",
-      "estado": "RES",
-      "organo": "Jefatura de Intendencia de Asuntos Económicos Este",
-      "nif_organo": "EA0003109",
-      "objeto": "Reforestación y silvicultura distintos puntos ACMT Cenad San Gregorio",
-      "presupuesto_base": 18149.99,
-      "tipo_contrato": "2",
-      "importe_adjudicacion": 14520.95,
-      "adjudicatario": "ARAELECTRIC S.A.",
-      "nif_adjudicatario": "A50046408",
-      "procedimiento": "6"
-    },
-    {
-      "id": "https://contrataciondelestado.es/sindicacion/datosAbiertosMenores/20371858",
-      "actualizado": "2026-09-04T11:30:32.467+02:00",
-      "titulo": "Contrato menor servicio de redacción de proyecto, dirección de obra y EBSS obra de reconstrucción de cubierta en el edificio situado en Avenida Marqués de Dos Aguas Nº4 en el municipio de Dos Aguas (Obra financiada por el Gobierno de España - TMD/101/2025)",
-      "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=mtbBKENsMWE2wEhQbcAqug%3D%3D",
-      "expediente": "2529365H",
-      "estado": "RES",
-      "organo": "Alcaldía del Ayuntamiento de Dos Aguas",
-      "nif_organo": "L01461154",
-      "objeto": "Contrato menor servicio de redacción de proyecto, dirección de obra y EBSS obra de reconstrucción de cubierta en el edificio situado en Avenida Marqués de Dos Aguas Nº4 en el municipio de Dos Aguas (Obra financiada por el Gobierno de España - TMD/101/2025)",
-      "presupuesto_base": 4235.0,
-      "tipo_contrato": "2",
-      "importe_adjudicacion": 4235.0,
-      "adjudicatario": "EVA ISABEL DOMÍNGUEZ ATIENZA",
-      "nif_adjudicatario": "73769225Z",
       "procedimiento": "6"
     }
   ],
