@@ -1,11 +1,28 @@
 {
   "meta": {
-    "generado": "2026-09-06T09:50:24",
-    "total_menores": 1107,
+    "generado": "2026-09-07T10:56:25",
+    "total_menores": 1108,
     "total_licitaciones": 7555,
     "rango": "202609-202609"
   },
   "ultimos_menores": [
+    {
+      "id": "https://contrataciondelestado.es/sindicacion/datosAbiertosMenores/20376434",
+      "actualizado": "2026-09-06T04:00:10.343+02:00",
+      "titulo": "Desplazamientos en avión de cabo verde a tenerife y vuelta, alojamiento en 1 piso en santa cruz de tenerife y seguros de viaje para 3 profesionales de la radio televisión caboverdiana que viene a hace",
+      "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=bpFgB%2BbaqFjkY6rls5tG9A%3D%3D",
+      "expediente": "SC-1192/2026 - SP-1659/2026",
+      "estado": "RES",
+      "organo": "Instituto Tecnológico de Canarias S.A.",
+      "nif_organo": "A35313170",
+      "objeto": "Desplazamientos en avión de cabo verde a tenerife y vuelta, alojamiento en 1 piso en santa cruz de tenerife y seguros de viaje para 3 profesionales de la radio televisión caboverdiana que viene a hace",
+      "presupuesto_base": 4393.66,
+      "tipo_contrato": "2",
+      "importe_adjudicacion": 4393.66,
+      "adjudicatario": "LA PLAZA TOURS AND SERVICES, S.L.",
+      "nif_adjudicatario": "B76312800",
+      "procedimiento": "6"
+    },
     {
       "id": "https://contrataciondelestado.es/sindicacion/datosAbiertosMenores/20374175",
       "actualizado": "2026-09-06T01:22:05.578+02:00",
@@ -812,23 +829,6 @@
       "importe_adjudicacion": 47954.43,
       "adjudicatario": "ANTONIO JESUS PARRA VALDERRAMA",
       "nif_adjudicatario": "***2388**",
-      "procedimiento": "6"
-    },
-    {
-      "id": "https://contrataciondelestado.es/sindicacion/datosAbiertosMenores/20371856",
-      "actualizado": "2026-09-04T11:32:56.571+02:00",
-      "titulo": "50 stand para Feria Agroganadera Huéscar 2026",
-      "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=JQAOSdghDbOP66GS%2BONYvQ%3D%3D",
-      "expediente": "3924/2026",
-      "estado": "RES",
-      "organo": "Alcaldía del Ayuntamiento de Huéscar",
-      "nif_organo": "L01180981",
-      "objeto": "50 stand para Feria Agroganadera Huéscar 2026",
-      "presupuesto_base": 9680.0,
-      "tipo_contrato": "1",
-      "importe_adjudicacion": 9680.0,
-      "adjudicatario": "OLUKARPA EVENTOS SL",
-      "nif_adjudicatario": "B04870846",
       "procedimiento": "6"
     }
   ],
