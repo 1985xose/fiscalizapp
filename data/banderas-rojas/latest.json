@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-09-08T10:14:39",
+    "generado": "2026-09-09T10:19:51",
     "version": "3.0",
-    "contratos_analizados": 11698,
-    "menores": 1211,
-    "licitaciones": 10487,
+    "contratos_analizados": 12960,
+    "menores": 1326,
+    "licitaciones": 11634,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,44 @@
     ]
   },
   "stats": {
-    "total_flags": 0,
+    "total_flags": 1,
     "por_tipo": {
       "fraccionamiento": 0,
       "concentracion": 0,
       "patron_umbral": 0,
       "omnipresente": 0,
       "negociado_reiterado": 0,
-      "umbral_europeo": 0
+      "umbral_europeo": 1
     },
     "severidad_alta": 0,
-    "severidad_media": 0
+    "severidad_media": 1
   },
-  "flags": []
+  "flags": [
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "UTE ECONOCOM SERVICIOS-ECONOCOM PRODUCTS AND SOLUTIONS",
+      "organo": "Concejalía Delegada de Innovación, Tecnología, Agenda Digital y Captación de Inversiones del Ayuntamiento de València",
+      "num_contratos": 2,
+      "importe_total": 264524.54,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 264,525€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "E-801-2021-251",
+          "objeto": "Suministro de 4 servidores para ampliar el clúster de virtualización con tecnología VMware en sus centros de procesos de datos con servidores HP Proliant DL380.",
+          "importe": 130214.54,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=tC8HOsFJSrLnSoTX3z%2F7wA%3D%3D"
+        },
+        {
+          "expediente": "E-00801-2021-243",
+          "objeto": "Suministro Cesión Derecho uso software Lifesize.",
+          "importe": 134310.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=kbi7yg%2BKfFmXQV0WE7lYPw%3D%3D"
+        }
+      ]
+    }
+  ]
 }
