@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generado": "2026-09-09T10:19:51",
+    "generado": "2026-09-10T10:14:12",
     "version": "3.0",
-    "contratos_analizados": 12960,
-    "menores": 1326,
+    "contratos_analizados": 13121,
+    "menores": 1487,
     "licitaciones": 11634,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
@@ -15,19 +15,58 @@
     ]
   },
   "stats": {
-    "total_flags": 1,
+    "total_flags": 2,
     "por_tipo": {
-      "fraccionamiento": 0,
+      "fraccionamiento": 1,
       "concentracion": 0,
       "patron_umbral": 0,
       "omnipresente": 0,
       "negociado_reiterado": 0,
       "umbral_europeo": 1
     },
-    "severidad_alta": 0,
+    "severidad_alta": 1,
     "severidad_media": 1
   },
   "flags": [
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 9,
+      "adjudicatario": "MEDISCAN EQUIPAMIENTOS MEDICOS, S.L.",
+      "organo": "Gerencia de la Fundación para el Fomento de la Investigación Sanitaria y Biomédica de la Comunitat Valenciana (FISABIO)",
+      "num_contratos": 4,
+      "importe_total": 57983.2,
+      "importe_medio": 14495.8,
+      "umbral_legal": 15000,
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 57,983€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "CMENOR/2026/FISAB/0095",
+          "objeto": "Suministro de sistema mapa y onda de pulso pwa 24 horas",
+          "importe": 14495.8,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=T%2Fg8f2cGdVmIzo3LHNPGcQ%3D%3D"
+        },
+        {
+          "expediente": "CMENOR/2026/FISAB/0094",
+          "objeto": "Suministro de sistema mapa y onda de pulso pwa 24 horas",
+          "importe": 14495.8,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Drpx%2BvGujF1%2FP7lJ7Fu0SA%3D%3D"
+        },
+        {
+          "expediente": "CMENOR/2026/FISAB/0093",
+          "objeto": "Suministro de sistema mapa y onda de pulso pwa 24 horas",
+          "importe": 14495.8,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=j4in2pt1uiQ%2B1TMyIiZmzw%3D%3D"
+        },
+        {
+          "expediente": "CMENOR/2026/FISAB/0092",
+          "objeto": "Suministro de sistema mapa y onda de pulso pwa 24 horas",
+          "importe": 14495.8,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=oetXoRQqGcaFlFRHfEzEaw%3D%3D"
+        }
+      ]
+    },
     {
       "tipo": "umbral_europeo",
       "severidad": "media",
