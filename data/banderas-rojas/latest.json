@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generado": "2026-09-12T09:44:10",
+    "generado": "2026-09-13T10:45:21",
     "version": "3.0",
-    "contratos_analizados": 14509,
-    "menores": 2875,
+    "contratos_analizados": 16345,
+    "menores": 4711,
     "licitaciones": 11634,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
@@ -17,8 +17,8 @@
   "stats": {
     "total_flags": 3,
     "por_tipo": {
-      "fraccionamiento": 1,
-      "concentracion": 1,
+      "fraccionamiento": 2,
+      "concentracion": 0,
       "patron_umbral": 0,
       "omnipresente": 0,
       "negociado_reiterado": 0,
@@ -68,17 +68,37 @@
       ]
     },
     {
-      "tipo": "concentracion",
+      "tipo": "fraccionamiento",
       "severidad": "alta",
       "emoji": "🔴",
-      "adjudicatario": "LIBRERIA TECNICA E INFORMATICA, S.L.",
-      "organo": "Junta de Gobierno del Ayuntamiento de Alguazas",
-      "contratos_proveedor": 5,
-      "contratos_totales": 5,
-      "porcentaje_contratos": 100.0,
-      "importe_proveedor": 1228.08,
-      "porcentaje_importe": 100.0,
-      "descripcion": "LIBRERIA TECNICA E INFORMATICA, S.L. gana 5 de 5 contratos (100%) del Junta de Gobierno del Ayuntamiento de Alguazas, 1,228€ de 1,228€ (100%). ¿Proveedor único justificado o cautividad?"
+      "score": 8,
+      "adjudicatario": "CH3 ALMERIA SLU",
+      "organo": "Jefatura de Intendencia de Asuntos Económicos Sur",
+      "num_contratos": 3,
+      "importe_total": 113184.01,
+      "importe_medio": 37728.0,
+      "umbral_legal": 40000,
+      "descripcion": "3 contratos menores de obras entre 32,000€ y 40,000€ del mismo proveedor al mismo órgano. Total: 113,184€ (supera el umbral de 40,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/ETSAE0226/00006691E",
+          "objeto": "CM Obra acondicionamiento zonas interiores del edificio E-077, Base Álvarez de Sotomayor (Almería)",
+          "importe": 35926.35,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VdorpSk4lX4IYE3ZiZ%2BxmQ%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0226/00006112E",
+          "objeto": "CM Obra adecuación aseos edificio E-127 Cía. Mando y Personal, Base Álvarez de Sotomayor (Viator - Almería)",
+          "importe": 39417.57,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=38iDlK%2Bes3yIzo3LHNPGcQ%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0226/00006421E",
+          "objeto": "CM Obra acondicionamiento zonas interiores Edificio nº 150, Base Álvarez de Sotomayor (Almería)",
+          "importe": 37840.09,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Oy8iYeiNYfczjChw4z%2FXvw%3D%3D"
+        }
+      ]
     },
     {
       "tipo": "umbral_europeo",
