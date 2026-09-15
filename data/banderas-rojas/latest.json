@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-09-14T11:09:44",
+    "generado": "2026-09-15T10:45:14",
     "version": "3.0",
-    "contratos_analizados": 16751,
-    "menores": 5117,
-    "licitaciones": 11634,
+    "contratos_analizados": 25489,
+    "menores": 6637,
+    "licitaciones": 18852,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 3,
+    "total_flags": 8,
     "por_tipo": {
       "fraccionamiento": 2,
       "concentracion": 0,
-      "patron_umbral": 0,
+      "patron_umbral": 1,
       "omnipresente": 0,
       "negociado_reiterado": 0,
-      "umbral_europeo": 1
+      "umbral_europeo": 5
     },
-    "severidad_alta": 2,
-    "severidad_media": 1
+    "severidad_alta": 4,
+    "severidad_media": 4
   },
   "flags": [
     {
@@ -102,15 +102,15 @@
     },
     {
       "tipo": "umbral_europeo",
-      "severidad": "media",
-      "emoji": "🟡",
-      "score": 4,
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 6,
       "adjudicatario": "UTE ECONOCOM SERVICIOS-ECONOCOM PRODUCTS AND SOLUTIONS",
       "organo": "Concejalía Delegada de Innovación, Tecnología, Agenda Digital y Captación de Inversiones del Ayuntamiento de València",
-      "num_contratos": 2,
-      "importe_total": 264524.54,
+      "num_contratos": 3,
+      "importe_total": 379604.18,
       "umbral_legal": 140000,
-      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 264,525€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "descripcion": "3 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 379,604€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
       "contratos": [
         {
           "expediente": "E-801-2021-251",
@@ -123,6 +123,127 @@
           "objeto": "Suministro Cesión Derecho uso software Lifesize.",
           "importe": 134310.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=kbi7yg%2BKfFmXQV0WE7lYPw%3D%3D"
+        },
+        {
+          "expediente": "E-00801-2021-000159",
+          "objeto": "Adquisición de 4 servidores para ampliar el clúster de virtualización con tecnología VMware en sus Centros de Procesos de Datos con servidores HP Proliant\r\nDL380.",
+          "importe": 115079.64,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=wFpskU%2BEPO%2FnSoTX3z%2F7wA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real",
+      "contratos_en_franja": 12,
+      "contratos_totales": 12,
+      "porcentaje": 100.0,
+      "proveedores_distintos": 11,
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 12 de 12 menores (100%) entre 12,000-15,000€. 11 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "CARMOCON, S.A.",
+      "organo": "Gerencia de la Empresa Mancomunada del Aljarafe, S.A. (ALJARAFESA)",
+      "num_contratos": 2,
+      "importe_total": 247786.81,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 247,787€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "PAA/119/2026",
+          "objeto": "Mejora del Saneamiento en la Calle Virgen de la Paloma, Albaida del Aljarafe (Sevilla)",
+          "importe": 113209.22,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=AcX2q%2B1Gas%2BOUi78BmzhOQ%3D%3D"
+        },
+        {
+          "expediente": "PAA/120/2026",
+          "objeto": "Mejora de la Infraestructura Hidráulica en la Calle Fuente Archena, Albaida del Aljarafe (Sevilla)",
+          "importe": 134577.59,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=TdzaRAgijHTkY6rls5tG9A%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "Redes System Consulting & Solutions, S.L.",
+      "organo": "Empresa Provincial de Informática, S.A.",
+      "num_contratos": 2,
+      "importe_total": 229105.66,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 229,106€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "31/20",
+          "objeto": "Adquisición de servidores departamentales para crecimiento vegetativo y sustitución de la infraestructura VmWare/Citrix",
+          "importe": 115905.55,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=oZYNXdc%2BGOt7h85%2Fpmmsfw%3D%3D"
+        },
+        {
+          "expediente": "10/23",
+          "objeto": "Contratación de la renovación y configuración del hardware del entorno de virtualización basado en VMware en el marco del Plan de Recuperación, Transformación y Resiliencia - Financiado por la Unión Europea – NextGenerationEU",
+          "importe": 113200.11,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=RUBeZ%2F8%2BRHFxseVhcqrkhw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "SUMINISTROS SANITARIOS DE EXTREMADURA SL",
+      "organo": "Dirección General de Planificación Económica",
+      "num_contratos": 2,
+      "importe_total": 251559.0,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 251,559€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "CS/99/1126054322/26/PNSP",
+          "objeto": "Adquisición De 33 Equipos Índice Tobillo Brazo Para Los Centros De Atención Primaria Consultorios Locales Y Centros De Salud Del Servicio Extremeño De Salud, Mediante Contrato Basado En El Lote 9 Del Acuerdo Marco Cs/99/1125041366/25/AM",
+          "importe": 131769.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=gie%2Fap8KbKHVGIpKDxgsAQ%3D%3D"
+        },
+        {
+          "expediente": "CS/99/1126054255/26/PNSP",
+          "objeto": "Adquisición de 30 equipos índice tobillo brazo para los centros de atención primaria consultorios locales y centros de salud del servicio extremeño de salud, mediante contrato basado en el lote 9 del acuerdo marco mediante 10 lotes, para el suministro, instalación y puesta en marcha de diverso equipamiento electromédico para el servicio extremeño de salud expte. CS/99/1125041366/25/AM",
+          "importe": 119790.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XqvzLsN4gjf5Rey58Yagpg%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "QUINTAS TOROS, S.L.",
+      "organo": "Junta de Gobierno del Ayuntamiento de Navalcarnero",
+      "num_contratos": 2,
+      "importe_total": 240064.0,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 240,064€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "038SUM26",
+          "objeto": "Contrato de suministro de reses con motivo de las Fiestas Patronales de Navalcarnero 2026.",
+          "importe": 119790.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=EOWAK9fP1clxseVhcqrkhw%3D%3D"
+        },
+        {
+          "expediente": "037SER26",
+          "objeto": "Contratación de profesionales y directores de lidia para los espectáculos taurinos con motivo de las Fiestas Patronales de Navalcarnero de 2026.",
+          "importe": 120274.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=StENlOyRVOakU02jNGj1Fw%3D%3D"
         }
       ]
     }
