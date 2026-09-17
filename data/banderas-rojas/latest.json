@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-09-16T10:36:54",
+    "generado": "2026-09-17T10:44:38",
     "version": "3.0",
-    "contratos_analizados": 28973,
-    "menores": 8457,
-    "licitaciones": 20516,
+    "contratos_analizados": 36773,
+    "menores": 14503,
+    "licitaciones": 22270,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 12,
+    "total_flags": 16,
     "por_tipo": {
       "fraccionamiento": 3,
-      "concentracion": 1,
-      "patron_umbral": 2,
+      "concentracion": 2,
+      "patron_umbral": 4,
       "omnipresente": 0,
       "negociado_reiterado": 0,
-      "umbral_europeo": 6
+      "umbral_europeo": 7
     },
-    "severidad_alta": 6,
-    "severidad_media": 6
+    "severidad_alta": 7,
+    "severidad_media": 9
   },
   "flags": [
     {
@@ -169,14 +169,27 @@
       "tipo": "concentracion",
       "severidad": "alta",
       "emoji": "🔴",
-      "adjudicatario": "CONSTRUCCIONES DE INVERNADEROS AGROINVER S.L.",
-      "organo": "Dirección de la Fundación Finca Experimental, Universidad de Almería - ANECOOP",
-      "contratos_proveedor": 8,
-      "contratos_totales": 9,
-      "porcentaje_contratos": 88.9,
-      "importe_proveedor": 3328.97,
+      "adjudicatario": "ESTRUCTURAS Y OBRAS NOVANEO, SL",
+      "organo": "Alcaldía del Ayuntamiento de Millena",
+      "contratos_proveedor": 5,
+      "contratos_totales": 5,
+      "porcentaje_contratos": 100.0,
+      "importe_proveedor": 105881.79,
       "porcentaje_importe": 100.0,
-      "descripcion": "CONSTRUCCIONES DE INVERNADEROS AGROINVER S.L. gana 8 de 9 contratos (89%) del Dirección de la Fundación Finca Experimental, Universidad de Almería - ANECOOP, 3,329€ de 3,329€ (100%). ¿Proveedor único justificado o cautividad?"
+      "descripcion": "ESTRUCTURAS Y OBRAS NOVANEO, SL gana 5 de 5 contratos (100%) del Alcaldía del Ayuntamiento de Millena, 105,882€ de 105,882€ (100%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "concentracion",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "adjudicatario": "CORECOR S.L.",
+      "organo": "Alcaldía del Ayuntamiento de Corduente",
+      "contratos_proveedor": 5,
+      "contratos_totales": 5,
+      "porcentaje_contratos": 100.0,
+      "importe_proveedor": 15992.27,
+      "porcentaje_importe": 100.0,
+      "descripcion": "CORECOR S.L. gana 5 de 5 contratos (100%) del Alcaldía del Ayuntamiento de Corduente, 15,992€ de 15,992€ (100%). ¿Proveedor único justificado o cautividad?"
     },
     {
       "tipo": "patron_umbral",
@@ -184,10 +197,10 @@
       "emoji": "🔴",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real",
       "contratos_en_franja": 15,
-      "contratos_totales": 16,
-      "porcentaje": 93.8,
+      "contratos_totales": 20,
+      "porcentaje": 75.0,
       "proveedores_distintos": 12,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 15 de 16 menores (94%) entre 12,000-15,000€. 12 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 15 de 20 menores (75%) entre 12,000-15,000€. 12 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "umbral_europeo",
@@ -238,6 +251,32 @@
           "objeto": "Contratación de la renovación y configuración del hardware del entorno de virtualización basado en VMware en el marco del Plan de Recuperación, Transformación y Resiliencia - Financiado por la Unión Europea – NextGenerationEU",
           "importe": 113200.11,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=RUBeZ%2F8%2BRHFxseVhcqrkhw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "DISHOSPAC SL",
+      "organo": "Paradores de Turismo de España, S.M.E., S.A.",
+      "num_contratos": 2,
+      "importe_total": 248556.0,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 248,556€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "PESCADOS RULA AVILES PT CANGAS 10 09 16 09 26",
+          "objeto": "Acuerdo marco Suministro de pescados frescos con el distintivo pescado de confianza de la Rula de Avilés con destino al Parador de Turismo de Cangas de Onis desde el 10 de septiembre al 16 de septiembre de 2026.",
+          "importe": 123101.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=GJssUxkO0JPCfVQHDepjGQ%3D%3D"
+        },
+        {
+          "expediente": "PESCADOS RULA AVILES PT CANGAS 17 09 23 09 26",
+          "objeto": "Acuerdo marco suministro de pescados frescos con el distintivo pescado de confianza de la Rula de Avilés con destino al Parador de Turismo de Cangas de Onis, (Asturias) desde el 17 de septiembre al 23 de septiembre de 2026.",
+          "importe": 125455.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2Fb68w%2F6Z%2BK2FQ%2FlhRK79lA%3D%3D"
         }
       ]
     },
@@ -323,12 +362,34 @@
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
+      "organo": "Alcaldía del Ayuntamiento de Güímar",
+      "contratos_en_franja": 5,
+      "contratos_totales": 12,
+      "porcentaje": 41.7,
+      "proveedores_distintos": 5,
+      "descripcion": "Alcaldía del Ayuntamiento de Güímar: 5 de 12 menores (42%) entre 12,000-15,000€. 5 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Jefatura de Asuntos Económicos del CG de la Comandancia Gral. de Melilla",
+      "contratos_en_franja": 6,
+      "contratos_totales": 12,
+      "porcentaje": 50.0,
+      "proveedores_distintos": 6,
+      "descripcion": "Jefatura de Asuntos Económicos del CG de la Comandancia Gral. de Melilla: 6 de 12 menores (50%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
       "organo": "Consejería Delegada de Gestión y Planeamiento Territorial y Medioambiental, S.A.",
       "contratos_en_franja": 6,
-      "contratos_totales": 13,
-      "porcentaje": 46.2,
+      "contratos_totales": 15,
+      "porcentaje": 40.0,
       "proveedores_distintos": 6,
-      "descripcion": "Consejería Delegada de Gestión y Planeamiento Territorial y Medioambiental, S.A.: 6 de 13 menores (46%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Consejería Delegada de Gestión y Planeamiento Territorial y Medioambiental, S.A.: 6 de 15 menores (40%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
     }
   ]
 }
