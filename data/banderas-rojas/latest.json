@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-09-21T11:26:51",
+    "generado": "2026-09-22T10:35:28",
     "version": "3.0",
-    "contratos_analizados": 41468,
-    "menores": 17547,
-    "licitaciones": 23921,
+    "contratos_analizados": 46696,
+    "menores": 19399,
+    "licitaciones": 27297,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 17,
+    "total_flags": 18,
     "por_tipo": {
       "fraccionamiento": 3,
       "concentracion": 2,
       "patron_umbral": 4,
       "omnipresente": 0,
       "negociado_reiterado": 0,
-      "umbral_europeo": 8
+      "umbral_europeo": 9
     },
     "severidad_alta": 7,
-    "severidad_media": 10
+    "severidad_media": 11
   },
   "flags": [
     {
@@ -184,12 +184,12 @@
       "emoji": "🔴",
       "adjudicatario": "CORECOR S.L.",
       "organo": "Alcaldía del Ayuntamiento de Corduente",
-      "contratos_proveedor": 8,
-      "contratos_totales": 8,
+      "contratos_proveedor": 10,
+      "contratos_totales": 10,
       "porcentaje_contratos": 100.0,
-      "importe_proveedor": 37506.07,
+      "importe_proveedor": 73806.07,
       "porcentaje_importe": 100.0,
-      "descripcion": "CORECOR S.L. gana 8 de 8 contratos (100%) del Alcaldía del Ayuntamiento de Corduente, 37,506€ de 37,506€ (100%). ¿Proveedor único justificado o cautividad?"
+      "descripcion": "CORECOR S.L. gana 10 de 10 contratos (100%) del Alcaldía del Ayuntamiento de Corduente, 73,806€ de 73,806€ (100%). ¿Proveedor único justificado o cautividad?"
     },
     {
       "tipo": "patron_umbral",
@@ -201,32 +201,6 @@
       "porcentaje": 76.2,
       "proveedores_distintos": 13,
       "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 16 de 21 menores (76%) entre 12,000-15,000€. 13 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "umbral_europeo",
-      "severidad": "media",
-      "emoji": "🟡",
-      "score": 4,
-      "adjudicatario": "Posada Organización, S.A.",
-      "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
-      "num_contratos": 2,
-      "importe_total": 255660.9,
-      "umbral_legal": 140000,
-      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 255,661€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
-      "contratos": [
-        {
-          "expediente": "TSA0080714-26",
-          "objeto": "[UT1] Contrato derivado del Lote 2 del Acuerdo Marco TSA0080714 para el  arrendamiento de equipos de maquinaria dotados de operario, para las actuaciones de restauración ambiental de las minas del Grupo Tragsa dentro de la provincia de Asturias en el marco del Plan de recuperación, Transformación  y Resiliencia-financiado por la Unión Europea-NextGenerationEU y resto de encargos.",
-          "importe": 137867.4,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=j03EAnOaQAuIzo3LHNPGcQ%3D%3D"
-        },
-        {
-          "expediente": "TSA0082927-10",
-          "objeto": "[UT1]Contrato derivado del TSA0082927 Acuerdos Marco para el arrendamiento de maquinaria con operario para ejecución de obras Asturias durante 2026, financiadas fin fondos europeos o con fondos europeos (FEADER, PRTR o cualquier financiación europea).",
-          "importe": 117793.5,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VBan5F1ma44IYE3ZiZ%2BxmQ%3D%3D"
-        }
-      ]
     },
     {
       "tipo": "umbral_europeo",
@@ -363,6 +337,32 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
+      "adjudicatario": "Posada Organización, S.A.",
+      "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
+      "num_contratos": 2,
+      "importe_total": 255660.9,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 255,661€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "TSA0082927-10",
+          "objeto": "[UT1]Contrato derivado del TSA0082927 Acuerdos Marco para el arrendamiento de maquinaria con operario para ejecución de obras Asturias durante 2026, financiadas fin fondos europeos o con fondos europeos (FEADER, PRTR o cualquier financiación europea).",
+          "importe": 117793.5,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VBan5F1ma44IYE3ZiZ%2BxmQ%3D%3D"
+        },
+        {
+          "expediente": "TSA0080714-26",
+          "objeto": "[UT1] Contrato derivado del Lote 2 del Acuerdo Marco TSA0080714 para el  arrendamiento de equipos de maquinaria dotados de operario, para las actuaciones de restauración ambiental de las minas del Grupo Tragsa dentro de la provincia de Asturias en el marco del Plan de recuperación, Transformación  y Resiliencia-financiado por la Unión Europea-NextGenerationEU y resto de encargos.",
+          "importe": 137867.4,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=j03EAnOaQAuIzo3LHNPGcQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
       "adjudicatario": "FLIGHTSAFETY INTERNATIONAL",
       "organo": "Jefatura de la Sección Económico Administrativa 12 - Agrupación del Acuartelamiento Aéreo Tablada",
       "num_contratos": 2,
@@ -381,6 +381,32 @@
           "objeto": "Contrato Derivado del Acuerdo Marco 20239A02 para prácticas de simulador TR-20 (CESSNA CITATION) - LOTE 3 (CKAHA)",
           "importe": 130960.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=IwU323CWHfC7JOCXkOhcDg%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "ASAC COMUNICACIONES, SL",
+      "organo": "Presidencia de la Diputación Provincial de Cáceres",
+      "num_contratos": 2,
+      "importe_total": 275865.48,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 275,865€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "098/2025 SV PA",
+          "objeto": "Servicios de Mantenimiento, Soporte, Monitorización y Asistencia Técnica de la infraestructura instalada en los Centros de Proceso de Datos  de la Diputación de Cáceres en los términos definidos en los pliegos de prescripciones técnicas teniendo en cuenta criterios sociales.",
+          "importe": 139159.68,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=hOlwmCR6cEhrSd8H4b2soA%3D%3D"
+        },
+        {
+          "expediente": "1126.301X",
+          "objeto": "El objeto del presente contrato es la actualización adquisición de nuevo equipamiento de sistemas de alimentación ininterrumpida (SAI) que se ubicará en los CPD01 (Palacio) y CPD02 (Julián Murillo).",
+          "importe": 136705.8,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=nZDRkMRhzdcS7pcxhTeWOg%3D%3D"
         }
       ]
     },
