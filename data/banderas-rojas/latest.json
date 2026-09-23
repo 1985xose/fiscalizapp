@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-09-22T10:35:28",
+    "generado": "2026-09-23T10:35:34",
     "version": "3.0",
-    "contratos_analizados": 46696,
-    "menores": 19399,
-    "licitaciones": 27297,
+    "contratos_analizados": 47965,
+    "menores": 20702,
+    "licitaciones": 27263,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 18,
+    "total_flags": 19,
     "por_tipo": {
       "fraccionamiento": 3,
-      "concentracion": 2,
-      "patron_umbral": 4,
+      "concentracion": 1,
+      "patron_umbral": 6,
       "omnipresente": 0,
       "negociado_reiterado": 0,
       "umbral_europeo": 9
     },
-    "severidad_alta": 7,
-    "severidad_media": 11
+    "severidad_alta": 6,
+    "severidad_media": 13
   },
   "flags": [
     {
@@ -169,19 +169,6 @@
       "tipo": "concentracion",
       "severidad": "alta",
       "emoji": "🔴",
-      "adjudicatario": "ESTRUCTURAS Y OBRAS NOVANEO, SL",
-      "organo": "Alcaldía del Ayuntamiento de Millena",
-      "contratos_proveedor": 5,
-      "contratos_totales": 5,
-      "porcentaje_contratos": 100.0,
-      "importe_proveedor": 105881.79,
-      "porcentaje_importe": 100.0,
-      "descripcion": "ESTRUCTURAS Y OBRAS NOVANEO, SL gana 5 de 5 contratos (100%) del Alcaldía del Ayuntamiento de Millena, 105,882€ de 105,882€ (100%). ¿Proveedor único justificado o cautividad?"
-    },
-    {
-      "tipo": "concentracion",
-      "severidad": "alta",
-      "emoji": "🔴",
       "adjudicatario": "CORECOR S.L.",
       "organo": "Alcaldía del Ayuntamiento de Corduente",
       "contratos_proveedor": 10,
@@ -196,11 +183,11 @@
       "severidad": "alta",
       "emoji": "🔴",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real",
-      "contratos_en_franja": 16,
-      "contratos_totales": 21,
-      "porcentaje": 76.2,
+      "contratos_en_franja": 17,
+      "contratos_totales": 22,
+      "porcentaje": 77.3,
       "proveedores_distintos": 13,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 16 de 21 menores (76%) entre 12,000-15,000€. 13 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 17 de 22 menores (77%) entre 12,000-15,000€. 13 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "umbral_europeo",
@@ -414,6 +401,17 @@
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
+      "organo": "Alcaldía del Ayuntamiento de Breña Baja",
+      "contratos_en_franja": 6,
+      "contratos_totales": 15,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 6,
+      "descripcion": "Alcaldía del Ayuntamiento de Breña Baja: 6 de 15 menores (40%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
       "organo": "Alcaldía del Ayuntamiento de Güímar",
       "contratos_en_franja": 5,
       "contratos_totales": 12,
@@ -442,6 +440,17 @@
       "porcentaje": 46.2,
       "proveedores_distintos": 6,
       "descripcion": "Alcaldía del Ayuntamiento de Fuencaliente de la Palma: 6 de 13 menores (46%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Presidencia del Consorcio del Agua de Lanzarote",
+      "contratos_en_franja": 5,
+      "contratos_totales": 12,
+      "porcentaje": 41.7,
+      "proveedores_distintos": 5,
+      "descripcion": "Presidencia del Consorcio del Agua de Lanzarote: 5 de 12 menores (42%) entre 12,000-15,000€. 5 proveedores. Estadísticamente improbable sin intervención."
     }
   ]
 }
