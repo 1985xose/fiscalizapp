@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-09-23T10:35:34",
+    "generado": "2026-09-24T10:57:42",
     "version": "3.0",
-    "contratos_analizados": 47965,
-    "menores": 20702,
-    "licitaciones": 27263,
+    "contratos_analizados": 61792,
+    "menores": 28286,
+    "licitaciones": 33506,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 19,
+    "total_flags": 28,
     "por_tipo": {
-      "fraccionamiento": 3,
-      "concentracion": 1,
+      "fraccionamiento": 6,
+      "concentracion": 3,
       "patron_umbral": 6,
       "omnipresente": 0,
       "negociado_reiterado": 0,
-      "umbral_europeo": 9
+      "umbral_europeo": 13
     },
-    "severidad_alta": 6,
-    "severidad_media": 13
+    "severidad_alta": 11,
+    "severidad_media": 17
   },
   "flags": [
     {
@@ -64,6 +64,45 @@
           "objeto": "Suministro de sistema mapa y onda de pulso pwa 24 horas",
           "importe": 14495.8,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=oetXoRQqGcaFlFRHfEzEaw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 9,
+      "adjudicatario": "María Luz Poyatos Fernández",
+      "organo": "Alcaldía del Ayuntamiento de Solana del Pino",
+      "num_contratos": 4,
+      "importe_total": 58400.0,
+      "importe_medio": 14600.0,
+      "umbral_legal": 15000,
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 58,400€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "101/2021-2023-2S",
+          "objeto": "Servicio de preparado y distribución de comidas. Proyecto de Apoyo Nutricional",
+          "importe": 14720.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2BKkmJHka9CYzjChw4z%2FXvw%3D%3D"
+        },
+        {
+          "expediente": "101/2021-2023-1S",
+          "objeto": "Servicio de preparado y distribución de comidas. Proyecto de Apoyo Nutricional",
+          "importe": 14480.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2FjAr4Y5ZqmPI8aL3PRS10Q%3D%3D"
+        },
+        {
+          "expediente": "101/2021-2022-2S",
+          "objeto": "Servicio de preparado y distribución de comidas. Proyecto de Apoyo Nutricional",
+          "importe": 14720.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9JnYH%2BgtPBLgL1BHd3qjQA%3D%3D"
+        },
+        {
+          "expediente": "101/2021-2022-1S",
+          "objeto": "Servicio de preparado y distribución de comidas. Proyecto de Apoyo Nutricional",
+          "importe": 14480.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=4Q2DjvcJKXmP66GS%2BONYvQ%3D%3D"
         }
       ]
     },
@@ -134,6 +173,110 @@
       ]
     },
     {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "ALCOZAP DISTRIBUCIONES, S.L.",
+      "organo": "Presidencia de la Diputación Provincial de Alicante",
+      "num_contratos": 3,
+      "importe_total": 42058.5,
+      "importe_medio": 14019.5,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 42,058€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "DIPU/2026/19/0072",
+          "objeto": "Adquisición de productos alimenticios (ave y conejo) para los residentes del Centro Hogar Provincial Antonio F. Valenzuela.",
+          "importe": 14503.5,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Lj4YVeCOQf3E6P%2FuLemXRw%3D%3D"
+        },
+        {
+          "expediente": "DIPU/2026/19/0004",
+          "objeto": "Adquisición de productos alimenticios (huevos) para los residentes del Hogar Provincial Antonio Fernández Valenzuela.",
+          "importe": 12730.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=V2R%2FV7UTurpWhbmkna2nXQ%3D%3D"
+        },
+        {
+          "expediente": "DIPU/2026/19/0001",
+          "objeto": "Adquisición de productos alimenticios (carne fresca) para los residentes del Hogar Provincial Antonio Fernández Valenzuela.",
+          "importe": 14825.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=5hW7HiU2xW%2BkU02jNGj1Fw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "LA VELOZ, S.A.",
+      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
+      "num_contratos": 3,
+      "importe_total": 41508.0,
+      "importe_medio": 13836.0,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 41,508€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/038860",
+          "objeto": "TO - Transporte escolar ruta 364 IES.- Nuño Gomez/Talavera de la Reina (IES)",
+          "importe": 13630.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Che3acKcrsO8ebB%2FXTwy0A%3D%3D"
+        },
+        {
+          "expediente": "2026/038762",
+          "objeto": "TO - Transporte escolar ruta 359 IES. Buenaventura/Talavera de la Reina IES",
+          "importe": 13872.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Su21A0qE%2BqXIGlsa0Wad%2Bw%3D%3D"
+        },
+        {
+          "expediente": "2026/038980",
+          "objeto": "TO - Transporte escolar ruta 360 IES. Real de San Vicente - Talavera de la Reina",
+          "importe": 14006.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=8q1sx814o8PI8aL3PRS10Q%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "DISHOSPAC SL",
+      "organo": "Paradores de Turismo de España, S.M.E., S.A.",
+      "num_contratos": 4,
+      "importe_total": 500742.0,
+      "umbral_legal": 140000,
+      "descripcion": "4 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 500,742€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "PESCADOS RULA AVILES PT CANGAS 10 09 16 09 26",
+          "objeto": "Acuerdo marco Suministro de pescados frescos con el distintivo pescado de confianza de la Rula de Avilés con destino al Parador de Turismo de Cangas de Onis desde el 10 de septiembre al 16 de septiembre de 2026.",
+          "importe": 123101.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=GJssUxkO0JPCfVQHDepjGQ%3D%3D"
+        },
+        {
+          "expediente": "PESCADOS RULA AVILES PT CANGAS 17 09 23 09 26",
+          "objeto": "Acuerdo marco suministro de pescados frescos con el distintivo pescado de confianza de la Rula de Avilés con destino al Parador de Turismo de Cangas de Onis, (Asturias) desde el 17 de septiembre al 23 de septiembre de 2026.",
+          "importe": 125455.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2Fb68w%2F6Z%2BK2FQ%2FlhRK79lA%3D%3D"
+        },
+        {
+          "expediente": "PESCADOS RULA DE AVILES PT CANGAS 27 08 02 09 26",
+          "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 27 de agosto al 02 de septiembre de 2026.",
+          "importe": 129085.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=CWUQ0YrRd84adbH3CysQuQ%3D%3D"
+        },
+        {
+          "expediente": "PESCADOS RULA DE AVILES PT CANGAS 03 09 09 09 26",
+          "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 03 de septiembre al 09 de septiembre de 2026.",
+          "importe": 123101.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=LV95W00KkYzgL1BHd3qjQA%3D%3D"
+        }
+      ]
+    },
+    {
       "tipo": "umbral_europeo",
       "severidad": "alta",
       "emoji": "🔴",
@@ -179,15 +322,28 @@
       "descripcion": "CORECOR S.L. gana 10 de 10 contratos (100%) del Alcaldía del Ayuntamiento de Corduente, 73,806€ de 73,806€ (100%). ¿Proveedor único justificado o cautividad?"
     },
     {
+      "tipo": "concentracion",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "adjudicatario": "ARU OBRAS Y SERVICIOS SOCIEDAD LIMITADA",
+      "organo": "Alcaldía del Ayuntamiento de Pétrola",
+      "contratos_proveedor": 5,
+      "contratos_totales": 6,
+      "porcentaje_contratos": 83.3,
+      "importe_proveedor": 62843.09,
+      "porcentaje_importe": 92.8,
+      "descripcion": "ARU OBRAS Y SERVICIOS SOCIEDAD LIMITADA gana 5 de 6 contratos (83%) del Alcaldía del Ayuntamiento de Pétrola, 62,843€ de 67,683€ (93%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
       "tipo": "patron_umbral",
       "severidad": "alta",
       "emoji": "🔴",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real",
       "contratos_en_franja": 17,
-      "contratos_totales": 22,
-      "porcentaje": 77.3,
+      "contratos_totales": 25,
+      "porcentaje": 68.0,
       "proveedores_distintos": 13,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 17 de 22 menores (77%) entre 12,000-15,000€. 13 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 17 de 25 menores (68%) entre 12,000-15,000€. 13 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "umbral_europeo",
@@ -246,32 +402,6 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
-      "adjudicatario": "DISHOSPAC SL",
-      "organo": "Paradores de Turismo de España, S.M.E., S.A.",
-      "num_contratos": 2,
-      "importe_total": 248556.0,
-      "umbral_legal": 140000,
-      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 248,556€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
-      "contratos": [
-        {
-          "expediente": "PESCADOS RULA AVILES PT CANGAS 10 09 16 09 26",
-          "objeto": "Acuerdo marco Suministro de pescados frescos con el distintivo pescado de confianza de la Rula de Avilés con destino al Parador de Turismo de Cangas de Onis desde el 10 de septiembre al 16 de septiembre de 2026.",
-          "importe": 123101.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=GJssUxkO0JPCfVQHDepjGQ%3D%3D"
-        },
-        {
-          "expediente": "PESCADOS RULA AVILES PT CANGAS 17 09 23 09 26",
-          "objeto": "Acuerdo marco suministro de pescados frescos con el distintivo pescado de confianza de la Rula de Avilés con destino al Parador de Turismo de Cangas de Onis, (Asturias) desde el 17 de septiembre al 23 de septiembre de 2026.",
-          "importe": 125455.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2Fb68w%2F6Z%2BK2FQ%2FlhRK79lA%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "umbral_europeo",
-      "severidad": "media",
-      "emoji": "🟡",
-      "score": 4,
       "adjudicatario": "SUMINISTROS SANITARIOS DE EXTREMADURA SL",
       "organo": "Dirección General de Planificación Económica",
       "num_contratos": 2,
@@ -290,6 +420,32 @@
           "objeto": "Adquisición de 30 equipos índice tobillo brazo para los centros de atención primaria consultorios locales y centros de salud del servicio extremeño de salud, mediante contrato basado en el lote 9 del acuerdo marco mediante 10 lotes, para el suministro, instalación y puesta en marcha de diverso equipamiento electromédico para el servicio extremeño de salud expte. CS/99/1125041366/25/AM",
           "importe": 119790.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XqvzLsN4gjf5Rey58Yagpg%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "Europea de Gestión de Residuos, S.L.",
+      "organo": "Consejería de Área de Medio Ambiente, Clima, Energía y Conocimiento del Cabildo de Gran Canaria",
+      "num_contratos": 2,
+      "importe_total": 235496.3,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 235,496€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "XP0456/2026",
+          "objeto": "Gestión externa urgente de lixiviado del Ecoparque GC Sur por riesgo de desbordamiento de la balsa",
+          "importe": 113018.75,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=7mHdg2q%2FqAeExvMJXBMHHQ%3D%3D"
+        },
+        {
+          "expediente": "XP0648/2026",
+          "objeto": "Gestión externa urgente de lixiviado del Ecoparque GC Sur por riesgo de desbordamiento de la balsa ocasionado por las labores de extinción del incendio del 7-8-2026 en el Ecoparque",
+          "importe": 122477.55,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=l5PdMMxV%2B0qGCFcHcNGIlQ%3D%3D"
         }
       ]
     },
@@ -398,26 +554,117 @@
       ]
     },
     {
-      "tipo": "patron_umbral",
+      "tipo": "umbral_europeo",
       "severidad": "media",
       "emoji": "🟡",
-      "organo": "Alcaldía del Ayuntamiento de Breña Baja",
-      "contratos_en_franja": 6,
-      "contratos_totales": 15,
-      "porcentaje": 40.0,
-      "proveedores_distintos": 6,
-      "descripcion": "Alcaldía del Ayuntamiento de Breña Baja: 6 de 15 menores (40%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
+      "score": 4,
+      "adjudicatario": "Moeve, S.A.",
+      "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
+      "num_contratos": 2,
+      "importe_total": 233263.04,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 233,263€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "CBA3939/2026",
+          "objeto": "Suministro Basado En El Acuerdo Marco 21/2023 De Combustibles En Estaciones De Servicio Para La Confederación Hidrográfica Del Ebro Lote 1 Península, Compra Directa, Moeve: 1/12/2026 Al 30/11/2028 (Ministerio Para La Transición Ecológica Y El Reto Demográfico-Confederacion Hidrografica Del Ebro)",
+          "importe": 115263.04,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=BAVJWsxgjLzL1rX3q%2FMAPA%3D%3D"
+        },
+        {
+          "expediente": "CBA3730/2026",
+          "objeto": "Adquisición De Combustibles De Automoción Para Vehículos De La Guardia Civil Destinados En Melilla - Lote 5, Durante El Periodo Del 01/12/2026 Al 30/11/2027 (Ministerio Del Interior -Servicio De Contratación)",
+          "importe": 118000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Fk0%2FYSIyOa%2BIzo3LHNPGcQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "HIDEMAR, S.A.",
+      "organo": "Dirección General de Planificación Económica",
+      "num_contratos": 2,
+      "importe_total": 232392.6,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 232,393€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "CS/99/1126053310/26/PNSP",
+          "objeto": "Adquisición de 142 Camillas Hidráulicas para el Servicio Extremeño de Salud",
+          "importe": 113401.2,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=rBohnWKU2f5xseVhcqrkhw%3D%3D"
+        },
+        {
+          "expediente": "CS/99/1126053430/26/PNSP",
+          "objeto": "Adquisición de 149 Camillas Hidráulicas para el Servicio Extremeño de Salud",
+          "importe": 118991.4,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=fYKAUresl567JOCXkOhcDg%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "SUR DE IMPORTACIÓN Y EXPORTACIÓN DE NAVALEZ DE CADIZ, SL",
+      "organo": "Intendente de Rota",
+      "num_contratos": 2,
+      "importe_total": 230000.0,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 230,000€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "2026/AR46U/00001164E",
+          "objeto": "CB5 (AM 1491_24_L1) AM Mantenimiento integral de bombas contraincendios, lastre y refrigeración en buques de la Armada. L1: Mantenimiento integral bombas buques Galicia, Castilla y JCI.",
+          "importe": 115000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=UREuovOMjGLVGIpKDxgsAQ%3D%3D"
+        },
+        {
+          "expediente": "2026/AR46U/00001170E",
+          "objeto": "CB5 (AM 1491_24_L2) AM Mantenimiento integral de bombas contraincendios, lastre y refrigeración en buques de la Armada. L2: Mantenimiento integral bombas fragatas.",
+          "importe": 115000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9GMIbw76bpQkJPJS%2BPS9vg%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "concentracion",
+      "severidad": "media",
+      "emoji": "🟡",
+      "adjudicatario": "IBERIA LAE SA",
+      "organo": "Secretaría General de la Fundación Instituto Iberoamericano de Mercados de Valores",
+      "contratos_proveedor": 4,
+      "contratos_totales": 5,
+      "porcentaje_contratos": 80.0,
+      "importe_proveedor": 17618.9,
+      "porcentaje_importe": 12.7,
+      "descripcion": "IBERIA LAE SA gana 4 de 5 contratos (80%) del Secretaría General de la Fundación Instituto Iberoamericano de Mercados de Valores, 17,619€ de 138,619€ (13%). ¿Proveedor único justificado o cautividad?"
     },
     {
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
-      "organo": "Alcaldía del Ayuntamiento de Güímar",
+      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
+      "contratos_en_franja": 19,
+      "contratos_totales": 33,
+      "porcentaje": 57.6,
+      "proveedores_distintos": 16,
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 19 de 33 menores (58%) entre 12,000-15,000€. 16 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial de la Comunidad Autónoma de Canarias",
       "contratos_en_franja": 5,
-      "contratos_totales": 12,
-      "porcentaje": 41.7,
-      "proveedores_distintos": 5,
-      "descripcion": "Alcaldía del Ayuntamiento de Güímar: 5 de 12 menores (42%) entre 12,000-15,000€. 5 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_totales": 10,
+      "porcentaje": 50.0,
+      "proveedores_distintos": 4,
+      "descripcion": "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial de la Comunidad Autónoma de Canarias: 5 de 10 menores (50%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
