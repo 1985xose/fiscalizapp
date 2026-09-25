@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generado": "2026-09-24T10:57:42",
+    "generado": "2026-09-25T11:04:23",
     "version": "3.0",
-    "contratos_analizados": 61792,
-    "menores": 28286,
+    "contratos_analizados": 67913,
+    "menores": 34407,
     "licitaciones": 33506,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 28,
+    "total_flags": 34,
     "por_tipo": {
-      "fraccionamiento": 6,
-      "concentracion": 3,
-      "patron_umbral": 6,
+      "fraccionamiento": 9,
+      "concentracion": 2,
+      "patron_umbral": 10,
       "omnipresente": 0,
       "negociado_reiterado": 0,
       "umbral_europeo": 13
     },
-    "severidad_alta": 11,
-    "severidad_media": 17
+    "severidad_alta": 12,
+    "severidad_media": 22
   },
   "flags": [
     {
@@ -144,31 +144,31 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 8,
-      "adjudicatario": "Molina Bus S.L.",
-      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real",
+      "adjudicatario": "VIAMAR AUTOCARES S.L",
+      "organo": "Dirección Provincial de Educación en Salamanca",
       "num_contratos": 3,
-      "importe_total": 43784.0,
-      "importe_medio": 14594.67,
+      "importe_total": 37202.0,
+      "importe_medio": 12400.67,
       "umbral_legal": 15000,
-      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 43,784€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 37,202€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
       "contratos": [
         {
-          "expediente": "2026/039268",
-          "objeto": "CR- Contrato menor tte escolar ruta 13004778-C (taxi) 2026/27",
-          "importe": 14000.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=n20%2FAMYECOh%2FR5QFTlaM4A%3D%3D"
+          "expediente": "B2026/015586",
+          "objeto": "Contratación ruta 3702253 Curso 2026/2027",
+          "importe": 12529.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=2wee0PeWyHVJ8Trn0ZPzLw%3D%3D"
         },
         {
-          "expediente": "2026/039320",
-          "objeto": "CR-Contrato menor ruta tte escolar 1301224-C (bus)",
-          "importe": 14892.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=4bGjEZOkOgxSYrkJkLlFdw%3D%3D"
+          "expediente": "B2026/014742",
+          "objeto": "Contratación del servicio público de transporte escolar a centros educativos públicos, curso 2026/2027.",
+          "importe": 12353.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=0bXXE2UZeyAIYE3ZiZ%2BxmQ%3D%3D"
         },
         {
-          "expediente": "2026/039467",
-          "objeto": "CR-Contrato menor ruta tte escolar 13001224-S (bus)",
-          "importe": 14892.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=O8dldsGsMPYZDGvgaZEVxQ%3D%3D"
+          "expediente": "B2026/014700",
+          "objeto": "Contratación del servicio público de transporte escolar a centros educativos públicos, curso 2026/2027.",
+          "importe": 12320.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=s2FpOuPkof6P66GS%2BONYvQ%3D%3D"
         }
       ]
     },
@@ -235,6 +235,72 @@
           "objeto": "TO - Transporte escolar ruta 360 IES. Real de San Vicente - Talavera de la Reina",
           "importe": 14006.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=8q1sx814o8PI8aL3PRS10Q%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "iacobus via slu",
+      "organo": "Dirección Provincial de Educación en León",
+      "num_contratos": 3,
+      "importe_total": 39441.6,
+      "importe_medio": 13147.2,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 39,442€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "B2026/013756",
+          "objeto": "Ruta 2400745 Transporte escolar para el CEE Santa María Madre de la Iglesia",
+          "importe": 13186.8,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=wrM%2FqpApU2IzjChw4z%2FXvw%3D%3D"
+        },
+        {
+          "expediente": "B2026/013747",
+          "objeto": "Ruta 2400718 Transporte escolar para el CEIP Antonio Justel",
+          "importe": 13186.8,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Jk%2BTaD8dP87CfVQHDepjGQ%3D%3D"
+        },
+        {
+          "expediente": "B2026/013757",
+          "objeto": "Ruta 2400751 Transporte escolar para el CEE Nuestra Señora del Sagrado Corazón",
+          "importe": 13068.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=cWcWklsLYqDi0Kd8%2Brcp6w%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "LUIS PUENTE DE CABO",
+      "organo": "Dirección Provincial de Educación en León",
+      "num_contratos": 3,
+      "importe_total": 38215.0,
+      "importe_medio": 12738.33,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 38,215€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "B2026/013680",
+          "objeto": "Ruta 2400580 Transporte escolar para el CEIP Teleno",
+          "importe": 12063.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=11Z9zY3wLpQ%2FbjW6njtWLw%3D%3D"
+        },
+        {
+          "expediente": "B2026/013735",
+          "objeto": "Ruta 2400659 Transporte escolar para el CRA Valle del Duerna",
+          "importe": 13570.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=fGu7ey7rSoQwYTJJ03sHog%3D%3D"
+        },
+        {
+          "expediente": "B2026/013595",
+          "objeto": "Ruta 2400013 Transporte escolar para el CEIP Angel González Alvarez",
+          "importe": 12582.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=TvdnL9k8EgIS7pcxhTeWOg%3D%3D"
         }
       ]
     },
@@ -322,28 +388,54 @@
       "descripcion": "CORECOR S.L. gana 10 de 10 contratos (100%) del Alcaldía del Ayuntamiento de Corduente, 73,806€ de 73,806€ (100%). ¿Proveedor único justificado o cautividad?"
     },
     {
-      "tipo": "concentracion",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "adjudicatario": "ARU OBRAS Y SERVICIOS SOCIEDAD LIMITADA",
-      "organo": "Alcaldía del Ayuntamiento de Pétrola",
-      "contratos_proveedor": 5,
-      "contratos_totales": 6,
-      "porcentaje_contratos": 83.3,
-      "importe_proveedor": 62843.09,
-      "porcentaje_importe": 92.8,
-      "descripcion": "ARU OBRAS Y SERVICIOS SOCIEDAD LIMITADA gana 5 de 6 contratos (83%) del Alcaldía del Ayuntamiento de Pétrola, 62,843€ de 67,683€ (93%). ¿Proveedor único justificado o cautividad?"
-    },
-    {
       "tipo": "patron_umbral",
       "severidad": "alta",
       "emoji": "🔴",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real",
-      "contratos_en_franja": 17,
-      "contratos_totales": 25,
-      "porcentaje": 68.0,
-      "proveedores_distintos": 13,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 17 de 25 menores (68%) entre 12,000-15,000€. 13 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 25,
+      "contratos_totales": 39,
+      "porcentaje": 64.1,
+      "proveedores_distintos": 20,
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 25 de 39 menores (64%) entre 12,000-15,000€. 20 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 6,
+      "adjudicatario": "Molina Bus S.L.",
+      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real",
+      "num_contratos": 4,
+      "importe_total": 56034.0,
+      "importe_medio": 14008.5,
+      "umbral_legal": 15000,
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 56,034€ (supera el umbral de 15,000€ que obligaría a licitar).",
+      "contratos": [
+        {
+          "expediente": "2026/039268",
+          "objeto": "CR- Contrato menor tte escolar ruta 13004778-C (taxi) 2026/27",
+          "importe": 14000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=n20%2FAMYECOh%2FR5QFTlaM4A%3D%3D"
+        },
+        {
+          "expediente": "2026/039320",
+          "objeto": "CR-Contrato menor ruta tte escolar 1301224-C (bus)",
+          "importe": 14892.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=4bGjEZOkOgxSYrkJkLlFdw%3D%3D"
+        },
+        {
+          "expediente": "2026/039467",
+          "objeto": "CR-Contrato menor ruta tte escolar 13001224-S (bus)",
+          "importe": 14892.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=O8dldsGsMPYZDGvgaZEVxQ%3D%3D"
+        },
+        {
+          "expediente": "2026/039256",
+          "objeto": "CR-Contrato menor tte escolar ruta 13000815-A",
+          "importe": 12250.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=xDgLrX1kmT%2FN3k3tjedSGw%3D%3D"
+        }
+      ]
     },
     {
       "tipo": "umbral_europeo",
@@ -635,25 +727,25 @@
       "tipo": "concentracion",
       "severidad": "media",
       "emoji": "🟡",
-      "adjudicatario": "IBERIA LAE SA",
-      "organo": "Secretaría General de la Fundación Instituto Iberoamericano de Mercados de Valores",
-      "contratos_proveedor": 4,
-      "contratos_totales": 5,
-      "porcentaje_contratos": 80.0,
-      "importe_proveedor": 17618.9,
-      "porcentaje_importe": 12.7,
-      "descripcion": "IBERIA LAE SA gana 4 de 5 contratos (80%) del Secretaría General de la Fundación Instituto Iberoamericano de Mercados de Valores, 17,619€ de 138,619€ (13%). ¿Proveedor único justificado o cautividad?"
+      "adjudicatario": "VIAJES 5 OCEANOS CANARIAS S.L.",
+      "organo": "Consejería Insular de Investigación, Innovación y Desarrollo del Cabildo Insular de Tenerife",
+      "contratos_proveedor": 7,
+      "contratos_totales": 8,
+      "porcentaje_contratos": 87.5,
+      "importe_proveedor": 2589.82,
+      "porcentaje_importe": 32.7,
+      "descripcion": "VIAJES 5 OCEANOS CANARIAS S.L. gana 7 de 8 contratos (88%) del Consejería Insular de Investigación, Innovación y Desarrollo del Cabildo Insular de Tenerife, 2,590€ de 7,925€ (33%). ¿Proveedor único justificado o cautividad?"
     },
     {
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
-      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
-      "contratos_en_franja": 19,
-      "contratos_totales": 33,
-      "porcentaje": 57.6,
-      "proveedores_distintos": 16,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 19 de 33 menores (58%) entre 12,000-15,000€. 16 proveedores. Estadísticamente improbable sin intervención."
+      "organo": "Alcaldía del Ayuntamiento de Fuencaliente de la Palma",
+      "contratos_en_franja": 7,
+      "contratos_totales": 14,
+      "porcentaje": 50.0,
+      "proveedores_distintos": 6,
+      "descripcion": "Alcaldía del Ayuntamiento de Fuencaliente de la Palma: 7 de 14 menores (50%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -661,10 +753,10 @@
       "emoji": "🟡",
       "organo": "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial de la Comunidad Autónoma de Canarias",
       "contratos_en_franja": 5,
-      "contratos_totales": 10,
-      "porcentaje": 50.0,
+      "contratos_totales": 11,
+      "porcentaje": 45.5,
       "proveedores_distintos": 4,
-      "descripcion": "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial de la Comunidad Autónoma de Canarias: 5 de 10 menores (50%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial de la Comunidad Autónoma de Canarias: 5 de 11 menores (45%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -681,12 +773,45 @@
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
-      "organo": "Alcaldía del Ayuntamiento de Fuencaliente de la Palma",
-      "contratos_en_franja": 6,
-      "contratos_totales": 13,
-      "porcentaje": 46.2,
-      "proveedores_distintos": 6,
-      "descripcion": "Alcaldía del Ayuntamiento de Fuencaliente de la Palma: 6 de 13 menores (46%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
+      "organo": "Consejería del Área de Hacienda y Contratación del Cabildo Insular de Lanzarote y La Graciosa",
+      "contratos_en_franja": 4,
+      "contratos_totales": 10,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 4,
+      "descripcion": "Consejería del Área de Hacienda y Contratación del Cabildo Insular de Lanzarote y La Graciosa: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
+      "contratos_en_franja": 28,
+      "contratos_totales": 50,
+      "porcentaje": 56.0,
+      "proveedores_distintos": 25,
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 28 de 50 menores (56%) entre 12,000-15,000€. 25 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Guadalajara",
+      "contratos_en_franja": 8,
+      "contratos_totales": 19,
+      "porcentaje": 42.1,
+      "proveedores_distintos": 7,
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Guadalajara: 8 de 19 menores (42%) entre 12,000-15,000€. 7 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Dirección General de Gestión Migratoria",
+      "contratos_en_franja": 4,
+      "contratos_totales": 10,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 4,
+      "descripcion": "Dirección General de Gestión Migratoria: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -698,6 +823,17 @@
       "porcentaje": 41.7,
       "proveedores_distintos": 5,
       "descripcion": "Presidencia del Consorcio del Agua de Lanzarote: 5 de 12 menores (42%) entre 12,000-15,000€. 5 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Alcaldía del Ayuntamiento de El Rosario",
+      "contratos_en_franja": 4,
+      "contratos_totales": 10,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 4,
+      "descripcion": "Alcaldía del Ayuntamiento de El Rosario: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
     }
   ]
 }
