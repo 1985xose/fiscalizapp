@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generado": "2026-09-25T10:44:32",
-    "total_menores": 34407,
-    "total_licitaciones": 33506,
+    "generado": "2026-09-26T10:27:06",
+    "total_menores": 35598,
+    "total_licitaciones": 33547,
     "rango": "202609-202609"
   },
   "ultimos_menores": [
@@ -1411,6 +1411,20 @@
       "procedimiento": "9"
     },
     {
+      "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20479917",
+      "actualizado": "2026-09-21T15:26:07.225+02:00",
+      "titulo": "Contrato de obras de renovación integral del sistema de riego del Campo de Golf de Nestares. T.M. de Campoo de Enmedio.",
+      "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=7yvKCmyujpYkJPJS%2BPS9vg%3D%3D",
+      "expediente": "EXP.26.0205.NE.CO",
+      "estado": "PUB",
+      "organo": "Sociedad Regional Cántabra de Promoción Turística S.A. CANTUR S.A.",
+      "nif_organo": "A06023761",
+      "objeto": "Contrato de obras de renovación integral del sistema de riego del Campo de Golf de Nestares. T.M. de Campoo de Enmedio.",
+      "presupuesto_base": 1005301.96,
+      "tipo_contrato": "3",
+      "procedimiento": "1"
+    },
+    {
       "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20234180",
       "actualizado": "2026-09-21T15:25:50.442+02:00",
       "titulo": "Suministro e instalación de mobiliario en las nuevas instalaciones del CEPA  Margarita Salas de Cabezón de la Sal.",
@@ -1632,20 +1646,6 @@
       "presupuesto_base": 8000.0,
       "tipo_contrato": "2",
       "procedimiento": "9"
-    },
-    {
-      "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20446756",
-      "actualizado": "2026-09-21T15:11:22.843+02:00",
-      "titulo": "Redacción del proyecto, dirección de obra y estudio de seguridad y salud que describa las instalaciones y espacios que constituirán la reforma interior del bloque quirúrgico nivel +3 del Hospital Universitario Son Llàtzer",
-      "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=e%2FnXoC0VLESIzo3LHNPGcQ%3D%3D",
-      "expediente": "HSLL333/2026",
-      "estado": "PUB",
-      "organo": "Servicio de Salud de las Illes Balears",
-      "nif_organo": "A04003754",
-      "objeto": "Redacción del proyecto, dirección de obra y estudio de seguridad y salud que describa las instalaciones y espacios que constituirán la reforma interior del bloque quirúrgico nivel +3 del Hospital Universitario Son Llàtzer",
-      "presupuesto_base": 179464.91,
-      "tipo_contrato": "2",
-      "procedimiento": "1"
     }
   ]
 }
