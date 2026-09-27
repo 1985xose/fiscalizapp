@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-09-26T10:32:24",
+    "generado": "2026-09-27T11:05:53",
     "version": "3.0",
-    "contratos_analizados": 69145,
-    "menores": 35598,
-    "licitaciones": 33547,
+    "contratos_analizados": 71030,
+    "menores": 35989,
+    "licitaciones": 35041,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 38,
+    "total_flags": 40,
     "por_tipo": {
       "fraccionamiento": 12,
       "concentracion": 2,
-      "patron_umbral": 11,
+      "patron_umbral": 12,
       "omnipresente": 0,
       "negociado_reiterado": 0,
-      "umbral_europeo": 13
+      "umbral_europeo": 14
     },
     "severidad_alta": 14,
-    "severidad_media": 24
+    "severidad_media": 26
   },
   "flags": [
     {
@@ -735,6 +735,32 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
+      "adjudicatario": "TRACTOMAQUINARIA MORENO, S.L.",
+      "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
+      "num_contratos": 2,
+      "importe_total": 247033.6,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 247,034€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "TSA0079529-093",
+          "objeto": "Contrato derivado del Acuerdo marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la gerencia provincial de Tragsa en Córdoba, incluida las obras con fondos en el marco del plan de recuperación, transformación y resiliencia–financiado por la unión europea",
+          "importe": 113933.6,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=TUy%2Bt%2Fvj6uFJ8Trn0ZPzLw%3D%3D"
+        },
+        {
+          "expediente": "TSA0079529-119",
+          "objeto": "Contrato derivado del Acuerdo marco para alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la gerencia provincial de Tragsa en Córdoba, incluida las obras con fondos en el marco del plan de recuperación, transformación y resiliencia–financiado por la unión europea",
+          "importe": 133100.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=aASj1LSEwrz%2B3JAijKO%2Bkg%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
       "adjudicatario": "ASAC COMUNICACIONES, SL",
       "organo": "Presidencia de la Diputación Provincial de Cáceres",
       "num_contratos": 2,
@@ -851,6 +877,28 @@
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
+      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
+      "contratos_en_franja": 28,
+      "contratos_totales": 51,
+      "porcentaje": 54.9,
+      "proveedores_distintos": 25,
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 28 de 51 menores (55%) entre 12,000-15,000€. 25 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Alcaldía del Ayuntamiento de Breña Baja",
+      "contratos_en_franja": 6,
+      "contratos_totales": 15,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 6,
+      "descripcion": "Alcaldía del Ayuntamiento de Breña Baja: 6 de 15 menores (40%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
       "organo": "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial de la Comunidad Autónoma de Canarias",
       "contratos_en_franja": 5,
       "contratos_totales": 11,
@@ -890,17 +938,6 @@
       "porcentaje": 40.0,
       "proveedores_distintos": 4,
       "descripcion": "Consejería del Área de Hacienda y Contratación del Cabildo Insular de Lanzarote y La Graciosa: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
-      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
-      "contratos_en_franja": 28,
-      "contratos_totales": 50,
-      "porcentaje": 56.0,
-      "proveedores_distintos": 25,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 28 de 50 menores (56%) entre 12,000-15,000€. 25 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
