@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generado": "2026-10-01T11:58:59",
+    "generado": "2026-10-01T17:08:28",
     "version": "3.0",
-    "contratos_analizados": 0,
-    "menores": 0,
+    "contratos_analizados": 46562,
+    "menores": 46562,
     "licitaciones": 0,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
@@ -15,17 +15,710 @@
     ]
   },
   "stats": {
-    "total_flags": 0,
+    "total_flags": 28,
     "por_tipo": {
-      "fraccionamiento": 0,
-      "concentracion": 0,
-      "patron_umbral": 0,
+      "fraccionamiento": 16,
+      "concentracion": 1,
+      "patron_umbral": 11,
       "omnipresente": 0,
       "negociado_reiterado": 0,
       "umbral_europeo": 0
     },
-    "severidad_alta": 0,
-    "severidad_media": 0
+    "severidad_alta": 16,
+    "severidad_media": 12
   },
-  "flags": []
+  "flags": [
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 12,
+      "adjudicatario": "AUTOCARES MIGALLON, SL",
+      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real",
+      "num_contratos": 5,
+      "importe_total": 74673.78,
+      "importe_medio": 14934.76,
+      "umbral_legal": 15000,
+      "descripcion": "5 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 74,674€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/039271",
+          "objeto": "CR- Contrato menor tte escolar ruta 13010948-B (taxi) 2026/27",
+          "importe": 14910.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=NcRNwjsTgjS2gkLQ8TeYKA%3D%3D"
+        },
+        {
+          "expediente": "2026/039779",
+          "objeto": "Ruta 13004778-B Valdepeñas-Bolaños de Calatrava",
+          "importe": 14934.72,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SLe%2BoEWDKrtVYjgxA4nMUw%3D%3D"
+        },
+        {
+          "expediente": "2026/039321",
+          "objeto": "CR-Contrato menor ruta tte escolar 13010948-G (bus)",
+          "importe": 14910.06,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=JjJFhra6D5kkJPJS%2BPS9vg%3D%3D"
+        },
+        {
+          "expediente": "2026/039187",
+          "objeto": "CR-Contrato menor ruta tte. escolar 13010948-D",
+          "importe": 14959.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Dm1IVbOoG4keIBJRHQiPkQ%3D%3D"
+        },
+        {
+          "expediente": "2026/039261",
+          "objeto": "CR- Contrato menor- tte escolar ruta 13003336-C (Bus) 2026/27",
+          "importe": 14960.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=FJRGlen3x25rSd8H4b2soA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 9,
+      "adjudicatario": "MEDISCAN EQUIPAMIENTOS MEDICOS, S.L.",
+      "organo": "Gerencia de la Fundación para el Fomento de la Investigación Sanitaria y Biomédica de la Comunitat Valenciana (FISABIO)",
+      "num_contratos": 4,
+      "importe_total": 57983.2,
+      "importe_medio": 14495.8,
+      "umbral_legal": 15000,
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 57,983€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "CMENOR/2026/FISAB/0095",
+          "objeto": "Suministro de sistema mapa y onda de pulso pwa 24 horas",
+          "importe": 14495.8,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=T%2Fg8f2cGdVmIzo3LHNPGcQ%3D%3D"
+        },
+        {
+          "expediente": "CMENOR/2026/FISAB/0094",
+          "objeto": "Suministro de sistema mapa y onda de pulso pwa 24 horas",
+          "importe": 14495.8,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Drpx%2BvGujF1%2FP7lJ7Fu0SA%3D%3D"
+        },
+        {
+          "expediente": "CMENOR/2026/FISAB/0093",
+          "objeto": "Suministro de sistema mapa y onda de pulso pwa 24 horas",
+          "importe": 14495.8,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=j4in2pt1uiQ%2B1TMyIiZmzw%3D%3D"
+        },
+        {
+          "expediente": "CMENOR/2026/FISAB/0092",
+          "objeto": "Suministro de sistema mapa y onda de pulso pwa 24 horas",
+          "importe": 14495.8,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=oetXoRQqGcaFlFRHfEzEaw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 9,
+      "adjudicatario": "María Luz Poyatos Fernández",
+      "organo": "Alcaldía del Ayuntamiento de Solana del Pino",
+      "num_contratos": 4,
+      "importe_total": 58400.0,
+      "importe_medio": 14600.0,
+      "umbral_legal": 15000,
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 58,400€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "101/2021-2023-2S",
+          "objeto": "Servicio de preparado y distribución de comidas. Proyecto de Apoyo Nutricional",
+          "importe": 14720.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2BKkmJHka9CYzjChw4z%2FXvw%3D%3D"
+        },
+        {
+          "expediente": "101/2021-2023-1S",
+          "objeto": "Servicio de preparado y distribución de comidas. Proyecto de Apoyo Nutricional",
+          "importe": 14480.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2FjAr4Y5ZqmPI8aL3PRS10Q%3D%3D"
+        },
+        {
+          "expediente": "101/2021-2022-2S",
+          "objeto": "Servicio de preparado y distribución de comidas. Proyecto de Apoyo Nutricional",
+          "importe": 14720.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9JnYH%2BgtPBLgL1BHd3qjQA%3D%3D"
+        },
+        {
+          "expediente": "101/2021-2022-1S",
+          "objeto": "Servicio de preparado y distribución de comidas. Proyecto de Apoyo Nutricional",
+          "importe": 14480.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=4Q2DjvcJKXmP66GS%2BONYvQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "CH3 ALMERIA SLU",
+      "organo": "Jefatura de Intendencia de Asuntos Económicos Sur",
+      "num_contratos": 3,
+      "importe_total": 113184.01,
+      "importe_medio": 37728.0,
+      "umbral_legal": 40000,
+      "descripcion": "3 contratos menores de obras entre 32,000€ y 40,000€ del mismo proveedor al mismo órgano. Total: 113,184€ (supera el umbral de 40,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/ETSAE0226/00006691E",
+          "objeto": "CM Obra acondicionamiento zonas interiores del edificio E-077, Base Álvarez de Sotomayor (Almería)",
+          "importe": 35926.35,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VdorpSk4lX4IYE3ZiZ%2BxmQ%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0226/00006112E",
+          "objeto": "CM Obra adecuación aseos edificio E-127 Cía. Mando y Personal, Base Álvarez de Sotomayor (Viator - Almería)",
+          "importe": 39417.57,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=38iDlK%2Bes3yIzo3LHNPGcQ%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0226/00006421E",
+          "objeto": "CM Obra acondicionamiento zonas interiores Edificio nº 150, Base Álvarez de Sotomayor (Almería)",
+          "importe": 37840.09,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Oy8iYeiNYfczjChw4z%2FXvw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "SANTIAGO CASTAÑO FERNANDEZ",
+      "organo": "Dirección Provincial de Educación en Zamora",
+      "num_contratos": 3,
+      "importe_total": 38670.0,
+      "importe_medio": 12890.0,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 38,670€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "B2026/015138",
+          "objeto": "Transporte escolar de alumnos de enseñanza no universitaria en la Ruta Escolar 4900451 IES Claudio Moyano de Zamora",
+          "importe": 12000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=dn%2B9cWEXon6S81gZFETWmA%3D%3D"
+        },
+        {
+          "expediente": "B2026/014621",
+          "objeto": "Transporte escolar de alumnos de enseñanza no universitaria en la Ruta 4900222 con destino al CEIP \"Los Salados\" de Benavente (Zamora)",
+          "importe": 12600.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=tIl33VH%2FdEVSYrkJkLlFdw%3D%3D"
+        },
+        {
+          "expediente": "B2026/015451",
+          "objeto": "Transporte escolar de alumnos de enseñanza no universitaria en la Ruta 4900454 IES Los Sauces de Benavente (Zamora)",
+          "importe": 14070.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=0sU9I4wrQgh%2FR5QFTlaM4A%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "AUTOCARES ALCAZAR SL",
+      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real",
+      "num_contratos": 3,
+      "importe_total": 43857.28,
+      "importe_medio": 14619.09,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 43,857€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/039192",
+          "objeto": "CR-contrato menor ruta tte. escolar 13004080-B",
+          "importe": 14912.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=7uhVBUt1oDrVGIpKDxgsAQ%3D%3D"
+        },
+        {
+          "expediente": "2026/039253",
+          "objeto": "CR-Contrato menor tte escolar ruta 13000219-F",
+          "importe": 14945.28,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Cqm8fUvYSkZVkTabT%2FRM8A%3D%3D"
+        },
+        {
+          "expediente": "2026/039254",
+          "objeto": "CR-Contrato menor tte escolar ruta 13000220-D",
+          "importe": 14000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Ojdaftsyw%2B87u6%2B%2FR7DUoA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "INOX FORJA MARTINEZ TALAYA",
+      "organo": "Alcaldia del Ayuntamiento de Fuensanta",
+      "num_contratos": 3,
+      "importe_total": 40656.0,
+      "importe_medio": 13552.0,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 40,656€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "1644592F",
+          "objeto": "Contrato menor obras - presupuesto inoxforja martinez talaya para techo piscina",
+          "importe": 13552.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=q5tlHXWKbk2ExvMJXBMHHQ%3D%3D"
+        },
+        {
+          "expediente": "1646485K",
+          "objeto": "Contrato menor obras - Presupuesto presentado por INOX FORJA MARTINEZ TALAYA para techumbre bar piscina por importe de 13.552,00 €",
+          "importe": 13552.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Z%2FfH9QExk%2B%2FVGIpKDxgsAQ%3D%3D"
+        },
+        {
+          "expediente": "1646482F",
+          "objeto": "Contrato menor obras - Presupuesto presentado por INOX FORJA MARTINEZ TALAYA para vallado piscina por importe de 1.753,29€",
+          "importe": 13552.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=k83wAsZ9QfKFlFRHfEzEaw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "VIAMAR AUTOCARES S.L",
+      "organo": "Dirección Provincial de Educación en Salamanca",
+      "num_contratos": 3,
+      "importe_total": 37202.0,
+      "importe_medio": 12400.67,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 37,202€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "B2026/015586",
+          "objeto": "Contratación ruta 3702253 Curso 2026/2027",
+          "importe": 12529.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=2wee0PeWyHVJ8Trn0ZPzLw%3D%3D"
+        },
+        {
+          "expediente": "B2026/014742",
+          "objeto": "Contratación del servicio público de transporte escolar a centros educativos públicos, curso 2026/2027.",
+          "importe": 12353.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=0bXXE2UZeyAIYE3ZiZ%2BxmQ%3D%3D"
+        },
+        {
+          "expediente": "B2026/014700",
+          "objeto": "Contratación del servicio público de transporte escolar a centros educativos públicos, curso 2026/2027.",
+          "importe": 12320.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=s2FpOuPkof6P66GS%2BONYvQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "ALCOZAP DISTRIBUCIONES, S.L.",
+      "organo": "Presidencia de la Diputación Provincial de Alicante",
+      "num_contratos": 3,
+      "importe_total": 42058.5,
+      "importe_medio": 14019.5,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 42,058€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "DIPU/2026/19/0072",
+          "objeto": "Adquisición de productos alimenticios (ave y conejo) para los residentes del Centro Hogar Provincial Antonio F. Valenzuela.",
+          "importe": 14503.5,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Lj4YVeCOQf3E6P%2FuLemXRw%3D%3D"
+        },
+        {
+          "expediente": "DIPU/2026/19/0004",
+          "objeto": "Adquisición de productos alimenticios (huevos) para los residentes del Hogar Provincial Antonio Fernández Valenzuela.",
+          "importe": 12730.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=V2R%2FV7UTurpWhbmkna2nXQ%3D%3D"
+        },
+        {
+          "expediente": "DIPU/2026/19/0001",
+          "objeto": "Adquisición de productos alimenticios (carne fresca) para los residentes del Hogar Provincial Antonio Fernández Valenzuela.",
+          "importe": 14825.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=5hW7HiU2xW%2BkU02jNGj1Fw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "LA VELOZ, S.A.",
+      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
+      "num_contratos": 3,
+      "importe_total": 41508.0,
+      "importe_medio": 13836.0,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 41,508€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/038860",
+          "objeto": "TO - Transporte escolar ruta 364 IES.- Nuño Gomez/Talavera de la Reina (IES)",
+          "importe": 13630.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Che3acKcrsO8ebB%2FXTwy0A%3D%3D"
+        },
+        {
+          "expediente": "2026/038762",
+          "objeto": "TO - Transporte escolar ruta 359 IES. Buenaventura/Talavera de la Reina IES",
+          "importe": 13872.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Su21A0qE%2BqXIGlsa0Wad%2Bw%3D%3D"
+        },
+        {
+          "expediente": "2026/038980",
+          "objeto": "TO - Transporte escolar ruta 360 IES. Real de San Vicente - Talavera de la Reina",
+          "importe": 14006.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=8q1sx814o8PI8aL3PRS10Q%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "PC TENERIFE SERVICE S.L.",
+      "organo": "Rectorado de la Universidad de La Laguna",
+      "num_contratos": 3,
+      "importe_total": 44114.31,
+      "importe_medio": 14704.77,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 44,114€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/MEN0000378",
+          "objeto": "El presente contrato tiene por objeto justificar la necesidad de adquirir veinte (20) ordenadores portátiles destinados a su cesión temporal, en régimen de préstamo, a estudiantes matriculados en primer curso de titulaciones oficiales de grado de la Universidad de La Laguna que acrediten insuficiencia de recursos económicos y carezcan de un equipo informático adecuado para el seguimiento de sus estudios universitarios.",
+          "importe": 14453.56,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=e09sNjiZXL9Vq4S9zvaQpQ%3D%3D"
+        },
+        {
+          "expediente": "2026/MEN0000391",
+          "objeto": "La actuación consiste en la compra y adquisición de 15 ordenadores de sobremesa Qi Slim, que serán destinados a la sala de informática de la Facultad de Farmacia, así como de 6 ordenadores portátiles Asus, que serán empleados en la biblioteca del centro.\nCon esta actuación se pretende renovar y reforzar la dotación tecnológica disponible para el estudiantado, facilitando el acceso a medios informáticos adecuados para el desarrollo de actividades docentes, prácticas, académicas y de apoyo al aprendizaje. Asimismo, la incorporación de estos equipos contribuirá a mejorar las condiciones de uso de los espacios destinados al estudio y a la formación, adaptándolos a las necesidades tecnológicas actuales.",
+          "importe": 14915.4,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=eJ0VCK1q5h6GCFcHcNGIlQ%3D%3D"
+        },
+        {
+          "expediente": "2026/MEN0000390",
+          "objeto": "Adquirir material informático de características especiales para docencia e investigación.",
+          "importe": 14745.35,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=QCM3iwd7zUh%2FR5QFTlaM4A%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "iacobus via slu",
+      "organo": "Dirección Provincial de Educación en León",
+      "num_contratos": 3,
+      "importe_total": 39441.6,
+      "importe_medio": 13147.2,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 39,442€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "B2026/013756",
+          "objeto": "Ruta 2400745 Transporte escolar para el CEE Santa María Madre de la Iglesia",
+          "importe": 13186.8,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=wrM%2FqpApU2IzjChw4z%2FXvw%3D%3D"
+        },
+        {
+          "expediente": "B2026/013747",
+          "objeto": "Ruta 2400718 Transporte escolar para el CEIP Antonio Justel",
+          "importe": 13186.8,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Jk%2BTaD8dP87CfVQHDepjGQ%3D%3D"
+        },
+        {
+          "expediente": "B2026/013757",
+          "objeto": "Ruta 2400751 Transporte escolar para el CEE Nuestra Señora del Sagrado Corazón",
+          "importe": 13068.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=cWcWklsLYqDi0Kd8%2Brcp6w%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "LUIS PUENTE DE CABO",
+      "organo": "Dirección Provincial de Educación en León",
+      "num_contratos": 3,
+      "importe_total": 38215.0,
+      "importe_medio": 12738.33,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 38,215€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "B2026/013680",
+          "objeto": "Ruta 2400580 Transporte escolar para el CEIP Teleno",
+          "importe": 12063.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=11Z9zY3wLpQ%2FbjW6njtWLw%3D%3D"
+        },
+        {
+          "expediente": "B2026/013735",
+          "objeto": "Ruta 2400659 Transporte escolar para el CRA Valle del Duerna",
+          "importe": 13570.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=fGu7ey7rSoQwYTJJ03sHog%3D%3D"
+        },
+        {
+          "expediente": "B2026/013595",
+          "objeto": "Ruta 2400013 Transporte escolar para el CEIP Angel González Alvarez",
+          "importe": 12582.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=TvdnL9k8EgIS7pcxhTeWOg%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "SONORIS EDUCATION SL",
+      "organo": "Junta de Gobierno Local del Ayuntamiento de Paracuellos de Jarama",
+      "num_contratos": 3,
+      "importe_total": 36499.98,
+      "importe_medio": 12166.66,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 36,500€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "13204/2026 PROFESOR PERCUSIÓN",
+          "objeto": "Contrato menor puente Profesor de Percusión  para la Escuela Municipal de Música 2026 (EXP: 13204/2026)",
+          "importe": 12199.99,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=peADyTgyL5XjHF5qKI4aaw%3D%3D"
+        },
+        {
+          "expediente": "13203/2026 PROFESOR DE PIANO",
+          "objeto": "Contrato menor puente Profesor de Piano para la Escuela de Música 2026  (EXP:13203/2026)",
+          "importe": 12199.99,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ODOml8CkoaPkY6rls5tG9A%3D%3D"
+        },
+        {
+          "expediente": "13202/2026 PROFESOR GUITARRA",
+          "objeto": "Contrato menor puente Profesor de Guitarra Clásica para la Escuela Municipal de Música 2026 (EXP:13202/2026)",
+          "importe": 12100.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=xNOuQ8oEceQtm4eBPtV6eQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "concentracion",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "adjudicatario": "CORECOR S.L.",
+      "organo": "Alcaldía del Ayuntamiento de Corduente",
+      "contratos_proveedor": 10,
+      "contratos_totales": 10,
+      "porcentaje_contratos": 100.0,
+      "importe_proveedor": 73806.07,
+      "porcentaje_importe": 100.0,
+      "descripcion": "CORECOR S.L. gana 10 de 10 contratos (100%) del Alcaldía del Ayuntamiento de Corduente, 73,806€ de 73,806€ (100%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real",
+      "contratos_en_franja": 31,
+      "contratos_totales": 50,
+      "porcentaje": 62.0,
+      "proveedores_distintos": 22,
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 31 de 50 menores (62%) entre 12,000-15,000€. 22 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 6,
+      "adjudicatario": "Molina Bus S.L.",
+      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real",
+      "num_contratos": 4,
+      "importe_total": 56034.0,
+      "importe_medio": 14008.5,
+      "umbral_legal": 15000,
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 56,034€ (supera el umbral de 15,000€ que obligaría a licitar).",
+      "contratos": [
+        {
+          "expediente": "2026/039268",
+          "objeto": "CR- Contrato menor tte escolar ruta 13004778-C (taxi) 2026/27",
+          "importe": 14000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=n20%2FAMYECOh%2FR5QFTlaM4A%3D%3D"
+        },
+        {
+          "expediente": "2026/039320",
+          "objeto": "CR-Contrato menor ruta tte escolar 1301224-C (bus)",
+          "importe": 14892.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=4bGjEZOkOgxSYrkJkLlFdw%3D%3D"
+        },
+        {
+          "expediente": "2026/039467",
+          "objeto": "CR-Contrato menor ruta tte escolar 13001224-S (bus)",
+          "importe": 14892.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=O8dldsGsMPYZDGvgaZEVxQ%3D%3D"
+        },
+        {
+          "expediente": "2026/039256",
+          "objeto": "CR-Contrato menor tte escolar ruta 13000815-A",
+          "importe": 12250.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=xDgLrX1kmT%2FN3k3tjedSGw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 5,
+      "adjudicatario": "OBRYSER SAN MARTIN SL",
+      "organo": "Presidente de la Mancomunidad Agua de Monegros",
+      "num_contratos": 3,
+      "importe_total": 112676.46,
+      "importe_medio": 37558.82,
+      "umbral_legal": 40000,
+      "descripcion": "3 contratos menores de obras entre 32,000€ y 40,000€ del mismo proveedor al mismo órgano. Total: 112,676€ (supera el umbral de 40,000€ que obligaría a licitar).",
+      "contratos": [
+        {
+          "expediente": "21/2026",
+          "objeto": "tubería vieja abastecimiento Monegrillo tramo Farlete",
+          "importe": 33081.39,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=KYvIHEd2XhWP66GS%2BONYvQ%3D%3D"
+        },
+        {
+          "expediente": "23/2026",
+          "objeto": "Contrato arreglo tubería vieja abastecimiento Monegrillo tramo Farlete",
+          "importe": 39990.5,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=jXNJDrMfrYuopEMYCmrbmw%3D%3D"
+        },
+        {
+          "expediente": "22/2026",
+          "objeto": "Reparación de avería de agua en arqueta de red de agua potable y construcción de tubería de saneamiento de diámetro 315mm",
+          "importe": 39604.57,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=mZ2kdPSwccXL1rX3q%2FMAPA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial de la Comunidad Autónoma de Canarias",
+      "contratos_en_franja": 5,
+      "contratos_totales": 12,
+      "porcentaje": 41.7,
+      "proveedores_distintos": 4,
+      "descripcion": "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial de la Comunidad Autónoma de Canarias: 5 de 12 menores (42%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Jefatura de Asuntos Económicos del CG de la Comandancia Gral. de Melilla",
+      "contratos_en_franja": 9,
+      "contratos_totales": 19,
+      "porcentaje": 47.4,
+      "proveedores_distintos": 9,
+      "descripcion": "Jefatura de Asuntos Económicos del CG de la Comandancia Gral. de Melilla: 9 de 19 menores (47%) entre 12,000-15,000€. 9 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Consejería del Área de Hacienda y Contratación del Cabildo Insular de Lanzarote y La Graciosa",
+      "contratos_en_franja": 4,
+      "contratos_totales": 10,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 4,
+      "descripcion": "Consejería del Área de Hacienda y Contratación del Cabildo Insular de Lanzarote y La Graciosa: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Alcaldía del Ayuntamiento de Sabiñánigo",
+      "contratos_en_franja": 4,
+      "contratos_totales": 10,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 4,
+      "descripcion": "Alcaldía del Ayuntamiento de Sabiñánigo: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
+      "contratos_en_franja": 28,
+      "contratos_totales": 52,
+      "porcentaje": 53.8,
+      "proveedores_distintos": 25,
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 28 de 52 menores (54%) entre 12,000-15,000€. 25 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Guadalajara",
+      "contratos_en_franja": 10,
+      "contratos_totales": 25,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 8,
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Guadalajara: 10 de 25 menores (40%) entre 12,000-15,000€. 8 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Alcaldía del Ayuntamiento de Carlet",
+      "contratos_en_franja": 6,
+      "contratos_totales": 15,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 6,
+      "descripcion": "Alcaldía del Ayuntamiento de Carlet: 6 de 15 menores (40%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Alcaldía del Ayuntamiento de Fuencaliente de la Palma",
+      "contratos_en_franja": 7,
+      "contratos_totales": 14,
+      "porcentaje": 50.0,
+      "proveedores_distintos": 6,
+      "descripcion": "Alcaldía del Ayuntamiento de Fuencaliente de la Palma: 7 de 14 menores (50%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Presidencia del Consorcio del Agua de Lanzarote",
+      "contratos_en_franja": 5,
+      "contratos_totales": 12,
+      "porcentaje": 41.7,
+      "proveedores_distintos": 5,
+      "descripcion": "Presidencia del Consorcio del Agua de Lanzarote: 5 de 12 menores (42%) entre 12,000-15,000€. 5 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Alcaldía del Ayuntamiento de El Rosario",
+      "contratos_en_franja": 4,
+      "contratos_totales": 10,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 4,
+      "descripcion": "Alcaldía del Ayuntamiento de El Rosario: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
+    }
+  ]
 }
