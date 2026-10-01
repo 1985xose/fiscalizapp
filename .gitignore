@@ -7,3 +7,6 @@ data/contratos/all_contracts.json
 *.pyc
 __pycache__/
 .DS_Store
+
+# Ficheros auxiliares de sesiones de trabajo (no van al repo)
+README.txt

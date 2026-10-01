@@ -5,10 +5,15 @@ on:
     - cron: '0 6 * * *'
   workflow_dispatch:
 
+# Si coinciden una ejecución programada y una manual, no se pisan
+concurrency:
+  group: contratos
+  cancel-in-progress: false
+
 jobs:
   update-contratos:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 50
     permissions:
       contents: write
     steps:
@@ -17,21 +22,38 @@ jobs:
         with:
           python-version: '3.12'
 
+      # El dataset completo no se commitea (es grande). Se conserva entre
+      # ejecuciones con la caché de Actions. La clave lleva el run_id para que
+      # cada ejecución guarde una caché nueva y restore-keys recupere la última.
+      - name: Restaurar histórico de contratos
+        uses: actions/cache/restore@v4
+        with:
+          path: data/contratos/all_contracts.json
+          key: placsp-historico-${{ github.run_id }}
+          restore-keys: |
+            placsp-historico-
+
       - name: Descargar contratos de la PLACSP
         run: python scripts/ingest_placsp.py
 
       - name: Detectar banderas rojas
         run: python scripts/detect_flags.py
 
+      - name: Guardar histórico de contratos
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/contratos/all_contracts.json
+          key: placsp-historico-${{ github.run_id }}
+
       - name: Commit y push
         run: |
           git config user.name "FiscalizApp Bot"
           git config user.email "bot@fiscalizapp.es"
-          
-          # Solo commitear los ficheros pequeños (resumen + flags)
-          # El all_contracts.json es grande y está en .gitignore
+
+          # Solo se commitean los ficheros pequeños (resumen + flags)
           git add data/contratos/resumen.json data/contratos/.initialized data/banderas-rojas/latest.json
-          
+
           if git diff --staged --quiet; then
             echo "Sin cambios nuevos"
           else
@@ -40,5 +62,6 @@ jobs:
             MEN=$(python3 -c "import json; print(json.load(open('data/contratos/resumen.json'))['meta']['total_menores'])" 2>/dev/null || echo "?")
             LIC=$(python3 -c "import json; print(json.load(open('data/contratos/resumen.json'))['meta']['total_licitaciones'])" 2>/dev/null || echo "?")
             git commit -m "🔄 ${FECHA}: ${LIC} licitaciones, ${MEN} menores, ${FLAGS} banderas rojas"
+            git pull --rebase origin main
             git push
           fi

@@ -267,6 +267,9 @@ function renderContratosSection() {
     if (fmeta.generado) {
       html += '<div style="font-family:var(--font-mono);font-size:11px;color:var(--text-muted);margin-bottom:1rem">';
       html += 'Actualizado: ' + fmeta.generado + ' · ' + (fmeta.menores||0) + ' menores · ' + (fmeta.licitaciones||0) + ' licitaciones · v' + (fmeta.version||"?");
+      if (resumenData && resumenData.meta && resumenData.meta.rango) {
+        html += ' · datos del ' + resumenData.meta.rango;
+      }
       html += '</div>';
     }
 
