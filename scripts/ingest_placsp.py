@@ -3,7 +3,8 @@
 FiscalizApp — Ingestor PLACSP v3
 
 - Contratos menores: sindicación 1143 (URL correcta del Mº Hacienda)
-- Lógica incremental: primera vez = 3 meses, después = mes actual
+- Ventana: primera vez = 3 meses, después = mes en curso + mes anterior
+- Si se descargan 0 contratos, sale con error y no sobrescribe nada
 - Solo commitea resumen (50 contratos) — datos completos procesados en memoria
 - Dataset completo se guarda en all_contracts.json (gitignored, >100MB)
 
@@ -26,11 +27,17 @@ DATA_DIR = os.path.join(os.path.dirname(SCRIPT_DIR), "data", "contratos")
 MARKER = os.path.join(DATA_DIR, ".initialized")
 MESES_INICIAL = 3
 
+MESES_VENTANA = 2  # mes en curso + mes anterior (el día 1 el ZIP del mes nuevo aún no existe)
+
 def get_months(n):
-    ms = set()
+    """Últimos n meses naturales en formato YYYYMM (aritmética de calendario, no días)."""
     now = datetime.now()
-    for i in range(n):
-        ms.add((now - timedelta(days=i*30)).strftime("%Y%m"))
+    y, m = now.year, now.month
+    ms = []
+    for _ in range(n):
+        ms.append(f"{y}{m:02d}")
+        m -= 1
+        if m == 0: y, m = y - 1, 12
     return sorted(ms)
 
 def fetch(url):
@@ -136,7 +143,7 @@ def main():
     os.makedirs(DATA_DIR, exist_ok=True)
     ts = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
     is_init = not os.path.exists(MARKER)
-    meses = get_months(MESES_INICIAL if is_init else 1)
+    meses = get_months(MESES_INICIAL if is_init else MESES_VENTANA)
 
     print("="*60)
     print(f"FiscalizApp Ingestor v3 — {ts}")
@@ -164,6 +171,11 @@ def main():
         for c in prev.get("licitaciones",[]):
             if (c.get("id") or c.get("expediente","")) not in ids_l: licitaciones.append(c)
         print(f"  Tras merge: {len(menores)} menores, {len(licitaciones)} licitaciones")
+
+    # Salvaguarda: si la PLACSP no devuelve nada, no machacar los datos publicados
+    if not menores and not licitaciones:
+        print("\n❌ 0 contratos descargados. No se sobrescribe el resumen publicado.")
+        raise SystemExit(1)
 
     # Dataset completo (gitignored, para merge futuro y para el detector)
     with open(prev_path, "w", encoding="utf-8") as f:
