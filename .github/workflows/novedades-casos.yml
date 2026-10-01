@@ -1,0 +1,39 @@
+name: Novedades de los casos de corrupción
+
+on:
+  schedule:
+    - cron: '0 7 * * 1'   # lunes a las 07:00 UTC
+  workflow_dispatch:
+
+concurrency:
+  group: novedades-casos
+  cancel-in-progress: false
+
+jobs:
+  novedades:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Buscar noticias por caso
+        run: python scripts/novedades_casos.py
+
+      - name: Commit y push
+        run: |
+          git config user.name "FiscalizApp Bot"
+          git config user.email "bot@fiscalizapp.es"
+          git add data/casos-novedades.json
+          if git diff --staged --quiet; then
+            echo "Sin cambios"
+          else
+            N=$(python3 -c "import json; m=json.load(open('data/casos-novedades.json'))['meta']; print(f\"{m['casos_con_noticias']} casos con noticias, {m['casos_a_revisar']} a revisar\")")
+            git commit -m "📰 $(date +%Y-%m-%d): ${N}"
+            git pull --rebase origin main
+            git push
+          fi

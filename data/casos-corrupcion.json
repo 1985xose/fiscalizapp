@@ -1,9 +1,9 @@
 {
   "meta": {
-    "version": "3.9.0",
+    "version": "3.10.0",
     "actualizado": "2026-05-20",
-    "total_casos": 58,
-    "nota": "Datos verificados con fuentes a mayo de 2026. FiscalizApp no es un medio: enlazamos fuentes para que cada ciudadano juzgue. v3.9.0: Bloque 8 - Diversificación partidista con PNV (De Miguel, mayor caso de corrupción de Euskadi) y CC (Las Teresitas, pelotazo urbanístico Tenerife).",
+    "total_casos": 54,
+    "nota": "Datos verificados con fuentes a mayo de 2026. FiscalizApp no es un medio: enlazamos fuentes para que cada ciudadano juzgue. v3.9.0: Bloque 8 - Diversificación partidista con PNV (De Miguel, mayor caso de corrupción de Euskadi) y CC (Las Teresitas, pelotazo urbanístico Tenerife). v3.10: fusionados 4 casos duplicados (Begoña Gómez, David Sánchez, Púnica, González Amador).",
     "chascarrillos": [
       "Si la corrupción fuera deporte olímpico, España iría sobrada de medallas.",
       "«No tengo nada que ocultar» — frase que precede al 90% de las imputaciones.",
@@ -143,26 +143,58 @@
       "protagonistas": [
         "Begoña Gómez",
         "Cristina Álvarez",
-        "Juan Carlos Barrabés"
+        "Juan Carlos Barrabés",
+        "Begoña Gómez Fernández (esposa del presidente Pedro Sánchez)",
+        "Joaquín Goyache (rector UCM)"
       ],
       "descripcion": "Juicio por jurado popular incoado. Investigada por malversación, tráfico de influencias, corrupción en los negocios y apropiación indebida. Cátedra en la Complutense, software con Indra/Telefónica, cartas de recomendación desde Moncloa. Su defensa intenta paralizar el procedimiento alegando recursos pendientes. Ha pedido la absolución por 'inexistencia absoluta de base indiciaria'.",
       "juzgado": "Juzgado de Instrucción nº 41 de Madrid",
       "juez": "Juan Carlos Peinado",
       "estado": "juicio_oral",
-      "importe_estimado": null,
+      "importe_estimado": 8400000,
       "fecha_inicio": "2024-04",
       "timeline": [
         {
           "fecha": "2024-04-16",
+          "evento": "El juez Juan Carlos Peinado admite a trámite la denuncia del sindicato ultraderechista Manos Limpias contra Begoña Gómez por tráfico de influencias y corrupción en los negocios"
+        },
+        {
+          "fecha": "2024-04-16",
           "evento": "Se abre investigación tras denuncia de Manos Limpias. Sánchez se da 5 días de reflexión"
+        },
+        {
+          "fecha": "2024-04-24",
+          "evento": "Pedro Sánchez anuncia que cancela su agenda durante 5 días para 'reflexionar' sobre si dimite. El 29 de abril decide 'seguir, con más fuerza'",
+          "fuente": "https://diariodecuyo.com.ar/cartasdellector/la-mujer-del-presidente-de-espana-se-niega-a-declarar-en-un-caso-de-corrupcion-1640414.html"
+        },
+        {
+          "fecha": "2024-07-05",
+          "evento": "PRIMERA DECLARACIÓN JUDICIAL: Begoña Gómez comparece ante el juez Peinado y se acoge al derecho a no declarar. Su abogado es el exministro del Interior Antonio Camacho"
         },
         {
           "fecha": "2024-07-05",
           "evento": "Begoña se acoge a su derecho a no declarar en su primera comparecencia como investigada"
         },
         {
+          "fecha": "2024-12-18",
+          "evento": "Tercera citación: declara sobre apropiación indebida e intrusismo profesional. Dos días después declara su asesora Cristina Álvarez"
+        },
+        {
+          "fecha": "2025-02-19",
+          "evento": "Juan Carlos Doadrio (exvicerrector UCM) declara en la Asamblea de Madrid que el rector Joaquín Goyache le dijo: 'Tenemos que crear una cátedra para Begoña Gómez, la esposa del presidente'"
+        },
+        {
           "fecha": "2025-07-07",
           "evento": "El juez Peinado propone juicio ante jurado popular por 4 delitos: malversación, tráfico de influencias, corrupción en los negocios y apropiación indebida"
+        },
+        {
+          "fecha": "2025-09-29",
+          "evento": "La IGAE (Hacienda) informa a la Fiscalía Europea de fraude de ley y discriminación en contratos por 8,4M€ adjudicados a la UTE de Barrabés por la empresa pública Red.es"
+        },
+        {
+          "fecha": "2026-04-13",
+          "evento": "EL JUEZ PEINADO PROCESA a Begoña Gómez por tráfico de influencias, corrupción en los negocios, malversación de caudales públicos y apropiación indebida. También procesados Cristina Álvarez y Juan Carlos Barrabés. Cierra la instrucción. Camino al juicio oral",
+          "fuente": "https://www.infobae.com/espana/2026/04/13/el-juez-peinado-procesa-a-begona-gomez-por-trafico-de-influencias-corrupcion-en-los-negocios-malversacion-de-caudales-publicos-y-apropiacion-indebida/"
         },
         {
           "fecha": "2026-05-14",
@@ -178,20 +210,42 @@
     },
     {
       "id": "david-sanchez",
-      "nombre": "Caso David Sánchez",
+      "nombre": "Caso David Sánchez / Diputación Badajoz",
       "partido": "PSOE",
-      "emoji": "🎵",
+      "emoji": "🎼",
       "protagonistas": [
-        "David Sánchez Pérez-Castejón",
-        "Miguel Ángel Gallardo"
+        "David Sánchez Pérez-Castejón / 'David Azagra' (hermano del presidente)",
+        "Miguel Ángel Gallardo (expresidente Diputación Badajoz, exsecretario general PSOE Extremadura)",
+        "Antonio Garrote Ledesma (exdiputado provincial, alcalde de Monesterio)",
+        "David Sánchez Pérez-Castejón"
       ],
-      "descripcion": "El hermano del presidente cobra 55.000€/año como coordinador de actividades musicales de la Diputación de Badajoz — un puesto creado a medida. Vive en Portugal pero el puesto exigía presencialidad. Gallardo, presidente de la Diputación, imputado por facilitar la contratación. JUICIO LA SEMANA QUE VIENE.",
+      "descripcion": "Investigación sobre la contratación irregular del hermano del presidente Pedro Sánchez por la Diputación de Badajoz, gobernada por el PSOE. En julio de 2017 David Sánchez fue contratado como Coordinador de Actividades de los Conservatorios de Música, plaza que según la investigación se habría creado a su medida. Pese a exigirse 'plena dedicación' en Badajoz, apenas tenía despacho físico y solicitó el teletrabajo desde Lisboa. Sus funciones derivaron al proyecto 'Ópera Joven' del presidente Gallardo. Primer familiar directo de un presidente del Gobierno que va a juicio por corrupción en democracia. Juicio oral programado para mayo-junio de 2026.",
       "juzgado": "Audiencia Provincial de Badajoz",
-      "juez": "Tribunal de enjuiciamiento",
+      "juez": "Beatriz Biedma (instrucción)",
       "estado": "juicio_oral",
       "importe_estimado": null,
-      "fecha_inicio": "2024-09",
+      "fecha_inicio": "2024",
       "timeline": [
+        {
+          "fecha": "2017-07",
+          "evento": "David Sánchez Pérez-Castejón es contratado por la Diputación de Badajoz (PSOE) como Coordinador de Actividades de los Conservatorios de Música. El contrato lo firma el diputado provincial Antonio Garrote Ledesma"
+        },
+        {
+          "fecha": "2017-07-26",
+          "evento": "Email revelador: David Sánchez escribe a un conocido 'me voy a trasladar a trabajar a Badajoz', dando por hecha su contratación antes de que se haya formalizado"
+        },
+        {
+          "fecha": "2022",
+          "evento": "El puesto es modificado para denominarse 'Jefe de la Oficina de Artes Escénicas'. David Sánchez teletrabaja desde Lisboa pese a la exigencia contractual de 'plena dedicación' en Badajoz"
+        },
+        {
+          "fecha": "2024",
+          "evento": "Manos Limpias presenta denuncia. Comienza la investigación judicial por prevaricación administrativa y tráfico de influencias"
+        },
+        {
+          "fecha": "2024-07",
+          "evento": "La UCO de la Guardia Civil registra la Diputación de Badajoz e incauta documentación del proceso de contratación"
+        },
         {
           "fecha": "2024-09-10",
           "evento": "Querella admitida por puesto de trabajo diseñado a medida para el hermano del presidente"
@@ -201,9 +255,23 @@
           "evento": "Registro del domicilio de David Sánchez en Elvas (Portugal)"
         },
         {
+          "fecha": "2025-04-25",
+          "evento": "David Sánchez declara como investigado en el Juzgado de Instrucción nº3 de Badajoz",
+          "fuente": "https://www.infobae.com/espana/2025/05/19/del-contrato-a-la-investigacion-claves-del-caso-del-hermano-de-pedro-sanchez/"
+        },
+        {
+          "fecha": "2025-11-24",
+          "evento": "La Audiencia Provincial de Badajoz desestima los recursos de los investigados. CONFIRMA la apertura de juicio oral por prevaricación administrativa y tráfico de influencias contra David Sánchez, Gallardo y otros 9 acusados",
+          "fuente": "https://www.cope.es/emisoras/extremadura/noticias/audiencia-badajoz-avala-investigacion-hermano-pedro-sanchez-ve-indicios-prevaricacion-20251124_3258504.html"
+        },
+        {
           "fecha": "2026-05-28",
           "evento": "JUICIO ORAL: vista fijada para 28-29 de mayo y 1-4 de junio de 2026 en la Audiencia de Badajoz",
           "fuente": "https://www.infobae.com/espana/2026/01/01/el-calendario-judicial-de-2026/"
+        },
+        {
+          "fecha": "2026-05-28",
+          "evento": "JUICIO ORAL programado para el 28 de mayo - 4 de junio de 2026 en la Audiencia Provincial de Badajoz. Primer familiar directo de un presidente del Gobierno juzgado por corrupción en democracia"
         }
       ]
     },
@@ -564,7 +632,9 @@
       "protagonistas": [
         "Francisco Granados",
         "David Marjaliza",
-        "Ignacio González"
+        "Ignacio González",
+        "6 exalcaldes del PP de la Comunidad de Madrid",
+        "Cofely (empresa adjudicataria)"
       ],
       "descripcion": "Trama de corrupción en municipios y comunidades autónomas del PP: Madrid, Murcia, León, Valencia. 250M€ en contratos amañados. 51 detenidos en 2014 — récord en España. La causa se dividió en 12 piezas separadas. Granados, mano derecha de Aguirre, ya fue condenado a 2 años por chivatazo. En enero de 2026 arrancó el juicio de una nueva pieza por contratos amañados a Waiter Music en festejos municipales: Fiscalía pide 6 años para Granados.",
       "juzgado": "Audiencia Nacional, Sala de lo Penal",
@@ -574,8 +644,20 @@
       "fecha_inicio": "2014-10",
       "timeline": [
         {
+          "fecha": "2014-06",
+          "evento": "OPERACIÓN PÚNICA: la Guardia Civil detiene a Francisco Granados (exnúmero 2 del PP de Madrid bajo Aguirre), David Marjaliza y decenas de cargos del PP madrileño"
+        },
+        {
           "fecha": "2014-10-27",
           "evento": "Detención de Granados y otras 50 personas (alcaldes, ediles, empresarios). Récord histórico de detenciones por corrupción en España"
+        },
+        {
+          "fecha": "2015",
+          "evento": "David Marjaliza, principal corruptor de la trama, decide colaborar con la Audiencia Nacional. Apunta a todos los implicados a cambio de rebaja de pena"
+        },
+        {
+          "fecha": "2017-2024",
+          "evento": "La macrocausa se ramifica en múltiples piezas. 13 acusados acuerdan reconocer hechos con la Fiscalía"
         },
         {
           "fecha": "2018-04-25",
@@ -584,6 +666,15 @@
         {
           "fecha": "2021-06-15",
           "evento": "Granados condenado a 2 años de prisión por usar el chivatazo de un guardia civil sobre la operación policial"
+        },
+        {
+          "fecha": "2025-12-22",
+          "evento": "SENTENCIA Audiencia Nacional pieza 6: 29 condenados de 37 juzgados. David Marjaliza a 8 años 2 meses (pena más alta). Condenas de prisión para 6 exalcaldes del PP: Daniel Ortiz Espejo (Móstoles), Agustín Juárez (Collado Villalba), Carlos Alberto Estrada (Moraleja de Enmedio) y otros. Cofely multada con 3,5M€",
+          "fuente": "https://www.elespanol.com/espana/tribunales/20251222/audiencia-nacional-condena-prision-exalcaldes-comunidad-madrid-trama-corrupcion-punica/1003744066688_0.html"
+        },
+        {
+          "fecha": "2026",
+          "evento": "Pendiente el juicio principal a Francisco Granados (líder de la trama) y otras piezas, incluida la caja B del PP de Aguirre"
         },
         {
           "fecha": "2026-01-19",
@@ -639,7 +730,9 @@
       "emoji": "💼",
       "protagonistas": [
         "Alberto González Amador",
-        "Isabel Díaz Ayuso"
+        "Isabel Díaz Ayuso",
+        "Carlos Neira (su abogado)",
+        "Daniel Alcázar (socio en Priviet Sportive)"
       ],
       "descripcion": "El novio de la presidenta de Madrid defraudó a Hacienda con facturas falsas. Primero lo confesó y pactó con el fiscal para evitar cárcel. Después cambió de versión y ahora dice que es inocente. Los inspectores fiscales concluyeron que usó 'facturas falsas y falseadas emitidas por empresas carentes de medios'. Procesamiento confirmado por la Audiencia de Madrid.",
       "juzgado": "Juzgado de Instrucción nº 19 de Madrid",
@@ -649,17 +742,50 @@
       "fecha_inicio": "2024-03",
       "timeline": [
         {
+          "fecha": "2020-2021",
+          "evento": "González Amador, a través de Priviet Sportive y Maxwell Cremona, factura por intermediación en venta de mascarillas durante la pandemia y obtiene unos 2M€. Hacienda detecta facturas falsas para reducir la base imponible"
+        },
+        {
+          "fecha": "2023",
+          "evento": "Inspección de Hacienda concluye fraude por 350.091€. La Fiscalía inicia diligencias previas por dos delitos fiscales"
+        },
+        {
           "fecha": "2023-10-15",
           "evento": "González Amador confiesa el doble fraude fiscal ante los inspectores de Hacienda a través de su abogado"
+        },
+        {
+          "fecha": "2024-02-02",
+          "evento": "El abogado Carlos Neira envía a la Fiscalía un correo proponiendo pacto de conformidad: González Amador reconocería dos delitos fiscales para evitar el juicio (la filtración de este correo costará el cargo al Fiscal General García Ortiz)"
+        },
+        {
+          "fecha": "2024-03",
+          "evento": "El caso salta a la opinión pública por filtraciones a la prensa. Ayuso habla de 'persecución política'"
         },
         {
           "fecha": "2024-06-15",
           "evento": "Pacta con Fiscalía y Abogacía del Estado: admite dos delitos a cambio de 8 meses de cárcel"
         },
         {
+          "fecha": "2025-08-28",
+          "evento": "La jueza Inmaculada Iglesias PROCESA a González Amador por dos delitos de fraude fiscal en concurso con falsedad documental"
+        },
+        {
+          "fecha": "2025-09-22",
+          "evento": "AUTO DE APERTURA DE JUICIO ORAL: la jueza Rodríguez Medel imputa adicionalmente pertenencia a organización criminal. Se enfrenta a casi 4 años de cárcel",
+          "fuente": "https://www.infobae.com/espana/2025/09/22/la-jueza-abre-juicio-oral-a-alberto-gonzalez-amador-novio-de-ayuso-por-presunto-fraude-fiscal-delito-continuado-contable-y-pertenencia-a-organizacion-criminal/"
+        },
+        {
           "fecha": "2025-11-07",
           "evento": "Audiencia de Madrid confirma procesamiento por dos delitos de fraude fiscal y falsificación documental. Rechaza todos los recursos de la defensa",
           "fuente": "https://www.eldiario.es/politica/audiencia-madrid-confirma-procesamiento-pareja-ayuso-caso-fraude-fiscal_1_12750060.html"
+        },
+        {
+          "fecha": "2025-11-13",
+          "evento": "El Tribunal Supremo CONDENA al Fiscal General García Ortiz por revelar el correo del 2-feb-2024 de González Amador (caso conexo)"
+        },
+        {
+          "fecha": "2026",
+          "evento": "Pendiente de fijar fecha de juicio oral en el procedimiento principal"
         },
         {
           "fecha": "2026-02-20",
@@ -1883,47 +2009,6 @@
       ]
     },
     {
-      "id": "punica",
-      "nombre": "Operación Púnica",
-      "partido": "PP",
-      "emoji": "🌳",
-      "protagonistas": [
-        "Francisco Granados (exnúmero 2 PP Madrid, mano derecha de Esperanza Aguirre)",
-        "David Marjaliza (corruptor de la trama, exsocio de Granados)",
-        "6 exalcaldes del PP de la Comunidad de Madrid",
-        "Cofely (empresa adjudicataria)"
-      ],
-      "descripcion": "Macrocausa de corrupción en ayuntamientos del PP en la Comunidad de Madrid: amaño sistemático de contratos de eficiencia energética a favor de la empresa Cofely a cambio de comisiones a alcaldes y funcionarios entre 2012 y 2014. Llamada Púnica por 'Punica granatum' (granado), referencia velada a Francisco Granados, hombre fuerte del PP madrileño bajo Aguirre. La pieza 6 cerró con 29 condenas en diciembre de 2025 — 11 años después de la operación. Granados sigue pendiente de juicio en otras piezas (la principal sobre caja B del PP madrileño llegará después).",
-      "juzgado": "Audiencia Nacional",
-      "juez": "Manuel García-Castellón / Eloy Velasco (instrucción)",
-      "estado": "sentencia",
-      "importe_estimado": 250000000,
-      "fecha_inicio": "2014-06",
-      "timeline": [
-        {
-          "fecha": "2014-06",
-          "evento": "OPERACIÓN PÚNICA: la Guardia Civil detiene a Francisco Granados (exnúmero 2 del PP de Madrid bajo Aguirre), David Marjaliza y decenas de cargos del PP madrileño"
-        },
-        {
-          "fecha": "2015",
-          "evento": "David Marjaliza, principal corruptor de la trama, decide colaborar con la Audiencia Nacional. Apunta a todos los implicados a cambio de rebaja de pena"
-        },
-        {
-          "fecha": "2017-2024",
-          "evento": "La macrocausa se ramifica en múltiples piezas. 13 acusados acuerdan reconocer hechos con la Fiscalía"
-        },
-        {
-          "fecha": "2025-12-22",
-          "evento": "SENTENCIA Audiencia Nacional pieza 6: 29 condenados de 37 juzgados. David Marjaliza a 8 años 2 meses (pena más alta). Condenas de prisión para 6 exalcaldes del PP: Daniel Ortiz Espejo (Móstoles), Agustín Juárez (Collado Villalba), Carlos Alberto Estrada (Moraleja de Enmedio) y otros. Cofely multada con 3,5M€",
-          "fuente": "https://www.elespanol.com/espana/tribunales/20251222/audiencia-nacional-condena-prision-exalcaldes-comunidad-madrid-trama-corrupcion-punica/1003744066688_0.html"
-        },
-        {
-          "fecha": "2026",
-          "evento": "Pendiente el juicio principal a Francisco Granados (líder de la trama) y otras piezas, incluida la caja B del PP de Aguirre"
-        }
-      ]
-    },
-    {
       "id": "tandem-villarejo",
       "nombre": "Caso Tándem / Villarejo",
       "partido": "Transversal",
@@ -2244,161 +2329,6 @@
         {
           "fecha": "2024-2025",
           "evento": "Continúa el juicio de las piezas Angola y Arabia Saudí. Defex llegó a pagar 'operaciones de estética' a cambio de contratos según los hechos probados"
-        }
-      ]
-    },
-    {
-      "id": "begona-gomez",
-      "nombre": "Caso Begoña Gómez",
-      "partido": "PSOE",
-      "emoji": "🎓",
-      "protagonistas": [
-        "Begoña Gómez Fernández (esposa del presidente Pedro Sánchez)",
-        "Cristina Álvarez (asesora de Begoña Gómez en Moncloa)",
-        "Juan Carlos Barrabés (empresario beneficiado)",
-        "Joaquín Goyache (rector UCM)"
-      ],
-      "descripcion": "Investigación al entorno familiar del presidente del Gobierno. Begoña Gómez, esposa de Pedro Sánchez, está procesada por tráfico de influencias, corrupción en los negocios, malversación de caudales públicos y apropiación indebida. La causa central: la creación de la Cátedra de Transformación Social Competitiva (TSC) en la UCM, donde supuestamente se aprovechó de su posición como esposa del presidente para captar patrocinadores y contrataciones, registrando además la marca TSC a su nombre. La asesora Cristina Álvarez, pagada con salario público, le asistía en actividades privadas. La causa provocó los cinco días de reflexión de Sánchez en abril de 2024 sobre su posible dimisión.",
-      "juzgado": "Juzgado de Instrucción nº41 de Madrid",
-      "juez": "Juan Carlos Peinado",
-      "estado": "instruccion",
-      "importe_estimado": 8400000,
-      "fecha_inicio": "2024-04",
-      "timeline": [
-        {
-          "fecha": "2024-04-16",
-          "evento": "El juez Juan Carlos Peinado admite a trámite la denuncia del sindicato ultraderechista Manos Limpias contra Begoña Gómez por tráfico de influencias y corrupción en los negocios"
-        },
-        {
-          "fecha": "2024-04-24",
-          "evento": "Pedro Sánchez anuncia que cancela su agenda durante 5 días para 'reflexionar' sobre si dimite. El 29 de abril decide 'seguir, con más fuerza'",
-          "fuente": "https://diariodecuyo.com.ar/cartasdellector/la-mujer-del-presidente-de-espana-se-niega-a-declarar-en-un-caso-de-corrupcion-1640414.html"
-        },
-        {
-          "fecha": "2024-07-05",
-          "evento": "PRIMERA DECLARACIÓN JUDICIAL: Begoña Gómez comparece ante el juez Peinado y se acoge al derecho a no declarar. Su abogado es el exministro del Interior Antonio Camacho"
-        },
-        {
-          "fecha": "2024-12-18",
-          "evento": "Tercera citación: declara sobre apropiación indebida e intrusismo profesional. Dos días después declara su asesora Cristina Álvarez"
-        },
-        {
-          "fecha": "2025-02-19",
-          "evento": "Juan Carlos Doadrio (exvicerrector UCM) declara en la Asamblea de Madrid que el rector Joaquín Goyache le dijo: 'Tenemos que crear una cátedra para Begoña Gómez, la esposa del presidente'"
-        },
-        {
-          "fecha": "2025-09-29",
-          "evento": "La IGAE (Hacienda) informa a la Fiscalía Europea de fraude de ley y discriminación en contratos por 8,4M€ adjudicados a la UTE de Barrabés por la empresa pública Red.es"
-        },
-        {
-          "fecha": "2026-04-13",
-          "evento": "EL JUEZ PEINADO PROCESA a Begoña Gómez por tráfico de influencias, corrupción en los negocios, malversación de caudales públicos y apropiación indebida. También procesados Cristina Álvarez y Juan Carlos Barrabés. Cierra la instrucción. Camino al juicio oral",
-          "fuente": "https://www.infobae.com/espana/2026/04/13/el-juez-peinado-procesa-a-begona-gomez-por-trafico-de-influencias-corrupcion-en-los-negocios-malversacion-de-caudales-publicos-y-apropiacion-indebida/"
-        }
-      ]
-    },
-    {
-      "id": "david-sanchez",
-      "nombre": "Caso David Sánchez / Diputación Badajoz",
-      "partido": "PSOE",
-      "emoji": "🎼",
-      "protagonistas": [
-        "David Sánchez Pérez-Castejón / 'David Azagra' (hermano del presidente)",
-        "Miguel Ángel Gallardo (expresidente Diputación Badajoz, exsecretario general PSOE Extremadura)",
-        "Antonio Garrote Ledesma (exdiputado provincial, alcalde de Monesterio)"
-      ],
-      "descripcion": "Investigación sobre la contratación irregular del hermano del presidente Pedro Sánchez por la Diputación de Badajoz, gobernada por el PSOE. En julio de 2017 David Sánchez fue contratado como Coordinador de Actividades de los Conservatorios de Música, plaza que según la investigación se habría creado a su medida. Pese a exigirse 'plena dedicación' en Badajoz, apenas tenía despacho físico y solicitó el teletrabajo desde Lisboa. Sus funciones derivaron al proyecto 'Ópera Joven' del presidente Gallardo. Primer familiar directo de un presidente del Gobierno que va a juicio por corrupción en democracia. Juicio oral programado para mayo-junio de 2026.",
-      "juzgado": "Audiencia Provincial de Badajoz",
-      "juez": "Beatriz Biedma (instrucción)",
-      "estado": "juicio_oral",
-      "importe_estimado": null,
-      "fecha_inicio": "2024",
-      "timeline": [
-        {
-          "fecha": "2017-07",
-          "evento": "David Sánchez Pérez-Castejón es contratado por la Diputación de Badajoz (PSOE) como Coordinador de Actividades de los Conservatorios de Música. El contrato lo firma el diputado provincial Antonio Garrote Ledesma"
-        },
-        {
-          "fecha": "2017-07-26",
-          "evento": "Email revelador: David Sánchez escribe a un conocido 'me voy a trasladar a trabajar a Badajoz', dando por hecha su contratación antes de que se haya formalizado"
-        },
-        {
-          "fecha": "2022",
-          "evento": "El puesto es modificado para denominarse 'Jefe de la Oficina de Artes Escénicas'. David Sánchez teletrabaja desde Lisboa pese a la exigencia contractual de 'plena dedicación' en Badajoz"
-        },
-        {
-          "fecha": "2024",
-          "evento": "Manos Limpias presenta denuncia. Comienza la investigación judicial por prevaricación administrativa y tráfico de influencias"
-        },
-        {
-          "fecha": "2024-07",
-          "evento": "La UCO de la Guardia Civil registra la Diputación de Badajoz e incauta documentación del proceso de contratación"
-        },
-        {
-          "fecha": "2025-04-25",
-          "evento": "David Sánchez declara como investigado en el Juzgado de Instrucción nº3 de Badajoz",
-          "fuente": "https://www.infobae.com/espana/2025/05/19/del-contrato-a-la-investigacion-claves-del-caso-del-hermano-de-pedro-sanchez/"
-        },
-        {
-          "fecha": "2025-11-24",
-          "evento": "La Audiencia Provincial de Badajoz desestima los recursos de los investigados. CONFIRMA la apertura de juicio oral por prevaricación administrativa y tráfico de influencias contra David Sánchez, Gallardo y otros 9 acusados",
-          "fuente": "https://www.cope.es/emisoras/extremadura/noticias/audiencia-badajoz-avala-investigacion-hermano-pedro-sanchez-ve-indicios-prevaricacion-20251124_3258504.html"
-        },
-        {
-          "fecha": "2026-05-28",
-          "evento": "JUICIO ORAL programado para el 28 de mayo - 4 de junio de 2026 en la Audiencia Provincial de Badajoz. Primer familiar directo de un presidente del Gobierno juzgado por corrupción en democracia"
-        }
-      ]
-    },
-    {
-      "id": "gonzalez-amador",
-      "nombre": "Caso González Amador",
-      "partido": "Otros",
-      "emoji": "🧾",
-      "protagonistas": [
-        "Alberto González Amador (empresario, pareja sentimental de Isabel Díaz Ayuso)",
-        "Carlos Neira (su abogado)",
-        "Daniel Alcázar (socio en Priviet Sportive)"
-      ],
-      "descripcion": "El caso del 'novio comisionista' que destapó la guerra entre la Fiscalía y el Gobierno de Ayuso. González Amador, empresario y pareja de la presidenta madrileña, está procesado por dos delitos fiscales (350.091€ defraudados a Hacienda), falsedad documental, delito contable continuado y pertenencia a organización criminal. Origen: facturas falsas para reducir tributación en operaciones de venta de mascarillas durante la pandemia que le reportaron 2M€. Su abogado ofreció a la Fiscalía un pacto de conformidad en febrero de 2024 — el correo que el Fiscal General fue luego condenado por filtrar. La causa sigue su curso en paralelo a la del Fiscal General.",
-      "juzgado": "Juzgado de Instrucción nº19 de Madrid",
-      "juez": "María Inmaculada Iglesias → Carmen Rodríguez Medel",
-      "estado": "juicio_oral",
-      "importe_estimado": 350091,
-      "fecha_inicio": "2024-02",
-      "timeline": [
-        {
-          "fecha": "2020-2021",
-          "evento": "González Amador, a través de Priviet Sportive y Maxwell Cremona, factura por intermediación en venta de mascarillas durante la pandemia y obtiene unos 2M€. Hacienda detecta facturas falsas para reducir la base imponible"
-        },
-        {
-          "fecha": "2023",
-          "evento": "Inspección de Hacienda concluye fraude por 350.091€. La Fiscalía inicia diligencias previas por dos delitos fiscales"
-        },
-        {
-          "fecha": "2024-02-02",
-          "evento": "El abogado Carlos Neira envía a la Fiscalía un correo proponiendo pacto de conformidad: González Amador reconocería dos delitos fiscales para evitar el juicio (la filtración de este correo costará el cargo al Fiscal General García Ortiz)"
-        },
-        {
-          "fecha": "2024-03",
-          "evento": "El caso salta a la opinión pública por filtraciones a la prensa. Ayuso habla de 'persecución política'"
-        },
-        {
-          "fecha": "2025-08-28",
-          "evento": "La jueza Inmaculada Iglesias PROCESA a González Amador por dos delitos de fraude fiscal en concurso con falsedad documental"
-        },
-        {
-          "fecha": "2025-09-22",
-          "evento": "AUTO DE APERTURA DE JUICIO ORAL: la jueza Rodríguez Medel imputa adicionalmente pertenencia a organización criminal. Se enfrenta a casi 4 años de cárcel",
-          "fuente": "https://www.infobae.com/espana/2025/09/22/la-jueza-abre-juicio-oral-a-alberto-gonzalez-amador-novio-de-ayuso-por-presunto-fraude-fiscal-delito-continuado-contable-y-pertenencia-a-organizacion-criminal/"
-        },
-        {
-          "fecha": "2025-11-13",
-          "evento": "El Tribunal Supremo CONDENA al Fiscal General García Ortiz por revelar el correo del 2-feb-2024 de González Amador (caso conexo)"
-        },
-        {
-          "fecha": "2026",
-          "evento": "Pendiente de fijar fecha de juicio oral en el procedimiento principal"
         }
       ]
     },

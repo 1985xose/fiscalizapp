@@ -439,6 +439,23 @@ h1 {
 }
 .timeline-text { font-size: 13px; color: var(--text-secondary); margin-top: 2px; }
 
+.nov-badge {
+  display: inline-block; margin: 6px 0 2px; padding: 3px 8px; border-radius: 2px;
+  font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--accent-green); border: 1px solid var(--accent-green); opacity: .9;
+}
+.nov-badge.nov-revisar { color: var(--accent-red); border-color: var(--accent-red); }
+.novedades-banner {
+  background: var(--bg-card); border: 1px solid var(--border-subtle); border-left: 3px solid var(--accent-green);
+  padding: 10px 14px; margin-bottom: 1rem; font-size: 13px; color: var(--text-secondary);
+}
+.novedad { padding: 5px 0; border-bottom: 1px dashed var(--border-subtle); font-size: 13px; }
+.novedad:last-child { border-bottom: 0; }
+.novedad a { color: var(--text-primary); text-decoration: none; }
+.novedad a:hover { color: var(--accent-green); }
+.novedad-clave a { color: var(--accent-red); }
+.novedad-medio { font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); margin-left: 6px; }
+.novedades-nota { font-size: 11px; color: var(--text-muted); margin-top: 6px; }
 .expand-hint {
   text-align: right; margin-top: 10px;
   font-family: var(--font-mono); font-size: 11px; color: var(--text-muted);
@@ -804,6 +821,7 @@ h1 {
   <section id="sec-corrupcion">
     <div class="stats" id="stats"></div>
     <input type="text" id="search-cases" placeholder="🔍 Buscar caso, persona, partido..." class="search-box" oninput="searchCases(this.value)">
+    <div id="novedades-banner"></div>
     <div class="filters" id="filters"></div>
     <div id="cases-container"></div>
   </section>
@@ -1166,6 +1184,7 @@ function renderCases(casos) {
     const estado = ESTADO_LABELS[c.estado] || ESTADO_LABELS.instruccion;
     const importe = formatImporte(c.importe_estimado);
     const timeline = (c.timeline || []).slice().reverse();
+    const nov = NOVEDADES[c.id];
     const isDestacado = c.destacado ? ' style="border-width:4px;box-shadow:0 0 20px rgba(230,57,70,0.15)"' : '';
 
     return `
@@ -1184,6 +1203,7 @@ function renderCases(casos) {
           </div>
           <span class="badge ${estado.class}">${estado.text}</span>
         </div>
+        ${nov && nov.posteriores_a_revision ? `<div class="nov-badge${nov.revisar ? ' nov-revisar' : ''}">📰 ${nov.posteriores_a_revision} noticia${nov.posteriores_a_revision === 1 ? '' : 's'} desde la última revisión${nov.revisar ? ' · posible cambio de estado' : ''}</div>` : ''}
         <p class="case-desc">${c.descripcion}</p>
         ${importe ? `<div class="case-importe">Importe estimado: ${importe}</div>` : ""}
         <div class="case-details">
@@ -1208,6 +1228,19 @@ function renderCases(casos) {
               `).join("")}
             </div>
           ` : ""}
+          ${nov && nov.noticias && nov.noticias.length ? `
+            <div class="detail-label" style="margin:16px 0 8px">📰 Novedades en prensa (automático)</div>
+            <div class="novedades">
+              ${nov.noticias.map(n => `
+                <div class="novedad${n.claves && n.claves.length ? ' novedad-clave' : ''}">
+                  <span class="timeline-date">${n.fecha}</span>
+                  <a href="${escapeAttr(n.enlace)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${escapeHtmlCasos(n.titulo)}</a>
+                  <span class="novedad-medio">${escapeHtmlCasos(n.medio || '')}</span>
+                </div>
+              `).join("")}
+            </div>
+            <div class="novedades-nota">Recogido automáticamente de agregadores de noticias. La cronología de arriba es la parte verificada a mano.</div>
+          ` : ""}
         </div>
         <div class="expand-hint">▼ Detalles y cronología</div>
       </div>
@@ -1215,10 +1248,32 @@ function renderCases(casos) {
   }).join("");
 }
 
+// Novedades automáticas (data/casos-novedades.json, lo genera el workflow semanal)
+let NOVEDADES = {};
+function escapeHtmlCasos(s) {
+  return String(s == null ? '' : s).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+}
+function escapeAttr(s) {
+  const v = String(s == null ? '' : s);
+  return /^https?:\/\//i.test(v) ? escapeHtmlCasos(v) : '#';
+}
+function renderNovedadesBanner(meta) {
+  const el = document.getElementById('novedades-banner');
+  if (!el || !meta) return;
+  const total = Object.values(NOVEDADES).filter(n => n && n.posteriores_a_revision).length;
+  if (!total) { el.innerHTML = ''; return; }
+  el.innerHTML = `<div class="novedades-banner">📰 <strong>${total}</strong> caso${total === 1 ? '' : 's'} con noticias posteriores a la última revisión manual (${meta.fecha_revision_manual || '?'})`
+    + (meta.casos_a_revisar ? ` · <strong style="color:var(--accent-red)">${meta.casos_a_revisar}</strong> con posible cambio de estado` : '')
+    + ` · noticias recogidas el ${(meta.generado || '').slice(0, 10)}</div>`;
+}
+
 // INIT
-fetch("data/casos-corrupcion.json")
-  .then(r => r.json())
-  .then(data => {
+Promise.all([
+  fetch("data/casos-corrupcion.json").then(r => r.json()),
+  fetch("data/casos-novedades.json").then(r => r.ok ? r.json() : null).catch(() => null)
+])
+  .then(([data, novedades]) => {
+    if (novedades && novedades.casos) { NOVEDADES = novedades.casos; renderNovedadesBanner(novedades.meta); }
     casosData = data.casos;
     CHASCARRILLOS = data.meta.chascarrillos || [];
     rotarChascarrillo();

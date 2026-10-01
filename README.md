@@ -8,7 +8,7 @@ Web: https://1985xose.github.io/fiscalizapp/
 
 | Sección | Fuente | Actualización |
 |---|---|---|
-| Casos de corrupción | Curación manual con fuentes periodísticas y judiciales | Manual |
+| Casos de corrupción | Curación manual con fuentes periodísticas y judiciales. Novedades en prensa vía RSS de agregadores | Manual. Novedades semanales, GitHub Actions |
 | Contratos públicos | PLACSP (sindicaciones 643 y 1143) | Diaria, GitHub Actions |
 | Patrimonios | Declaraciones de bienes (Congreso, Senado, BOE) | Manual |
 | Senadores XV | XML oficial del Senado | Puntual |
@@ -32,6 +32,8 @@ data/congreso_xv.json      Declaraciones de diputados (parser en revisión)
 data/senadores_xv.json     Declaraciones de senadores
 scripts/ingest_placsp.py   Descarga de la PLACSP (feed ATOM + ZIP de respaldo)
 scripts/detect_flags.py    Detector de banderas rojas
+scripts/novedades_casos.py Noticias recientes por caso (workflow novedades-casos.yml)
+data/casos-novedades.json  Salida del anterior, se regenera cada lunes
 ```
 
 ## Licencia y fuentes
