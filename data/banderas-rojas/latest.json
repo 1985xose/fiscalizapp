@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-10-01T18:25:17",
+    "generado": "2026-10-02T12:15:56",
     "version": "3.0",
-    "contratos_analizados": 128941,
-    "menores": 72180,
-    "licitaciones": 56761,
+    "contratos_analizados": 132118,
+    "menores": 74340,
+    "licitaciones": 57778,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 73,
+    "total_flags": 74,
     "por_tipo": {
       "fraccionamiento": 29,
       "concentracion": 2,
       "patron_umbral": 7,
       "omnipresente": 0,
       "negociado_reiterado": 5,
-      "umbral_europeo": 30
+      "umbral_europeo": 31
     },
     "severidad_alta": 35,
-    "severidad_media": 38
+    "severidad_media": 39
   },
   "flags": [
     {
@@ -1693,6 +1693,32 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
+      "adjudicatario": "Elecnor Servicios y Proyectos, S.A.U.",
+      "organo": "Gerencia del Hospital Intermutual de Levante",
+      "num_contratos": 2,
+      "importe_total": 256498.51,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 256,499€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "HIL/2026/03/075",
+          "objeto": "Obras de reforma, renovación e instalación de nuevos mostradores en plantas de hospitalización del Hospital Intermutual de Levante",
+          "importe": 126541.26,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=hN7XTuInBaaqb7rCcv76BA%3D%3D"
+        },
+        {
+          "expediente": "HIL/2026/01/086",
+          "objeto": "Suministro e instalación de una enfriadora para el Hospital Intermutual de Levante",
+          "importe": 129957.25,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=mXJZwIjwMUhQFSeKCRun4Q%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
       "adjudicatario": "SERVICIOS INTEGRALES JUALI S.L.",
       "organo": "Dirección de Asuntos Económicos del Ejército",
       "num_contratos": 2,
@@ -2083,22 +2109,22 @@
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
-      "contratos_en_franja": 53,
-      "contratos_totales": 129,
-      "porcentaje": 41.1,
-      "proveedores_distintos": 45,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 53 de 129 menores (41%) entre 12,000-15,000€. 45 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 54,
+      "contratos_totales": 131,
+      "porcentaje": 41.2,
+      "proveedores_distintos": 46,
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 54 de 131 menores (41%) entre 12,000-15,000€. 46 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
-      "contratos_en_franja": 44,
-      "contratos_totales": 83,
-      "porcentaje": 53.0,
-      "proveedores_distintos": 35,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 44 de 83 menores (53%) entre 12,000-15,000€. 35 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 46,
+      "contratos_totales": 86,
+      "porcentaje": 53.5,
+      "proveedores_distintos": 36,
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 46 de 86 menores (53%) entre 12,000-15,000€. 36 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -2117,10 +2143,10 @@
       "emoji": "🟡",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real",
       "contratos_en_franja": 31,
-      "contratos_totales": 56,
-      "porcentaje": 55.4,
+      "contratos_totales": 60,
+      "porcentaje": 51.7,
       "proveedores_distintos": 22,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 31 de 56 menores (55%) entre 12,000-15,000€. 22 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 31 de 60 menores (52%) entre 12,000-15,000€. 22 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
