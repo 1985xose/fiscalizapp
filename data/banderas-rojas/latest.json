@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-10-02T12:15:56",
+    "generado": "2026-10-03T11:16:48",
     "version": "3.0",
-    "contratos_analizados": 132118,
-    "menores": 74340,
-    "licitaciones": 57778,
+    "contratos_analizados": 134980,
+    "menores": 76195,
+    "licitaciones": 58785,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 74,
+    "total_flags": 76,
     "por_tipo": {
       "fraccionamiento": 29,
-      "concentracion": 2,
-      "patron_umbral": 7,
+      "concentracion": 1,
+      "patron_umbral": 9,
       "omnipresente": 0,
       "negociado_reiterado": 5,
-      "umbral_europeo": 31
+      "umbral_europeo": 32
     },
-    "severidad_alta": 35,
-    "severidad_media": 39
+    "severidad_alta": 34,
+    "severidad_media": 42
   },
   "flags": [
     {
@@ -1227,19 +1227,6 @@
       "descripcion": "CORECOR S.L. gana 13 de 13 contratos (100%) del Alcaldía del Ayuntamiento de Corduente, 118,438€ de 118,438€ (100%). ¿Proveedor único justificado o cautividad?"
     },
     {
-      "tipo": "concentracion",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "adjudicatario": "INBONIS SA",
-      "organo": "Dirección General de Inteligencia Económica y Comercial",
-      "contratos_proveedor": 5,
-      "contratos_totales": 6,
-      "porcentaje_contratos": 83.3,
-      "importe_proveedor": 77137.5,
-      "porcentaje_importe": 94.0,
-      "descripcion": "INBONIS SA gana 5 de 6 contratos (83%) del Dirección General de Inteligencia Económica y Comercial, 77,138€ de 82,036€ (94%). ¿Proveedor único justificado o cautividad?"
-    },
-    {
       "tipo": "fraccionamiento",
       "severidad": "media",
       "emoji": "🟡",
@@ -1927,6 +1914,32 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
+      "adjudicatario": "Compusof, S.A.",
+      "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
+      "num_contratos": 2,
+      "importe_total": 233724.81,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 233,725€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "CBA3326/2026",
+          "objeto": "Sinfo.- Suministro De Estaciones De Trabajo Portátiles Para La Fuerza De Infantería De Marina De La Armada Que Participan En Omp (Ministerio De Defensa-Dirección De Gestión Económica De La Jal)",
+          "importe": 116354.81,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=OrgoIl2hXmvL1rX3q%2FMAPA%3D%3D"
+        },
+        {
+          "expediente": "CEA3835/2026",
+          "objeto": "Suministro De Un Servidor De Virtualización Para La Infraestructura Del Ministerio De Cultura (Ministerio De Cultura-División De Tecnologías De La Información)",
+          "importe": 117370.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=71Scm6RdWx1%2BF6L2uCfUWg%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
       "adjudicatario": "QUINTAS TOROS, S.L.",
       "organo": "Junta de Gobierno del Ayuntamiento de Navalcarnero",
       "num_contratos": 2,
@@ -2121,10 +2134,21 @@
       "emoji": "🟡",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
       "contratos_en_franja": 46,
-      "contratos_totales": 86,
-      "porcentaje": 53.5,
+      "contratos_totales": 87,
+      "porcentaje": 52.9,
       "proveedores_distintos": 36,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 46 de 86 menores (53%) entre 12,000-15,000€. 36 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 46 de 87 menores (53%) entre 12,000-15,000€. 36 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Dirección General de Seguridad del Gobierno de Canarias",
+      "contratos_en_franja": 6,
+      "contratos_totales": 15,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 6,
+      "descripcion": "Dirección General de Seguridad del Gobierno de Canarias: 6 de 15 menores (40%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -2132,10 +2156,10 @@
       "emoji": "🟡",
       "organo": "Jefatura de Asuntos Económicos del CG de la Comandancia Gral. de Melilla",
       "contratos_en_franja": 15,
-      "contratos_totales": 31,
-      "porcentaje": 48.4,
+      "contratos_totales": 35,
+      "porcentaje": 42.9,
       "proveedores_distintos": 14,
-      "descripcion": "Jefatura de Asuntos Económicos del CG de la Comandancia Gral. de Melilla: 15 de 31 menores (48%) entre 12,000-15,000€. 14 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Jefatura de Asuntos Económicos del CG de la Comandancia Gral. de Melilla: 15 de 35 menores (43%) entre 12,000-15,000€. 14 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -2143,10 +2167,21 @@
       "emoji": "🟡",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real",
       "contratos_en_franja": 31,
-      "contratos_totales": 60,
-      "porcentaje": 51.7,
+      "contratos_totales": 61,
+      "porcentaje": 50.8,
       "proveedores_distintos": 22,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 31 de 60 menores (52%) entre 12,000-15,000€. 22 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 31 de 61 menores (51%) entre 12,000-15,000€. 22 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Junta de Gobierno del Ayuntamiento de Teulada",
+      "contratos_en_franja": 4,
+      "contratos_totales": 10,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 4,
+      "descripcion": "Junta de Gobierno del Ayuntamiento de Teulada: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
