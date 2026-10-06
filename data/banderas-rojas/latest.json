@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-10-05T13:04:01",
+    "generado": "2026-10-06T12:32:41",
     "version": "3.0",
-    "contratos_analizados": 135638,
-    "menores": 76750,
-    "licitaciones": 58888,
+    "contratos_analizados": 138109,
+    "menores": 78244,
+    "licitaciones": 59865,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 76,
+    "total_flags": 80,
     "por_tipo": {
       "fraccionamiento": 29,
-      "concentracion": 1,
-      "patron_umbral": 9,
+      "concentracion": 2,
+      "patron_umbral": 8,
       "omnipresente": 0,
-      "negociado_reiterado": 5,
-      "umbral_europeo": 32
+      "negociado_reiterado": 6,
+      "umbral_europeo": 35
     },
-    "severidad_alta": 34,
-    "severidad_media": 42
+    "severidad_alta": 36,
+    "severidad_media": 44
   },
   "flags": [
     {
@@ -1015,6 +1015,55 @@
       ]
     },
     {
+      "tipo": "negociado_reiterado",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 6,
+      "adjudicatario": "VOESTALPINE BOHLER WELDING SPAIN SA",
+      "organo": "Comité de Dirección de Equipos Nucleares S.A.",
+      "num_contratos": 6,
+      "importe_total": 935974.85,
+      "descripcion": "VOESTALPINE BOHLER WELDING SPAIN SA gana 6 contratos por negociado sin publicidad del Comité de Dirección de Equipos Nucleares S.A. por 935,975€. El negociado sin publicidad es para situaciones excepcionales — usarlo repetidamente con el mismo proveedor huele a adjudicación a dedo.",
+      "contratos": [
+        {
+          "expediente": "0FR3A002",
+          "objeto": "Suministro hilo calidad ER90S-G Ø0,9 y varilla calidad ER90S-G Ø1,0 y 2,0 mm. Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
+          "importe": 141715.56,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=3NvWgbUIYvsUqXM96WStVA%3D%3D"
+        },
+        {
+          "expediente": "0FR3A012",
+          "objeto": "Suministro de Flux calidad EN ISO 14174 SA AB 2B. Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
+          "importe": 377520.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=AZFnka253heTylGzYmBF9Q%3D%3D"
+        },
+        {
+          "expediente": "0FR3A006",
+          "objeto": "Suministro de electrodo calidad  E9018G d3,2 mm y d4,0 mm. Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
+          "importe": 139743.44,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=LgISz%2BaqLtTECtSnloz%2BZQ%3D%3D"
+        },
+        {
+          "expediente": "0FR3A003",
+          "objeto": "Suministro de hilo calidad ER309L d0,9 mm y d1,2 mm. Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
+          "importe": 58747.92,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2Bf%2FHPCYwST0ZDGvgaZEVxQ%3D%3D"
+        },
+        {
+          "expediente": "0BT7A002",
+          "objeto": "Suministro electrodo varilla E308L Ø2,4 mm. Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
+          "importe": 22430.38,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=r%2FUWMyRPyD310HRJw8TEnQ%3D%3D"
+        },
+        {
+          "expediente": "0BT7A001",
+          "objeto": "Suministro electrodo calidad E308L Ø3,2 y 4,0 mm. Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
+          "importe": 195817.55,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=36tPCx6dWsswYTJJ03sHog%3D%3D"
+        }
+      ]
+    },
+    {
       "tipo": "umbral_europeo",
       "severidad": "alta",
       "emoji": "🔴",
@@ -1088,35 +1137,35 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 4,
-      "adjudicatario": "VOESTALPINE BOHLER WELDING SPAIN SA",
-      "organo": "Comité de Dirección de Equipos Nucleares S.A.",
+      "adjudicatario": "Telefonica de España SAU",
+      "organo": "Subdirección General de Contratación de Tecnologías de la Información y de las Comunicaciones (TIC)",
       "num_contratos": 4,
-      "importe_total": 717726.92,
-      "descripcion": "VOESTALPINE BOHLER WELDING SPAIN SA gana 4 contratos por negociado sin publicidad del Comité de Dirección de Equipos Nucleares S.A. por 717,727€. El negociado sin publicidad es para situaciones excepcionales — usarlo repetidamente con el mismo proveedor huele a adjudicación a dedo.",
+      "importe_total": 7580416.19,
+      "descripcion": "Telefonica de España SAU gana 4 contratos por negociado sin publicidad del Subdirección General de Contratación de Tecnologías de la Información y de las Comunicaciones (TIC) por 7,580,416€. El negociado sin publicidad es para situaciones excepcionales — usarlo repetidamente con el mismo proveedor huele a adjudicación a dedo.",
       "contratos": [
         {
-          "expediente": "0FR3A002",
-          "objeto": "Suministro hilo calidad ER90S-G Ø0,9 y varilla calidad ER90S-G Ø1,0 y 2,0 mm. Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
-          "importe": 141715.56,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=3NvWgbUIYvsUqXM96WStVA%3D%3D"
+          "expediente": "2026/SP03032007/00000444",
+          "objeto": "contrato basado en la Prorroga Extraordinaria del Lote 4 Servicios e infraestructuras de Acceso a Internet del Acuerdo Marco para la Contratacion de Servicios e Infraestructuras de Telecomunicaciones de la I3D",
+          "importe": 78232.26,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SU4Wn5R2hcJ70UvEyYJSGw%3D%3D"
         },
         {
-          "expediente": "0FR3A012",
-          "objeto": "Suministro de Flux calidad EN ISO 14174 SA AB 2B. Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
-          "importe": 377520.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=AZFnka253heTylGzYmBF9Q%3D%3D"
+          "expediente": "2026/SP03032007/000441",
+          "objeto": "Contrato basado prórroga extraordinaria de Lote 1 Servicios e infraestructuras de datos, telefonía y localización del Acuerdo Marco para la contratación de Servicios e Infraestructuras de Telecomunicaciones de la I3D del Ministerio de Defensa",
+          "importe": 5337972.21,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=S%2FFSFT6qGJ2Izo3LHNPGcQ%3D%3D"
         },
         {
-          "expediente": "0FR3A006",
-          "objeto": "Suministro de electrodo calidad  E9018G d3,2 mm y d4,0 mm. Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
-          "importe": 139743.44,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=LgISz%2BaqLtTECtSnloz%2BZQ%3D%3D"
+          "expediente": "2026/SP03032007/00000448",
+          "objeto": "Contrato basado en la Prorroga Extraordinaria del Lote 8 Apoyo técnico logístico a los servicios e infraestructuras de la I3D del Acuerdo Marco para la Contratacion de Servicios e Infraestructuras de Telecomunicaciones de la I3D Exp. 2021JCMDEF00000070E",
+          "importe": 2122054.5,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XtbDikh4EFVQFSeKCRun4Q%3D%3D"
         },
         {
-          "expediente": "0FR3A003",
-          "objeto": "Suministro de hilo calidad ER309L d0,9 mm y d1,2 mm. Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
-          "importe": 58747.92,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2Bf%2FHPCYwST0ZDGvgaZEVxQ%3D%3D"
+          "expediente": "2026/SP03032007/00000445",
+          "objeto": "contrato basado en la Prorroga Extraordinaria del Lote 5 Servicios e infraestructuras de Acceso a Internet del Acuerdo Marco para la Contratacion de Servicios e Infraestructuras de Telecomunicaciones de la I3D",
+          "importe": 42157.22,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=REQo4dOTsQ5QFSeKCRun4Q%3D%3D"
         }
       ]
     },
@@ -1225,6 +1274,19 @@
       "importe_proveedor": 118437.67,
       "porcentaje_importe": 100.0,
       "descripcion": "CORECOR S.L. gana 13 de 13 contratos (100%) del Alcaldía del Ayuntamiento de Corduente, 118,438€ de 118,438€ (100%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "concentracion",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "adjudicatario": "SERTEVAL ELECTRICA, S.L.",
+      "organo": "Dirección de la Empresa General Valenciana del Agua, S.A.",
+      "contratos_proveedor": 5,
+      "contratos_totales": 6,
+      "porcentaje_contratos": 83.3,
+      "importe_proveedor": 30911.14,
+      "porcentaje_importe": 97.4,
+      "descripcion": "SERTEVAL ELECTRICA, S.L. gana 5 de 6 contratos (83%) del Dirección de la Empresa General Valenciana del Agua, S.A., 30,911€ de 31,732€ (97%). ¿Proveedor único justificado o cautividad?"
     },
     {
       "tipo": "fraccionamiento",
@@ -1342,6 +1404,32 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
+      "adjudicatario": "Proyectos, ejecución y control de obras, S.A.",
+      "organo": "Presidencia de la Autoridad Portuaria de Castellón",
+      "num_contratos": 2,
+      "importe_total": 237041.0,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 237,041€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "PO-26/0022",
+          "objeto": "Asistencia técnica para la redacción de varios proyectos y su dirección de obra para la mejora de la urbanización en la dársena norte del Puerto de Castellón",
+          "importe": 121467.86,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=5Pp%2B%2BIK8sE%2BFQ%2FlhRK79lA%3D%3D"
+        },
+        {
+          "expediente": "PO26-0060",
+          "objeto": "Asistencia técnica para la redacción de proyectos y dirección de obra para obras de edificación y actuaciones Puerto-Ciudad del Área de Infraestructuras del Puerto de Castellón",
+          "importe": 115573.14,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=gH7psIyG5It9PLkba5eRog%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
       "adjudicatario": "IMASE SEGURIDAD S.L.",
       "organo": "ENAIRE. Dirección Regional NA. Región Centro Norte",
       "num_contratos": 2,
@@ -1438,6 +1526,32 @@
           "objeto": "Servicio integral de carga, transporte, colocación y almacenaje de material del CGA",
           "importe": 118798.04,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=yZniup7CWt65HQrHoP3G5A%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "CONSTRUCCIONES HERMANOS PICOS BAEZA S.L",
+      "organo": "Sociedad Pública de Infraestructuras y Medio Ambiente de Castilla y León S.A.",
+      "num_contratos": 2,
+      "importe_total": 248141.48,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 248,141€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "CO/2026/40",
+          "objeto": "Contratación de las obras de ejecución de la tubería de impulsión del sondeo de Muñez al depósito de Muñana (Ávila).",
+          "importe": 115732.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=eXwZTP1OZ9V%2FR5QFTlaM4A%3D%3D"
+        },
+        {
+          "expediente": "CO/2026/48",
+          "objeto": "Contratación de la ejecución y puesta en marcha de las obras de renovación de colector en el término municipal de Pedro Bernardo (Ávila).",
+          "importe": 132409.48,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=KRA32ezRdeh6nTs9LZ9RhQ%3D%3D"
         }
       ]
     },
@@ -2118,6 +2232,32 @@
       ]
     },
     {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "Solred, S.A.",
+      "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
+      "num_contratos": 2,
+      "importe_total": 259517.5,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 259,518€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "CBA3890/2026",
+          "objeto": "Suministro De Combustible En Estaciones De Servicio Para Los Vehículos De Inspección Pesquera De La Península 26-28 (Ministerio De Agricultura, Pesca Y Alimentación-Dirección General De Ordenación Pesquera Y Acuicultura)",
+          "importe": 138517.5,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=3V6l8mAUvKCP66GS%2BONYvQ%3D%3D"
+        },
+        {
+          "expediente": "CBA4164/2026",
+          "objeto": "Contrato Basado En El Acuerdo Marco 21/2023, Para El Suministro De Combustibles En Estaciones De Servicio Para El Lote 1 - Península Para La Confederación Hidrográfica Del Segura, O.A. Años 2026-2028. Compra Directa (Ministerio Para La Transición Ecológica Y El Reto Demográfico-Confederacion Hidrografica Del Segura, O.A.)",
+          "importe": 121000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=dlXUnbyplQfmnwcj%2BxbdTg%3D%3D"
+        }
+      ]
+    },
+    {
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
@@ -2134,21 +2274,10 @@
       "emoji": "🟡",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
       "contratos_en_franja": 46,
-      "contratos_totales": 87,
-      "porcentaje": 52.9,
+      "contratos_totales": 88,
+      "porcentaje": 52.3,
       "proveedores_distintos": 36,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 46 de 87 menores (53%) entre 12,000-15,000€. 36 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
-      "organo": "Dirección General de Seguridad del Gobierno de Canarias",
-      "contratos_en_franja": 6,
-      "contratos_totales": 15,
-      "porcentaje": 40.0,
-      "proveedores_distintos": 6,
-      "descripcion": "Dirección General de Seguridad del Gobierno de Canarias: 6 de 15 menores (40%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 46 de 88 menores (52%) entre 12,000-15,000€. 36 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -2167,10 +2296,10 @@
       "emoji": "🟡",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real",
       "contratos_en_franja": 31,
-      "contratos_totales": 61,
-      "porcentaje": 50.8,
+      "contratos_totales": 62,
+      "porcentaje": 50.0,
       "proveedores_distintos": 22,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 31 de 61 menores (51%) entre 12,000-15,000€. 22 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 31 de 62 menores (50%) entre 12,000-15,000€. 22 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
