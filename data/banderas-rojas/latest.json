@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generado": "2026-10-06T12:32:41",
+    "generado": "2026-10-07T12:24:38",
     "version": "3.0",
-    "contratos_analizados": 138109,
-    "menores": 78244,
+    "contratos_analizados": 139856,
+    "menores": 79991,
     "licitaciones": 59865,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
@@ -2262,11 +2262,11 @@
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
-      "contratos_en_franja": 54,
-      "contratos_totales": 131,
-      "porcentaje": 41.2,
-      "proveedores_distintos": 46,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 54 de 131 menores (41%) entre 12,000-15,000€. 46 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 56,
+      "contratos_totales": 134,
+      "porcentaje": 41.8,
+      "proveedores_distintos": 48,
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 56 de 134 menores (42%) entre 12,000-15,000€. 48 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -2274,10 +2274,10 @@
       "emoji": "🟡",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
       "contratos_en_franja": 46,
-      "contratos_totales": 88,
-      "porcentaje": 52.3,
+      "contratos_totales": 91,
+      "porcentaje": 50.5,
       "proveedores_distintos": 36,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 46 de 88 menores (52%) entre 12,000-15,000€. 36 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 46 de 91 menores (51%) entre 12,000-15,000€. 36 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
