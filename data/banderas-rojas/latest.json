@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generado": "2026-10-07T12:24:38",
+    "generado": "2026-10-08T12:28:01",
     "version": "3.0",
-    "contratos_analizados": 139856,
-    "menores": 79991,
+    "contratos_analizados": 141362,
+    "menores": 81497,
     "licitaciones": 59865,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
@@ -17,9 +17,9 @@
   "stats": {
     "total_flags": 80,
     "por_tipo": {
-      "fraccionamiento": 29,
+      "fraccionamiento": 30,
       "concentracion": 2,
-      "patron_umbral": 8,
+      "patron_umbral": 7,
       "omnipresente": 0,
       "negociado_reiterado": 6,
       "umbral_europeo": 35
@@ -99,6 +99,51 @@
           "objeto": "Acuerdo marco Suministro de pescados frescos con el distintivo pescado de confianza de la Rula de Avilés con destino al Parador de Turismo de Cangas de Onis, (Asturias) desde el 01 de octubre al 07 de octubre de 2026.",
           "importe": 125455.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=dRvTcW99boyopEMYCmrbmw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 12,
+      "adjudicatario": "PLATAFORMA FEMAR S.L.",
+      "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
+      "num_contratos": 5,
+      "importe_total": 74995.99,
+      "importe_medio": 14999.2,
+      "umbral_legal": 15000,
+      "descripcion": "5 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 74,996€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "20261401010",
+          "objeto": "Adquisición de alubias en conserva y brotes de soja para la elaboración de los racionados en el taller de alimentación del centro penitenciario de Córdoba.",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=GlUa7rB64JCzz8fXU2i3eQ%3D%3D"
+        },
+        {
+          "expediente": "20264504003",
+          "objeto": "Adquisición de carne de mejillón para la elaboración del racionado de los internos del centro penitenciario de Ocaña II.",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9I%2F1QBA2o2aGCFcHcNGIlQ%3D%3D"
+        },
+        {
+          "expediente": "20264501003",
+          "objeto": "Adquisición de aves de caza para la elaboración del racionado de los internos en el taller de alimentación del centro penitenciario de Ocaña I.",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=KTI6xQVv%2ByC8ebB%2FXTwy0A%3D%3D"
+        },
+        {
+          "expediente": "20264504004",
+          "objeto": "Adquisición de carne de pavo del centro penitenciario Ocaña II.",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=HB%2FUoNXa86vgL1BHd3qjQA%3D%3D"
+        },
+        {
+          "expediente": "20254103045",
+          "objeto": "Adquisición de embutido y charcutería para la elaboración del racionado del centro penitenciario de Sevilla II.",
+          "importe": 14999.99,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=quET%2BDVWjSGKeVWTb9Scog%3D%3D"
         }
       ]
     },
@@ -261,45 +306,6 @@
           "objeto": "GU. 9.07.01 IES Newton Salas - climatización",
           "importe": 33878.73,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=lGIdwEQ2vHo2wEhQbcAqug%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 9,
-      "adjudicatario": "PLATAFORMA FEMAR S.L.",
-      "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
-      "num_contratos": 4,
-      "importe_total": 59996.0,
-      "importe_medio": 14999.0,
-      "umbral_legal": 15000,
-      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 59,996€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
-      "contratos": [
-        {
-          "expediente": "20261401010",
-          "objeto": "Adquisición de alubias en conserva y brotes de soja para la elaboración de los racionados en el taller de alimentación del centro penitenciario de Córdoba.",
-          "importe": 14999.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=GlUa7rB64JCzz8fXU2i3eQ%3D%3D"
-        },
-        {
-          "expediente": "20264504003",
-          "objeto": "Adquisición de carne de mejillón para la elaboración del racionado de los internos del centro penitenciario de Ocaña II.",
-          "importe": 14999.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9I%2F1QBA2o2aGCFcHcNGIlQ%3D%3D"
-        },
-        {
-          "expediente": "20264501003",
-          "objeto": "Adquisición de aves de caza para la elaboración del racionado de los internos en el taller de alimentación del centro penitenciario de Ocaña I.",
-          "importe": 14999.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=KTI6xQVv%2ByC8ebB%2FXTwy0A%3D%3D"
-        },
-        {
-          "expediente": "20264504004",
-          "objeto": "Adquisición de carne de pavo del centro penitenciario Ocaña II.",
-          "importe": 14999.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=HB%2FUoNXa86vgL1BHd3qjQA%3D%3D"
         }
       ]
     },
@@ -1371,6 +1377,39 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 5,
+      "adjudicatario": "JLD SERVICIOS E INGENIO S.L.U",
+      "organo": "Jefatura de la Sección Económico Administrativa 14 - Cuartel General del Mando Aéreo de Canarias",
+      "num_contratos": 3,
+      "importe_total": 41377.03,
+      "importe_medio": 13792.34,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 41,377€ (supera el umbral de 15,000€ que obligaría a licitar).",
+      "contratos": [
+        {
+          "expediente": "2026/EA14/00002709E",
+          "objeto": "Instalación pérgola de acceso al grualercon",
+          "importe": 14999.83,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=49oN8%2Frc13kkJPJS%2BPS9vg%3D%3D"
+        },
+        {
+          "expediente": "2026/EA14/00002652E",
+          "objeto": "Acondicionamiento falso techo implantación d06 en s03 b.a.gando",
+          "importe": 12115.81,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=eYlN98Eex9SkU02jNGj1Fw%3D%3D"
+        },
+        {
+          "expediente": "2026/EA14/00003057E",
+          "objeto": "Acondicionamiento de las zonas ZAR TM B. A. Gando",
+          "importe": 14261.39,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=r1qGvXFyUQ%2F%2Fa9DgO%2BoYKQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 5,
       "adjudicatario": "OBRYSER SAN MARTIN SL",
       "organo": "Presidente de la Mancomunidad Agua de Monegros",
       "num_contratos": 3,
@@ -2262,11 +2301,22 @@
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
-      "contratos_en_franja": 56,
-      "contratos_totales": 134,
-      "porcentaje": 41.8,
+      "contratos_en_franja": 57,
+      "contratos_totales": 139,
+      "porcentaje": 41.0,
       "proveedores_distintos": 48,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 56 de 134 menores (42%) entre 12,000-15,000€. 48 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 57 de 139 menores (41%) entre 12,000-15,000€. 48 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Junta de Gobierno Local del Ayuntamiento de Calahorra",
+      "contratos_en_franja": 4,
+      "contratos_totales": 10,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 4,
+      "descripcion": "Junta de Gobierno Local del Ayuntamiento de Calahorra: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -2283,23 +2333,12 @@
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
-      "organo": "Jefatura de Asuntos Económicos del CG de la Comandancia Gral. de Melilla",
-      "contratos_en_franja": 15,
-      "contratos_totales": 35,
-      "porcentaje": 42.9,
-      "proveedores_distintos": 14,
-      "descripcion": "Jefatura de Asuntos Económicos del CG de la Comandancia Gral. de Melilla: 15 de 35 menores (43%) entre 12,000-15,000€. 14 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real",
       "contratos_en_franja": 31,
-      "contratos_totales": 62,
-      "porcentaje": 50.0,
+      "contratos_totales": 64,
+      "porcentaje": 48.4,
       "proveedores_distintos": 22,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 31 de 62 menores (50%) entre 12,000-15,000€. 22 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 31 de 64 menores (48%) entre 12,000-15,000€. 22 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -2311,17 +2350,6 @@
       "porcentaje": 40.0,
       "proveedores_distintos": 4,
       "descripcion": "Junta de Gobierno del Ayuntamiento de Teulada: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
-      "organo": "Alcaldía del Ayuntamiento de Carlet",
-      "contratos_en_franja": 6,
-      "contratos_totales": 15,
-      "porcentaje": 40.0,
-      "proveedores_distintos": 6,
-      "descripcion": "Alcaldía del Ayuntamiento de Carlet: 6 de 15 menores (40%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
