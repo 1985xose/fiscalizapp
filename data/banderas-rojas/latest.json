@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-10-08T12:28:01",
+    "generado": "2026-10-09T12:38:41",
     "version": "3.0",
-    "contratos_analizados": 141362,
-    "menores": 81497,
-    "licitaciones": 59865,
+    "contratos_analizados": 145747,
+    "menores": 83195,
+    "licitaciones": 62552,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,30 +15,30 @@
     ]
   },
   "stats": {
-    "total_flags": 80,
+    "total_flags": 84,
     "por_tipo": {
       "fraccionamiento": 30,
       "concentracion": 2,
-      "patron_umbral": 7,
+      "patron_umbral": 8,
       "omnipresente": 0,
       "negociado_reiterado": 6,
-      "umbral_europeo": 35
+      "umbral_europeo": 38
     },
     "severidad_alta": 36,
-    "severidad_media": 44
+    "severidad_media": 48
   },
   "flags": [
     {
       "tipo": "umbral_europeo",
       "severidad": "alta",
       "emoji": "🔴",
-      "score": 20,
+      "score": 22,
       "adjudicatario": "DISHOSPAC SL",
       "organo": "Paradores de Turismo de España, S.M.E., S.A.",
-      "num_contratos": 10,
-      "importe_total": 1246190.0,
+      "num_contratos": 11,
+      "importe_total": 1372206.0,
       "umbral_legal": 140000,
-      "descripcion": "10 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 1,246,190€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "descripcion": "11 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 1,372,206€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
       "contratos": [
         {
           "expediente": "PESCADOS RULA AVILES PT CANGAS 30 07 05 08 26",
@@ -99,6 +99,12 @@
           "objeto": "Acuerdo marco Suministro de pescados frescos con el distintivo pescado de confianza de la Rula de Avilés con destino al Parador de Turismo de Cangas de Onis, (Asturias) desde el 01 de octubre al 07 de octubre de 2026.",
           "importe": 125455.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=dRvTcW99boyopEMYCmrbmw%3D%3D"
+        },
+        {
+          "expediente": "PESCADOS RULA AVILES PT CANGAS 08 10 14 10 26",
+          "objeto": "Acuerdo marco Suministro de pescados frescos con el distintivo pescado de confianza de la Rula de Avilés con destino al Parador de Turismo de Cangas de Onis, (Asturias) desde el 08 de octubre al 14 de octubre de 2026.",
+          "importe": 126016.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=MvGUR7d%2BOrItm4eBPtV6eQ%3D%3D"
         }
       ]
     },
@@ -1106,6 +1112,43 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 4,
+      "adjudicatario": "NUNSYS, S.A.",
+      "organo": "Jefatura de Asuntos Económicos del Cuartel General Terrestre Alta Disponibilidad",
+      "num_contratos": 4,
+      "importe_total": 1021200.58,
+      "descripcion": "NUNSYS, S.A. gana 4 contratos por negociado sin publicidad del Jefatura de Asuntos Económicos del Cuartel General Terrestre Alta Disponibilidad por 1,021,201€. El negociado sin publicidad es para situaciones excepcionales — usarlo repetidamente con el mismo proveedor huele a adjudicación a dedo.",
+      "contratos": [
+        {
+          "expediente": "2026/ETSAE0304/00000334E",
+          "objeto": "Suministro integral de cajas militarizadas de despliegue rápido y electrónica de red asociada para la red NATO SECRET (NS) del HQ NRDC-ESP",
+          "importe": 319415.58,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=BtUVYgRDoKFQFSeKCRun4Q%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0304/00000474E",
+          "objeto": "Suministro de sistemas audiovisuales para las salas de planeamiento y conducción de operaciones del HQ NRDC-ESP",
+          "importe": 149795.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=06oOJMx9Gs%2BAAM7L03kM8A%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0304/00000547E",
+          "objeto": "Suministro de equipamiento destinado a la Expansión de la infraestructura proyectable operativa de comunicaciones de la arquitectura NATO Secret del NRDC-ESP",
+          "importe": 120000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=f%2BMIk9rkwFWsNfRW6APEDw%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0304/00000677E",
+          "objeto": "Suministro de servidores para la infraestructura NATO SECRET desplegable en alta disponibilidad para redes clasificadas del HQ NRDC-ESP",
+          "importe": 431990.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=JpA7myDLaCEQyBAnWzHfCg%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "negociado_reiterado",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 4,
       "adjudicatario": "VOLVO GROUP ESPAÑA S.A",
       "organo": "Jefatura de Asuntos Económicos del Mando de Apoyo Logístico",
       "num_contratos": 4,
@@ -1172,37 +1215,6 @@
           "objeto": "contrato basado en la Prorroga Extraordinaria del Lote 5 Servicios e infraestructuras de Acceso a Internet del Acuerdo Marco para la Contratacion de Servicios e Infraestructuras de Telecomunicaciones de la I3D",
           "importe": 42157.22,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=REQo4dOTsQ5QFSeKCRun4Q%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "negociado_reiterado",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 3,
-      "adjudicatario": "NUNSYS, S.A.",
-      "organo": "Jefatura de Asuntos Económicos del Cuartel General Terrestre Alta Disponibilidad",
-      "num_contratos": 3,
-      "importe_total": 589210.58,
-      "descripcion": "NUNSYS, S.A. gana 3 contratos por negociado sin publicidad del Jefatura de Asuntos Económicos del Cuartel General Terrestre Alta Disponibilidad por 589,211€. El negociado sin publicidad es para situaciones excepcionales — usarlo repetidamente con el mismo proveedor huele a adjudicación a dedo.",
-      "contratos": [
-        {
-          "expediente": "2026/ETSAE0304/00000334E",
-          "objeto": "Suministro integral de cajas militarizadas de despliegue rápido y electrónica de red asociada para la red NATO SECRET (NS) del HQ NRDC-ESP",
-          "importe": 319415.58,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=BtUVYgRDoKFQFSeKCRun4Q%3D%3D"
-        },
-        {
-          "expediente": "2026/ETSAE0304/00000474E",
-          "objeto": "Suministro de sistemas audiovisuales para las salas de planeamiento y conducción de operaciones del HQ NRDC-ESP",
-          "importe": 149795.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=06oOJMx9Gs%2BAAM7L03kM8A%3D%3D"
-        },
-        {
-          "expediente": "2026/ETSAE0304/00000547E",
-          "objeto": "Suministro de equipamiento destinado a la Expansión de la infraestructura proyectable operativa de comunicaciones de la arquitectura NATO Secret del NRDC-ESP",
-          "importe": 120000.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=f%2BMIk9rkwFWsNfRW6APEDw%3D%3D"
         }
       ]
     },
@@ -1807,6 +1819,32 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
+      "adjudicatario": "Técnicos Asociados Informática, Sau",
+      "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
+      "num_contratos": 2,
+      "importe_total": 252322.94,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 252,323€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "CEA3098/2026",
+          "objeto": "Actualización Del Software Embarcado Para La Infraestructura De Almacenamiento De Datos Corporativos De La Dirección General De La Policía (Ministerio Del Interior-División Económica Y Técnica)",
+          "importe": 118370.37,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=RR6kANJwd41Vq4S9zvaQpQ%3D%3D"
+        },
+        {
+          "expediente": "CEA4086/2026",
+          "objeto": "Suministro De Licencias Y Prestación Del Servicio De Soporte Y Mantenimiento Del Sistema Corporativo De Copias De Seguridad Del Instituto De Salud Carlos Iii. (Instituto De Salud Carlos Iii)",
+          "importe": 133952.57,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=NRK0uJ%2FoUJPVGIpKDxgsAQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
       "adjudicatario": "BECSA, S.A.",
       "organo": "Jefatura de la Sección Económico Administrativa 23 de la Base Aérea de Albacete",
       "num_contratos": 2,
@@ -1877,6 +1915,32 @@
           "objeto": "TC 106-02/26. adecuación sala de calderas compañía Tigre conforme al RITE para certificación ambiental. Base Coronel Sánchez Bilbao, Almagro, Ciudad Real.",
           "importe": 138056.62,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Qo2Uap6HitnjHF5qKI4aaw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "TOTAL ENGINEERING SL",
+      "organo": "Consejo de Administración de la Sociedad Pública para la Promoción Económica de Melilla, Proyecto Melilla, S.A.U.",
+      "num_contratos": 2,
+      "importe_total": 253040.0,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 253,040€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "17/26",
+          "objeto": "Itinerarios de inserción para el empleo en actividades de auxiliar administrativo. MF26005",
+          "importe": 126520.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=AHedKkco7CZrhBlEHQFSKA%3D%3D"
+        },
+        {
+          "expediente": "14/26",
+          "objeto": "Itinerarios de inserción para el empleo en actividades auxiliares de comercio. MF26002",
+          "importe": 126520.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=BYq4Wdt4D7Czz8fXU2i3eQ%3D%3D"
         }
       ]
     },
@@ -2297,6 +2361,32 @@
       ]
     },
     {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "OLD NAVY PORT PRODUCCIONES SL",
+      "organo": "Junta de Gobierno del Ayuntamiento de Lugo",
+      "num_contratos": 2,
+      "importe_total": 235950.0,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 235,950€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "2026/C005/000020",
+          "objeto": "Concerto de Malú o día 9 de outubro nas Festas de San Froilán 2026",
+          "importe": 121000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9eYigBagauGExvMJXBMHHQ%3D%3D"
+        },
+        {
+          "expediente": "2026/C005/000019",
+          "objeto": "contratacion do concerto de JUAN MAGÁN nas festas de San Froilan 2026",
+          "importe": 114950.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=4lCPgvO%2FGCbL1rX3q%2FMAPA%3D%3D"
+        }
+      ]
+    },
+    {
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
@@ -2323,11 +2413,22 @@
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
-      "contratos_en_franja": 46,
-      "contratos_totales": 91,
+      "contratos_en_franja": 47,
+      "contratos_totales": 93,
       "porcentaje": 50.5,
       "proveedores_distintos": 36,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 46 de 91 menores (51%) entre 12,000-15,000€. 36 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 47 de 93 menores (51%) entre 12,000-15,000€. 36 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Alcaldía del Ayuntamiento de Gibraleón",
+      "contratos_en_franja": 4,
+      "contratos_totales": 10,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 4,
+      "descripcion": "Alcaldía del Ayuntamiento de Gibraleón: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -2335,10 +2436,10 @@
       "emoji": "🟡",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real",
       "contratos_en_franja": 31,
-      "contratos_totales": 64,
-      "porcentaje": 48.4,
+      "contratos_totales": 65,
+      "porcentaje": 47.7,
       "proveedores_distintos": 22,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 31 de 64 menores (48%) entre 12,000-15,000€. 22 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 31 de 65 menores (48%) entre 12,000-15,000€. 22 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
