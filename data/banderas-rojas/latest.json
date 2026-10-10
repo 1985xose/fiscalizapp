@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-10-09T12:38:41",
+    "generado": "2026-10-10T11:34:03",
     "version": "3.0",
-    "contratos_analizados": 145747,
-    "menores": 83195,
-    "licitaciones": 62552,
+    "contratos_analizados": 148006,
+    "menores": 84636,
+    "licitaciones": 63370,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 84,
+    "total_flags": 86,
     "por_tipo": {
-      "fraccionamiento": 30,
+      "fraccionamiento": 31,
       "concentracion": 2,
-      "patron_umbral": 8,
+      "patron_umbral": 7,
       "omnipresente": 0,
       "negociado_reiterado": 6,
-      "umbral_europeo": 38
+      "umbral_europeo": 40
     },
-    "severidad_alta": 36,
-    "severidad_media": 48
+    "severidad_alta": 37,
+    "severidad_media": 49
   },
   "flags": [
     {
@@ -359,6 +359,45 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 9,
+      "adjudicatario": "PROYECTOS SIETE URBE 2015 S.L.",
+      "organo": "Alcaldia del Ayuntamiento de Arucas",
+      "num_contratos": 4,
+      "importe_total": 55722.48,
+      "importe_medio": 13930.62,
+      "umbral_legal": 15000,
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 55,722€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "17869/2026",
+          "objeto": "Contrato menor mixto de suministro e instalación de elementos que conforman el Parque infantil de Los Portales.",
+          "importe": 14665.62,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=p30bQIELeIheKgd8LfVV9g%3D%3D"
+        },
+        {
+          "expediente": "17862/2026",
+          "objeto": "Contrato menor mixto de suministro e instalación de elementos que conforman el Parque infantil Arboleda de Los Portales",
+          "importe": 12741.06,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XnCLuZ2GlqE%2Bk2oCbDosIw%3D%3D"
+        },
+        {
+          "expediente": "23062/2026",
+          "objeto": "Contrato menor mixto de suministro e instalación de elementos que conforman el Parque infantil de San Francisco Javier",
+          "importe": 14512.8,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Z5QWDKM2WHfs%2BnLj3vAg5A%3D%3D"
+        },
+        {
+          "expediente": "22569/2026",
+          "objeto": "Contrato menor mixto de suministro e instalación de elementos que conforman el Parque infantil de C. Huelva Hoya de S. Juan",
+          "importe": 13803.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=afZGJyIDb9Cqb7rCcv76BA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 9,
       "adjudicatario": "MEDISCAN EQUIPAMIENTOS MEDICOS, S.L.",
       "organo": "Gerencia de la Fundación para el Fomento de la Investigación Sanitaria y Biomédica de la Comunitat Valenciana (FISABIO)",
       "num_contratos": 4,
@@ -429,6 +468,45 @@
           "objeto": "Servicio de preparado y distribución de comidas. Proyecto de Apoyo Nutricional",
           "importe": 14480.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=4Q2DjvcJKXmP66GS%2BONYvQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 9,
+      "adjudicatario": "PC TENERIFE SERVICE S.L.",
+      "organo": "Rectorado de la Universidad de La Laguna",
+      "num_contratos": 4,
+      "importe_total": 59096.77,
+      "importe_medio": 14774.19,
+      "umbral_legal": 15000,
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 59,097€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/MEN0000378",
+          "objeto": "El presente contrato tiene por objeto justificar la necesidad de adquirir veinte (20) ordenadores portátiles destinados a su cesión temporal, en régimen de préstamo, a estudiantes matriculados en primer curso de titulaciones oficiales de grado de la Universidad de La Laguna que acrediten insuficiencia de recursos económicos y carezcan de un equipo informático adecuado para el seguimiento de sus estudios universitarios.",
+          "importe": 14453.56,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=e09sNjiZXL9Vq4S9zvaQpQ%3D%3D"
+        },
+        {
+          "expediente": "2026/MEN0000391",
+          "objeto": "La actuación consiste en la compra y adquisición de 15 ordenadores de sobremesa Qi Slim, que serán destinados a la sala de informática de la Facultad de Farmacia, así como de 6 ordenadores portátiles Asus, que serán empleados en la biblioteca del centro.\nCon esta actuación se pretende renovar y reforzar la dotación tecnológica disponible para el estudiantado, facilitando el acceso a medios informáticos adecuados para el desarrollo de actividades docentes, prácticas, académicas y de apoyo al aprendizaje. Asimismo, la incorporación de estos equipos contribuirá a mejorar las condiciones de uso de los espacios destinados al estudio y a la formación, adaptándolos a las necesidades tecnológicas actuales.",
+          "importe": 14915.4,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=eJ0VCK1q5h6GCFcHcNGIlQ%3D%3D"
+        },
+        {
+          "expediente": "2026/MEN0000390",
+          "objeto": "Adquirir material informático de características especiales para docencia e investigación.",
+          "importe": 14745.35,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=QCM3iwd7zUh%2FR5QFTlaM4A%3D%3D"
+        },
+        {
+          "expediente": "2026/MEN0000560",
+          "objeto": "Prestación del servicio integral de mantenimiento preventivo,\ncorrectivo y soporte técnico para un parque estimado de 172\nordenadores portátiles, incluyendo asistencia remota y\npresencial, diagnóstico y reparación de incidencias de\nhardware y software, actualización de sistemas",
+          "importe": 14982.46,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SzHi6KomYI%2BcTfjQf3USOg%3D%3D"
         }
       ]
     },
@@ -891,39 +969,6 @@
           "objeto": "Adquisición de productos alimenticios (carne fresca) para los residentes del Hogar Provincial Antonio Fernández Valenzuela.",
           "importe": 14825.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=5hW7HiU2xW%2BkU02jNGj1Fw%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 8,
-      "adjudicatario": "PC TENERIFE SERVICE S.L.",
-      "organo": "Rectorado de la Universidad de La Laguna",
-      "num_contratos": 3,
-      "importe_total": 44114.31,
-      "importe_medio": 14704.77,
-      "umbral_legal": 15000,
-      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 44,114€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
-      "contratos": [
-        {
-          "expediente": "2026/MEN0000378",
-          "objeto": "El presente contrato tiene por objeto justificar la necesidad de adquirir veinte (20) ordenadores portátiles destinados a su cesión temporal, en régimen de préstamo, a estudiantes matriculados en primer curso de titulaciones oficiales de grado de la Universidad de La Laguna que acrediten insuficiencia de recursos económicos y carezcan de un equipo informático adecuado para el seguimiento de sus estudios universitarios.",
-          "importe": 14453.56,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=e09sNjiZXL9Vq4S9zvaQpQ%3D%3D"
-        },
-        {
-          "expediente": "2026/MEN0000391",
-          "objeto": "La actuación consiste en la compra y adquisición de 15 ordenadores de sobremesa Qi Slim, que serán destinados a la sala de informática de la Facultad de Farmacia, así como de 6 ordenadores portátiles Asus, que serán empleados en la biblioteca del centro.\nCon esta actuación se pretende renovar y reforzar la dotación tecnológica disponible para el estudiantado, facilitando el acceso a medios informáticos adecuados para el desarrollo de actividades docentes, prácticas, académicas y de apoyo al aprendizaje. Asimismo, la incorporación de estos equipos contribuirá a mejorar las condiciones de uso de los espacios destinados al estudio y a la formación, adaptándolos a las necesidades tecnológicas actuales.",
-          "importe": 14915.4,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=eJ0VCK1q5h6GCFcHcNGIlQ%3D%3D"
-        },
-        {
-          "expediente": "2026/MEN0000390",
-          "objeto": "Adquirir material informático de características especiales para docencia e investigación.",
-          "importe": 14745.35,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=QCM3iwd7zUh%2FR5QFTlaM4A%3D%3D"
         }
       ]
     },
@@ -1663,6 +1708,32 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
+      "adjudicatario": "Construcciones Bardenas 2013 SL",
+      "organo": "Junta de Gobierno del Ayuntamiento de Ejea de Los Caballeros",
+      "num_contratos": 2,
+      "importe_total": 264470.0,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 264,470€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "38b/2026",
+          "objeto": "Obra: renovación de pavimento de Plaza Goya",
+          "importe": 135000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VDaFD3eRqmyOUi78BmzhOQ%3D%3D"
+        },
+        {
+          "expediente": "52/2026",
+          "objeto": "Obras de instalación eléctrica, climatización e incendios en salón multiusos de Santa Anastasia (Ejea).",
+          "importe": 129470.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=7Naif1KciHCP%2Bo96UAV7cQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
       "adjudicatario": "SELVICULTURA TERUEL SL",
       "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
       "num_contratos": 2,
@@ -2365,6 +2436,32 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
+      "adjudicatario": "Iberdrola Clientes Sau",
+      "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
+      "num_contratos": 2,
+      "importe_total": 270469.58,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 270,470€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "CBA4457/2026",
+          "objeto": "Prórroga Del Contrato Basado A5072/2025 Con Código De Agrupación 7966. Código Actual De Agrupación 8419 (Ministerio Para La Transformación Digital Y De La Función Pública-Entidad Pública Empresarial Red.Es)",
+          "importe": 135995.46,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=YMZZ8ULI1P%2FI8aL3PRS10Q%3D%3D"
+        },
+        {
+          "expediente": "CBA4551/2026",
+          "objeto": "Prórroga Del Contrato Basado A6038/2025 Con Código De Agrupación 8124. Código Actual De Agrupación 8417 (Ministerio De Inclusión, Seguridad Social Y Migraciones-Instituto Social De La Marina)",
+          "importe": 134474.12,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=NSwmfYlhE4QQyBAnWzHfCg%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
       "adjudicatario": "OLD NAVY PORT PRODUCCIONES SL",
       "organo": "Junta de Gobierno del Ayuntamiento de Lugo",
       "num_contratos": 2,
@@ -2423,23 +2520,12 @@
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
-      "organo": "Alcaldía del Ayuntamiento de Gibraleón",
-      "contratos_en_franja": 4,
-      "contratos_totales": 10,
-      "porcentaje": 40.0,
-      "proveedores_distintos": 4,
-      "descripcion": "Alcaldía del Ayuntamiento de Gibraleón: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real",
       "contratos_en_franja": 31,
-      "contratos_totales": 65,
-      "porcentaje": 47.7,
+      "contratos_totales": 66,
+      "porcentaje": 47.0,
       "proveedores_distintos": 22,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 31 de 65 menores (48%) entre 12,000-15,000€. 22 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 31 de 66 menores (47%) entre 12,000-15,000€. 22 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
