@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generado": "2026-10-05T15:31:46",
+    "generado": "2026-10-12T16:27:10",
     "fecha_revision_manual": "2026-05-20",
     "ventana_dias": 120,
-    "casos_con_noticias": 43,
+    "casos_con_noticias": 44,
     "casos_a_revisar": 25,
     "nota": "Noticias recogidas automáticamente de agregadores. No sustituyen a la cronología verificada de cada caso."
   },
@@ -13,215 +13,238 @@
       "fuente": "google",
       "noticias": [
         {
-          "fecha": "2026-10-05",
-          "titulo": "El calendario judicial que acompañará al PSOE hasta las elecciones: de la posible imputación del exdelegado del Gobierno en Ceuta a la declaración de las hijas de Zapatero - Infobae",
-          "medio": "Infobae",
-          "enlace": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxNR3BOUVN1ZlFBZlJCU3FxeFcwY2RlZUVJSjJnc0Rqcnk3Z1RMTHB6eU16MmtoWi04ZGhBVVcyeE03YlNZX0dfczFucWVDNE5MMkF2aGc4SExaZ3puLWhMY1F3T1N0RHFHYWZHcXB5TmZiQ3ZMaEt2MjNBc3VucEV6MzZQbXExQ2l4SzdtTFFDLWMtOWgtYTMwR0lVZ0tVeEJlRkZXVTUxNUF5dHBtelY3dV9PV25UdmsxbGhnTUZRLU11am1rVzd2dFkydXJHV0F3ckg0YUllZm1WczFvNTlVczFpbzBMTzJaVHBYN2R2X0RENmtHdHJXOXhwUDBFaVBxck53ZVRUaXZvZVlfOTI4TWxWMWdqZ2RxTVRuWDZiNzJ3SEFFcFpuNVhWS0J4OTJ2UWVJTkZway3SAdMCQVVfeXFMTVFIU1JXUm5FWVVRZWRGVVlfY1UzaG96bHV5UEp4Slk2am5mcEo4RXNfMURQY0JVLTdYRjlaSzZnNS1vT29ldWtnOGoydVhLTi1WWUkwV3pMbDdoMkxRcWFQY3c0OG5Kc0hXdVpLMzlfdEhpMEF6ajhtQjQtNnNLdURKWUF0YnZrUTlUSzdZcjZsaUJoTnJSaDlweFhCdDhZdHV3R0RMQ0IyU3F0OEpMcVJaWTRCZjg5OWg4QVZSWjFzVHlua0lyTEFid2RfSVo3MU52NzlxVC14dEVVMkltWDU0XzVYYXYzWGlIa2lfU2lBVTlfTmY3b2R2N0pSX21KUERleDNiUkpZQXdNWkxkbW56WUFsTk9xbWJVdFotTG1tNldxYmQ2SnU5cFVmQnRYMFNnZE03a0pHaG5VQTBmM0p6WHdDRnRmaE5SQ0NsQ2VWRTFz?oc=5",
-          "claves": [
-            "imputa"
-          ]
-        },
-        {
-          "fecha": "2026-10-05",
-          "titulo": "Plus Ultra: La investigación que cerca a las hijas de Zapatero - moncloa.com",
-          "medio": "moncloa.com",
-          "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBCUDMxYmZGRDJQd3FUWklVQzFVbHh3VEZ1QmZibHp3ZC16eTJybkxUZVQxTE9wVEpyX2NGQ0hFSll4aGFwcnRFdHpGMTBaQ1ZKRGpRR2xwVkRDb0RXRE9XV0lla0NucjdyMF9PcEg4QWc0aEk1bU80b3JtU2c?oc=5",
+          "fecha": "2026-10-12",
+          "titulo": "El cerebro financiero de Plus Ultra acusado de blanquear dinero con casas de lujo en Mallorca declara esta ... - OkDiario",
+          "medio": "OkDiario",
+          "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNXpWOTVVX1ZLY1l3R1lCd0t3Y19IWlFlTjFZbEdQMDZTSmFUWllBeVdTdWFjaEdxOWxwU2paU1dNcDhpM0RnWDZDb25JcWZhRGI0aXNoZ0hyQmx4c21kWUVsTGFhNXQ3MVJBWWtKWkRCekZFYmFZWlJiOTFUeVBEZndqS1pnc1hGclRHZjNrQTl2WnV4Q1FxUXN3WHBDRlVXdnpDc0FjVXZqVzZpQWJ0WC0wdHpNMmJFZk5ZdWFrV1Q0U2Q5MkhXMEI1ZVVDQdIB0wFBVV95cUxNbE5FMVFyVzlvbC1fcVVBczlnM3hxY1hDbXZyNjZTdXpYVmxDTGRXSkVnbi1vLUhmcWR2dmlLRUNxeDNFRGZldmRRcVJCaXBhQ2dPUEdncGJJdTVHc21KS09XTjAtWkY2NXQ0YndGU2w1SVZ2N2xWdEwyZk5RcU9wWGRGLVViZmFBWE4zVERmYjZwemlGM3pvLVVvUlFvVUR6M0hXV3Zrc2ZtNDNjWm9OMWFwSDVzWTZBQ2gyanh2UmZ1aUE3aTRYczBtbGMyblhWRjM4?oc=5",
           "claves": []
         },
         {
-          "fecha": "2026-10-04",
-          "titulo": "Sánchez mantiene a Zapatero como íntimo pese a las investigaciones: el expresidente intentó mediar con Junts - ESdiario",
-          "medio": "ESdiario",
-          "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbzdRcndKamwtaVlaa1VzMlhrb0I5clA2UG1ZM1h2SVZGTXg3ZFBVb0dfaU93eXI4RXpqWG5NNzFRUHVyREI2WnNqSU8xRmpGVlUxUFJwazd0WV80MzdHRDBfTFBzZnV0VGNnd2NlbkJxR2JqNFhfTkZiUklkOWg2RHA3ZmJ4eWlvTGhMNURUang2V25oemllU0tsNS1DRGtFcU5Hb3Z4LXlmZGJ2cWcyMnF0M2EwLUNUQ1BBbmRIa2VnQjd1R1hLUnlWS2YtcWNHWjJUaHNxa9IB3AFBVV95cUxPUGRqekJvTmhBTlBvYVdUQzRVYTF3MXp5UGg1NzlVenlyUFZMaThpcmdwYmRUeC1neEo4eVpXYkNiV2ZDYy0zOGNMaXc5M0RvTWdoellfX3lOanFhbWJhTUlnZVRadjhUV09tcmF6NWdGS1lPcjg1a2I5NmV2alViVE1IaWR6MS1xWEtmX01CSTRxNDhqV2s4ZUFaYTNSSFVSU1ZsZzF0cklLcEVsYU5hZmdKNE1XSUFoQ3BUcnFUUXByUFZmX1RsS3NjRHlMaXVpT29ZUE9EM3dLdlRV?oc=5",
-          "claves": []
-        },
-        {
-          "fecha": "2026-10-04",
-          "titulo": "El primer mensaje favorable al rescate de Plus Ultra llegó a los 14 días de confirmarse el pago a la red de Zapatero - Libertad Digital",
-          "medio": "Libertad Digital",
-          "enlace": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQc1FpRm4yUW9JUGRQeDlmTFRhbE85dDBQNWhWLTBtMkktcDFPdGZZS0tKUVZ5Yk13RWNoZnk2UjRiSDNNQmExWVlwQU9QU2RSYzJ2YWZMV1J0RGJmM1gtTGdQcE9ZdW9ObUxvUW1vRUFuZE96MjVFeE1mQ19GcXZzRk5RaDBRcXR3VlUwak9sOTFsYzdqQWVvbF9pMkZ4d1hqQlQzczUyUXhqTk9qUGtPRGtGTkRWYXRvWGExV2t2OWM2Q2thNTBLbFJsVEJwM2N2NXhfbmlMcmJ2SUZaN0pKMVhETE5DLU8zaExtTExZcHBsTDBHNi1Gc0dWUnFhajAwUUlKSFNOZ1BvYTZoU0pBT0d30gGcAkFVX3lxTFBja1c1Zk9TU2s3b085TWVySV9pMHkzUlphTUlvaVNpay1LX25rYi1wRFdGVHFrX09XOS1IM3o0X1RWUVdRa282ZGdkTWpOd3h3MEw4MnpsY1NkODJsMGpzc1BHWE1ONjVsN3g3MGI2WTFiZEZMVE51bGxGdmhpVnRoY1BXeHhicUozR25ROUtFb0xqT19OcVJkWWI0SldaWlFoTmlfbEFwVGxKRjZ0Zm0xa3NhVjNNNnplVmFtSWtxM25fc29wSktVMXhrSTRiWDNVUVo0VWtNY3RINlM1SWM1LUNUX2RQcVBuaFNYOGVtZkRZdWRhOXkxMXZFSmtXNkF3TWRRUU0wRUZYUXdDZVRsRU5sempLbDVaYk0y?oc=5",
-          "claves": []
-        },
-        {
-          "fecha": "2026-10-04",
-          "titulo": "La UDEF detecta a otra secretaria de Zapatero pagada por Moncloa y conectada con el PSOE - El Debate",
+          "fecha": "2026-10-11",
+          "titulo": "El presunto cerebro financiero del caso Plus Ultra declarará ante el juez por la trama que salpica a Zapatero - El Debate",
           "medio": "El Debate",
-          "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOWR0RTVyMEd1enVLMDA0VGNEQk9pSjAzdjkzU0ZZZzRvWnhqUmVCejdqeHlSY3NKMnVzbmNmNXNhTm4wNDJmMFEyNk41OHlUYTFSTm5NVU9XUUlOLW9sVjRYeHlobXZSalhBRGdJdFFnNXpzc1Jmc1RaVXUtazVsRVpxNmFIMTJ2OFZ5Smp1ajNJWUVPU0VPODBPZ2FIQkxwTDdQQklXY2FiSTB3LWlkSzR4ckh0aXUxVlBRU9IBwgFBVV95cUxPUUdHSnBEc1k3Y2JaOVp1VDFTOTd5cG1zcDNmSWRfcm5ZLThNSGw3MTE3SmZiZmx6RXlKbkpESGYtY2NTT2FGbFA2ZnZ4V0lzU29PNC1BRGtYUzgzTXFNa0x6Ti1tdWh1T19yQ28za2ZrcVp2c1RXd0ViZmJSVy05X0lhejVLRkk2MkFNNEdWNXJBYktScHg1MEI0YnE2dktSZGNSTGVncVN0YzBLTWtqVFd6UGl2ZTNDamVQYi04RWVtQQ?oc=5",
+          "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTndRUnpnbEtFbnhMcWlZMkxmNXQtcVBjQm5VbS1jVFYtOXA2eHlyZU9ZTjBnNzhFQjZteUNjbnJkazIxWGNiSExkWU1KWUMyNUJuN2F5TUN2R0lVRmZtMV9IZjY5cmxYQXpFWHFabDV1dEhzYkkzaDB2REpfNnhPWmY0b09JR0FPMUdKVERER3llX3ZOZkRvWnprN1ZHQ0szeVJ0NDd6Yk9xN1lpcDJDYVpZX0NGOU9NN1ZMUVdwVGg0azVFc2I0MTd4VDJhMmVMeWFxQkRYbWZpSHBCaDdpWm1B0gHnAUFVX3lxTE80MDhrOVl2ak1OZU01YkMwal9fUkdfS0c5VFJTbk5YbGEzZnFvQ09nc01tVFFCYWFIMVZtSno3MWFMOGkwWGlFdzk5aWpQTUhsMHpJeENvall0dUxDVUo0VnZrSXNMOTJUaE1iMWx5cUMtTEROQVZ2R3NBaVprY3g4R0VDM05vLVF4dmxXUmlrQzFoai1Ta1p0ZEYxQVNPNGU1SDh6WWFhblh6eWwyMm1XanFZb2RSc0Nsa09QUFZQMGFqdHdoQ01BLUhTMTVUR2FaR2U4Y2g1QzlsUG83bnhDNk9sWG52SQ?oc=5",
           "claves": []
         },
         {
-          "fecha": "2026-10-03",
-          "titulo": "Uno de los bancos que ingresó el rescate de Plus Ultra cuestionó el envío de fondos a una empresa panameña - El Periódico",
+          "fecha": "2026-10-11",
+          "titulo": "La versión de Zapatero sobre las joyas cae en saco roto - La Vanguardia",
+          "medio": "La Vanguardia",
+          "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOEJvYk9DYjNWTWpBTEFpRjNyd09aeUdtVDlxd2p0TUV3anVQOEx1LTFjSnNXN0Yxck1pSXRzMUY1aHhTNGVkZlBldG93dGhZTjhkc0xjaWVEcVQxWTdoOVc3YUZiRVVRS2kyMlAyOEwyRGpBWmx2SjdBamRPbjl5T2piNDliN1AteFhLMm8wWUlsNzh5b0tqeHlOTktUMjEwZmlRaG5n0gGrAUFVX3lxTE1TbXdiS2ZBN1hHT1dYQlNpRGxtdlM2S1l0UDBYYUdDNk9NT19EX1Nza0pjc0NNTUpuU0JMcnZrZXRzbjBha3VDMjhWOXRVcHVTUDh3QTQ3dW42bFBPVFV5clM2bGZaNkpSZ1UxOVM4U1U3WjdFRWdvenlaa0ZOSEJUVkZmQlotMURUTmFSMFNhR1pCc3hJR1N2YjBaQ1FEN0ttUS1kUTRVMWZXMA?oc=5",
+          "claves": []
+        },
+        {
+          "fecha": "2026-10-10",
+          "titulo": "Plus Ultra ingresó dos millones en 20 días con vuelos chárter de repatriación y carga durante la pandemia... - La Gaceta de la Iberosfera",
+          "medio": "La Gaceta de la Iberosfera",
+          "enlace": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOTjVkSlQtZlhhZWlBejFJTUVTQXRyU1V1dThmd1V0bGdJRi1pMmZjeWxERDIzNnVQejJSSGg4cnJoaEliMjFFXzhpMWJsMzZkbEVLelhWZHhVcDFvbDZ6VUZXLUdRLXEwbW5Xc19JZjRCbGt2WkxVR2lkS19GVUVPTUpCMVNzRWRkWXpibk9PcW1GSi1sY20tUzU1eGkzWVNFNmhkZjJyN202ZzVHMEN3R0l5czhMemJqMWhxeHdSbnM2bVZfNzFGRDNlbXRDbHAxdTQ0ZHlsQlVQNVJPdksxdEIweEtMSmgySGRiTDk3Sm0xR3l2SWJVWDFrUEVLaDMyLXdfUDFUWVVPQWdOeFJBRG1FY0QwRS1tSVhF0gGgAkFVX3lxTFA5ZlgzUnF3Uk1xbFZOSGYtb1MyLVpqQkN3RUlLNUFoZ0xOa3owdHNjaVhISjFHWEhMRVlwTVpWVUs4c1RCQjduMWtVNHlxUEtZVFVRVG9kWjZoU0xTbmpKSGxzMHBuYjZna0NmS1VTZTNyekxBeFdTNHFiak5nUE1aT2ItUThWOWVsZGRVdVFHcmd5V05jRkV4cTVkUjQ1VGUxU215dWlYUGN1WTlRWE9nck41NXgxbldvSk5vaERjaFhydVlFVlFJWjVXU1FUY0l4RVQ0Ny1wWDc0SGZJZF9na0dQdWQ4S1N2V0VTbzltYU9uMEdwRUxDZV9rTml5MlJYTmV0eXlBVldzOF9ZbHhPeXcxLUJlbHRiYmdwc2c3aQ?oc=5",
+          "claves": []
+        },
+        {
+          "fecha": "2026-10-10",
+          "titulo": "La mediación del \"amigo\" de Zapatero para repatriar por el covid y los vuelos de carga permitieron a Plus Ultra ingresar 2 millones en 20 días - El Periódico",
           "medio": "El Periódico",
-          "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRDFTQzlOX2kzN3BqRFp3dTRkdmFvMzFsX2h2NW9TLXRHRi01WHlhQVVXYWZXOF96MjZfRkdpdHBoWUZ3Sy1GcmQyVHhIUVQ5ay1aVGMyRHhUUkcxdlY0bjhSazNvc0VZcXVaTHk5cmpISndHb2RRTWJNeHVZbjBxOS1uaUpSbV80MXQ0N2ZBYzJwVVE0R1pRc0swSHI3RkprbldhTEJ6VS1FRkUtNENITFNQQlJUSTQ1UXBxUWQzcTdFaXfSAcMBQVVfeXFMTUJRX2x1a2JNUngtSHdLNVZ0ajBiWU40LUQ5XzRvc0xjQS1laklmUkl6RXJDNzFScjRBa2hNanNBZi1BSkFWb1o1bkFBT0VmeG1UNXRlOTQ4UWg3aUNnTE9FX195QTZmZ3ZnUUpvSXY4d0ZvejZGM2g4NEdQd0VOV0RpMWhHRzY3NDhzMzdQSE9seW1TNFR3dVJNQ014VWpwc1ZfbTB4dTE2d0pnM1J2S05WZVh3bElfT3lXRTFvWnNzS1Nz?oc=5",
+          "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaHhKaFpIbHJ5WlJ4TjM3NThnamVhaFd3bkp1MjZaYzZRZzlERmdIOFJEYkZ2dWQ4Z0dvellnbkMtTkdlcUNpZnlCZmJEdGdFOFR1NVFwb2FsN3VCcUsxRHNla09fa2FIdWd5MTV3SzhsUkE2NzlVWXJzaWpWZWtoWXpwS2hVSVRCR1VweXRPWS1ZNHBDRjRuZFNfUTQ3NF9wVlZsYXhxdDF6MTh2WXRXYjRraExXcTIxY1VuYWVtNmbSAcABQVVfeXFMUGpkUDBDdG9uLXRlamtYNjJwMUFheDFwRERrNXg1blZIaVNBTFlycmFOWXdEWkJKYjJ5MHBrbEhlN2I0VF9MSEkwSnBUVnZRbTVBdGJFcWJjb1NTbUxTRlVoSl90UG83UUFCbmItbXBKSEFseld0LS1XU09GOHNsd2hEZDc3dmRUTWVoLWR0MmUzVU9MOXZMMDFLRkpUUVZkSVdLSlhaVWR4Wm1TQzYxRWEyU3VzVjRmN2FVeDEwTjho?oc=5",
+          "claves": []
+        },
+        {
+          "fecha": "2026-10-10",
+          "titulo": "Sánchez sortea electoralmente la declaración de las hijas de Zapatero que sigue acumulando reveses judiciales en el 'caso Plus Ultra' - El Debate",
+          "medio": "El Debate",
+          "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPZ2RQbC1CM1hsQkhUbWtVYk9FSXNWdjNoNEhURzVkbF9mZWtubGdUWW81dnp6M2VzeG1WR01CMXgyVGtPWnZ0OXloU0Q1bTROT1h2N05SV0lRdWNYQnkzRFlic0dKMTk0blVuQ0d6Qkxna1BoMUJVc1Q0N0dXeFlTbnM4N0lKbTR1Y3U4R05xbGZWeklBMkFwdkNiY1lsQWxrZk1vZnJzbnM2Q3ZoRks0ZVVXdmpUc1lFR0JidngyOFdGSUEwWnlyemJMSUtXNlR1RVJZbkNzSjJoc3RwQ2g2WDR6cmhnLTIyR0ZGSHR1Q1FGT0nSAfgBQVVfeXFMTXdNVW1CUG5jZVdHbll3ZnNFS2lwV1pCYVd5elNaWG5wSGpKeElXeGpOSFE5bWNlVkdSZ3lVanpUR0dyRWxSMXN5cjJRV0RhZndXR1pVX1Y1X3VJSjBMVlI1M29QR1NGVlRxMENpQk83TVYtNFlpb0tIbUlPWGtLaEFrRHNINVYzV1JsdW5EYWU0ZFFjWm9YcFUwekNoN1BweUFFQkVTenUydGloanRaSThGUVA4NnVnUzJpMzVtbTJ0OFdfTFE3VldhODAtc2RmdmpkZ01aREVTT3FqcjlpeFJQWWoxNWhFc1NmYXExRVFEQktaOC15Sm8?oc=5",
           "claves": []
         }
       ],
-      "ultima_noticia": "2026-10-05",
+      "ultima_noticia": "2026-10-12",
       "posteriores_a_revision": 6,
-      "revisar": true
+      "revisar": false
     },
     "koldo-mascarillas": {
       "consulta": "\"caso Koldo\"",
       "fuente": "google",
       "noticias": [
         {
-          "fecha": "2026-10-05",
-          "titulo": "Sánchez afronta las elecciones con la corrupción como lastre - MUNDIARIO",
-          "medio": "MUNDIARIO",
-          "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPOEN5eFNhZ0swZ0JHMnhVT181eS1aeXd3T0FhYmpENE1UendQeFdZVmVLY0pSajludU1UWUxxa1FWOVp0NURzbmJna0poU3pKbVNYcVIzdjI0eVQtV2FSUTdiOGdlV3BEamEzelo2WXFyMHNxMTZ0NVd5X3o4YTRYWjFRWkU3VXRKaUVEWGxZLUhhcXY1UzJvb3JkOTFZQ180aDJNbU5HU2pUNGNzRGI1TktFVFBPX0l2N2owSNIBwgFBVV95cUxPZWQ3NVJzaHljeTFsNE1leTF6MVljUWhqLWJDcFRLX2Q1ejNqSS1IVGxBcXlKYm5ROUVrUXp3V0FnOWRRRHFJbm1Gcm1Hbm5LdUowQURMbG8tWWt2ZnpzbHJTbDFCeXRuVWNnY1FKRjN0Mkl0X0V3RVV0dFdVYnZ6VHFOZkI1eFkwQ01CclZiNmJsNEY5Q3RwT1ZFbGZ3TVVKaXVjX3R1NGdKYTdSdGtfVU1jWndJRmp0MVZiQ214TlFFZw?oc=5",
+          "fecha": "2026-10-09",
+          "titulo": "La Audiencia Nacional desmonta la defensa de Jésica y confirma el plan de Ábalos con ella: cobrar sin trabajar - ESdiario",
+          "medio": "ESdiario",
+          "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVnBjb1d4bG9Hd2lyajVFaHdCanBwalZfVWVmZzZiR0NET3pvTi1HaVM1anIyMFc5MjdFVmxjdzlXZjFYdDNOS05FSVNUV1dDeU1pU0VsNkVTWWhzSXVfZWV0R1kxM08xbVU3REVxWmI0dXRxMEo0ZVZ4SERwQ3l1M2Z4M1V2dVk3X1hLVTVJVmIwMFBwQk9Ob3RYUFpvdTZhaEs3WTFKR0c3Uk9wcEtMcEt5SE5JQnh5a2xXYXJHMUk3eG45Zy0tUUVfUEbSAdIBQVVfeXFMTkpkNzZkUVFJNnJiNXRVR29lOFVGRTVQRENhVlY3SE9tV24yd1RtbGIxbHJUbEozVDF5dS1ZLTRweDBSaV9Oai10UXBBckZpOVpsbDlqdVk3MUxZd194RHRBYWxVaFNxa0lma2cxdkZUMFg1OFFySVNjT0poNnBjSnUzc3pUNWhJR20yNnBmalh5Tm01elB2X1RsSVlYeDBORVZYTTk1V2daUTRqOS1fcmh6RzhOU3h6VWU5bUU4WEQ2dnpublExYWhrZGs1X2pjUUJn?oc=5",
           "claves": []
         },
         {
-          "fecha": "2026-10-05",
-          "titulo": "El juez del 'caso Koldo' cita como investigado al guardia civil destinado en Transportes en la etapa de Ábalos - Vozpopuli",
-          "medio": "Vozpopuli",
-          "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPc1FYcVhXYXJwWnNvY1hLVk9SU2lPV1RsbnRqQ3Z4U1BZZy1JeTlVX25pNEJtVEFVbnV6VkRLaVhKY1ZCajk1TVhRLUowMzFkbjFGTGI1cUZyWjRvWnJ6V2JiTGtIeGxOOF9rZ3NDX3M3TkdrcFRKRlFWczJoME40X2JfdkIyVVRSRTdmTGY5SlNFSnBFcUJnRUpLeGhqel9sTndrVUYxbHFDYXBiZmROQTdNSEM0UkpET2N4OVk1UzlKSmRsNlRsUjc4MHcwMWw0dDNrWjRpcy14Rlk4amIxbjY2WW1aNWPSAewBQVVfeXFMT1J0MDJlVmpQMzdjTzdjRGJFRUVrMWJ1cnEwNng3YXRIUkkyMDRraE5pRjVyd0VZTTdpbHFrMGVXdUg0T1FRTFo4Vk5zN19JQjBuQUJua1ljbzdDNUR3MDNzTl9kd1ZjSlp0UnNCVEhZSUtVLXNCRHAySmFldjdjNU1CTmRCTUowYndWWmEzWkRHN21jdDdoNzN3Q3RNWXZGYXFRY18tNXA5c29vSU1Qb1FHWmZFSkI0MjFrX3R3aXI4c083R3lHZE1TNW9yYnBqbEF6RElQQWRSZkhRUHdldXhBRXEyY2tTRmdSZno?oc=5",
-          "claves": []
+          "fecha": "2026-10-09",
+          "titulo": "La Audiencia Nacional confirma la imputación de Jéssica Rodríguez, expareja de Ábalos, en el ‘caso Koldo’ - Confilegal",
+          "medio": "Confilegal",
+          "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSnRPZEtDM0V3UkppR3p1YUo4ZnZySGJLVk5rSl9fVnhWLVBWR1BMVjlqZ1pxaF90ZWVDS2dia1Jodzg5UGFXUjFuYWxPOUtvaUlKT09xbjc3OTNVYUg3M2V5RFprNUQ2S2lyMGlENGwxTERyYV9GbTRWMHJ1Z0Jpa3lJSEN6U3hjdHlVdUxJYlIxNjI2bDhJbGo3OXlTenJ6TDBCZERQWHpjVDB0UGxuSVhtb2tJZVFNTGZPd19PeU1EM0RnSlpHY0d1UEtabUE?oc=5",
+          "claves": [
+            "imputa"
+          ]
         },
         {
-          "fecha": "2026-10-05",
-          "titulo": "La red de Hidrocarburos envió a Portugal 56 millones sin que las alertas de la Hacienda de Montero saltasen - Libertad Digital",
+          "fecha": "2026-10-09",
+          "titulo": "La Audiencia Nacional confirma la imputación de Jéssica Rodríguez y un ex alto cargo de Adif en el caso Koldo - Libertad Digital",
           "medio": "Libertad Digital",
-          "enlace": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQOTFJM1hnaWlRVEZidUV0ZmlIR2o1Wl9BT0FNYVVVMDhUZ0hBUndRWFl1UXU0UG5XS3hlWFFtUFZERDFXcWgzcWZQbnozcUhRa08yWm9mcWc3Z2liLW5PMnFhem9hUmY1OEtjX1RzYlBIUXRjelNjYXpRTTE5M3ppRmJ1YThIZmVsZzlTNHEtOVNkcWZwMTQyS0pXY2NhQmlOWE00eUZfSDhfUTc4bGFCS3lzSzRqMkxoMWpsSTJiR0I0MEJ6NHRXWkQwMGxaQThzNHZ6TVRPcGk0dlE0X3h0Y1hiRV9YaDAyS3VfTmh4ME9OSk5MYVg1Um51aXlsNHZRLXZtSm9sTnhyekF5M1HSAZgCQVVfeXFMTkZvNmdjNmJZakxFWG91VTBhZWthZm4xWDlXNFprOVVzLVpXQnlPTC1OSVlhQ0JBZzJqeWZRWXQ3aXdIMUo2eGNlLTQzaTVHalhQTU5ONTl1eHF5aWtDN1k5NFpHUExDUXpNbVFlTEgwcEdoUHJ0X0d5ZHNqSkRlT3lvSzBDa2NHTVNsMk12YlZ1OXNhSlpvMDZySUJGUlRoLXpUX1FTdVhORFZkMmgtd0NDQjZjSGlXQkNlSDNtR2t6UVU5cEhfRHFtWHVMRDVkQXhWeTlKOUlSVUVzOVpobHd1NnlsWFlOMEtvejlZT2NWM1poME5SQzVkUHBTa3pCU2NCMk5iMGhFWXFTNlA0ZjBCTXNIS1Npaw?oc=5",
-          "claves": []
+          "enlace": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQQlBBYU5fSW41TVJuNm1NSm1mcnNNbkZ0RGpuYUkzVnFPbVgtZlpENWhWNmdLb1A5Y0ZTSjdrWmdXRjBYOVc2WjhoenhTN0JMd1pWOWYxT3J3WG9heDQ1Vjg3Q0xYZWJLa1B0NGRCZGVjNlV3dEJfZW5QU2E4aHhUUEUxM2JDbFhpMXU5SUxDbjFFdnZnOHVqUzE0TTdBU0NiSndScUp3a1J2ZFZyb05sYXYtWDdBUkRJMFhjOHAxcUVnamlLZlJzWjRlZGNEaDUydE4ydE1xdXVrM1otQlBXUGNkREZ5TVhqXzZMVm13NjNDUdIB_AFBVV95cUxQd2NpVlRsVHYtUHRoS0xEcmhtWnJybF9ab1Z3WVVEcHUybXhtWHdQTEY4ZF90SGJlUkVFMHJrcjEtamxtZ3hMOUg5Z21tNzN5SzJlSWFXUXJCUm1nV0J6Tk85dVUxcnZSRzlRU0xIVVBtS2xrQXZOb0R5ZXozWU84cFFLUjlRZmFxWmFiSlo4MXNXUXdVS0J6eVZ3U1VmVFI0RlUwbVl3N0xiNmRiTEJYTV82RzdZVDNNQ0VBVFVJSmtWNFU1QVJVTmpQQ1FCWXBHM3FOT3RqWVlOZXpSUmg5bXB1T2dJTkc5RUxHLW5lX2RRelo0alJfVEZjalE?oc=5",
+          "claves": [
+            "imputa"
+          ]
         },
         {
-          "fecha": "2026-10-04",
-          "titulo": "Más problemas de Ábalos con la Justicia: no le paga las costas al denunciante del \"caso Koldo\" - larazon.es",
-          "medio": "larazon.es",
-          "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQaFA4T1VnMHZCbkxFdEtRVHFVUTJzcncyOExJa3NYVmtIanpCSnoxdVo4eHFkQ082bGJJSDItYWg2OHJUdjdHUTVQTGZrN3BkamtzaU0tMjRFTlhza0hqUlkySDVKNUFNZXJNbGJ4QTdiRng2VUxFMTh1Q1RvQndnY0VOLWozYkhieU8yWGhQRjk1MVdPRXRTRkNBVzBfTWVYVnl6MGNMbVZCUEJ6N2lldWJUb1Q3d3IxRUREazRDb29oUlVQbXJhNlpxeGTSAeABQVVfeXFMTUhwOGc4WURqWkd6YXpBbUk4YjlCZDMwZ3RBRE9jaHNVcWRQeE1QckU2bzJCckw0OFFSejVRZXZLem85WVp5OUJjZkxzMDlVcjlkZmt3bjU2QWNtRUVUbzN0N2FYYmZKdVhrNUxRa2RTODEzMFlIN2MyYmFtaTdSYVh4WksxUG43VlBsZVdJNzhXcGVaZXoyNThmZFZTdkhaSF80S0ViM1VDMDRwaTVScHBaa25uVVJIMktjaWlkM2RUSTVhNUdiYW1RV3l6ZmN2d0FUM0RCN293REgxZVNpeEo?oc=5",
-          "claves": []
+          "fecha": "2026-10-09",
+          "titulo": "La Audiencia Nacional confirma la imputación de Jéssica Rodríguez en el caso Koldo - Demócrata",
+          "medio": "Demócrata",
+          "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUDB2bnVMaGZ2M3p3b3hZelhvdFZkdFgxN2NxYm9BZHQxcTVGQ1JKTTU0d2s5UXdPV214YkRUMTQxSjZrcnJvWGNWNXYtcC1wOUh5cEc1SU1aTkZxUGl1TEI0SWozZ0N5anpjVW5xeFZrdEN5UjJXWGExTTZmOWxnUFJaYVdqR2Vpcno3aG9oVFZqVGI2eWxGM3VSb1BDOTRuQ0FuTmNNNWluRHlvV3JLdlZKc293UFNyUU5B0gHAAUFVX3lxTE9RYTJWMnJIdjVneUMtb25BNGVkWUFVZlFIUjBaWEZQRU1VaU9jQWpOQ1pvZFV1Y3lvSU1OT2xzN3FZSFNyVzBzeTF1WU5jeHJFTGNGcC1majA2bUlvMkhQNEp2TGIxU1VENGtLSkotbWJ5ckRhSFVlcFBFOGg1Z1JNNF81WTlqc2dYYkp3c0RHUnNLNzNXeXgySFg3eW5wX25hZmJFeGU4dl90U3d4bWlmalhZUzI5NVY2eG0tTHN0cA?oc=5",
+          "claves": [
+            "imputa"
+          ]
         },
         {
-          "fecha": "2026-10-04",
-          "titulo": "Delcy y Koldo negociaron crear un banco en Venezuela para blanquear dinero de mordidas y del petróleo venezolano - El Español",
-          "medio": "El Español",
-          "enlace": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQeDJxTVNwaVFQdFF2LTJuZ2sxcXprbGJIVWZUNGdpNi1tV20xT2ZHRnZ3a2xTRVdnd2NnMVlrWjBPb1JpR2c0aFpxdWg5dm1sSVNXWnhtRlNuZDRtRXVmM3k2NHlLNnNFQTVKZU9nWWlycmJ0b1g3eThOOTN6T2c1dm9ja2Nudi10bUNXa3FrVDU3MXNDejNsNGhzVlRZZk1IY3oyZHI4MVVEMDdDMTB0dThXNk1obG5FNVd0LTA2S0JmNXBwVUdpeTY5T1BKSGNBN0oyR0lNaUhGblVZSUJVLTZYNFZLYmpI0gHuAUFVX3lxTE5pOEl6RFYzRThIRWNleVMwczVfMnJyendhWEpPSHFjNXNxZmRVbEQxR18xVWFsYjBtNTFoTGJOaXJyX3FQMFA5eC0wQ2FiNTMzZlFNRnQ4S0lqd0R0dVJpUFVyZU85LTJlZmxyRl9YTFVVVXVnNTNyNUJ2bWdHa253cG5MUmZkbEE5S1dvTThyTzF2a0RqWmYyaWRJd2puWWVvMGFGUWlnZVRtaVMwUTBlNEVkbW0zeTZxQkZoaEpjNVFSSHFodU9mMHQzb1JEWjhtM19fNUVTejlyTGl2TEFlTlpxVUR2Y1BONEhkVXc?oc=5",
-          "claves": []
+          "fecha": "2026-10-09",
+          "titulo": "La Audiencia Nacional ratifica la imputación de Jéssica Rodríguez en el 'caso Koldo' - Europa Press",
+          "medio": "Europa Press",
+          "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPY2xGMWtpN1lKSnNRUUtlVUMyVXBDV2lTLVN0RUg2ZHNZc0hjVVhzMTAyOVBGZERJM1lZUHNxb0JIZmtpUWQ1MnFFUXEzY19lcEtJWHVLOVZnVmtNX1A3VThpSUlXSkd1RmtZSWMxZ095RzF4dlg4T2ZNYnhIaXRENzRLSkx1OGF3czdXek1uRm5Iak1MVENaeE9VSWw0emFwYmhQZlF0SlBHUjhBX0JpNnZOTUxHU0xlcnhlcUZobF9CZHZRb0VHa3hHQQ?oc=5",
+          "claves": [
+            "imputa"
+          ]
         },
         {
-          "fecha": "2026-10-01",
-          "titulo": "Leire Díez pide a Pedraz que expulse a la jueza Biedma como acusación del caso cloacas de Ferraz - El Correo",
-          "medio": "El Correo",
-          "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcVhON3JxaDgxYTcwd3poWmVTWm9pQ1BBQzNOS2NYOUdqWHNmOHR5eC0yUGZZZXM1QWlHTmJIT1piSm5xUDdrNXZTRDNleF9rOVJLVG9ZTGZ2Smp5bm9Id0Y5MVlTbXllTTdyUDE4SWk1ZFo4amdSTTdic1dxV3gwSmQyRWRKbHNTSHFKYUFPeWNUalJiU0tvVFBYd0Z5eXdGQ2x6S9IBqgFBVV95cUxOSWcyVDlqM2J4Y3cxd1lZMlJGOVVvXy1wd04yUVNVTlpzNTJBMUNhZ0swcFBnV2hjSklvRG1qWFRxTGpEalJYR1cxV3lNdlpVVHRhME9uQk9HT2VDRktOWWhEdmVZNFJJbnpkbFhfNDM5UUdxeVB2M19uUHRGOGxZeEtPbmFSMTNMeWNLakRxQ3F2R2RwRG5rX0haNVhRdmNickxBeXZTNGw4Zw?oc=5",
-          "claves": []
+          "fecha": "2026-10-09",
+          "titulo": "El juez del caso Koldo se prepara para procesar al cerebro de la trama - La Razón",
+          "medio": "La Razón",
+          "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQ0NXc29oV1BrOWRyclRtZk16Mi11bGI4bDBfRC1PQzl4TTZhajNpSTM4cWVqS1dXbEo1YlBIc295RmM3VWVWZk1GRWpVZkZHUVJpWUxMSTlOSTRHM1lpVWdoc05xbmpHRjJyamlPQW5BU2RQMUp3bVNSeFBDa1NSaDhvOHRJZ1FIQXNQd1l5dUJjNndockVnTmVjS2lFX0FNSnF3cTJvYldrN3lNTUYtQmZmR27SAcgBQVVfeXFMUEYyRGhrd2lUMXRHZXdaN21qdzFUbUhVUkhKdWdFS05LXy1YNXFuWG9JNEhnX1RYNlE0ZHBkTHoxbW15R1llcWI5V3k1S09WQUk5Uk0ySExPajJlei13cWl1LVFrTlZDand0RHAtWXVKMUNtUlZCT1liY0RRbkxOaFpiZjdwU1gycEJ2UkFhR1JOUmtybE5YRWZOX2RSTnZDYXJJaHN6WWI0M2UwTDVuRUp4cVNCVEJkMmZZc3F5M0hzUnUtU3ZkSkw?oc=5",
+          "claves": [
+            "procesa"
+          ]
         }
       ],
-      "ultima_noticia": "2026-10-05",
+      "ultima_noticia": "2026-10-09",
       "posteriores_a_revision": 6,
-      "revisar": false
+      "revisar": true
     },
     "begona-gomez": {
       "consulta": "\"Begoña Gómez\"",
       "fuente": "google",
       "noticias": [
         {
-          "fecha": "2026-10-05",
-          "titulo": "Pedro Sánchez, un presidente con un hermano condenado y una mujer camino del banquillo - Telecinco",
-          "medio": "Telecinco",
-          "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYXFtWjB2YXFjb1BnV3FmVDRGM1B5TVY1bHY4dXgzQ0o3dFFjSUxqZjlmRzVRTXV1cmFtNjc4ZUtNaHF6RUx4M3k3eEZFVE5jaHp4alVLSDVGWVFoNlcyQUVndkNqYURqZVVGZ1o2Y1VqeWZ4aWh1S1g3T3Z3bnEwd2tMcTd5cnNyb0xsZlNCRkc2VllPeU1HQ3U5TlAyMUtNY3VnWnd1dVI1cWFDQzA3Wm1LeWJCNVlYcGZYTGZVNW14UTBPT3VNRWJXbmtnZw?oc=5",
-          "claves": [
-            "condena",
-            "condenad",
-            "banquillo"
-          ]
-        },
-        {
-          "fecha": "2026-10-05",
-          "titulo": "Así es Pedro Sánchez: sus dos hijas, los problemas judiciales de su mujer, Begoña Gómez, y de su hermano David, su sueldo y su patrimonio - Vozpopuli",
-          "medio": "Vozpopuli",
-          "enlace": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPNTFXUTJ2RDVVdTMwLTFaYlRUX1lIZlVsbkY3NDc1a3hrYkU1NlQwZ3pfamZnQmVpMnJFb1JEb29hTzh5WFozQ09zYkZldEhrUWZ5Yk15djBmNkN5OE1VRWFaX1NDdEFpazFCTWNmS192cFJyazBOMm9rQUU0SElyNnExcmV1R29VbU1sWV9MQTZoMUFJQjhOSWV0YlZSVVVheEhxTmxwM1ltUWxNZGdfaHZpU2k1VkpLZWVxdXBDcHpvNHpwNnNqRFRLRGx2UDk3clJsU0YzX2g5bkF0ckJQaUwxWXQ3YXdTRGNQbTNBZmNCN2hQVzNqa3l6eW83amtyaG9V0gGIAkFVX3lxTE5VbFNNWXI4Nm05WVBLM1BGV2VjOFplYURGWWZtUEdvSlVsTGZzRlV1aDZ3bUphWVRWX1lSWWx6U25UVDFKaTRzRlc1Q0pqbXk3UFVOU0xrMUlWWDB5dVZfN2xQaWhJdElYcE0zNUU0M2JWcEFER2xTcHFZZENWZ1FjV1A5ZTllaURTUjhtYWs4YTNZSzdJbWZ3NUtmOE5lOGZBaWNyUTNkd2VaYXNQWTM5NXZnVXVVcUJSMGJHd2F4dFd4dnlmUUU0VHJNZFg1dllNM2dGVzYyb2otN1hhcktVYVU3WW50LS1SbnB1cnBpOWxnZ1Q0X3JEUm12UFFqaVF3cVFSajBYZA?oc=5",
+          "fecha": "2026-10-12",
+          "titulo": "De los abucheos a Sánchez, los apuros de Leonor o la ausencia de Begoña Gómez: así ha sido el 12-O - Libertad Digital",
+          "medio": "Libertad Digital",
+          "enlace": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPZURKTkp3ZnBpazB3SzNkR3pncGVTNUV3aW9qUFFDY1E4RXFiSUhkZy1SSHA2by1aOFY2N1dvMU9SVFAyZldSR09BUFI3TjIwTE53LTJocHhwdFZEczVaRnNfdnlnbXMtdVpaeUZnUEU2RHVGdTl3a1VaV2d3WlIwSWJYb1N6WXFaQjl0Z1ViMlFfSlNrNzMzQlFHNE5VSmkwWS1XeXJ0RFVOX0ZjR1NtZkw2ZVJTcF9jN2tzUGdsa3otaXpSTmZ3Y3hnSXVYVUNwcW5obzdNTWpMdUh1cG54UDhuV0tWcE8ybXg2RlYzeUItaUdnSlN3OFpR0gGEAkFVX3lxTE9VUnoteGhYWVhWdEgteGFHenlNbzhpMTREVHJ0RWFFamRVYkUweUtpVE1OX1dyRUpqdzhiOWNsb3pqYjI2dkhFUnotVkZDeXlQY00xVkZkMFNEaDdnRzk3Xzh0em45MVdoZ1hEM0EweWF1U01TekhDMU1FTlFfNHUzR1c5M2VwZzhrU2tkRXNVeTViY2IxT2F3V3lCd0dLLVVQMXZ6bFd6NlRUeVhHMGxnaFFYV3Mxc1dTeThMaFJRS196VGRFYnEzNFZ0X0wyLVM4M1FTSnZ0dElXcVpWRmRNbVU2dW5tRXlFOHRiOHU3bWZXdVB6YVRMV3Nld1R3V0hDakMt?oc=5",
           "claves": []
         },
         {
-          "fecha": "2026-10-05",
-          "titulo": "Entramos en Prado de Somosaguas, la urbanización en la que Pedro Sánchez y Begoña Gómez tienen su vivienda habitual fuera de La Moncloa: con control de accesos, amplios jardines y pistas de pádel - Semana",
-          "medio": "Semana",
-          "enlace": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQN0lZd1FodFZvVDR1ZTlJUjJzWnA3RWhCX2FZeDVNMkhPRXNLSllWSDRKd0s4TVdmWF9aYlJ1Vl9YdHVLbktvSm1kQ3YzT0VfOFNtWmRvdUwwTWlYUDBkS1RJTFlFd2Z6OTE2djIxVGxhamFjd0I4WEg5M2N6TDBSM0pVOVp0dUZtbENDVXlzaFMwbGM4TWJRVGVxR2l0dTZGdm83NVVFT3J4VnFlSDNueGVxS2t1SWlqSnlSTVhhTFBYN21NaGU0Q2xDZjMyTDNiemdjR3FVaHhURVFKQ0FiNlpQZjVOR0xJeEdBdjlTSy0xRVpybnJ4ekczd19pS1FrODRZN2FZWmdKSC0zRWhqS0wwOGwxWDVPOXBFRHZfdw?oc=5",
+          "fecha": "2026-10-12",
+          "titulo": "Pedro Sánchez asiste a la Fiesta Nacional sin Begoña Gómez, entre abucheos, el caos desatado en Sol y las elecciones en el horizonte - El Economista",
+          "medio": "El Economista",
+          "enlace": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOdGtLRmN6aVhnZ2ZOR2ZxejMtLXptR1JJTDhLc0UyTTZObG9pXzVqTlp1bDJoZGlMTlVmSWxQZ2ZKek91WnBNeW9VSUpCRGtqcExGY2FrU3NfdVRKUnRCLTBIcE55cjRDZVlISFBka3I2Z2VBWk9aS3h0WTVwNHRzd0RGTmxjOG16YTkyU0toTFJvc3dsQUd5bVh2em5GVG9TS2VaWHVTOWdBa3lyR1VIWDRGQzVsUThHdWxoWUtLTTh3Wk56VlpfTXJiT241U3F0eVRTanJPaGFkNzVwYVYwX1gwU0dXRk0ySUhGVklHMTB1QXRSbTNxYTI2eG1OTGdXWkZQbTZDUkZ2OGllUDJrREtuOVN3VjNyam1HWjE1VUVhYXBtZ25iY3dZcGRucDDSAZoCQVVfeXFMT0Y4dUZ6Y2pGNmw0elZXUVRYTEh2ZWtSWWhSMEUySGdYNGdiUW5ZYktQUHRWMFJ5N0ZfaUdnOWRBaTRQeW5WX25ET1lXRE1ZN2FtTk1QNFJRZnN6cW55VlJoUjRzVGJyQ1Bxd0RqTDhkMmRlQlFFZk9GdmpuRzVtYWVIb1hzUkljc1VteTEzLUdWTllYVTBJWnktOE9INUZTRFVLS1FzRDdlZjVFOWNOU3UzSDhZdGdCWTlmV1NVczRReGlBSEdvLWxjM0hhTUxOemplN3czVEZWdjZOdDUweXhyX0o5MDRlUDlOVmlqYXloUFlrdlZuQTVBMGxxTlFUN1ZuRkQ0Mzcxcnh0d21xek9CX1B3cHhZOV9R?oc=5",
           "claves": []
         },
         {
-          "fecha": "2026-10-05",
-          "titulo": "Los casos de corrupción que marcaron la era Sánchez: de Ábalos al caso de su mujer - Artículo 14",
-          "medio": "Artículo 14",
-          "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQS04yVG5lSVlxY1pvcHQ2aEFIZW5sR2hFQWFlYWRqTTc1Y2kxZS1iOW5wSk42MS1tSC1tSHY5MzhGY3VVQ0VyWGE0R3ptY2JUaXhjR08wMjZkUFBodTUyMWlRV21SV1M1UlE3eHhxbDlBNWxiX0ZPelpub0xoQnJqVG5xeWd2OE1nNDZPTkx6cjVfRUVvVXItbUZMRUtXOXU1Z0NOOHFkNGNoT19yNWhhQVdfNE1Sa1RZMHpYVEVRTUV1MXFMdURMV3hn?oc=5",
+          "fecha": "2026-10-12",
+          "titulo": "Sánchez se refugió tres minutos en su coche ante un abucheo masivo - Hechos de Hoy",
+          "medio": "Hechos de Hoy",
+          "enlace": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUU5kOE0zYTBXLWppYVphdkcyMTNBUHF1Q2l2eFJOMENRZnZXNFk1TlNzVzlPWWhiS251REktOGpwdExJSTk1X0hzemJWa3h3SmtKOTcwNFdjeDl4OUhlZFIxNUtET2dZc0VHNlQ5eFlsSFVTd0VKakVJQ2k3SllQUUtTMHlsVnQtTDlILXRFb1A5NnFwNlE?oc=5",
           "claves": []
         },
         {
-          "fecha": "2026-10-05",
-          "titulo": "Una campaña con otro actor en el escenario: las causas judiciales que cercan al presidente - El Correo",
+          "fecha": "2026-10-12",
+          "titulo": "Sánchez se la juega con Pilar Bernabé: será la 1 del PSOE por Valencia para las elecciones del 29N - ESdiario",
+          "medio": "ESdiario",
+          "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSVF6S1FDN3JFVFJHYS1WWUxTRWxjdDJwU3JXRlFBcHVZNjlHTUFadGlSNXQ3Z0lGRko3SWRSWGlzNGR1aE1LeDFweDBwb2lVUnFIQTRaemZUaWVlRW9HOWlhWGptQk5hb1NlaS1KcmtEd1pId0dRY1hBMlpOSjZnRGtFOVFSY004MTFsLXZieDhCeVpRU3VkZVdKY1JGLTdiMW5ZY1IwNnpld25NMGRxVFVid3ZRd9IBuwFBVV95cUxQRXY0ZDJnYXNpVTNTVU1ra19sVTEtOEdYNHNVMVZua281bENlVUZSRWNrVGNDU19OaFR4Z1QzU3Z0d0Z2WE1iNzdqM0Qtc1lsLWRvenk5T0txOE5GU00zVnJxRnFXaFA1SWdDcXI4aTZqT2EyWVZucWtZcGZCRDAxUm4zU3VwMklfN09peWNvdE9mY0JEOGh6b3lhZldtN3YzWWJ0MU5wWF80VVRzZ3JzaTY4V0FYMTBZenpZ?oc=5",
+          "claves": []
+        },
+        {
+          "fecha": "2026-10-12",
+          "titulo": "Los mensajes de Begoña Gómez con la Complutense que delatan la participación de su asesora: \"Iremos Cristina y yo\" - Libertad Digital",
+          "medio": "Libertad Digital",
+          "enlace": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPd2tJdUUzYW1Ib3BjRE9GN1d4OHByQm9kU0VnR3dZYVRIOVFkd215U2g5ZHlNWnN6bXF1Ymt0b3JGQ3E4WmhUTEtDOVZvNlhIUmFSUWJCVVg2TlB3TzNpYTg5WmdWQ0lCS2JLUTNYQW1RWTNSV2ZBcWlnQVFyQi02ZGd5RGVSUXpXeGFJTWYtR1ZQN0tTT2xYMFVJNEtFM3d6bS11cGhNX2JEbllwRWRDTG8zZ0xLejlQekdEamlaMmVQcjdTd3NIWW40Qi1mSk1ZVXFIRW5hSm4xNUxKS25jSHZDVThkeml1RGdWLTkySV9uTXVjTXhqdGZtMmFCZm_SAYoCQVVfeXFMUEUwejV2clF6WDRQRElCSVJZSzQySmxmcWREdFdrS256T0xYOGZ4OVdMeGxGNzZ5dUgwWlFYUkZNcFMwZ3FXN0xjalA3MEJ6VU4xMnpiUG1MY2pQdEgteW11NHZzRnpodDBnRDhHZTN3QjJ2SzNGYkdOVjhQV1F5QVBJT1RlU2doRk5fZGtNdWZnU1B6YTd0dEZubmJtUWNVNlctZWJUa1hEOVVfNzN0dG1kS0syNzFONzU2RTMzcWNNdkQyWmJaR25aTWJsZHpBY0JUdnJyamZ6a04xdG4zSFcyQ1FleDlEd21NNnBEc3Z4WE4zclJULVdkUkgxb3hpa3UtNWROaG1JdHc?oc=5",
+          "claves": []
+        },
+        {
+          "fecha": "2026-10-11",
+          "titulo": "El adelanto electoral libra a Sánchez de un final de legislatura marcado por el juicio a su mujer - El Correo",
           "medio": "El Correo",
-          "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYmFJTy12cHRKdjg5Sjc3NlRWeXV5cTFkUmppVzFmVXZXaC0yMkJ6ZHVlSm5yNWphdTc0QW96Z0VZeVZFYUo3UnQwVTZybFFQbkJFYThXbEw5a1Y2LTBxeUVRV3dYcXk5eHJ0Znp2MXFnWjU0WmVrNUlaQmt4N1dSNkJ2cUU2R2ZCVGVlUFRXUWtzNjNOeHZCVG8tNGdaeXFTdW9LWnlXVnRiN3hlZGw1VVpzTG9jV3RVcFHSAb8BQVVfeXFMUFZab1ZFeFB0eS1zSGtjVElSbE9JQkg5QVlQY1RsVTFEeDc2TUdrSk5NUGVVLXJSeEZlOHhyTFRlVThrcEJveVAtSnFvZWlyelVMOVp0U3ZVOFRidXIyeGVyaEk2Y3lOcHVaMnV2WUVPemI1OGtwdDRicU9jSUNBZ09tY1ZvNl9VcERSNnZORXpnRnRNendWekppdHNJOEFRLVBJcFBtbTFsOVJPV2t1TDUzRXVHc1dfaV9pa3JSUUU?oc=5",
-          "claves": []
-        },
-        {
-          "fecha": "2026-10-05",
-          "titulo": "El cerco judicial de la legislatura: de Begoña Gómez a Zapatero pasando por Ábalos, el fiscal general y su hermano, David Sánchez - COPE",
-          "medio": "COPE",
-          "enlace": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxObU9COHBidmVEa1RyTncybUd3Q0htazBmYXVnMzVTWFJBX0dJVEJTX29RQzZIbXdETjNaOEl0V2pINDh1eThxeXUwU19SRUdkY1JpYjNFbDl2QUFvWEsxSlZmM0VjZ1FVNUY1VFd0aGlaNklueHlNYlhIczBiTl9ZMThzYVhXWG1wdm5oR0hJYmwtREd1b1hSOVZXRlZPczhlZ3JCMk1ySTFmRnlOOVc1YzF2Mmd3T3RmZkw1X1dWS1lRVUdmaFZ3ZEhVczJ2ZXJlLTJsSUEzWXIyWGtxbUNScGZkXzVUNWNRVEFrXzRhd3hjQzkxQ1hkeTRxcnJfd9IBgwJBVV95cUxNQksyblFHUmxKU0N0dVBZT0VZa3oxQlN3OTZGQlRGZVQ1ZTlHei1yNVE5RDIzczdGUWRwWUZrQW9rVzlDazY4eUlJVEJmZ0RyUUkzQ3FhNEZKZlU3WkJPdFJrMWpxb1VzRzBtQW5UeUFTU0FlbnNsWVN5RV9MSVk2VHdheDhfaTgxM0xYVERaM2txZ3VGbE8wMmgxcTlnMk1kb19PaXpoUWtPWUJqdi1qUzhDR3ZxUklRMUlmMGJWcl9sRnVhOVIxc0JOZ2JOUVFXWTlhb3ppR1FkUTRPRC1qTmxhS3hRcmJpNmY1RWhIYlZMNEJPNjIyWG9lT0syXzJ1LVBv?oc=5",
+          "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNVV2cHItT0VTV2pySGRzeWM4SXVTSlI1ODdsZGNhcW5WWUQ4THlFT2hWcjdXejRCX09Scm91TlNwc2tSYVZ4T2dXWHEzNG9FblltY0FpcS1HeEFEOXlwSF80Vkx3WnNXSWx1VUZCSGJLOENmdUFud1BUMldkcUVpYjlqTGIzVTlqVkFpb1hWZDhNQVhHZVo1bmRJemhJeGE1ekdzczh5VzJBalnSAbABQVVfeXFMTWdUYWpRYWUxMXNNQW1CNllnS0VGdzEyaFU0OGtESVZDMWFQOHQ2S2gyaGpRVHNWVXVMWC12REQ3bmMwSWJma0NxYVBhTkdDWDZOb3BLZXBMSE9Kb2hPdWRLb09mbU5fV1JSMERQdTc3LUk1bkV3YW5MSnlNaGxpX2lPR3d4a2ZUSW1ncVM4Yzk0Wi1oQy1VUHRYdlkzYjFEY3dFWkNQS2cwS0NyT0F5V0E?oc=5",
           "claves": []
         }
       ],
-      "ultima_noticia": "2026-10-05",
+      "ultima_noticia": "2026-10-12",
       "posteriores_a_revision": 6,
-      "revisar": true
+      "revisar": false
     },
     "david-sanchez": {
       "consulta": "\"David Sánchez\" hermano juicio",
       "fuente": "google",
       "noticias": [
         {
-          "fecha": "2026-10-03",
-          "titulo": "La jueza que investigó al hermano de Pedro Sánchez declara este jueves como perjudicada en el 'caso Leire Díez' - El Ideal Gallego",
-          "medio": "El Ideal Gallego",
-          "enlace": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQNV9aLVpPb3pQcU96TDR1dGFlYzVCdkdfeHZZYXZvX2hUYkE3dTc1d2NQLW96bjRqSWN4bWZZcWtRR1VNR2NMelNvaWRkbHRXbm0xOGo5R05IbElNQTg2U3JVLW13NUZ4V1Vnb2h1bFl1ZWNhaG5WdTVLRFB6V25GWmNGU3hlM2lESHpxek9TR3hjR3BySFBtdW5BM2dHSnVGeERneTA5SER1MTdBM2xnTzY5cms3bVY5b25nSVVhQ2RlLU5lTWEwUWwtOVlkUkRMSE1oNmFyeDRkNTV3OWlhN19hUFZKXzlhZFZTNXItWm5GRjFzdGRZclJwU3RBb2U1UEpUeXMtcURSS0JvX0E?oc=5",
-          "claves": []
-        },
-        {
-          "fecha": "2026-10-01",
-          "titulo": "Leire Díez quiere apartar a la jueza del 'caso David Sánchez' al no considerarla perjudicada - Diario Córdoba",
-          "medio": "Diario Córdoba",
-          "enlace": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUm1FelFMNzBJY2pGWlNocGRLbVlCVktMYVBYMUxGYkhVMThNTFZabWJEWlJacUIyRDRCR05lTW02emxuLXY0cElQZ28zT0NfMFN1dk9INEVCTmhzVEptc2IzeGp0enFzS1NBM2xqbU1PUjJnMWJZb1M2TDltaXhnNGdhTWNTUHVUUEprSEh0ek0ycndkMlBhY0tB0gGfAUFVX3lxTE95NmRVaDRFdGh4UXdFS05oUkdoR1l1eGlpZjNEanNCR0JpbUJrZ3Zad0xnSFZiTEdBcDc5M0xqS0xkWlo1bWdpTkxmdERrcXVRZXA4dGRTSGo5QjR1aE5zclBacnVSYW1GeHI4SEFabzI2cG0yN0haWFRWUm9YMlFNa0xEOFNLdjBEME16amY1elpwZEpkUWE0cDBYNXc1dw?oc=5",
-          "claves": []
-        },
-        {
-          "fecha": "2026-10-01",
-          "titulo": "Leire Díez recurre la personación como perjudicada de la jueza que procesó a David Sánchez - Diario Público",
+          "fecha": "2026-10-09",
+          "titulo": "La Fiscalía recurre la sentencia contra David Sánchez al \"sustituir\" el relato de los hechos por interpretaciones - Diario Público",
           "medio": "Diario Público",
-          "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOOTBWN2VGd05wcDlRMVRjU3J2RjlBVVhLQ3Y4WE9hYXJZZUtxXzhuREtCczlrQTFQVmJHczBHT014a0lrM3dkYkhaOFZUWnFCR09rOGJfSlozTi1SNTMyZjNVNjlJWWg4SDItWVBEUmtlZEhRczV4UlA5SzZ3ZzA3dE5VWnhjUWlsMHBTLWpYSFhRT1lZSzNaajZkZG9QZWxHVFNFWS1LQllMaFNab0tUbV9SbS0zQWRFY1HSAb8BQVVfeXFMTjh3VFN1VGVycldac28wUWJhRW1aNV9raUtHcExUUUJLUTNEcl9FdzlEQVViXzdBUGtnY2F5X0FXZHdTNUlCYmZvY3U1elBpNU5MaVp4Y01MLU9WZkZZZmlFZzhka0tEM2M3V2VxOXVoSFRDa1ZmMHVvd2hSay16MTZWWEl1SlJSel9WSzdOb243NnpLaDhxeVVDNGdaZEhuN0JTcjJydWxEUVdydlI0MEhUVXYxRUlfN2hmdGNJd2c?oc=5",
-          "claves": []
+          "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUmFUVjd3azR0ZkpyT1ZudlQwenp0dXB6bExYTGJGcjZWSlFIVmZxSm1wS3U5dzlaNVZuTk00X1R1X2NyUGhZZmtKbmpmRzdIVEY3NmZzdVJ0ckFtcGgtWmFSY21BVERnN2NYTzZvLV9ZSTdOdjlQOGtvUi0xNFh5QktldEVvXzNmalF3c3oyZzZINmM2MzVYZnRhVXhGVFBZYlg1OFk0VWp5U1BrZks3NFJhZUxDTXNGdHZpd3VGVmRoQTjSAcgBQVVfeXFMUDdCQmRtQ1RVSi02bkM3NDhyZkQweEF4b0tVbndsTV9FcjRqRXFuLWdvUGUzS1VEZGFkRS1PbWs1bDJBVGNPU1BET0NiSUJlSGRKbFRZNnc3Y3JXQlB3S0pyeWZlRGdSMnhIeVdSTjU0SVVQVWJYdG5WX0c5WmdsWjQ0cHp5eXZRNC0wQXVnVWlSYkNaQy03WEs3aVdyenF2bUY2UEQ3dVZHNnlrQ0Rid2NsS3J5bVY3S1NiSGp0WHp6ZEllWk5scDE?oc=5",
+          "claves": [
+            "sentencia"
+          ]
         },
         {
-          "fecha": "2026-10-01",
-          "titulo": "La UCO estrecha el cerco por la trama de Leire Díez contra la jueza Biedma - MUNDIARIO",
-          "medio": "MUNDIARIO",
-          "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNYmZUODRjS0Y0bDlOZG9BbUxmd3pZR3JESThNX3hIX0loUE9tWmUtRjdDUkM3cXBhYkJVQVpvQTBhZ2E0Mko2WEdmcG9Kc1U1RnNhdW9Eb1E0NVkwbmFLQlpLVlloT2JEU21tSVQzUzVUWmt0WEl0T2tCY1BoRHNYVmFzTVVLQ2RDSC1mS0ZKLUp0bmFPZEVNcVF4elN0QTBvVGpWc2xHUEZ3Q1ZHRHFTd2VWVllYMTBBQXhjU1dadEhPaGxNM0VxclNCY1ZaaXVxQkpBLdIB2gFBVV95cUxOS1Zfak5QOXBtYjZJZjJuQTdKdWoxaERKWW1SajBTVTlzdmlRMUJ4LW50eDJVdW1CM0JjU2JwX2JZaS1xU0s2OGYxQTEyVVh2enJnZUJYSmxGbzZNdm9rcFdMNlpvS2pzT1NjMFpzNjlQblRWczZIVTRrXzhQejlvN0JkT0cxVXZUc0Rza0tlU21ZQktkM1JjMm0yRWNWaW5BSlYyQnZVd3BQU3NMeEdUUklxdEUxRkhpdzBGbmo0dUFjMzRNTGpVV2IyZk9pMTZZczRpbGJaS2tMZw?oc=5",
-          "claves": []
-        },
-        {
-          "fecha": "2026-09-30",
-          "titulo": "La jueza Biedma alude a un crimen a tiros en “pleno apogeo” del caso David Sánchez para pedir que se investiguen las maniobras contra ella - elDiario.es",
-          "medio": "elDiario.es",
-          "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQU5uSlRHS0xPOC1zUFVmVkRUWlRpUDFtdU96aG9wcmxaQ1p2VkRlUUQxbmJYV2ZhSk92VHJCMVp4Y3RrUnVkME5qMHk3VkdtRUpXQU9qa2ZMLWRaOHlZZFRKSmRtYkcxRUR3SEZ4TjVXbUpqcElVWFVwYmlVZlZma0RvQkRsd0k2ZmtkblpXWVBkMkJUVUtfR1d6Uk52US0tXzFHbXFLTmlMVGd0ajhsSmdPOS1ocHpuN1gwMGdxWmxvdE1ZcTgzR05EcWVQZ0t5bTduc1ZMWdIB3AFBVV95cUxPOG11cXY3R0tIeHgxLWwybG43dk1tOFdJcEd0M1k2VmhVamlvaktkQTlpeXBhS3JwMlJHZW03V19ONVc5UzZ6M1dpWlVuQnFudTM3RHJkN1lDeDlwbVRkaW54aE5XYTB6QXlZMXRnRFZBNzBPQkpxWkxKcE9EdjdqSEdLcmxHbXhVZXFva2p6cldqQ2ZZZTJjZDBqWndMMGlhRF9zNi1TdlN1akdBVElnWWstb3FEdHhuWUFrSWpRdy1oRVBucUkwUlBoNGl4UGJmcExmTXFybGtTY1ZW?oc=5",
-          "claves": []
-        },
-        {
-          "fecha": "2026-09-30",
-          "titulo": "La UCO interroga en Badajoz a una testigo de las supuestas maniobras de la trama de Leire Díez contra la jueza del ‘caso David Sánchez’ - EL PAÍS",
+          "fecha": "2026-10-09",
+          "titulo": "La Fiscalía insiste en la absolución del hermano de Sánchez y de Gallardo por falta de pruebas - EL PAÍS",
           "medio": "EL PAÍS",
-          "enlace": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOdndtVThKZlFpRWFCbEVRSkFrNHRLdVduWUZUYVdodmtTZGxUSE4yb2N5YlRkYkdOblRPcDNGLWRxOGNqRmhIaE1GcHZWQzJONmdrVmtfTF9hSWRKWndMb3BhRWI3RU5OdldCendza2tTTnZrODl5UVBSSnZ5Y2xDd1Y2SlFSNVRqbjBiME5DdnFvU3RYdXE4SXQ3d3BOQWROaXZpcG5iZXRxa1ZuOTEyQk5FM3NPYm1FQjZPUm0wYjh6NHhZenpaeEFlMUJkeG9tTC1RS2QwU0hDb1BzdzdPYkFmNUJHdi1GZDltMkZHRlM2b3BPZXZtYkVaQXpLZXYxZDhOU0ljN0JrX1N0T1l3Y3pR0gGmAkFVX3lxTFBUWVg1WjgtM18wV0diX3VIZHJWbFozVV9tQzdwNHZGVzIwSGtINmtzcGNleHdUSVZWS1FwR1JqZVFmdk5NcGItN3QweWc0a3NWQndsZUd2bVFoU3JSMTNOMmVzbC1IVFpoT2pSajA5c25PdThkeXlVTDBzRU5SNldjS3c0QlhKSGk3Tlg3LWtSdkZwZEpRQ3dleUJ4WlN3WWRKN3FVdThjZGZrOF84UDhwdjg1X3VTWFlKWFJjZWRiUHZsMUNHT0ZqdVZ4OU1ndVlfbW1LX01pZU14clZ2ZFFSQnhOZHRGeUNUVGNUSF9UOUV3WkNWQ3hOSnNMd0hDdlcyTTh4V2duajZFcVpNcXMyekFXOTUxREJsdFE4Nno1N1Z2eXJ4Zw?oc=5",
+          "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeUNGMnFfWXhnZXNPWXpJMW0tNkMteUsxLU9IU1dWYkRFU2pfZkV3VHBzX1c1cUZIdGJLNHYwOU5raTNMd2xOakVKZi1xQUlUUFZqSTdMTS1KUHpfbWYyd0JqUE9RUm9rNS05S0JMZ0tIMHYwNDBiV3dsU29IQ1VTTS1IUDJVamRKY3B1WU53SEg0dVdhTEN6ZElON1hicXc4di1LbFpBVzdfYkU5UkxuQXRZbFVOcnhvYndLRGZEYXMtbFFob0NyWmpZN2NYZjJrUjJyODZ30gHqAUFVX3lxTFBnM3Nic2MzU1NlRnhsc3FLclNXZ2lYU2VlWW5QWGRLOEw0Sm9Kc1o0TU9zaU5SSFEtZEhiUGNSclNvckNTbEdFWFY4Wm1oSnNIWHFZb0VBVF9GX1dOSE5hT0dKUzVvd2dPQ0JmR2FROER0V0RndHg4NmJfa0dRTl9lYzZtNlRqN2NDdmpiczFKemdzNm9NZjR3Qi1BdkJ1dmxicnFwSjBlYXJXZVMtNUVyZ1h0Zk1nRThEcFFLMkM0NGFqV1BwRnhJMGdnSk1hTHBpNG5KZG1OX0FPY1JDU2VZVTFZd2NRY2Fxdw?oc=5",
+          "claves": [
+            "absolu"
+          ]
+        },
+        {
+          "fecha": "2026-10-09",
+          "titulo": "David Sánchez, hermano del presidente, pide la absolución de la condena - MUNDIARIO",
+          "medio": "MUNDIARIO",
+          "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOajRDTnJVenBlSTMxNEdocDhnTjBlMTFZNEh3WGkwZlBiMXdvS0twV2NGVThuMWlCYl91VUx2bWZhVklUQUhKQ3RtZjVkakpYRnNVcWtaZ0xwM1ZCcm5zcGtEV3o0T0tKWmxLQW5mbkxYRGlfaXRBZFI1RkpkRXgxVjViYW1VbmlvbnE3VWRUcGllRm1QaUZEckE5amdOTllQOEdiMzFyMFdCOS1ablJqZFZkQkZQamh4OFBWMWhMYlRySDNsZmRIWDd1bmZGUUlZNVplZjR3SUN2QdIB3wFBVV95cUxPRndVQmxfbm15VkJGM0xlWkY0VkdtSkNUdV9TMk8wSWxEc3l3NlpXZm9ZYmNFZ2JQYV9LcGhJS1dZVEtvWWVBWk4zbE9DdTdCNWlLeWNlU2pFbjZOUWJ4TktNS1Y4ZkFyc1VtVWhEQ212Nm0yUU9aaURXM3d2bEhnanB5SmZjSUlqNkROcFZGVWxQU2lkRkFNbFUtdE1yc0l0VUZEaHpKRW95MkRRbHlxbkdhTG9PMVpjSUVzdk4yTm5PNzdhNkFyd1ZVZDVDaHVNc1RVd2xWaDlnbDhiNmc0?oc=5",
+          "claves": [
+            "condena",
+            "absolu"
+          ]
+        },
+        {
+          "fecha": "2026-10-09",
+          "titulo": "Biedma, la juez \"perseguida\" por investigar al 'hermanísimo', se negó a revelar su \"angustia\" para no enturbiar la instrucción - El Español",
+          "medio": "El Español",
+          "enlace": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQb0JHU0NxNXFoVWRsRzVSWHN5RHNEVU9VQlYyc0tWUzcyZlVaMlpQRW5OdDBRSDV3Ukt3TnhEQ0NRZW9WQTNvVFdPNW9WNVd2ZGRvdC1NRXJrTFZycWVXLThHaEV2YmhkOXRoRjJaMnpUYTNNYi1yWU03TVV6SUh4VS0xb3Q1OXFKbU9QWE5RWmUxRWxxcXhDNjJmdjRuano3ZEYwNWRYeEszUFNiTTdMeXhVWnd1V21hZDFlMWI0ZnZqaHhSOXhnM3BrZ0h1cmVHNVUtWFcyVGNqZ19zTkdkbTIzRlBwNENNSFhtZi0ybE9Ka3hBa2NKVU530gH_AUFVX3lxTE1ka1ktSUNPNzZjdVBRTFVVWlQ5V24tdG5ubEVnNkJwQlUxbjJaVGhHOTVjNmtfMlA4dUZKaTM4N1I2WmpmYkxPS1pjR0lhZGRwdzE2Z29lQ3pQM2RjbDZuNG9qQ19FM0xsYWRYSXREekJhN05SdDI0MW9zd21PLVcxNmxDYjRWWUJyRnAyTjhtbzlwdEZDSnR6ZXNnVVVlOVNaSkhIemFBNzNOQndvYkFrbWdUQUt6V25QTDdSalNYZlFqT0EyYUMzSlJSNEpWbkdJN0E1dzN0VnhscGg2OXoxc1VfMTRHTmVJbzNNc3lzSXhtMnlCQXV0VVExWnA3RQ?oc=5",
           "claves": []
+        },
+        {
+          "fecha": "2026-10-08",
+          "titulo": "El hermano de Pedro Sánchez recurre su condena por investigación prospectiva y reclama la absolución - Demócrata",
+          "medio": "Demócrata",
+          "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNTlmZGVoRG1YbnJaTGZaYUtBYUJHM2FjMjRFSEFGWVlIQTc1OWptQVNOcEItSk1oM2pwMm94dDNBT2VnQUVYVlBxb2V1OVZJdVcxeW9qdENjbkFTeklPUUE2LW0tbUtnOThibmJGRXY4NHJ2cjc3RkdsQ1ZhempRN2k0WkplR3ptRnlVVmtFOE9PY0x0NUhVRzh2elFzQ3l2NEFQcVVkaWMwX1lhNmRNM0d0UzdxZ1FEY0hwamtnVkFKSzB6dlVrVjNrdEVTRjZUODlB0gHYAUFVX3lxTE84MElWb3FYd1dCWXZrT2kzN1A0UWhKdGcwaXd1Y2QtcEdxZ0lYYzluSXVuWjI0dUplUEdkNkJFRGpNR0ZEVGJ6RG9FVjZPZDJFMkdicU9OU1dVTTMxQzIzTTRRc0dWUVlNalROd3lPcTI4TFBRcEVtX0QwcWJ6X18tNHlYZjA5cVh0YThLaUQwOWVBTmFCaHlBeHRCbUJRa2p1ZjZmUlRFci1tYThaZkFMaERxWFV0NFRNTGxLSzl0dnBTdDZiVGdqVzF6UGwtcHpNWlVuUWQxSw?oc=5",
+          "claves": [
+            "condena",
+            "absolu"
+          ]
+        },
+        {
+          "fecha": "2026-10-08",
+          "titulo": "David Sánchez pide su absolución y denuncia que se le investigó por ser hermano del presidente - Deia",
+          "medio": "Deia",
+          "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY3l5RkFIVWFmVU9KaVpmOUx2NW5tb2FBWEdlZ28xQUlmcVJQRUpSV0tpUTRCcEhVMXl1aFhfbUVIOXc0VTVNVnB1bzI2d244V2RRMV9MS3NPWjFZS054Z29Ydjd3NVc2VVQ2cUNUVnhMdURSSzJXaEVNU2x0VXdJVmJraFBrVUEtWDhSdjhPdVpFNTFCT2c4bdIBngFBVV95cUxQTVNiQzhRU0tLVGtaT0ZEcjY2cWVacHY0amx2NDlEQWR0TjZnSDN3aEs2UzRiWHhUVDFNYXRsc2ltbGJBZEViWWIxalJNLXVuenFqN0FwQ3RLTFhrbXRqVEpOU2wwdGNWcC1jR1UyUldQdV9OVExESHlvTy13RXVMU2xiMHhlWmcyTi1DOTdqbkNlZjZhYmNFZC05RE9SZw?oc=5",
+          "claves": [
+            "absolu"
+          ]
         }
       ],
-      "ultima_noticia": "2026-10-03",
+      "ultima_noticia": "2026-10-09",
       "posteriores_a_revision": 6,
-      "revisar": false
+      "revisar": true
     },
     "aldama-hidrocarburos": {
       "consulta": "Aldama hidrocarburos",
       "fuente": "google",
       "noticias": [
+        {
+          "fecha": "2026-10-07",
+          "titulo": "Rivas, el empresario leonés, niega que Leire le ofreciera un trato a cambio de traicionar a Aldama - Diario de León",
+          "medio": "Diario de León",
+          "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOY29qOXJxeDhwd2Z6S0pQOGRHNU1iSGlBVHl4b3JrM3pDV1hvQjhocHRaLU03RFI2V2lHYzMtcmRJSENSanYzQnN4SkNsclJLSmgxSWt1b3VUSm9fTXBRdDVqRnpaS1AxOUpEWEJVaUllZ2pTekhCVnI0M2tIRFBDa2lOUFdOOUZMMkpFRnRUV01wS281OG1RMlNRNVVpVnBkcDhrN3Fvb0xLVWFXYnlqd3RfSnfSAboBQVVfeXFMUEZoanFIc2dpajVBVjlKUTZZREgxYlZDS3JEeTJnb0dnNTZSODFDUElTSUJiUjFRQnVYclRXa1dMWDBiME5vc3ZCUFNlMmU1VUl3MzZPaWV1RGEyVTlfbDhzYXZKaXJmV1QwRVo3azNPMG5NMzVoM19rLU0zdnZQb0sxQ2YtQjhtYk9nNVVFZTZ5VkRwckZpaXdnb2xMSkUzemVzeFpkMWs3SmplRW1LQjM0TEN2cTlVa013?oc=5",
+          "claves": []
+        },
         {
           "fecha": "2026-09-30",
           "titulo": "Caso Hidrocarburos: la Audiencia Nacional rastrea en Portugal e Irlanda el dinero de la trama vinculada a Aldama y al PSOE - Hispanidad",
@@ -231,16 +254,23 @@
         },
         {
           "fecha": "2026-09-28",
-          "titulo": "Pedraz pide a Portugal e Irlanda analizar operaciones sobre hidrocarburos ligadas a Aldama - Tribuna de Valladolid.",
-          "medio": "Tribuna de Valladolid.",
-          "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMkw5X0toRzdzVTdDb0NEeTBXalZsMS1PMnREUDlsMmpuZU4zTUdsU2oyekw3ekZuY2kxQVhfYzdTQnNhLTVNMV9JYko2RlhNWW1uVGg0TVp2dmNPemtMNThlUGZuendWOEhsVFV0R1ZjQzk4dFkwLWlrQUZvdXBtMGV0VW9OODBJYmQ5alJpcXdiajJJdkdfampPRHVyU0tvWXp6RmpsTEMwN0owbldJQXN0dkl2V3hCLWstZ1o5SUVGMmk0U2s4UEVUQnpQdGFRaEhxS3ZjWQ?oc=5",
+          "titulo": "Pedraz pide a Portugal e Irlanda analizar operaciones sobre hidrocarburos ligadas a Aldama - Tribuna de Palencia.",
+          "medio": "Tribuna de Palencia.",
+          "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQa3pSaW12SzgwQjF4NVctVENCaVFuVkNuQkxMWng0N0IxWVkyaFp6b1ZDTmZTamZ3T05tTWptMnliNE9rbnBHemE3M01MVnh2QnpKR0ZTUlBZZU1ySmtoYXVRVEpPSmxLbEJIZ2NzcWRyVjJyZG1CZjhHYVJES3c1bHpuNExLbHVmdWZIdWhNdEZTS2RYN2kyOGViVVpOTmd6RF9nV05Camd6eFo0dWJqWHFyakVqR2ZZSWdCcEk3OFVvSE5WR2VhTm5RVGk2TFplcGdOcg?oc=5",
           "claves": []
         },
         {
           "fecha": "2026-09-25",
-          "titulo": "Y está libre. Caso Hidrocarburos: la UCO señala a Aldama por el desvío de más de 78 millones de euros a Portugal obtenidos por la trama fraudulenta. - Transcamion",
+          "titulo": "Y está libre. Caso Hidrocarburos: la UCO señala a Aldama por el desvío de más de 78 millones de euros a Portugal obtenidos por la trama fraudulenta., Tags Caso Hidrocarburos, Víctor de Aldama, fraude - Transcamion",
           "medio": "Transcamion",
           "enlace": "https://news.google.com/rss/articles/CBMihgNBVV95cUxQZVVvcUVZWjhSb0xfT2hNY0xMeWdXT0VXeFlkUXMwUFdoUzdEMDRsb2VVN3NsTGRaVkI2YVBseHNnSmx6aGZIdXgxbW1hbjlQUGtwSHJJVXMwQVVwWjFTT0F3SmNmNFhvRHNSYWxuRkZ3RmxJck95akZFZksxYVF3cUhKbTZGbUtMNHltVTJrS2x4eWw2NEpNejFNd2Q3bTFObjhMdjdCNXZXak9tOVVIVFhvVFVQNVVDOU1FN2p6X3JSalZ0aXRRLUtNdTA4NjJrbkVPaGtvczNCYl94Mm5sdjZqSVdtZ2w4YjdvaDhSMmNWOU1fNHRJR3VrVTNGaGtCOE8yeTIxUGc2Tko3a1JtMnl1Sk51ajVha0FtZ2VXSGI3U2lTNG56RUxCTVBCS2dxbHVlSjBQNzd5X1ZWVWZqTk1QOU96ZmpEMU8waEN6YWRLT3p4NFFTTkplS1haR0tTaUdKUDBWeDV0VkktMThQMm9hVGpYNFNMaElTUkE5QV81MHBMM3c?oc=5",
+          "claves": []
+        },
+        {
+          "fecha": "2026-09-24",
+          "titulo": "La UCO rastrea la operadora lusa de hidrocarburos que Aldama quiso trasladar a España - La Razón",
+          "medio": "La Razón",
+          "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNYk4xTjE3UFM5WG42a3ZGRV9yd2x2TzdsR0FSbGF4LTN2NjVvQ2NSU3hpdERhNVU2TWhNbTlwREJZZW4wRVJpM1FQajM5blcwSlVnbm1lSXRoLWI5eVkzOFRkV2RTY0RiZ1BuLUx5WDV2Rjd2blg4VnU2V1dyOXJCTzZWNklwQ3F6S013d3J6LUc5eFpIQ1Q4TFc0YnItY1BZM1N6WE44RHZicXlYM3ZzUzV2N2YzNU16VGlaZDBYUTRaRGpXUHFCUnhJamFIa2RRZ2VjVmtPYXo0d9IB7gFBVV95cUxNYjVKY0RPMG5zY2Etc0JpeVhhaDVEQW8wVnhaMTRxUnBDSW1MU1NwU0lYaDVrTGhGN2d5MGNmQldVZzZKV3dsV1FLeUE2YWhPYzNqenRLQlVOa2ptbm1LaTY0SHd6b1JBT2pYRktZMnNOc285S0tFSG5SZmRWRDdfREpBclpPcXdlV1p6eWtSSmlCcDE0MUFfZnhuVkZfWElwZFdxYkNuY1RMRFFDZEZlX0IydnNHNTdSN0RHN2NpcjdxTFlJSm1QOFhMbmFIOEszNFJGQlNpSFRJREY0TFNsTHlfQ2lnNFU4V0cwSV9B?oc=5",
           "claves": []
         },
         {
@@ -249,23 +279,9 @@
           "medio": "El Periódico",
           "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVnU2b3NzdlVPZHdYQlh0NGtQVjcyRVg3R0JwLXNncGxQdUxTUmI2VU1YVjh4ZjBaQ0hOX1FhTksxbUdkUHZKdjFjWVpoazh1TXZNQ2hWNjdfaVZxYm1pdFFQQUY2VXVtdlRPblpIR0dVVEtZOGszY3BvMFB6alkzb2ZUdHM3WHBlS3BKdDlfMXlWQnUyZzdGZjhoNlFDcHpxeUlRRTl2bkNsbmFoaUlXZ2gzNk1kX2xMbWg5SDMtRXVmUdIBwgFBVV95cUxOM3BQY0xhRHFyNGlGRkpCTm41d0o3MEc2UjViSnhjWWlvcUdSeXVTNDVNYkpPR3QxaUpvYTFtcTE1THlxZG5VT0hZNTVwV3dXNFAyZGdMZWxKVlI1SGp2ci1aWTlaQjFvR25rWGF4NWMtUkpZM3ZvaUFycHJYYVRYZUxpNmpEenJlNWtQSTBtdUV6T2JKVWhLRXV4ODd4clFtY3Z1djF3Sm5KSGpJU1dOS0tqdlR3T3JKSXJid1QyelZUQQ?oc=5",
           "claves": []
-        },
-        {
-          "fecha": "2026-09-24",
-          "titulo": "La UCO rastrea la operadora lusa de hidrocarburos que Aldama quiso trasladar a España - larazon.es",
-          "medio": "larazon.es",
-          "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNYk4xTjE3UFM5WG42a3ZGRV9yd2x2TzdsR0FSbGF4LTN2NjVvQ2NSU3hpdERhNVU2TWhNbTlwREJZZW4wRVJpM1FQajM5blcwSlVnbm1lSXRoLWI5eVkzOFRkV2RTY0RiZ1BuLUx5WDV2Rjd2blg4VnU2V1dyOXJCTzZWNklwQ3F6S013d3J6LUc5eFpIQ1Q4TFc0YnItY1BZM1N6WE44RHZicXlYM3ZzUzV2N2YzNU16VGlaZDBYUTRaRGpXUHFCUnhJamFIa2RRZ2VjVmtPYXo0d9IB7gFBVV95cUxNYjVKY0RPMG5zY2Etc0JpeVhhaDVEQW8wVnhaMTRxUnBDSW1MU1NwU0lYaDVrTGhGN2d5MGNmQldVZzZKV3dsV1FLeUE2YWhPYzNqenRLQlVOa2ptbm1LaTY0SHd6b1JBT2pYRktZMnNOc285S0tFSG5SZmRWRDdfREpBclpPcXdlV1p6eWtSSmlCcDE0MUFfZnhuVkZfWElwZFdxYkNuY1RMRFFDZEZlX0IydnNHNTdSN0RHN2NpcjdxTFlJSm1QOFhMbmFIOEszNFJGQlNpSFRJREY0TFNsTHlfQ2lnNFU4V0cwSV9B?oc=5",
-          "claves": []
-        },
-        {
-          "fecha": "2026-09-23",
-          "titulo": "La trama de hidrocarburos de Aldama desvió 78 millones a Portugal - La Crónica de Salamanca",
-          "medio": "La Crónica de Salamanca",
-          "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQnRWa2J6djE4RUxNWi1wSHUwczJWQzFPVkZBdUk5eEJPTUlSRTBERVRldTQwcEg1ekNsNC03UGRDSjdrY1F3UmFUNWdEYzZCSUpiWjQxRTdUY0dHX2RueV9fakNKZE0zRU5pTFRjN3BsUGd3MGJvTWdibGgyYWw0bGFUbDJzMWNfTHNuZUVfX09pMmxQVE93QVk1QQ?oc=5",
-          "claves": []
         }
       ],
-      "ultima_noticia": "2026-09-30",
+      "ultima_noticia": "2026-10-07",
       "posteriores_a_revision": 6,
       "revisar": false
     },
@@ -274,51 +290,53 @@
       "fuente": "google",
       "noticias": [
         {
-          "fecha": "2026-10-05",
-          "titulo": "Luis María Pardo, presidente de Iustitia Europa: “Si Leire cobró del PSOE, el siguiente escalón después de Santos Cerdán sería Pedro Sánchez” - Infobae",
-          "medio": "Infobae",
-          "enlace": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPYXhzUXNuZHhFb3laaW5fVV9oU1FIS05Cakx3Z1dSX09iUUZUeExpOGc4dUY2WXMxaktCbG1Sd3h4WTFiZHNFNV9ZenMzNzkwb2hrZnI5X01sYXVNQmNyWGk4MWwyZGlfTnk5cFMtWjlid2hsOW1YYzh0M2duWXBnaUFGZGdNZ2ZIMWU3a3RMM1hFcmEwSm94YWxKY1h4NDhLZzh2UkFyMmNENzhnb1NJMWtESFBWeUZUUVJlS0E3RVpFWlQxaXV4bzFvSkU4R1lHNXBtWnhiX2hFQUhuOXhaakJiWXE5NDdhVEZGQUNBUFMtTXQ3Qk9qMFY2TFp6S0lMX0ZzUFJacUJRMkoyLXcxSkFONA?oc=5",
+          "fecha": "2026-10-12",
+          "titulo": "Sánchez se la juega con Pilar Bernabé: será la 1 del PSOE por Valencia para las elecciones del 29N - ESdiario",
+          "medio": "ESdiario",
+          "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSVF6S1FDN3JFVFJHYS1WWUxTRWxjdDJwU3JXRlFBcHVZNjlHTUFadGlSNXQ3Z0lGRko3SWRSWGlzNGR1aE1LeDFweDBwb2lVUnFIQTRaemZUaWVlRW9HOWlhWGptQk5hb1NlaS1KcmtEd1pId0dRY1hBMlpOSjZnRGtFOVFSY004MTFsLXZieDhCeVpRU3VkZVdKY1JGLTdiMW5ZY1IwNnpld25NMGRxVFVid3ZRd9IBuwFBVV95cUxQRXY0ZDJnYXNpVTNTVU1ra19sVTEtOEdYNHNVMVZua281bENlVUZSRWNrVGNDU19OaFR4Z1QzU3Z0d0Z2WE1iNzdqM0Qtc1lsLWRvenk5T0txOE5GU00zVnJxRnFXaFA1SWdDcXI4aTZqT2EyWVZucWtZcGZCRDAxUm4zU3VwMklfN09peWNvdE9mY0JEOGh6b3lhZldtN3YzWWJ0MU5wWF80VVRzZ3JzaTY4V0FYMTBZenpZ?oc=5",
           "claves": []
         },
         {
-          "fecha": "2026-10-05",
-          "titulo": "Las polémicas que salpicaron a los ministros de Sánchez se cerraron sin ceses ni dimisiones - larazon.es",
-          "medio": "larazon.es",
-          "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNd2VFYzJBSzYzSmswWnhVdGZkQzFwbzNpVzlWcWFhWWhEeWpxLUFDczhkQnkyY3pydlpMcU94VUJ0X3o2VmdlMTV4aV9qVzdlOTJKM1h4Z092bkRyTWh2YktjSVBiTHc3eWFuRHJZRmJaNlpQbG1UUDNFSkpuTVNwUXhyUG5jYWJiaUNqRi1PQXhjcFpYeFhqVHJFdVZKMDRaVG9PZW93TTI2SmhmanV1WEItUzBMd3BoWklGdVQ4dmJETU5TbV9iYVZMSS1pYThZNUHSAeYBQVVfeXFMT0tjZzAwa0Q4b3VOMFBNcFJYeExrSEUyVF9mQUUzNDNBT0VXc1luQUhnR0s0Qm5YbXNHVFQwcE85WTQzb0IzdjNWWHljdEhmLTVhM05PS0hodkJKODdNLWN5ejNhbEZ6LUJ6UzdQU2otU2lBLTFFLUdoVWFHc0ZHSjhSTXdSOFZWUFIwV051aURXQzEyTElCRk1xazk5ZXM1Z2V4eVo5anl2aFExbjhqejJEUk1OZVl6NmUxUlktMGU1WWdhWG5UMENEa3hnS1Flbm1TRGNWY2pRbmRXRU1NWXN2SWxXZ0E?oc=5",
-          "claves": []
-        },
-        {
-          "fecha": "2026-10-05",
-          "titulo": "Sánchez afronta las elecciones con la corrupción como lastre - MUNDIARIO",
-          "medio": "MUNDIARIO",
-          "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPOEN5eFNhZ0swZ0JHMnhVT181eS1aeXd3T0FhYmpENE1UendQeFdZVmVLY0pSajludU1UWUxxa1FWOVp0NURzbmJna0poU3pKbVNYcVIzdjI0eVQtV2FSUTdiOGdlV3BEamEzelo2WXFyMHNxMTZ0NVd5X3o4YTRYWjFRWkU3VXRKaUVEWGxZLUhhcXY1UzJvb3JkOTFZQ180aDJNbU5HU2pUNGNzRGI1TktFVFBPX0l2N2owSNIBwgFBVV95cUxPZWQ3NVJzaHljeTFsNE1leTF6MVljUWhqLWJDcFRLX2Q1ejNqSS1IVGxBcXlKYm5ROUVrUXp3V0FnOWRRRHFJbm1Gcm1Hbm5LdUowQURMbG8tWWt2ZnpzbHJTbDFCeXRuVWNnY1FKRjN0Mkl0X0V3RVV0dFdVYnZ6VHFOZkI1eFkwQ01CclZiNmJsNEY5Q3RwT1ZFbGZ3TVVKaXVjX3R1NGdKYTdSdGtfVU1jWndJRmp0MVZiQ214TlFFZw?oc=5",
-          "claves": []
-        },
-        {
-          "fecha": "2026-10-05",
-          "titulo": "Feijóo llama al cambio para cerrar la «negra etapa» de Sánchez - economiadigital.es",
-          "medio": "economiadigital.es",
-          "enlace": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQc3JXb3NGQlNENmg5UXJGdFAxMVRKS3pQdWkwamNSZGxvT2gwbXNtcDQ1ZDhhT2pxdlR6QUR4UmhrVXhWLUd1RnpwQ0pzaVloSlM1aTFBaTlEZElHRzN0UldIdVRncFhNZFJUVTZYdG5PUm83eFpMUzBUbG91WmlKRW5sUGpjRlVOeU5oTGR1QUxic1pIM0HSAZsBQVVfeXFMTjFLTElLdHJWdjBvdl9hRmV6RGRncExuNVJQaGt6RUpyRnRucVlkU0JGdl9nLXp0NzFadlEzTlBDLWlUeFJnRjFmZ2VuQ1ZVVU5nQTBjU0ZSMkhjanhBS1pDOHQwZEFTcml5ekRRR1B4c1lZcXBTLThHLWJHWmN4ckY0UGUtMThfMkY5eVM3SVpBMDM3WDlKV05vSUU?oc=5",
-          "claves": []
-        },
-        {
-          "fecha": "2026-10-05",
-          "titulo": "Sánchez se arriesga a que la campaña electoral coincida con la pretensión de Fiscalía de imputar al PSOE - El Español",
-          "medio": "El Español",
-          "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOSE1scVRMbE80c0x2bi1laE91cVpaUFF2ak91eG5jelVDaWdWZkctUFhOcm92RFg3My05LUdWaXBXcWFYOHBMQjVrVFJia3FhQU5WOWMzZ0ppUnpUT1JiTTB1QjhXWVJwelgxWl9zLTZsWEg3ai1SeXpHUENzMnl4RWZWaGs5OFVGNmVNejlvYXJQa2JIQlZPT2lyNkRtV0FSaFFWQUIwX3FiSGJKTFVaUXI1RDV2V3l4VWVSa2V6YmhaN2hEclJYWFR1SFJsWll1bXlvM3V4N0RlenhSQnBNVjdrWDfSAeoBQVVfeXFMTklvZnMtSnpxanQ1UFdqdzN1Q0ZNaUxyOW9QYVV0UWEwb0ZSQnFmMXpyZHJaZ3NzWEhuOXhSbmh3N3RVWFFpWHVkXzN2dEJMWFJlcnRwTkR1czMyQ0lXTE0xclZqSEczU3BXeDl6cW9SVXRsS1pNZGdJeHpUWFFYT0gxQTZKQjB6Y3JKMEhZallSYXJsblhGUk9CcGNCM1RtUVFYRmhSQUVWRkJrejI3aGU4dVNhYlR2a29zYV9xZGNQTWxnMDNLd252bWtPd3dCdVlOR2V1WG1fZGRnU0xtakFCb0hiQVdvckJR?oc=5",
+          "fecha": "2026-10-12",
+          "titulo": "Los cabos por atar para imputar al PSOE: las fallas de control, el \"beneficio\" al partido y los \"poderes reales\" de Cerdán - Vozpopuli",
+          "medio": "Vozpopuli",
+          "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTFRBaWZ5eFV1QnRzMVBKUm9mdXRGanA0eWU1YTA3dWR5aGxleXFBeVlZM3h1bjU2cW5KWWVHQTYtTnpFTGN5QXBSeHQ2TV9JcDFla2kzZTF0VGVyS3p0N1dKdjRLMUdxcEg2QU1JdFFTLXFRemxaWmd5YW51TVZua0syaTNLUVY5UE9rOVEwc0pBUFhWTERKQURDV2xkM0dxbm13THZtNXVMNldyLV9JeDVCclVjcmRwV19LUUhGSmFmUDAtcWc2VjhrR2ppX2M0SW1hemVGbWxXcGxIekt1ZE15UjNfM3YtWnBhWnBJRdIB9AFBVV95cUxPSHNBN2I0aF9aM002NndnQ2ZqcUNCMno4d1BBSzJONFpCNEo0eV9xNUtTc2h4SURmNkJQclBwTF9GREV1ZVM3eW1ZbHRQb1FCN0V2SG5FYTBnWENPNzBIRy1taklWRHlNOHRxZW5pNjRCV1VVeThlQURKdGkxb0JJbF9lcnZ5Q3FlTHMyQWhNSEtCWUJpb0dreGVwLTdVQzFTSk9aa0pBVUNwUHE2anpGNmJtcEdTRW5IbjFqa2ZJVTdXZ2R2OHJtY1phQjZMSUhzY0wydERqdTNDM0RheTE4ZTJfamZoZzVwRGJuOFhKdmtRMnZm?oc=5",
           "claves": [
             "imputa"
           ]
         },
         {
-          "fecha": "2026-10-03",
-          "titulo": "Sánchez medita en la Moncloaca: cuerpo a tierra - El Debate",
-          "medio": "El Debate",
-          "enlace": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZ3FEZFQ1SWotUmtnbHJaUlphWDYxWW55VGtGRlowZG9FNXp1aUoydXA2QWF3VkZrM2ZRQllqeWNKdU5ndEFEbTl4cWtYNW5pZzRkS3dxNjM0el9DWjAzS1dWZ3dWVnpPWWpMU1BrMUp3VUVNUGZFeG9mM0V5NjhKOWdsMlpOSThQOW1oRzg2RkdvZmFLZ0dj0gGcAUFVX3lxTE5DY1I4dGNwcV9KZFRTNmIyQldzdGdYeVAxY2l6VHdsM2ZSMEttcS15WmYtQnBvMWgtcmloRk0xSnBCcUYxb2tzSEhJakNJbjJEcjB2R2dtX0YyZTQzcXM5NlRVRkhDNE5wUVM0UFkyNzlnTGxUeWYxdGlfLUJkWU92Z0dicmpPZDBjQkhIMmtZQjgzdnBzNzI0cUpzYg?oc=5",
+          "fecha": "2026-10-11",
+          "titulo": "OPINIÓN | Después de Moncloa | Francisco Pomares – EBFNoticias - Elblogoferoz",
+          "medio": "Elblogoferoz",
+          "enlace": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdE1RU0xsc0JVYTdGZlc4dG1tazhIY19vUlctQVdZdkIwMnpka2NkZDlKMWVHZXRhaXJFMlhNR09WcHV5SWhCbU42UV9kd1Q0MHFlTHFhbDlrWlJMMWRzQzNQMjRUUWF5LXAzZnplR1AxYTZDcEUtMWk5ZldTVnpHS1JIVVQ2bEdBWU5tby13?oc=5",
+          "claves": []
+        },
+        {
+          "fecha": "2026-10-11",
+          "titulo": "Puigdemont utilizará contra Sánchez las ofertas que Cerdán y Zapatero hicieron en Suiza \"cuando sea conveniente\" - El Español",
+          "medio": "El Español",
+          "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNWk5XbzdVamViRUNVNWlCTWJPcDNwTnRBOFhnNmpVbUgwWG5tVHNvX0xySzhwb0JZT19zNUVGRnIwdUNKUkhvTUJGeUhyYjlSMTJ2cHlCd2c3dVU1ZjRhWXlYZGhLMUt5aU5VTHNxemE3TUZVWFFYbEotejhRM0NyV2ZVekVhMUdKOWotWXhrMnJia0syWVJTT0ZXVlRZU3pja056YUdZQ3F0MFdCd0FKZWFUYk9MOWNtcEdwU19TWDNFOVFqRWZJX0l1NU53QlZjeW1FU1ZYdUxSZVB1NENienJrRDQ4d9IB6wFBVV95cUxQNkVuX2k2eDk3QlhHa0Rmcm56ZE8xSDA1ZWI2SzVYTmVMT0RIYTBFek05VDlsZXJlZ29xRlgzRGFWcVp2ZTBzMkM3d2Z0dmdqdWEyS0JwUWMwa21reVpfS0VOSFB0SWgyblNaVG10U1VuZXN5cXRzZlRLcW9MM240NVUyeXRzUmFDZzcwSEtWQ2x2cmFfZUlpekZxaW13aFV5NG1mcEJxdUM1TllnYmFZZXprdmh3TUxJZFRDNGRSeE1HTFdrRExzOU5ubG00NTRrT3Yxd0dmSENBME0tRV9wTVhZU3p3WGxpdEo0?oc=5",
+          "claves": []
+        },
+        {
+          "fecha": "2026-10-10",
+          "titulo": "La falta de control con los pagos a la cloaca complica el futuro procesal del PSOE - La Razón",
+          "medio": "La Razón",
+          "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONlNNRVg3N1ZodG9FSEdoQUhEbVdyaFZqQUFZc0NTYkZfcW9hdFZkOVUwSE9ZbFM5LUFOU0JHbU5VbkFPX2JnbnNBTzFaX2ZiQnNkOWhhblJjOWdvQlJUX2F3SVEzeHJ5U2RyTDFqTC1QWjBuQzdqQlQzX193djZtOGxIN1JzellGeGtqVXB2eG95Y0RLVXlpS2ZFVTN6UXZva2d6OWt2TXhHdjFRa1Y0SW5wb2FSMF9KRXlhbml6b19KS0nSAdcBQVVfeXFMTlR3dVQzMEpmWkpoWnZTWGtzQXlueDBFY1NURkRWd2JaVkdTWG42NzU1V3ZHNU8yZi1tTnFWMTNIa3lYX2RoRHBqLWFtcUNhcUJLZ3FvQkJZd1BVdGx3aDhGbkYwS29zUDFNQTcyRVlmVllxRFlPYWtQOFJsbkltcVhJeEF1d3RHeldUTmM2dTVaT0NWbU5UUF9Rb3c2OHFTZmRIQWhZX2Nuc3RGenZhNEllZjhQbFNyQkdnczhpSV84eXYtMmxHOTVfVGtqaWxydVB3S1czZXM?oc=5",
+          "claves": [
+            "procesa"
+          ]
+        },
+        {
+          "fecha": "2026-10-10",
+          "titulo": "La Fiscalía no exonera al PSOE, le da tiempo - El Español",
+          "medio": "El Español",
+          "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVTJ0LWxFWkRLUzFLaV9Bd3lzWG1SZjRsVGdIN2xXVGFYZEdCa2x2WU92ZzhhOGdWV2xpeWNiTVBEWDh0dUwzRmIwM1ZkUDM5eXB5WGJZZFZvTGRGeHZodnBKYXgybjMzSE9PUjZOdkFySjlMcy1ydFdVNFNoTXlpMzgxNXprMEJRYUFGQlRRUzJuUGpXVUtwMFBzNDZWSWtHODVTekxYT2NTQUQy0gGyAUFVX3lxTE9pbVVxSG8zUV9xTlZGV09PMld4bm1ueWFIem5lZE0xRDlzMXFRNzE4NkJHVFlEcVlaNXRHTUpsdWtteGNicmJBaWVQMnlsRlVWTkM2Nl9waEpCaVF4RGJRVGRfMGV2TEJtNW9ucm5CT3dGcG80SktlRjRQSXNKZjBLSGpadERoUk1QZVd3SXRwVVVPUHBnbEs3WGVvY0VkQTBaalN5NmVsNlVyeW0zVFJpakE?oc=5",
           "claves": []
         }
       ],
-      "ultima_noticia": "2026-10-05",
+      "ultima_noticia": "2026-10-12",
       "posteriores_a_revision": 6,
       "revisar": true
     },
@@ -327,10 +345,17 @@
       "fuente": "google",
       "noticias": [
         {
-          "fecha": "2026-09-13",
-          "titulo": "La UCO niega nueve años después una \"red clientelar\" en los cursos de formación - Diario de Sevilla",
-          "medio": "Diario de Sevilla",
-          "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMEFuSlpyVGFXeXRiY3BRaFNITjFvZjE4MVJ6ZFFXWXVFbmQ4MzJCLTkxWXlITmFJRmRtT3lkMmVCb1FJb1c5WHBsYXM5UlNNNVdmRXFKSU9ldENZaEJjT0pDS0FRREhJR2ZjM3BUeG1CRG0tZ3NZR1ZRa2xpclROQW9PSEtKR1pfVnhyQUhDOVdCUXNLbnBOcnlWYXhmVHpINzBsYTQzNW1hSDRDRllpcVRGR3pOOWNDY0R3R9IBwgFBVV95cUxOb3hKaUI5RzZueWdYbjhDdnJBOXV1UTRnT01uR2tabjZ6X0liWGp1TjhtYzZnM192Tm9GMTBwb2RhRy1DWTd2cTJzZUxtN0hDQ1FZZk9IQ2NValV5VExUZ1FPY2FtaGxGSTBkYkNrSWp6OVZxLThxUjhMc2lMSkRHNVJPMHJKZFN4QTlaT1ZCS3c0b3Z0S1BJTktyQzJhUG55Q2hsWl9MZVBKWE1pLVJ3eUhEckk2cUNvT3F1OGNFNUxhUQ?oc=5",
+          "fecha": "2026-10-04",
+          "titulo": "Mercedes Alaya Rodríguez, la justa - La Vanguardia",
+          "medio": "La Vanguardia",
+          "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaC0xRHE2V3o4b0dGb0FXeHZkenc1MUdPLTk4MHJvdjVFTXNjZ1hTeDZmMl9ONmRoNXJ6djdXV0FxYWU2MUFHd04wN2l4QkFJa1dQamVCNlZpbmYyOUVLbjd4LVRuWU4wQzdzd2dMQzc0VXdsLTBBN3ZEemtsNEVRZHB5SUQwS2dJeGMtM1V5b1hUbXJIV0xfNG9admNLbXR5Xy1BedIBqgFBVV95cUxOeGZISTNaQ1pTTmMwanVYX29OSllsMWFrcms3RWpyVlFrR0sxYWY1M0ltS3RTamlhRkxMSUprNkpoUDhwVFJOYWc2VEliYnBvaHhDX0t4dm15eUNSdXdjMmNDOEVSdWpzOGJlaXctaFJZbWxqeWRKRGhHUlJDcWFnSURDMi1NVmF1Z2VtMkNPUkhtRW52YVN6N3JCV0J2QUF4NFVlaENheTJuZw?oc=5",
+          "claves": []
+        },
+        {
+          "fecha": "2026-09-19",
+          "titulo": "El laberinto judicial de los cursos de formación: 12 años tras 950 millones sin justificar por el PSOE - El Debate",
+          "medio": "El Debate",
+          "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQckF5LUFaNnZJWFVQQnFUWDFPclU3R21RMEU5M21IZzJBME9zUUpZa2EwN0s5dmZ1N1BrQjUxWS0wbjE4XzJyZU1SQUNsaUZYUnVHd1Fzb3JLbEJlakhUWm9GeWdIaXU4WnY3YUVyR0dldDRnVzc4WjZLaEo5bmVwWjZuLXhXOUU5eXA4TTRiQXFmNkhVMVRIcG5pOG44MGYwcGR2QTFabEcwS0xjZ0RKeG5HWXhiTmxyN1AzRktKTUJDWUNxaWVXTnNmUnBya0tF0gHWAUFVX3lxTE9QdmxYWmh2TzBMZTlKeGpYVmNteVpmMDZLZ0Z3NUlSV0xkYUtGTm5QeWwwS0pOblNSRjZaOHY3MjRxN3lXcEJxQ0l6Nmpwcl8tXzZVVmJDc0wtLVpySlByMmZWQl95OVd0bXVNR1k3TWhKdFo2NjQ5TlhoOGxiZXBHQms1QV84TDV1M2Nqd3hZazFSZlhtZXlObWFIem5Cc0piejRSSGhqY1FUcjJRQ3ZVR0JQVFZvR2FvRkFGd1dacWEtWVJVQlN6ZnhSWTB2T09YZW1oQ2c?oc=5",
           "claves": []
         },
         {
@@ -351,8 +376,8 @@
         },
         {
           "fecha": "2026-08-30",
-          "titulo": "El escándalo de los ERE: cuando la corrupción se disfrazó de burocracia - larazon.es",
-          "medio": "larazon.es",
+          "titulo": "El escándalo de los ERE: cuando la corrupción se disfrazó de burocracia - La Razón",
+          "medio": "La Razón",
           "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYi1wcTN4RE9jV1RSbDltQnhnby0waUtnZlFWMEdnMlJYbVJoTm54LUxnTHBlNDhrN1ZXTlhGbDFKM1VoVG9XVUZ5Skp6OEFHWDZjX0ZEbXY1ZjQ5Y29HemxyeTFRNWd6d2Yzb2o3ZFFNM0g3ZVZrdUh6S2tBZXMzdEZNSGhsQl9FR3RWeFM0cXJfeTNOMXlCd2ZJZnY5ME5CbmxBV2pSMjZEUnVKUXNtS0N2bjFLclhEV1RENdIB0AFBVV95cUxNaXlVUEs4MDV5Y00tdFYzWndESl9oMGQ0VUVWUEd1N0g0NXdKNHRfWkd0VUd6a2JBdVJGZXlRUERFQm5PU211ZWo5dTJfUnM3YkNKX1pUbF8xVEd1YnFacEtKdXBjZDJmM1o1OWljOXhzR1lZRVNGdFJKcDFWd05PQ2Z4RWZVaEVMM3V3Z2lmOExhUXZmSUlrMnhvWDF3Q1A0LWxRZXhwV0JTQjdjbDRDQWFxelVHVm5fVVBEcmx5ZTJxU0ViODRuOHNPQmZpVUVE?oc=5",
           "claves": []
         },
@@ -362,16 +387,9 @@
           "medio": "El Conciso",
           "enlace": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWFJURy1jbDJnTExfTzhOc19MVnJqblRMUmk3TUFRWXNqZUpjUDhzUE9JTmxaOXZYanRwcGdoX1ZYQVZOSkpsTmRZSGZaODVGZ0hOQ25YTU9QUlEzMzBmN05PWlBmM0RWc0FMUlpxbDd1cmRINkM5bElxU09Pem81ZGp6LVVoX1VaT1RIWl9Bd1NPSnFQdDNndVRrZDVLbnlFMWJj0gGoAUFVX3lxTE9Kb3FUdll5Q3J0bF9NVWQ3dUhHWHowRGowbDBaVHJuYU5LMGpZVXF2VXhBckRXek81UVJBdF8xME52U1BqbzR1bk10Z0JBaEpRa1daQVRERXlVczRucHpvT190NUlXRndNamNYMW1qN2hMV2dKRXFId2lFNVdaS25oVjdRRlZoSkQ2SXBSUWFEZEhSWnpvWWw5Y0pZdUNCMU5SY0J6akZRTw?oc=5",
           "claves": []
-        },
-        {
-          "fecha": "2026-07-26",
-          "titulo": "Gaspar Zarrías filtró a Leire Díez la identidad de los agentes del caso ERE: \"Estos son todos los UCOS que declararon en juicio\" - El Independiente",
-          "medio": "El Independiente",
-          "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNUEFPaGhON1hISEp2TFcyVHJ0cFZ6TUo1UGwxQ1FhV0xrRXcyWjQ3TWd5STJzMElILTRENHZGNUNfTXZyOEk1TWM5VXRaLWNVbTNocVJzNXEwbUZuVUxEQjNSQ0otS0pzWkdiOGhfM2gwVkItbFF4d01tZExNUWdfNURZdFN3S29rN185Q1FsRmFwUTlNZkpLcEtBeUd3NTQwcXBNd3kzbXBNYWhPbzZyWGlWNzBZUVFDcFpjclVpazlVRXRqc2dDQnBEcVk5cmhVWWVNQ2phWDUtNDZRUWFVMzVtREJLS3MxYk9wYk5mVU9yOXpVUVHSAfsBQVVfeXFMT0x1MEFObkxGV1J4SkFIbzRVSXZ4NktoZHR1Q3F3RjVURDVIc2pNZ3dTM29qX3B2UU9FNThQcGo0LVNESk5ZUEhDNE13aFVDQ3l3X25rRFB3RXRHbFFIX0lISGNCeWNfdnl1T0hsTUQ0d0cxZHBucWszNF9pUHpkSTJvRFI1ZlBnb180T21QeHljdjdQMkZzVnFsemY0cnlSRTJGdHVqTTdkcGdtc1pEOEMtMWJFZzFVVkI2MlNmc3J6RHh5cjM5RjFzWUZKZFlJV2J5am9tT2N2dC1UcFRhX0JabVp0aFVRX2NLSXRXOFMwV0xYMW95T0ZxZ0E?oc=5",
-          "claves": []
         }
       ],
-      "ultima_noticia": "2026-09-13",
+      "ultima_noticia": "2026-10-04",
       "posteriores_a_revision": 6,
       "revisar": true
     },
@@ -379,6 +397,27 @@
       "consulta": "Ábalos \"Delcy Rodríguez\"",
       "fuente": "google",
       "noticias": [
+        {
+          "fecha": "2026-10-12",
+          "titulo": "El Español: Delcy Rodríguez entregó monedas de oro y lingotes a Ábalos y Koldo - El Pitazo",
+          "medio": "El Pitazo",
+          "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTVdzbk5wMHVXY1Nwd0tQdmFOa0w2aDl3TW1LZ2hCUm0xTTliSzU3ZzRDUHRtR1FXSUhkQXBDM0Q1RWprM3NjNkY5amNFa0tfdVZ2SWpzZUV0dklWZXF6S3lfUUlxMkQwUjhTX2F1ZHY5S0x0VWxLWGp6ZFlFa19jaXlXWGlfdG5tcWM0RGc1TGhWNGxGWlZWcEh1b1JONTRRT0NWWTBwcGlNTVp1eHpqeHdJTGd6QQ?oc=5",
+          "claves": []
+        },
+        {
+          "fecha": "2026-10-12",
+          "titulo": "Delcy Rodríguez entregó a Ábalos y a Koldo monedas de oro en Barajas y lingotes en Caracas - La Gaceta de la Iberosfera",
+          "medio": "La Gaceta de la Iberosfera",
+          "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOeWpjYTRXYldnenluRUxtbHhJeE1BWEc2dHRmYy1Gc2dsZTdwUVRIRVU3UkZ4dDNOSXREU1FHZEZyYmdDcEhKX0xvX1ZWTHJHd3RKY20xNkZ1WGhPYjZEaC1oN3RUN1NNTXVoZWNGYXE0b0VzNXBXLXFrSmFUdnppb1VQMGk0X19pcGoya3Y5TUhwSlN3YWs2LTIzbDBBTFk5Q3pNQVRtVTJsMVZfbnUwOGt4WkJlX1JUSmY3NFE3WEU1X2xBUUg2eFB30gHPAUFVX3lxTE1QLXJ5UGF1UE9VWkN1R2MwdnhzT05oZWZOU1dKaDEzNkE5R3dCLUwzZ0tpb1kxSkZPdUM4NDZPaGRJRlgxYkNENlpCTS1YdFh5REZFV0IwXzJFSHJlemV6azZfLWd4VkdxX0hQZjVMaFBlNlc3N3JTVzA0VG9jNUFXaFJfWTBSU3pxY2V0ZU1GMEh1S2NWbXdzWkRkNnZ2OHpQY3BvdUlSNU9EQ0hVaWZvWlZBa3k1LUZrMzNjN0VKdEhDSmhTRjBnRWZIRkhwbw?oc=5",
+          "claves": []
+        },
+        {
+          "fecha": "2026-10-12",
+          "titulo": "Delcy entregó monedas de oro en Barajas y lingotes en Caracas a Ábalos y Koldo: la UCO indaga si fue para financiar al PSOE - El Español",
+          "medio": "El Español",
+          "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTy1Ccy13bEM3b2R2c0xnWlFPYVRINktvcldRYmtHa2tIXzYwVjUzRk5kdU5OUkR5TVpkYUxtWktKWjdPM2NmaFN0d3RmeGxTdTlEVi1JYW9qT1RpVk9Ia2NPSEhaSHd3bFl3T1BCb0Z2emd5bDlBVXF0UzBScERMYy1hNjJZZXBLV3EzSUx2TDNVNXE4cXV5Q0RYcVZSazN2bDlPTFhJamR6cDk5cl90YUQ0djQ2Ylp3UzBuUVpBeUpjTXNrczhsZnJMYjFHRHRkTHNIWWR6aEh5R05zbWxHN28tbXBsRWPSAewBQVVfeXFMTWVsU2tkRFNTZktOLV8tN2Z3U2U0Ty10eHVmbEw4VUlMR0RoU1V6Z0dLTFdGazdiSlVhY25VLXo1ekhPaDJ0R1MxTFlTN01JMGJiWUNoR05OTHpvdkZpU1I0Wjc2N2pMdWd6VWF6MFZqTE5BUVZuSlJiQS1pTkF4Q09GRWhPdFc5RE9qVG5ZdWM1YXVrRXZESHY1QlVBOFJ0OFBCdzNxeUhQY0xNRW1CVXk4emFRU05YVnFScjNBM0tmLW03ZXBtMFBJMXdJMzZueTRyN1B1UklGTGY0V2JHRDIwYVV4WVZIVlRGWXo?oc=5",
+          "claves": []
+        },
         {
           "fecha": "2026-10-05",
           "titulo": "Justicia de España investiga \"regalo\" de Delcy Rodríguez para exministro de Pedro Sánchez - Diario Las Américas",
@@ -399,35 +438,11 @@
           "medio": "El Español",
           "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQUF9OQWhMMGZQMGJJV1B5S00zVENVYzVKMUNvRTNVTUctLUl1WE5jdUJEOFVZZmFrX2F1WmZEa3kwck1IQmRzRkVmaHlyUy1OTS1PT2hTYTlmTTJFX2pYWmoyNUJkTUhYLTduNzg4Tmx5Vm9zS3ctblFQemVtTkJIOG1QdEdsd1ZvR2RUYldZVDBJSVBGMHRmaUpkdnozSjJ1MzZydHF6aUlPd2pSSUpLNm43MWlEdWNFdlBoY2xlWVBYZ0dUT2lseXd2ajEzV3NpNnhRTkVweVBNVjFSNEhyRWd4UXlRZW_SAewBQVVfeXFMUFdHX3owZENrekd1OVZvT1pHUGNieUJ2QUNOcVM2QW0xT3dEUTQ1bnFMQkRfWTlYVVVkSjAxVjlFMnFnREN3b2o5RG01bl9nRXJVeHByRnlsbkpOTW5YaVR3TmtPRXg4dkZlTm1WUFhIVFJ0ZXZDc0JEeDVwMEVQT1lkUi1rM0VMZWlLVzBiT2s1M2p3YWdJYWl5bFVlV3hIVEZRLTFwS1ZkdE1YLTFNVl93TF9SN04tQ0VKZV9MclNabnFSWHVWdzRYd1VuUVVQV2M3ckpWa3ZrWFF6OTBjQkRnQWRxNzJXNE8zb1E?oc=5",
           "claves": []
-        },
-        {
-          "fecha": "2026-10-04",
-          "titulo": "Delcy Rodríguez acordó reunirse en Cuba con José Luis Ábalos, exministro español condenado a 24 años de... - CiberCuba",
-          "medio": "CiberCuba",
-          "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZVJhWVNENmFuWklWNFlsQ2hxbEpnNFlyX0l3M0pmQ0RXM3FkV1dTQlROVGMxTzZKME9Pdm1OM2hqZ0h4YTNablBjMURsR1hhLTJzYkcwRG5VQjAzXzQzSjFVaHhvZ21MWjdNZFBKbHZGM054dmY5ZEt4QVVxS25PdkRWYUJPdm1RdGVmYlRSU0RCMnd3R1Y2ekJIcTJ6N08td20tN1p0Z3NBTHJ6aFhoWDBoYmEzMmZ6MHZxQdIBvAFBVV95cUxNZVJhWVNENmFuWklWNFlsQ2hxbEpnNFlyX0l3M0pmQ0RXM3FkV1dTQlROVGMxTzZKME9Pdm1OM2hqZ0h4YTNablBjMURsR1hhLTJzYkcwRG5VQjAzXzQzSjFVaHhvZ21MWjdNZFBKbHZGM054dmY5ZEt4QVVxS25PdkRWYUJPdm1RdGVmYlRSU0RCMnd3R1Y2ekJIcTJ6N08td20tN1p0Z3NBTHJ6aFhoWDBoYmEzMmZ6MHZxQQ?oc=5",
-          "claves": [
-            "condena",
-            "condenad"
-          ]
-        },
-        {
-          "fecha": "2026-10-04",
-          "titulo": "Delcy y Koldo negociaron crear un banco en Venezuela para blanquear dinero de mordidas y del petróleo venezolano - El Español",
-          "medio": "El Español",
-          "enlace": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQeDJxTVNwaVFQdFF2LTJuZ2sxcXprbGJIVWZUNGdpNi1tV20xT2ZHRnZ3a2xTRVdnd2NnMVlrWjBPb1JpR2c0aFpxdWg5dm1sSVNXWnhtRlNuZDRtRXVmM3k2NHlLNnNFQTVKZU9nWWlycmJ0b1g3eThOOTN6T2c1dm9ja2Nudi10bUNXa3FrVDU3MXNDejNsNGhzVlRZZk1IY3oyZHI4MVVEMDdDMTB0dThXNk1obG5FNVd0LTA2S0JmNXBwVUdpeTY5T1BKSGNBN0oyR0lNaUhGblVZSUJVLTZYNFZLYmpI0gHuAUFVX3lxTE5pOEl6RFYzRThIRWNleVMwczVfMnJyendhWEpPSHFjNXNxZmRVbEQxR18xVWFsYjBtNTFoTGJOaXJyX3FQMFA5eC0wQ2FiNTMzZlFNRnQ4S0lqd0R0dVJpUFVyZU85LTJlZmxyRl9YTFVVVXVnNTNyNUJ2bWdHa253cG5MUmZkbEE5S1dvTThyTzF2a0RqWmYyaWRJd2puWWVvMGFGUWlnZVRtaVMwUTBlNEVkbW0zeTZxQkZoaEpjNVFSSHFodU9mMHQzb1JEWjhtM19fNUVTejlyTGl2TEFlTlpxVUR2Y1BONEhkVXc?oc=5",
-          "claves": []
-        },
-        {
-          "fecha": "2026-09-29",
-          "titulo": "Aldama organizó reuniones secretas en Cuba entre Ábalos y Delcy Rodríguez - Telemadrid",
-          "medio": "Telemadrid",
-          "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQcWNucmpld0VrQUlQLUJreDFqWnNRZWItcVAxS0cxcGV0dkFYMXlHaEc0UFJmcS1xeHBkaVF6OGRDcUtGU3lZLWpFQ1l6N2l5XzBwcG1Ec3pKYnJxRDJjd0ZjY0o3VXptM3kwMUpyLTF2S0pCdG9MZUtfYjVRaG5rOFNMcVRzR2VqVVMyckRjNFFrWUlXQnh3Um50TkNiTmhES2pQZk5XX3BnUlEwd05tM09OOEo1MEtHdm94R3pPRS1IbWx6NmstNnBrZ2U5OXVlV2QtczB5OHpNNkxCMGhRV2FOX3p1WUZNenZKSTBXd9IB9AFBVV95cUxNNFpCemFwS1d5UDhKT0E0Z01JUVYxcXVnU1dva216ZE1aTnl6WGVqVFROTXZIQW9wc29ITm5WX0VFYXJ4Ym9kRTlMYktFYlZmXzNLdE5aM3k2c2VzS3Jyd3YzbVZJSnRmOGo3YzhNazdaeHRDYXRmd0VYZGl6b3lfRTZNU0RJaWFSZEJlWFRYcUp5cGwxeU8wLVp0UURyb0p3Y0lOa2huTl9FWk9qejViNWg0OVNyNjlnT296eGc0VWpNdmU4cmVHQk52ckJ5c3N3UVN5OERzWVJvTWt0M292XzRtQ2NRYlktdm1STEpmMnpmbUo1?oc=5",
-          "claves": []
         }
       ],
-      "ultima_noticia": "2026-10-05",
+      "ultima_noticia": "2026-10-12",
       "posteriores_a_revision": 6,
-      "revisar": true
+      "revisar": false
     },
     "tito-berni": {
       "consulta": "\"caso Tito Berni\"",
@@ -435,20 +450,20 @@
       "noticias": [
         {
           "fecha": "2026-09-25",
-          "titulo": "El caso Tito Berni, exdiputado del PSOE, a juicio oral: corrupción y prostitución - Hispanidad",
-          "medio": "Hispanidad",
-          "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOX2QxZURRdlFzTmE3aEtaN05keFNaem80XzEzQy1yNTF1SkRZQXBCVkNGdW1BOFM4aVV2LW9fNHBkTVd0SnZmV0c4N2xlS2VfTTljNGs4YWNHejJPTGk2LXdldUpIRE85VV9vYV9SblQtRDRlS3BVZ0ZKMEs3V0Rsa3FUOFRBRGpfdnAzQ3BnUm50N1l3eE94VS1Va0ppN2tzakVwbGx6TVJZN1dfNXdrTWNLRlllOUhGMkN3SW1CR1BaenZJU0hn?oc=5",
-          "claves": [
-            "juicio oral"
-          ]
-        },
-        {
-          "fecha": "2026-09-25",
           "titulo": "Corrupción de los despachos: llega a juicio el caso del 'Tito Berni' con peticiones de hasta 13 años de cárcel - Vozpopuli",
           "medio": "Vozpopuli",
           "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQamo2RHpBbW16WGh2cVlRZE5nc1hqeFlfUnBtdVhtNWhsdXlIdFVUbW9NcV9KN3dfcEJVa1ZLQ190LTNUWWM5WFhMOE1JMXJxR2lGLWppX1dMRHhTTDl0QndaQzlMWHZWRk5fU2dRNU1iVWx3bGJOTURkcmd6YjBzcmkxcGJDRFgtcEdZdzhfZnhkUGgxOUYxM2FLQWNMdXlfMF8wNTJhU01IbUFkODBfNGZ6V0xnR3hlRjFPaFBTNllKMnVKckQ3dzU5NlYtd1J4akdvczN4aVlmUmVXNXQ3VF84MGx2Nm5Mb0HSAe8BQVVfeXFMTkJyMmMxVTFibDNEQUNFSmY1ZXFheFMwUGxnV3Y4bXJfa3dxcHFVaEFseFNNZUMwcDYyQzMxUzBFX1hHdkJ1b0RCckozaXRJWTJSemQtdGhNZ1lrUUYxZGJGQ1MzbGVkaVZ2UUxpcF9aWkQ0OXZ6OGJ0b0h6VlVHWEtSbkpIaGNSMGtwdHM2Znl6YTJMWnFxN1d4elNaT2k5dVY0YUIxVDk1Y1NBazItSTd3RE1Zcjhydjh2ZDMxZW5GdERGNDlyZWlTUEpUNy15M1JlZk80MEdfa1AydjZSN0dEOU80MU5wcXFtZlUyS1k?oc=5",
           "claves": [
             "cárcel"
+          ]
+        },
+        {
+          "fecha": "2026-09-25",
+          "titulo": "El caso Tito Berni, exdiputado del PSOE, a juicio oral: corrupción y prostitución - Hispanidad",
+          "medio": "Hispanidad",
+          "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOX2QxZURRdlFzTmE3aEtaN05keFNaem80XzEzQy1yNTF1SkRZQXBCVkNGdW1BOFM4aVV2LW9fNHBkTVd0SnZmV0c4N2xlS2VfTTljNGs4YWNHejJPTGk2LXdldUpIRE85VV9vYV9SblQtRDRlS3BVZ0ZKMEs3V0Rsa3FUOFRBRGpfdnAzQ3BnUm50N1l3eE94VS1Va0ppN2tzakVwbGx6TVJZN1dfNXdrTWNLRlllOUhGMkN3SW1CR1BaenZJU0hn?oc=5",
+          "claves": [
+            "juicio oral"
           ]
         },
         {
@@ -466,6 +481,13 @@
           "claves": []
         },
         {
+          "fecha": "2026-06-27",
+          "titulo": "Compra de votos, facturas falsas y 'dedazos': los 8 ayuntamientos y diputaciones del PSOE que copian la corrupción de Ferraz - El Español",
+          "medio": "El Español",
+          "enlace": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQSkRDdXBreVNNVlJ2RnUxLUpOQlplS1BMVXlmSXVVUl9hcDlnSWQ3SG5pR25VMzM3bW1KMTlDRXlqTnBlMHp0amRieC0yZC1SQWxORmdfSUxucjFERjFfdTlzYzUtb2UwVHh6NFMwV2Noc2FOY2w0RUhfOUJ6dmItbzR6RW5oeFNDczV1OTVNVEJhTHFxaGpQUVZfQTN5aldyZmxlX01FWGhIeUJzazZHYzhHemFZcmxzbV9lcU1oMHp4dTdNWDhNYm9xY1lhUUQxVGZJOFlhanJSYXFlM1B0WXhldTBRZy1DMmdwQnhNa2hzQdIB9wFBVV95cUxPMjdEb1F4R09zZmx1WThNS0N6eVpqUG43a3NqZFE4NE1IWTY3RXBpeGJiTnJTNVBtX1Y2RHIwNVVjNjMxNmJ6cVpHZm5lZmRoNWRiTUxFNm03bWNXQnladm01SEJrRkpFcDdzTGxpZ3p1eE5XOFlldENJSzNPVHJKZ0tYMEF6RU9reGVRVU5kUWJPcENwdG1saXZzU2FxelVMSkZ3MWFxMmFTZDZYcTQyOXRqY1oxYTJSelNyOU5Vc3dlczZhbEhjUGdQUHc1ckR3MFJMSl9VZHJHRHpMZm1ZX3pPaDQ3NGMyY1RDazBiMjBqUzhsdGhj?oc=5",
+          "claves": []
+        },
+        {
           "fecha": "2026-06-25",
           "titulo": "Entre tanta corrupción socialista nos habíamos olvidado de Tito Berni para el que la Fiscalía pide ocho años de cárcel, once para su sobrino y trece para el Mediador - El Correo de Pozuelo",
           "medio": "El Correo de Pozuelo",
@@ -473,15 +495,6 @@
           "claves": [
             "cárcel",
             "fiscalía pide"
-          ]
-        },
-        {
-          "fecha": "2026-06-24",
-          "titulo": "La Fiscalía aplica a un acusado del 'caso Tito Berni' la rebaja de condena que vetó a Aldama - El Mundo",
-          "medio": "El Mundo",
-          "enlace": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1Jdm9jbWZiRnhIelNSWXVBUDZTc2NXUEFveTM3NjgyLWszUHVkUWFUVUdnSldCdUwwUXRjdWhCcDRzb0thb3d1Q2lmWlFHTS04UVkxalVGcXFaVWVQZ2RyaG9tV2czS3hVdzhnX0Z5LUZhbk5HRTVXNEdn0gF6QVVfeXFMTWxuNjhRQ29xZURqVExOUWJXMVN0LTg0NHhiSkpmTFBjNU5tNDF5N004RFpTRWxvenhQT0NTWDdVUnNpVk9yQzlXb1dKdXNIUzZMcEhGd3RVSW1ROV9hX3Z4cHN5Uno5dWFmbXNtVWx5SS1CVDEtOF9YNnc?oc=5",
-          "claves": [
-            "condena"
           ]
         }
       ],
@@ -494,9 +507,16 @@
       "fuente": "google",
       "noticias": [
         {
+          "fecha": "2026-10-07",
+          "titulo": "La Audiencia Nacional accede ahora a buscar \"indicios de criminalidad\" en las conversaciones de Cospedal con Villarejo - Diario Público",
+          "medio": "Diario Público",
+          "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQW1pWktaYmN1a0M1VEMxbU03Y3o1RTFISnFXOFNDdzJaQjhTWWdSOEw0ZWlqRmV6M1ZoSDJZRDlmb1hINHB3Ym9OOWpnekR0REFzaGpBQWNETm9HYmNYcEo3c3hWd3hUVDEtaDQ3dlZkWEVzZnUxbnRoVE42SFdOZWg1aDhVY3FCS25jeXl6RkJEUWFROVJKT1ZsTUV1YnpjU3Jrc213emIyZU5MWUNPTmUwOXBPVHBZSzhYNnE4RU1zMHAwNHFwNTdrTkNJN1FZLW80QVdSdGIyZ9IB3wFBVV95cUxOaEN3TjlFenMtWE9mVlg1R3lwTkFHc3NyYzlqMnlTSTZ6dkZBa2Ntd1RJaDJBYnJkdWxFWWdEdkVmaENpZUdqay1IXzc0cnFVYnZ0X1lGZXRVUTItSG1idkg0V3lhNzlEb0pKeVkxcDRhWHhKYnhTandpcXAtTTBLSElkN2k0MGk3Um5MZDJFR0xGM2RHTV83ZnZVMUtNZ2d2MzhSeGd4M3FYTGpBeE9TZC1PeW1zSGozM1FGN01qc1Z0cHdWbk5KX09rUFhjT2FzUFRDVHhsZHJYdHRYLXNR?oc=5",
+          "claves": []
+        },
+        {
           "fecha": "2026-09-19",
-          "titulo": "Los audios entre Cospedal y Villarejo en los que apuntan al supuesto conocimiento de Mariano Rajoy de la Kitchen - Onda Cero Radio",
-          "medio": "Onda Cero Radio",
+          "titulo": "Los audios entre Cospedal y Villarejo en los que apuntan al supuesto conocimiento de Mariano Rajoy de la Kitchen - Onda Cero",
+          "medio": "Onda Cero",
           "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQWkpJcFFCQ09pcHktMllZRE5XdVF6dGU3a3Eyamgyblpualdzeld3Y0JuU0x6MUtIX2VfMlo5YlNPVjRjSDRKY21TNUtDdmJ1TTNxUEdmNTJ2N3hiT1JVTEZzbzNoUUs2akQtRUtVRHhVN3BNVm9xNGdjbXNCNk9kWlBEV1YyQnpqS1loM1cyNGV2QWswWlN0QmdzVm9YcU1pSjRBckRDaFQ3Qm9DZlY2X2JJbkdGN3NpMURHcHFLZVFRUTI3ZnBMYUNBaTNkMEJDWFJhb3pxcTZXWTBBY2lGYjZoUGttTTlKeGd5QkdOTW7SAfABQVVfeXFMTzdFOFlJdHlJaTVYdGhaakdJRVRVeFQ5NjJoMWFudUVrX3RES3QtYXZRd0twTGR5V2R5UmxkZlJ1NjFHMmpwRGFoZVpISjdYS3ExYUVOMHUwWHBhUm90eTgzMnhYYUdzUjlRRzI3eUN3M2NPenJJYy1MbzlMY2FXdWlWNnB1U09oaThYTEpCbWJuaTJERk5EbWV1Q3VUdzQzQmoyVWx3amlXU21DaUZiSHl4bG9xZXk5VHZDUmZUQUYtYVVlSUJYYnNCZ1NYeGVNSU1zeFhhT2tuNGhwNi1FR3BmdmJsMldhc0JBRUdSVHl1?oc=5",
           "claves": []
         },
@@ -509,8 +529,8 @@
         },
         {
           "fecha": "2026-09-17",
-          "titulo": "La Audiencia Nacional incorpora los audios de Villarejo y Cospedal que implican a Rajoy en el espionaje a Bárcenas - rtve.es",
-          "medio": "rtve.es",
+          "titulo": "La Audiencia Nacional incorpora los audios de Villarejo y Cospedal que implican a Rajoy en el espionaje a Bárcenas - RTVE.es",
+          "medio": "RTVE.es",
           "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQY2Z1SzRURWh2RjNGRjQ1YXFkdTgzSjEtbGNPa1NhMEQ4WUlzaFQxc1ZGR1RfYjI1T3ZqcXMxV0NBaHpac0JNOHk1aDFzRHBrMHpDVnVrT3ZQUVhvX0tnZGtVWDI1OVVSNVQxS0IwRG5FWWZ1UVo2VUFHNEE1eEZCSzBXeXJKQ2FZcnZNeE0yY0NHNnRNbmtVMmNyeWRiQktCRklXLVIxS0EtYXlPcFNXRmxURGJ1bnZGbGl5alRVYVc3UnR1YUE?oc=5",
           "claves": []
         },
@@ -527,16 +547,9 @@
           "medio": "El HuffPost",
           "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZ0hSaDV1cmIwNkNncUtLc3lmQ2JvXzBtd3FwdndTendHQmw2SjNtNWpyZWJpVEwxd19XcWZiVTJyYzJHR3lJVW9YOU5WX3VTdXFfbWJEZzB5by1Yc3JyVVhaWUY4eTd4SXFCT19aZFMxYllJRlNSajcyTlZPSEV1LXJIRXJ4ZkJTa2lEX0NJQjNUaUdUNnZhbl9YWGRZMC1sWE9xVzFycEE2VkZvU3JpSHVMX0RHdDNhejc0U05JWkIxZ9IB1gFBVV95cUxPbU5BWmRkTGZPRVU5OV83cFBlRzhDeFZvY2x0NXpLT2pFRWpfQTNpMGFjNnNZYVdUVm1lOC1MazFRWTZKMzdRc01MUlQtVDBxTWIyNUxNcjlxRm1ZRFV3aGIyWTVsTTJ6aDVCdXgxaldTTW9ERU9vbXhoTE52cWVZalRlUzBtZHRlSG9LRnBCNm1QVE95bTd5U3BycFJ4Q0t6d0xlTXZHTlgzVkR2ZUw0azlOYi1ZNmFzWGlCZ1k2aWcwWHJEbEMxZVJJS2phX2trNlBfV1Jn?oc=5",
           "claves": []
-        },
-        {
-          "fecha": "2026-09-17",
-          "titulo": "Villarejo, a Cospedal: \"Hacéis policía nacional al chófer de Bárcenas y ya no puede hablar\" - elDiario.es",
-          "medio": "elDiario.es",
-          "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbFcwU2ZrYTM2VDdzQmJReHIzRXpRcFJLS3otQnVuYWo0SjZZQ1ZzZzZmLUlkVjZoVUVaemhVQjNjQ2VxZFlHSnFTXzVJYm9Idk5wc1F2ZnhVVjZiV3U4YTlEV0pyZlFiYjZpb1A4Z3VZRWh5X0FFcEd6VElnb0VDUF9XaUxjbm9PQnB2OVZvLU1FdVU5ZVFOX211Wmc1SEtmd0hMdWR3dWVQa2ZXeUkw0gG0AUFVX3lxTFB1NjJsQl90OTJ6QkVKcGlxVUIzRkh1MFZZUGs2eVZXQ0l1bk5uZ2JnbV82cVJGV1VfcDdVN2hDWmFRWEJJTFJsUGtfYVRFT1hSR3h6ajVteml5VnBuQnFLVGhZTmJyc0RmTmJ0N1FSSlp5R0FndkpJZWRLaHVZa0JGbXFYRUpqZmNYTXl2dWlsWE91dDUzRU0zNDVhekUwWm9PY1FvOWZfUlNoN2NFTmROajNIZg?oc=5",
-          "claves": []
         }
       ],
-      "ultima_noticia": "2026-09-19",
+      "ultima_noticia": "2026-10-07",
       "posteriores_a_revision": 6,
       "revisar": false
     },
@@ -545,24 +558,10 @@
       "fuente": "google",
       "noticias": [
         {
-          "fecha": "2026-10-04",
-          "titulo": "Diez años atrás arrancaba el juicio contra la trama Gürtel - holanews.com",
-          "medio": "holanews.com",
-          "enlace": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeWZ6WFA3M3ZnTjBPQVdsNlJUQ19KSkpGNUhrbzVRaFNFUjduRFNfRmZUVDh0U01OUUJXZ1d1dVRpZXkta0wtM3k1YTNyNUloeUR6LVVxN2tNLWJtcjdXaUVlaUxQbkE0YVIwWS1aVThXeFJlUjlYUHppbXNPV2xsR3hWZG14Z3M?oc=5",
-          "claves": []
-        },
-        {
           "fecha": "2026-10-01",
           "titulo": "Mariano Benítez de Lugo, el abogado que sentó a Rajoy como testigo del caso Gürtel y que vivía en su urbanización: \"Me miraba, pasaba por mi casa\" - El HuffPost",
           "medio": "El HuffPost",
           "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPN0xxRUllajBabDgyWDV3cGduT2tpdXlXSW9adG9OWjFTanFuRU11Y2RVVTJRaG1UVS11QTlXOG8tS0FQaDVYeXJ2UnBYRlBlaHVFNzV1LWxKRVZBZVluY1QxcVBmdlpydU4teFZKdG1LTXV4V0xUQUQxOGZyYU9jWk1PTFVILTlhWTZBczc0bzlHcW5TU2xRVWFnclppM2dvSms2SUVDbkxhZ9IBvgFBVV95cUxOMjVxLW1iOU9VRXFNZHRZOEVuczZFSnR1SG9FaU1Dd1pyLVAwOTlSMjA2OW1KQjdKRlZGQjdtblNIUFBDSWdjZWg4dTEyLVZQVnBtSmc1WkxpU2xNSXgtZk5lU3B5TUMzRU9pMlRLR0xtTGt5OUNxbWpfMWx6djVVMTk0eldwTTN0UXlOMWJtZmE1VlJIY2VFQ012LTV5ekZFZ19Ra2NBdHI3NlBicHAwdENYNDVWbVJ5Vm45MzR3?oc=5",
-          "claves": []
-        },
-        {
-          "fecha": "2026-09-28",
-          "titulo": "Génova aplaza la designación de Pérez Llorca tras las denuncias internas sobre su entorno - EL PAÍS",
-          "medio": "EL PAÍS",
-          "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaDFsLWNnWG5QbXVrcTlsZ2tKVUt0MU9GNER6eGJoN1FkaUN1c1J1U25xUGYtak9CelFxSElSa0lTeTY3UE9XT1plMkJabi1YbU9VYkMzX2lnVVQ0Nk9SaHRZX1BBNlhGanJCQnlBUFg4OF9IWEF2YmpzOTZaRERUN3RtdDlQejV6QWJuNExrejJQYmlYQzZfZThoTVFxS3lKZGtpWVg4ajVGUGJkUzJhOUJmSlV6VnFOS0xmZEJBTER0d3VmazhtSWNOd9IB3wFBVV95cUxQMHJKYkI3amkxVDc4b3U1OGR5OVRuTTc1RUpicEpZVnBvU0JkZjZ3ZE51UzRweWw2V25TQWNMQnBQWjJGd1hKeGRmbGowYVB2eHNHZ1pGRV91WXVEbEt0QlhMQUJzYkNoc1ZtRG5uOFlNalZyMHlKcU1BRHBycU9wclJOZjZLVXZoT1FfM1RWT2JwZXZ0Tzh6SVNvczJUM2FISkZqcW94ZXJzeWFQWDBKR0dqNGlNOTRZc0t0MXFMdTNHS0hmNjdnNjZHN1pCNjNNc2Zzc1hyT3dsaGsyQUlB?oc=5",
           "claves": []
         },
         {
@@ -590,9 +589,23 @@
           "claves": [
             "sentencia"
           ]
+        },
+        {
+          "fecha": "2026-07-22",
+          "titulo": "La recta final del juicio del caso Kitchen llega con los informes de las defensas de los acusados - Elplural.com",
+          "medio": "Elplural.com",
+          "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWTBIQXVEdkJ4eFRUNm9FOFBsaDFENGZrbDVQM1lIV1BPVk1rWGszMnBIMjM1b214TEoydkZabF9qTWFsVUlXN2hMVGNDVlk4WDNldEMwb3VMbEczYjlvU0QtZUhHNDFmZmhqQ3ZjMHQzLXVhVEFqTDZqZ28zb2NGSVJfbVVGTTRZMzdueXRJd3BER0tydk05QWlVR2tnNUFqTE5XdTlScFBwVHZPTmlyeERMM3lPcm5LTXp30gHAAUFVX3lxTFA4VnlaWlk5dEFIQU15OG9YZ0hVaDFaSEs1TEp3SWNPYmdyR0p1eXBxZ2dBYmZleDFzNC1hQjR6c1BMVVNfZGVIbVJoRjJiMmZmOG1xZ0JWQXFiMVNuckVIUFVNeTdEdG9pOW5qRXU2VEhpUWJIU0l3N25wd0l1T0hFZmhNSE1hczJiUWNKTlllbjVyZURMOFk5c0hZcDZIZ0pSUmlUNmo1bS1OT2JoSUJ0a2xGa3NKc3FBbUhpZ1NrOA?oc=5",
+          "claves": []
+        },
+        {
+          "fecha": "2026-06-29",
+          "titulo": "El hombre que hizo caer la Gürtel denuncia el trato de favor a Aldama: \"El PP va en su equipo hasta el fin del mundo\" - Elplural.com",
+          "medio": "Elplural.com",
+          "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOT0w3MzBicXBVWDZTdTNuck5STWVhSjNndjJOaVF6MzdaV29VcGlNaGhicWJUNHU4SVJjQmZIMkdCNjUtR1htMVJCd1NKcGFFRVlnNURBTVZuWkNXb3ZPUTRCY3YwMEljb3p1a3VSVzdoR2dZanhNNjcxbXE1SXZRYzdhTUJIRDdIS3lseEppQ0dqVHQ1d2F3NnVJbjdnbmo0UXJmTHlBQWcxZ2Z1bk1vVTVwOW1WTi04dV9lakx2MXhLeFnSAcgBQVVfeXFMTlF6emU2MjBQNXBFUkNRVEhsTWxIYnhIczM1blZrcWtxUzdKME55cEdNei1wV2tRSkFzVk9xLUt1ODhLTnBNeVJyS1A5RFNrNTVFU3N2Q1pHcVZ3eUk1bTdsenhTTVBvVkNkUG5IejF4WE01bDhJN2w2Q3lfbjl2ZzBfTU8yRWFrSkxORnkwRVp2LS1sbEd1dFZfSlJwUEtlQndlZVd5eV9hb25GNzFEbTRlU1dBc243NUt1djNDMlNCbm9oekVLOUk?oc=5",
+          "claves": []
         }
       ],
-      "ultima_noticia": "2026-10-04",
+      "ultima_noticia": "2026-10-01",
       "posteriores_a_revision": 6,
       "revisar": true
     },
@@ -610,11 +623,11 @@
       "noticias": [
         {
           "fecha": "2026-09-25",
-          "titulo": "12 años de Púnica León: del presidente esposado por la UCO tras el asesinato de Carrasco a la condena por prevaricación - ILEON",
-          "medio": "ILEON",
-          "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQa3NqRFZjZHpoRFB5RFlVUWt0RGJxQk9zNTNBempwQnU3MXczdEd3S2IxVk1ERDgzbUtzUlFwUTV0bkJHaURXNmsyN1A1SFRkcVNxSmhwMW9yLV9IdU92Q0swaHpsR3VmMVZSWjZoMHNrUUIyb0x0OXhxdjR2QXFVZzFFQl93cXlaLXRKcXN4WXJtd1p0SG56NzZ0VUZVNk9FMjlaREVoTlhRU0lLbjZGSlMtUlpCel9aYjdHOVgzOEZHZWJ4cncwTzRMZ0l5UnpGUkc40gHYAUFVX3lxTFBYWUp2U0hGeXl3M2NJNEVRZHA5T2pjeEgwV1lmM0Nkdno1RHlOelNTdmJDcmZkR3l0aXM0NEwzSVpzZ3c3WVo0V05nUXVCakhwODFMRGZEVkpxQ2tqX1ZpTHJHVWNGcTRleUtCYm9jbUJZWjF0Y2thaEdJd2lzQ0pMV1VnMllYd2pockZIM3lWSkJQS2t1Z2xwUjF0TW5VaXJSMFRDU093ME9yVlQ5OUJBZ2ZFOFpLR3JSOWdlbW5PWUVycU1wWUlKS2c3TlNjcG9VcVlBbHUwUg?oc=5",
+          "titulo": "Confirman casi nueve años de inhabilitación para el ex presidente de la Diputación de León por una pieza del 'caso Púnica' - El Mundo",
+          "medio": "El Mundo",
+          "enlace": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DZWJRTU8zMlNPVV8wQXlFbENpekM5YmN4aHRFZkV2Vld2NkJPUnZPd1NSXzVyUUVkbkdfOXN2dUlOOVlnOHVHZWowaDFJWUJEd0xLVWtFS1ZVUFI4V2dNeHNBdmR1elZ4RnA5dmhNbnlRLWJZNFJtVE5n0gF6QVVfeXFMTUxVcTRMRzZ0Rk9IZlpWWmNidUJGRS10NEdOcFBsOVN3b05ZdnpYQ1BYS05CdDhWNllQRW5kZ0E4RmltWVloUm5qNzRqYUZsaW9iSWxHb1NLdkY2TjdMODlvalJYQnBlTVkxV2xpTnZSX2ZGWkRPajJ2UVE?oc=5",
           "claves": [
-            "condena"
+            "inhabilit"
           ]
         },
         {
@@ -659,11 +672,12 @@
         },
         {
           "fecha": "2026-09-24",
-          "titulo": "La trama Púnica queda sentenciada en León - Digital de León",
-          "medio": "Digital de León",
-          "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdGlETjg4aFBMM1lEZXBLWTJKaWtHUGppbnFMVEE0SjZzNFZBeER6cmwtMmJPTGRJSGFwd1U0VmZBOVRrMzljbk1rd2dtMEVPR29IYlNmNk1HZXY2akx2Q2lVLXd3QmNqYVBvb1V1VEN0MzAxTU1walVxZzB5dnV6QWtvQTRLcTlKb0h2VzF3b1N5Vm54RWRFRkptc2NqZ1NDcUUwZzlIQUw2bElXMEQ2eXZHNzhvd9IBuwFBVV95cUxNUDc2cnRaam1pOWtETDMxR043SDFJYlpJRy1MYXpaUmlORnFTeHdaVzR3ZlpBTlVCSFlqODR4Y2diMG8wam9WS1lSQzJuSHRzcTBqN29DS2gxYkRtSjhYMHAzc0V0Wm41bF9HakNpTnE3Y3BCRHZodXg2Rmp2Nm9DaTZZdGQ1V1pkckVHSDNGcTBLczlGdmgyMzFNU0RnOUo5SEIzZTBiejgzeE0zLTRfQzJFUDFNSFdqWlJJ?oc=5",
+          "titulo": "El Supremo confirma la condena al expresidente de la Diputación de León por su implicación en la Púnica - El Español",
+          "medio": "El Español",
+          "enlace": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZVV5R3FxTlVIY29FQ3BCMTdUOFQxTVNXRzZsU0hpdU5HV2xkX28wSHB2NnQyNGFnMGxDTE1GLWdTdjltbnZ0MzNEY0xJeVVjQXVHODdNU3ZlTmswdTJNdFA5cDQwblpQUEJ6M2lTa1pWR3dCSWZUby1ZWnowaEprb2hVUnNJNW9xZUNHdEtIWXRwbUVtNThmaFVVVlVvY3BJU05PTm1rR3RkNWlQNGcxaU82WDlWaEMwczhGZUZNM1NRQ3hDVEMzQVlFSFNPRXhlbjhFOHdkN3BaSzhPUS13QkZxc2QycTc5cUxJMNIB8gFBVV95cUxOTE4yV0E2UjJxVXhpUlhVSkNEWnVldTV1SGhUTjdWNS1pX0RmU19rZVNVcXg3UFpXNVhSZzhxUjg0MXlJMEd4bmdpRERkdG56SEg1RmlpTERhaV9BUjU4OU41ZnBXRW5iME5uaW5nSHE4VFBLZTQ4MHZJR0F0cmx6TDRoNXVUUWx2UmZtTEZ6b1JoT1UyVjdrMndlMFV3SDhYdjd0MWVPVHlzM0c4LUZZY3BQeWFmTEFwQWRNUUZ6UXNVbm5fVVNRcmU0RjNsUkNBUkV2MzZuQU1vdXA0d09lN09ZR2stX05mVXo0akFGdnV1Zw?oc=5",
           "claves": [
-            "sentencia"
+            "condena",
+            "Supremo"
           ]
         }
       ],
@@ -679,7 +693,7 @@
           "fecha": "2026-10-05",
           "titulo": "La fiscal baja a cuatro años y medio la petición de cárcel a los acusados del caso Lezo por dilaciones indebidas - elDiario.es",
           "medio": "elDiario.es",
-          "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNY2J0dDZ3T01XVVlXWjNEUUtVWFVaTy13ajhSMkU4dEdBZ0l5X1cwejNFdXIzWGJEQVpwTE1OYnlPU2owa0JOX3VHMkxMbTJDZHRIQjk5QjZ1ZXF0WjBkT2ZoUVV3X1ltaTB5Q0w1T2k3eV9wMHFyT194TDdwaUh3NjRrR3N2QkhDNzAxSkJUd3JsNTVvLWhUOUtBcTlBZlV2X24zS0Fqbnpvb3pFYUc4c2UxSG0xaTVDVEJrQVF6TEktcTVMcXdyejF1WDh5b200M3fSAdIBQVVfeXFMTWNidHQ2d09NV1VZV1ozRFFLVVhVWk8td2o4UjJFOHRHQWdJeV9XMHozRXVyM1hiREFacExNTmJ5T1NqMGtCTl91RzJMTG0yQ2R0SEI5OUI2dWVxdFowZE9maFFVd19ZbWkweUNMNU9pN3lfcDBxck9feEw3cGlIdzY0a0dzdkJIQzcwMUpCVHdybDU1by1oVDlLQXE5QWZVdl9uM0tBam56b296RWFHOHNlMUhtMWk1Q1RCa0FRekxJLXE1THF3cnoxdVg4eW9tNDN3?oc=5",
+          "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNLTB1X1dNM1EzbUxERlV2UktnRWhNV3NDajNNTFFCbVVXcHN3WElyUUFBalhmOGhCSGRpejFMdVdhMVI3ZkNqU2c3SlZrRlpPdTFaUnk5eDZYSUx2QTRiOTBqbjFPTHE4Wm9saW1DY0hwdF80dzNwRDhFbXNMeFFVbzhlbW16WnlYRzZLcWN0TnhHWDl5ZnBZajlGUWpSTmp1TWJMbndUdzJYU1ZuRV8wS092VHE3STlWVm9TQ1UwZUV0aFN4ZXJnN0VoQlTSAdIBQVVfeXFMTWNidHQ2d09NV1VZV1ozRFFLVVhVWk8td2o4UjJFOHRHQWdJeV9XMHozRXVyM1hiREFacExNTmJ5T1NqMGtCTl91RzJMTG0yQ2R0SEI5OUI2dWVxdFowZE9maFFVd19ZbWkweUNMNU9pN3lfcDBxck9feEw3cGlIdzY0a0dzdkJIQzcwMUpCVHdybDU1by1oVDlLQXE5QWZVdl9uM0tBam56b296RWFHOHNlMUhtMWk1Q1RCa0FRekxJLXE1THF3cnoxdVg4eW9tNDN3?oc=5",
           "claves": [
             "cárcel"
           ]
@@ -693,30 +707,30 @@
         },
         {
           "fecha": "2026-09-15",
-          "titulo": "Gallardón defiende que no hubo \"perjuicio\" con la compra de Inassa en el juicio del \"caso Lezo\" - larazon.es",
-          "medio": "larazon.es",
+          "titulo": "Gallardón defiende que no hubo \"perjuicio\" con la compra de Inassa en el juicio del \"caso Lezo\" - La Razón",
+          "medio": "La Razón",
           "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQOVN4TDU2dmp3YXZWZUlNdDRad0pJNk8zektFWEJQb3VGTGFDV3FyVjJmRFV0UFBqcEpXUkVpUWcycFljTGk4Q2t4a2tjbG5QNVFPSXY2MGZpQ2FxM1drT3N3RzEtVTZLLXB6YmJFVm5kbWxQNi1lQ1F0N29UTEwzbmI3bHJMUl9maVlTTFR4cjhaVFVwT2dWLVJMbXJ2dFczb2ZaT1BVYWhHZ3dsdGhOalZhT0RXZUtfd1FoSXNaSHkzeFVscFI3TG9WeVVxNlFTbnfSAeYBQVVfeXFMTVhncmdCN2VISXVYcEhCV1JVVkR2Z1FpM1JHV2JsQUVJdVRPbzd0WXlLeTFGZWRpUUNtRFNscjk5SmZjTXJycnJUMjZfR2hqdHFUTTQ2WDRhUGktYXRCVFBDWG9wWWUxRFJrczg4Z1BqVVItVGk4T3RabFh1ZG9oc3FET3hTME4wWlVieHJlOGUwQWZGLW9QdGxibVF4N21aWmo5VUEzRTNHbmNjT1JBZkM5c3YyUjdBQXA5OXdrZXBlSDhIS3BrckJ0NkljVkZmVTJ1ek9NMVIyWE1vLTh4QjUwWmZyNWc?oc=5",
           "claves": []
         },
         {
           "fecha": "2026-09-15",
-          "titulo": "Gallardón niega ante el juez del caso Lezo un \"perjuicio patrimonial\" para la CAM por la compra de Inassa: \"Fue legal\" - rtve.es",
-          "medio": "rtve.es",
+          "titulo": "Gallardón niega ante el juez del caso Lezo un \"perjuicio patrimonial\" para la CAM por la compra de Inassa: \"Fue legal\" - RTVE.es",
+          "medio": "RTVE.es",
           "enlace": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQR0FRVzB4aHhINHNfaHQxcVByN3QzeU5UWUJpNnFYcndpdktZUy1LeHM5R1NFMkU5bmVpX2dnbGU3dHNnZi1kd3EyTUJBX0s1Qy1DOTRXMFdzcHNMS3QwUTFuSEJ4Z0lEemlGNG02clc1T2RBdy04cHU1TUNsT3ZEMUxFY2NaYlpTblFwNERERFY?oc=5",
           "claves": []
         },
         {
-          "fecha": "2026-09-09",
-          "titulo": "Arranca el juicio por el caso Lezo sobre el Canal de Isabel II una década después - lasexta.com",
-          "medio": "lasexta.com",
-          "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQb2lkR29zdlV4bUZPbDhuMHlzZE1xb1NXbG9OaHk4Q3NUQmRLNDAzOXBmVWtKMFd0dW1NQUgzRGNuQWtCZ3VvUno5Q1h3bWR0VHJHWHFnR2ZHYmF2Y2VEMEI1UFNaQUZfd01pMzg5T1RydGtLY3RXLTJtU19vVGpSdUNYSDdIVzIxSkpsd1JkeWd1U200NVRFdnJDdVk5aHBuYW9yLTd4RW1OaU82Sy15Q0FYaUhoSEllZ1FqSjF2TEtyLUpyeGtEeDgyeljSAcwBQVVfeXFMTnJLMEtvbWp3UWlhNVUtN0FsNndtc1M0RlF6czJFLWx4SHpYak9TalZudmJyb05GZk8xSnVOTVdTUHY5aXBIcDE4QUJGV0phNVJVMUQ2MVJTSnhnaXRjMnU4Rm4xQmotLTc2N281UWlfZXdLNm5KWVc2QUdKY1R4MEM5VmJhcFFBX1lDQzlCVVBhc25WcGtma0prblRJVWlVZ0VST1d5cWpFc21MQjc0T3pqTVI3Sy1veTFBem1jMVF4UGF0WUVoaURuaVdh?oc=5",
+          "fecha": "2026-09-15",
+          "titulo": "Gallardón desvincula a su gobierno de la compra de Inassa y responsabiliza al Canal de Isabel II: \"Nunca tuve la más mínima duda\" - Diario Público",
+          "medio": "Diario Público",
+          "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZWxMNnM0bWdkN0w5WklyMUJ1dE5tazVLa3JBd1h4MjhQYy1OM2V2bmNjSHAzbTNaLVR0bGM4cEdONEg3NDF0Rmx0NnRMUThpU1YtUmZMMFJjTVI4bWRsVVRDNXluN2dJakN0V0ZjYWpCSHUzM2VmaXAwcUJvcmIwUml0WlU0YnlKQXdYS3l2WFN3YVhpTVgySUthejFZTFE4dGVEQkR2MWVnUi1iVWNtQS1laHpHRWRrajJPeE5vbmdPR24zdVJiZjVlN0RqUGNDd2Q1eF9keEt1S1N4cVHSAeMBQVVfeXFMUDJtamQzaEE1Vnc2R1lHd3BMWkJrQUZRbXhsSzdjWjVUVl9IX1BGd3B2Q1BZTVloNm11bXpRSlBnazcyQnR3azAtOHNPNUVvR05MOEwtUnAxc3BhZTUzVTZvWUhfck5LX0FyWWtfUm5QdGoxSWZuUnF6M0RqTzRtelQyRFYwdlUtSWk2OHozcXRDRGktSDdZSFFNQzd0QzJ1Q29EZW5aR2tWYXZzbXZ4dDZrMXJOMlpKS2UtWFZENUJsVDljN2tDQjh3UDZOQ3JfS1VkbmdhcGtaX2k4cFBpNGg0cms?oc=5",
           "claves": []
         },
         {
-          "fecha": "2026-09-07",
-          "titulo": "Exconsejeros de Ruiz-Gallardón y otros acusados de Lezo piden anular el juicio por prescripción - rtve.es",
-          "medio": "rtve.es",
-          "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTHRLaUZ4bEZKaC1Dd1JFZFh2MVU2ZzVqaDBScHEzZTE0ZHREY3F5Y2xkU2k2NTN6YTVyLXpiNDRxeER4UjgzUkNmU01rSkZ2OC1EcXg2a0ZaRFhXYW9HNk1lXzBWcl9Gc1k4T3hobmVxbG96RHlwRHNQVlpkT3ZONjZVMnQxR0x3a1hfcmFzSXEyZWRLZW0xSHFGczA5Zw?oc=5",
+          "fecha": "2026-09-09",
+          "titulo": "Arranca el juicio por el caso Lezo sobre el Canal de Isabel II una década después - LaSexta",
+          "medio": "LaSexta",
+          "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQb2lkR29zdlV4bUZPbDhuMHlzZE1xb1NXbG9OaHk4Q3NUQmRLNDAzOXBmVWtKMFd0dW1NQUgzRGNuQWtCZ3VvUno5Q1h3bWR0VHJHWHFnR2ZHYmF2Y2VEMEI1UFNaQUZfd01pMzg5T1RydGtLY3RXLTJtU19vVGpSdUNYSDdIVzIxSkpsd1JkeWd1U200NVRFdnJDdVk5aHBuYW9yLTd4RW1OaU82Sy15Q0FYaUhoSEllZ1FqSjF2TEtyLUpyeGtEeDgyeljSAcwBQVVfeXFMTnJLMEtvbWp3UWlhNVUtN0FsNndtc1M0RlF6czJFLWx4SHpYak9TalZudmJyb05GZk8xSnVOTVdTUHY5aXBIcDE4QUJGV0phNVJVMUQ2MVJTSnhnaXRjMnU4Rm4xQmotLTc2N281UWlfZXdLNm5KWVc2QUdKY1R4MEM5VmJhcFFBX1lDQzlCVVBhc25WcGtma0prblRJVWlVZ0VST1d5cWpFc21MQjc0T3pqTVI3Sy1veTFBem1jMVF4UGF0WUVoaURuaVdh?oc=5",
           "claves": []
         }
       ],
@@ -729,51 +743,57 @@
       "fuente": "google",
       "noticias": [
         {
-          "fecha": "2026-09-27",
-          "titulo": "Elma Saiz llamó «delincuente confeso» a González Amador cuando era su propio marido quien sí había confesad... - OkDiario",
-          "medio": "OkDiario",
-          "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNQVJFYnp5S3A5XzV3OC16SFFPbWdyWGJ6SVk0Z3c4Z3lLV0Y5OXNvazRPWU1QdGQwcU9qVXduWlFUa3BneGhNbDZEN0RoR0Q1NGoxZlhFblpEUEExampkZHU4YUVHYmIzOXlSTUdjQ0pTVVFqX0NHOS1tcXdza0ZaUDRCRFl5MGhFQUl3SXRnbjUtVlB5TUZuMVlNRGZwVVFsTFpWR3hoNUNxNGl1eDVGZWRlXzVhbHF5QmhmTS1VLTcxRmZrMERzanlrQnBWQ2xwMXpjZE9XYVNmQWxpUUZn0gHkAUFVX3lxTFA2VTJST2JfOWZLN0M2ZlJoNGZQYS12dEtzbmVKSGVVeWpEYll5T3lYNEx4UFNUb0NkbFpTbDZDTEdJRld3cGJYaHJadGtlcGNtV0drN003b25FemxTbVdLLTJaQ2J2NHE2dUlMZ0F6TWRCZFg3MFpLci1tS1g4aEtLQ1Zabk5ocHhVSTNFZkVNbE9IWG1iSUF1djkyMnR0aW9tTzFHREp2Y3ZXSGI0cmtUSzZyeGw4eEpPLXBUdGxZdlMwcEQ2UkZjUVN2QXNzeHBLQzgyN3lFbHdVams0WXk2cURjRg?oc=5",
+          "fecha": "2026-10-12",
+          "titulo": "Citado como investigado el director de Quirón Prevención en la causa contra González Amador - Noticias para Municipios",
+          "medio": "Noticias para Municipios",
+          "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQ1k0a0xQRUpLQVhadDF2alBiLU9aZTBOVzR5ejFVejZteXowelFiSG0ybmlKdUFzb2RBOWtGSWd3dzFsbHJEZW12c0ctRWZOQ180N2N6RVR4WDFFNU1yUUMzZDlaSWxOUEl6XzNjX00tWHVEMi10emRYUVNCbVJGcjd3ZmhfQVMyQ0lVbFYtNVBzTUVuUmh6RTU3amFyRW0xdktjaGlaRVAybWlHYXprb1U5OWZXMFUxRm8yanRjSHNKd0FrcjMyTFg5RVdGVkwxQWdERGpzV21pM2F4?oc=5",
           "claves": []
         },
         {
-          "fecha": "2026-09-23",
-          "titulo": "García Ortiz moroso 10 meses después: sigue sin pagar las costas del juicio que perdió contra González Amad... - OkDiario",
-          "medio": "OkDiario",
-          "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWXFIYklTeWd5eWROU0duVzJQeVc3dGt2WU1iUzJ2LXFabGY2LVdjdVpYOGZqVTR6MWxockRfS2Z6TzhRazBLLTdPZ0UzbkppV0dGT0tCaFR0V1g4U2N6c2l5MExaek8xbW0tbURnNnQyN0c1M0dJS3pMRGZfbmNMMmFXMHNIamJvY0E0cFdudlE0bHVscUFVNUFXb0dJVDZydmk5UTI1YWt5Q2pXU3JFUUFzMHlWaVJjeEdYNi0weGxPd01IaVM5S3NIY2dwbXAwUmlRRG9sMW3SAd4BQVVfeXFMUGlkZmJzWnpsUXhEU0VDVTdJOTB4ZDIyZzg4eHRBZU95V3g1X05kNWhPVVY2Q08zNTFpdU5JUFVOVXc1VUUzbWhuMDNLV3BnQ0YxSFlOZS11M3o2R1k5akhZeER1YXFBQW9XeW5KVHF1TThqdkxKME1KWFBfMWUyR0ZLRk82cklob2JfaThhamxSMHVNMjhmSWhNU25FU0JURF8wX2dUSDBrTWJoaEtKb3kxaG54N1JSdncyeml6XzVXSE9xWk9oRDBkaTJmbTl6eDl0ZWNHSDBPNWZsM3JB?oc=5",
+          "fecha": "2026-10-10",
+          "titulo": "La trama que conecta a González Amador con un directivo de Quirón - MUNDIARIO",
+          "medio": "MUNDIARIO",
+          "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUG5fMFhKcnRaX2ZFYUpnNWZhS2lJWVFPZk1QVXdHakp4ME5GYUJJYWx2TndzS1lZYlBfbjV6Y0FKU29GUGR2aE5pN3JLMWFrVmNfM2J0UUNIMmJrYy1LWnk5bUFxSWN1MVROdVNTTThVbW8tVUJnSDVkVDBKcnBLdlViaU96MDYxWFVrSzBGa2gxLWFLUEs3Z0hYR1NvSEZnb3pJSmFvS1g1SWwxanpqSnhsRkkyZG9fcE9hT0Q1U2pWSjZ5c1laR0R5bnVLQUlwSnVuN2stTXPSAdgBQVVfeXFMTVBuXzBYSnJ0Wl9mRWFKZzVmYUtpSVlRT2ZNUFV3R2pKeDBORmFCSWFsdk53c0tZWWJQX241emNBSlNvRlBkdmhOaTdySzFha1ZjXzNidFFDSDJia2MtS1p5OW1BcUljdTFUTnVTU004VW1vLVVCZ0g1ZFQwSnJwS3ZVYmlPejA2MVhVa0swRmtoMS1hS1BLN2dIWEdTb0hGZ296SUphb0tYNUlsMWp6akp4bEZJMmRvX3BPYU9ENVNqVko2eXNZWkdEeW51S0FJcEp1bjdrLU1z?oc=5",
           "claves": []
         },
         {
-          "fecha": "2026-09-08",
-          "titulo": "Losantos asegura que Isabel Díaz Ayuso \"ya vive sola\" y reaviva los rumores de ruptura con González Amador - Vanitatis",
-          "medio": "Vanitatis",
-          "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOa3NqSi03ZlkyNGNWTU45cWI2R0E3WkNEaFVVXzYzVUM1eXoxeGxvaVJiSWEyeEptWE9WMGUzVVM1elpqMmlOellYX3FjM184YWlYMVRzeVBscExjMTFOQ3Y3V3BHTTN0akJRQ0RmMU9Ba2hBNkcxSXZPeWdIV2tCZ0hvUkZmMV9EZ3EweEtmbUx6YmlxeVFZYTJSbkZWRGVRQXRReTllc0VDNGl2bjRvSUVVT3dBYm5NbVhfUGxFZ1g0N1oyTUYxMnU0VjN5UHc?oc=5",
-          "claves": []
+          "fecha": "2026-10-10",
+          "titulo": "Imputado por soborno el jefe de Quirón que fichó a la pareja de Ayuso - MUNDIARIO",
+          "medio": "MUNDIARIO",
+          "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWDdWWElhYVJkWG5QX0F3ejlLcm9ZaERYQXBwMGhfV0NYRU41RUxYdnEyYmQ4VzlPclZ2UGVBRGk0UG1jaDJOclI1Wkp1Tlo4a0Uzc2laTWU0VXA3NXg1dzhBWmhqTkpHQWFtQ0NxNU1jMVJnX2gxLTVsOXFEcWdpczh3R1ZacFRLVVFmUGFFcXlBY0J6aFNybUp3YkdPUy1QdVFiMjZFSk9rbjMxT1J3TERXa1Q5MFh5SFc0dmxSR2xCc0FqaHBHOUY2YmhOZV9DaXRsTGM3ONIB3AFBVV95cUxNdkpKSXZZd056YmxFUnBsT2wwLS1ZZXdLZE1PVC0zZC1SZE83Rld6MHN5N1BtSl90N0w5V3lwSVVfcC1hVVNZWWF1cmppUGR5cm9CTDhSZVU1MlZWWnRZQXlKb2VsMGwwSFZqQ25UWGtyUzEta1hZcmM0bGFnVkplRGFpbGRYRXh1SEVfV0Z4aFFPOHdpamNEa0VQNEhKXzJRazhJT1ZuVDR5dm4zcXVSZnR1azNmZ2ZLSkpNWXBUbEkyMzVLUENNb3dYNHhCa1JhSXdzZUF0a0g1Rnk2?oc=5",
+          "claves": [
+            "imputa"
+          ]
         },
         {
-          "fecha": "2026-08-31",
-          "titulo": "Ernesto Ekaizer asegura que Ayuso \"ha roto\" con González Amador... y señala la gran consecuencia de la ruptura: \"Tenían un...\" - Elplural.com",
-          "medio": "Elplural.com",
-          "enlace": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ma25qOTQ4b3RrTFFZQUgzOGhMNXoxUkxoZ1BDYlRMOVNrOWtkUmJFS2otd3lxRU94bE5wZ0tLMFFFN3NGa2Y1NWhEMjlhQjZLUEhTeG54Qnk2MHRmQnN6elJvSmo2aVdGR2lsedIBckFVX3lxTE5VVUR4VWpibHVvMVc4WGMtWlRxd0VZU0M3czJtd1NGQ3dvNmhCbXUzODFKN3ZRUzVwb1BqdElDaDlkSFZSekJobl9TeG5WUTh4LUxZNDlBWnVEMUxxZnpzRktZSVAzZDNxdjN1aHotZHN1dw?oc=5",
-          "claves": []
+          "fecha": "2026-10-10",
+          "titulo": "El juez imputa a un directivo de Quirón por repartirse una mordida de la venta de mascarillas con la pareja de Ayuso - EL PAÍS",
+          "medio": "EL PAÍS",
+          "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPRTQ3LUk5b1Y4LThHZWVWcWh6REVXV0V0akNwNEYzMUdkNmhyeTdER0pfMUVkSHFHVDh2SGllNDZtQldsekRHX1ZuX2FmRjU1dkl5Q1VJN1c3VkNKQllmbzdNaGJOdWxmMjZHakNOZHFNU1h3Z3A5ME5MNjFjZml0ekdWNWItZzM4OVIzLW5OYVlRUFJsbGk1OHo3QXFRZldsSXV5WUVybDNCV1JvYWt5UU1aZHpjMWIzd0tqNHZ0UWh2ZllpS1R2clBXNVM0VjBvUWNacVU5ZHMxaXdnYzlnS3dnSTB0RG5hanZkWElzZw?oc=5",
+          "claves": [
+            "imputa"
+          ]
         },
         {
-          "fecha": "2026-08-24",
-          "titulo": "Curso judicial en Madrid: causas que llegan con González Amador, el caso de Móstoles y juicios mediáticos - moncloa.com",
-          "medio": "moncloa.com",
-          "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9CQ055NHA0ME94N0VnbFkyUC01SzJrU0hNQVp3NTBpSEdEQ1ZYNUZNM3RVTUFhOWRKZ25JY294S084ZnNNUXczZGtvaWxTMUVyRzJZYWdYaEU3R0tmY3JybVlGa1Nrd1lqRnphWjVRVGZaZndHZGlWNkFiUXM?oc=5",
-          "claves": []
+          "fecha": "2026-10-10",
+          "titulo": "Peramato recuerda el informe favorable de la Fiscalía al indulto de García Ortiz sin analizar lo que decida el Gobierno - Diario Red",
+          "medio": "Diario Red",
+          "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPcXdyMktqZDF4TVk2czFiMzI3anpTYl90MDF2T0VQbmtUR1A4SjVxTENxYUNwc01Sc1lzcWJlTUJlWWdSekg0Z1dBU0FuMUtGYUVPQ1pMVFdiUXp1OUFCTVYxaDdZSkw1WnJKZUJqS21pRkZDWE1UdU5FSG12Z0J1WjZyNXE1TmZETXVubWtCeXhMcDA0MzJ1c2JNSXJLb1ZaVG1FeWc2aWFuaVQyUUM1R0Z2dVo4Z0Nad0N6ZnNtX1IxYWNKakE4Vml3aEZWMXRIZmwzZWY5MkctaThleC1JblhEdUl0U194c3p0WVhEUkJGRGdOQmfSAfsBQVVfeXFMT1NrX1ItSHNkd0dxaHVKcFpybTFLZl9ab2d4VTJydEFaZVdnd05IaDVnaHI3aVlIaUVMVFVYYjgtQTg0UlFpb1FyRERsT3JHTUJlanp0NkoxRk5wUG9mcXl0WVFVdnU4aWNtZUQxSWU2aV9MamxRSE1tNXZKWmRaZXJIcEx0bjJ1MnMxZ2RURjlMWWthMnNwUGJaNTRmdVZsQk5GQWlTMkpjV1dnakU4MUlTekMzNzdzYXNBR0tROVZPa2xvdFhqUTRjSGctOHhhZS1iZ1NTb1hLQkFwMUswVDItcHpPRWJoYWRxOU9QZ2ozSkRqN2VOT3RoUnc?oc=5",
+          "claves": [
+            "indulto"
+          ]
         },
         {
-          "fecha": "2026-08-21",
-          "titulo": "Sumar cruza la línea roja con la ruptura sentimental de Díaz Ayuso y lo paga caro - ESdiario",
-          "medio": "ESdiario",
-          "enlace": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaHV1Q2NwZ1poa3dJUWdFd29JYkdVcXFDRVVFNnFwaW9tbHdkOENFZURkT2xDd0laSHB5S2djUXhBazhSZ2Q5dW1HLWJoN2dROS1PTk1uZDRXc1EzaEVGQTQwM0lQbEtOSU9lNHZEYzFwTUU2UExkM3UtbFJ0UkNnQjdTTW43LW9JOTVnY0lNeGJMZE5zX1BVOXYxaTnSAaIBQVVfeXFMTWs5dnJyeUdienRySU5aWWk2a3Q5LV9oNlF6Vjd4OFpKZWdHZGxhYzFtdjY1VFJBWDR3Q0VsdU1laU5ibDB0all3ZEhsOGhZMTdGN2EyQkJwVlNkc3M1YlNRSjJWTXIxLXd5SmRmWEZmVWRpazNzSHhKYjBkR1NReUduM1duZUh5OVprTmhGQk1fblJtazhKSTBDZkJiUmtmd0hR?oc=5",
+          "fecha": "2026-10-09",
+          "titulo": "Los sobornos del caso González Amador: el juez cita como investigado al director de Quirón Prevención - MONCLOA.COM",
+          "medio": "MONCLOA.COM",
+          "enlace": "https://news.google.com/rss/articles/CBMilgFBVV95cUxON1RBVmEtelY2ZXl5Tm1FazB0Y1dSNTF5YURydmlyZUFlLXliazd2c2pacC1TMVZFeGpMdHpob2hhdDhSSE9Zd3NVaE5pQm44dWtWTEZqcFFxd3hYU1NVbVVXZU8xNEFFTGZySkdDeG85Uk9EaVI3ZEdCUVJxMG84eEZMZFh5SUFDVFdzbG9XaTlOdHpMbEE?oc=5",
           "claves": []
         }
       ],
-      "ultima_noticia": "2026-09-27",
+      "ultima_noticia": "2026-10-12",
       "posteriores_a_revision": 6,
-      "revisar": false
+      "revisar": true
     },
     "acuamed": {
       "consulta": "\"caso Acuamed\"",
@@ -821,17 +841,17 @@
           "claves": []
         },
         {
-          "fecha": "2026-10-02",
-          "titulo": "Las revelaciones del antiguo CEO de la BPA en el juicio de los Pujol sacuden la sala - El Món",
-          "medio": "El Món",
-          "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOTmNvdGcyYnJONnBGNnkwU1NVV0FyeDlMUlBVTmt5d1BKZnpYOWR0aGgzOVJERl9lMkdkNHVLY1pFZTc1VjYxSlY4UXhjSFdJVXItdDFMQ1lfb0l5TUVhUXNuZnQ2eXAtdWRDNnozRk1JbnpsMG51bGlVTHg4QU0wMl9NZHhCb3E5OEZmQXE2UWN4NWdFZWg4Uzd5SjF3T05TWjIxRmxTSlNIUjM4SnpwMTViYnhTUTljRmg5Z3pPNVJ2XzhCejd3bDB0eFhjNUt0QjVlTk1PNnVRSGxLSEE?oc=5",
-          "claves": []
-        },
-        {
           "fecha": "2026-07-29",
           "titulo": "Begoña Gómez ficha al abogado de Josep Pujol de cara al juicio con jurado popular - Diari ARA",
           "medio": "Diari ARA",
           "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNV015cUc2eVA5WG1DZVFvb0ZOQmVyanFYZUxIMDc2dkdZYWowUjFSMkZ1Q2xkdk80WkVQc2QzZWZ6bmlBWHFrVG5EdzctOXdMX01QRUtKOVBnZUxRdFRhVUZXelFYaldHQjZyWWdhNUwxaEFfZzdIdGJVQzdWVzBjUVo1Sno5Vk1CZ19PVl9IZmpCT0F3TTlNZWYxcUdtQThTN1ZILVRaMWNDRVds0gGyAUFVX3lxTE9MUXNFTDJQRjloZTVPOVdLckxEX1k1aEp0TVZUMmFodzBXODNJaXlzUDVfVWtQaWxBcXZZMFFobS1kVWc4cVg1MTVLWWpWTU01a1dycmllWWpHMWNjcjBoQi1QWnlvbXNXS3RCc2hFLTlWd2xjaHZhOWduU093RGdYcjFUeTdRTjhZY0czNVJJUGZkMkJvdS1JaEFhak5lV1NFUXV5ZUFScTVpMVpRVHJoS0E?oc=5",
+          "claves": []
+        },
+        {
+          "fecha": "2026-06-19",
+          "titulo": "Los cachorros de la antigua Convergencia lanzan una campaña para blanquear a Jordi Pujol - El Confidencial",
+          "medio": "El Confidencial",
+          "enlace": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOVmdtdVgxWFlVWkU0bTBUbGJkUU5pdEFfc3Ixdnp1WGprUTMtNlJ2b29ROWh0MDlSQ0FnX1VON1d3VDllZG9SQl9tSTBGeFdzYm11eW1uQkM5OWplS1piQXExWVBEZkVNN216ZGZHcUo1cmx2MGg4SlF0UklZdExMSDZKenlqbXZ6Z0VDR2JVX1Jfd1FLRzlvSTlzUU9uamUtU0hFVmhIRjVfRnlxelNGaDI0UlpQQ2JkTnRBR0VPZXRWdURRZkUyRUhoQ0VKUkJZV1hUS3daRzZVUGJDSDRnT2RHQ1o1QmNLOEJj?oc=5",
           "claves": []
         }
       ],
@@ -852,13 +872,6 @@
       "fuente": "google",
       "noticias": [
         {
-          "fecha": "2026-08-01",
-          "titulo": "Denunció la corrupción del Palau de la Música y tuvo que exiliarse: Itziar González Virós - moncloa.com",
-          "medio": "moncloa.com",
-          "enlace": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOGZYa1AxNG1PUFJ3MjFFVndoLVdtXzdub2ZpQl8xTDZrOTRPZmdfMlF1eWNfejRWWEM0LXphS0NHOXRoVkdiNnNrbThMSXMyNGcyLVNJTllJa3BhenRlVEFjYlVlVHlPX3RVeDBuSlJmcm5pUFo1MkY4UzdrOTJ4eS1HUnQ4UTB2TEFGTw?oc=5",
-          "claves": []
-        },
-        {
           "fecha": "2026-06-22",
           "titulo": "Quiebra necesaria de la herencia yacente de Fèlix Millet, principal condenado por la corrupción del Palau de la Música - Crónica Global",
           "medio": "Crónica Global",
@@ -869,8 +882,8 @@
           ]
         }
       ],
-      "ultima_noticia": "2026-08-01",
-      "posteriores_a_revision": 2,
+      "ultima_noticia": "2026-06-22",
+      "posteriores_a_revision": 1,
       "revisar": true
     },
     "filesa": {
@@ -883,17 +896,10 @@
           "medio": "El Debate",
           "enlace": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNS1dhSmJZdjd5Z2cycTFoQXNEX21WUVY4RnNxQVRtaWxqbXVtVk03LVp1cEFLSWtxMFhpSXpXWmpaYTFOWW1LMVNyNENQb20tRUQzaUJPTEVrZjBQM0F3c3FOZjVuUmhHTjhlZVVXYmpGLUpiMTN2TTRsckpEbjhpeEdn0gGHAUFVX3lxTE9qX1JlNC13TlgtS1doN1pnR0xTVmxXam9ub3QzMGJnQnNieU03akdRU1NHN3pQbmdiY3pYOGhRNGFVTC1hZFQ5Q2w0UVNoaTFwcDNpMFoxV0c1aFBkbVp2cE5paXdsRzRIaWFSNWJXV09abnFPRU9qMW1rcWh5dFg1Q0tBTlVxcw?oc=5",
           "claves": []
-        },
-        {
-          "fecha": "2026-06-11",
-          "titulo": "«Ni Sánchez es Filesa, ni Feijóo es 'Kitchen'»: el PP cree que gana la batalla de la corrupción - ABC",
-          "medio": "ABC",
-          "enlace": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRXdfX2ZZVUZubXJ2VWhRUHhYV1QyVVg5aFYxUmN2ZzlXR3hGUzVWTVlPWURXYUd4NUsyNEw4dHlYRzNCaUNVeXExZTJQcXJ1UmxzT0syS2xMQ0FvQVB0bUhjdlA2bU9UdjFTZHdXQ2FFV2w3UkdaZFFNdkxUUnFoTXFEbGxYOV91THlydFVRSTYyMjdjaWc?oc=5",
-          "claves": []
         }
       ],
       "ultima_noticia": "2026-07-19",
-      "posteriores_a_revision": 2,
+      "posteriores_a_revision": 1,
       "revisar": false
     },
     "gal": {
@@ -915,16 +921,30 @@
           "claves": [
             "cárcel"
           ]
+        },
+        {
+          "fecha": "2026-06-22",
+          "titulo": "Muere Ignacio Gordillo, el fiscal de la Audiencia Nacional que marcó la lucha contra ETA y los GAL - Demócrata",
+          "medio": "Demócrata",
+          "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNT3g3UXVseTdVZnljdlVJZVpKWkF3Z0xCTWlmUE5GOEY1X3ZQMm0zX1owcUhBVGgtak5OYXNwaEJDWkZNcmdOTU1OSjRNRG9rVUlyZjNkU2NZWDY2R2pydEVJMDlOSndwZjFJNW9qTEk1cGpYWS1wVUVKOWl5NTVwNVBkQUtoVFNaeUk5VEZEeHlKSWVJZlZaT9IBngFBVV95cUxNeV9hN2dDV0JLdGwwa25vRTFFVWxKN3EwSWNQQ1ZGUURPRjVXSVpYaElZSlBxc1NnR3VWSTRob3l2bmp5MDRNSHpMdkw0bzBTcXN3X1lwM2dUUTFqeTZMcV9jUHpNY0lCaVdGNVZKT3ExeEtQUlVHLXl0RWJrVGkzbnhfV196S29LMzBMd3NHWEZiXzUyTGI5MlN4dlZrZw?oc=5",
+          "claves": []
         }
       ],
       "ultima_noticia": "2026-06-22",
-      "posteriores_a_revision": 2,
+      "posteriores_a_revision": 3,
       "revisar": true
     },
     "roldan": {
       "consulta": "\"caso Roldán\"",
       "fuente": "google",
       "noticias": [
+        {
+          "fecha": "2026-10-05",
+          "titulo": "De la cogestión de los aeropuertos a la ley Roldán: las propuestas baleares que se congelan por las elecciones - Ara Balears",
+          "medio": "Ara Balears",
+          "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONjVaNUdyTERKOTU5R0s1OEU0cEkxU3pYVEdxWlVMMlFSQ2dtMkJuc245eWNaVmdER0M2d0Y4bFhvbjViZHhpVVMxNTFjSnJ6SXBWVmNMQUFKQUdZbS1VdTFYMTY4OVFuQ0N0ZUhpRmIyRV9LaXh0cUoxdGdLaUtuM0ZpR3lUWlV4Slc4aWcxOEFvRTZSdjNlX19vVVZTNDFzRVdVSU1nQ2NiUjFMZXNHeDVZU1djM0tFc0VWWXVMc9IBxAFBVV95cUxOb1ZaRmFlVWplQzV6eEhBQXFYLVdDWlJpZ1l3bFlHLWhhRk41TmFUc196QWxWQ3BheGQzb2Jud3VYY0lxbVNQVHQ0MjFINjROTVp2U0UybUpfanVSTVl4ZmVieTc3TXJpZFllYXZNSWRjaWRxZ0d0QzVWVzVfVFFmNW1lVUZYS21rYnpJLV9wNGRiV09MeFlId3AwektsYkY0dko5RXk0RGJKalpNYk9pVnJvZGNaZVVQdUxvMGdZZ3NLRGVG?oc=5",
+          "claves": []
+        },
         {
           "fecha": "2026-09-29",
           "titulo": "Seis años del crimen del policía Juan Pablo Roldán en Palermo - Diario El Norte - San Nicolás",
@@ -941,16 +961,16 @@
         },
         {
           "fecha": "2026-06-24",
-          "titulo": "Las mayores condenas por corrupción en España: de Correa y Roldán a Ábalos y Koldo - murciaeconomia.com",
-          "medio": "murciaeconomia.com",
+          "titulo": "Las mayores condenas por corrupción en España: de Correa y Roldán a Ábalos y Koldo - MurciaEconomía.com",
+          "medio": "MurciaEconomía.com",
           "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOF85U3BycG1fYjFGa0VHdWNpU3lsSjI4b0ZGVEctNFBPS0tIUDV2U0ViRHVVWFFxWHE3UHNIY21uWkE2SjRLY2lMWXFTLXFRUGVRZ2lUSE10RTk4NG81N0kxTmViWDdpR2tZZzZ2X19kZTVrWkJPUU9vVC1McWp3Q3RKbWhiMG1mSXpKa0hud1hVMUZoRDVYS1NtcnE1N2EzVDlGSVRNbE83Y2kyNkxsUzNhbGdtWV8yM01B?oc=5",
           "claves": [
             "condena"
           ]
         }
       ],
-      "ultima_noticia": "2026-09-29",
-      "posteriores_a_revision": 3,
+      "ultima_noticia": "2026-10-05",
+      "posteriores_a_revision": 4,
       "revisar": true
     },
     "juan-guerra": {
@@ -1003,9 +1023,17 @@
     "estevill": {
       "consulta": "Estevill juez caso",
       "fuente": "google",
-      "noticias": [],
-      "ultima_noticia": null,
-      "posteriores_a_revision": 0,
+      "noticias": [
+        {
+          "fecha": "2026-10-10",
+          "titulo": "Fallece Piqué Vidal, primer abogado de Pujol y socio de Pascual Estevill en el chantaje a empresarios - Libertad Digital",
+          "medio": "Libertad Digital",
+          "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQNFdGRWVkTWJsM2ZlQWdaaFdMX29GMlJYLW11Y01JNVRwbUY0X01tUkRKd3VtY1M5VDlGcHc4clp6TUZVSzZhRENuejRzd2oxZEc4cFNfZEMzcktrOGZSM3B2Ql9kVUFEZ3VsbDMzeDZzcVlxa3RQUHFNbVZJVm5RQzFxa29rTzhVYkRjMk1MNmxWNUdjY0JCVFlRdHlxYTItY0VMZktKck1EZWpaV0lwOGFLUHZ4enlnQWFWRzBWZnd0TDdIR0xLaEE2Y2lsMDNXM1lXdVBRZHhaVjI5S2E4VWg2U0ZPbGVsLU9FN0dUVWxoNDjSAf4BQVVfeXFMTnEyRGNzcWtQMVRjdkRkblp0Y0ptSlY4M0duOExURzJFQVhUN1dMb2VhT3k2UndxOEdXYmFzZTNpU0lhck0yRE1rVXU0Rlpxam5uNTJtd1E1cjRpdnhPYzN1RER6TWROY2pST2ZQZmRENzhVcnZCRlV6MUNKSy1QQlBEcHZCbFd0ZWZxOU1ocmh2el9NMXkyODJZZDhsT1Z2YkVfbWdSRXNwWUVCOWxiTGx2eDRIS1FOcHVSdkJ6ajhudE5sS20ySnluZERsU21WcnNZa25RTVFWUTRTZ1VwdFRONDBjSXZES29KYlFfUmE5Z2lLRE5kNXA2U1A0T1E?oc=5",
+          "claves": []
+        }
+      ],
+      "ultima_noticia": "2026-10-10",
+      "posteriores_a_revision": 1,
       "revisar": false
     },
     "naseiro": {
@@ -1016,7 +1044,7 @@
           "fecha": "2026-06-29",
           "titulo": "Del caso Naseiro al caso Plus Ultra - elDiario.es",
           "medio": "elDiario.es",
-          "enlace": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdEdvM1kwUWVTdDFtVERTR2ZXT0p4V3owUVBVM3BZakxJN1ZGWlFVQnp2VE9iRl9remF4aDJrdUt0MkFvc19DMVBlX1R4b3NSNElwOGU4WXBDQWwtNWdhOE5LRC1SR0FsdnU1VEw3TnRVS21NX2hubUY3Vkt5YVZIVWNKR2VPT3JnSDR6Vm04Y9IBlAFBVV95cUxQTTV1Y0VONmNTWHBqY3IyYUhhdGVHbkY3SjNhNUtURzBjenlHS29CVFlaNzY5S3lTZTFKekpJa3RVYTlkc1VWQndvWldXWnV3UU5JbDY3UVJHZmVtelY4SXRVT3ZVdFcwcGhDb0FDa21IRFpaaW5iWHBxMjRsTFZweEhmeEFsNVd3cXVSY09kYU5LN3c0?oc=5",
+          "enlace": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdEdvM1kwUWVTdDFtVERTR2ZXT0p4V3owUVBVM3BZakxJN1ZGWlFVQnp2VE9iRl9remF4aDJrdUt0MkFvc19DMVBlX1R4b3NSNElwOGU4WXBDQWwtNWdhOE5LRC1SR0FsdnU1VEw3TnRVS21NX2hubUY3Vkt5YVZIVWNKR2VPT3JnSDR6Vm04Yw?oc=5",
           "claves": []
         }
       ],
@@ -1030,8 +1058,8 @@
       "noticias": [
         {
           "fecha": "2026-06-19",
-          "titulo": "La trama oculta del Caso Casinos Cataluña y el poder del juego - Law&Trends",
-          "medio": "Law&Trends",
+          "titulo": "La trama oculta del Caso Casinos Cataluña y el poder del juego - Law & Trends",
+          "medio": "Law & Trends",
           "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObHhYOGh0LTBXOXhjb3ZYNDkwTlRnZGF0RzhTS2Y0eVBqc1hZZGl4b1U2dGhZSzNSQklUVHZqaFlHTVowWklnTElSNDNJV1NMcnNQdHNFRzhqMmo3d3VDVGRsWk5RdnBfVGwxZl9YV081QzIyeE1vajBfM1lEeC1KcGY4Sm5feDJpZUIzNkpMN2czLVQ0cVNIaFVtenRwTDl6aU5yVHJSU3k1dkdtNFBTdFZUVE5rQWxfbWc?oc=5",
           "claves": []
         }
@@ -1045,17 +1073,17 @@
       "fuente": "google",
       "noticias": [
         {
+          "fecha": "2026-09-20",
+          "titulo": "Aifos, la promotora del ‘Caso Malaya’, reaparece como mayor acreedora del Guadalpín Banús - Economía Digital",
+          "medio": "Economía Digital",
+          "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNS2pQMzdydXdxaHlCT2JxWk1FNlY1NlFWUmF4R0VwZUZobUp4bHkzRFU5YUdtU0Vjem9oaFhqM2JqdDFDS05ReC1TT1ZRLTBXUldtTzR2aGVlblAwTWN4RkVFOElHWDBUZEdnRVdtMENYZktjRUl1Q2FWT1BoUG4yUDd4ZU1CWUg2OHNKUkJSNE5taV9hRlUyWkhvaEIwVDVaTnRNR0VRRmc0VGJRZkhRR1JhczNBNDkxdDRZUTZ0bG00UdIBxwFBVV95cUxQSVkzN1pUSHRpa1FLUWtlSUxjdm9URHItMTA2TUFENi1DQ3puTE9ZOXFFRzZwcGlUWDVDZVNpU3NVbllScl9RU29jVnYzTmJkUHhSRkduVFhyOVAxZ0MwQ1VRRHJoSEl3bDRIQTF3QnZnQi1IcDIwdXFfcnBYTmhWMm5tN0FveHhjZGNxY0FuTFR0eHBtSC1GaGwwWHd2NFp2Vl83ZW1wejZQSXI0clJvVFppOS1namtnZmJBQlFzX2ozY3EzVWt3?oc=5",
+          "claves": []
+        },
+        {
           "fecha": "2026-08-31",
           "titulo": "El Poder Judicial elige al juez del caso Malaya para reforzar los juzgados de Ceuta tras crisis migratoria - Confidencial Digital",
           "medio": "Confidencial Digital",
           "enlace": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNU1hzQkZZTzNqejI0Uzl6M1NmSU4xWkdaQUNmbXF2UUd3VGUtelA1ay1qelVxWkpwdVltMTdOS3RZT2ZLWW53c1RJYnB1emxDSmtHdlhxS1JaX1JWbVF3di1ITDNuUHZ6YW05ZW1JSGVyMXRlWVVYTDROcTY3OGZJblZiYXFraWJNZngtYTc1S0R5YWEwME5teDF4SU1FamYzeEdnVDM1YnY4b1AtUE1rNHZlQWxFNE96ZFBMRVJ0S25BVlpGLVVSUzZiakQyS1QxUVY2LWtLZmNtWTBPXzRDeFhCSjRYSkstYXpDaFE2TWpVX0dhazVLQ9IB_gFBVV95cUxNUkNUMjROc3lHbzY5RW1WZ2VHTFhTNlRVX3EzNFdrOEFDSnY1YXJHNm1RRHVDQWhERm9oSU84NTgzNnVTSHpFb3RRTDhvVC1GM2RmQVhmanZBSi1NUzhxaDFNcVczWlMxa3RyNk9jaVJtTm51VjNObng5QWktRWhnRUZPX1BTYWtCWldnN29lMzQ2cnlpLWNoRmdqVk4ydXFUREhLd3RGUFJvZDVhaVduSlBIMkV1NXBsN2ZrSVZJWWF4cld4V3puQ2dvdDFrMnhmQXZjSTM2c1puVUtFVFZiRDE1Y2RBTGFiWGtNTU93QUhhSThXZHV0dVhuYUduZw?oc=5",
-          "claves": []
-        },
-        {
-          "fecha": "2026-08-28",
-          "titulo": "El juez instructor del caso Malaya es nombrado refuerzo para los juzgados de Ceuta - El Periódico",
-          "medio": "El Periódico",
-          "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTFA2bDRRemFfT1pUbTBTV0Y5N0t5b2dqZ05HUlZtNTlHX0tWMTMzeUhPb3B1LVhzNlhQM1otSFNBSDRNVW51bVpOTTJoN1ZoOGlNRGZtd09SS3ZCSUw0aEt6TWtEcmNPMjAzXzl3OGZFLThfSzBZSURJWmZHcXpRM2dhclVvRzlKT3VNZGVrOHBVMnNjbUE5ZjJ1RS1EYkdKVmp4cmtUZ3BaaEU4Z0VMV1luaTVkU0dIZ2d30gG7AUFVX3lxTE1kQVZOUHBQUlRBMTVQY0FnalN0cXo4dFlBV01NXzZodmdjT0dianRhZy1IdHJ0MjR0SHNPa2p5dnVZeFNDZlY0a08wUHQ4WjMwYkNFcVhhYld1cWNOcG5UcUJucFhDSVRtMFZQVGlacTJ4LVlOUmFaV3VTUGM3aWh2S3RGQlh0ZjBPWDJVc2k1WkR1TXlkOE5TY2ZKRThETWVaeUFNMnJkdC11T3FUNldxYjNmRmlHUUx5djQ?oc=5",
           "claves": []
         },
         {
@@ -1067,6 +1095,13 @@
         },
         {
           "fecha": "2026-08-28",
+          "titulo": "El juez instructor del caso Malaya es nombrado refuerzo para los juzgados de Ceuta - El Periódico",
+          "medio": "El Periódico",
+          "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTFA2bDRRemFfT1pUbTBTV0Y5N0t5b2dqZ05HUlZtNTlHX0tWMTMzeUhPb3B1LVhzNlhQM1otSFNBSDRNVW51bVpOTTJoN1ZoOGlNRGZtd09SS3ZCSUw0aEt6TWtEcmNPMjAzXzl3OGZFLThfSzBZSURJWmZHcXpRM2dhclVvRzlKT3VNZGVrOHBVMnNjbUE5ZjJ1RS1EYkdKVmp4cmtUZ3BaaEU4Z0VMV1luaTVkU0dIZ2d30gG7AUFVX3lxTE1kQVZOUHBQUlRBMTVQY0FnalN0cXo4dFlBV01NXzZodmdjT0dianRhZy1IdHJ0MjR0SHNPa2p5dnVZeFNDZlY0a08wUHQ4WjMwYkNFcVhhYld1cWNOcG5UcUJucFhDSVRtMFZQVGlacTJ4LVlOUmFaV3VTUGM3aWh2S3RGQlh0ZjBPWDJVc2k1WkR1TXlkOE5TY2ZKRThETWVaeUFNMnJkdC11T3FUNldxYjNmRmlHUUx5djQ?oc=5",
+          "claves": []
+        },
+        {
+          "fecha": "2026-08-28",
           "titulo": "El Poder Judicial elige al juez que investigó el 'caso Malaya' para reforzar los juzgados de Ceuta - Cadena SER",
           "medio": "Cadena SER",
           "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSW5BUTExSmNpNUZfS1BSYkRIMWYyTG56bDNrYkVSYnBVV3lLYmkxcmxBVzkwQ0dtYVBDOU9oRzRpMS1seVgtM2VwNHg5R3M1anI0bU1wWEJmcVdlbm42VFdlTXdwZFozZWtYdU5IWGpLVC1QOWUtcmRWZmVBVlA1ZlBpR2ZINDM2ajdsMFRjS0FrTi1DYzZ3ZUZjdHJ4YjJ6a1owMEtLbzZMc0ItcmJCa19Nb0NvSFBRZklVRWFiMGFMcmlKQ2NxNlpNNFlpUjZCeUJDczljQ3VoWHRzcVFTRFFwLWbSAfgBQVVfeXFMTkZCampNT082QmI4YjF1LU1hU0NzQVhLM3MyQ3ZHNTQ3bmpzZmZ2b19RN0lJSktQa2hDR3RhQmlkOWJpV0REbnFKWFVSMTd2VFVRMTI3V0ZFMThZc0tkakZZcFpDN2ktaEZEWTFUYlZ0OTVTdVVTMG0xVWMtUWMyaGo5N1hwd2FfVEpFNV9Bd1RIRFBPLUNlUFVrenczWUZldjRlbV9BUzRrTW5NM0pYX3JIbVZmRDdiUmwtY2l4SGFwOElmZS1GSzN3dGJSNl9KejR0S1l6aVByYnhiM2ZKbjdGQ1RUWGVXVEdwQS1BQmc4ZEwyd2hnTC0?oc=5",
@@ -1074,20 +1109,13 @@
         },
         {
           "fecha": "2026-08-28",
-          "titulo": "El CGPJ designa al magistrado que instruyó el 'caso Malaya' para reforzar el tribunal de instancia de Ceuta - Vozpopuli",
-          "medio": "Vozpopuli",
-          "enlace": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOX2dwdW1IdnJTYXlQbVg4cEVGSUtCYW1Calg5M2ZObUNqRkRWZ2ttbllsNTFPZF9QSGVEM203WW1FYUE3aHlad1hqaXoxTXpxX1JPVVIzd1FEUnlwTTNwQjJHSWhqbzVweldoNXZpa1k4VHE3WTA4Nk5uemhWQVk4Y2xTSWVmdHA1NnZtaUlXRk5qaUlNWVMtbXEtUWRuMy1oQl9BOVBOd2hyVlgxekMycjA2Slg1U3BZclBWWFRCM0VvTXd5UkpXREFOUlB5aUtIa0tJanlsenpCbFE3RTVsYdIB5gFBVV95cUxNM2JZWG1RZWhLMGxNQ29WNENTMEx4SDFJMzBnY3VlMWZseS0zN2JYZElWNVpaQ3YwY1VMUlJiZXFCWFc4eEM2Ui1FNmxTNjZZVWRUOEhCU3p5cE1HdWhoQmpFWWtfdk9MR0NBakJDYUJaVlMxdG82cFpFc0ZfOFYwVnBLSjQzWnMyMUNoc2tlVC1YdXpEaUNpNmJlODVVQnM0aEpVa190cjN5T3Y5UGFYR3Rxb1VVT0pub2Y1cUNEbjZXd1lFNEQzX1JIVDFGbkNfTWFqUUpGR3FEZ0ZISlBMYURmV1Zsdw?oc=5",
-          "claves": []
-        },
-        {
-          "fecha": "2026-08-28",
-          "titulo": "Miguel Ángel Torres, el juez que instruyó el 'caso Malaya', refuerzo en Ceuta por la crisis migratoria - Diario Sur",
-          "medio": "Diario Sur",
-          "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNM2k5UWUtQXdHVzRyVXlUeG5aUm5EbFhrNVVPQzNWQm5OeEtTZGhZM0Q4QUttbFFfNmlBd0dKblhnTng5NjNIR2tzdF9ZYVdtR3Nyb1VKRDhtRmZTTk1pNEtEZVNqdHl4b1dZM3Z3Qk5fSG1aNk9VSXBxc05mcXFrVlRFbS1YTTVWSVMzb2JLMTlfVlJaalhsM3JrTDBqTUxaUjFuNlUweWHSAa4BQVVfeXFMTzlwdXJPRFF4S1lpM24wbzNIenMwQnd5dlBHU2Q4US1XLTdIeVJSVUFNUzFmXy13NlZnbUZIb3pJUG9aRDc4WVNNVlVwNHlJb3lJcUJFaFVlN19qdGx5bXVLLUtaMG10U1F1TjZ5cjBBR04yYTVBQjZuazFZZ0R3QU9KVzZxbDBVMzNwTEVmSjVaV0xWdG92UWRicjhEakg3YlJ5Z1BSWnhLblBwV1lR?oc=5",
+          "titulo": "Miguel Ángel Torres segura, juez del caso Malaya, elegido para reforzar los juzgados de Ceuta - Ceuta Televisión",
+          "medio": "Ceuta Televisión",
+          "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORnJfYXdBQmtDb0NuNkIxdk5YYUhnWk0zRkN1Sm02TEFMZ20yMXNMRUdoQXZ1N2ZfSzBBbkNKWTRIRnNQZ09JMGR5TVFpdEVrdGhCYXpWNTI5MFZySWJYYjM3M2ZUcmpnRlBVWktNU0p2eUpTNUF3Q29lenFCajF1clNFZlZZTXV1emJQam5xUGxzX1Zic0IwTVNpX2xXVFFocUI3R2NTQ3E4UGFzYmxJUGs4WmFrYlU5eE40c2tOckp0WUxPSUFBeVhxOVBPTmpubkRPUWJpV3FNeEnSAeABQVVfeXFMUF9ielFha3huaDFqU0hnTkNqZVJHOG41NFEwMVlpOTgwZk8wcUdzcnlhOGlaTmJ1Q0FqLU5YQW1NYWlpY3RCUnp0TWRYM0VnbGZwOHJCZEctcVh2NlJWNFNLTTFWR1Z6OW9UZnEwLWJuVHZyMHNGZE5IRUc5WGFYOVppdjRPdi1WdFpTZWNnNFJLTGQxcmxydGVJZ0JOWE9jYUZtX1FxWjJ2RUVLUHhjSGM3d192cWN6U1pKLWx2QWJEaXNfTHpKMEhwS3E2X3BuM25GdlNBeGpmWHZlQV9xZFA?oc=5",
           "claves": []
         }
       ],
-      "ultima_noticia": "2026-08-31",
+      "ultima_noticia": "2026-09-20",
       "posteriores_a_revision": 6,
       "revisar": false
     },
@@ -1097,15 +1125,15 @@
       "noticias": [
         {
           "fecha": "2026-10-04",
-          "titulo": "Cristina e Iñaki, 29 años después: sobrevivieron al caso Nóos, pero no a su particular ‘Isla de las Tentaci... - OkDiario",
+          "titulo": "La infanta Cristina e Iñaki Urdangarin, 29 años después de su boda: una psicóloga analiza el paso del «esto... - OkDiario",
           "medio": "OkDiario",
-          "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZENQSGR5c1NhVU5yXy1tU2JiVjRfelo4UlRRNzd1VGRpR182bzFpN3AxejVRSXZtRTNidWxYQ05HQzVPc1o4d2lubU15QllydnV6NDZjZy1PTFBYWU1wVVhrSUVFcUJMeWttVmFHWkFMZnFzYkxLa1BmLUYzRjZBOHNMdEdnb0RXWE5LZWdxcUJ5Wi1GQ3N0SWpnZE4xWGxNb1FYd0RidFJUVmZ6WTNXOUQyX0t2WDJUbmdWNDVOcnlMNTluVmx5a2ZCbEZzZDA1S1dJ0gHTAUFVX3lxTFBkQ1BIZHlzU2FVTnJfLW1TYmJWNF96WjhSVFE3N3VUZGlHXzZvMWk3cDF6NVFJdm1FM2J1bFhDTkdDNU9zWjh3aW5tTXlCWXJ2dXo0NmNnLU9MUFhZTXBVWGtJRUVxQkx5a21WYUdaQUxmcXNiTEtrUGYtRjNGNkE4c0x0R2dvRFdYTktlZ3FxQnlaLUZDc3RJamdkTjFYbE1vUVh3RGJ0UlRWZnpZM1c5RDJfS3ZYMlRuZ1Y0NU5yeUw1OW5WbHlrZkJsRnNkMDVLV0k?oc=5",
+          "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNN2hWdzl0QVBEeVRleDZmMUs3NWdQTEVKUUd5ZUZNY0llSlFiSWRIb29zSEM2YUZScDRwQ29DcUpzX1N0VFZRVTNvZXBOd2tmQVowN05TNjJVWTY4eWdpU0dhVzV2a0hSQ0w1dXg4TThHUlhUdFFlMHp5WGc0VmpUNHluMHZnenVKbG9iSnh2bkpmSWxEbW12ZFBXTG5yYXJMSnRNMHVDc0Yxbjl3RzhraDBFTVcxbjNZX0lRaVBVc1ZSZHRPSnlKT0x2SGV0UdIB0wFBVV95cUxQZENQSGR5c1NhVU5yXy1tU2JiVjRfelo4UlRRNzd1VGRpR182bzFpN3AxejVRSXZtRTNidWxYQ05HQzVPc1o4d2lubU15QllydnV6NDZjZy1PTFBYWU1wVVhrSUVFcUJMeWttVmFHWkFMZnFzYkxLa1BmLUYzRjZBOHNMdEdnb0RXWE5LZWdxcUJ5Wi1GQ3N0SWpnZE4xWGxNb1FYd0RidFJUVmZ6WTNXOUQyX0t2WDJUbmdWNDVOcnlMNTluVmx5a2ZCbEZzZDA1S1dJ?oc=5",
           "claves": []
         },
         {
           "fecha": "2026-09-12",
-          "titulo": "Samantha Romero, la «jueza de hierro» que juzgó a Urdangarin y a la Infanta en el banquillo llama a la puerta del Supremo - eldebate.com",
-          "medio": "eldebate.com",
+          "titulo": "Samantha Romero, la «jueza de hierro» que juzgó a Urdangarin y a la Infanta en el banquillo llama a la puerta del Supremo - El Debate",
+          "medio": "El Debate",
           "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZHd5bEMzTUIzcDZqVkhVaXdsLXNNanIxdkxnUEFMSFJwdG81ZDhhN2dlT191M204NTN2WkhaVHlxcGdMUUNxNFYwb0szek1tTEJ6SFpBbjN1ODZsNS1XT3BLSExhc0xNb2tWUElQWWJDV1E2ay1aT3dMNE5ZMC03OXI3bWVnZGhWVmxXSDNXVkg2RDNZQU11SjNQb25PeUpPWTdRT3E2dUpGSjJzUmlsN1o4aWVBc1FUYWctR1R1TFA4Mm5qRGlWWmdKd0hKWl8td3BZenlsTEFPXzNRWGs00gHkAUFVX3lxTE50Sm1qb0FuOFViZmtlc0lscXNaa2MySmJtOGJtXzBMWFZjR1k0aEFReFVpaVcwTXFHdlRHNTZDb1BuZEpFMTY1U2xET05KR25WTEk0dmFiRXlFSFNUdzdIYnVGd3RhNUdla0UtbUJpbTZoMUpiRWFaOUlpX1FWekQxTzNucXpoZHRjNmg0SUNzcnVOOWQxODBvSUdvRGQ1TldiR2c4bFVTbnN0RVVJc0ptb3pKQS1BSXZNd2NjZm5Hb3NUQ3JuQmxTbDExTEt5MzhLWGJhSE9TOTlWMTVhZG1HTWUwdQ?oc=5",
           "claves": [
             "banquillo",
@@ -1114,15 +1142,15 @@
         },
         {
           "fecha": "2026-07-19",
-          "titulo": "Urdangarin revela el favor que le pidió el rey emérito y que abrió las puertas de las administraciones públicas a Nóos - lasexta.com",
-          "medio": "lasexta.com",
+          "titulo": "Urdangarin revela el favor que le pidió el rey emérito y que abrió las puertas de las administraciones públicas a Nóos - LaSexta",
+          "medio": "LaSexta",
           "enlace": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOWmI5eEE5QlBMLXNXYWZvUExiWVpHcW9QazJQVUc0QlVielF1X2lhNnFVbUdwX0I1Ny1TZF9IR3B4cS1LMHEwTFMwb19NbDJCRjBaRFVMWV9DV2VQUkpmUk1PbENsNjBIbzJTSmI5TDhFZ1Z0MjY3QlExNGtiMWJoOTNhY0hmYndoT0xicTdaWXRFMExOeU82Qk5hc0owWFkzQTRpT1pROVBISGpTUGNnMlpNYUpIN1V1YWpCTmtRa2Flb3Ffb1V1VTBGQkw0MnhUWjlWaTVfY2FqR2JQSlNITEtWMGo4X1ZnUFh2YW13QmhUVk0zeTZ1WE5EbFlFOW5JOGpfS2VjN3V6d9IBigJBVV95cUxOTmpCMkw1bk9mamxaSlktelFDT19GcTJmUTdCVFFDWVZtWFUwQjBmaVhTVlpEb2JIai1hYzdRalBCOXJzbkU4NUI1bFVSLWU2ZFNJQ3FVZGZ0RU9FMldPOFV0eDZZMGMweDlSN3g0cmJHc21wWkQ2LWtSTU93MzFKUWVlVF9RNURHbF9UdEtPZWxyZnN5US0wU25CRVlxNU5LbzBLeFJSQ2JkcjJ5MHBHRzVReDRXZUtFLXZhWkZ0cG95dVp4M0U3cGZHdUNva2ZKRDZGbEd2U2J1NFBnSFhWZzktajg0VGFLcGtwb0QyUG9LOGlZbzRLQjFKRWZrOG9UcmhoeVBGSXZCUQ?oc=5",
           "claves": []
         },
         {
           "fecha": "2026-07-04",
-          "titulo": "La conexión de la terapeuta María Julia L. con las familias Andic y Urdangarin - elmundoderegina.com",
-          "medio": "elmundoderegina.com",
+          "titulo": "La conexión de la terapeuta María Julia L. con las familias Andic y Urdangarin - El mundo de Regina",
+          "medio": "El mundo de Regina",
           "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPU0Y3VWNGWTF4M2xxUVQ0N05odjhFVVFXUmpEcGkzdWpYajBzZkY3dnBSYWJDaXZqd19XRmljMWlyaWFSajhsOE5Ca0F2aWM2MENjR1lzNHVOYTBSS1J2RXdad1lUSVozS3FZbERFcnN2LW5TM2p4cEMtMWhOYXVHWTl4RENNY1pqbWltaVZIMnRfdkN0R3BpcHAxSlhSa2lHa3Utdk1ibWdVeDg?oc=5",
           "claves": []
         },
@@ -1182,6 +1210,13 @@
       "fuente": "google",
       "noticias": [
         {
+          "fecha": "2026-09-02",
+          "titulo": "La UTE que dio origen al Brugal acusa al Ayuntamiento de Orihuela de prevaricación por la revisión de oficio del contrato de 2008 - Información",
+          "medio": "Información",
+          "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUzByM1F4OVA3d3J1cE9oS2pHZnRpclhjSVNaYjRGSDNkOUdsRkkyZFFQWWJfQXFlR3FrZVpwV3o2TTRTSzdCbDUxYVNjZFVYeWNMeUp4ekNYLWhaSTFwa0NwelRITVlwTHhOVHFTcFIxczREeGNEQUY1YkR3UEZMRkpGTEkxeTBhb3c1N3NqVF9lZ9IBlwFBVV95cUxQUElFVzBYdWRtV3JFWVpSTlFKRjFIeWhvVE5pU0xzTDV4UlhCa0lCaWxvYkFGT1BObWNxOUZPTlItYzlTU3ZKTm9iN2MxWUxxNS0wZnNpWGc1cVlQNmV2S1ZFNmpTMG5vV1FhU0JMNjhVQlRocHVHbEFrb1FTczJtaWRreXhOQzE3SzFBLXBJSjRXQzY4bU00?oc=5",
+          "claves": []
+        },
+        {
           "fecha": "2026-06-25",
           "titulo": "El PP de Orihuela intenta liquidar en minuto y medio de pleno el amaño de las basuras que dio origen al caso Brugal - Información",
           "medio": "Información",
@@ -1209,8 +1244,8 @@
           ]
         }
       ],
-      "ultima_noticia": "2026-06-25",
-      "posteriores_a_revision": 3,
+      "ultima_noticia": "2026-09-02",
+      "posteriores_a_revision": 4,
       "revisar": true
     },
     "faisan": {
@@ -1240,9 +1275,16 @@
         },
         {
           "fecha": "2026-09-04",
-          "titulo": "Marlaska, como juez del 'caso Faisán', hizo en 2006 lo mismo que ahora critica: ordenó a la Policía \"no informar\" a sus jefes - elespanol.com",
-          "medio": "elespanol.com",
+          "titulo": "Marlaska, como juez del 'caso Faisán', hizo en 2006 lo mismo que ahora critica: ordenó a la Policía \"no informar\" a sus jefes - El Español",
+          "medio": "El Español",
           "enlace": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPbWlzT0I1ckN4UzZobTdwVkRCR1E3aXZBSHdWaG1OWEZ1V1NsdU02eC1mMjFCbTg5WnhDQW15OUg2NXRRQXZiRXFtTjFKVjZ3Tk5yUVZmbURsVXk4a2RCMTZWMUVGMElMdGU3Uy1LX2FpbllWWEFqbWpxN1ZRZ2I5TmhteW1tWnRaR0JKNnNqWnBIMktvR0QxNzlxQ3QxMmxFek11WmRCSWVoLXliOV9GNDNfVDFVVWp5WFFDdUNacURwQzJUamVlVWg4MnRidzVvV3pBem1WaDJ4SWZMaFhTYXFjd2hFNWFCNTdTWU530gHzAUFVX3lxTFBkSmhYZ0VCamcwYVhNRmEyaGZHUmxJQkdqSTg4cFAwQUdHaFVycnEyUWpEYmxvQk5XQWNjYTVWa2p6eXZvZ0JDVGtfRk94X0FLeHRXQzE0b2ltTzBHeFBlN2J2TVBpR19FM0JZNDk1dHF3bGgxNklWNTJpQjNvYTI2N3dNUHJRMW4tY00xU0JwV0FIUzdhNGt0RGhlWVJ6RkFDRGRIMGozRkZlZ1hqN0NMNVBjaDh4NlVGSHRRMFRWWHlRSFhRX29aS09aU09nRkpvMWxZNVRpN0hhVVN3OEQ5MXduRjdFN0xtbDZjZG11T3dzZw?oc=5",
+          "claves": []
+        },
+        {
+          "fecha": "2026-09-04",
+          "titulo": "Cuca Gamarra exhibe un escrito de Marlaska en el caso Faisán en el que ordenaba a la Policía informar solo a su juzgado - Demócrata",
+          "medio": "Demócrata",
+          "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQcE54YVFrMDlTalBvZXVXcThieUpwT2RCR0ZieUZrMVA1UWtxT0NBSE9oWWE1NGlsSGl2UFFsNGdTZUNIRl9PQ3FSR0M1V1lxY1B6U05QMzNiM0l6cVotWFdoUVlfc19RS0t0NWR4Q1YxWThpRDlCRENUb0tvN2tDOGcydHRDNUJZSkdUdDRyN1VxbHVpNUp4NXJaUXY2QnNyckctUWhrTUp6YTRpNERuWDlRZk5FdkRlZUtmSkVnMzV5WWs3dUVBS01XUDQ0bnNXTDUyRUp6TW1lcHRXWm5MSjZkWlZyVDdvSmfSAe8BQVVfeXFMTVVHZ2Z6bG9OaDBUcURtbmhYWVpRbS0wd3hvaWl6QlFORzVjb2RjT280dm12NmVYTGRicHgzbGdnM1V4cWlVLXFvVk9zYTVmTEJwalRxYl9jcGdsRmpyMXBPVENuMVFVTnk2UXo1TExIS010LVZybS1TVTBYem8xLXBjZU8zYjl0eVJ1T18zSXpHSVZ6VnhCeWdlSHVfY0J6UHVXaFhldmhPN1Nha0FzMGhmdDlfdXJuRUgteUl6WEdkRHlxdC1IdENwaGdxSEdTS3pvRUU1MVJuSFNMd1dlOHIyY3FET3ZoRVZoVWhWNlU?oc=5",
           "claves": []
         },
         {
@@ -1250,13 +1292,6 @@
           "titulo": "Cuca Gamarra revela un escrito de Marlaska como juez en el caso Faisán pidiendo a la Policía que solo le informara a él - Europa Press",
           "medio": "Europa Press",
           "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOeTlCVmVjSGcyQVVyaWZuNDNvUXhNQXpIcF91TVhtSDdwMzhXNndubWZrZGZaYTRpNGtTRW50T3g4T2tlaGZid3ZKLTF4dWxHTERKV3ZUZ0dQd3ZQNXZiRjF0MUxQbVR4bUxIWnUtS094bTZPU2xZb182OXlDVTlmSmJTeWY3cEFFUVlYR3R3a1h2SHFSQXRqLW5TTEU0YzRBNmt0MGhtX09YZy1LMW83WlUxblBxQWdNZlJTN1NyeG1ValQtc1VTb0hZWWItcG9HQUtvWENweWc4LXhNUVh3WHp5d3dDbnM?oc=5",
-          "claves": []
-        },
-        {
-          "fecha": "2026-09-04",
-          "titulo": "El doble rasero de Marlaska: se queja al CGPJ de que la jueza de Ceuta prohíba informar a Interior… lo mismo que él ordenó en el 'caso Faisán' - ESdiario",
-          "medio": "ESdiario",
-          "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxObkVPNUE4a0tXdXNBSlJtc1hSb1dZV3ZwNDRKZmtud0VUbm1WaFpKOE9MTE9PZ3B0UEdMUlkxRVVZWTZtZWx3YnRuazQ2YWZVSTEzeXJUY3dJQUtRX2J6TDZ6ckMtQ1R5UWhaSmZlcDh0YUlwQ3pyTTZyMkRydUtjalNTVWZaRmp3c2p6TmFxN0hZelVMRmt1TlBWTXhjcDd2MVhVdFlTeWV3NHczSTl1NUR5MWFpZVIzNk5ib25tRWR2d0c0WV94eVVOZmVZMmd4aXpjanhvN3k2QdIB3wFBVV95cUxNcUs4Sm5RSEM3dVlSRm43WXgyOXN0OGszaWVMQUhWMmZfNlJtRzYxSldRQUxKQ0JaNzlnaVRzT01OQ0RHZ2QzRzd3UDhrOEZ6eEhqRXdjV2lmOGxsQkc2RkRnd0k2YlhSdjZQRlhyNDNKeWtWMG5scVRtTHdSTmliTTNqUmNhVjBpczlIY3lPRkN5M2V1aTF6N1JHQmVMMWRBT3B5M2wwRk9IeDhUY08yUHU1SkdFY2NfZ0oxS1FmaTBCOFVVaV9pdjh2V3J6cDhjS2dMZzljQVRPN3V0TTc4?oc=5",
           "claves": []
         }
       ],
@@ -1295,6 +1330,13 @@
         },
         {
           "fecha": "2026-09-03",
+          "titulo": "El exconcejal en Lugo Fernández Liñares disfruta a sus 76 años de un permiso penitenciario - El Progreso de Lugo",
+          "medio": "El Progreso de Lugo",
+          "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTnRFeTlpM2NEQVRFSnNKNjhtOUVmNFZUbFBoOGR5QXpMMnFxeWQyTXk4SEwzaEZUZklnbUFWakdja2lPMGp1QUNYOHVmQnFQZktITWM2TXlXVy1YQm1hRGlCTXlzbXVIS2R5aXNGQnpSQTBRc180U3JZOVAxZjl0eHBjV0VMdnNKMFhiRHpYNklCc1JnZWpRNXhkWFpIM2ZaTG5Wa2o3dUp2bTEtQlZvOEM5Zk9CRk15dG4zRWJxZ3Y5ZEhNUllvQWQ4UFZTYjjSAdQBQVVfeXFMUDdGNWFqemZPdkZWQ3g2d3hRSDVpX2VLY3pVV1NJc0dpdzQyVldJckF4Wm54cGxlNWFsMlRoUlpVNlc4eEw4aTBrOXMyZ3VCZ1RfekNKS0cwazh0azExd25wRjhZOTYxVXYyV0RuQXlDSTkwWE5vRnFxcG9XclMycTAyOWVYVUIzeEdmdXJMRGlUdnhZZkJqSnlEckp4OC1ETk1KVDA0QXVfNENPZEkySDdneFI4Y3ZlUkV2TkhkUk0wcmZCdUdTVzZhTlVTUGthRm9uM1k?oc=5",
+          "claves": []
+        },
+        {
+          "fecha": "2026-09-03",
           "titulo": "Fernández Liñares, el único político encarcelado por la operación Pokémon, ya disfruta de permisos pese al rechazo de la Fiscalía - La Voz de Galicia",
           "medio": "La Voz de Galicia",
           "enlace": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOVWhyaHFkb192b3lKRDR3SWplS1M4SnpHelFrUUZlRTRQay1rWVZ4Rm0zWnduSUxEWXBaeE5ZVDlSaWlZSVhIbnhnVHhLdHlrdWhuRnlYekt5eHNYY3BxRFp4UGRmeTlBcTAxczdDNUg1WUhsWk9ieVk3Q1RObjBFMy11M1RMZEpLbDRnZFZQUG1veGt3VDZzM212TUJZOU9kcVYwWTczZkFOODlmNFhVQnBNdDFUTkJkX2hVWE90Y3RLTWx4c3Bwd0pkclhPM19zYUxsQ2doSHlUbTA5bk1seVFyZk83QjdOaDVCSDRzY1Z2VGZJZk56MVV1X09fUmVONEo0N05Ka2RUWWtESXliTkZn?oc=5",
@@ -1309,7 +1351,7 @@
         }
       ],
       "ultima_noticia": "2026-10-03",
-      "posteriores_a_revision": 3,
+      "posteriores_a_revision": 4,
       "revisar": true
     },
     "mercasevilla": {
@@ -1340,11 +1382,20 @@
         },
         {
           "fecha": "2026-09-22",
-          "titulo": "Jordi Évole, forzado a corregir en 'Salvados' su especial sobre Rita Barberá tras omitir el archivo de un caso de corrupción - eldebate.com",
-          "medio": "eldebate.com",
+          "titulo": "Jordi Évole, forzado a corregir en 'Salvados' su especial sobre Rita Barberá tras omitir el archivo de un caso de corrupción - El Debate",
+          "medio": "El Debate",
           "enlace": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNT0xSYzhxcW5SX2Fhc0ItQnJVak1vSURiWnh6bnNuV0dtVi1SOGdsbTlXVnNkNl80bUVqZzVTQzNrMlNaaV85WUdqWWpMZ1BBUEVmNVdYY2ZGYzJ0OEJ6WG9nRnJ1SmxMVGVJRGJzZlRzX3hhY2NKREQ4NWp6SDJwNlRNeVhRVlFoUnFESmg5MmtGc3lBUGlVZ0YwclZ0WEhRZkJnYVlaakpIVHZCcVZmOVBjX0pCd1VROWJxUWdfQ3FxS3VMNUtHWHltZGR6bjNMdWpYd25DdDRkZzdqVFoxSnlHM19yV3dJckNtcXo2NlZ0R3g5WUNWRjdvNW1kTFdDYUdQekg3djDSAY4CQVVfeXFMUGFlTElXb2RlS0ZRVWx4UUp4RjFBbzNGQldWSWhIeWE0cC05YXo3aWVVR1ZXajR2ay04NmtnbzRKWFpnb1g4S25MS3R6S19KLTVHRlVfWFdaa1FYS1g0TWVJSjR3NDhMd3BZUjNBcjdnU2duLUJabWZpZGhIV2szWldDZWpxMGRZakRjaE51MVpsUWE1eGJjWXRLSU8yOUtrYVV0RDY0bzZqV0hIaGZ2Vk83VUdMV2FQQ1NNaXRfaVJxcy0tYUh4UU1sbHF5SGVQVmVUb3hPbnhOdEhtV0ExbkJIZDN2UXBFYVVJQ1NwS2JJVWduRzhOd29hMmxvNGZqUXJIWFpkVkM2WExYNXZ3?oc=5",
           "claves": [
             "archiv"
+          ]
+        },
+        {
+          "fecha": "2026-09-21",
+          "titulo": "El TSJCV deja sin efecto una multa a Rosa Pérez (EUPV) por incomparecer como testigo en el caso Taula - Valencia Plaza",
+          "medio": "Valencia Plaza",
+          "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOelk1RUNsb01lNnhoNklZUlpNa1pOQjhkUVFQenB3YzVGREYtM1FjVEZfbUlyUU1wUnpRaGpiNVFTOThLNG9HTXlVVkh0N3pMS0NGRzRkcGlVOFRpd2VnLWZVcG5qbXIzZGRSamdTN2VCblh4OWFfQllkb3U5bHg5UnFSV21VVnlvQ0R0aWhkWFlleWhTNG9FSFpWNXdHY01nNVhRdmlwMFMzT3Q5RUV4Z1FZMmluSlhuY0JONTc3U0JkY0JkVHhZWlpoRHFfR2xjRjJBMXlKd3hjQS1pTDNtb3Z4dGRxckluSGhtYkR1SzZlWm8?oc=5",
+          "claves": [
+            "multa"
           ]
         },
         {
@@ -1359,15 +1410,6 @@
           "titulo": "El TSJCV anula la multa de 200 euros a la exconsellera Rosa Pérez por no comparecer como testigo en un juicio del caso Taula - Levante-EMV",
           "medio": "Levante-EMV",
           "enlace": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNZ2FTQVBlSjNWdE53VHh5RlhNc0k2M2xVOEs1eG53bFFPVk9lbmhuSHF6UEozRm1Zbnk3U0xVVWY2ck9YZ2syUFVJOVplWGZVN1BIZ1hWaTV5RmQwenl2N1VlbUdzNGNEYy1yemhlRG1fQ0ZvajBlUmtGR19sbm90dm5BYmlMVkdXUUdnU05qYTBpVXdaSlpBNTZSekVXOFprdzZEb29xMm9PbjRSeDdXUDJiUDlZYnpucUxoS0VCZFhHX0Jzc2ZudmM0a0lNQzlXTDNMRTJzVk9wa3Jidi1pUThDSVZvZTZsMVBOYnQ5M2JTeEtyUXpvMHJqM3lIN0otVWlyYUxUZ3dYTFpBVmlkbEFxdHBOcW9ETnNvSW1RczFzNXFNV2fSAasCQVVfeXFMTWVfdVpkXzN6Q3V6VUk1eXpRLVo3UENfRWxsMHFwUFdvTGVwLTc0bmF3OHo3ZXFRTTl4NEJGc004d0Q1OVBFZWlVRXRDWFNwakJqU05xVkkwcEE0Yklfa0Z3ZzAxNHlMNmE2REoxNllHZWRsMHp6R2V2NGdHWUZiRE1rQnBOdm5DVXNkLXhiREJOQWxNdXhQclVTY2tDRE8zZmh2Zi1uUTgwM0o0TU5YTVV0Z3ZMNWlXTU5tTlJ1SXR1cTVkdXluZmNLa2I0YW9QUHVISGJCZmJMeC1VdTRHT29mOGtjd0xfYjNTRlFydVgtWjFZQjBKMnZvRDJVaXl6RlNDWGx4VDh0dDdOaUFUeXJ6bFlQLXN4Q21yY1hucW9nYnNZZ3ZWSC1NWVk?oc=5",
-          "claves": [
-            "multa"
-          ]
-        },
-        {
-          "fecha": "2026-09-21",
-          "titulo": "El TSJCV deja sin efecto una multa a Rosa Pérez (EUPV) por incomparecer como testigo en el caso Taula - Alicante Plaza",
-          "medio": "Alicante Plaza",
-          "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOeHhValFHbmVUZy1HcHpVZmRpYk5ubTFWa1lUcUpCek41eTVkTXdVTmozdThIZGhkT1BvVTltdlB2eFphZ1ZmYlZMMzc0LVlNbW5HOElsYlZfdWFXTnNnRXdkXzNWbmNsclgtUldnWmxONzhacWFMa1VweU9GTVFRYS1PcmxqLURRNlp5YTRSOHFIcHJCdlEzVm5vZ0NaYlVDM1ZxZ0NGbW9LZmo0bWl1dDVQdlI0MHdnMXRYR3JvVnhtajJKZU1sTFZkRVZ0eGdnVFRwcGd6YmJrNjNyUmxpNXUxODg5MkMxWlFsTnR4NlU?oc=5",
           "claves": [
             "multa"
           ]
@@ -1389,6 +1431,15 @@
           "claves": []
         },
         {
+          "fecha": "2026-07-12",
+          "titulo": "El ‘yonqui del dinero’ ingresa en prisión y reabre la trama de corrupción del PP valenciano - MONCLOA.COM",
+          "medio": "MONCLOA.COM",
+          "enlace": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRVJQS0h2Sm1ldVR4dU9WUkRhUEszVkJyV0U3UTVkY2RHcWVkeUlkUHFvOGNEVnFxWXJNcERiUHo0ZDlWOGd6SjZYTl9zazZUUEt0LXNDakxwTXFBT0d6eU1hQUlGcFpvaGhYS1BWUU0wRzR4Q0ZIZXhrSFFRY0kwampKSUZRNVk?oc=5",
+          "claves": [
+            "prisión"
+          ]
+        },
+        {
           "fecha": "2026-06-22",
           "titulo": "Ábalos recibe la condena más elevada de un exministro del Gobierno, superando a Zaplana y Rato - Valencia Plaza",
           "medio": "Valencia Plaza",
@@ -1399,7 +1450,7 @@
         }
       ],
       "ultima_noticia": "2026-08-16",
-      "posteriores_a_revision": 2,
+      "posteriores_a_revision": 3,
       "revisar": true
     },
     "fabra-naranjax": {
@@ -1414,6 +1465,20 @@
       "consulta": "\"tarjetas black\"",
       "fuente": "google",
       "noticias": [
+        {
+          "fecha": "2026-10-09",
+          "titulo": "Yuli Ruiz sorprendió al revelar que el Tino Asprilla les daba tarjetas de crédito a ella y a Karina García: “Una sensación espectacular” - Infobae",
+          "medio": "Infobae",
+          "enlace": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNZlQ5STRZU0RMTHFWVjQ3bWEwcnA1QVZfOF8yUndudElxSUFDc1daRllOYmtEbWZCbFNKRWhQczUtZlNMN0dOWEhEanVuWFl5VERWZmZhZ20tRWc5R1NtbHg1MnQzOUNiWFMwa1M4ZkYxVVdBQllWOFRxbXlFcVJTMUdXcEQ4Q3Y0aUFvVHdzR3NHSW9HNWM4YXFpOGUtVXhOd1kwYW9JTUtodFhBZjNiN2FCRVhDSkliaXVFclFvaWtHT3kyYjg4UXJwX0h2eEpVWkpJY0N1WUxNRDRubEJHTXZfbHhSbG5GZWpLLXQ5Qm5uX0RrQ3BHUnFVcHRYS2c4SmxYYjRhSGlBQdIBpAJBVV95cUxNd1RySExjRzZRSld1am5WalVDTEVPbWFjcHE0eDRsaXo2c29mU1Ftc2tlYU1tSG5NNlBBNVhLa1BYNlpMU0d4M1FxdmtXdzNTQnpZUjRSWTR1RktUeGtkQVZDamtETHlsR0VsSE13RkJNZDAtN2tEZmdJdUxSZkFQQ2hmS1ZVQlpNTUdreUYzZzJCMDRKd0tSN0M3SDUzVW1FOUNsZHVGcFRaS2d3aU9xeEMtV2w0SzdSdGRpUDBQdm8zZGVUVkVWY1BoeDdnVVdBRDdxX0d1NHdVcjhVTE1ORXNEQWVZUzhpOTRhVW56MkhvdXF0aEh0RER3LXdHenJNQ21fUzZUYkRlUVpsWl8zMUpTazljTk8ta3VobVhST3dIV2RP?oc=5",
+          "claves": []
+        },
+        {
+          "fecha": "2026-10-09",
+          "titulo": "Yuli Ruiz afirmó que el Tino Asprilla les daba tarjetas black a ella y Karina García - Infobae",
+          "medio": "Infobae",
+          "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRVl6N0JSdkxmTzZUc184VVhzR3g3dnphOVhTTWVjaHVWcWZvNVBfUm1EQVZUb2pENE5qQjVSZHVaXzBBSTNBaWNlMkFSVE5DMlJ2VkpxOGhDMGlUWkl5VFhaNzhBVGZ0cnYzREYzeWZ2WXU2UFZwNko2bHZpeURJeFRVYy1VdGhIV0p2RXVTWGhGMkZiOTE2RHc5NjlRZENMOU16YmNIaVM1OEM5OGRCNEI1N05RN2FNVjFVVUVmWV9kOFpZRVZVc1pncGpCM2IwMFRteFRDMA?oc=5",
+          "claves": []
+        },
         {
           "fecha": "2026-09-03",
           "titulo": "Muere Ramón Espinar, primer presidente de la Asamblea de Madrid y condenado por las tarjetas 'black' - ABC",
@@ -1432,17 +1497,10 @@
           "claves": []
         },
         {
-          "fecha": "2026-08-04",
-          "titulo": "Cuotas sin interés: Todas las campañas con tarjetas de crédito en agosto 2026 - Chócale",
-          "medio": "Chócale",
-          "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONUpjMTk4MGVCclZJcFJFd0prUlJaUW1oeDRtVlh5OFRVNFdnTDNQRHpKSXJ4ZFQ0eEthZlVmR3RqUnpEa1Q1TFRqV0EyV1kySTcxMFl0TUlYMTVoY2EzdU9nMHV6VUdRV2tGYVd6SmNVSFRpU3JOLVExT2F3WEJWendJWlE2VXlKaDdrTWxCU0R5bG5lVnJ1a3pvVERmUEN4cVE?oc=5",
-          "claves": []
-        },
-        {
           "fecha": "2026-07-27",
           "titulo": "Arrancó el nuevo programa del banco que da $200.000 de descuento en nafta y supermercado - iProfesional",
           "medio": "iProfesional",
-          "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPc3dvbFpaSVE3NnZjS0Y0NWF1RzJNMlBqcFotYXFubEgyMXFEVHFRcDdXck9TcWtPX3pqTkZOQnhNYl9JOWRHOWFXNE9iVWlHMU9Pa0x2QkRhSW9YTVJnYnFrRG5BT2lzUU01a1hmM1pNTjR0U2FXWlNYNzRNZ2NHWFRIZEY4VEVOZFZzRHZSN2FPY1A4RkNGTHlTUTVpNVhJYmx5T3RjbWxDOVB5anlOZlJPQlhTZU1nQk94YzJoTEJJQ3Jfck5oUUVPc9IB0AFBVV95cUxQQ2YxU3U0QU5fakdlNTRFOEZlMDZ2QmlMUTdQeDZGWmtNQTJPSUI2Q3V2TFVfdXR2MXpfek14cW5LSmZtVGlLRzI5WE9vdm9GVnRuUEE4T1U4VTR5bkpfcnBiSDlXNVVCeE93bHNHR2lCSld0MklQZlJyRnJiajFUQkNyb3hmT1J2b1hKSXQ0bFRLRGJnQl95VEp6aklKYVpiaGc3TWFfSzBRbnlaeVY1NTF6T0NKUTBWejlDcHZPVmQzdGJGQ3ZPczhXT0xId1Yt?oc=5",
+          "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPc3dvbFpaSVE3NnZjS0Y0NWF1RzJNMlBqcFotYXFubEgyMXFEVHFRcDdXck9TcWtPX3pqTkZOQnhNYl9JOWRHOWFXNE9iVWlHMU9Pa0x2QkRhSW9YTVJnYnFrRG5BT2lzUU01a1hmM1pNTjR0U2FXWlNYNzRNZ2NHWFRIZEY4VEVOZFZzRHZSN2FPY1A4RkNGTHlTUTVpNVhJYmx5T3RjbWxDOVB5anlOZlJPQlhTZU1nQk94YzJoTEJJQ3Jfck5oUUVPcw?oc=5",
           "claves": []
         },
         {
@@ -1451,16 +1509,9 @@
           "medio": "Sir Chandler",
           "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOLTdTWHRTUnlXeXFydVdXai1iSVNmYW95MlpkelRrNXZOdFkyQ2NubmZWNXFwTTNsQ2Y2YS0zU3ZVOUJKcDIzb0dGQVctSkVqdlA2cmRJQVBHX3VyZnZ0Zm8wV19GcHg2NjBFbFBfUm1DUmZ0Ty02VEVGRWtiMXdvUFFRTmRnZGxVOXlwNjdrb2Y0QndWM01IbXNPMVdYUnB4U2xPSkJEQk9LMXhNemc?oc=5",
           "claves": []
-        },
-        {
-          "fecha": "2026-07-19",
-          "titulo": "Salas VIP: así quedan los accesos del BBVA Black + - Sir Chandler",
-          "medio": "Sir Chandler",
-          "enlace": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcjhLQlFuMlRwSWdMNWdueFhmblFMTFZNUkN6MVNlM0I1Y0xEOVpZWDl0WUdfakxkeVlxdUNNa2l3cGItTkl3YmxpazJuZzI2bTRRRUxZYlZ5dmZLTHh0Y292RVdfQ2Q2OFBrVE0tY2RQRWJJSXhJRUJaeUVfc2ZtSmRySXBJeVgta0F5STBjZ0g?oc=5",
-          "claves": []
         }
       ],
-      "ultima_noticia": "2026-09-03",
+      "ultima_noticia": "2026-10-09",
       "posteriores_a_revision": 6,
       "revisar": true
     },
@@ -1470,15 +1521,15 @@
       "noticias": [
         {
           "fecha": "2026-09-17",
-          "titulo": "La Audiencia Nacional incorpora los audios de Cospedal y Villarejo al caso Tándem - rtve.es",
-          "medio": "rtve.es",
+          "titulo": "La Audiencia Nacional incorpora los audios de Cospedal y Villarejo al caso Tándem - RTVE.es",
+          "medio": "RTVE.es",
           "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSUlpOVI1NU5iVzNNUHZzS1huMndkeHg3dnhkMUN6czZXempiQlR4RWN4QmQ1aERRaFpNQXdzbldOY1l2UFoxU2hIMVExeWh1X3JNaF9sQUNnWFM2OU9WYkdzUmhmcllKQ1h0b1daYTAxVGl5VUJCSFBGOTRSd0tlQzcxNUh0MVNJOU5WTUs1OXBYMlFsbzM2eDd4eXJpTWFCeC1qX3phSm5KR2ZheWMzamFVUXExbXND?oc=5",
           "claves": []
         },
         {
           "fecha": "2026-09-17",
-          "titulo": "La Audiencia Nacional incorpora los audios de Villarejo y Cospedal que implican a Rajoy en el espionaje a Bárcenas - rtve.es",
-          "medio": "rtve.es",
+          "titulo": "La Audiencia Nacional incorpora los audios de Villarejo y Cospedal que implican a Rajoy en el espionaje a Bárcenas - RTVE.es",
+          "medio": "RTVE.es",
           "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQY2Z1SzRURWh2RjNGRjQ1YXFkdTgzSjEtbGNPa1NhMEQ4WUlzaFQxc1ZGR1RfYjI1T3ZqcXMxV0NBaHpac0JNOHk1aDFzRHBrMHpDVnVrT3ZQUVhvX0tnZGtVWDI1OVVSNVQxS0IwRG5FWWZ1UVo2VUFHNEE1eEZCSzBXeXJKQ2FZcnZNeE0yY0NHNnRNbmtVMmNyeWRiQktCRklXLVIxS0EtYXlPcFNXRmxURGJ1bnZGbGl5alRVYVc3UnR1YUE?oc=5",
           "claves": []
         },
@@ -1528,9 +1579,16 @@
       "fuente": "google",
       "noticias": [
         {
+          "fecha": "2026-10-12",
+          "titulo": "Despiden con profundo dolor a pequeño víctima de voraz incendio en Moquegua - radio uno 93.7",
+          "medio": "radio uno 93.7",
+          "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUmVETGtkNEFWTWFOTklBVnNNdlVmY1pFVWs4dTJIMTVKbnhjemtKQWpZZUhNWXZWZ21YR0RzNnRESHRqekdYWldYSWY5eHc5UnQxc3NXa05CNEcwVTlKLUZic1B0RHprOXEySkYyLUZzWWc3MzJPTWFQRTlMZ2EyTjRvMzRDRUFvbkJuOUt1VWR3NlFLa1dOaFlXMFRCRHVhcERUbV9fY1A4QXZYWFVvcFhR?oc=5",
+          "claves": []
+        },
+        {
           "fecha": "2026-09-30",
-          "titulo": "El 'Pequeño Nicolás' acusa a la alcaldesa de Guadalajara de querer quitarlo del club: «Lo he salvado del descenso» - eldebate.com",
-          "medio": "eldebate.com",
+          "titulo": "El 'Pequeño Nicolás' acusa a la alcaldesa de Guadalajara de querer quitarlo del club: «Lo he salvado del descenso» - El Debate",
+          "medio": "El Debate",
           "enlace": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZWowS3pnWEVZRDFMTmtqVTJFNHFjTGVrdi1UdktFQm5mU1FreXpLN2RCLUhmOUswdExwOFJiS0RRa2xNSGVJS3ZfNnZ0b1dXbjJQTkRxTF9wLURQTGVhWjFOeVdIa2s5UVowSElzNWxGZEFVQ3lFMmtQdG1uOGxvRnlrZ3hfeHBsTS1KQ2JNNGFJU1Z3YWEtaEpFWHc1YVdNcGpiM3pmNElZa0MtYndKQzd6ZndnNjdoSUVaSkZiNmtjbnNSUUFfQnFKaDBtaEIxSGRuSFFIY3R3SkpmLXhxbVlRN1M3b3EtUlRNQdIB8gFBVV95cUxPYnZHbUotaFpxSXM0Tml4RjhkdzJEakEyNDFyM2M5bmZsSzRwN181QTM2UzlRU2NKc3JHTjBqUTZVdDRkUjJnNW8tOTBqaFRfT3lJN2k0TFRsV0thNmItVGNrYTlYUlU2SHB3am5UZDZFd0Z6ckNyTG5SYUtJdFdxTGh0VWxWV1hDOHlNb2xOd3J5czM4ZWZsLWN2YUJ3eU9PQVlLQXpscERNMkdsb1lqOWN2cTN4Q2xRMGVPOGlPN3hXaUcwY2hvVzBTUGVmMHFESU0ySWRnS1NJc2lCMzBqd3VISEpNWm5NTG9QSVNacWRLUQ?oc=5",
           "claves": []
         },
@@ -1542,35 +1600,28 @@
           "claves": []
         },
         {
-          "fecha": "2026-09-29",
-          "titulo": "El Ayuntamiento de Guadalajara desmiente una supuesta intervención para quitar al \"Pequeño Nicolás\" del Depor - ENCLM",
-          "medio": "ENCLM",
-          "enlace": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOVWxWdjlEcFphb0NpUFB5N0JwQmMtVmVUUVROVjllTHZpVG9SY21wWU80VU1oYi13al9NbEgzUy1FRkY3VjZrMTY1QVctN0V5RGlCMnFRbVFEczZ6WXRYX1J4YU5MWFdtbC1IbVN2SWd2NHM2WU8yV0d0VmpaS3NVZFk1Xy1lQmgxUTJJVFVudkF3YUxYZGM0b2RHdWNxLWpkbW1NcnBtZUNtX2VJVDhaSDdSVFc3Y040NnFMRGR5YURFN2RVSjVUYzdmWVg1XzZwR3QtaTJkYjRQYXFLaVp2V25vS042N0VWWm5EVzdhblNZSEdGNE03em9MZXY1X0E?oc=5",
+          "fecha": "2026-09-28",
+          "titulo": "La alcaldesa de Guadalajara se mueve para quitar al ‘Pequeño Nicolás’ del club por su «protagonismo» - OkDiario",
+          "medio": "OkDiario",
+          "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOWtZb3U3Q1d3dzhQaG5CeFVRRG01c2w3NkdaelZBTmJYUlNqZzBqUld5dVFyTHRxbFo0NHJaSnQ1TVJUMlpiX1BPRnVzTC1aUm9qT0N4MWJpRmlLRm00Wm9zakVvUHQ3X2tqYlFjWTR0MDd0WXNRaWhDSFBsdk9OcGFIQWh4cGdnQzk4Y1JXTmNyU0c1M1ZFMnNnSWhZY3RpYzhwdUthT2tIZGtXYzM2adIBtgFBVV95cUxQb1RkMEE0RzA3dTJ4eEFNaTZ1QUItOS1xcjhUanlITnlwelQtcGp6c1NBRnBoTDNfQV9JenEtV0lyMXBBclh6eGVncWxIZlVRbE1iVDk3ck1GdGRCQ09XV2M4RFFRSXEtalRRbUxRc3pNekF5dHBLaG1odVdUbmE1cktYU2lMakF6TU1kVlQ3bWV5UHpMT0ZfUDBTRG4tOHBFb3FiYWRhS0xWSEQ1amhzZHhHMVh6Zw?oc=5",
           "claves": []
         },
         {
-          "fecha": "2026-09-29",
-          "titulo": "'Rifirrafe' entre el Pequeño Nicolás y Ana Guarinos - EL DECANO DE GUADALAJARA",
-          "medio": "EL DECANO DE GUADALAJARA",
-          "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWXA0NV9Qa3czUGRMYzYyenFLdW1HNVM5dER6eDBacGUzV1FiNjNMa25uVGJjekR6cTFQelpnc00wdmlJT2JRQnBQN3hfcy1hNWZqM290eHVaVzBaSWVaeVFzZ0lkZ3htd281R0NzLXlSRFU3b2h4X3VKWW5kNW0tQ01sUEtFcE9HOTV6aVRMeWNqTWdLUFF6anRwSVg5TFhSYkJocExhdnI3Nml3dkpSUndwRVEzdw?oc=5",
-          "claves": []
-        },
-        {
-          "fecha": "2026-09-29",
+          "fecha": "2026-09-28",
           "titulo": "Guarinos choca con OkDiario por el «Pequeño Nicolás» - La Crónica de Guadalajara",
           "medio": "La Crónica de Guadalajara",
           "enlace": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOY21CalFRQWRTZmkwaWhsNHhlaEYyRmUyU3cwZ0IyOVZVZHR1TzNVTnhYSkdId1QtV3BsR0VOMmhkUzRYSHZlYXpxSncxanZNZjdmS0RCLUxnaGNGVjd4TS1YVnFmZFlFY0Vvb0QzQXRkRnJENDhlcUZOb0tHd184aklzZw?oc=5",
           "claves": []
         },
         {
-          "fecha": "2026-09-28",
-          "titulo": "La alcaldesa de Guadalajara se mueve para quitar al ‘Pequeño Nicolás’ del club por su «protagonismo» - OkDiario",
-          "medio": "OkDiario",
-          "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOWtZb3U3Q1d3dzhQaG5CeFVRRG01c2w3NkdaelZBTmJYUlNqZzBqUld5dVFyTHRxbFo0NHJaSnQ1TVJUMlpiX1BPRnVzTC1aUm9qT0N4MWJpRmlLRm00Wm9zakVvUHQ3X2tqYlFjWTR0MDd0WXNRaWhDSFBsdk9OcGFIQWh4cGdnQzk4Y1JXTmNyU0c1M1ZFMnNnSWhZY3RpYzhwdUthT2tIZGtXYzM2adIBtgFBVV95cUxQb1RkMEE0RzA3dTJ4eEFNaTZ1QUItOS1xcjhUanlITnlwelQtcGp6c1NBRnBoTDNfQV9JenEtV0lyMXBBclh6eGVncWxIZlVRbE1iVDk3ck1GdGRCQ09XV2M4RFFRSXEtalRRbUxRc3pNekF5dHBLaG1odVdUbmE1cktYU2lMakF6TU1kVlQ3bWV5UHpMT0ZfUDBTRG4tOHBFb3FiYWRhS0xWSEQ1amhzZHhHMVh6Zw?oc=5",
+          "fecha": "2026-09-22",
+          "titulo": "'El Pequeño Nicolás' es la cara visible del Guadalajara, el próximo rival del Numancia en Los Pajaritos - Heraldo-Diario de Soria",
+          "medio": "Heraldo-Diario de Soria",
+          "enlace": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSEFtd0VaRmhMTzEzVHhfQkJ2VzE1VTN5OE5vSkMtRmNJNU1GZzRlbjd6SGhuNUVhVWRXdzd2dDZaampKMm9vc3pLVF9vVnVXcGlZNW1JVmduSkdSLWswWUZNRlV4SXBoZXY1TXgzcFE4TzVYN19mZWMxczdaTVh4bTFTMWM4TVkzTHNVRmxsck56VzJJMjY0SU9ZV0xYZjJXN0xYeWNyblZWb3FLMUdYeFYwejlGTmVIZGJnV1NXTGl3YVpMR2pwbzk5ZlNmQm9BNHY5blRMbTdaQnBPaUdpZ2h3NNIB6AFBVV95cUxQZDB4NTVIc1kxM2Z1SHRaUHZKWUNmNkdiVWpndUo3MWEyb21BUmJKckNRU1B1dUY1YnZmNzhBRXk4WDNGMlVBdHZnNmlNMWF6ZllBQU1VMDdkX3BnOUZiT0R2NDdzZzNVNmQ3Ml9QVlNtem9IQUVMUFJzYkRURi1oMXFzdlRhSHk3ZThIZXNiUjl2Ti1tTmVLLXBVWTZrSThlVncxeUtxR1FZZTVsM3ZaNzNlU0F5c0oyNlR0Um1aRWc5bE5ybUNjUFBfaEtMb2licl9rdl9paUg4Vm9YZkZ0eGhGdzFDR0RZ?oc=5",
           "claves": []
         }
       ],
-      "ultima_noticia": "2026-09-30",
+      "ultima_noticia": "2026-10-12",
       "posteriores_a_revision": 6,
       "revisar": false
     },
@@ -1579,59 +1630,57 @@
       "fuente": "google",
       "noticias": [
         {
-          "fecha": "2026-10-05",
-          "titulo": "El Supremo tampoco resuelve sobre quién debe investigar a Montoro y recuerda que corresponde a la Audiencia Provincial decidir sobre la competencia - El Periódico",
-          "medio": "El Periódico",
-          "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaG9IZk9EUmY3cU1ZV3I2b2Y2alltUmpyV3Y1d3FNUkhZb0NzRGVScjVhMzdiX2QwdzhXLTRuOHNBdl9ZYi1mQklwWVB4T0xLNG1NYXBPWlZkOGJkQ1pFMjhfenFIMGhfd2FMcGNRenNMYkVkaE1jMHlfZ2plZjhJVWNNUEgtRXVQU1ZtYl9EX2MyQ2NhSlNKVkJWV2ljQXdzRl9jYVBUU3B5Tlg0YnfSAa4BQVVfeXFMT1UydzRISkJDUGNuQjI5cmdOWHA3ckRrMVQ4UFlUOGdaaTZUR0htUkJZdzE3TkJ1UVVPX1ZMZlZqUFR3MGZsRHl0LS1fZFZXd29sZGFHY1ZZMEpEMndQbkdFUFc2aHVGVWpRM0RGMk5zYWNZcEhoOWdoa3BEcEkwUUE2dmRNdjNvRHg5SmZKaDRMRVo5RnVoX2pJTE0xTUw3VzlyQlQ1bGRzUDhmVWh3?oc=5",
-          "claves": [
-            "Supremo"
-          ]
-        },
-        {
-          "fecha": "2026-10-04",
+          "fecha": "2026-10-10",
           "titulo": "Caso Montoro - La Tribuna de Guadalajara",
           "medio": "La Tribuna de Guadalajara",
-          "enlace": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5VMHM5bWphR1hSY1c2MWp6NEF1Z2U4S2JLekNpTHp0SklyY095bVVFbnZld2RYdi03dmJQODNPTTlSYzZFaVVMMEJpUXJVOWhVM1lEak9kbkJrYnB1TlFXM2xTZ0RLeWhPSmVKMEo1QUFLTFE?oc=5",
+          "enlace": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1UNWRXTXNMNG1IdUVpNTlOMkNwRGpzWms4MXVJU3NZOTBzZzg5M04wUldNZU9uYnc4RFdzenV0THhFcmtMeWV1YkpuX3BaMjZQZDdqeUxYZjdPSW8xUWlvTi1tMHNrRHJULXFWbk9yQXVnQlFh?oc=5",
           "claves": []
         },
         {
-          "fecha": "2026-09-29",
-          "titulo": "Equipo Económico reclama al Supremo que traslade el caso Montoro a los juzgados de Madrid - Diari ARA",
+          "fecha": "2026-10-06",
+          "titulo": "El Supremo devuelve a la Audiencia de Tarragona la decisión sobre dónde se investiga el caso Montoro - Diari de Tarragona",
+          "medio": "Diari de Tarragona",
+          "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQzViblJ6b3JHQ2dIUVF5N0pkaXBJSFVsTVo0ZjhnckhseTczenFCcWVoZElVRXUyblNFbklOOGpVMHpNZFNKU3l5NnNteG5CaTVINUpvY1ZPX1ZUc3I5VXMwcGJHZnQ1UDc1UlRReW5uM20zdEtmbmVsZC1EQS0zWTBiaktJMDNqRFpNckV3clBxTFhMV0NDYlgwekxPbmd1MnRzUVVTMFd6VlctN0gtelB1UmNLNVJkOXRRVzM4Q0JVZUXSAcgBQVVfeXFMTVZXY1hpZW9LcXpHY2VxaFRHUEptdnB5bWhacmtXU0NOLWQ4MkVvMUhwZUg1VHdxWFN5Umg2aHFVMUw1am16bzFneUJyc243XzBsNk5TVTJjeDZOUTRTMGlPVEVIOG1PZWsyM3NLUGNmREw0QklxcktVR08xcTJwZ3hrSDVtZW1RR2JRbVRnaGpJTVF6T1cwVVRqYXExbXFrbTJKazdiOGx5X2ZaNjc1WlRpbnMtT29tZDVqLXNXdGRpTmJ4QnR2YkQ?oc=5",
+          "claves": [
+            "Supremo"
+          ]
+        },
+        {
+          "fecha": "2026-10-06",
+          "titulo": "Vuelta a la casilla de salida en el ‘caso Montoro’: el Supremo devuelve a Tarragona la decisión sobre si la investigación debe trasladarse a un juzgado de Madrid - Infobae",
+          "medio": "Infobae",
+          "enlace": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxOYkZuZ3h1MjV4ek9JeVVmLXV1VTZydF9OMS1uSl9qVTVJR2RyLXJIMTJXMVFCc0FFMFgwV2h6ZGg4OXBoQ2JwUWZDTVFDVmtNNXJCRDg0dHlnU0htcHRXQzNrRlB2YXZma0FHQi1VSGpiSFVIcGRpQVFYeHZwR0twX19WM2tyZWMyMEx1cXg0bXQyTHJtRWVIeTB2c0tpcGhmbEdHSHE3T1BXaE15VFpsd3RQd0ZrUmRRRlUzZzBOWVJqdnVVT1NSakE0YlBlY1lwdnpUU1VMamZBd1RMZzMyS29GZVplSXFubTYzVE9HeXN6LVoybXhZcWpmZVZnNkVyUWhLbWNuNVdBaER2czdneDR3OUdsdE9laGRkYXYzNmthZnFkSlp6UtIBwwJBVV95cUxOdkJmTEhJT25oS21rdkM5ellZU2JKRGdDTV9yblRLSHM3WVRxcHNvdFQwMmNhaDFPWEp2NTNkODRjTlh2MV9DNGxyM0VWRVBkNEN5MXdTV25GelhacjloUHRwYUxMd3kzSmhzeV8wSnhHMUxsTlpCOExmWnRxMnluaUl5QzBZQ0xLckJ2T2VFc0prT3BTei1ualBxcGZPZTJ5VW9WWkZ1Tmg0djg5ci1meFl1aGowei1haFRUNWNPX2JSam9tejlaUU5PUzg0cGxZOERaQ2pTTEV3NVFPRmdEbnZtLUc2Q2pfUDVpMjh5OGdMZW96Q3hjaFVsRlFUSjQ1d0F3SkNZa0FNRExreGdKeG5TR0F5dVR3cFNWemgzdWNzTmtQSVg2T2ZFUV9GVmtUZUhsVjgxcWluU3RvVlhxdWlxWQ?oc=5",
+          "claves": [
+            "Supremo"
+          ]
+        },
+        {
+          "fecha": "2026-10-06",
+          "titulo": "El Supremo se declara incompetente y devuelve a la Audiencia de Tarragona la decisión sobre si el 'caso Montoro' viaja a Madrid - Confilegal",
+          "medio": "Confilegal",
+          "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcGxZNHo4Qm1zcmFaX1BNekdVaHFLb1E3XzZNQVpVUURsY2oyTDNSaGdHUEhIOG1nZmZuTm5JcFI2VFBlUWNWcmVUaHJyZ29EekdXQWI3b1EwTnB5bFR3MWlDVGNuRUpmd2I1ZWpnS3ZFTmN2dXlyWDRnY0dOZEUweGxiZDZwc1M1WHU0Z3J0bjNYblp2WS1keQ?oc=5",
+          "claves": [
+            "Supremo"
+          ]
+        },
+        {
+          "fecha": "2026-10-05",
+          "titulo": "El Supremo evita decidir si envía el caso Montoro a Madrid y devuelve la pelota a la Audiencia de Tarragona - Diari ARA",
           "medio": "Diari ARA",
-          "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVmJOYnJNN1lRLUR5LWZFQ1VySERoUzR4RFNHTkJvUW9YVm1CRW5UbnJLc1FTY3NCQ04tYlVMcTU0clVhMmJnbXNjT21HUXJ4bUZpWS13UUd6eGxVdktnTHlyci1IVGh3ME5lbmdsMTdtQ2V2ZzA2NVlXdUhDWldYRDJia1NWLVhrLTVodGFjN1dsX3RONFd1M2RoNXpmcS14bldnaWVJLWFYSENreXlzd09UYm3SAboBQVVfeXFMUDJEczFWRllIUWtPMTd2WGNsek82aHVZZVdOWl9MOTJwbkZyTm9INHh5V0haLVBLRUx6NDh6b3FVdTFnUzF4RkcwQ2dfZW9Jcy0teUpNekgwSG43eFp4NVVuQ1luc1RvSWRLN3QxcWlvR18wZjIweGhSSUN5RmNMRGtnVTY3LThDeEt1c1Bobm5xR0swdnpvMndTTXJFcHdHMDNELU5LR1pMOHE5ZG5Ca19GVmpYM0I5U2VR?oc=5",
+          "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTTMtbkt2Q2NTSl9rQWJsS3VDcmVGTHNsTnJVVzV6NmlqVFY5VWgzUEV4X01FTGdDS3BXR1pEblNheVU3US11TDVSNGJER29DNnc5Z0xoV3hZS255TjlmemF5bDFNcVd3LWVqSFpVVl9BVHdYQW9FRHp4VDV2RXppb3BFcEwxaGdzY3NxZjdna1ZVdWRraHRCQ05UamhRMkt2V1pwdVFFZ05FVURiYUowZjV3X29kLVN4eFNCaGhHSXctaXBIcFHSAcsBQVVfeXFMT21IbjQ0WHV2bzNSUy1wNU05VUw3Q1pHM0xOcWFRU2gtUEJEcWY4WUJvT3cxUkc2SGhFTG9JS01kQy1DLVh3ZDhhRGkzdmlDdEZkSWJzZmdUdDRWNnJzTDVoTGlfT3FUNmZmUXJGQ0c2dFhtWlhIUW5CLWNqS05oM0U0bGpfT2lGLTlqQjc0TDVDUEZ5eHJlSjV3dEJrZWRUalMtb0szT2NEX2VVNndCN1VkLS1ESlZnSW9KbEZGZFRkcXl5TE9LNEpZdms?oc=5",
           "claves": [
             "Supremo"
           ]
         },
         {
-          "fecha": "2026-09-28",
-          "titulo": "El despacho que fundó Montoro obliga al Supremo a pronunciarse si el caso se traslada a Madrid, \"donde radica la sede de Hacienda\" - El Periódico",
-          "medio": "El Periódico",
-          "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdU1odllMV0ZJYWF2X3hzY18yQ1VPVWNZRnlEM0xBcVgzWVZSc1JMRnRtX0Z5RG5nMkVLblZyVmpuRFFjZlNfaG14LVpCcHNzOEI3ckZLUnNxQll3WTVCbmY4dXFuNDV4OFlZbE1NSURKSmVXZ1VUTVI3M2tsMm9hOTlVUVVPV3BIUi1BMFhkb3cyYUdIZk5TcU1GX1BMMEtRWl9KMmJoTWFUd2RxTDR2SkFMaC1ndnpfRGRwRmpaeTJRRV9aWjZYcTln0gHKAUFVX3lxTE54U01qa1Utak9kWUw2MFpHMGFMRFN4SXlHX2NaeXZqSGN6QUJvbjk2Vm9FU25Gb1lUUm1NWDhFMkVkZmRqQ1J6RDZUcjZQWWlZdUdfOWN4enJKX0ZqWDBEWlJCWlJHUFlUWDF3bXYyWGhKaTJmQ0dOZzQ4MGF1d0FUdXpXZURnRzk5TkJWMEQ1eWowV1RmVlVhaHRibUNaYXhzYWZmeEItbUpTODV2VnV3YTVwZzlmMk1QaDBaMjhCaGJnSkloU3UxelE?oc=5",
-          "claves": [
-            "Supremo"
-          ]
-        },
-        {
-          "fecha": "2026-09-28",
-          "titulo": "Equipo Económico pide al Supremo que traslade el ‘caso Montoro’ de Tarragona a los juzgados de Madrid - EL PAÍS",
-          "medio": "EL PAÍS",
-          "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNb0FNR2VoVDNHUHVKb21uV21vYjRTME45VUJ5TkI5LUxodVFFMUZWRGJNcmpyeElDSFhFNkVMSm9Pd0JkdEVvYzFsY2ZFN1BBVU1oVnFsX1FNUnltWFdfWHd1U3ZnOHJ0M0hmckFJVWRQSlVDUHlESTRyOUxlOUpPSEJJMmhRb05mRU9DRE8wZFZtNlZKYzlVYnljZjJTR1ZsanJUbjM4Yk9KbVU1bjZfQzNQMjgtazYxTWVYN2EteEQwTWZndEw0VVJCejIwc3g5MTktMkpBT1MyN1di0gHwAUFVX3lxTFBNQXlsYl9zZXI5anYySzFHM0U3RU9UazZ0SE52V2hyLXE5eW51UzBSai1NbmdKaG1nSnZ4OTh5TTRtRVpZdnAydHZ5UEVvakw5VzBPMEw0eE1GY3FzRWRXVnBOS3FXLXpqaWhnRmlFUnZ1b2ZWVXpuaHAzOVZ3cFBnYzFsUU9zLTZmU3h2TlhRQ1Q3bFJOT3NPNlNOZUZsVlctUjVvYXN6aDEtaENUSW9fSEQtZ3UwWjRDVWt4M1QwYS02RDhoNS14d1J5RkpTdjZMVk9ZWF9xS1JmVXVCdmlGVXRvMkxER2E3WklKQVdmbw?oc=5",
-          "claves": [
-            "Supremo"
-          ]
-        },
-        {
-          "fecha": "2026-09-28",
-          "titulo": "Manos Limpias reclama al Supremo que envíe el caso Montoro a la Audiencia Nacional - Diari ARA",
-          "medio": "Diari ARA",
-          "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVDIyeWlIdUFlTG5lSi1nSlFRZklNd1BPWk44RHNCQUlxRl9wX19wVm9TX3g2RE02TGN2LWRzU0VMd0dEY1dyeTJwRk9uaTR1VTVQbV9qdEZIVllFR2pfWUhTYWV0VWhERXZNbzZTQnRNRTFCcHlCU044WDU2ZWdXbWZsUnhsOF9vejJTazNkajJ3ZmdNT3BKaE1uNTljM0h5cFdoRlg4SWJyRTREMVFOYtIBtgFBVV95cUxNYVl0Z2JZbEF5aHVoMGxhblZ3VlZhOGYxVE1jelpsUEhWYWFuNENJS0llNkhTVmQwN05EMzdNallDbzdxSTJzTGJ6b0F4N0N2MC1hZDdLYTA5aVNtQjU4LWw3b2RjUVJpdG8zQjdRWm1KTXFIcGtIZEJqUk1TTi1pTHVtckR0d2FiMEhLMDJXcFlJbDRDZXg2akdwY3M5c2otLWJIQU5PRTAxcmJwV1hPbVFoS0V6dw?oc=5",
-          "claves": [
-            "Supremo"
-          ]
+          "fecha": "2026-10-05",
+          "titulo": "El TS rechaza decidir si envía el 'caso Montoro' a Madrid y deja la cuestión en manos de la Audiencia de Tarragona - Infobae",
+          "medio": "Infobae",
+          "enlace": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNYV9Jc3NKS0k5ZzFkQzFJMXBwV2djSjUyT3dEeTljR05pR1ZMLVdHQmFyZ0tJV2JpMUFlVmN3TzA3Q2JlNzRiQ05VN1JZLUg0ZkhET0o2T2JvemFNUGwxcU1pWHFJT0VMOW4xazRLWHpPYmd2TFFueTgxX1B2QTZmWHhSeENGdXBBQ2c3eGdUNFR0b2F2YVo4MDhYYlRVaXhtTW42WkxQSGdpSUVfdElzNU1hRHo5ZWRWZlF4Q0dBRThsSFhOc0lGZG9HU19FMkxxVW1CMElLdHNXRkJ1cWkzWVB3OERTOW12V2toWUF0Q3hJUzNJS3FR0gGSAkFVX3lxTE5VbmFxbUV1UlhYQWhUMTVvWDVHNGdZUnEwT1RQN0o0bWR0ZXZvZkNUY0Fac1RGeHRoeWJmRkNfbnc4NFdUMDZBdTRVOFhxaHRYUTEtSkh3NThvRTRWbjI3cG53X3ZmRnI3M1A2elZjUDRZdTVYNGIzd2VMWlZrYWc2MGN5OUp2N19HRzBFUU42NDV4NUFVUzVXQl9CMHJBSzlyREQ4c1FkdG1ESU9FRnBUb04tcHRyQWNtOWMyZ0dnVXNpMFVJOHJXU1BhR3NZOU1kZDdPRkhMVzRweXExQTg4RC1LSnhaRy13YlNMUDhQZ2JNakZkalNjbVowTW5yQkx4WDFEU1dkdzhXanFHQW1QQ1E?oc=5",
+          "claves": []
         }
       ],
-      "ultima_noticia": "2026-10-05",
+      "ultima_noticia": "2026-10-10",
       "posteriores_a_revision": 6,
       "revisar": true
     },
@@ -1640,55 +1689,57 @@
       "fuente": "google",
       "noticias": [
         {
-          "fecha": "2026-10-05",
-          "titulo": "Fiscalía General maniobró con un informe sin firma para tumbar una querella contra las cloacas del PSOE - El Confidencial",
+          "fecha": "2026-10-10",
+          "titulo": "Indignación judicial contra Sánchez por el posible indulto exprés al exfiscal general: \"Nos desprecia\" - El Confidencial",
           "medio": "El Confidencial",
-          "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQclcxU2ozZ0R1SGEwb2U1dEtYT0VSRlNJZkpqODhxSFdFNXpXWXFKaXpiUHJ3QkFkaXBFN05NOUN2aVVkb0VQa2V6NXBYTmMtSWlTX2d5SW5QVUt1NXdJR3NrLWVKRTZSRGdfMmpvU1llMzZ6YXN3U2tXMzBoelBOMEd0NDB5azhsZldiLTIxNDFHZGotYVZpdEk4cmthRGVkclVqRWZzNA?oc=5",
-          "claves": []
-        },
-        {
-          "fecha": "2026-10-05",
-          "titulo": "La Fiscalía asume tras la condena a García Ortiz que sus protocolos de comunicación son incoherentes - Vozpopuli",
-          "medio": "Vozpopuli",
-          "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNMTcxM3ZaN1hnanVWUG5Qay1nVXk0YkhBNllvdGxhOHNtTDczY3hrVG0xZkdrQmloM295eEdSZFl6RlVDYXkyemZRUWlwMzJMeEVkMVFrWGRsZkU5R2V1RU8xZTA5QXdxRXYzSGJKd0owbTdQTFdTc2dHeFJrNW1ydTZoWUktTVZabFpQS2pib1pXNjdfcGd1WU44RnVPT05CVjNPUHJDOFBiT1lDRzBlb2s2VkhMUXBJQmVWaVRHdWwxRTZrZ0ZZVkFVUFJ6dlBiU3ZiQzBMTW1BOWEtMnpr0gHfAUFVX3lxTE0xNzEzdlo3WGdqdVZQblBrLWdVeTRiSEE2WW90bGE4c21MNzNjeGtUbTFmR2tCaWgzb3l4R1JkWXpGVUNheTJ6ZlFRaXAzMkx4RWQxUWtYZGxmRTlHZXVFTzFlMDlBd3FFdjNIYkp3SjBtN1BMV1NzZ0d4Ums1bXJ1NmhZSS1NVlpsWlBLamJvWlc2N19wZ3VZTjhGdU9PTkJWM09QckM4UGJPWUNHMGVvazZWSExRcElCZVZpVEd1bDFFNmtnRllWQVVQUnp2UGJTdmJDMExNbUE5YS0yems?oc=5",
+          "enlace": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdUV6bFZhd1dzeVo1MnFDZUFPaF9xbThlb2pKTkI4TWplQlF2X2RYSXh6dlA4SUNRcXRKUmttZDhfMGhPY1ZPX0JjbjJLcVo0blZ1clhGSnUtTy1jVUhENDRfbmsyeDdCaGZKZl9GZmNaeUphU0lId3huYTMxNUwzSDRfeGtWcjFkOXhQenBPM2phTGs2SGxvWVRjTlRDOEY5eVRv?oc=5",
           "claves": [
-            "condena"
+            "indulto"
           ]
         },
         {
-          "fecha": "2026-10-01",
-          "titulo": "Conde-Pumpido evita aclarar si se abstendrá en el recurso de García Ortiz: \"Todavía no hemos empezado a estudiarlo\" - El Independiente",
-          "medio": "El Independiente",
-          "enlace": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNX1RmODFURlJCQmRVYXJRSkdGSlVPYm9QVnp1bFJvbFVjTFBUTFh2YUI2UVJRU2tCRXRyNUlUdVFSdFFTRlZET1oyTWYzdWJCa2NwWmlWeVN5ZDd1eWlVVTZ2eVF5OXNuckZEZ3pFUDE5MF9BMmF3RnNSRmJaLVhiTVgyVm03Q2daWlVTQkFiblBaamZtMGVRaUlkbTlzN05mOWJ5dXU2VTNzbkVRelN2TUVJeEhVWFBvUF9lU3B4ZGgtUU5JTFpzLXczSXpVZWRsSGNROHVNbGQ5RnFEeGpsY0NnZEdBczJockd3SzVuMm9YaExKeXRj?oc=5",
+          "fecha": "2026-10-10",
+          "titulo": "Sánchez sentía vergüenza por los indultos políticos, pero prepara el de su fiscal - El Español",
+          "medio": "El Español",
+          "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQkpROXNTNzJzZDVUQzg5OFZKT3VNbkdjUDFQZHdKUUtqWnM0TWpuRVZXNFlBZm9WMlpJX1hMRVdadjZzQ3NFNUxUZm5MV3dxYS0wUU5VbzdZWkhJczRRblpNOWtubXc3YThHT1VIMjB4dS1WOFp4MVhnRWlJaWJCRE9fTUdBcVJONkVXZEJpazgyMTVKMFVJOTcyd2Q5bE52RlNSTlhQYnN1MjUwUkQwZTFFbUJ5U3dFV21EdTk5YjF4QVpjSEVLeE5OM0JGbzUtVHdYd9IB2gFBVV95cUxNTmtsWm13a3dhelJhYUl1eWlZM3NsUDhOOGZWcjhKUDFGcEx6bGoyT2tTNlJ5RmZ5SVlPdzZvaDVjSzByX0lWZG13N2JzaHF1WHdvRGltYjVZWmZwd3hjQmx3aXFBZVdibjhhUGgtanV4OWxlRVJSZWNZY2Nxc21ZVk50NGFZcEVFQkZYWHNzc1kzMzl4S2ZHencwaE9FQWF4QlVMbzZaeFVfclF5UTNxSVNxWnEzdGx4bnhEWUZnOFNNQ3V1R1hnZENNZ052Q0JQVVdQSDhwbGpyZw?oc=5",
           "claves": [
-            "recurso"
+            "indulto"
           ]
         },
         {
-          "fecha": "2026-09-23",
-          "titulo": "García Ortiz moroso 10 meses después: sigue sin pagar las costas del juicio que perdió contra González Amad... - OkDiario",
-          "medio": "OkDiario",
-          "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWXFIYklTeWd5eWROU0duVzJQeVc3dGt2WU1iUzJ2LXFabGY2LVdjdVpYOGZqVTR6MWxockRfS2Z6TzhRazBLLTdPZ0UzbkppV0dGT0tCaFR0V1g4U2N6c2l5MExaek8xbW0tbURnNnQyN0c1M0dJS3pMRGZfbmNMMmFXMHNIamJvY0E0cFdudlE0bHVscUFVNUFXb0dJVDZydmk5UTI1YWt5Q2pXU3JFUUFzMHlWaVJjeEdYNi0weGxPd01IaVM5S3NIY2dwbXAwUmlRRG9sMW3SAd4BQVVfeXFMUGlkZmJzWnpsUXhEU0VDVTdJOTB4ZDIyZzg4eHRBZU95V3g1X05kNWhPVVY2Q08zNTFpdU5JUFVOVXc1VUUzbWhuMDNLV3BnQ0YxSFlOZS11M3o2R1k5akhZeER1YXFBQW9XeW5KVHF1TThqdkxKME1KWFBfMWUyR0ZLRk82cklob2JfaThhamxSMHVNMjhmSWhNU25FU0JURF8wX2dUSDBrTWJoaEtKb3kxaG54N1JSdncyeml6XzVXSE9xWk9oRDBkaTJmbTl6eDl0ZWNHSDBPNWZsM3JB?oc=5",
+          "fecha": "2026-10-09",
+          "titulo": "Álvaro García Ortiz, el fiscal del «todo vale» por mi causa política - El Toro TV",
+          "medio": "El Toro TV",
+          "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPY09UODQ3WGVHQ1ZvRWU0azJ4Y1pIa1N5SlRYTTJhb1BEN2RmYjMzRDYtYmVoVGhVc2IwTkMyYnpJcHF2ZHRPdWNnZnItMHlkNFU1NXhwdm93dmFicWhpelJNOEVCMzBzWl9aYkRlaW54cEdwRTlpQXBxdkhoQ1JrUXJyczNuTF9ja0dNT2x3NkYxWTEybjVIZFAtY1VkNF9QbV84Z2phVHdON0FfZ2FZbE1kanVRNU5kSzhGQzdsU0Q?oc=5",
           "claves": []
         },
         {
-          "fecha": "2026-09-17",
-          "titulo": "Peramato cierra la era García Ortiz con varios nuevos nombramientos en la cúpula de la Fiscalía del Supremo y en Madrid - eldebate.com",
-          "medio": "eldebate.com",
-          "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNzFhM1dTYmNMWTVCVHFSYVYtR0psWV9vanN6a1RYRVhiTXVWemFYQkNMVnRSbnhCUmtvcHBBNGctbF81TlFlZjdpX3RJMVVGR293MEF1RGl4dUpSVHAtZlY0YjZESXBsLVNUbTFmdzdIc3doalV4X2xqTV9KOVBFTkJlTjdKcU80NnVnVWJNS2hMWHZsb3pCT2lqSkY2bFNOMHpyTVcwQl8xZjVTU184Zk55MnRjOVl0LThETENKNkJ1LVR1TGlLeVpyaU5uOWFhQi1QQU1GZ9IB3AFBVV95cUxNYlUzeFpwSXp0RkJxbC0xZ242TS1VYXpJb19FX1p6UVZJdk14bG9ucDhsUjJGWTJYZDFsOW15N3lXd1NGZEpXMWtfSWFubktMZGRWWV9yeEZIRFZVdEFGMUI4Qkx3SExhdzdjeVdSaS01R1hGQTFFX25LMWRxdk12ckJVcDV1aXhOTnVGSmRmVFBRSVo3YmJxRW5PZkRZWkFMblZVN0doQ0J3MXRlOXpjdmtNOXR0VE1BV28tZkZOYnNOVjNXZzI0b1o5NFVUQU9ySEF1UnNYOTJEdmpI?oc=5",
+          "fecha": "2026-10-09",
+          "titulo": "El Gobierno no descarta indultar al exfiscal general del Estado Álvaro García Ortiz antes de las elecciones generales del 29N - Infobae",
+          "medio": "Infobae",
+          "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQeU9iRHBhWEkzNm0zSzVXZm5NbjFkdjVxMlR1UDBBRVpWREpUMV94OTh1S3NlWF84bHl5RXJMclM0LU1KTkhpUmxZVDh3Q1BlTGc1cEl4SzVfcnp0WmxJVzhiRU9uckY0UjFUTkRLVXZpSDg4WlNnaHM5TkpzMEpFdHRTMHp1MXRCVmx1NnJ5NnJHX185ZEVtakVCeUhBNmJmRmE2WXhNWkZ5NzBhaHpEalNKdmplSGVVSWthdjl2MzdSOU5CSGZrQXVrZ3piSWtvV3JfdDFNMms2a1RtZ2ZmZ0NPcUvSAf8BQVVfeXFMT3pfUUp6MURjcXVHWEZrQmt5OG9IcWRkTFd5RWlyYUxOS1BuRm1MQkx5cW54NlBZVVZnMzA1NHhSY256eXVpVUhJcEw1VHFwc1BlemNsdGQ0ZmpNdkoxcUVYdzJqUjl3eDByeFg1TEVTR2lSYVhSRlF3bWVtZW13OTJIYWg1ZWdZRHdLTG5WbmsxcWlRNW1qRDcxZFM4NHJVUm1DXzFaWXBvU2dYOGJ3MzNNbGJ2MVpQR1NOOV91ZDlYOHRDa3BBRTIyX1NmN2F3cDVGYlZCQXVuczNIU2ljQi1IcWlOQTYtcF9fcjhEbkhocVZESmpQaVh5OEdNdGRn?oc=5",
+          "claves": []
+        },
+        {
+          "fecha": "2026-10-09",
+          "titulo": "Ricardo Rodríguez, jefe de información política: \"Pedro Sánchez ha asfaltado así la medida de gracia a García Ortiz, el presidente nunca ha digerido el mazazo del supremo contra el exfiscal general\" - COPE",
+          "medio": "COPE",
+          "enlace": "https://news.google.com/rss/articles/CBMiywJBVV95cUxNT3hwOHFNMmxaWU94UkdYRjIwaHFpMGVfd2N3QTVjaVNXU25HdkJQYXp1OXBGYk5zRlJTcllHNDQtcnlBMEp2NHBWMTc1WFkxUm1mcHh0NkhUQ3p4aThnOTBTTnNJVnBjcGNSbEI1SjRBcEROMHUtalFhbDZPOWNuTml6cW1OQUlxbVBxT0tnSTBtWm5sMXZXMDlJWnlHRk8yc0NZTW90bDNOa1pWWW12VWlzbGdZN195Z21KQnpHYU5HamxkaWFJbG5peHhNRlNUT2xrR0FaX2hyYWwzQS1vSjg4YmRkRnhwS19hb0VqdUpRVTNDVlZRV25xYzFiMVBNaGZxb1BLVnAwUFpEbDJDS1pKOGphWjBoOFp3bVhJVkhwUGV2OV9NalhSUXpRc1hpZk1wMUdXWUp6ekgtc2tpSWh1aUN3UkF3VGM00gHQAkFVX3lxTE84cEpmMVNMSHV0ZXNrSHJXc1Q5LVdkeWJZakRkRFBMM2dIRXlDclhldGVJMlQyUzlwOFE3RUE1QkRjWnZHLUFIb2o2SXNNc0hZQTBVQ3JQWU9zVVo3OUdCR1dMekZLMWRQS3NSakdNMmpOTDJUaW9LOXJ4SHlFTE5XZXp1WDVWRzNHZkJsT3g2WmdqR0d0Qk5NcHZYbEZJLTM4VTZGZ1c5UkppWWFJUGNVVE42a2JZZVo5aVZ5X2hUd2RYMXRONzVidnVNcUkxNC1jdE1hN2Z5ajRIMUYwQ3QzRkRtOXJwaFF4NDAzUmg0V1VodjFVU291M00wenFBc3ByUGVrWW9kU0JreWZvc1E5SDZqSGZqcFhPck01ZllRX3hFSWhEYksyLWtnaXhJUmVPWjBFaUllZ1NySnhsck11TkJEOGpaYkpxbHZmczljOQ?oc=5",
           "claves": [
             "Supremo"
           ]
         },
         {
-          "fecha": "2026-09-17",
-          "titulo": "La Fiscalía de Madrid intenta abrir una etapa de \"buen ambiente\" tras la ruptura por el \"caso García Ortiz\" - larazon.es",
-          "medio": "larazon.es",
-          "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdDU1Yy11ckQ1TXEyMlhMWlJHcU9NMjZkYmZHWVVKVTFLX0NraC1jdFZHLTRNaHdCblJmeXJseHotYUxpdFJINmh1N2pUdDlFSmJhSVpycDM5Q0kxQXd0OGhCTDFQV19CZFZIYTNFRU9xRjQ4emNLaGlBS0ZjWU5neHllN2lZWks3NnZqVG9BcVAzR0xYcmZScnppOEZWMTY4NU5Rd3FiWEVnQ3BPekZYaWJuOURNWXVWVENNOU5VbkZUV0ZSbVNfS1I4dzUzeEc3S0kxWlpmRFkwelHSAe8BQVVfeXFMT2lPRW5oYTJ5Um9fSm5GSU9GMnloNHViQXpJYzhfMHdtMzhDbVY2eWxKVGwwUGtBS1VKblZ0dUVTazhOWHNfaEpxRjB5SkRaNjNEaFhUcXlyOEw5eG9SZVdUZ1JNeGZiZ2d1a284aWlwTVhCMENISTd1NjNCTThQMjZuMGJIcEZ0aTdaNWdmNVA0Z0laT0NWMHVDQ0NqY0pYeGZVbVJpMzB4UUF6ZU94SnZQNnUwVWxVTFJTbmN2eUZKbk13YVpSYmRPUHZyU1dNQjZMMFQzcmI1S3FEWmI2dzVmaXoxcmVjZW1kNEFHc3M?oc=5",
-          "claves": []
+          "fecha": "2026-10-09",
+          "titulo": "Sánchez deja abierta la puerta al indulto de García Ortiz antes de las elecciones generales - La Gaceta de Canarias",
+          "medio": "La Gaceta de Canarias",
+          "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWGJIR3AtaWo1WVhSZDJ6Tl8tSDFQc3lSaHBocUN2N2pMWW4zYkpjMGRsR2dOVGpDVXgtT3BMYUhLNmN5d3BlRlAzR2FqalRBWVYyZjZnWGxzQ3piMTI0ZWZoLWNENjMtWFRWd2w3ODlkTW5Mc3Buemp3UGZBaDlqX0ZrV1JyNUFIUmh2VG40S0J3dGQzTXZReTRCTHROV1AwcGVtLUZNT20tc1p1WXhlWEd0dUEwQ1E0OWFNRFhYOWU?oc=5",
+          "claves": [
+            "indulto"
+          ]
         }
       ],
-      "ultima_noticia": "2026-10-05",
+      "ultima_noticia": "2026-10-10",
       "posteriores_a_revision": 6,
       "revisar": true
     },
@@ -1752,13 +1803,6 @@
       "fuente": "google",
       "noticias": [
         {
-          "fecha": "2026-10-01",
-          "titulo": "Mariano Benítez de Lugo, el abogado que sentó a Rajoy como testigo del caso Gürtel y que vivía en su urbanización: \"Me miraba, pasaba por mi casa\" - El HuffPost",
-          "medio": "El HuffPost",
-          "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPN0xxRUllajBabDgyWDV3cGduT2tpdXlXSW9adG9OWjFTanFuRU11Y2RVVTJRaG1UVS11QTlXOG8tS0FQaDVYeXJ2UnBYRlBlaHVFNzV1LWxKRVZBZVluY1QxcVBmdlpydU4teFZKdG1LTXV4V0xUQUQxOGZyYU9jWk1PTFVILTlhWTZBczc0bzlHcW5TU2xRVWFnclppM2dvSms2SUVDbkxhZ9IBvgFBVV95cUxOMjVxLW1iOU9VRXFNZHRZOEVuczZFSnR1SG9FaU1Dd1pyLVAwOTlSMjA2OW1KQjdKRlZGQjdtblNIUFBDSWdjZWg4dTEyLVZQVnBtSmc1WkxpU2xNSXgtZk5lU3B5TUMzRU9pMlRLR0xtTGt5OUNxbWpfMWx6djVVMTk0eldwTTN0UXlOMWJtZmE1VlJIY2VFQ012LTV5ekZFZ19Ra2NBdHI3NlBicHAwdENYNDVWbVJ5Vm45MzR3?oc=5",
-          "claves": []
-        },
-        {
           "fecha": "2026-09-18",
           "titulo": "Las pruebas de cómo el PP de Rajoy intentó eliminar los papeles de Bárcenas vuelven a la mesa del juez - elDiario.es",
           "medio": "elDiario.es",
@@ -1767,9 +1811,16 @@
         },
         {
           "fecha": "2026-09-17",
-          "titulo": "La Audiencia Nacional incorpora los audios de Villarejo y Cospedal que implican a Rajoy en el espionaje a Bárcenas - rtve.es",
-          "medio": "rtve.es",
+          "titulo": "La Audiencia Nacional incorpora los audios de Villarejo y Cospedal que implican a Rajoy en el espionaje a Bárcenas - RTVE.es",
+          "medio": "RTVE.es",
           "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQY2Z1SzRURWh2RjNGRjQ1YXFkdTgzSjEtbGNPa1NhMEQ4WUlzaFQxc1ZGR1RfYjI1T3ZqcXMxV0NBaHpac0JNOHk1aDFzRHBrMHpDVnVrT3ZQUVhvX0tnZGtVWDI1OVVSNVQxS0IwRG5FWWZ1UVo2VUFHNEE1eEZCSzBXeXJKQ2FZcnZNeE0yY0NHNnRNbmtVMmNyeWRiQktCRklXLVIxS0EtYXlPcFNXRmxURGJ1bnZGbGl5alRVYVc3UnR1YUE?oc=5",
+          "claves": []
+        },
+        {
+          "fecha": "2026-07-22",
+          "titulo": "La defensa de Fernández Díaz asegura que al exministro \"nunca le interesaron los papeles de Bárcenas\": \"Le daban igual\" - Europa Press",
+          "medio": "Europa Press",
+          "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWTJ5c19XYmhDb1FqUW9wNEY4NzEzLVA3Mnp1dWxVTEhMUGZkUmJaYkp2WXB4RXBqOEJuSUtDWmlsUDN4RW5CUXdoV1QyMHJxWFVLTXd3aFBZYlFUNGg3QnFndmp3QmJLa21CQTdQZ0lNMFdodmJraWZsaXVMMEFNMG14M1RHN0s1NkQyY0tzb3dFc2NlZktfMkJZOEpZQmRaV2tsNDZZNDkyb2pZWkJVYURSRVhmb3RNdnJLVE1CeTZ3RWllY1RSWWxwRTFHRGxuN0t6LW1XM21SUFlpdktUM1JSWThsUnlUM3dacTQ5SQ?oc=5",
           "claves": []
         },
         {
@@ -1781,24 +1832,22 @@
         },
         {
           "fecha": "2026-07-22",
-          "titulo": "La defensa de Jorge Fernández Díaz pide su absolución en el caso Kitchen: «Nunca le interesaron los papeles de Bárcenas - Confilegal",
-          "medio": "Confilegal",
-          "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQM1N0Z1lDN3JZVjhWclcwT3dOX0gtM3ZQRjdsMXJvSl9rTldGUGxQaHFSY24tNDYtOXNqNU9HWGxfM0tDejlYWFAwS2hYa2w1cjhTbVJpZURJa21TalJWakZkZWI2TWtGMU1Ob2ZlUnZ1ZGU1VnpUblVtTzhDV3dNMExLUlVrZEFZWmdNTkJRTEVpS0dJVkNuUlRTc1I1OFdkV19SRktvb3dlWEUwSThrZUNWcWJxRzdaamJQQU8yRTZwT2xlWGVYVWdmMlBXQ3JsSExGVUZzYXRsOTMzeHUwNzlhdmQ?oc=5",
-          "claves": [
-            "absolu"
-          ]
-        },
-        {
-          "fecha": "2026-07-22",
           "titulo": "El abogado de Fernández Díaz pide su absolución: “Bárcenas era el tesorero del PP no del ministerio” - La Vanguardia",
           "medio": "La Vanguardia",
           "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdHRQcmh4ZTRLZk5HU0ZGUGVwc3RBYmlhYThTYkVsTlFEV1BzNmd2eVBBcWphc1BHRWpqVS1TV2N6cGxHSGVpWlJGbTFjWFVFYmRTRFo1YVpNM20xR1Y1ZC1SdGVzbzUzd0x5WDl5LVNHdkItMEoyQ3dlTWdENDVwQVVqbWJRR0J5TXJBSDYtc2F0ZER2Ri1wcTBiNVRWOWRKUzdpQTJ1d2c4SXlSQmM5cEpZU0pUWEV0YWhPUElnTVh2eWJjbFB0Q0NmQdIB0AFBVV95cUxPcS1pbWYwREloQmZuelotOFlLUjJFYmsySndTbjEyZ3EtZVFyZk14a2Y0bVJ6S3RyNjhPTlRfcy1FeTNoSVQ0QnpKZGo4a2pqMllPNmdEaFhSRVRlbmpsR210QUFBZWt4NDVjanV2alkzbjdhN2hUOTRDemZBR1pOdUI0b2VpeVlvOFhlZm92Z3BIT244Rk9BWTZkM1JrYWNHN3hERzJkdWt3Rzl6dDIySnd1QXVpOVJoTFlONEFSZGpJQ2haaHBBQnJPSWtKUmhX?oc=5",
           "claves": [
             "absolu"
           ]
+        },
+        {
+          "fecha": "2026-07-22",
+          "titulo": "Fernández Díaz defiende que nunca le interesaron los papeles de Bárcenas y su número dos, que sería peor no haberle investigado - ABC",
+          "medio": "ABC",
+          "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOTR0bDR2T0xiOEs5ZE9qQ2J6b0I2SjFOR0sxRHU1U0xhNGN6b0kzVE9zTWZJUGJIc183X0JyT1ZzZ3JieG9xS2R5QTIwMU9QOUdRSkRoWVF4ekEwaTlINjRYS1RCSkZIWGU5cDFQSV9Vc3l3YzhuaFZqNklxQlY0eW5mVl95UzFiRmpBMXN2OUh3RTEwcVZvVDVycEN1TWdwdjFfSXpVVjUxeGwx?oc=5",
+          "claves": []
         }
       ],
-      "ultima_noticia": "2026-10-01",
+      "ultima_noticia": "2026-09-18",
       "posteriores_a_revision": 6,
       "revisar": true
     },
@@ -1808,8 +1857,8 @@
       "noticias": [
         {
           "fecha": "2026-07-29",
-          "titulo": "Marcos Benavent ingresa en la cárcel de Picassent para cumplir casi ocho años por el caso Imelsa - actualidadvalencia.com",
-          "medio": "actualidadvalencia.com",
+          "titulo": "Marcos Benavent ingresa en la cárcel de Picassent para cumplir casi ocho años por el caso Imelsa - Actualidad Valencia",
+          "medio": "Actualidad Valencia",
           "enlace": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUUZhb2NpMU1welFXMkcybl95VVFJYVdqVDJIQkp3enlLSTFGZnVjUUhocFhFelR6R2M3eHdCUDRFT2tmMUxtcXdqSVZjQk5XVVBBOG5TUWszN29pbFFBRUNNWW53b1A3UDZFZ0d2Nl9PVV9ibE1NRXE2MURuQnZvOQ?oc=5",
           "claves": [
             "cárcel"
@@ -1826,8 +1875,8 @@
         },
         {
           "fecha": "2026-07-29",
-          "titulo": "El \"yonki del dinero\" ya está en la prisión de Picassent (Valencia) - larazon.es",
-          "medio": "larazon.es",
+          "titulo": "El \"yonki del dinero\" ya está en la prisión de Picassent (Valencia) - La Razón",
+          "medio": "La Razón",
           "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTDhxaEVBYWpWLTYxNTVmUUVFM0c3bi15el9OOUVoS2pKd01iS0RqMTZTaElVektkRFRqd2xMQzNNUlVoSUFkVjNiTVNyTlRqVVNoaFFpMTdVT1EyRVFBUXN2cVJxQzIwMlBxT185QmtELUlNR3VMdnZ6RlFQTEJOLUVONG1lb2ZJTGZZVGIzaHhYMThyc25oZFYtdFd2MnRIRzlKekw5ZWhOekNGT2FxMFZ3eFYyT1YzVlVHd3JaSXF0TzZM0gHYAUFVX3lxTE9md3dRTEhKVjkyMXdBUFZ5MWk1UDhiVkVWM2RoMGV3NUJranVRdjFDVjlxT29Tcy1Fb1dSbzBhaW44U3l5c2VINnlUbVo4dDh6SWlsa3p2a1RQcVJvRXgxSHk0OFQ3SDZXNGNfX0JlWWpFbFhpekM2TktFVWg4bGVOWVliOGZaMVExaDV1VkZibkNxOVA1TWFRaGNvcEQ3VVFySDlPMkQ0M3R5NFNQbU1LQkZiR1lpR3lVQUowU1A2Nkttd2F2QUlhYXdGMUtBS2FVbHo3b2ZISg?oc=5",
           "claves": [
             "prisión"
@@ -1845,12 +1894,12 @@
         },
         {
           "fecha": "2026-07-29",
-          "titulo": "El 'yonqui del dinero' ingresa en prisión para cumplir la primera condena del caso Imelsa - El Periódico de Aquí",
-          "medio": "El Periódico de Aquí",
-          "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWUR3aDFWOUhBRk02Q2NNaS14TXRscTU3RFhYWm9CUktQbElXU08xSldtbWoxZnJLMEMyWkpRWjd0elhab2VqUWRNV2Ryb3hmT092aUwwempQelVqR3AxQi1odnoxX1JnRk91YjcwVEpVTXhKamhsSlhobzZYYVNUT2lkQjlLRVZvWmotd25xaXMxVjB2QzFLNGM4OVh2MEptZDROWDk4SE1qdEJLeTdEbHo4RC1oTWFQT3FQQ0pvVjJXV1F2a0luVnpB?oc=5",
+          "titulo": "El 'yonki del dinero' ingresa en la cárcel de Picassent para cumplir su primera condena por corrupción en Imelsa - 20Minutos",
+          "medio": "20Minutos",
+          "enlace": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNdUhTOWtZSERJa0dyWlJhNTI0VVBFZk84bnN0anBfc1Y5ODNlUnBjVGZtdnB1aElNdmVCcXdRYVZfVzJSSkEtbnlhZlctV0ZpUnBtMVRleWpuVW5MczQ4bTczeHRwMGtpSFdiWXJvX1R2eGNfWjRGXzNSOWQ1NDc2SXpBWDhpQTZ6SkdldERwb0hvZTEySl9UNGkxV1A3LUpiSm9WaV9vWjJodjRlbkg0Y0MtTURDTkFnSmZrSVRIOGFNbExpZzN5aUtKQm16eFh0TE1PdVJtVy02OHJmbUdmQThIQ1hVekI3NEVyMlBGLVoyUEwwM09xSWVRWEM?oc=5",
           "claves": [
             "condena",
-            "prisión"
+            "cárcel"
           ]
         },
         {
@@ -1898,8 +1947,8 @@
       "noticias": [
         {
           "fecha": "2026-07-02",
-          "titulo": "La empresa del 'pelotazo' de Las Teresitas reconoce un agujero patrimonial de 109 millones en Santa Cruz de Tenerife - moncloa.com",
-          "medio": "moncloa.com",
+          "titulo": "La empresa del 'pelotazo' de Las Teresitas reconoce un agujero patrimonial de 109 millones en Santa Cruz de Tenerife - MONCLOA.COM",
+          "medio": "MONCLOA.COM",
           "enlace": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSkhlRHJGb1pjeks2cmEwcUtpeE1pS3U1b3A5V0lzOFJuTXp0d0xudzBBSWc0dDVLMmo2TE9GQ2pVRko4cFNVZzY3Q2pBdGZEdnl6emNEZmRGUEEyc1lTMV9uVDJqVnUzcDZBLXctVGkxdW1GQ1F5THpKb09UZ3FhWGVLSTNWME1IMWhmalFRTQ?oc=5",
           "claves": []
         },
@@ -1909,17 +1958,10 @@
           "medio": "Atlántico Hoy",
           "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNX0RoTld3TXNVR3ZXX2NYdTNoa1Vpc1ZYeHBrMDFpTlAtempPRGx4akdhUjc1bE1DVWVPejZmVEk4WFU3Yi1Xc0ZqWUllUWNnQWQ4S0s0WHJKT3hvaXNOSnZOazA2ZHF6Qkkzc1pha0wzbS1GX2VfZC01UFozeXJlRFNiUnd2LXI3aVAtamlFa0syUEtJX2cxbFU5VlBSRmdlckpWQ01TVUpRMGxrOUVyYm5kV1RrMDZxZE5TbE5YVkRuR1BiUUstcldkSQ?oc=5",
           "claves": []
-        },
-        {
-          "fecha": "2026-06-30",
-          "titulo": "La playa más famosa de Tenerife recibe la 'Bandera Negra' por contaminación y \"abandono\" - Diario de Avisos",
-          "medio": "Diario de Avisos",
-          "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNM1hyeHhra3hIM296R3AtNjJXVUpsSGRacUtRVFV0N0hpZUpiX3laai1kQmRiUDJ2RmhzNnJvM1ZGNHFFUnVjbFRZOHdDVVpRblQ1NUhHYWpTbENUM2FvM0JVb3pvYTNyeHVWTHF3cjFsMVBVM3NkWk41bC14S2wwMjFmUlo0UFpQVVJXMHVEN2FYd9IBlwFBVV95cUxQSXpwZ2QxNnFZdUFwb0JBQ21raUVZU0ZyQ3JuOXB4OGRVZTJia0QtWjVNLTIyUlFvVlNGa00xTDNXRnU3RWstWmZIZjlCaGh1NFFRWWhtTGd4MjVWem5wb1pzWlk3ckE1aThiY3REaEZodWZDZ2x1MEthR0hGRlQzc0Q4Ykl4a0k5VVQxdnVFX3Voam9hUjZv?oc=5",
-          "claves": []
         }
       ],
       "ultima_noticia": "2026-07-02",
-      "posteriores_a_revision": 3,
+      "posteriores_a_revision": 2,
       "revisar": false
     }
   }
