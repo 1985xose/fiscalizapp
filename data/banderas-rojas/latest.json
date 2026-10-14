@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-10-13T13:09:39",
+    "generado": "2026-10-14T11:04:36",
     "version": "3.0",
-    "contratos_analizados": 149530,
-    "menores": 85938,
-    "licitaciones": 63592,
+    "contratos_analizados": 152006,
+    "menores": 87553,
+    "licitaciones": 64453,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 86,
+    "total_flags": 89,
     "por_tipo": {
       "fraccionamiento": 31,
       "concentracion": 2,
-      "patron_umbral": 7,
+      "patron_umbral": 8,
       "omnipresente": 0,
       "negociado_reiterado": 6,
-      "umbral_europeo": 40
+      "umbral_europeo": 42
     },
-    "severidad_alta": 37,
-    "severidad_media": 49
+    "severidad_alta": 38,
+    "severidad_media": 51
   },
   "flags": [
     {
@@ -1153,6 +1153,38 @@
       ]
     },
     {
+      "tipo": "umbral_europeo",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 6,
+      "adjudicatario": "Iberdrola Clientes Sau",
+      "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
+      "num_contratos": 3,
+      "importe_total": 392901.16,
+      "umbral_legal": 140000,
+      "descripcion": "3 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 392,901€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "CBA4457/2026",
+          "objeto": "Prórroga Del Contrato Basado A5072/2025 Con Código De Agrupación 7966. Código Actual De Agrupación 8419 (Ministerio Para La Transformación Digital Y De La Función Pública-Entidad Pública Empresarial Red.Es)",
+          "importe": 135995.46,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=YMZZ8ULI1P%2FI8aL3PRS10Q%3D%3D"
+        },
+        {
+          "expediente": "CBA4551/2026",
+          "objeto": "Prórroga Del Contrato Basado A6038/2025 Con Código De Agrupación 8124. Código Actual De Agrupación 8417 (Ministerio De Inclusión, Seguridad Social Y Migraciones-Instituto Social De La Marina)",
+          "importe": 134474.12,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=NSwmfYlhE4QQyBAnWzHfCg%3D%3D"
+        },
+        {
+          "expediente": "CBA4629/2026",
+          "objeto": "Prórroga Del Contrato Basado A5608/2025 Con Código De Agrupación 8053. Código Actual De Agrupación 8434 (Ministerio De Inclusión, Seguridad Social Y Migraciones-Instituto Nacional De La Seguridad Social)",
+          "importe": 122431.58,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=0u1xZdBAojw3vLk2DU2Ddg%3D%3D"
+        }
+      ]
+    },
+    {
       "tipo": "negociado_reiterado",
       "severidad": "alta",
       "emoji": "🔴",
@@ -1968,6 +2000,32 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
+      "adjudicatario": "TROMP MEDICAL S.L.U.",
+      "organo": "Dirección General de IBERMUTUA, Mutua Colaboradora con la Seguridad Social nº 274",
+      "num_contratos": 2,
+      "importe_total": 249260.0,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 249,260€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "CG-2026/2801/0078",
+          "objeto": "Suministro e instalación de un equipo de Rayos X se suelo para el centro asistencial de IBERMUTUA en León",
+          "importe": 124630.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=nsAcOCMo%2Fg%2BLAncw3qdZkA%3D%3D"
+        },
+        {
+          "expediente": "CG-2026/2801/0043",
+          "objeto": "Suministro e instalación de un equipo de rayos x de suelo para el centro asistencial de Palencia de IBERMUTUA",
+          "importe": 124630.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=fvhArYxUKwaP66GS%2BONYvQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
       "adjudicatario": "SERVICIOS INTEGRALES JUALI S.L.",
       "organo": "Dirección de Asuntos Económicos del Ejército",
       "num_contratos": 2,
@@ -2410,6 +2468,32 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
+      "adjudicatario": "VILOR CARRETERAS Y FIRMES SLU",
+      "organo": "Sociedad Pública de Infraestructuras y Medio Ambiente de Castilla y León S.A.",
+      "num_contratos": 2,
+      "importe_total": 266062.5,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 266,062€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "SDA/CO/03/07",
+          "objeto": "Contratación de las obras de cimentación e instalaciones enterradas de la promoción de 6 viviendas unifamiliares adosadas industrializadas para venta, acogidas al régimen de protección oficial, situadas en la C/ Santiago Díez Anta en Mansilla de las Mulas (León), en finca con ref. catastral 1178202UN0017N0001KP.",
+          "importe": 135300.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=dWrewoPlVk2FQ%2FlhRK79lA%3D%3D"
+        },
+        {
+          "expediente": "SDA/CO/03/11",
+          "objeto": "Contratación de las obras de cimentación e instalaciones enterradas de la promoción de 6 viviendas unifamiliares adosadas industrializadas para venta, acogidas al régimen de protección oficial, situadas en CALLE HUELGAS 1, 47164 SAN MIGUEL DEL ARROYO. VALLADOLID, en finca con ref. catastral 8590102UL7889S0001AD",
+          "importe": 130762.5,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ygMO9qLfSseIzo3LHNPGcQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
       "adjudicatario": "Solred, S.A.",
       "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
       "num_contratos": 2,
@@ -2428,32 +2512,6 @@
           "objeto": "Contrato Basado En El Acuerdo Marco 21/2023, Para El Suministro De Combustibles En Estaciones De Servicio Para El Lote 1 - Península Para La Confederación Hidrográfica Del Segura, O.A. Años 2026-2028. Compra Directa (Ministerio Para La Transición Ecológica Y El Reto Demográfico-Confederacion Hidrografica Del Segura, O.A.)",
           "importe": 121000.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=dlXUnbyplQfmnwcj%2BxbdTg%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "umbral_europeo",
-      "severidad": "media",
-      "emoji": "🟡",
-      "score": 4,
-      "adjudicatario": "Iberdrola Clientes Sau",
-      "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
-      "num_contratos": 2,
-      "importe_total": 270469.58,
-      "umbral_legal": 140000,
-      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 270,470€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
-      "contratos": [
-        {
-          "expediente": "CBA4457/2026",
-          "objeto": "Prórroga Del Contrato Basado A5072/2025 Con Código De Agrupación 7966. Código Actual De Agrupación 8419 (Ministerio Para La Transformación Digital Y De La Función Pública-Entidad Pública Empresarial Red.Es)",
-          "importe": 135995.46,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=YMZZ8ULI1P%2FI8aL3PRS10Q%3D%3D"
-        },
-        {
-          "expediente": "CBA4551/2026",
-          "objeto": "Prórroga Del Contrato Basado A6038/2025 Con Código De Agrupación 8124. Código Actual De Agrupación 8417 (Ministerio De Inclusión, Seguridad Social Y Migraciones-Instituto Social De La Marina)",
-          "importe": 134474.12,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=NSwmfYlhE4QQyBAnWzHfCg%3D%3D"
         }
       ]
     },
@@ -2498,23 +2556,23 @@
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
-      "organo": "Junta de Gobierno Local del Ayuntamiento de Calahorra",
-      "contratos_en_franja": 4,
-      "contratos_totales": 10,
-      "porcentaje": 40.0,
-      "proveedores_distintos": 4,
-      "descripcion": "Junta de Gobierno Local del Ayuntamiento de Calahorra: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
+      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
+      "contratos_en_franja": 47,
+      "contratos_totales": 95,
+      "porcentaje": 49.5,
+      "proveedores_distintos": 36,
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 47 de 95 menores (49%) entre 12,000-15,000€. 36 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
-      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
-      "contratos_en_franja": 47,
-      "contratos_totales": 93,
-      "porcentaje": 50.5,
-      "proveedores_distintos": 36,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 47 de 93 menores (51%) entre 12,000-15,000€. 36 proveedores. Estadísticamente improbable sin intervención."
+      "organo": "Jefatura de Asuntos Económicos del CG de la Comandancia Gral. de Melilla",
+      "contratos_en_franja": 16,
+      "contratos_totales": 40,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 15,
+      "descripcion": "Jefatura de Asuntos Económicos del CG de la Comandancia Gral. de Melilla: 16 de 40 menores (40%) entre 12,000-15,000€. 15 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -2559,6 +2617,17 @@
       "porcentaje": 41.7,
       "proveedores_distintos": 5,
       "descripcion": "Presidencia del Consorcio del Agua de Lanzarote: 5 de 12 menores (42%) entre 12,000-15,000€. 5 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Alcaldía del Ayuntamiento de Villa y Puerto de Tazacorte",
+      "contratos_en_franja": 8,
+      "contratos_totales": 16,
+      "porcentaje": 50.0,
+      "proveedores_distintos": 8,
+      "descripcion": "Alcaldía del Ayuntamiento de Villa y Puerto de Tazacorte: 8 de 16 menores (50%) entre 12,000-15,000€. 8 proveedores. Estadísticamente improbable sin intervención."
     }
   ]
 }
