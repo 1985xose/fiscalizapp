@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-10-14T11:04:36",
+    "generado": "2026-10-15T10:56:10",
     "version": "3.0",
-    "contratos_analizados": 152006,
-    "menores": 87553,
-    "licitaciones": 64453,
+    "contratos_analizados": 154756,
+    "menores": 89266,
+    "licitaciones": 65490,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,30 +15,30 @@
     ]
   },
   "stats": {
-    "total_flags": 89,
+    "total_flags": 90,
     "por_tipo": {
-      "fraccionamiento": 31,
+      "fraccionamiento": 32,
       "concentracion": 2,
-      "patron_umbral": 8,
+      "patron_umbral": 6,
       "omnipresente": 0,
       "negociado_reiterado": 6,
-      "umbral_europeo": 42
+      "umbral_europeo": 44
     },
-    "severidad_alta": 38,
-    "severidad_media": 51
+    "severidad_alta": 40,
+    "severidad_media": 50
   },
   "flags": [
     {
       "tipo": "umbral_europeo",
       "severidad": "alta",
       "emoji": "🔴",
-      "score": 22,
+      "score": 24,
       "adjudicatario": "DISHOSPAC SL",
       "organo": "Paradores de Turismo de España, S.M.E., S.A.",
-      "num_contratos": 11,
-      "importe_total": 1372206.0,
+      "num_contratos": 12,
+      "importe_total": 1496467.5,
       "umbral_legal": 140000,
-      "descripcion": "11 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 1,372,206€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "descripcion": "12 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 1,496,468€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
       "contratos": [
         {
           "expediente": "PESCADOS RULA AVILES PT CANGAS 30 07 05 08 26",
@@ -105,6 +105,12 @@
           "objeto": "Acuerdo marco Suministro de pescados frescos con el distintivo pescado de confianza de la Rula de Avilés con destino al Parador de Turismo de Cangas de Onis, (Asturias) desde el 08 de octubre al 14 de octubre de 2026.",
           "importe": 126016.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=MvGUR7d%2BOrItm4eBPtV6eQ%3D%3D"
+        },
+        {
+          "expediente": "PESCADOS RULA AVILES PT CANGAS 15 10 21 10 26",
+          "objeto": "Acuerdo marco suministro de pescados frescos con el distintivo pescado de confianza de la Rula de Avilés con destino al Parador de Turismo de Cangas de Onis, (Asturias) desde el 15 de octubre al 21 de octubre de 2026.",
+          "importe": 124261.5,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XZ3SY6bkbTR%2FP7lJ7Fu0SA%3D%3D"
         }
       ]
     },
@@ -1072,6 +1078,39 @@
       ]
     },
     {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "GRUPO INGECO INGENIEROS, S.L.",
+      "organo": "Alcaldía del Ayuntamiento de Carbajosa de la Sagrada",
+      "num_contratos": 3,
+      "importe_total": 44318.88,
+      "importe_medio": 14772.96,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 44,319€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "1033/2024",
+          "objeto": "Redacción de proyecto, dirección de obra y coordinación de seguridad y salud renovación del parque Ciudad de los Niños",
+          "importe": 14899.44,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=dJC2cYTM%2B4g%2Bk2oCbDosIw%3D%3D"
+        },
+        {
+          "expediente": "1033/2026",
+          "objeto": "Renovación Parque Ciudad de los Niños - Redacción de proyecto, dirección de obra y coordinación de seguridad y salud",
+          "importe": 14899.44,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2BtrSo58oXw87u6%2B%2FR7DUoA%3D%3D"
+        },
+        {
+          "expediente": "1096/2026",
+          "objeto": "Dirección de obra y coordinación de seguridad y salud mejora ambiental y ruta saludable",
+          "importe": 14520.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=yDlY%2FWMCkShVkTabT%2FRM8A%3D%3D"
+        }
+      ]
+    },
+    {
       "tipo": "negociado_reiterado",
       "severidad": "alta",
       "emoji": "🔴",
@@ -1181,6 +1220,38 @@
           "objeto": "Prórroga Del Contrato Basado A5608/2025 Con Código De Agrupación 8053. Código Actual De Agrupación 8434 (Ministerio De Inclusión, Seguridad Social Y Migraciones-Instituto Nacional De La Seguridad Social)",
           "importe": 122431.58,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=0u1xZdBAojw3vLk2DU2Ddg%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 6,
+      "adjudicatario": "TRANSFORMACIONES AGRICOLAS Y OBRAS, S.L.",
+      "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
+      "num_contratos": 3,
+      "importe_total": 375705.0,
+      "umbral_legal": 140000,
+      "descripcion": "3 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 375,705€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "TSA0078977-354",
+          "objeto": "Contrato derivado del \"AM para el alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la gerencia provincial de Tragsa en Almería, incluidas las obras con fondos en el marco del PRTR, a adjudicar por procedimiento abierto, sujeto a regulación armonizada. TSA0078977\"",
+          "importe": 125235.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=26dhjfUNQl7VGIpKDxgsAQ%3D%3D"
+        },
+        {
+          "expediente": "TSA0078977-355",
+          "objeto": "Contrato derivado del \"AM para el alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la gerencia provincial de Tragsa en Almería, incluidas las obras con fondos en el marco del PRTR, a adjudicar por procedimiento abierto, sujeto a regulación armonizada. TSA0078977\"",
+          "importe": 125235.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=hSvJJYQHGWWKeVWTb9Scog%3D%3D"
+        },
+        {
+          "expediente": "TSA0078977-356",
+          "objeto": "Contrato derivado del \"AM para el alquiler de maquinaria de obra civil, agrícola y forestal, y camiones para obras de construcción y demolición, dotada de operario, para las actuaciones del ámbito territorial de la gerencia provincial de Tragsa en Almería, incluidas las obras con fondos en el marco del PRTR, a adjudicar por procedimiento abierto, sujeto a regulación armonizada. TSA0078977\"",
+          "importe": 125235.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Tq4VNlz32MX9pbnDwlaUlg%3D%3D"
         }
       ]
     },
@@ -2542,15 +2613,30 @@
       ]
     },
     {
-      "tipo": "patron_umbral",
+      "tipo": "umbral_europeo",
       "severidad": "media",
       "emoji": "🟡",
-      "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
-      "contratos_en_franja": 57,
-      "contratos_totales": 139,
-      "porcentaje": 41.0,
-      "proveedores_distintos": 48,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 57 de 139 menores (41%) entre 12,000-15,000€. 48 proveedores. Estadísticamente improbable sin intervención."
+      "score": 4,
+      "adjudicatario": "margal21",
+      "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
+      "num_contratos": 2,
+      "importe_total": 254119.36,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 254,119€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "TSA0077772-119",
+          "objeto": "Contrato derivado del Acuerdo Marco para Alquiler de maquinaria de obra civil, agrícola y forestal, y camiones, dotada de operario, para las actuaciones de la gerencia provincial de Tragsa en Cáceres incluidas las obras financiadas con fondos PRTR en el marco del Plan de Recuperación, Transformación y Resiliencia, Financiado por la UE NEXTGENERATION EU, a adjudicar por procedimiento Abierto.",
+          "importe": 133777.6,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=yl9mJyCrbl7%2Fa9DgO%2BoYKQ%3D%3D"
+        },
+        {
+          "expediente": "TSA0077772-118",
+          "objeto": "Contrato derivado del Acuerdo Marco para Alquiler de maquinaria de obra civil, agrícola y forestal, y camiones, dotada de operario, para las actuaciones de la gerencia provincial de Tragsa en Cáceres incluidas las obras financiadas con fondos PRTR en el marco del Plan de Recuperación, Transformación y Resiliencia, Financiado por la UE NEXTGENERATION EU, a adjudicar por procedimiento Abierto.",
+          "importe": 120341.76,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=91Efb%2BvHWtakU02jNGj1Fw%3D%3D"
+        }
+      ]
     },
     {
       "tipo": "patron_umbral",
@@ -2567,23 +2653,12 @@
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
-      "organo": "Jefatura de Asuntos Económicos del CG de la Comandancia Gral. de Melilla",
-      "contratos_en_franja": 16,
-      "contratos_totales": 40,
-      "porcentaje": 40.0,
-      "proveedores_distintos": 15,
-      "descripcion": "Jefatura de Asuntos Económicos del CG de la Comandancia Gral. de Melilla: 16 de 40 menores (40%) entre 12,000-15,000€. 15 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real",
       "contratos_en_franja": 31,
-      "contratos_totales": 66,
-      "porcentaje": 47.0,
+      "contratos_totales": 67,
+      "porcentaje": 46.3,
       "proveedores_distintos": 22,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 31 de 66 menores (47%) entre 12,000-15,000€. 22 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 31 de 67 menores (46%) entre 12,000-15,000€. 22 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
