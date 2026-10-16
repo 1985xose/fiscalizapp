@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-10-15T10:56:10",
+    "generado": "2026-10-16T10:49:48",
     "version": "3.0",
-    "contratos_analizados": 154756,
-    "menores": 89266,
-    "licitaciones": 65490,
+    "contratos_analizados": 157213,
+    "menores": 90699,
+    "licitaciones": 66514,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 90,
+    "total_flags": 95,
     "por_tipo": {
-      "fraccionamiento": 32,
+      "fraccionamiento": 35,
       "concentracion": 2,
       "patron_umbral": 6,
       "omnipresente": 0,
       "negociado_reiterado": 6,
-      "umbral_europeo": 44
+      "umbral_europeo": 46
     },
-    "severidad_alta": 40,
-    "severidad_media": 50
+    "severidad_alta": 43,
+    "severidad_media": 52
   },
   "flags": [
     {
@@ -851,6 +851,39 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 8,
+      "adjudicatario": "Jamiaati, S.L.",
+      "organo": "Jefatura de Intendencia de Asuntos Económicos Sur",
+      "num_contratos": 3,
+      "importe_total": 115912.06,
+      "importe_medio": 38637.35,
+      "umbral_legal": 40000,
+      "descripcion": "3 contratos menores de obras entre 32,000€ y 40,000€ del mismo proveedor al mismo órgano. Total: 115,912€ (supera el umbral de 40,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/ETSAE0226/00006716E",
+          "objeto": "CM Obra adecuación y ampliación de instalaciones para 11 EQUICIN, Base de Cerro Muriano (Córdoba)",
+          "importe": 38950.01,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SoY8Ei0IWfg3vLk2DU2Ddg%3D%3D"
+        },
+        {
+          "expediente": "2026/ETHC00005/00000084E",
+          "objeto": "CM Obra sustitución de tren de cabina de centro de transformación, Acto. San Fernando (Córdoba)",
+          "importe": 38000.05,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=WnnzeTBKHkB%2FR5QFTlaM4A%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0226/00008088E",
+          "objeto": "CM Obra resanado talleres, aseo personal civil y almacén de materiales de temporada, RMASD \"La Cortadura\" (Cádiz)",
+          "importe": 38962.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=iSX06Twb%2BneGCFcHcNGIlQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
       "adjudicatario": "AUTOCARES ALCAZAR SL",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real",
       "num_contratos": 3,
@@ -1107,6 +1140,72 @@
           "objeto": "Dirección de obra y coordinación de seguridad y salud mejora ambiental y ruta saludable",
           "importe": 14520.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=yDlY%2FWMCkShVkTabT%2FRM8A%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "SAGRES S.L.",
+      "organo": "Junta de Gobierno del Ayuntamiento de La Oliva",
+      "num_contratos": 3,
+      "importe_total": 44829.2,
+      "importe_medio": 14943.07,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 44,829€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "29883/2026",
+          "objeto": "Suministro de 26 arneses de seguridad conforme a las normas EN 361 y EN 813, destinados al Servicio de Prevención, Extinción de Incendios y Salvamento (SPEIS) del Ayuntamiento de La Oliva.\n\nEl suministro comprende:\n\n26 unidades de arnés EN-361 Kevlar Mosq. BF90, referencia AR-720, por importe unitario de 326,40 €, e importe total de 8.486,40 €.\n\n26 unidades de arnés EN-813 Kevlar BF80 sin acolchados, referencia AR-722, por importe unitario de 248,20 €, e importe total de 6.453,20",
+          "importe": 14939.6,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=QbnzvS7SKzL9pbnDwlaUlg%3D%3D"
+        },
+        {
+          "expediente": "30238/2026",
+          "objeto": "El objeto del contrato consiste en el suministro de 26 chaquetones de intervención destinados al Servicio de Prevención, Extinción de Incendios y Salvamento (SPEIS) del Ayuntamiento de La Oliva.\n\nEl suministro se corresponde con el producto ofertado por SAGRES, S.L.:\n\nProducto: Chaquetón intervención Miño SIL-361.\n\nReferencia: BC-7005.\n\nUnidades: 26.\n\nPrecio unitario ofertado: 575,30 €.\n\nImporte total indicado en el presupuesto: 14.957,80 €.",
+          "importe": 14957.8,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=eN0yU21IWsGzz8fXU2i3eQ%3D%3D"
+        },
+        {
+          "expediente": "30776/2026",
+          "objeto": "Suministro de vestuario de intervención destinado al personal operativo del Servicio de Prevención, Extinción de Incendios y Salvamento (SPEIS) del Ayuntamiento de La Oliva, consistente en 26 unidades del pantalón de intervención MIÑO SIL 361, referencia BP-970, conforme a las características técnicas y económicas recogidas en el presupuesto presentado por SAGRES S.L.",
+          "importe": 14931.8,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=x0LgINlPAoCKeVWTb9Scog%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "MADERAS MEDINA Y NAVARRO",
+      "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
+      "num_contratos": 3,
+      "importe_total": 44997.0,
+      "importe_medio": 14999.0,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 44,997€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "20261802048",
+          "objeto": "Adquisición de melaminas para el taller de carpintería del centro penitenciario de Albolote.",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SD3FmfnqhOweIBJRHQiPkQ%3D%3D"
+        },
+        {
+          "expediente": "20261802047",
+          "objeto": "Adquisición de mecanizado para el taller de carpintería del centro penitenciario de Albolote.",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=fNJcU%2F21qag%2Bk2oCbDosIw%3D%3D"
+        },
+        {
+          "expediente": "20261802046",
+          "objeto": "Adquisición de madera del taller de carpintería del centro penitenciario de Albolote.",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=zQDmCGQ17iGFlFRHfEzEaw%3D%3D"
         }
       ]
     },
@@ -1785,6 +1884,32 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
+      "adjudicatario": "Endesa Energia",
+      "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
+      "num_contratos": 2,
+      "importe_total": 256092.01,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 256,092€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "CBA3196/2026",
+          "objeto": "Prórroga Del Contrato Basado A3825/2025 Con Código De Agrupación 7896. Código Actual De Agrupación 8364 (Universidad Internacional Menendez Pelayo)",
+          "importe": 125049.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9CgoacifZW99PLkba5eRog%3D%3D"
+        },
+        {
+          "expediente": "CBA4600/2026",
+          "objeto": "Prórroga Del Contrato Basado A5195/2025 Con Código De Agrupación 7882. Código Actual De Agrupación 8406 (Ministerio De Economía, Comercio Y Empresa-S.G. De Oficinas Económicas Y Comerciales En El Exterior Y De Red Territorial De Comercio)",
+          "importe": 131043.01,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Dbn31CDq3FtxseVhcqrkhw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
       "adjudicatario": "PATATAS RIO LOMBO",
       "organo": "Gerencia Sector Sanitario de Zaragoza 2",
       "num_contratos": 2,
@@ -1803,6 +1928,32 @@
           "objeto": "Suministro de Frutas y Verduras para cocina del Hospital Universitario Miguel Servet y Hospital General de la Defensa de Zaragoza",
           "importe": 123907.87,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=NJ%2Fs4TWDUcKFQ%2FlhRK79lA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "AUTOVICAN S.L.",
+      "organo": "Junta de Gobierno de la Diputación Provincial de Burgos",
+      "num_contratos": 2,
+      "importe_total": 247996.76,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 247,997€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "2E_26",
+          "objeto": "Suministro de 4 vehículos todoterreno para el Servicio de Vías y Obras  de la Diputación Provincial de Burgos.",
+          "importe": 123998.38,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=HL%2BsTjS7NOtVkTabT%2FRM8A%3D%3D"
+        },
+        {
+          "expediente": "20E_26",
+          "objeto": "Suministro de 4 Vehículos Todoterreno para el Servicio de Vías y Obras de la Diputación Provincial de Burgos",
+          "importe": 123998.38,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XQ2eYtvmTRJt5r0ngvMetA%3D%3D"
         }
       ]
     },
@@ -2644,10 +2795,10 @@
       "emoji": "🟡",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
       "contratos_en_franja": 47,
-      "contratos_totales": 95,
-      "porcentaje": 49.5,
+      "contratos_totales": 96,
+      "porcentaje": 49.0,
       "proveedores_distintos": 36,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 47 de 95 menores (49%) entre 12,000-15,000€. 36 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 47 de 96 menores (49%) entre 12,000-15,000€. 36 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
