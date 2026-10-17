@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-10-16T10:49:48",
+    "generado": "2026-10-17T09:56:22",
     "version": "3.0",
-    "contratos_analizados": 157213,
-    "menores": 90699,
-    "licitaciones": 66514,
+    "contratos_analizados": 159862,
+    "menores": 92311,
+    "licitaciones": 67551,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 95,
+    "total_flags": 99,
     "por_tipo": {
-      "fraccionamiento": 35,
+      "fraccionamiento": 36,
       "concentracion": 2,
-      "patron_umbral": 6,
+      "patron_umbral": 7,
       "omnipresente": 0,
       "negociado_reiterado": 6,
-      "umbral_europeo": 46
+      "umbral_europeo": 48
     },
-    "severidad_alta": 43,
-    "severidad_media": 52
+    "severidad_alta": 44,
+    "severidad_media": 55
   },
   "flags": [
     {
@@ -1181,6 +1181,39 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 8,
+      "adjudicatario": "Contruciones Ponciano Nieto, S.L.",
+      "organo": "Junta de Gobierno Local del Concello de Lousame",
+      "num_contratos": 3,
+      "importe_total": 107399.99,
+      "importe_medio": 35800.0,
+      "umbral_legal": 40000,
+      "descripcion": "3 contratos menores de obras entre 32,000€ y 40,000€ del mismo proveedor al mismo órgano. Total: 107,400€ (supera el umbral de 40,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/C002/000067",
+          "objeto": "Acceso a Pomar Cruido e outro",
+          "importe": 37049.99,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=n%2FR%2FHQapXTqTylGzYmBF9Q%3D%3D"
+        },
+        {
+          "expediente": "2026/C002/000085",
+          "objeto": "Mellora viario Silvarredonda ás Minas e outro",
+          "importe": 33900.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=oz5jhAEsLzkadbH3CysQuQ%3D%3D"
+        },
+        {
+          "expediente": "2026/C002/000086",
+          "objeto": "Interior en Lesende e outro",
+          "importe": 36450.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=uj%2B2qNacuulrhBlEHQFSKA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
       "adjudicatario": "MADERAS MEDINA Y NAVARRO",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
       "num_contratos": 3,
@@ -1824,6 +1857,32 @@
           "objeto": "Servicio integral de carga, transporte, colocación y almacenaje de material del CGA",
           "importe": 118798.04,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=yZniup7CWt65HQrHoP3G5A%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "EBONE SERVICIOS EDUCACIÓN DEPORTE S.L.",
+      "organo": "Presidencia de la Diputación Provincial de Ciudad Real",
+      "num_contratos": 2,
+      "importe_total": 235866.51,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 235,867€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "DPCR2026/40212",
+          "objeto": "Servicio  para la organización, y ejecución del programa Ruta Provincial de los Valores Quijotescos, dentro de Legado Quijote 2026",
+          "importe": 119670.21,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=E6%2BXwdlMc4a8ebB%2FXTwy0A%3D%3D"
+        },
+        {
+          "expediente": "DPCR2026/55359",
+          "objeto": "contratación del servicio para la organización, y ejecución de la actividad  LAS TARDES DEL QUIJOTE; enmarcado dentro  del  proyecto Legado Quijote 2026.",
+          "importe": 116196.3,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Y4Ct488Vf1G5HQrHoP3G5A%3D%3D"
         }
       ]
     },
@@ -2768,6 +2827,32 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
+      "adjudicatario": "Inetum España, S.A.",
+      "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
+      "num_contratos": 2,
+      "importe_total": 260608.35,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 260,608€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "CEA4563/2026",
+          "objeto": "Prórroga Del Contrato A764/2025. Asistencia Técnica Para Mantenimiento De Portales Y Aplicaciones Sistemas Web Del Ciemat  (Centro De Investigaciones Energeticas, Medioambientales Y Tecnologicas (Ciemat))",
+          "importe": 133010.22,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=AoTH%2BJc4naWkU02jNGj1Fw%3D%3D"
+        },
+        {
+          "expediente": "CEA2592/2026",
+          "objeto": "Servicios De Desarrollo De Nuevas Funcionalidades Y Mantenimiento De Las Aplicaciones De Servicios Sociales (Ministerio De Derechos Sociales, Consumo Y Agenda 2030-Subsecretaría De Derechos Sociales, Consumo Y Agenda 2030)",
+          "importe": 127598.13,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=zOfHVFUUYgKkU02jNGj1Fw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
       "adjudicatario": "margal21",
       "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
       "num_contratos": 2,
@@ -2794,11 +2879,22 @@
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
-      "contratos_en_franja": 47,
-      "contratos_totales": 96,
-      "porcentaje": 49.0,
-      "proveedores_distintos": 36,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 47 de 96 menores (49%) entre 12,000-15,000€. 36 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 49,
+      "contratos_totales": 98,
+      "porcentaje": 50.0,
+      "proveedores_distintos": 37,
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 49 de 98 menores (50%) entre 12,000-15,000€. 37 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Junta de Gobierno del Ayuntamiento de Paterna",
+      "contratos_en_franja": 4,
+      "contratos_totales": 10,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 3,
+      "descripcion": "Junta de Gobierno del Ayuntamiento de Paterna: 4 de 10 menores (40%) entre 12,000-15,000€. 3 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
