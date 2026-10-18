@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-10-17T09:56:22",
+    "generado": "2026-10-18T10:05:38",
     "version": "3.0",
-    "contratos_analizados": 159862,
-    "menores": 92311,
-    "licitaciones": 67551,
+    "contratos_analizados": 160311,
+    "menores": 92702,
+    "licitaciones": 67609,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,16 +15,16 @@
     ]
   },
   "stats": {
-    "total_flags": 99,
+    "total_flags": 100,
     "por_tipo": {
-      "fraccionamiento": 36,
+      "fraccionamiento": 37,
       "concentracion": 2,
       "patron_umbral": 7,
       "omnipresente": 0,
       "negociado_reiterado": 6,
       "umbral_europeo": 48
     },
-    "severidad_alta": 44,
+    "severidad_alta": 45,
     "severidad_media": 55
   },
   "flags": [
@@ -396,6 +396,45 @@
           "objeto": "Contrato menor mixto de suministro e instalación de elementos que conforman el Parque infantil de C. Huelva Hoya de S. Juan",
           "importe": 13803.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=afZGJyIDb9Cqb7rCcv76BA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 9,
+      "adjudicatario": "REPSOL BUTANO SA",
+      "organo": "Departamento de Salud de Elche. Dirección Económica-Gerencia",
+      "num_contratos": 4,
+      "importe_total": 52894.66,
+      "importe_medio": 13223.67,
+      "umbral_legal": 15000,
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 52,895€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "CM46/2026/521-2026/12725",
+          "objeto": "Suministro seguro y eficiente de 5.002 kgs de gas propano al Hospital de Elche, destinado a satisfacer las necesidades operativas del edificioUIAE y de las cocinas del establecimiento hospitalario, garantizando así el funcionamiento adecuado de los servicios asistenciales y de alimentación. / Subministrament segur i eficient de 5.002 kgs de gas propà a l'Hospital d'Elx, destinat a satisfer les necessitats operatives del edificioUIAE i de les cuines de l'establiment hospitalari, garantint així el funcionament adequat dels servicis assistencials i d'alimentació.",
+          "importe": 13122.2,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=cYO5iawbNYe5HQrHoP3G5A%3D%3D"
+        },
+        {
+          "expediente": "CM 49/2026/521-2026/12983",
+          "objeto": "Suministro seguro y eficiente de 4.710 Kg de gas propano al Hospital de Elche, destinado a satisfacer las necesidades operativas del edificio UIAE y de las cocinas del establecimiento hospitalario, garantizando así el funcionamiento adecuado de los servicios asistenciales de alimentación. No sujeto a SDA o AM. / Subministrament segur i eficient de 4.710 Kg de gas propà a l'Hospital d'Elx, destinat a satisfer les necessitats operatives de l'edifici UIAE i de les cuines de l'establiment hospitalari, garantint així el funcionament adequat dels servicis assistencials d'alimentació. No subjecte a SDA o AM.",
+          "importe": 12915.01,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=n7mws38w1ZR70UvEyYJSGw%3D%3D"
+        },
+        {
+          "expediente": "CM54/2026/521-2026/26169",
+          "objeto": "Suministro seguro y eficiente de 5.001 kgs de gas propano al hospital de elche, destinado a satisfacer las necesidades operativas del edificio UIAE y de las cocinas del establecimiento hospitalario, garantizando así el funcionamiento adecuado de los servicios asistenciales y de alimentación. / Subministrament segur i eficient de 5.001 kgs de gas propà a l'hospital de elche, destinat a satisfer les necessitats operatives de l'edifici UIAE i de les cuines de l'establiment hospitalari, garantint així el funcionament adequat dels servicis assistencials i d'alimentació.",
+          "importe": 14173.75,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XQrymD61DHBVq4S9zvaQpQ%3D%3D"
+        },
+        {
+          "expediente": "CM52/2026/521-2026/26665",
+          "objeto": "Suministro seguro y eficiente de 4.618 kg de gas propano al Hospital de elche, destinado a satisfacer las necesidades operativas del edificio UIAE y de las cocinas del establecimiento hospitalario garantizando así el funcionamiento adecuado de los servicios asistenciales / Subministrament segur i eficient de 4.618 kg de gas propà a l'Hospital de elche, destinat a satisfer les necessitats operatives de l'edifici UIAE i de les cuines de l'establiment hospitalari garantint així el funcionament adequat dels servicis assistencials",
+          "importe": 12683.7,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=C8PKApn3VREzjChw4z%2FXvw%3D%3D"
         }
       ]
     },
