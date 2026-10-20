@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-10-19T11:39:20",
+    "generado": "2026-10-20T10:46:51",
     "version": "3.0",
-    "contratos_analizados": 160472,
-    "menores": 92863,
-    "licitaciones": 67609,
+    "contratos_analizados": 164094,
+    "menores": 95506,
+    "licitaciones": 68588,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 100,
+    "total_flags": 102,
     "por_tipo": {
-      "fraccionamiento": 37,
+      "fraccionamiento": 38,
       "concentracion": 2,
-      "patron_umbral": 7,
+      "patron_umbral": 6,
       "omnipresente": 0,
       "negociado_reiterado": 6,
-      "umbral_europeo": 48
+      "umbral_europeo": 50
     },
-    "severidad_alta": 45,
-    "severidad_media": 55
+    "severidad_alta": 46,
+    "severidad_media": 56
   },
   "flags": [
     {
@@ -1282,6 +1282,39 @@
       ]
     },
     {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "AUTOBUSES URBANOS DE PONFERRADA, S.A.",
+      "organo": "Dirección Provincial de Educación en Soria",
+      "num_contratos": 3,
+      "importe_total": 43118.9,
+      "importe_medio": 14372.97,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 43,119€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "B2026/015137",
+          "objeto": "Ruta 4200123 Morón de Almazán-Almazán-Soria (IES Virgen del Espino/IES Castilla/CIFP Pico Frentes/IES Politécnico/CIFP La Merced/Escuela Arte. Curso escolar 2026/2027",
+          "importe": 14168.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=BG7fsFF9n1i7JOCXkOhcDg%3D%3D"
+        },
+        {
+          "expediente": "B2026/015136",
+          "objeto": "Ruta 4200002 Almazán-Lubia-Soria (IES Virgen del Espino/IES Castilla/CIFP Pico Frentes/IES Politécnico/CIFP La Merced/Escuela Arte. Curso escolar 2026/2027",
+          "importe": 14606.9,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=yvk60Ql8ULnIGlsa0Wad%2Bw%3D%3D"
+        },
+        {
+          "expediente": "B2026/016649",
+          "objeto": "Ruta 4200120 Valverde de Ágreda-Ágreda (CEIP Sor Mª Jesús de Ágreda/IES Margarita Fuenmayor). Curso escolar 2026/2027",
+          "importe": 14344.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=tJC4%2BAfbTbR9Zh%2FyRJgM8w%3D%3D"
+        }
+      ]
+    },
+    {
       "tipo": "negociado_reiterado",
       "severidad": "alta",
       "emoji": "🔴",
@@ -1844,6 +1877,32 @@
           "objeto": "Mejora del Saneamiento en la Calle Virgen de la Paloma, Albaida del Aljarafe (Sevilla)",
           "importe": 113209.22,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=AcX2q%2B1Gas%2BOUi78BmzhOQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "IRISMEDIA AGENCIA DE MEDIOS S.L.",
+      "organo": "Área de Gobierno de Vicealcaldía, Portavoz, Seguridad y Emergencias del Ayuntamiento de Madrid",
+      "num_contratos": 2,
+      "importe_total": 249986.0,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 249,986€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "511/2024/09993.1.100",
+          "objeto": "Campaña de la Oficina de Mediación del Ayuntamiento de Madrid 2026",
+          "importe": 119911.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=RTP2Anab5p87u6%2B%2FR7DUoA%3D%3D"
+        },
+        {
+          "expediente": "511/2024/09993.1.113",
+          "objeto": "Campaña de difusión Reequilibrio Territorial 2026 (2ª FASE)",
+          "importe": 130075.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=7OgYW%2F%2FnYQo3vLk2DU2Ddg%3D%3D"
         }
       ]
     },
@@ -2528,6 +2587,32 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
+      "adjudicatario": "SANCHEZ SUR SL",
+      "organo": "Intendente de San Fernando",
+      "num_contratos": 2,
+      "importe_total": 250000.0,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 250,000€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "2025/AR43U/00000445*",
+          "objeto": "Acuerdo Marco: Servicio de mantenimiento y reparación de sistemas electrónicos y comunicaciones, equipos de ayuda a la navegación y vigilancia de buques.",
+          "importe": 125000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=FOQkBLppTSDL1rX3q%2FMAPA%3D%3D"
+        },
+        {
+          "expediente": "2026/AR43U/00002733E",
+          "objeto": "ORM2018AR007S 3º Contrato Basado de electrónica , lote 1.",
+          "importe": 125000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=1igU50XfalnVGIpKDxgsAQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
       "adjudicatario": "SUMINISTROS SANITARIOS DE EXTREMADURA SL",
       "organo": "Dirección General de Planificación Económica",
       "num_contratos": 2,
@@ -2917,12 +3002,23 @@
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
+      "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
+      "contratos_en_franja": 71,
+      "contratos_totales": 172,
+      "porcentaje": 41.3,
+      "proveedores_distintos": 57,
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 71 de 172 menores (41%) entre 12,000-15,000€. 57 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
       "contratos_en_franja": 49,
-      "contratos_totales": 98,
-      "porcentaje": 50.0,
+      "contratos_totales": 99,
+      "porcentaje": 49.5,
       "proveedores_distintos": 37,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 49 de 98 menores (50%) entre 12,000-15,000€. 37 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 49 de 99 menores (49%) entre 12,000-15,000€. 37 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -2950,34 +3046,12 @@
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
-      "organo": "Junta de Gobierno del Ayuntamiento de Teulada",
-      "contratos_en_franja": 4,
-      "contratos_totales": 10,
-      "porcentaje": 40.0,
-      "proveedores_distintos": 4,
-      "descripcion": "Junta de Gobierno del Ayuntamiento de Teulada: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
       "organo": "Alcaldía del Ayuntamiento de Fuencaliente de la Palma",
       "contratos_en_franja": 7,
       "contratos_totales": 14,
       "porcentaje": 50.0,
       "proveedores_distintos": 6,
       "descripcion": "Alcaldía del Ayuntamiento de Fuencaliente de la Palma: 7 de 14 menores (50%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
-      "organo": "Presidencia del Consorcio del Agua de Lanzarote",
-      "contratos_en_franja": 5,
-      "contratos_totales": 12,
-      "porcentaje": 41.7,
-      "proveedores_distintos": 5,
-      "descripcion": "Presidencia del Consorcio del Agua de Lanzarote: 5 de 12 menores (42%) entre 12,000-15,000€. 5 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
