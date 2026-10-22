@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-10-21T10:56:53",
+    "generado": "2026-10-22T11:34:16",
     "version": "3.0",
-    "contratos_analizados": 166058,
-    "menores": 97470,
-    "licitaciones": 68588,
+    "contratos_analizados": 170284,
+    "menores": 99506,
+    "licitaciones": 70778,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,30 +15,30 @@
     ]
   },
   "stats": {
-    "total_flags": 103,
+    "total_flags": 106,
     "por_tipo": {
       "fraccionamiento": 39,
       "concentracion": 2,
-      "patron_umbral": 6,
+      "patron_umbral": 7,
       "omnipresente": 0,
       "negociado_reiterado": 6,
-      "umbral_europeo": 50
+      "umbral_europeo": 52
     },
     "severidad_alta": 47,
-    "severidad_media": 56
+    "severidad_media": 59
   },
   "flags": [
     {
       "tipo": "umbral_europeo",
       "severidad": "alta",
       "emoji": "🔴",
-      "score": 24,
+      "score": 26,
       "adjudicatario": "DISHOSPAC SL",
       "organo": "Paradores de Turismo de España, S.M.E., S.A.",
-      "num_contratos": 12,
-      "importe_total": 1496467.5,
+      "num_contratos": 13,
+      "importe_total": 1619469.5,
       "umbral_legal": 140000,
-      "descripcion": "12 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 1,496,468€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "descripcion": "13 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 1,619,470€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
       "contratos": [
         {
           "expediente": "PESCADOS RULA AVILES PT CANGAS 30 07 05 08 26",
@@ -111,6 +111,12 @@
           "objeto": "Acuerdo marco suministro de pescados frescos con el distintivo pescado de confianza de la Rula de Avilés con destino al Parador de Turismo de Cangas de Onis, (Asturias) desde el 15 de octubre al 21 de octubre de 2026.",
           "importe": 124261.5,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XZ3SY6bkbTR%2FP7lJ7Fu0SA%3D%3D"
+        },
+        {
+          "expediente": "PESCADOS RULA AVILES PT CANGAS 22 10 28 10 26",
+          "objeto": "Acuerdo marco Suministro de pescados frescos con el distintivo pescado de confianza de la Rula de Avilés con destino al Parador de Turismo de Cangas de Onis, (Asturias) desde el 22 de octubre al 28 de octubre de 2026.",
+          "importe": 123002.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=xWVYYZtKol3%2Fa9DgO%2BoYKQ%3D%3D"
         }
       ]
     },
@@ -527,6 +533,45 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 9,
+      "adjudicatario": "Jamiaati, S.L.",
+      "organo": "Jefatura de Intendencia de Asuntos Económicos Sur",
+      "num_contratos": 4,
+      "importe_total": 151909.56,
+      "importe_medio": 37977.39,
+      "umbral_legal": 40000,
+      "descripcion": "4 contratos menores de obras entre 32,000€ y 40,000€ del mismo proveedor al mismo órgano. Total: 151,910€ (supera el umbral de 40,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/ETSAE0226/00006716E",
+          "objeto": "CM Obra adecuación y ampliación de instalaciones para 11 EQUICIN, Base de Cerro Muriano (Córdoba)",
+          "importe": 38950.01,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SoY8Ei0IWfg3vLk2DU2Ddg%3D%3D"
+        },
+        {
+          "expediente": "2026/ETHC00005/00000084E",
+          "objeto": "CM Obra sustitución de tren de cabina de centro de transformación, Acto. San Fernando (Córdoba)",
+          "importe": 38000.05,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=WnnzeTBKHkB%2FR5QFTlaM4A%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0226/00008088E",
+          "objeto": "CM Obra resanado talleres, aseo personal civil y almacén de materiales de temporada, RMASD \"La Cortadura\" (Cádiz)",
+          "importe": 38962.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=iSX06Twb%2BneGCFcHcNGIlQ%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0226/00008578E",
+          "objeto": "CM Obra acondicionamiento de aseos del RACTA 4, Acto. Camposoto (San Fernando - Cádiz)",
+          "importe": 35997.5,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ItF0ygAZhqx%2FP7lJ7Fu0SA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 9,
       "adjudicatario": "María Luz Poyatos Fernández",
       "organo": "Alcaldía del Ayuntamiento de Solana del Pino",
       "num_contratos": 4,
@@ -927,39 +972,6 @@
           "objeto": "Transporte escolar de alumnos de enseñanza no universitaria en la Ruta 4900454 IES Los Sauces de Benavente (Zamora)",
           "importe": 14070.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=0sU9I4wrQgh%2FR5QFTlaM4A%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 8,
-      "adjudicatario": "Jamiaati, S.L.",
-      "organo": "Jefatura de Intendencia de Asuntos Económicos Sur",
-      "num_contratos": 3,
-      "importe_total": 115912.06,
-      "importe_medio": 38637.35,
-      "umbral_legal": 40000,
-      "descripcion": "3 contratos menores de obras entre 32,000€ y 40,000€ del mismo proveedor al mismo órgano. Total: 115,912€ (supera el umbral de 40,000€ que obligaría a licitar). Importes sospechosamente similares.",
-      "contratos": [
-        {
-          "expediente": "2026/ETSAE0226/00006716E",
-          "objeto": "CM Obra adecuación y ampliación de instalaciones para 11 EQUICIN, Base de Cerro Muriano (Córdoba)",
-          "importe": 38950.01,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SoY8Ei0IWfg3vLk2DU2Ddg%3D%3D"
-        },
-        {
-          "expediente": "2026/ETHC00005/00000084E",
-          "objeto": "CM Obra sustitución de tren de cabina de centro de transformación, Acto. San Fernando (Córdoba)",
-          "importe": 38000.05,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=WnnzeTBKHkB%2FR5QFTlaM4A%3D%3D"
-        },
-        {
-          "expediente": "2026/ETSAE0226/00008088E",
-          "objeto": "CM Obra resanado talleres, aseo personal civil y almacén de materiales de temporada, RMASD \"La Cortadura\" (Cádiz)",
-          "importe": 38962.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=iSX06Twb%2BneGCFcHcNGIlQ%3D%3D"
         }
       ]
     },
@@ -2866,6 +2878,32 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
+      "adjudicatario": "JAVIER ROBLES ALONSO",
+      "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
+      "num_contratos": 2,
+      "importe_total": 257730.0,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 257,730€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "TSA0080317-201",
+          "objeto": "[UT3] Alquiler de una Miniexcavadora de cadenas de 61 CV o superior c/ pinza y desbrozadora de martillos y de una midiexcavadora de cadenas de 71 CV o superior c/ pinza, desbrozadora de martillos y clava postes hidráulico para Cervera de Pisuerga (Palencia).",
+          "importe": 127050.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9QKmWGPMFwBt5r0ngvMetA%3D%3D"
+        },
+        {
+          "expediente": "TSA0077001_102_PA",
+          "objeto": "FEADER.- Alquiler de Tractor de ruedas de 240 CV o superior con neumáticos forestales c/desbrozadora de cadenas de doble rotor, pinza forestal, trituradora suspendida y con operario para Cervera de Pisuerga (Palencia). Financiación de la actuación mediante el Fondo Europeo Agrícola de Desarrollo Rural.",
+          "importe": 130680.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=MqVQ3ML7ATrVGIpKDxgsAQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
       "adjudicatario": "HIDEMAR, S.A.",
       "organo": "Dirección General de Planificación Económica",
       "num_contratos": 2,
@@ -3044,15 +3082,41 @@
       ]
     },
     {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "Abbott Medical España, S.A.",
+      "organo": "Dirección Gerencia del Complejo Hospitalario Universitario de Canarias",
+      "num_contratos": 2,
+      "importe_total": 235716.0,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 235,716€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "BAT/2026/0000196860_2",
+          "objeto": "Suministro del lote 8 del acuerdo marco adjudicado de marcapasos, desfibriladores implantables, electrodos y holters implantables, a la empresa ABBOTT MEDICAL ESPAÑA, S.A.",
+          "importe": 120000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=j%2BRfDVoqdrZQFSeKCRun4Q%3D%3D"
+        },
+        {
+          "expediente": "BAT/2026/0000196860",
+          "objeto": "Suministro del lote 4 del acuerdo marco adjudicado de marcapasos, desfibriladores implantables, electrodos y holters implantables, a la empresa ABBOTT MEDICAL ESPAÑA, S.A.",
+          "importe": 115716.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=V%2BYE20GqqO%2B9Hd5zqvq9cg%3D%3D"
+        }
+      ]
+    },
+    {
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
-      "contratos_en_franja": 75,
-      "contratos_totales": 178,
-      "porcentaje": 42.1,
-      "proveedores_distintos": 61,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 75 de 178 menores (42%) entre 12,000-15,000€. 61 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 78,
+      "contratos_totales": 189,
+      "porcentaje": 41.3,
+      "proveedores_distintos": 63,
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 78 de 189 menores (41%) entre 12,000-15,000€. 63 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -3080,12 +3144,23 @@
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
+      "organo": "Presidencia del Organismo Autónomo de Cultura del Excmo. Ayuntamiento de Santa Cruz de Tenerife",
+      "contratos_en_franja": 4,
+      "contratos_totales": 10,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 4,
+      "descripcion": "Presidencia del Organismo Autónomo de Cultura del Excmo. Ayuntamiento de Santa Cruz de Tenerife: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real",
       "contratos_en_franja": 31,
-      "contratos_totales": 67,
-      "porcentaje": 46.3,
+      "contratos_totales": 76,
+      "porcentaje": 40.8,
       "proveedores_distintos": 22,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 31 de 67 menores (46%) entre 12,000-15,000€. 22 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 31 de 76 menores (41%) entre 12,000-15,000€. 22 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -3103,11 +3178,11 @@
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Alcaldía del Ayuntamiento de Villa y Puerto de Tazacorte",
-      "contratos_en_franja": 8,
-      "contratos_totales": 16,
-      "porcentaje": 50.0,
-      "proveedores_distintos": 8,
-      "descripcion": "Alcaldía del Ayuntamiento de Villa y Puerto de Tazacorte: 8 de 16 menores (50%) entre 12,000-15,000€. 8 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 10,
+      "contratos_totales": 25,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 10,
+      "descripcion": "Alcaldía del Ayuntamiento de Villa y Puerto de Tazacorte: 10 de 25 menores (40%) entre 12,000-15,000€. 10 proveedores. Estadísticamente improbable sin intervención."
     }
   ]
 }
