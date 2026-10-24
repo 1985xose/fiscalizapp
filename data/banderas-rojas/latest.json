@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-10-22T11:34:16",
+    "generado": "2026-10-24T10:36:40",
     "version": "3.0",
-    "contratos_analizados": 170284,
-    "menores": 99506,
-    "licitaciones": 70778,
+    "contratos_analizados": 176318,
+    "menores": 103583,
+    "licitaciones": 72735,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 106,
+    "total_flags": 112,
     "por_tipo": {
-      "fraccionamiento": 39,
-      "concentracion": 2,
+      "fraccionamiento": 40,
+      "concentracion": 3,
       "patron_umbral": 7,
       "omnipresente": 0,
-      "negociado_reiterado": 6,
-      "umbral_europeo": 52
+      "negociado_reiterado": 7,
+      "umbral_europeo": 55
     },
-    "severidad_alta": 47,
-    "severidad_media": 59
+    "severidad_alta": 48,
+    "severidad_media": 64
   },
   "flags": [
     {
@@ -1632,6 +1632,37 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 3,
+      "adjudicatario": "ALFARIVER DEFENSE SL",
+      "organo": "Jefatura de Asuntos Económicos del Mando de Apoyo Logístico",
+      "num_contratos": 3,
+      "importe_total": 699599.75,
+      "descripcion": "ALFARIVER DEFENSE SL gana 3 contratos por negociado sin publicidad del Jefatura de Asuntos Económicos del Mando de Apoyo Logístico por 699,600€. El negociado sin publicidad es para situaciones excepcionales — usarlo repetidamente con el mismo proveedor huele a adjudicación a dedo.",
+      "contratos": [
+        {
+          "expediente": "2026/ETSAE0906/00001898E",
+          "objeto": "Mantenimiento vehículos RG-31.",
+          "importe": 400000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=fimJU7aSjYjgL1BHd3qjQA%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0906/00003789E",
+          "objeto": "Mantenimiento de vehículos Rg-31.",
+          "importe": 250000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=dR1GMX8xSaS8ebB%2FXTwy0A%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0906/00004409E",
+          "objeto": "Adquisición de repuetos Comunes SIAC y V07",
+          "importe": 49599.75,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=QOfZDEO8T7WAAM7L03kM8A%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "negociado_reiterado",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 3,
       "adjudicatario": "REPSOL SOLUCIONES ENERGETICAS SA",
       "organo": "Dirección de Gestión Económica de la Jefatura de Apoyo Logístico de la Armada",
       "num_contratos": 3,
@@ -1714,6 +1745,45 @@
       "importe_proveedor": 30911.14,
       "porcentaje_importe": 97.4,
       "descripcion": "SERTEVAL ELECTRICA, S.L. gana 5 de 6 contratos (83%) del Dirección de la Empresa General Valenciana del Agua, S.A., 30,911€ de 31,732€ (97%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 6,
+      "adjudicatario": "SUMINISTROS SANTO DOMINGO SL",
+      "organo": "Jefatura de Intendencia de Asuntos Económicos Sur",
+      "num_contratos": 4,
+      "importe_total": 53857.85,
+      "importe_medio": 13464.46,
+      "umbral_legal": 15000,
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 53,858€ (supera el umbral de 15,000€ que obligaría a licitar).",
+      "contratos": [
+        {
+          "expediente": "2026/ETSAE0226/00005918E",
+          "objeto": "CM Suministros de material de ferretería y fontanería para la RMASD Fuerte Santiago (Algeciras)",
+          "importe": 14400.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=0ep321Gz%2FPFeKgd8LfVV9g%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0226/00006551E",
+          "objeto": "CM Suministro material fungible para cursos de empleo: operaciones de fontanería y calefacción-climatización doméstica, USBA Menacho (Badajoz)",
+          "importe": 12021.1,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=BBo%2FKVXgRe19Zh%2FyRJgM8w%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0226/00008745E",
+          "objeto": "CM Suministro de diverso mobiliario y electrodomésticos para un pabellón de cargo 092019, USBA Menacho (Badajoz)",
+          "importe": 13357.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Ctt7SzIYYgyGCFcHcNGIlQ%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0226/00008865E",
+          "objeto": "CM Suministro de equipamiento para la USBA Menacho (Badajoz)",
+          "importe": 14079.75,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=EheJmdwiqOQeC9GJQOEBkQ%3D%3D"
+        }
+      ]
     },
     {
       "tipo": "fraccionamiento",
@@ -2488,6 +2558,32 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
+      "adjudicatario": "INMETOL SL",
+      "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
+      "num_contratos": 2,
+      "importe_total": 263019.26,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 263,019€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "TSA0083757",
+          "objeto": "Suministro e instalación de tuberías de calderería, estructuras de acero y montaje de equipos electromecánicos, en la EDAR de Matalascañas, T.M. Almonte (Huelva, financiado con fondos FEDER",
+          "importe": 124051.86,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=vhcU6ez%2FNANrSd8H4b2soA%3D%3D"
+        },
+        {
+          "expediente": "TSA0081788",
+          "objeto": "Suministro de acero laminado S355 J2 montado en obra para la obra de rehabilitación de puente sobre el Rio Jalón en el T.M. de Castejón de las Armas (Zaragoza).",
+          "importe": 138967.4,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=S1n5XS8T%2B7qHCIsjvJ3rhQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
       "adjudicatario": "TOTAL ENGINEERING SL",
       "organo": "Consejo de Administración de la Sociedad Pública para la Promoción Económica de Melilla, Proyecto Melilla, S.A.U.",
       "num_contratos": 2,
@@ -2766,6 +2862,32 @@
           "objeto": "Contratación de profesionales y directores de lidia para los espectáculos taurinos con motivo de las Fiestas Patronales de Navalcarnero de 2026.",
           "importe": 120274.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=StENlOyRVOakU02jNGj1Fw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "MANILE, S.A.",
+      "organo": "Dirección Económico Financiero de la Dirección General de Infraestructura. MDE",
+      "num_contratos": 2,
+      "importe_total": 253692.07,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 253,692€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "2026/SP03032003/00001577E",
+          "objeto": "Madrid / Madrid / Residencia Militar Alcázar / Obras de acondicionamiento de baños, iluminación y mecanismos eléctricos en 22 habitaciones",
+          "importe": 133510.11,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=1u91HB4oo0y8ebB%2FXTwy0A%3D%3D"
+        },
+        {
+          "expediente": "2026/SP03032003/00002382E",
+          "objeto": "Madrid / Madrid / Paseo de la Castellana nº 109 Renovación de conductos de climatización fase 1",
+          "importe": 120181.96,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=NPNtdko2NIV%2FP7lJ7Fu0SA%3D%3D"
         }
       ]
     },
@@ -3086,6 +3208,32 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
+      "adjudicatario": "Grupo Forma 5, S. L. U.",
+      "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
+      "num_contratos": 2,
+      "importe_total": 249979.58,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 249,980€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "CBA4626/2026",
+          "objeto": "Suministro Mobiliario Consulado General En Londres. Lote 2. Mobiliario De Oficina. Financiable Por El Igfv 2021-2027\n (Ministerio De Asuntos Exteriores, Unión Europea Y Cooperación-Dirección General Del Servicio Exterior)",
+          "importe": 121413.11,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=dnL5N2lGyPs3vLk2DU2Ddg%3D%3D"
+        },
+        {
+          "expediente": "CBA4575/2026",
+          "objeto": "\"Suministro De Mobiliario Para Distintas Unidades Del Ministerio Para La Transición Ecológica Y El Reto Demográfico\" (Ministerio Para La Transición Ecológica Y El Reto Demográfico-Dirección General De Servicios)",
+          "importe": 128566.47,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2BBVg3EiVQKOopEMYCmrbmw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
       "adjudicatario": "Abbott Medical España, S.A.",
       "organo": "Dirección Gerencia del Complejo Hospitalario Universitario de Canarias",
       "num_contratos": 2,
@@ -3108,15 +3256,39 @@
       ]
     },
     {
+      "tipo": "concentracion",
+      "severidad": "media",
+      "emoji": "🟡",
+      "adjudicatario": "STARK AUDIT S.L.",
+      "organo": "Presidencia de la Gerencia de Servicios Sociales del Ayuntamiento de Burgos",
+      "contratos_proveedor": 4,
+      "contratos_totales": 5,
+      "porcentaje_contratos": 80.0,
+      "importe_proveedor": 7250.13,
+      "porcentaje_importe": 47.6,
+      "descripcion": "STARK AUDIT S.L. gana 4 de 5 contratos (80%) del Presidencia de la Gerencia de Servicios Sociales del Ayuntamiento de Burgos, 7,250€ de 15,228€ (48%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
-      "contratos_en_franja": 78,
-      "contratos_totales": 189,
-      "porcentaje": 41.3,
-      "proveedores_distintos": 63,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 78 de 189 menores (41%) entre 12,000-15,000€. 63 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 83,
+      "contratos_totales": 207,
+      "porcentaje": 40.1,
+      "proveedores_distintos": 67,
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 83 de 207 menores (40%) entre 12,000-15,000€. 67 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Presidencia del Cabildo Insular de La Gomera",
+      "contratos_en_franja": 4,
+      "contratos_totales": 10,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 4,
+      "descripcion": "Presidencia del Cabildo Insular de La Gomera: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -3124,10 +3296,10 @@
       "emoji": "🟡",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
       "contratos_en_franja": 49,
-      "contratos_totales": 99,
-      "porcentaje": 49.5,
+      "contratos_totales": 101,
+      "porcentaje": 48.5,
       "proveedores_distintos": 37,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 49 de 99 menores (49%) entre 12,000-15,000€. 37 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 49 de 101 menores (49%) entre 12,000-15,000€. 37 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -3155,12 +3327,12 @@
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
-      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real",
-      "contratos_en_franja": 31,
-      "contratos_totales": 76,
-      "porcentaje": 40.8,
-      "proveedores_distintos": 22,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Ciudad Real: 31 de 76 menores (41%) entre 12,000-15,000€. 22 proveedores. Estadísticamente improbable sin intervención."
+      "organo": "Presidencia del Consorcio de Seguridad, Emergencia, Salvamento, Prevención y Extinción de Incendios de Lanzarote",
+      "contratos_en_franja": 23,
+      "contratos_totales": 54,
+      "porcentaje": 42.6,
+      "proveedores_distintos": 23,
+      "descripcion": "Presidencia del Consorcio de Seguridad, Emergencia, Salvamento, Prevención y Extinción de Incendios de Lanzarote: 23 de 54 menores (43%) entre 12,000-15,000€. 23 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -3172,17 +3344,6 @@
       "porcentaje": 50.0,
       "proveedores_distintos": 6,
       "descripcion": "Alcaldía del Ayuntamiento de Fuencaliente de la Palma: 7 de 14 menores (50%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
-      "organo": "Alcaldía del Ayuntamiento de Villa y Puerto de Tazacorte",
-      "contratos_en_franja": 10,
-      "contratos_totales": 25,
-      "porcentaje": 40.0,
-      "proveedores_distintos": 10,
-      "descripcion": "Alcaldía del Ayuntamiento de Villa y Puerto de Tazacorte: 10 de 25 menores (40%) entre 12,000-15,000€. 10 proveedores. Estadísticamente improbable sin intervención."
     }
   ]
 }
