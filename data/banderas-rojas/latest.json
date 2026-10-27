@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-10-26T12:04:50",
+    "generado": "2026-10-27T11:31:33",
     "version": "3.0",
-    "contratos_analizados": 176889,
-    "menores": 104023,
-    "licitaciones": 72866,
+    "contratos_analizados": 179567,
+    "menores": 105695,
+    "licitaciones": 73872,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 113,
+    "total_flags": 117,
     "por_tipo": {
       "fraccionamiento": 40,
       "concentracion": 4,
-      "patron_umbral": 7,
+      "patron_umbral": 8,
       "omnipresente": 0,
       "negociado_reiterado": 7,
-      "umbral_europeo": 55
+      "umbral_europeo": 58
     },
-    "severidad_alta": 50,
-    "severidad_media": 63
+    "severidad_alta": 52,
+    "severidad_media": 65
   },
   "flags": [
     {
@@ -162,6 +162,51 @@
           "objeto": "Adquisición de embutido y charcutería para la elaboración del racionado del centro penitenciario de Sevilla II.",
           "importe": 14999.99,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=quET%2BDVWjSGKeVWTb9Scog%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 12,
+      "adjudicatario": "PROYECTOS SIETE URBE 2015 S.L.",
+      "organo": "Alcaldia del Ayuntamiento de Arucas",
+      "num_contratos": 5,
+      "importe_total": 68797.88,
+      "importe_medio": 13759.58,
+      "umbral_legal": 15000,
+      "descripcion": "5 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 68,798€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "17869/2026",
+          "objeto": "Contrato menor mixto de suministro e instalación de elementos que conforman el Parque infantil de Los Portales.",
+          "importe": 14665.62,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=p30bQIELeIheKgd8LfVV9g%3D%3D"
+        },
+        {
+          "expediente": "17862/2026",
+          "objeto": "Contrato menor mixto de suministro e instalación de elementos que conforman el Parque infantil Arboleda de Los Portales",
+          "importe": 12741.06,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XnCLuZ2GlqE%2Bk2oCbDosIw%3D%3D"
+        },
+        {
+          "expediente": "23062/2026",
+          "objeto": "Contrato menor mixto de suministro e instalación de elementos que conforman el Parque infantil de San Francisco Javier",
+          "importe": 14512.8,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Z5QWDKM2WHfs%2BnLj3vAg5A%3D%3D"
+        },
+        {
+          "expediente": "22569/2026",
+          "objeto": "Contrato menor mixto de suministro e instalación de elementos que conforman el Parque infantil de C. Huelva Hoya de S. Juan",
+          "importe": 13803.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=afZGJyIDb9Cqb7rCcv76BA%3D%3D"
+        },
+        {
+          "expediente": "24264/2026",
+          "objeto": "Contrato menor mixto de suministro e instalación de elementos que conforman el Parque infantil de Los Castillos.",
+          "importe": 13075.4,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SMm%2FZZ6efDNrhBlEHQFSKA%3D%3D"
         }
       ]
     },
@@ -408,45 +453,6 @@
           "objeto": "Acondicionamiento de terreno, solera de hormigón, vallado y accesos electrónicos en área de Aportación de Anna zona de la Albufera.",
           "importe": 14574.27,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=goh0HgjYdPgadbH3CysQuQ%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 9,
-      "adjudicatario": "PROYECTOS SIETE URBE 2015 S.L.",
-      "organo": "Alcaldia del Ayuntamiento de Arucas",
-      "num_contratos": 4,
-      "importe_total": 55722.48,
-      "importe_medio": 13930.62,
-      "umbral_legal": 15000,
-      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 55,722€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
-      "contratos": [
-        {
-          "expediente": "17869/2026",
-          "objeto": "Contrato menor mixto de suministro e instalación de elementos que conforman el Parque infantil de Los Portales.",
-          "importe": 14665.62,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=p30bQIELeIheKgd8LfVV9g%3D%3D"
-        },
-        {
-          "expediente": "17862/2026",
-          "objeto": "Contrato menor mixto de suministro e instalación de elementos que conforman el Parque infantil Arboleda de Los Portales",
-          "importe": 12741.06,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XnCLuZ2GlqE%2Bk2oCbDosIw%3D%3D"
-        },
-        {
-          "expediente": "23062/2026",
-          "objeto": "Contrato menor mixto de suministro e instalación de elementos que conforman el Parque infantil de San Francisco Javier",
-          "importe": 14512.8,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Z5QWDKM2WHfs%2BnLj3vAg5A%3D%3D"
-        },
-        {
-          "expediente": "22569/2026",
-          "objeto": "Contrato menor mixto de suministro e instalación de elementos que conforman el Parque infantil de C. Huelva Hoya de S. Juan",
-          "importe": 13803.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=afZGJyIDb9Cqb7rCcv76BA%3D%3D"
         }
       ]
     },
@@ -1417,6 +1423,70 @@
           "objeto": "Suministro electrodo calidad E308L Ø3,2 y 4,0 mm. Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
           "importe": 195817.55,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=36tPCx6dWsswYTJJ03sHog%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 6,
+      "adjudicatario": "PABLO J.  SANTANA SANTANA",
+      "organo": "Paradores de Turismo de España, S.M.E., S.A.",
+      "num_contratos": 3,
+      "importe_total": 338454.79,
+      "umbral_legal": 140000,
+      "descripcion": "3 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 338,455€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "AB SEP ESTE L2 CRUZ 26",
+          "objeto": "Acuerdo marco Suministro de frutas y verduras frescas para el lote 2 P.T. Cruz de Tejeda desde el 01 al 30 de septiembre de 2026.",
+          "importe": 112636.26,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=QWJdyZ%2F7v1f9pbnDwlaUlg%3D%3D"
+        },
+        {
+          "expediente": "AB OCT ESTE L2 CRUZ 26 2",
+          "objeto": "Acuerdo marco Suministro de frutas y verduras frescas para el lote 2 P.T. Cruz de Tejeda desde el 01 al 31 de octubre de 2026.",
+          "importe": 113088.25,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=432uXQMLhzTs%2BnLj3vAg5A%3D%3D"
+        },
+        {
+          "expediente": "AB NOV ESTE L2 CRUZ 26",
+          "objeto": "Acuerdo marco para el Suministro de frutas y verduras frescas para el lote 2 P.T. CRUZ DE TEJEDA desde el 01 al 30 de NOVIEMBRE de 2026.",
+          "importe": 112730.28,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=cfW6p1eRfI%2BIzo3LHNPGcQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 6,
+      "adjudicatario": "FRUTAS NIEVES, S.L.",
+      "organo": "Paradores de Turismo de España, S.M.E., S.A.",
+      "num_contratos": 3,
+      "importe_total": 362951.57,
+      "umbral_legal": 140000,
+      "descripcion": "3 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 362,952€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "AB SEP NORTE L2 BAIONA 26",
+          "objeto": "Acuerdo marco para el Suministro de frutas y verduras frescas para el lote 2 P.T. Baiona desde el 01 al 30 de septiembre de 2026.",
+          "importe": 115473.33,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=xVpLRCHwjz02wEhQbcAqug%3D%3D"
+        },
+        {
+          "expediente": "AB OCT NORTE L2 BAIONA 26",
+          "objeto": "Acuerdo marco para el Suministro de frutas y verduras frescas para el lote 2 P.T. BAIONA desde el 01 al 31 de octubre de 2026.",
+          "importe": 121053.49,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=A8y%2BZu4fjeo%2Bk2oCbDosIw%3D%3D"
+        },
+        {
+          "expediente": "AB NOV NORTE L2 BAIONA 26",
+          "objeto": "Acuerdo marco para el Suministro de frutas y verduras frescas para el lote 2 P.T. Baiona desde el 01 al 30 de noviembre de 2026.",
+          "importe": 126424.75,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=2dknekCHyhWqb7rCcv76BA%3D%3D"
         }
       ]
     },
@@ -2629,6 +2699,32 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
+      "adjudicatario": "ASCANIO QUIMICA,S.A.",
+      "organo": "Aena. Dirección del Aeropuerto de César Manrique Lanzarote",
+      "num_contratos": 2,
+      "importe_total": 236737.5,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 236,738€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "ACE-57/2026",
+          "objeto": "Suminisro De Productos Quimicos Para Tratamiento De Aguas",
+          "importe": 119037.5,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=jjW2L3qXt5Rt5r0ngvMetA%3D%3D"
+        },
+        {
+          "expediente": "ACE-103/2024",
+          "objeto": "Suministro De Productos Químicos Para Tratamiento De Aguas",
+          "importe": 117700.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=JeC9JBkispDmnwcj%2BxbdTg%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
       "adjudicatario": "TOTAL ENGINEERING SL",
       "organo": "Consejo de Administración de la Sociedad Pública para la Promoción Económica de Melilla, Proyecto Melilla, S.A.U.",
       "num_contratos": 2,
@@ -2655,24 +2751,24 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
-      "adjudicatario": "PABLO J.  SANTANA SANTANA",
+      "adjudicatario": "FRUTAS ANTONIO LAFUENTE E EHIJOS, S.L.",
       "organo": "Paradores de Turismo de España, S.M.E., S.A.",
       "num_contratos": 2,
-      "importe_total": 225724.51,
+      "importe_total": 264587.84,
       "umbral_legal": 140000,
-      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 225,725€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 264,588€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
       "contratos": [
         {
-          "expediente": "AB SEP ESTE L2 CRUZ 26",
-          "objeto": "Acuerdo marco Suministro de frutas y verduras frescas para el lote 2 P.T. Cruz de Tejeda desde el 01 al 30 de septiembre de 2026.",
-          "importe": 112636.26,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=QWJdyZ%2F7v1f9pbnDwlaUlg%3D%3D"
+          "expediente": "AB SEP SUR L4 CADIZ 26",
+          "objeto": "Acuerdo marco para el Suministro de frutas y verduras frescas para el lote 4 P.T. CADIZ desde el 01 al 30 de septiembre de 2026.",
+          "importe": 124925.46,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=obeWY5lXn%2Bdq1DdmE7eaXg%3D%3D"
         },
         {
-          "expediente": "AB OCT ESTE L2 CRUZ 26 2",
-          "objeto": "Acuerdo marco Suministro de frutas y verduras frescas para el lote 2 P.T. Cruz de Tejeda desde el 01 al 31 de octubre de 2026.",
-          "importe": 113088.25,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=432uXQMLhzTs%2BnLj3vAg5A%3D%3D"
+          "expediente": "AB NOV SUR L4 CADIZ 26",
+          "objeto": "Acuerdo marco Suministro de frutas y verduras frescas para el lote 4 P.T. Cádiz desde el 01 al 30 de noviembre de 2026.",
+          "importe": 139662.38,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=rZqNWRr080lQFSeKCRun4Q%3D%3D"
         }
       ]
     },
@@ -2699,32 +2795,6 @@
           "objeto": "Acuerdo marco Suministro de frutas y verduras frescas para el lote 1 P.T. Alcalá desde el 01 al 31 de octubre de 2026.",
           "importe": 118427.47,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2BBt%2F5lhJsKnE6P%2FuLemXRw%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "umbral_europeo",
-      "severidad": "media",
-      "emoji": "🟡",
-      "score": 4,
-      "adjudicatario": "FRUTAS NIEVES, S.L.",
-      "organo": "Paradores de Turismo de España, S.M.E., S.A.",
-      "num_contratos": 2,
-      "importe_total": 236526.82,
-      "umbral_legal": 140000,
-      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 236,527€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
-      "contratos": [
-        {
-          "expediente": "AB SEP NORTE L2 BAIONA 26",
-          "objeto": "Acuerdo marco para el Suministro de frutas y verduras frescas para el lote 2 P.T. Baiona desde el 01 al 30 de septiembre de 2026.",
-          "importe": 115473.33,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=xVpLRCHwjz02wEhQbcAqug%3D%3D"
-        },
-        {
-          "expediente": "AB OCT NORTE L2 BAIONA 26",
-          "objeto": "Acuerdo marco para el Suministro de frutas y verduras frescas para el lote 2 P.T. BAIONA desde el 01 al 31 de octubre de 2026.",
-          "importe": 121053.49,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=A8y%2BZu4fjeo%2Bk2oCbDosIw%3D%3D"
         }
       ]
     },
@@ -3097,6 +3167,32 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
+      "adjudicatario": "COMPUSOF, S.A.",
+      "organo": "Dirección de Gestión Económica de la Jefatura de Apoyo Logístico de la Armada",
+      "num_contratos": 2,
+      "importe_total": 250334.48,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 250,334€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "2026/AR40U/00002199 M14078",
+          "objeto": "SINFO.- Suministro de estaciones de trabajo portátiles para la fuerza de Infantería de Marina de la Armada que participan en OMP",
+          "importe": 116354.81,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XC81TG9%2Bc3Hs%2BnLj3vAg5A%3D%3D"
+        },
+        {
+          "expediente": "2026/AR40U/00002912 M14078",
+          "objeto": "SINFO.- Suministro de equipos de sobremesa avanzados para laboratorios de CIberdefensa en las escuelas de la Armada.",
+          "importe": 133979.67,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=1EB9JECf07UUqXM96WStVA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
       "adjudicatario": "VILOR CARRETERAS Y FIRMES SLU",
       "organo": "Sociedad Pública de Infraestructuras y Medio Ambiente de Castilla y León S.A.",
       "num_contratos": 2,
@@ -3314,11 +3410,22 @@
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
-      "contratos_en_franja": 49,
-      "contratos_totales": 101,
+      "contratos_en_franja": 50,
+      "contratos_totales": 103,
       "porcentaje": 48.5,
-      "proveedores_distintos": 37,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 49 de 101 menores (49%) entre 12,000-15,000€. 37 proveedores. Estadísticamente improbable sin intervención."
+      "proveedores_distintos": 38,
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 50 de 103 menores (49%) entre 12,000-15,000€. 38 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Consejería con delegación en Sector Primario y Bienestar Animal del Cabildo Insular de Tenerife",
+      "contratos_en_franja": 4,
+      "contratos_totales": 10,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 4,
+      "descripcion": "Consejería con delegación en Sector Primario y Bienestar Animal del Cabildo Insular de Tenerife: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
