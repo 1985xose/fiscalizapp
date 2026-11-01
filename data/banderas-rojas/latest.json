@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-10-31T11:49:03",
+    "generado": "2026-11-01T12:18:08",
     "version": "3.0",
-    "contratos_analizados": 187125,
-    "menores": 111333,
-    "licitaciones": 75792,
+    "contratos_analizados": 185928,
+    "menores": 110639,
+    "licitaciones": 75289,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -18,8 +18,8 @@
     "total_flags": 122,
     "por_tipo": {
       "fraccionamiento": 44,
-      "concentracion": 4,
-      "patron_umbral": 8,
+      "concentracion": 3,
+      "patron_umbral": 9,
       "omnipresente": 1,
       "negociado_reiterado": 6,
       "umbral_europeo": 59
@@ -3510,30 +3510,6 @@
       ]
     },
     {
-      "tipo": "concentracion",
-      "severidad": "media",
-      "emoji": "🟡",
-      "adjudicatario": "STARK AUDIT S.L.",
-      "organo": "Presidencia de la Gerencia de Servicios Sociales del Ayuntamiento de Burgos",
-      "contratos_proveedor": 4,
-      "contratos_totales": 5,
-      "porcentaje_contratos": 80.0,
-      "importe_proveedor": 7250.13,
-      "porcentaje_importe": 47.6,
-      "descripcion": "STARK AUDIT S.L. gana 4 de 5 contratos (80%) del Presidencia de la Gerencia de Servicios Sociales del Ayuntamiento de Burgos, 7,250€ de 15,228€ (48%). ¿Proveedor único justificado o cautividad?"
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
-      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
-      "contratos_en_franja": 50,
-      "contratos_totales": 106,
-      "porcentaje": 47.2,
-      "proveedores_distintos": 38,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 50 de 106 menores (47%) entre 12,000-15,000€. 38 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
@@ -3543,6 +3519,17 @@
       "porcentaje": 40.6,
       "proveedores_distintos": 65,
       "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 80 de 197 menores (41%) entre 12,000-15,000€. 65 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
+      "contratos_en_franja": 50,
+      "contratos_totales": 105,
+      "porcentaje": 47.6,
+      "proveedores_distintos": 38,
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 50 de 105 menores (48%) entre 12,000-15,000€. 38 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -3565,6 +3552,17 @@
       "porcentaje": 41.2,
       "proveedores_distintos": 7,
       "descripcion": "Presidencia del Organismo Autónomo de Cultura del Excmo. Ayuntamiento de Santa Cruz de Tenerife: 7 de 17 menores (41%) entre 12,000-15,000€. 7 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Alcaldía del Ayuntamiento de Montehermoso",
+      "contratos_en_franja": 4,
+      "contratos_totales": 10,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 4,
+      "descripcion": "Alcaldía del Ayuntamiento de Montehermoso: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
