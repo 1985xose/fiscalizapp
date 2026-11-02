@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-11-01T12:18:08",
+    "generado": "2026-11-02T14:09:28",
     "version": "3.0",
-    "contratos_analizados": 185928,
-    "menores": 110639,
-    "licitaciones": 75289,
+    "contratos_analizados": 183185,
+    "menores": 108939,
+    "licitaciones": 74246,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 122,
+    "total_flags": 120,
     "por_tipo": {
-      "fraccionamiento": 44,
+      "fraccionamiento": 43,
       "concentracion": 3,
       "patron_umbral": 9,
       "omnipresente": 1,
       "negociado_reiterado": 6,
-      "umbral_europeo": 59
+      "umbral_europeo": 58
     },
-    "severidad_alta": 55,
-    "severidad_media": 67
+    "severidad_alta": 54,
+    "severidad_media": 66
   },
   "flags": [
     {
@@ -344,45 +344,6 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 9,
-      "adjudicatario": "INFOBIBLIOTECAS S.L.",
-      "organo": "Concejal de Contratación del Ayuntamiento de Torrejón de Ardoz",
-      "num_contratos": 4,
-      "importe_total": 59996.0,
-      "importe_medio": 14999.0,
-      "umbral_legal": 15000,
-      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 59,996€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
-      "contratos": [
-        {
-          "expediente": "398/2026",
-          "objeto": "Adquisición de fondo bibliográfico para la sección de adultos de las bibliotecas municipales.",
-          "importe": 14999.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=JMgD07oQAhA2wEhQbcAqug%3D%3D"
-        },
-        {
-          "expediente": "400/2026",
-          "objeto": "Adquisición de fondo bibliotecario de Cómic y Novela gráfica de las bibliotecas municipales",
-          "importe": 14999.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=laUdOY%2BvOM0kJPJS%2BPS9vg%3D%3D"
-        },
-        {
-          "expediente": "399/2026",
-          "objeto": "Adquisición de fondo bibliográfico subvencionado para la sección juvenil para las bibliotecas municipales de Torrejón de Ardoz durante el año 2026",
-          "importe": 14999.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=eh%2FTl7EIWYWLAncw3qdZkA%3D%3D"
-        },
-        {
-          "expediente": "405/2026",
-          "objeto": "Adquisición de fondo bibliográfico infantil de las bibliotecas municipales",
-          "importe": 14999.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=iUAkACyOJJBeKgd8LfVV9g%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 9,
       "adjudicatario": "RAMOS BUS S.L.",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Guadalajara",
       "num_contratos": 4,
@@ -656,64 +617,31 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 8,
-      "adjudicatario": "CANTERAS REUNIDAS DE HUELVA, S.L.",
-      "organo": "Alcaldía del Ayuntamiento de Moguer",
+      "adjudicatario": "INFOBIBLIOTECAS S.L.",
+      "organo": "Concejal de Contratación del Ayuntamiento de Torrejón de Ardoz",
       "num_contratos": 3,
-      "importe_total": 111622.5,
-      "importe_medio": 37207.5,
-      "umbral_legal": 40000,
-      "descripcion": "3 contratos menores de obras entre 32,000€ y 40,000€ del mismo proveedor al mismo órgano. Total: 111,622€ (supera el umbral de 40,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "importe_total": 44997.0,
+      "importe_medio": 14999.0,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 44,997€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
       "contratos": [
         {
-          "expediente": "2919/2026",
-          "objeto": "Asfaltado de 2.500 m2. en continuo con aglomerado asfaltico.",
-          "importe": 34848.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=RYoo95BYelU36J9Lctlsuw%3D%3D"
+          "expediente": "400/2026",
+          "objeto": "Adquisición de fondo bibliotecario de Cómic y Novela gráfica de las bibliotecas municipales",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=laUdOY%2BvOM0kJPJS%2BPS9vg%3D%3D"
         },
         {
-          "expediente": "6163/2026",
-          "objeto": "2.500 m2. de barrido de superficie. 2.500 m2. de riego asfaltico con emulsión bituminosa 300 tn. de MBC 2.500 m2. de extendido y compactado de MBC en capa de 5 cm. de espesor Porte de maquinaria.",
-          "importe": 38387.25,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=yhKmQmhaeiS7JOCXkOhcDg%3D%3D"
+          "expediente": "399/2026",
+          "objeto": "Adquisición de fondo bibliográfico subvencionado para la sección juvenil para las bibliotecas municipales de Torrejón de Ardoz durante el año 2026",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=eh%2FTl7EIWYWLAncw3qdZkA%3D%3D"
         },
         {
-          "expediente": "5475/2026",
-          "objeto": "Asfaltado en continuo de 2.500 m2. con barrido, riego asfaltico, suministro de MBC, extendido y compactado en capa en continuo de 5 cm. de espesor, incluido porte de maquinarias.",
-          "importe": 38387.25,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=sXkiiF78XL82wEhQbcAqug%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 8,
-      "adjudicatario": "CH3 ALMERIA SLU",
-      "organo": "Jefatura de Intendencia de Asuntos Económicos Sur",
-      "num_contratos": 3,
-      "importe_total": 113184.01,
-      "importe_medio": 37728.0,
-      "umbral_legal": 40000,
-      "descripcion": "3 contratos menores de obras entre 32,000€ y 40,000€ del mismo proveedor al mismo órgano. Total: 113,184€ (supera el umbral de 40,000€ que obligaría a licitar). Importes sospechosamente similares.",
-      "contratos": [
-        {
-          "expediente": "2026/ETSAE0226/00006691E",
-          "objeto": "CM Obra acondicionamiento zonas interiores del edificio E-077, Base Álvarez de Sotomayor (Almería)",
-          "importe": 35926.35,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VdorpSk4lX4IYE3ZiZ%2BxmQ%3D%3D"
-        },
-        {
-          "expediente": "2026/ETSAE0226/00006112E",
-          "objeto": "CM Obra adecuación aseos edificio E-127 Cía. Mando y Personal, Base Álvarez de Sotomayor (Viator - Almería)",
-          "importe": 39417.57,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=38iDlK%2Bes3yIzo3LHNPGcQ%3D%3D"
-        },
-        {
-          "expediente": "2026/ETSAE0226/00006421E",
-          "objeto": "CM Obra acondicionamiento zonas interiores Edificio nº 150, Base Álvarez de Sotomayor (Almería)",
-          "importe": 37840.09,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Oy8iYeiNYfczjChw4z%2FXvw%3D%3D"
+          "expediente": "405/2026",
+          "objeto": "Adquisición de fondo bibliográfico infantil de las bibliotecas municipales",
+          "importe": 14999.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=iUAkACyOJJBeKgd8LfVV9g%3D%3D"
         }
       ]
     },
@@ -945,6 +873,39 @@
           "objeto": "A.T. Dirección Obra Consolidación Del Dique Oeste Del Puerto De San Vicente De La Barquera",
           "importe": 13650.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=EFqXOGANVctQFSeKCRun4Q%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "CH3 ALMERIA SLU",
+      "organo": "Jefatura de Intendencia de Asuntos Económicos Sur",
+      "num_contratos": 3,
+      "importe_total": 113184.01,
+      "importe_medio": 37728.0,
+      "umbral_legal": 40000,
+      "descripcion": "3 contratos menores de obras entre 32,000€ y 40,000€ del mismo proveedor al mismo órgano. Total: 113,184€ (supera el umbral de 40,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/ETSAE0226/00006691E",
+          "objeto": "CM Obra acondicionamiento zonas interiores del edificio E-077, Base Álvarez de Sotomayor (Almería)",
+          "importe": 35926.35,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VdorpSk4lX4IYE3ZiZ%2BxmQ%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0226/00006112E",
+          "objeto": "CM Obra adecuación aseos edificio E-127 Cía. Mando y Personal, Base Álvarez de Sotomayor (Viator - Almería)",
+          "importe": 39417.57,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=38iDlK%2Bes3yIzo3LHNPGcQ%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0226/00006421E",
+          "objeto": "CM Obra acondicionamiento zonas interiores Edificio nº 150, Base Álvarez de Sotomayor (Almería)",
+          "importe": 37840.09,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Oy8iYeiNYfczjChw4z%2FXvw%3D%3D"
         }
       ]
     },
@@ -2396,32 +2357,6 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
-      "adjudicatario": "AUTOVICAN S.L.",
-      "organo": "Junta de Gobierno de la Diputación Provincial de Burgos",
-      "num_contratos": 2,
-      "importe_total": 247996.76,
-      "umbral_legal": 140000,
-      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 247,997€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
-      "contratos": [
-        {
-          "expediente": "2E_26",
-          "objeto": "Suministro de 4 vehículos todoterreno para el Servicio de Vías y Obras  de la Diputación Provincial de Burgos.",
-          "importe": 123998.38,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=HL%2BsTjS7NOtVkTabT%2FRM8A%3D%3D"
-        },
-        {
-          "expediente": "20E_26",
-          "objeto": "Suministro de 4 Vehículos Todoterreno para el Servicio de Vías y Obras de la Diputación Provincial de Burgos",
-          "importe": 123998.38,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XQ2eYtvmTRJt5r0ngvMetA%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "umbral_europeo",
-      "severidad": "media",
-      "emoji": "🟡",
-      "score": 4,
       "adjudicatario": "Construcciones Bardenas 2013 SL",
       "organo": "Junta de Gobierno del Ayuntamiento de Ejea de Los Caballeros",
       "num_contratos": 2,
@@ -3514,22 +3449,11 @@
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
-      "contratos_en_franja": 80,
-      "contratos_totales": 197,
-      "porcentaje": 40.6,
-      "proveedores_distintos": 65,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 80 de 197 menores (41%) entre 12,000-15,000€. 65 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
-      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
-      "contratos_en_franja": 50,
-      "contratos_totales": 105,
-      "porcentaje": 47.6,
-      "proveedores_distintos": 38,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 50 de 105 menores (48%) entre 12,000-15,000€. 38 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 79,
+      "contratos_totales": 193,
+      "porcentaje": 40.9,
+      "proveedores_distintos": 64,
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 79 de 193 menores (41%) entre 12,000-15,000€. 64 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -3574,6 +3498,17 @@
       "porcentaje": 42.6,
       "proveedores_distintos": 23,
       "descripcion": "Presidencia del Consorcio de Seguridad, Emergencia, Salvamento, Prevención y Extinción de Incendios de Lanzarote: 23 de 54 menores (43%) entre 12,000-15,000€. 23 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
+      "contratos_en_franja": 50,
+      "contratos_totales": 103,
+      "porcentaje": 48.5,
+      "proveedores_distintos": 38,
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 50 de 103 menores (49%) entre 12,000-15,000€. 38 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
