@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-11-03T13:16:03",
+    "generado": "2026-11-04T13:42:42",
     "version": "3.0",
-    "contratos_analizados": 182276,
-    "menores": 108503,
-    "licitaciones": 73773,
+    "contratos_analizados": 183287,
+    "menores": 109412,
+    "licitaciones": 73875,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,37 +15,31 @@
     ]
   },
   "stats": {
-    "total_flags": 116,
+    "total_flags": 113,
     "por_tipo": {
-      "fraccionamiento": 42,
+      "fraccionamiento": 41,
       "concentracion": 3,
       "patron_umbral": 7,
       "omnipresente": 1,
       "negociado_reiterado": 6,
-      "umbral_europeo": 57
+      "umbral_europeo": 55
     },
-    "severidad_alta": 53,
-    "severidad_media": 63
+    "severidad_alta": 52,
+    "severidad_media": 61
   },
   "flags": [
     {
       "tipo": "umbral_europeo",
       "severidad": "alta",
       "emoji": "🔴",
-      "score": 24,
+      "score": 22,
       "adjudicatario": "DISHOSPAC SL",
       "organo": "Paradores de Turismo de España, S.M.E., S.A.",
-      "num_contratos": 12,
-      "importe_total": 1499696.0,
+      "num_contratos": 11,
+      "importe_total": 1379966.5,
       "umbral_legal": 140000,
-      "descripcion": "12 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 1,499,696€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "descripcion": "11 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 1,379,966€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
       "contratos": [
-        {
-          "expediente": "PESCADOS RULA DE AVILES PT CANGAS 06 08 12 08 26",
-          "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 06 de agosto al 12 de agosto de 2026.",
-          "importe": 119729.5,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=WfDi5TlbNU4%2FbjW6njtWLw%3D%3D"
-        },
         {
           "expediente": "PESCADOS RULA DE AVILES PT CANGAS 13 08 19 08 26",
           "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 13 de agosto al 19 de agosto de 2026.",
@@ -603,39 +597,6 @@
           "objeto": "GU. 9.08.01 IES Clara Campoamor - climatización",
           "importe": 32996.7,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=16JnL7%2FX%2Fq5Vq4S9zvaQpQ%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 8,
-      "adjudicatario": "EL DIARIO DE LEON, S.A.",
-      "organo": "Consejería de la Presidencia de la Junta de Castilla y León",
-      "num_contratos": 3,
-      "importe_total": 42000.0,
-      "importe_medio": 14000.0,
-      "umbral_legal": 15000,
-      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 42,000€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
-      "contratos": [
-        {
-          "expediente": "B2026/010876",
-          "objeto": "Acc. Punt. de public. de promoción de CyL, con la inserción de dos páginas de publicidad en la publicación especial que el Diario de León editará coincidiendo con el VI congreso de Turismo que organiza.",
-          "importe": 14000.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=C7%2FhwsKv3PIaF6cS8TCh%2FA%3D%3D"
-        },
-        {
-          "expediente": "B2026/015270",
-          "objeto": "Acc. Punt. de public. de promoción de CyL, con la inserción de dos páginas de publicidad en la publicación especial que el Diario de León editará coincidiendo con el VIII congreso sobre despoblación que organiza en octubre de 2026.",
-          "importe": 14000.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=JirFIpSHqhDs%2BnLj3vAg5A%3D%3D"
-        },
-        {
-          "expediente": "B2026/017560",
-          "objeto": "Acc. Punt. de public. de promoción de CyL, con la inserción de dos páginas de publicidad en la publicación especial que el Diario de León editará coincidiendo con el VIII Congreso de la economía de El Bierzo en diciembre en 2026.",
-          "importe": 14000.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=X221kweaqg4ZDGvgaZEVxQ%3D%3D"
         }
       ]
     },
@@ -1676,43 +1637,6 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 4,
-      "adjudicatario": "NUNSYS, S.A.",
-      "organo": "Jefatura de Asuntos Económicos del Cuartel General Terrestre Alta Disponibilidad",
-      "num_contratos": 4,
-      "importe_total": 1021200.58,
-      "descripcion": "NUNSYS, S.A. gana 4 contratos por negociado sin publicidad del Jefatura de Asuntos Económicos del Cuartel General Terrestre Alta Disponibilidad por 1,021,201€. El negociado sin publicidad es para situaciones excepcionales — usarlo repetidamente con el mismo proveedor huele a adjudicación a dedo.",
-      "contratos": [
-        {
-          "expediente": "2026/ETSAE0304/00000334E",
-          "objeto": "Suministro integral de cajas militarizadas de despliegue rápido y electrónica de red asociada para la red NATO SECRET (NS) del HQ NRDC-ESP",
-          "importe": 319415.58,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=BtUVYgRDoKFQFSeKCRun4Q%3D%3D"
-        },
-        {
-          "expediente": "2026/ETSAE0304/00000474E",
-          "objeto": "Suministro de sistemas audiovisuales para las salas de planeamiento y conducción de operaciones del HQ NRDC-ESP",
-          "importe": 149795.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=06oOJMx9Gs%2BAAM7L03kM8A%3D%3D"
-        },
-        {
-          "expediente": "2026/ETSAE0304/00000547E",
-          "objeto": "Suministro de equipamiento destinado a la Expansión de la infraestructura proyectable operativa de comunicaciones de la arquitectura NATO Secret del NRDC-ESP",
-          "importe": 120000.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=f%2BMIk9rkwFWsNfRW6APEDw%3D%3D"
-        },
-        {
-          "expediente": "2026/ETSAE0304/00000677E",
-          "objeto": "Suministro de servidores para la infraestructura NATO SECRET desplegable en alta disponibilidad para redes clasificadas del HQ NRDC-ESP",
-          "importe": 431990.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=JpA7myDLaCEQyBAnWzHfCg%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "negociado_reiterado",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 4,
       "adjudicatario": "REPSOL SOLUCIONES ENERGETICAS SA",
       "organo": "Dirección de Gestión Económica de la Jefatura de Apoyo Logístico de la Armada",
       "num_contratos": 4,
@@ -1816,6 +1740,37 @@
           "objeto": "contrato basado en la Prorroga Extraordinaria del Lote 5 Servicios e infraestructuras de Acceso a Internet del Acuerdo Marco para la Contratacion de Servicios e Infraestructuras de Telecomunicaciones de la I3D",
           "importe": 42157.22,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=REQo4dOTsQ5QFSeKCRun4Q%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "negociado_reiterado",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 3,
+      "adjudicatario": "NUNSYS, S.A.",
+      "organo": "Jefatura de Asuntos Económicos del Cuartel General Terrestre Alta Disponibilidad",
+      "num_contratos": 3,
+      "importe_total": 701785.0,
+      "descripcion": "NUNSYS, S.A. gana 3 contratos por negociado sin publicidad del Jefatura de Asuntos Económicos del Cuartel General Terrestre Alta Disponibilidad por 701,785€. El negociado sin publicidad es para situaciones excepcionales — usarlo repetidamente con el mismo proveedor huele a adjudicación a dedo.",
+      "contratos": [
+        {
+          "expediente": "2026/ETSAE0304/00000474E",
+          "objeto": "Suministro de sistemas audiovisuales para las salas de planeamiento y conducción de operaciones del HQ NRDC-ESP",
+          "importe": 149795.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=06oOJMx9Gs%2BAAM7L03kM8A%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0304/00000547E",
+          "objeto": "Suministro de equipamiento destinado a la Expansión de la infraestructura proyectable operativa de comunicaciones de la arquitectura NATO Secret del NRDC-ESP",
+          "importe": 120000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=f%2BMIk9rkwFWsNfRW6APEDw%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0304/00000677E",
+          "objeto": "Suministro de servidores para la infraestructura NATO SECRET desplegable en alta disponibilidad para redes clasificadas del HQ NRDC-ESP",
+          "importe": 431990.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=JpA7myDLaCEQyBAnWzHfCg%3D%3D"
         }
       ]
     },
@@ -2292,32 +2247,6 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
-      "adjudicatario": "Construcciones Bardenas 2013 SL",
-      "organo": "Junta de Gobierno del Ayuntamiento de Ejea de Los Caballeros",
-      "num_contratos": 2,
-      "importe_total": 264470.0,
-      "umbral_legal": 140000,
-      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 264,470€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
-      "contratos": [
-        {
-          "expediente": "38b/2026",
-          "objeto": "Obra: renovación de pavimento de Plaza Goya",
-          "importe": 135000.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VDaFD3eRqmyOUi78BmzhOQ%3D%3D"
-        },
-        {
-          "expediente": "52/2026",
-          "objeto": "Obras de instalación eléctrica, climatización e incendios en salón multiusos de Santa Anastasia (Ejea).",
-          "importe": 129470.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=7Naif1KciHCP%2Bo96UAV7cQ%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "umbral_europeo",
-      "severidad": "media",
-      "emoji": "🟡",
-      "score": 4,
       "adjudicatario": "SELVICULTURA TERUEL SL",
       "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
       "num_contratos": 2,
@@ -2336,32 +2265,6 @@
           "objeto": "[UT1]Servicio de desbroce y mantenimiento de vegetación, en márgenes de la Red de Carreteras del Estado (RCE) del Principado de Asturias.",
           "importe": 123420.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=vZ1OiyseRm%2F%2B3JAijKO%2Bkg%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "umbral_europeo",
-      "severidad": "media",
-      "emoji": "🟡",
-      "score": 4,
-      "adjudicatario": "TRISACOR, INFRAESTRUCTURAS Y SERVICIOS S.L",
-      "organo": "Junta de Gobierno del Ayuntamiento de Murcia",
-      "num_contratos": 2,
-      "importe_total": 260198.4,
-      "umbral_legal": 140000,
-      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 260,198€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
-      "contratos": [
-        {
-          "expediente": "2026_0033",
-          "objeto": "Acondicionamiento Tercer Carril Exterior-Sur Costera Norte Tramo II-CN-9 en Cabezo de Torres, Murcia",
-          "importe": 123302.63,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=v8N0YYqQf6U%2B1TMyIiZmzw%3D%3D"
-        },
-        {
-          "expediente": "2025_0085",
-          "objeto": "Ejecución subsidiaria de pavimentación y drenaje superficial en San Ginés.",
-          "importe": 136895.77,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=YXGgg5A6AY03vLk2DU2Ddg%3D%3D"
         }
       ]
     },
@@ -3383,34 +3286,34 @@
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
-      "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
-      "contratos_en_franja": 76,
-      "contratos_totales": 177,
-      "porcentaje": 42.9,
-      "proveedores_distintos": 61,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 76 de 177 menores (43%) entre 12,000-15,000€. 61 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
       "organo": "Presidencia del Consorcio de Seguridad, Emergencia, Salvamento, Prevención y Extinción de Incendios de Lanzarote",
       "contratos_en_franja": 23,
-      "contratos_totales": 54,
-      "porcentaje": 42.6,
+      "contratos_totales": 50,
+      "porcentaje": 46.0,
       "proveedores_distintos": 23,
-      "descripcion": "Presidencia del Consorcio de Seguridad, Emergencia, Salvamento, Prevención y Extinción de Incendios de Lanzarote: 23 de 54 menores (43%) entre 12,000-15,000€. 23 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Presidencia del Consorcio de Seguridad, Emergencia, Salvamento, Prevención y Extinción de Incendios de Lanzarote: 23 de 50 menores (46%) entre 12,000-15,000€. 23 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
-      "contratos_en_franja": 50,
-      "contratos_totales": 103,
-      "porcentaje": 48.5,
-      "proveedores_distintos": 38,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 50 de 103 menores (49%) entre 12,000-15,000€. 38 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 49,
+      "contratos_totales": 106,
+      "porcentaje": 46.2,
+      "proveedores_distintos": 37,
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 49 de 106 menores (46%) entre 12,000-15,000€. 37 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
+      "contratos_en_franja": 77,
+      "contratos_totales": 180,
+      "porcentaje": 42.8,
+      "proveedores_distintos": 61,
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 77 de 180 menores (43%) entre 12,000-15,000€. 61 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
