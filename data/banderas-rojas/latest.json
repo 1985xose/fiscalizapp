@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-11-05T14:18:42",
+    "generado": "2026-11-06T13:48:48",
     "version": "3.0",
-    "contratos_analizados": 184129,
-    "menores": 109898,
-    "licitaciones": 74231,
+    "contratos_analizados": 186403,
+    "menores": 111274,
+    "licitaciones": 75129,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -24,8 +24,8 @@
       "negociado_reiterado": 6,
       "umbral_europeo": 53
     },
-    "severidad_alta": 52,
-    "severidad_media": 58
+    "severidad_alta": 53,
+    "severidad_media": 57
   },
   "flags": [
     {
@@ -240,6 +240,51 @@
           "objeto": "CR- Contrato menor- tte escolar ruta 13003336-C (Bus) 2026/27",
           "importe": 14960.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=FJRGlen3x25rSd8H4b2soA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 12,
+      "adjudicatario": "PC TENERIFE SERVICE S.L.",
+      "organo": "Rectorado de la Universidad de La Laguna",
+      "num_contratos": 5,
+      "importe_total": 72246.79,
+      "importe_medio": 14449.36,
+      "umbral_legal": 15000,
+      "descripcion": "5 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 72,247€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/MEN0000378",
+          "objeto": "El presente contrato tiene por objeto justificar la necesidad de adquirir veinte (20) ordenadores portátiles destinados a su cesión temporal, en régimen de préstamo, a estudiantes matriculados en primer curso de titulaciones oficiales de grado de la Universidad de La Laguna que acrediten insuficiencia de recursos económicos y carezcan de un equipo informático adecuado para el seguimiento de sus estudios universitarios.",
+          "importe": 14453.56,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=e09sNjiZXL9Vq4S9zvaQpQ%3D%3D"
+        },
+        {
+          "expediente": "2026/MEN0000391",
+          "objeto": "La actuación consiste en la compra y adquisición de 15 ordenadores de sobremesa Qi Slim, que serán destinados a la sala de informática de la Facultad de Farmacia, así como de 6 ordenadores portátiles Asus, que serán empleados en la biblioteca del centro.\nCon esta actuación se pretende renovar y reforzar la dotación tecnológica disponible para el estudiantado, facilitando el acceso a medios informáticos adecuados para el desarrollo de actividades docentes, prácticas, académicas y de apoyo al aprendizaje. Asimismo, la incorporación de estos equipos contribuirá a mejorar las condiciones de uso de los espacios destinados al estudio y a la formación, adaptándolos a las necesidades tecnológicas actuales.",
+          "importe": 14915.4,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=eJ0VCK1q5h6GCFcHcNGIlQ%3D%3D"
+        },
+        {
+          "expediente": "2026/MEN0000390",
+          "objeto": "Adquirir material informático de características especiales para docencia e investigación.",
+          "importe": 14745.35,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=QCM3iwd7zUh%2FR5QFTlaM4A%3D%3D"
+        },
+        {
+          "expediente": "2026/MEN0000560",
+          "objeto": "Prestación del servicio integral de mantenimiento preventivo,\ncorrectivo y soporte técnico para un parque estimado de 172\nordenadores portátiles, incluyendo asistencia remota y\npresencial, diagnóstico y reparación de incidencias de\nhardware y software, actualización de sistemas",
+          "importe": 14982.46,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SzHi6KomYI%2BcTfjQf3USOg%3D%3D"
+        },
+        {
+          "expediente": "2026/MEN0000452",
+          "objeto": "Suministro de mobiliario para las diferentes zonas de la facultad.",
+          "importe": 13150.02,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=7ufgMboe0YVVYjgxA4nMUw%3D%3D"
         }
       ]
     },
@@ -480,45 +525,6 @@
           "objeto": "Servicio de preparado y distribución de comidas. Proyecto de Apoyo Nutricional",
           "importe": 14480.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=4Q2DjvcJKXmP66GS%2BONYvQ%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 9,
-      "adjudicatario": "PC TENERIFE SERVICE S.L.",
-      "organo": "Rectorado de la Universidad de La Laguna",
-      "num_contratos": 4,
-      "importe_total": 59096.77,
-      "importe_medio": 14774.19,
-      "umbral_legal": 15000,
-      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 59,097€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
-      "contratos": [
-        {
-          "expediente": "2026/MEN0000378",
-          "objeto": "El presente contrato tiene por objeto justificar la necesidad de adquirir veinte (20) ordenadores portátiles destinados a su cesión temporal, en régimen de préstamo, a estudiantes matriculados en primer curso de titulaciones oficiales de grado de la Universidad de La Laguna que acrediten insuficiencia de recursos económicos y carezcan de un equipo informático adecuado para el seguimiento de sus estudios universitarios.",
-          "importe": 14453.56,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=e09sNjiZXL9Vq4S9zvaQpQ%3D%3D"
-        },
-        {
-          "expediente": "2026/MEN0000391",
-          "objeto": "La actuación consiste en la compra y adquisición de 15 ordenadores de sobremesa Qi Slim, que serán destinados a la sala de informática de la Facultad de Farmacia, así como de 6 ordenadores portátiles Asus, que serán empleados en la biblioteca del centro.\nCon esta actuación se pretende renovar y reforzar la dotación tecnológica disponible para el estudiantado, facilitando el acceso a medios informáticos adecuados para el desarrollo de actividades docentes, prácticas, académicas y de apoyo al aprendizaje. Asimismo, la incorporación de estos equipos contribuirá a mejorar las condiciones de uso de los espacios destinados al estudio y a la formación, adaptándolos a las necesidades tecnológicas actuales.",
-          "importe": 14915.4,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=eJ0VCK1q5h6GCFcHcNGIlQ%3D%3D"
-        },
-        {
-          "expediente": "2026/MEN0000390",
-          "objeto": "Adquirir material informático de características especiales para docencia e investigación.",
-          "importe": 14745.35,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=QCM3iwd7zUh%2FR5QFTlaM4A%3D%3D"
-        },
-        {
-          "expediente": "2026/MEN0000560",
-          "objeto": "Prestación del servicio integral de mantenimiento preventivo,\ncorrectivo y soporte técnico para un parque estimado de 172\nordenadores portátiles, incluyendo asistencia remota y\npresencial, diagnóstico y reparación de incidencias de\nhardware y software, actualización de sistemas",
-          "importe": 14982.46,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SzHi6KomYI%2BcTfjQf3USOg%3D%3D"
         }
       ]
     },
@@ -1528,6 +1534,38 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 6,
+      "adjudicatario": "Solred, S.A.",
+      "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
+      "num_contratos": 3,
+      "importe_total": 389517.5,
+      "umbral_legal": 140000,
+      "descripcion": "3 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 389,518€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "CBA3890/2026",
+          "objeto": "Suministro De Combustible En Estaciones De Servicio Para Los Vehículos De Inspección Pesquera De La Península 26-28 (Ministerio De Agricultura, Pesca Y Alimentación-Dirección General De Ordenación Pesquera Y Acuicultura)",
+          "importe": 138517.5,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=3V6l8mAUvKCP66GS%2BONYvQ%3D%3D"
+        },
+        {
+          "expediente": "CBA4164/2026",
+          "objeto": "Contrato Basado En El Acuerdo Marco 21/2023, Para El Suministro De Combustibles En Estaciones De Servicio Para El Lote 1 - Península Para La Confederación Hidrográfica Del Segura, O.A. Años 2026-2028. Compra Directa (Ministerio Para La Transición Ecológica Y El Reto Demográfico-Confederacion Hidrografica Del Segura, O.A.)",
+          "importe": 121000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=dlXUnbyplQfmnwcj%2BxbdTg%3D%3D"
+        },
+        {
+          "expediente": "CBA5150/2026",
+          "objeto": "Suministro De Combustible En Estaciones De Servicio Lote 1 Península Excepto País Vasco (Ministerio Para La Transición Ecológica Y El Reto Demográfico-Agencia Estatal De Meteorologia)",
+          "importe": 130000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=DjPCBaM9gc4%2B1TMyIiZmzw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 6,
       "adjudicatario": "Iberdrola Clientes Sau",
       "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
       "num_contratos": 3,
@@ -2092,6 +2130,32 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
+      "adjudicatario": "EXCAVACIONES Y MONTAJES VIGUERAS",
+      "organo": "Dirección Gerente de Aguas de Lorca, S.A.",
+      "num_contratos": 2,
+      "importe_total": 278542.0,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 278,542€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "OB-01/2026",
+          "objeto": "Obras de renovación de redes municipales de abastecimiento de agua potable en el T.M. de Lorca",
+          "importe": 139150.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=7ek7iek2RL3%2Fa9DgO%2BoYKQ%3D%3D"
+        },
+        {
+          "expediente": "SE-14/2026",
+          "objeto": "Servicio de transporte de agua mediante camión cisterna",
+          "importe": 139392.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=HueViJSHvGeOUi78BmzhOQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
       "adjudicatario": "EBONE SERVICIOS EDUCACIÓN DEPORTE S.L.",
       "organo": "Presidencia de la Diputación Provincial de Ciudad Real",
       "num_contratos": 2,
@@ -2188,32 +2252,6 @@
           "objeto": "Suministro de cuatro (4) vehículos tipo camión caja abierta con pluma de menos de 3.500 kg para zonas de difícil acceso, propulsado por biogás de origen renovable, para la fracción orgánica de los municipios de Los Barrios y San Roque, para la empresa Agua y Residuos del Campo de Gibraltar Sociedad Anónima (ARCGISA).",
           "importe": 133705.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9j1wK3EOC2jLIx6q1oPaMg%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "umbral_europeo",
-      "severidad": "media",
-      "emoji": "🟡",
-      "score": 4,
-      "adjudicatario": "Técnicos Asociados Informática, Sau",
-      "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
-      "num_contratos": 2,
-      "importe_total": 252322.94,
-      "umbral_legal": 140000,
-      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 252,323€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
-      "contratos": [
-        {
-          "expediente": "CEA3098/2026",
-          "objeto": "Actualización Del Software Embarcado Para La Infraestructura De Almacenamiento De Datos Corporativos De La Dirección General De La Policía (Ministerio Del Interior-División Económica Y Técnica)",
-          "importe": 118370.37,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=RR6kANJwd41Vq4S9zvaQpQ%3D%3D"
-        },
-        {
-          "expediente": "CEA4086/2026",
-          "objeto": "Suministro De Licencias Y Prestación Del Servicio De Soporte Y Mantenimiento Del Sistema Corporativo De Copias De Seguridad Del Instituto De Salud Carlos Iii. (Instituto De Salud Carlos Iii)",
-          "importe": 133952.57,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=NRK0uJ%2FoUJPVGIpKDxgsAQ%3D%3D"
         }
       ]
     },
@@ -2872,32 +2910,6 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
-      "adjudicatario": "Solred, S.A.",
-      "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
-      "num_contratos": 2,
-      "importe_total": 259517.5,
-      "umbral_legal": 140000,
-      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 259,518€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
-      "contratos": [
-        {
-          "expediente": "CBA3890/2026",
-          "objeto": "Suministro De Combustible En Estaciones De Servicio Para Los Vehículos De Inspección Pesquera De La Península 26-28 (Ministerio De Agricultura, Pesca Y Alimentación-Dirección General De Ordenación Pesquera Y Acuicultura)",
-          "importe": 138517.5,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=3V6l8mAUvKCP66GS%2BONYvQ%3D%3D"
-        },
-        {
-          "expediente": "CBA4164/2026",
-          "objeto": "Contrato Basado En El Acuerdo Marco 21/2023, Para El Suministro De Combustibles En Estaciones De Servicio Para El Lote 1 - Península Para La Confederación Hidrográfica Del Segura, O.A. Años 2026-2028. Compra Directa (Ministerio Para La Transición Ecológica Y El Reto Demográfico-Confederacion Hidrografica Del Segura, O.A.)",
-          "importe": 121000.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=dlXUnbyplQfmnwcj%2BxbdTg%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "umbral_europeo",
-      "severidad": "media",
-      "emoji": "🟡",
-      "score": 4,
       "adjudicatario": "OLD NAVY PORT PRODUCCIONES SL",
       "organo": "Junta de Gobierno del Ayuntamiento de Lugo",
       "num_contratos": 2,
@@ -3158,22 +3170,22 @@
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
-      "contratos_en_franja": 49,
-      "contratos_totales": 107,
-      "porcentaje": 45.8,
-      "proveedores_distintos": 37,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 49 de 107 menores (46%) entre 12,000-15,000€. 37 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 48,
+      "contratos_totales": 106,
+      "porcentaje": 45.3,
+      "proveedores_distintos": 36,
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 48 de 106 menores (45%) entre 12,000-15,000€. 36 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
-      "contratos_en_franja": 73,
-      "contratos_totales": 175,
-      "porcentaje": 41.7,
-      "proveedores_distintos": 59,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 73 de 175 menores (42%) entre 12,000-15,000€. 59 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 76,
+      "contratos_totales": 180,
+      "porcentaje": 42.2,
+      "proveedores_distintos": 61,
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 76 de 180 menores (42%) entre 12,000-15,000€. 61 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
