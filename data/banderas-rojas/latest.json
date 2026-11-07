@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-11-06T13:48:48",
+    "generado": "2026-11-07T12:10:03",
     "version": "3.0",
-    "contratos_analizados": 186403,
-    "menores": 111274,
-    "licitaciones": 75129,
+    "contratos_analizados": 189398,
+    "menores": 113274,
+    "licitaciones": 76124,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 110,
+    "total_flags": 111,
     "por_tipo": {
-      "fraccionamiento": 39,
-      "concentracion": 4,
+      "fraccionamiento": 42,
+      "concentracion": 3,
       "patron_umbral": 7,
       "omnipresente": 1,
       "negociado_reiterado": 6,
-      "umbral_europeo": 53
+      "umbral_europeo": 52
     },
-    "severidad_alta": 53,
-    "severidad_media": 57
+    "severidad_alta": 56,
+    "severidad_media": 55
   },
   "flags": [
     {
@@ -764,6 +764,39 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 8,
+      "adjudicatario": "EDITORIAL EXTREMADURA SA",
+      "organo": "Vicepresidencia y Consejería de Presidencia, Coordinación de la Acción de Gobierno, Interior y Emergencias",
+      "num_contratos": 3,
+      "importe_total": 39858.46,
+      "importe_medio": 13286.15,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 39,858€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "PRM/2026/0000108051",
+          "objeto": "Adquisición de espacios publicitarios en prensa local destinados a reforzar la confianza y prestigio del sistema educativo público como opción de calidad, inclusiva y accesible; incrementar la matriculación en centros públicos; y visibilidad el valor social de la educación como motor de igualdad de oportunidades y cohesión social en la Comunidad Autónoma de Extremadura.",
+          "importe": 12007.99,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=tdnoFsAv2Zgtm4eBPtV6eQ%3D%3D"
+        },
+        {
+          "expediente": "PRM/2026/0000122679",
+          "objeto": "Elaboración, publicación y difusión de contenidos editoriales destinados a divulgar las actuaciones impulsadas por la Junta de Extremadura en materia de centros de datos, poniendo en valor la apuesta regional por la innovación, la transformación digital, el desarrollo tecnológico y la generación de nuevas oportunidades de inversión y empleo.",
+          "importe": 13717.67,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=INAZnD%2FUuw0Xhk1FZxEyvw%3D%3D"
+        },
+        {
+          "expediente": "PRM/2026/0000133192",
+          "objeto": "Difusión de la imagen de Extremadura, asociada al talento de la juventud extremeña, a través de publicidad institucional en una revista anual especializada en casos de éxito de trayectorias personales y profesionales, editada por grupo de prensa generalista con presencia en la región. Objetivo: Compra de espacios publicitarios en la revista Ex+, del grupo Prensa Ibérica, destinados a incrementar la visibilidad del talento extremeño. Prestaciones: Las detalladas en la propuesta. Soporte: Prensa en papel. Medio: Revista Ex+, de El Periódico Extremadura.",
+          "importe": 14132.8,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=NIymmWkGQKj5Rey58Yagpg%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
       "adjudicatario": "Ecoctrl SL",
       "organo": "Presidencia de la Mancomunidad de la Canal de Navarrés",
       "num_contratos": 3,
@@ -954,6 +987,39 @@
           "objeto": "CR-Contrato menor tte escolar ruta 13000220-D",
           "importe": 14000.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Ojdaftsyw%2B87u6%2B%2FR7DUoA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "GOROHOGAR MUEBLES, S.L.",
+      "organo": "Jefatura de la Sección Económico Administrativa 14 - Cuartel General del Mando Aéreo de Canarias",
+      "num_contratos": 3,
+      "importe_total": 43224.25,
+      "importe_medio": 14408.08,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 43,224€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/EA14/00003153E",
+          "objeto": "Adquisición e instalación sistema de ventilación b.a. gando",
+          "importe": 13484.76,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=DLf6e9DaPot6nTs9LZ9RhQ%3D%3D"
+        },
+        {
+          "expediente": "2026/EA14/00003683E",
+          "objeto": "Adquisisición de mesas con 4 sillas de pvp para exteriores de pabellones ba de gando",
+          "importe": 14840.29,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=QKAQmVzIn5wtm4eBPtV6eQ%3D%3D"
+        },
+        {
+          "expediente": "2026/EA14/00003524E",
+          "objeto": "Adquisición de mesas de oficina con buck b.a. gando",
+          "importe": 14899.2,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=0G%2BTZt0n7%2BuExvMJXBMHHQ%3D%3D"
         }
       ]
     },
@@ -1193,6 +1259,39 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 8,
+      "adjudicatario": "EXCAVACIONES Y ASFALTADOS MAPU SL",
+      "organo": "Alcaldía del Ayuntamiento de La Pobla Tornesa",
+      "num_contratos": 3,
+      "importe_total": 38713.64,
+      "importe_medio": 12904.55,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 38,714€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "773/2026",
+          "objeto": "Obras de mantenimiento infraestructuras y desbroce de viales y caminos.",
+          "importe": 13463.67,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Y9RhOKVGHROqb7rCcv76BA%3D%3D"
+        },
+        {
+          "expediente": "871/2026",
+          "objeto": "Fratasado hormigón",
+          "importe": 12254.88,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=BWyQtzMBMhaP66GS%2BONYvQ%3D%3D"
+        },
+        {
+          "expediente": "929/2026",
+          "objeto": "Rehabilitación espacio infantil en / Baix la Vila, en la Plaza del Portal.",
+          "importe": 12995.09,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ls8YLha%2FuXA7%2B9FIQYNjeQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
       "adjudicatario": "SAGRES S.L.",
       "organo": "Junta de Gobierno del Ayuntamiento de La Oliva",
       "num_contratos": 3,
@@ -1324,12 +1423,12 @@
       "tipo": "negociado_reiterado",
       "severidad": "alta",
       "emoji": "🔴",
-      "score": 6,
+      "score": 7,
       "adjudicatario": "VOESTALPINE BOHLER WELDING SPAIN SA",
       "organo": "Comité de Dirección de Equipos Nucleares S.A.",
-      "num_contratos": 6,
-      "importe_total": 935974.85,
-      "descripcion": "VOESTALPINE BOHLER WELDING SPAIN SA gana 6 contratos por negociado sin publicidad del Comité de Dirección de Equipos Nucleares S.A. por 935,975€. El negociado sin publicidad es para situaciones excepcionales — usarlo repetidamente con el mismo proveedor huele a adjudicación a dedo.",
+      "num_contratos": 7,
+      "importe_total": 990904.01,
+      "descripcion": "VOESTALPINE BOHLER WELDING SPAIN SA gana 7 contratos por negociado sin publicidad del Comité de Dirección de Equipos Nucleares S.A. por 990,904€. El negociado sin publicidad es para situaciones excepcionales — usarlo repetidamente con el mismo proveedor huele a adjudicación a dedo.",
       "contratos": [
         {
           "expediente": "0FR3A002",
@@ -1366,6 +1465,12 @@
           "objeto": "Suministro electrodo calidad E308L Ø3,2 y 4,0 mm. Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
           "importe": 195817.55,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=36tPCx6dWsswYTJJ03sHog%3D%3D"
+        },
+        {
+          "expediente": "0FR3A007",
+          "objeto": "Suministro de material de aporte (990 kg - 18.000 Ud de Electrodo E309L d4,0 mm) . Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
+          "importe": 54929.16,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=FfhCJd9AIDAwYTJJ03sHog%3D%3D"
         }
       ]
     },
@@ -1626,6 +1731,38 @@
       ]
     },
     {
+      "tipo": "umbral_europeo",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 6,
+      "adjudicatario": "Endesa Energia",
+      "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
+      "num_contratos": 3,
+      "importe_total": 370260.61,
+      "umbral_legal": 140000,
+      "descripcion": "3 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 370,261€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "CBA4600/2026",
+          "objeto": "Prórroga Del Contrato Basado A5195/2025 Con Código De Agrupación 7882. Código Actual De Agrupación 8406 (Ministerio De Economía, Comercio Y Empresa-S.G. De Oficinas Económicas Y Comerciales En El Exterior Y De Red Territorial De Comercio)",
+          "importe": 131043.01,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Dbn31CDq3FtxseVhcqrkhw%3D%3D"
+        },
+        {
+          "expediente": "CBA5085/2026",
+          "objeto": "Contrato Basado En El Am 23/2024 De Suministros De Energía Eléctrica. Lote 1. Agrupación 8459 (Tesoreria General De La Seguridad Social-Dirección Provincial De La Tgss De Zamora)",
+          "importe": 120777.98,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=gJL5dsy6178aF6cS8TCh%2FA%3D%3D"
+        },
+        {
+          "expediente": "CBA5273/2026",
+          "objeto": "Contrato Basado En El Am 23/2024 De Suministros De Energía Eléctrica. Lote 1. Agrupación 8442 (Tesoreria General De La Seguridad Social-Dirección Provincial De La Tgss De Burgos)",
+          "importe": 118439.62,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=FEf1dJHz6eOkU02jNGj1Fw%3D%3D"
+        }
+      ]
+    },
+    {
       "tipo": "negociado_reiterado",
       "severidad": "alta",
       "emoji": "🔴",
@@ -1830,19 +1967,6 @@
       "importe_proveedor": 138847.5,
       "porcentaje_importe": 89.5,
       "descripcion": "INBONIS SA gana 9 de 11 contratos (82%) del Dirección General de Inteligencia Económica y Comercial, 138,848€ de 155,051€ (90%). ¿Proveedor único justificado o cautividad?"
-    },
-    {
-      "tipo": "concentracion",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "adjudicatario": "SERTEVAL ELECTRICA, S.L.",
-      "organo": "Dirección de la Empresa General Valenciana del Agua, S.A.",
-      "contratos_proveedor": 5,
-      "contratos_totales": 6,
-      "porcentaje_contratos": 83.3,
-      "importe_proveedor": 30911.14,
-      "porcentaje_importe": 97.4,
-      "descripcion": "SERTEVAL ELECTRICA, S.L. gana 5 de 6 contratos (83%) del Dirección de la Empresa General Valenciana del Agua, S.A., 30,911€ de 31,732€ (97%). ¿Proveedor único justificado o cautividad?"
     },
     {
       "tipo": "fraccionamiento",
@@ -2226,32 +2350,6 @@
           "objeto": "\"Pavimentación vial II e sinalización horizontal no Polígono dos Airíos\" (Plan Mellora de Parques Industriais)",
           "importe": 117572.58,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=htxd%2FQd6MlekU02jNGj1Fw%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "umbral_europeo",
-      "severidad": "media",
-      "emoji": "🟡",
-      "score": 4,
-      "adjudicatario": "HERKO ALTERNATIVE TRUCKS SL",
-      "organo": "Consejería Delegada de Agua y Residuos del Campo de Gibraltar, S.A. (ARCGISA)",
-      "num_contratos": 2,
-      "importe_total": 267410.0,
-      "umbral_legal": 140000,
-      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 267,410€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
-      "contratos": [
-        {
-          "expediente": "06-6-2026",
-          "objeto": "Suministro de dos vehículos tipo camión caja abierta con pluma de menos de 3.500 kg para zonas de difícil acceso, propulsado por GLP, para la fracción orgánica de Tarifa, para ARCGISA. Ayudas de la Junta de Andalucía destinadas a cofinanciar la adquisición de vehículos para la recogida separada de biorresiduos para el ejercicio 2025",
-          "importe": 133705.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=IAUeCgzqg9hQFSeKCRun4Q%3D%3D"
-        },
-        {
-          "expediente": "06-1-2026",
-          "objeto": "Suministro de cuatro (4) vehículos tipo camión caja abierta con pluma de menos de 3.500 kg para zonas de difícil acceso, propulsado por biogás de origen renovable, para la fracción orgánica de los municipios de Los Barrios y San Roque, para la empresa Agua y Residuos del Campo de Gibraltar Sociedad Anónima (ARCGISA).",
-          "importe": 133705.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9j1wK3EOC2jLIx6q1oPaMg%3D%3D"
         }
       ]
     },
@@ -3040,32 +3138,6 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
-      "adjudicatario": "Endesa Energia",
-      "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
-      "num_contratos": 2,
-      "importe_total": 251820.99,
-      "umbral_legal": 140000,
-      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 251,821€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
-      "contratos": [
-        {
-          "expediente": "CBA4600/2026",
-          "objeto": "Prórroga Del Contrato Basado A5195/2025 Con Código De Agrupación 7882. Código Actual De Agrupación 8406 (Ministerio De Economía, Comercio Y Empresa-S.G. De Oficinas Económicas Y Comerciales En El Exterior Y De Red Territorial De Comercio)",
-          "importe": 131043.01,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Dbn31CDq3FtxseVhcqrkhw%3D%3D"
-        },
-        {
-          "expediente": "CBA5085/2026",
-          "objeto": "Contrato Basado En El Am 23/2024 De Suministros De Energía Eléctrica. Lote 1. Agrupación 8459 (Tesoreria General De La Seguridad Social-Dirección Provincial De La Tgss De Zamora)",
-          "importe": 120777.98,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=gJL5dsy6178aF6cS8TCh%2FA%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "umbral_europeo",
-      "severidad": "media",
-      "emoji": "🟡",
-      "score": 4,
       "adjudicatario": "ARIDOS Y HORMIGONES BLANCA, S.L.",
       "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
       "num_contratos": 2,
@@ -3171,21 +3243,21 @@
       "emoji": "🟡",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
       "contratos_en_franja": 48,
-      "contratos_totales": 106,
-      "porcentaje": 45.3,
+      "contratos_totales": 108,
+      "porcentaje": 44.4,
       "proveedores_distintos": 36,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 48 de 106 menores (45%) entre 12,000-15,000€. 36 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 48 de 108 menores (44%) entre 12,000-15,000€. 36 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
-      "contratos_en_franja": 76,
-      "contratos_totales": 180,
-      "porcentaje": 42.2,
-      "proveedores_distintos": 61,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 76 de 180 menores (42%) entre 12,000-15,000€. 61 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 77,
+      "contratos_totales": 181,
+      "porcentaje": 42.5,
+      "proveedores_distintos": 62,
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 77 de 181 menores (43%) entre 12,000-15,000€. 62 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
