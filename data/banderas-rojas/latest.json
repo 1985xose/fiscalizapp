@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-11-07T12:10:03",
+    "generado": "2026-11-08T12:25:00",
     "version": "3.0",
-    "contratos_analizados": 189398,
-    "menores": 113274,
-    "licitaciones": 76124,
+    "contratos_analizados": 189090,
+    "menores": 113332,
+    "licitaciones": 75758,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -24,8 +24,8 @@
       "negociado_reiterado": 6,
       "umbral_europeo": 52
     },
-    "severidad_alta": 56,
-    "severidad_media": 55
+    "severidad_alta": 57,
+    "severidad_media": 54
   },
   "flags": [
     {
@@ -1703,6 +1703,38 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 6,
+      "adjudicatario": "Inetum España, S.A.",
+      "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
+      "num_contratos": 3,
+      "importe_total": 394318.67,
+      "umbral_legal": 140000,
+      "descripcion": "3 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 394,319€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "CEA4563/2026",
+          "objeto": "Prórroga Del Contrato A764/2025. Asistencia Técnica Para Mantenimiento De Portales Y Aplicaciones Sistemas Web Del Ciemat  (Centro De Investigaciones Energeticas, Medioambientales Y Tecnologicas (Ciemat))",
+          "importe": 133010.22,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=AoTH%2BJc4naWkU02jNGj1Fw%3D%3D"
+        },
+        {
+          "expediente": "CEA2592/2026",
+          "objeto": "Servicios De Desarrollo De Nuevas Funcionalidades Y Mantenimiento De Las Aplicaciones De Servicios Sociales (Ministerio De Derechos Sociales, Consumo Y Agenda 2030-Subsecretaría De Derechos Sociales, Consumo Y Agenda 2030)",
+          "importe": 127598.13,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=zOfHVFUUYgKkU02jNGj1Fw%3D%3D"
+        },
+        {
+          "expediente": "CEA5268/2026",
+          "objeto": "Suministro De Actualizaciones Y Soporte Del Software Shareplex Para La Oficina Española De Patentes Y Marcas, O.A. (Ministerio De Industria Y Turismo-Oficina Española De Patentes Y Marcas, O.A.)",
+          "importe": 133710.32,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=rdIHIHT3Zt3I8aL3PRS10Q%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 6,
       "adjudicatario": "TRANSFORMACIONES AGRICOLAS Y OBRAS, S.L.",
       "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
       "num_contratos": 3,
@@ -3060,32 +3092,6 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
-      "adjudicatario": "Inetum España, S.A.",
-      "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
-      "num_contratos": 2,
-      "importe_total": 260608.35,
-      "umbral_legal": 140000,
-      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 260,608€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
-      "contratos": [
-        {
-          "expediente": "CEA4563/2026",
-          "objeto": "Prórroga Del Contrato A764/2025. Asistencia Técnica Para Mantenimiento De Portales Y Aplicaciones Sistemas Web Del Ciemat  (Centro De Investigaciones Energeticas, Medioambientales Y Tecnologicas (Ciemat))",
-          "importe": 133010.22,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=AoTH%2BJc4naWkU02jNGj1Fw%3D%3D"
-        },
-        {
-          "expediente": "CEA2592/2026",
-          "objeto": "Servicios De Desarrollo De Nuevas Funcionalidades Y Mantenimiento De Las Aplicaciones De Servicios Sociales (Ministerio De Derechos Sociales, Consumo Y Agenda 2030-Subsecretaría De Derechos Sociales, Consumo Y Agenda 2030)",
-          "importe": 127598.13,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=zOfHVFUUYgKkU02jNGj1Fw%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "umbral_europeo",
-      "severidad": "media",
-      "emoji": "🟡",
-      "score": 4,
       "adjudicatario": "margal21",
       "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
       "num_contratos": 2,
@@ -3253,11 +3259,11 @@
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
-      "contratos_en_franja": 77,
-      "contratos_totales": 181,
-      "porcentaje": 42.5,
-      "proveedores_distintos": 62,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 77 de 181 menores (43%) entre 12,000-15,000€. 62 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 73,
+      "contratos_totales": 176,
+      "porcentaje": 41.5,
+      "proveedores_distintos": 59,
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 73 de 176 menores (41%) entre 12,000-15,000€. 59 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
