@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-11-09T14:42:13",
+    "generado": "2026-11-10T14:14:43",
     "version": "3.0",
-    "contratos_analizados": 188396,
-    "menores": 113392,
-    "licitaciones": 75004,
+    "contratos_analizados": 191082,
+    "menores": 115900,
+    "licitaciones": 75182,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 107,
+    "total_flags": 108,
     "por_tipo": {
-      "fraccionamiento": 39,
+      "fraccionamiento": 37,
       "concentracion": 3,
-      "patron_umbral": 7,
+      "patron_umbral": 9,
       "omnipresente": 1,
       "negociado_reiterado": 6,
-      "umbral_europeo": 51
+      "umbral_europeo": 52
     },
-    "severidad_alta": 54,
-    "severidad_media": 53
+    "severidad_alta": 52,
+    "severidad_media": 56
   },
   "flags": [
     {
@@ -486,72 +486,6 @@
           "objeto": "Servicio de preparado y distribución de comidas. Proyecto de Apoyo Nutricional",
           "importe": 14480.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=4Q2DjvcJKXmP66GS%2BONYvQ%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 8,
-      "adjudicatario": "RAMOS BUS S.L.",
-      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Guadalajara",
-      "num_contratos": 3,
-      "importe_total": 39300.0,
-      "importe_medio": 13100.0,
-      "umbral_legal": 15000,
-      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 39,300€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
-      "contratos": [
-        {
-          "expediente": "2026/037478",
-          "objeto": "Gu.Transporte Escolar.Ruta 193 de comedor. Curso 26/27",
-          "importe": 14000.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=5Jnt64Ft6Bl%2FR5QFTlaM4A%3D%3D"
-        },
-        {
-          "expediente": "2026/037742",
-          "objeto": "Gu.Transporte escolar ruta 11SEPT26-ENERO 27",
-          "importe": 13050.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2BL4iKJgLObTE6P%2FuLemXRw%3D%3D"
-        },
-        {
-          "expediente": "2026/037477",
-          "objeto": "Gu.Transporte Escolar.Ruta 133-Bis.Curso Escolar 26/27",
-          "importe": 12250.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=1XRTYzw3k33L1rX3q%2FMAPA%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 8,
-      "adjudicatario": "AGUILAR CORVILLO HNOS.,S.L.",
-      "organo": "Jefatura de Intendencia de Asuntos Económicos Sur",
-      "num_contratos": 3,
-      "importe_total": 112730.62,
-      "importe_medio": 37576.87,
-      "umbral_legal": 40000,
-      "descripcion": "3 contratos menores de obras entre 32,000€ y 40,000€ del mismo proveedor al mismo órgano. Total: 112,731€ (supera el umbral de 40,000€ que obligaría a licitar). Importes sospechosamente similares.",
-      "contratos": [
-        {
-          "expediente": "2026/ETSAE0226/00005944E",
-          "objeto": "CM OBRAS. Adecuación explanada cine verano Zona Norte CDM Híspalis ( Sevilla)",
-          "importe": 37582.6,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=jKSsdMsHYiWdkQsA7ROvsg%3D%3D"
-        },
-        {
-          "expediente": "2026/ETSAE0226/00005940E",
-          "objeto": "CM. OBRAS Adecuación pavimentos viales zona jardines patio bandera CDM Híspalis (Sevilla)",
-          "importe": 37556.95,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=YdDsgxk%2FxeuFlFRHfEzEaw%3D%3D"
-        },
-        {
-          "expediente": "2026/ETSAE0226/00005941E",
-          "objeto": "CM. OBRAS. Reforma almacenes empresas externas CDM HISPALIS (Sevilla)",
-          "importe": 37591.07,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=YJHswvEzznBrSd8H4b2soA%3D%3D"
         }
       ]
     },
@@ -1874,12 +1808,12 @@
       "emoji": "🔴",
       "adjudicatario": "TESORERIA GENERAL DE LA JUNTA DE ANDALUCIA - TGJA -",
       "organo": "Dirección del Centro Penitenciario de Málaga",
-      "contratos_proveedor": 84,
-      "contratos_totales": 93,
-      "porcentaje_contratos": 90.3,
-      "importe_proveedor": 191074.27,
+      "contratos_proveedor": 85,
+      "contratos_totales": 94,
+      "porcentaje_contratos": 90.4,
+      "importe_proveedor": 191302.28,
       "porcentaje_importe": 71.4,
-      "descripcion": "TESORERIA GENERAL DE LA JUNTA DE ANDALUCIA - TGJA - gana 84 de 93 contratos (90%) del Dirección del Centro Penitenciario de Málaga, 191,074€ de 267,774€ (71%). ¿Proveedor único justificado o cautividad?"
+      "descripcion": "TESORERIA GENERAL DE LA JUNTA DE ANDALUCIA - TGJA - gana 85 de 94 contratos (90%) del Dirección del Centro Penitenciario de Málaga, 191,302€ de 268,002€ (71%). ¿Proveedor único justificado o cautividad?"
     },
     {
       "tipo": "concentracion",
@@ -2263,6 +2197,32 @@
           "objeto": "\"Pavimentación vial II e sinalización horizontal no Polígono dos Airíos\" (Plan Mellora de Parques Industriais)",
           "importe": 117572.58,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=htxd%2FQd6MlekU02jNGj1Fw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "PEBETERO SERVICIOS Y FORMACION S.L.",
+      "organo": "Junta de Gobierno del Ayuntamiento de Getafe",
+      "num_contratos": 2,
+      "importe_total": 249044.35,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 249,044€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "2026000073",
+          "objeto": "Prestación del servicio de actividades y eventos de la Delegación de Juventud del Ayuntamiento de Getafe.",
+          "importe": 113930.5,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=jyBQ70Un9NDua%2Fi14w%2FPLA%3D%3D"
+        },
+        {
+          "expediente": "2024000039",
+          "objeto": "Servicios de impartición de cursos, talleres y otras acciones formativas para las delegaciones de Juventud y Memoria Democrática y de Participación Ciudadana y Acción en Barrios del Ayuntamiento de Getafe.",
+          "importe": 135113.85,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=49Nh0iROdq2kU02jNGj1Fw%3D%3D"
         }
       ]
     },
@@ -3130,10 +3090,32 @@
       "emoji": "🟡",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
       "contratos_en_franja": 48,
-      "contratos_totales": 107,
-      "porcentaje": 44.9,
+      "contratos_totales": 106,
+      "porcentaje": 45.3,
       "proveedores_distintos": 36,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 48 de 107 menores (45%) entre 12,000-15,000€. 36 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 48 de 106 menores (45%) entre 12,000-15,000€. 36 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
+      "contratos_en_franja": 65,
+      "contratos_totales": 162,
+      "porcentaje": 40.1,
+      "proveedores_distintos": 52,
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 65 de 162 menores (40%) entre 12,000-15,000€. 52 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Dirección General de Comercio y Consumo del Gobierno de Canarias",
+      "contratos_en_franja": 5,
+      "contratos_totales": 12,
+      "porcentaje": 41.7,
+      "proveedores_distintos": 5,
+      "descripcion": "Dirección General de Comercio y Consumo del Gobierno de Canarias: 5 de 12 menores (42%) entre 12,000-15,000€. 5 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
