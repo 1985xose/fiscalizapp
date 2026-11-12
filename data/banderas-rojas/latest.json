@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-11-11T13:42:36",
+    "generado": "2026-11-12T14:42:01",
     "version": "3.0",
-    "contratos_analizados": 192221,
-    "menores": 116668,
-    "licitaciones": 75553,
+    "contratos_analizados": 193967,
+    "menores": 117938,
+    "licitaciones": 76029,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,30 +15,30 @@
     ]
   },
   "stats": {
-    "total_flags": 111,
+    "total_flags": 114,
     "por_tipo": {
-      "fraccionamiento": 38,
+      "fraccionamiento": 39,
       "concentracion": 3,
-      "patron_umbral": 10,
+      "patron_umbral": 11,
       "omnipresente": 2,
-      "negociado_reiterado": 6,
-      "umbral_europeo": 52
+      "negociado_reiterado": 5,
+      "umbral_europeo": 54
     },
     "severidad_alta": 53,
-    "severidad_media": 58
+    "severidad_media": 61
   },
   "flags": [
     {
       "tipo": "umbral_europeo",
       "severidad": "alta",
       "emoji": "🔴",
-      "score": 20,
+      "score": 22,
       "adjudicatario": "DISHOSPAC SL",
       "organo": "Paradores de Turismo de España, S.M.E., S.A.",
-      "num_contratos": 10,
-      "importe_total": 1254324.5,
+      "num_contratos": 11,
+      "importe_total": 1376886.5,
       "umbral_legal": 140000,
-      "descripcion": "10 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 1,254,324€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "descripcion": "11 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 1,376,886€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
       "contratos": [
         {
           "expediente": "PESCADOS RULA DE AVILES PT CANGAS 20 08 26 08 26",
@@ -99,6 +99,12 @@
           "objeto": "Acuerdo marco Suministro de pescados frescos con el distintivo pescado de confianza de la Rula de Avilés con destino al Parador de Turismo de Cangas de Onis, (Asturias) desde el 22 de octubre al 28 de octubre de 2026.",
           "importe": 123002.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=xWVYYZtKol3%2Fa9DgO%2BoYKQ%3D%3D"
+        },
+        {
+          "expediente": "PESCADOS RULA AVILES PT CANGAS 12 11 18 11 26",
+          "objeto": "Acuerdo marco suministro de pescados, mariscos y moluscos frescos de la lonja para el Parador de Cangas desde el 12 de noviembre al 18 de noviembre de 2026",
+          "importe": 122562.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XtoQ5dvwOU4%2Bk2oCbDosIw%3D%3D"
         }
       ]
     },
@@ -783,6 +789,39 @@
           "objeto": "CM Suministro de equipamiento para la USBA Menacho (Badajoz)",
           "importe": 14079.75,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=EheJmdwiqOQeC9GJQOEBkQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "MULTISERVICIOS NOVOGRAN S.L.",
+      "organo": "Jefatura de la Sección Económico Administrativa 24 de la Base Aérea de Morón",
+      "num_contratos": 3,
+      "importe_total": 111712.45,
+      "importe_medio": 37237.48,
+      "umbral_legal": 40000,
+      "descripcion": "3 contratos menores de obras entre 32,000€ y 40,000€ del mismo proveedor al mismo órgano. Total: 111,712€ (supera el umbral de 40,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/EA24/00002002E",
+          "objeto": "Obra adecuación segen, atestados, otan.",
+          "importe": 38942.03,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=cMWvzOX19FLjHF5qKI4aaw%3D%3D"
+        },
+        {
+          "expediente": "2026/EA24/00002109E",
+          "objeto": "2216/GRUAPO/INFRA Adquisición e instalación de elementos de protección solar",
+          "importe": 38500.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ZjyclT618wprhBlEHQFSKA%3D%3D"
+        },
+        {
+          "expediente": "2026/EA24/00003161E",
+          "objeto": "2216/GRUAPO/INFRA Conservación del Edificio nº17 Escuadrilla de Telecomunicaciones",
+          "importe": 34270.42,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=xgxp%2FTSOK1EwYTJJ03sHog%3D%3D"
         }
       ]
     },
@@ -1715,43 +1754,6 @@
       "tipo": "negociado_reiterado",
       "severidad": "alta",
       "emoji": "🔴",
-      "score": 4,
-      "adjudicatario": "VOLVO GROUP ESPAÑA S.A",
-      "organo": "Jefatura de Asuntos Económicos del Mando de Apoyo Logístico",
-      "num_contratos": 4,
-      "importe_total": 40170777.9,
-      "descripcion": "VOLVO GROUP ESPAÑA S.A gana 4 contratos por negociado sin publicidad del Jefatura de Asuntos Económicos del Mando de Apoyo Logístico por 40,170,778€. El negociado sin publicidad es para situaciones excepcionales — usarlo repetidamente con el mismo proveedor huele a adjudicación a dedo.",
-      "contratos": [
-        {
-          "expediente": "2026/ETSAE0906/00003736E",
-          "objeto": "Adquisición VPTL cisternas y aljibes.",
-          "importe": 9135500.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ZC2UWoVyEj5q1DdmE7eaXg%3D%3D"
-        },
-        {
-          "expediente": "2026/ETSAE0906/00003734E",
-          "objeto": "Adquisición camiones VPTL versión VEMPAR.",
-          "importe": 12981557.6,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=kllUe6YDVcEl5NjlNci%2BtA%3D%3D"
-        },
-        {
-          "expediente": "2026/ETSAE0906/00003696E",
-          "objeto": "Adquisición de VPTL Puesto de Mando Extensible",
-          "importe": 8305778.8,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XUdqy8Ckr9prhBlEHQFSKA%3D%3D"
-        },
-        {
-          "expediente": "2026/ETSAE0906/00003702E",
-          "objeto": "Adquisición carrozados Vempar y volquetes con remolques porta-máquinas M40",
-          "importe": 9747941.5,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=AnRP%2BrBiRP%2FIGlsa0Wad%2Bw%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "negociado_reiterado",
-      "severidad": "alta",
-      "emoji": "🔴",
       "score": 3,
       "adjudicatario": "NUNSYS, S.A.",
       "organo": "Jefatura de Asuntos Económicos del Cuartel General Terrestre Alta Disponibilidad",
@@ -1845,19 +1847,6 @@
       "tipo": "concentracion",
       "severidad": "alta",
       "emoji": "🔴",
-      "adjudicatario": "TESORERIA GENERAL DE LA JUNTA DE ANDALUCIA - TGJA -",
-      "organo": "Dirección del Centro Penitenciario de Málaga",
-      "contratos_proveedor": 85,
-      "contratos_totales": 94,
-      "porcentaje_contratos": 90.4,
-      "importe_proveedor": 191302.28,
-      "porcentaje_importe": 71.4,
-      "descripcion": "TESORERIA GENERAL DE LA JUNTA DE ANDALUCIA - TGJA - gana 85 de 94 contratos (90%) del Dirección del Centro Penitenciario de Málaga, 191,302€ de 268,002€ (71%). ¿Proveedor único justificado o cautividad?"
-    },
-    {
-      "tipo": "concentracion",
-      "severidad": "alta",
-      "emoji": "🔴",
       "adjudicatario": "CORECOR S.L.",
       "organo": "Alcaldía del Ayuntamiento de Corduente",
       "contratos_proveedor": 13,
@@ -1879,6 +1868,19 @@
       "importe_proveedor": 138847.5,
       "porcentaje_importe": 89.5,
       "descripcion": "INBONIS SA gana 9 de 11 contratos (82%) del Dirección General de Inteligencia Económica y Comercial, 138,848€ de 155,051€ (90%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "concentracion",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "adjudicatario": "TESORERIA GENERAL DE LA JUNTA DE ANDALUCIA - TGJA -",
+      "organo": "Dirección del Centro Penitenciario de Málaga",
+      "contratos_proveedor": 85,
+      "contratos_totales": 93,
+      "porcentaje_contratos": 91.4,
+      "importe_proveedor": 191302.28,
+      "porcentaje_importe": 77.6,
+      "descripcion": "TESORERIA GENERAL DE LA JUNTA DE ANDALUCIA - TGJA - gana 85 de 93 contratos (91%) del Dirección del Centro Penitenciario de Málaga, 191,302€ de 246,642€ (78%). ¿Proveedor único justificado o cautividad?"
     },
     {
       "tipo": "fraccionamiento",
@@ -2262,6 +2264,32 @@
           "objeto": "Servicios de impartición de cursos, talleres y otras acciones formativas para las delegaciones de Juventud y Memoria Democrática y de Participación Ciudadana y Acción en Barrios del Ayuntamiento de Getafe.",
           "importe": 135113.85,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=49Nh0iROdq2kU02jNGj1Fw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "NUNSYS, S.A.",
+      "organo": "Jefatura de Asuntos Económicos del Cuartel General Terrestre Alta Disponibilidad",
+      "num_contratos": 2,
+      "importe_total": 254640.01,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 254,640€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "2026/ETSAE0304/00000547E",
+          "objeto": "Suministro de equipamiento destinado a la Expansión de la infraestructura proyectable operativa de comunicaciones de la arquitectura NATO Secret del NRDC-ESP",
+          "importe": 120000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=f%2BMIk9rkwFWsNfRW6APEDw%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0304/00000840E",
+          "objeto": "Suministro de sistemas de visualización táctica, pantallas All-in-One (AIO) plegables y equipamiento audiovisual de alta resistencia con integración en flight cases militarizados para la infraestructura desplegable del HQ NRDC-ESP.",
+          "importe": 134640.01,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Q%2BCfykFvdIHpxJFXpLZ%2B2A%3D%3D"
         }
       ]
     },
@@ -2868,6 +2896,32 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
+      "adjudicatario": "SEVERIANO AGROCOMERCIAL, S.L.",
+      "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
+      "num_contratos": 2,
+      "importe_total": 244161.78,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 244,162€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "TSA0084219",
+          "objeto": "UT2 Suministro de repuestos y piezas para la pequeña maquinaria forestal de la gerencia de Castellón.",
+          "importe": 117882.68,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=QB6Y1CqWpZnI8aL3PRS10Q%3D%3D"
+        },
+        {
+          "expediente": "TSA0075751",
+          "objeto": "Suministro de repuestos y accesorios para la pequeña maquinaria forestal en las obras de la gerencia de Baleares.",
+          "importe": 126279.1,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=HMpgcn%2FmDjZ%2FP7lJ7Fu0SA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
       "adjudicatario": "VILOR CARRETERAS Y FIRMES SLU",
       "organo": "Sociedad Pública de Infraestructuras y Medio Ambiente de Castilla y León S.A.",
       "num_contratos": 2,
@@ -3129,10 +3183,21 @@
       "emoji": "🟡",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
       "contratos_en_franja": 65,
-      "contratos_totales": 162,
-      "porcentaje": 40.1,
+      "contratos_totales": 160,
+      "porcentaje": 40.6,
       "proveedores_distintos": 52,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 65 de 162 menores (40%) entre 12,000-15,000€. 52 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 65 de 160 menores (41%) entre 12,000-15,000€. 52 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Junta de Gobierno Local del Ayuntamiento de Palencia",
+      "contratos_en_franja": 4,
+      "contratos_totales": 10,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 4,
+      "descripcion": "Junta de Gobierno Local del Ayuntamiento de Palencia: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
