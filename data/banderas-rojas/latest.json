@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-11-13T13:58:31",
+    "generado": "2026-11-14T12:43:17",
     "version": "3.0",
-    "contratos_analizados": 196206,
-    "menores": 119286,
-    "licitaciones": 76920,
+    "contratos_analizados": 198601,
+    "menores": 120719,
+    "licitaciones": 77882,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -1325,6 +1325,67 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 8,
+      "adjudicatario": "VOESTALPINE BOHLER WELDING SPAIN SA",
+      "organo": "Comité de Dirección de Equipos Nucleares S.A.",
+      "num_contratos": 8,
+      "importe_total": 1710188.51,
+      "descripcion": "VOESTALPINE BOHLER WELDING SPAIN SA gana 8 contratos por negociado sin publicidad del Comité de Dirección de Equipos Nucleares S.A. por 1,710,189€. El negociado sin publicidad es para situaciones excepcionales — usarlo repetidamente con el mismo proveedor huele a adjudicación a dedo.",
+      "contratos": [
+        {
+          "expediente": "0FR3A002",
+          "objeto": "Suministro hilo calidad ER90S-G Ø0,9 y varilla calidad ER90S-G Ø1,0 y 2,0 mm. Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
+          "importe": 141715.56,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=3NvWgbUIYvsUqXM96WStVA%3D%3D"
+        },
+        {
+          "expediente": "0FR3A012",
+          "objeto": "Suministro de Flux calidad EN ISO 14174 SA AB 2B. Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
+          "importe": 377520.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=AZFnka253heTylGzYmBF9Q%3D%3D"
+        },
+        {
+          "expediente": "0FR3A006",
+          "objeto": "Suministro de electrodo calidad  E9018G d3,2 mm y d4,0 mm. Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
+          "importe": 139743.44,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=LgISz%2BaqLtTECtSnloz%2BZQ%3D%3D"
+        },
+        {
+          "expediente": "0FR3A003",
+          "objeto": "Suministro de hilo calidad ER309L d0,9 mm y d1,2 mm. Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
+          "importe": 58747.92,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2Bf%2FHPCYwST0ZDGvgaZEVxQ%3D%3D"
+        },
+        {
+          "expediente": "0BT7A002",
+          "objeto": "Suministro electrodo varilla E308L Ø2,4 mm. Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
+          "importe": 22430.38,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=r%2FUWMyRPyD310HRJw8TEnQ%3D%3D"
+        },
+        {
+          "expediente": "0BT7A001",
+          "objeto": "Suministro electrodo calidad E308L Ø3,2 y 4,0 mm. Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
+          "importe": 195817.55,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=36tPCx6dWsswYTJJ03sHog%3D%3D"
+        },
+        {
+          "expediente": "0FR3A007",
+          "objeto": "Suministro de material de aporte (990 kg - 18.000 Ud de Electrodo E309L d4,0 mm) . Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
+          "importe": 54929.16,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=FfhCJd9AIDAwYTJJ03sHog%3D%3D"
+        },
+        {
+          "expediente": "0FR3A009",
+          "objeto": "Suministro de banda tipo AWS A5.9 EQ309L y tipo AWS A5.9 EQ308L . Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
+          "importe": 719284.5,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=QXeSAEdE2%2BPkY6rls5tG9A%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "negociado_reiterado",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
       "adjudicatario": "Telefonica de España SAU",
       "organo": "Subdirección General de Contratación de Tecnologías de la Información y de las Comunicaciones (TIC)",
       "num_contratos": 8,
@@ -1378,61 +1439,6 @@
           "objeto": "CBAM 3 en la Prórroga Extraordinaria del Lote 1 Servicios e infraestructuras de Datos, Telefonía y Localización del AM para la Contratación de Servicios e Infraestructuras de Telecomunicaciones de la I3D,",
           "importe": 3876384.58,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=M54bQcF%2FGA19Zh%2FyRJgM8w%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "negociado_reiterado",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 7,
-      "adjudicatario": "VOESTALPINE BOHLER WELDING SPAIN SA",
-      "organo": "Comité de Dirección de Equipos Nucleares S.A.",
-      "num_contratos": 7,
-      "importe_total": 990904.01,
-      "descripcion": "VOESTALPINE BOHLER WELDING SPAIN SA gana 7 contratos por negociado sin publicidad del Comité de Dirección de Equipos Nucleares S.A. por 990,904€. El negociado sin publicidad es para situaciones excepcionales — usarlo repetidamente con el mismo proveedor huele a adjudicación a dedo.",
-      "contratos": [
-        {
-          "expediente": "0FR3A002",
-          "objeto": "Suministro hilo calidad ER90S-G Ø0,9 y varilla calidad ER90S-G Ø1,0 y 2,0 mm. Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
-          "importe": 141715.56,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=3NvWgbUIYvsUqXM96WStVA%3D%3D"
-        },
-        {
-          "expediente": "0FR3A012",
-          "objeto": "Suministro de Flux calidad EN ISO 14174 SA AB 2B. Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
-          "importe": 377520.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=AZFnka253heTylGzYmBF9Q%3D%3D"
-        },
-        {
-          "expediente": "0FR3A006",
-          "objeto": "Suministro de electrodo calidad  E9018G d3,2 mm y d4,0 mm. Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
-          "importe": 139743.44,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=LgISz%2BaqLtTECtSnloz%2BZQ%3D%3D"
-        },
-        {
-          "expediente": "0FR3A003",
-          "objeto": "Suministro de hilo calidad ER309L d0,9 mm y d1,2 mm. Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
-          "importe": 58747.92,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2Bf%2FHPCYwST0ZDGvgaZEVxQ%3D%3D"
-        },
-        {
-          "expediente": "0BT7A002",
-          "objeto": "Suministro electrodo varilla E308L Ø2,4 mm. Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
-          "importe": 22430.38,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=r%2FUWMyRPyD310HRJw8TEnQ%3D%3D"
-        },
-        {
-          "expediente": "0BT7A001",
-          "objeto": "Suministro electrodo calidad E308L Ø3,2 y 4,0 mm. Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
-          "importe": 195817.55,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=36tPCx6dWsswYTJJ03sHog%3D%3D"
-        },
-        {
-          "expediente": "0FR3A007",
-          "objeto": "Suministro de material de aporte (990 kg - 18.000 Ud de Electrodo E309L d4,0 mm) . Contrato derivado Acuerdo marco Suministro de material de aportación para soldadura. ref. AM_0GS2_2025",
-          "importe": 54929.16,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=FfhCJd9AIDAwYTJJ03sHog%3D%3D"
         }
       ]
     },
@@ -3215,10 +3221,10 @@
       "emoji": "🟡",
       "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
       "contratos_en_franja": 65,
-      "contratos_totales": 160,
-      "porcentaje": 40.6,
+      "contratos_totales": 162,
+      "porcentaje": 40.1,
       "proveedores_distintos": 52,
-      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 65 de 160 menores (41%) entre 12,000-15,000€. 52 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.: 65 de 162 menores (40%) entre 12,000-15,000€. 52 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -3237,10 +3243,10 @@
       "emoji": "🟡",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
       "contratos_en_franja": 48,
-      "contratos_totales": 106,
-      "porcentaje": 45.3,
+      "contratos_totales": 107,
+      "porcentaje": 44.9,
       "proveedores_distintos": 36,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 48 de 106 menores (45%) entre 12,000-15,000€. 36 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 48 de 107 menores (45%) entre 12,000-15,000€. 36 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
