@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-11-17T15:07:59",
+    "generado": "2026-11-18T15:01:20",
     "version": "3.0",
-    "contratos_analizados": 195718,
-    "menores": 119509,
-    "licitaciones": 76209,
+    "contratos_analizados": 198474,
+    "menores": 121076,
+    "licitaciones": 77398,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -17,35 +17,29 @@
   "stats": {
     "total_flags": 114,
     "por_tipo": {
-      "fraccionamiento": 41,
+      "fraccionamiento": 42,
       "concentracion": 3,
-      "patron_umbral": 10,
+      "patron_umbral": 8,
       "omnipresente": 2,
       "negociado_reiterado": 5,
-      "umbral_europeo": 53
+      "umbral_europeo": 54
     },
-    "severidad_alta": 55,
-    "severidad_media": 59
+    "severidad_alta": 56,
+    "severidad_media": 58
   },
   "flags": [
     {
       "tipo": "umbral_europeo",
       "severidad": "alta",
       "emoji": "🔴",
-      "score": 22,
+      "score": 20,
       "adjudicatario": "DISHOSPAC SL",
       "organo": "Paradores de Turismo de España, S.M.E., S.A.",
-      "num_contratos": 11,
-      "importe_total": 1376886.5,
+      "num_contratos": 10,
+      "importe_total": 1247801.5,
       "umbral_legal": 140000,
-      "descripcion": "11 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 1,376,886€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "descripcion": "10 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 1,247,802€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
       "contratos": [
-        {
-          "expediente": "PESCADOS RULA DE AVILES PT CANGAS 20 08 26 08 26",
-          "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 20 de agosto al 26 de agosto de 2026.",
-          "importe": 129085.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=vSljwp6t3us4NavIWzMcHA%3D%3D"
-        },
         {
           "expediente": "PESCADOS RULA DE AVILES PT CANGAS 27 08 02 09 26",
           "objeto": "Acuerdo marco suministro de Pescados frescos con el distintivo de confianza de la Rula de Avilés con destino al Parador de Cangas de Onís (Asturias), desde el 27 de agosto al 02 de septiembre de 2026.",
@@ -105,51 +99,6 @@
           "objeto": "Acuerdo marco suministro de pescados, mariscos y moluscos frescos de la lonja para el Parador de Cangas desde el 12 de noviembre al 18 de noviembre de 2026",
           "importe": 122562.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XtoQ5dvwOU4%2Bk2oCbDosIw%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 12,
-      "adjudicatario": "REPSOL BUTANO SA",
-      "organo": "Departamento de Salud de Elche. Dirección Económica-Gerencia",
-      "num_contratos": 5,
-      "importe_total": 67272.63,
-      "importe_medio": 13454.53,
-      "umbral_legal": 15000,
-      "descripcion": "5 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 67,273€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
-      "contratos": [
-        {
-          "expediente": "CM46/2026/521-2026/12725",
-          "objeto": "Suministro seguro y eficiente de 5.002 kgs de gas propano al Hospital de Elche, destinado a satisfacer las necesidades operativas del edificioUIAE y de las cocinas del establecimiento hospitalario, garantizando así el funcionamiento adecuado de los servicios asistenciales y de alimentación. / Subministrament segur i eficient de 5.002 kgs de gas propà a l'Hospital d'Elx, destinat a satisfer les necessitats operatives del edificioUIAE i de les cuines de l'establiment hospitalari, garantint així el funcionament adequat dels servicis assistencials i d'alimentació.",
-          "importe": 13122.2,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=cYO5iawbNYe5HQrHoP3G5A%3D%3D"
-        },
-        {
-          "expediente": "CM 49/2026/521-2026/12983",
-          "objeto": "Suministro seguro y eficiente de 4.710 Kg de gas propano al Hospital de Elche, destinado a satisfacer las necesidades operativas del edificio UIAE y de las cocinas del establecimiento hospitalario, garantizando así el funcionamiento adecuado de los servicios asistenciales de alimentación. No sujeto a SDA o AM. / Subministrament segur i eficient de 4.710 Kg de gas propà a l'Hospital d'Elx, destinat a satisfer les necessitats operatives de l'edifici UIAE i de les cuines de l'establiment hospitalari, garantint així el funcionament adequat dels servicis assistencials d'alimentació. No subjecte a SDA o AM.",
-          "importe": 12915.01,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=n7mws38w1ZR70UvEyYJSGw%3D%3D"
-        },
-        {
-          "expediente": "CM54/2026/521-2026/26169",
-          "objeto": "Suministro seguro y eficiente de 5.001 kgs de gas propano al hospital de elche, destinado a satisfacer las necesidades operativas del edificio UIAE y de las cocinas del establecimiento hospitalario, garantizando así el funcionamiento adecuado de los servicios asistenciales y de alimentación. / Subministrament segur i eficient de 5.001 kgs de gas propà a l'hospital de elche, destinat a satisfer les necessitats operatives de l'edifici UIAE i de les cuines de l'establiment hospitalari, garantint així el funcionament adequat dels servicis assistencials i d'alimentació.",
-          "importe": 14173.75,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XQrymD61DHBVq4S9zvaQpQ%3D%3D"
-        },
-        {
-          "expediente": "CM52/2026/521-2026/26665",
-          "objeto": "Suministro seguro y eficiente de 4.618 kg de gas propano al Hospital de elche, destinado a satisfacer las necesidades operativas del edificio UIAE y de las cocinas del establecimiento hospitalario garantizando así el funcionamiento adecuado de los servicios asistenciales / Subministrament segur i eficient de 4.618 kg de gas propà a l'Hospital de elche, destinat a satisfer les necessitats operatives de l'edifici UIAE i de les cuines de l'establiment hospitalari garantint així el funcionament adequat dels servicis assistencials",
-          "importe": 12683.7,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=C8PKApn3VREzjChw4z%2FXvw%3D%3D"
-        },
-        {
-          "expediente": "CM55/2026/521-2026/27145",
-          "objeto": "Suministro seguro y eficiente de 5.001 kgs de gas propano al Hospital de Elche, destinado a satisfacer las necesidades operativas del edificio UIAE y de las cocinas del establecimiento hospitalario, garantizando así el funcionamiento adecuado de los servicios asistenciales y de alimentación. / Subministrament segur i eficient de 5.001 kgs de gas propà a l'Hospital d'Elx, destinat a satisfer les necessitats operatives de l'edifici UIAE i de les cuines de l'establiment hospitalari, garantint així el funcionament adequat dels servicis assistencials i d'alimentació.",
-          "importe": 14377.97,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=5ISPRTaz6%2BE36J9Lctlsuw%3D%3D"
         }
       ]
     },
@@ -285,6 +234,45 @@
           "objeto": "Instalación de paneles solares fotovoltaicos en OAL",
           "importe": 14080.59,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=nvlNP%2BihlhWAAM7L03kM8A%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 9,
+      "adjudicatario": "REPSOL BUTANO SA",
+      "organo": "Departamento de Salud de Elche. Dirección Económica-Gerencia",
+      "num_contratos": 4,
+      "importe_total": 54150.43,
+      "importe_medio": 13537.61,
+      "umbral_legal": 15000,
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 54,150€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "CM 49/2026/521-2026/12983",
+          "objeto": "Suministro seguro y eficiente de 4.710 Kg de gas propano al Hospital de Elche, destinado a satisfacer las necesidades operativas del edificio UIAE y de las cocinas del establecimiento hospitalario, garantizando así el funcionamiento adecuado de los servicios asistenciales de alimentación. No sujeto a SDA o AM. / Subministrament segur i eficient de 4.710 Kg de gas propà a l'Hospital d'Elx, destinat a satisfer les necessitats operatives de l'edifici UIAE i de les cuines de l'establiment hospitalari, garantint així el funcionament adequat dels servicis assistencials d'alimentació. No subjecte a SDA o AM.",
+          "importe": 12915.01,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=n7mws38w1ZR70UvEyYJSGw%3D%3D"
+        },
+        {
+          "expediente": "CM54/2026/521-2026/26169",
+          "objeto": "Suministro seguro y eficiente de 5.001 kgs de gas propano al hospital de elche, destinado a satisfacer las necesidades operativas del edificio UIAE y de las cocinas del establecimiento hospitalario, garantizando así el funcionamiento adecuado de los servicios asistenciales y de alimentación. / Subministrament segur i eficient de 5.001 kgs de gas propà a l'hospital de elche, destinat a satisfer les necessitats operatives de l'edifici UIAE i de les cuines de l'establiment hospitalari, garantint així el funcionament adequat dels servicis assistencials i d'alimentació.",
+          "importe": 14173.75,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XQrymD61DHBVq4S9zvaQpQ%3D%3D"
+        },
+        {
+          "expediente": "CM52/2026/521-2026/26665",
+          "objeto": "Suministro seguro y eficiente de 4.618 kg de gas propano al Hospital de elche, destinado a satisfacer las necesidades operativas del edificio UIAE y de las cocinas del establecimiento hospitalario garantizando así el funcionamiento adecuado de los servicios asistenciales / Subministrament segur i eficient de 4.618 kg de gas propà a l'Hospital de elche, destinat a satisfer les necessitats operatives de l'edifici UIAE i de les cuines de l'establiment hospitalari garantint així el funcionament adequat dels servicis assistencials",
+          "importe": 12683.7,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=C8PKApn3VREzjChw4z%2FXvw%3D%3D"
+        },
+        {
+          "expediente": "CM55/2026/521-2026/27145",
+          "objeto": "Suministro seguro y eficiente de 5.001 kgs de gas propano al Hospital de Elche, destinado a satisfacer las necesidades operativas del edificio UIAE y de las cocinas del establecimiento hospitalario, garantizando así el funcionamiento adecuado de los servicios asistenciales y de alimentación. / Subministrament segur i eficient de 5.001 kgs de gas propà a l'Hospital d'Elx, destinat a satisfer les necessitats operatives de l'edifici UIAE i de les cuines de l'establiment hospitalari, garantint així el funcionament adequat dels servicis assistencials i d'alimentació.",
+          "importe": 14377.97,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=5ISPRTaz6%2BE36J9Lctlsuw%3D%3D"
         }
       ]
     },
@@ -480,39 +468,6 @@
           "objeto": "Servicio de preparado y distribución de comidas. Proyecto de Apoyo Nutricional",
           "importe": 14480.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=4Q2DjvcJKXmP66GS%2BONYvQ%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 8,
-      "adjudicatario": "INGECONSUL SL",
-      "organo": "Consejería de Fomento, Vivienda, Ordenación del Territorio y Medio Ambiente de la Comunidad Autónoma de Cantabria",
-      "num_contratos": 3,
-      "importe_total": 41550.0,
-      "importe_medio": 13850.0,
-      "umbral_legal": 15000,
-      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 41,550€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
-      "contratos": [
-        {
-          "expediente": "A04ASI205300",
-          "objeto": "At Elaboración Proyecto Construcción Amplaición Línea Atraque Interior Dársena Pesquera Santoña",
-          "importe": 13900.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=gcdplA3ck83I8aL3PRS10Q%3D%3D"
-        },
-        {
-          "expediente": "A04ASI213200",
-          "objeto": "At  Elaboración Íntegra Del Proyecto De Construcción: Estructura De Contención De Pie De Muelle En El Exterior Oeste Del Puerto De Santoña",
-          "importe": 14000.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=4FszIYBQWXmFlFRHfEzEaw%3D%3D"
-        },
-        {
-          "expediente": "A04ASI216900",
-          "objeto": "A.T. Dirección Obra Consolidación Del Dique Oeste Del Puerto De San Vicente De La Barquera",
-          "importe": 13650.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=EFqXOGANVctQFSeKCRun4Q%3D%3D"
         }
       ]
     },
@@ -1016,6 +971,39 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 8,
+      "adjudicatario": "EMBECTA MEDICAL SPAIN, SL",
+      "organo": "Dirección Gerencia del Servicio de Salud de Castilla-La Mancha",
+      "num_contratos": 3,
+      "importe_total": 40481.76,
+      "importe_medio": 13493.92,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 40,482€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/039006",
+          "objeto": "GAPTO- Agujas pluma jeringa precargada y bolígrafo insulina",
+          "importe": 13530.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=5XOvH3TDl%2FWHCIsjvJ3rhQ%3D%3D"
+        },
+        {
+          "expediente": "2026/043190",
+          "objeto": "GAPTO- Agujas pluma jeringa precargada y bolígrafo insulina 4, 5 y 13 mm",
+          "importe": 13421.76,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=aBk51%2B7UgPaqb7rCcv76BA%3D%3D"
+        },
+        {
+          "expediente": "2026/043187",
+          "objeto": "GAPTO- Agujas pluma jeringa precargada y bolígrafo insulina",
+          "importe": 13530.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=dVKpqvuJKrteKgd8LfVV9g%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
       "adjudicatario": "iacobus via slu",
       "organo": "Dirección Provincial de Educación en León",
       "num_contratos": 3,
@@ -1375,6 +1363,39 @@
       ]
     },
     {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "Suyfa Defence, S.L.",
+      "organo": "Intendente de Ferrol",
+      "num_contratos": 3,
+      "importe_total": 44998.25,
+      "importe_medio": 14999.42,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 44,998€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/AR42U/00003515E",
+          "objeto": "SERFER. CM. Suministro abierto de trajes de agua con destino a buques de la Armada apoyados por el Arsenal de Ferrol.",
+          "importe": 14999.4,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=8U6xFGGI%2F%2FZ9Zh%2FyRJgM8w%3D%3D"
+        },
+        {
+          "expediente": "2026/AR42U/00003516E",
+          "objeto": "SERFER. CM. Suministro abierto de cubrecamas ignífugos con destino a buques de la Armada apoyados por el Arsenal de Ferrol.",
+          "importe": 14999.6,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=7OQHu4MYymZSYrkJkLlFdw%3D%3D"
+        },
+        {
+          "expediente": "2026/AR42U/00003514E",
+          "objeto": "SERFER. CM. Suministro abierto de líquido espumógeno contraincendios con destino a buques de la Armada apoyados por el Arsenal de Ferrol.",
+          "importe": 14999.25,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SpCB4C0iWq%2Fs%2BnLj3vAg5A%3D%3D"
+        }
+      ]
+    },
+    {
       "tipo": "negociado_reiterado",
       "severidad": "alta",
       "emoji": "🔴",
@@ -1493,6 +1514,82 @@
           "objeto": "CBAM 3 en la Prórroga Extraordinaria del Lote 1 Servicios e infraestructuras de Datos, Telefonía y Localización del AM para la Contratación de Servicios e Infraestructuras de Telecomunicaciones de la I3D,",
           "importe": 3876384.58,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=M54bQcF%2FGA19Zh%2FyRJgM8w%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "Solred, S.A.",
+      "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
+      "num_contratos": 4,
+      "importe_total": 526796.8,
+      "umbral_legal": 140000,
+      "descripcion": "4 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 526,797€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "CBA3890/2026",
+          "objeto": "Suministro De Combustible En Estaciones De Servicio Para Los Vehículos De Inspección Pesquera De La Península 26-28 (Ministerio De Agricultura, Pesca Y Alimentación-Dirección General De Ordenación Pesquera Y Acuicultura)",
+          "importe": 138517.5,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=3V6l8mAUvKCP66GS%2BONYvQ%3D%3D"
+        },
+        {
+          "expediente": "CBA4164/2026",
+          "objeto": "Contrato Basado En El Acuerdo Marco 21/2023, Para El Suministro De Combustibles En Estaciones De Servicio Para El Lote 1 - Península Para La Confederación Hidrográfica Del Segura, O.A. Años 2026-2028. Compra Directa (Ministerio Para La Transición Ecológica Y El Reto Demográfico-Confederacion Hidrografica Del Segura, O.A.)",
+          "importe": 121000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=dlXUnbyplQfmnwcj%2BxbdTg%3D%3D"
+        },
+        {
+          "expediente": "CBA5150/2026",
+          "objeto": "Suministro De Combustible En Estaciones De Servicio Lote 1 Península Excepto País Vasco (Ministerio Para La Transición Ecológica Y El Reto Demográfico-Agencia Estatal De Meteorologia)",
+          "importe": 130000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=DjPCBaM9gc4%2B1TMyIiZmzw%3D%3D"
+        },
+        {
+          "expediente": "CBA5442/2026",
+          "objeto": "Contrato Basado En El Acuerdo Marco 21/2023, Para El Suministro De Combustibles En Estaciones De Servicio Para El Lote 1-Península Para La Tesorería General De La Seguridad Social. (Ministerio De Inclusión, Seguridad Social Y Migraciones-Tesoreria General De La Seguridad Social)",
+          "importe": 137279.3,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=gm2YNI5bat2ExvMJXBMHHQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "Inetum España, S.A.",
+      "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
+      "num_contratos": 4,
+      "importe_total": 519369.22,
+      "umbral_legal": 140000,
+      "descripcion": "4 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 519,369€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "CEA4563/2026",
+          "objeto": "Prórroga Del Contrato A764/2025. Asistencia Técnica Para Mantenimiento De Portales Y Aplicaciones Sistemas Web Del Ciemat  (Centro De Investigaciones Energeticas, Medioambientales Y Tecnologicas (Ciemat))",
+          "importe": 133010.22,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=AoTH%2BJc4naWkU02jNGj1Fw%3D%3D"
+        },
+        {
+          "expediente": "CEA2592/2026",
+          "objeto": "Servicios De Desarrollo De Nuevas Funcionalidades Y Mantenimiento De Las Aplicaciones De Servicios Sociales (Ministerio De Derechos Sociales, Consumo Y Agenda 2030-Subsecretaría De Derechos Sociales, Consumo Y Agenda 2030)",
+          "importe": 127598.13,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=zOfHVFUUYgKkU02jNGj1Fw%3D%3D"
+        },
+        {
+          "expediente": "CEA5268/2026",
+          "objeto": "Suministro De Actualizaciones Y Soporte Del Software Shareplex Para La Oficina Española De Patentes Y Marcas, O.A. (Ministerio De Industria Y Turismo-Oficina Española De Patentes Y Marcas, O.A.)",
+          "importe": 133710.32,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=rdIHIHT3Zt3I8aL3PRS10Q%3D%3D"
+        },
+        {
+          "expediente": "CEA5499/2026",
+          "objeto": "Suministro De Actualizaciones Y Soporte Del Software De Backup (Ministerio De Industria Y Turismo-Oficina Española De Patentes Y Marcas, O.A.)",
+          "importe": 125050.55,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=eA%2BY9wwlLcDs%2BnLj3vAg5A%3D%3D"
         }
       ]
     },
@@ -1661,38 +1758,6 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 6,
-      "adjudicatario": "Solred, S.A.",
-      "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
-      "num_contratos": 3,
-      "importe_total": 389517.5,
-      "umbral_legal": 140000,
-      "descripcion": "3 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 389,518€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
-      "contratos": [
-        {
-          "expediente": "CBA3890/2026",
-          "objeto": "Suministro De Combustible En Estaciones De Servicio Para Los Vehículos De Inspección Pesquera De La Península 26-28 (Ministerio De Agricultura, Pesca Y Alimentación-Dirección General De Ordenación Pesquera Y Acuicultura)",
-          "importe": 138517.5,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=3V6l8mAUvKCP66GS%2BONYvQ%3D%3D"
-        },
-        {
-          "expediente": "CBA4164/2026",
-          "objeto": "Contrato Basado En El Acuerdo Marco 21/2023, Para El Suministro De Combustibles En Estaciones De Servicio Para El Lote 1 - Península Para La Confederación Hidrográfica Del Segura, O.A. Años 2026-2028. Compra Directa (Ministerio Para La Transición Ecológica Y El Reto Demográfico-Confederacion Hidrografica Del Segura, O.A.)",
-          "importe": 121000.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=dlXUnbyplQfmnwcj%2BxbdTg%3D%3D"
-        },
-        {
-          "expediente": "CBA5150/2026",
-          "objeto": "Suministro De Combustible En Estaciones De Servicio Lote 1 Península Excepto País Vasco (Ministerio Para La Transición Ecológica Y El Reto Demográfico-Agencia Estatal De Meteorologia)",
-          "importe": 130000.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=DjPCBaM9gc4%2B1TMyIiZmzw%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "umbral_europeo",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 6,
       "adjudicatario": "Iberdrola Clientes Sau",
       "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
       "num_contratos": 3,
@@ -1717,38 +1782,6 @@
           "objeto": "Prórroga Del Contrato Basado A5608/2025 Con Código De Agrupación 8053. Código Actual De Agrupación 8434 (Ministerio De Inclusión, Seguridad Social Y Migraciones-Instituto Nacional De La Seguridad Social)",
           "importe": 122431.58,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=0u1xZdBAojw3vLk2DU2Ddg%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "umbral_europeo",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 6,
-      "adjudicatario": "Inetum España, S.A.",
-      "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
-      "num_contratos": 3,
-      "importe_total": 394318.67,
-      "umbral_legal": 140000,
-      "descripcion": "3 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 394,319€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
-      "contratos": [
-        {
-          "expediente": "CEA4563/2026",
-          "objeto": "Prórroga Del Contrato A764/2025. Asistencia Técnica Para Mantenimiento De Portales Y Aplicaciones Sistemas Web Del Ciemat  (Centro De Investigaciones Energeticas, Medioambientales Y Tecnologicas (Ciemat))",
-          "importe": 133010.22,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=AoTH%2BJc4naWkU02jNGj1Fw%3D%3D"
-        },
-        {
-          "expediente": "CEA2592/2026",
-          "objeto": "Servicios De Desarrollo De Nuevas Funcionalidades Y Mantenimiento De Las Aplicaciones De Servicios Sociales (Ministerio De Derechos Sociales, Consumo Y Agenda 2030-Subsecretaría De Derechos Sociales, Consumo Y Agenda 2030)",
-          "importe": 127598.13,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=zOfHVFUUYgKkU02jNGj1Fw%3D%3D"
-        },
-        {
-          "expediente": "CEA5268/2026",
-          "objeto": "Suministro De Actualizaciones Y Soporte Del Software Shareplex Para La Oficina Española De Patentes Y Marcas, O.A. (Ministerio De Industria Y Turismo-Oficina Española De Patentes Y Marcas, O.A.)",
-          "importe": 133710.32,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=rdIHIHT3Zt3I8aL3PRS10Q%3D%3D"
         }
       ]
     },
@@ -1928,12 +1961,12 @@
       "emoji": "🔴",
       "adjudicatario": "INBONIS SA",
       "organo": "Dirección General de Inteligencia Económica y Comercial",
-      "contratos_proveedor": 9,
-      "contratos_totales": 11,
-      "porcentaje_contratos": 81.8,
-      "importe_proveedor": 138847.5,
-      "porcentaje_importe": 89.5,
-      "descripcion": "INBONIS SA gana 9 de 11 contratos (82%) del Dirección General de Inteligencia Económica y Comercial, 138,848€ de 155,051€ (90%). ¿Proveedor único justificado o cautividad?"
+      "contratos_proveedor": 10,
+      "contratos_totales": 12,
+      "porcentaje_contratos": 83.3,
+      "importe_proveedor": 154275.0,
+      "porcentaje_importe": 90.5,
+      "descripcion": "INBONIS SA gana 10 de 12 contratos (83%) del Dirección General de Inteligencia Económica y Comercial, 154,275€ de 170,479€ (90%). ¿Proveedor único justificado o cautividad?"
     },
     {
       "tipo": "concentracion",
@@ -1942,50 +1975,11 @@
       "adjudicatario": "TESORERIA GENERAL DE LA JUNTA DE ANDALUCIA - TGJA -",
       "organo": "Dirección del Centro Penitenciario de Málaga",
       "contratos_proveedor": 85,
-      "contratos_totales": 93,
-      "porcentaje_contratos": 91.4,
+      "contratos_totales": 94,
+      "porcentaje_contratos": 90.4,
       "importe_proveedor": 191302.28,
-      "porcentaje_importe": 77.6,
-      "descripcion": "TESORERIA GENERAL DE LA JUNTA DE ANDALUCIA - TGJA - gana 85 de 93 contratos (91%) del Dirección del Centro Penitenciario de Málaga, 191,302€ de 246,642€ (78%). ¿Proveedor único justificado o cautividad?"
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "media",
-      "emoji": "🟡",
-      "score": 6,
-      "adjudicatario": "SOLPAVIFER SLU",
-      "organo": "Consejería de Fomento, Vivienda, Ordenación del Territorio y Medio Ambiente de la Comunidad Autónoma de Cantabria",
-      "num_contratos": 4,
-      "importe_total": 145722.15,
-      "importe_medio": 36430.54,
-      "umbral_legal": 40000,
-      "descripcion": "4 contratos menores de obras entre 32,000€ y 40,000€ del mismo proveedor al mismo órgano. Total: 145,722€ (supera el umbral de 40,000€ que obligaría a licitar).",
-      "contratos": [
-        {
-          "expediente": "A04OBR2005",
-          "objeto": "Reparación De Filtraciones En Sector De Oficinas De La Lonja De Pesca Del Puerto De Castro Urdiales",
-          "importe": 38380.27,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=b5U25ds4ZZKP%2Bo96UAV7cQ%3D%3D"
-        },
-        {
-          "expediente": "A04OBR204700",
-          "objeto": "Reparacion De La Terminal De Autobuses De Sarón",
-          "importe": 34995.44,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=dyHqBy1Owft4zIRvjBVCSw%3D%3D"
-        },
-        {
-          "expediente": "A04OBR206000",
-          "objeto": "Acondicionamiento De Los Viales De Acceso Deteriorados De La Etap De Roiz Plan Hidraúlico Valdáliga",
-          "importe": 39482.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=aGAuKFSeQklLAIVZdUs8KA%3D%3D"
-        },
-        {
-          "expediente": "A04OBR205400",
-          "objeto": "Acondicionamiento De Pavimentos Superficiales En El Puerto De Colindres.",
-          "importe": 32864.44,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=bjkUQpgAXimqb7rCcv76BA%3D%3D"
-        }
-      ]
+      "porcentaje_importe": 72.3,
+      "descripcion": "TESORERIA GENERAL DE LA JUNTA DE ANDALUCIA - TGJA - gana 85 de 94 contratos (90%) del Dirección del Centro Penitenciario de Málaga, 191,302€ de 264,739€ (72%). ¿Proveedor único justificado o cautividad?"
     },
     {
       "tipo": "fraccionamiento",
@@ -2023,6 +2017,39 @@
           "objeto": "CR-Contrato menor tte escolar ruta 13000815-A",
           "importe": 12250.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=xDgLrX1kmT%2FN3k3tjedSGw%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 5,
+      "adjudicatario": "SOLPAVIFER SLU",
+      "organo": "Consejería de Fomento, Vivienda, Ordenación del Territorio y Medio Ambiente de la Comunidad Autónoma de Cantabria",
+      "num_contratos": 3,
+      "importe_total": 107341.88,
+      "importe_medio": 35780.63,
+      "umbral_legal": 40000,
+      "descripcion": "3 contratos menores de obras entre 32,000€ y 40,000€ del mismo proveedor al mismo órgano. Total: 107,342€ (supera el umbral de 40,000€ que obligaría a licitar).",
+      "contratos": [
+        {
+          "expediente": "A04OBR204700",
+          "objeto": "Reparacion De La Terminal De Autobuses De Sarón",
+          "importe": 34995.44,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=dyHqBy1Owft4zIRvjBVCSw%3D%3D"
+        },
+        {
+          "expediente": "A04OBR206000",
+          "objeto": "Acondicionamiento De Los Viales De Acceso Deteriorados De La Etap De Roiz Plan Hidraúlico Valdáliga",
+          "importe": 39482.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=aGAuKFSeQklLAIVZdUs8KA%3D%3D"
+        },
+        {
+          "expediente": "A04OBR205400",
+          "objeto": "Acondicionamiento De Pavimentos Superficiales En El Puerto De Colindres.",
+          "importe": 32864.44,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=bjkUQpgAXimqb7rCcv76BA%3D%3D"
         }
       ]
     },
@@ -2286,24 +2313,24 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
-      "adjudicatario": "CANARGA, S.L.",
-      "organo": "Junta de Gobierno del Ayuntamiento de As Pontes de García Rodríguez",
+      "adjudicatario": "TRATAMINENTOS ASFALTICOS, S.A.",
+      "organo": "Alcaldía del Ayuntamiento de Avilés",
       "num_contratos": 2,
-      "importe_total": 237972.58,
+      "importe_total": 247487.91,
       "umbral_legal": 140000,
-      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 237,973€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 247,488€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
       "contratos": [
         {
-          "expediente": "2026/C003/000006",
-          "objeto": "\"Mellora de camiños en Sexe e Pumar-Fragachá\" (Plan Mellora de Camiños Rurais 2026-2027- AGADER)",
-          "importe": 120400.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SdSdRbmc7TowYTJJ03sHog%3D%3D"
+          "expediente": "AYT/4699/2026",
+          "objeto": "La ejecución de las obras definidas en el proyecto de mejora urbana en la Travesía del Pico Bustiello.",
+          "importe": 123189.25,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=5ENLM42C%2Bef5Rey58Yagpg%3D%3D"
         },
         {
-          "expediente": "2026/C003/000005",
-          "objeto": "\"Pavimentación vial II e sinalización horizontal no Polígono dos Airíos\" (Plan Mellora de Parques Industriais)",
-          "importe": 117572.58,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=htxd%2FQd6MlekU02jNGj1Fw%3D%3D"
+          "expediente": "AYT/2183/2026",
+          "objeto": "La ejecución de las obras definidas en el Proyecto de Reordenación del Tráfico en la calle La Cámara y la Avenida de Alemania, Avilés.",
+          "importe": 124298.66,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=LGbeJU1wEoMZDGvgaZEVxQ%3D%3D"
         }
       ]
     },
@@ -2390,6 +2417,32 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
+      "adjudicatario": "ESTRATEGIA Y ORGANIZACION, S.A.",
+      "organo": "Presidencia de la Diputación Provincial de Ourense",
+      "num_contratos": 2,
+      "importe_total": 244448.5,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 244,448€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "SERV/ABR/2026000063",
+          "objeto": "Asistencia técnica para la ejecución del \"Plan de actuación integrado Ourense Sur\", cofinanciado por la Unión Europea a través del Fondo Europeo de Desarrollo Regional (FEDER)",
+          "importe": 122224.25,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=drlkMK8tfMLCfVQHDepjGQ%3D%3D"
+        },
+        {
+          "expediente": "SERV/ABR/2026000064",
+          "objeto": "Asistencia técnica para la ejecución del \"Plan de actuación integrado Valdeorras por los Caminos del Sil\", cofinanciado por la Unión Europea a través del Fondo Europeo de Desarrollo Regional (FEDER)",
+          "importe": 122224.25,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ktmXRAXfuOOFQ%2FlhRK79lA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
       "adjudicatario": "Elecnor Servicios y Proyectos, S.A.U.",
       "organo": "Gerencia del Hospital Intermutual de Levante",
       "num_contratos": 2,
@@ -2460,32 +2513,6 @@
           "objeto": "Suministro De Productos Químicos Para Tratamiento De Aguas",
           "importe": 117700.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=JeC9JBkispDmnwcj%2BxbdTg%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "umbral_europeo",
-      "severidad": "media",
-      "emoji": "🟡",
-      "score": 4,
-      "adjudicatario": "TOTAL ENGINEERING SL",
-      "organo": "Consejo de Administración de la Sociedad Pública para la Promoción Económica de Melilla, Proyecto Melilla, S.A.U.",
-      "num_contratos": 2,
-      "importe_total": 253040.0,
-      "umbral_legal": 140000,
-      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 253,040€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
-      "contratos": [
-        {
-          "expediente": "17/26",
-          "objeto": "Itinerarios de inserción para el empleo en actividades de auxiliar administrativo. MF26005",
-          "importe": 126520.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=AHedKkco7CZrhBlEHQFSKA%3D%3D"
-        },
-        {
-          "expediente": "14/26",
-          "objeto": "Itinerarios de inserción para el empleo en actividades auxiliares de comercio. MF26002",
-          "importe": 126520.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=BYq4Wdt4D7Czz8fXU2i3eQ%3D%3D"
         }
       ]
     },
@@ -3040,6 +3067,32 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
+      "adjudicatario": "MEDICAL IBÉRICA, S.A",
+      "organo": "Dirección General de Planificación Económica",
+      "num_contratos": 2,
+      "importe_total": 256776.52,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 256,777€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "CS/99/1126063716/26/PNSP",
+          "objeto": "Adquisición De 196 Sillón Paciente Con Destino A Los Centros De Atención Especializada Y Primaria Del Servicio Extremeño De Salud, Mediante Contrato Basado En El Lote 14 Sillón Paciente Del Acuerdo Marco CS/99/1125045768/25/AM de Suministro, Instalación Y Puesta En Marcha De Diverso Mobiliario Clínico Para El SES",
+          "importe": 138264.28,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=hoQRlqaSRdt9PLkba5eRog%3D%3D"
+        },
+        {
+          "expediente": "CS/99/1126065197/26/PNSP",
+          "objeto": "Adquisición de 168 sillones paciente destino a los centros de Atención Especializada y primaria del Servicio Extremeño de Salud, mediante contrato basado en el Lote 14 sillón paciente del Acuerdo Marco CS/99/1125045768/25/AM de suministro, instalación y puesta en marcha de diverso mobiliario clínico para el SES.",
+          "importe": 118512.24,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=BvXnGRLA6orVGIpKDxgsAQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
       "adjudicatario": "margal21",
       "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
       "num_contratos": 2,
@@ -3222,22 +3275,11 @@
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
-      "contratos_en_franja": 47,
+      "contratos_en_franja": 45,
       "contratos_totales": 103,
-      "porcentaje": 45.6,
-      "proveedores_distintos": 36,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 47 de 103 menores (46%) entre 12,000-15,000€. 36 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
-      "organo": "Departamento de Salud de Elche. Dirección Económica-Gerencia",
-      "contratos_en_franja": 5,
-      "contratos_totales": 11,
-      "porcentaje": 45.5,
-      "proveedores_distintos": 1,
-      "descripcion": "Departamento de Salud de Elche. Dirección Económica-Gerencia: 5 de 11 menores (45%) entre 12,000-15,000€. 1 proveedores. Estadísticamente improbable sin intervención."
+      "porcentaje": 43.7,
+      "proveedores_distintos": 34,
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 45 de 103 menores (44%) entre 12,000-15,000€. 34 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -3260,17 +3302,6 @@
       "porcentaje": 54.5,
       "proveedores_distintos": 6,
       "descripcion": "Dirección General de Comercio y Consumo del Gobierno de Canarias: 6 de 11 menores (55%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
-      "organo": "Presidencia de Fiestas de Santa Cruz de Tenerife Entidad Pública Empresarial Local y Medio Propio del Excmo. Ayuntamiento de Santa Cruz de Tenerife",
-      "contratos_en_franja": 5,
-      "contratos_totales": 12,
-      "porcentaje": 41.7,
-      "proveedores_distintos": 5,
-      "descripcion": "Presidencia de Fiestas de Santa Cruz de Tenerife Entidad Pública Empresarial Local y Medio Propio del Excmo. Ayuntamiento de Santa Cruz de Tenerife: 5 de 12 menores (42%) entre 12,000-15,000€. 5 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
