@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-11-18T15:01:20",
+    "generado": "2026-11-19T15:07:47",
     "version": "3.0",
-    "contratos_analizados": 198474,
-    "menores": 121076,
-    "licitaciones": 77398,
+    "contratos_analizados": 198585,
+    "menores": 121823,
+    "licitaciones": 76762,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -17,15 +17,15 @@
   "stats": {
     "total_flags": 114,
     "por_tipo": {
-      "fraccionamiento": 42,
+      "fraccionamiento": 44,
       "concentracion": 3,
-      "patron_umbral": 8,
+      "patron_umbral": 7,
       "omnipresente": 2,
-      "negociado_reiterado": 5,
+      "negociado_reiterado": 4,
       "umbral_europeo": 54
     },
-    "severidad_alta": 56,
-    "severidad_media": 58
+    "severidad_alta": 58,
+    "severidad_media": 56
   },
   "flags": [
     {
@@ -437,6 +437,84 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 9,
+      "adjudicatario": "ÓSCAR CONDE RUIZ",
+      "organo": "Alcaldía del Ayuntamiento de San Pedro del Romeral",
+      "num_contratos": 4,
+      "importe_total": 59991.8,
+      "importe_medio": 14997.95,
+      "umbral_legal": 15000,
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 59,992€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "52/2026",
+          "objeto": "Trabajos realizados en los barrios",
+          "importe": 14997.95,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Gn9qbbRK%2F9okJPJS%2BPS9vg%3D%3D"
+        },
+        {
+          "expediente": "51/2026",
+          "objeto": "Desbroces en los barrios",
+          "importe": 14997.95,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=BLkjZHNaPbo7%2B9FIQYNjeQ%3D%3D"
+        },
+        {
+          "expediente": "2026/52",
+          "objeto": "Trabajos realizados en los barrios 2026",
+          "importe": 14997.95,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=L%2By90PliPAv%2B3JAijKO%2Bkg%3D%3D"
+        },
+        {
+          "expediente": "2026/51",
+          "objeto": "Desbroces en los barrios 2026",
+          "importe": 14997.95,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=aBSUmq%2BuhCfua%2Fi14w%2FPLA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 9,
+      "adjudicatario": "DAVID BRAVO PÉREZ",
+      "organo": "Alcaldía del Ayuntamiento de San Pedro del Romeral",
+      "num_contratos": 4,
+      "importe_total": 59960.0,
+      "importe_medio": 14990.0,
+      "umbral_legal": 15000,
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 59,960€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "50/2026",
+          "objeto": "Reparación red de agua municipal",
+          "importe": 14990.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=hAzXQwG8b33CfVQHDepjGQ%3D%3D"
+        },
+        {
+          "expediente": "49/2026",
+          "objeto": "Mantenimiento de viales municipales",
+          "importe": 14990.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Vk59P1f%2FWfpWhbmkna2nXQ%3D%3D"
+        },
+        {
+          "expediente": "2026/50",
+          "objeto": "Reparación red de agua municipal",
+          "importe": 14990.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=bcG9vXF2pIr%2B3JAijKO%2Bkg%3D%3D"
+        },
+        {
+          "expediente": "2026/49",
+          "objeto": "Mantenimiento de viales municipales",
+          "importe": 14990.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=gsAWsWUF3fg4NavIWzMcHA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 9,
       "adjudicatario": "María Luz Poyatos Fernández",
       "organo": "Alcaldía del Ayuntamiento de Solana del Pino",
       "num_contratos": 4,
@@ -468,72 +546,6 @@
           "objeto": "Servicio de preparado y distribución de comidas. Proyecto de Apoyo Nutricional",
           "importe": 14480.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=4Q2DjvcJKXmP66GS%2BONYvQ%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 8,
-      "adjudicatario": "CH3 ALMERIA SLU",
-      "organo": "Jefatura de Intendencia de Asuntos Económicos Sur",
-      "num_contratos": 3,
-      "importe_total": 113184.01,
-      "importe_medio": 37728.0,
-      "umbral_legal": 40000,
-      "descripcion": "3 contratos menores de obras entre 32,000€ y 40,000€ del mismo proveedor al mismo órgano. Total: 113,184€ (supera el umbral de 40,000€ que obligaría a licitar). Importes sospechosamente similares.",
-      "contratos": [
-        {
-          "expediente": "2026/ETSAE0226/00006691E",
-          "objeto": "CM Obra acondicionamiento zonas interiores del edificio E-077, Base Álvarez de Sotomayor (Almería)",
-          "importe": 35926.35,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VdorpSk4lX4IYE3ZiZ%2BxmQ%3D%3D"
-        },
-        {
-          "expediente": "2026/ETSAE0226/00006112E",
-          "objeto": "CM Obra adecuación aseos edificio E-127 Cía. Mando y Personal, Base Álvarez de Sotomayor (Viator - Almería)",
-          "importe": 39417.57,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=38iDlK%2Bes3yIzo3LHNPGcQ%3D%3D"
-        },
-        {
-          "expediente": "2026/ETSAE0226/00006421E",
-          "objeto": "CM Obra acondicionamiento zonas interiores Edificio nº 150, Base Álvarez de Sotomayor (Almería)",
-          "importe": 37840.09,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Oy8iYeiNYfczjChw4z%2FXvw%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 8,
-      "adjudicatario": "EDITORIAL EXTREMADURA SA",
-      "organo": "Vicepresidencia y Consejería de Presidencia, Coordinación de la Acción de Gobierno, Interior y Emergencias",
-      "num_contratos": 3,
-      "importe_total": 39858.46,
-      "importe_medio": 13286.15,
-      "umbral_legal": 15000,
-      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 39,858€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
-      "contratos": [
-        {
-          "expediente": "PRM/2026/0000108051",
-          "objeto": "Adquisición de espacios publicitarios en prensa local destinados a reforzar la confianza y prestigio del sistema educativo público como opción de calidad, inclusiva y accesible; incrementar la matriculación en centros públicos; y visibilidad el valor social de la educación como motor de igualdad de oportunidades y cohesión social en la Comunidad Autónoma de Extremadura.",
-          "importe": 12007.99,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=tdnoFsAv2Zgtm4eBPtV6eQ%3D%3D"
-        },
-        {
-          "expediente": "PRM/2026/0000122679",
-          "objeto": "Elaboración, publicación y difusión de contenidos editoriales destinados a divulgar las actuaciones impulsadas por la Junta de Extremadura en materia de centros de datos, poniendo en valor la apuesta regional por la innovación, la transformación digital, el desarrollo tecnológico y la generación de nuevas oportunidades de inversión y empleo.",
-          "importe": 13717.67,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=INAZnD%2FUuw0Xhk1FZxEyvw%3D%3D"
-        },
-        {
-          "expediente": "PRM/2026/0000133192",
-          "objeto": "Difusión de la imagen de Extremadura, asociada al talento de la juventud extremeña, a través de publicidad institucional en una revista anual especializada en casos de éxito de trayectorias personales y profesionales, editada por grupo de prensa generalista con presencia en la región. Objetivo: Compra de espacios publicitarios en la revista Ex+, del grupo Prensa Ibérica, destinados a incrementar la visibilidad del talento extremeño. Prestaciones: Las detalladas en la propuesta. Soporte: Prensa en papel. Medio: Revista Ex+, de El Periódico Extremadura.",
-          "importe": 14132.8,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=NIymmWkGQKj5Rey58Yagpg%3D%3D"
         }
       ]
     },
@@ -699,6 +711,39 @@
           "objeto": "CM Suministro de equipamiento para la USBA Menacho (Badajoz)",
           "importe": 14079.75,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=EheJmdwiqOQeC9GJQOEBkQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "CH3 ALMERIA SLU",
+      "organo": "Jefatura de Intendencia de Asuntos Económicos Sur",
+      "num_contratos": 3,
+      "importe_total": 113184.01,
+      "importe_medio": 37728.0,
+      "umbral_legal": 40000,
+      "descripcion": "3 contratos menores de obras entre 32,000€ y 40,000€ del mismo proveedor al mismo órgano. Total: 113,184€ (supera el umbral de 40,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/ETSAE0226/00006691E",
+          "objeto": "CM Obra acondicionamiento zonas interiores del edificio E-077, Base Álvarez de Sotomayor (Almería)",
+          "importe": 35926.35,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VdorpSk4lX4IYE3ZiZ%2BxmQ%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0226/00006112E",
+          "objeto": "CM Obra adecuación aseos edificio E-127 Cía. Mando y Personal, Base Álvarez de Sotomayor (Viator - Almería)",
+          "importe": 39417.57,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=38iDlK%2Bes3yIzo3LHNPGcQ%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0226/00006421E",
+          "objeto": "CM Obra acondicionamiento zonas interiores Edificio nº 150, Base Álvarez de Sotomayor (Almería)",
+          "importe": 37840.09,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Oy8iYeiNYfczjChw4z%2FXvw%3D%3D"
         }
       ]
     },
@@ -930,6 +975,39 @@
           "objeto": "Contrato menor mixto de suministro e instalación de elementos que conforman el Parque infantil de Los Castillos.",
           "importe": 13075.4,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SMm%2FZZ6efDNrhBlEHQFSKA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "EDITORIAL EXTREMADURA SA",
+      "organo": "Vicepresidencia y Consejería de Presidencia, Coordinación de la Acción de Gobierno, Interior y Emergencias",
+      "num_contratos": 3,
+      "importe_total": 39858.46,
+      "importe_medio": 13286.15,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 39,858€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "PRM/2026/0000108051",
+          "objeto": "Adquisición de espacios publicitarios en prensa local destinados a reforzar la confianza y prestigio del sistema educativo público como opción de calidad, inclusiva y accesible; incrementar la matriculación en centros públicos; y visibilidad el valor social de la educación como motor de igualdad de oportunidades y cohesión social en la Comunidad Autónoma de Extremadura.",
+          "importe": 12007.99,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=tdnoFsAv2Zgtm4eBPtV6eQ%3D%3D"
+        },
+        {
+          "expediente": "PRM/2026/0000122679",
+          "objeto": "Elaboración, publicación y difusión de contenidos editoriales destinados a divulgar las actuaciones impulsadas por la Junta de Extremadura en materia de centros de datos, poniendo en valor la apuesta regional por la innovación, la transformación digital, el desarrollo tecnológico y la generación de nuevas oportunidades de inversión y empleo.",
+          "importe": 13717.67,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=INAZnD%2FUuw0Xhk1FZxEyvw%3D%3D"
+        },
+        {
+          "expediente": "PRM/2026/0000133192",
+          "objeto": "Difusión de la imagen de Extremadura, asociada al talento de la juventud extremeña, a través de publicidad institucional en una revista anual especializada en casos de éxito de trayectorias personales y profesionales, editada por grupo de prensa generalista con presencia en la región. Objetivo: Compra de espacios publicitarios en la revista Ex+, del grupo Prensa Ibérica, destinados a incrementar la visibilidad del talento extremeño. Prestaciones: Las detalladas en la propuesta. Soporte: Prensa en papel. Medio: Revista Ex+, de El Periódico Extremadura.",
+          "importe": 14132.8,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=NIymmWkGQKj5Rey58Yagpg%3D%3D"
         }
       ]
     },
@@ -1912,48 +1990,17 @@
       ]
     },
     {
-      "tipo": "negociado_reiterado",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 3,
-      "adjudicatario": "REPSOL SOLUCIONES ENERGETICAS SA",
-      "organo": "Dirección de Gestión Económica de la Jefatura de Apoyo Logístico de la Armada",
-      "num_contratos": 3,
-      "importe_total": 954508.16,
-      "descripcion": "REPSOL SOLUCIONES ENERGETICAS SA gana 3 contratos por negociado sin publicidad del Dirección de Gestión Económica de la Jefatura de Apoyo Logístico de la Armada por 954,508€. El negociado sin publicidad es para situaciones excepcionales — usarlo repetidamente con el mismo proveedor huele a adjudicación a dedo.",
-      "contratos": [
-        {
-          "expediente": "2026/AR40U/00002578E",
-          "objeto": "DIN.- MEDIOAMBIENTE - 4º CBAM 96/2021 Lote I Suministro de Gasóleo C (TF5) a granel a Instalaciones de Armada.",
-          "importe": 284508.16,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Fue2uYX66EG5HQrHoP3G5A%3D%3D"
-        },
-        {
-          "expediente": "2026/AR40U/00002685E",
-          "objeto": "CB AM 2021 /JCMDEF / 00000096E, Lote 6: gasóleo de uso marítimo en puertos civiles",
-          "importe": 500000.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2B4jwlCtHQlrIGlsa0Wad%2Bw%3D%3D"
-        },
-        {
-          "expediente": "2026/AR40U/00003664E",
-          "objeto": "CB AM 2021 /JCMDEF / 00000096E. Lote 11: suministro de combustible para turbinas de aviación en aeropuertos civiles, acuartelamiento Los Rodeos y destacamento de helicópteros de Melilla",
-          "importe": 170000.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=98udHP8P0IvVGIpKDxgsAQ%3D%3D"
-        }
-      ]
-    },
-    {
       "tipo": "concentracion",
       "severidad": "alta",
       "emoji": "🔴",
       "adjudicatario": "CORECOR S.L.",
       "organo": "Alcaldía del Ayuntamiento de Corduente",
-      "contratos_proveedor": 12,
-      "contratos_totales": 12,
+      "contratos_proveedor": 10,
+      "contratos_totales": 10,
       "porcentaje_contratos": 100.0,
-      "importe_proveedor": 83437.67,
+      "importe_proveedor": 73806.07,
       "porcentaje_importe": 100.0,
-      "descripcion": "CORECOR S.L. gana 12 de 12 contratos (100%) del Alcaldía del Ayuntamiento de Corduente, 83,438€ de 83,438€ (100%). ¿Proveedor único justificado o cautividad?"
+      "descripcion": "CORECOR S.L. gana 10 de 10 contratos (100%) del Alcaldía del Ayuntamiento de Corduente, 73,806€ de 73,806€ (100%). ¿Proveedor único justificado o cautividad?"
     },
     {
       "tipo": "concentracion",
@@ -1980,6 +2027,17 @@
       "importe_proveedor": 191302.28,
       "porcentaje_importe": 72.3,
       "descripcion": "TESORERIA GENERAL DE LA JUNTA DE ANDALUCIA - TGJA - gana 85 de 94 contratos (90%) del Dirección del Centro Penitenciario de Málaga, 191,302€ de 264,739€ (72%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "organo": "Dirección General de Comercio y Consumo del Gobierno de Canarias",
+      "contratos_en_franja": 6,
+      "contratos_totales": 10,
+      "porcentaje": 60.0,
+      "proveedores_distintos": 6,
+      "descripcion": "Dirección General de Comercio y Consumo del Gobierno de Canarias: 6 de 10 menores (60%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "fraccionamiento",
@@ -3275,33 +3333,11 @@
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
-      "contratos_en_franja": 45,
-      "contratos_totales": 103,
-      "porcentaje": 43.7,
-      "proveedores_distintos": 34,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 45 de 103 menores (44%) entre 12,000-15,000€. 34 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
-      "organo": "Viceconsejería de Justicia",
-      "contratos_en_franja": 4,
-      "contratos_totales": 10,
-      "porcentaje": 40.0,
-      "proveedores_distintos": 4,
-      "descripcion": "Viceconsejería de Justicia: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
-      "organo": "Dirección General de Comercio y Consumo del Gobierno de Canarias",
-      "contratos_en_franja": 6,
-      "contratos_totales": 11,
-      "porcentaje": 54.5,
-      "proveedores_distintos": 6,
-      "descripcion": "Dirección General de Comercio y Consumo del Gobierno de Canarias: 6 de 11 menores (55%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 43,
+      "contratos_totales": 101,
+      "porcentaje": 42.6,
+      "proveedores_distintos": 33,
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 43 de 101 menores (43%) entre 12,000-15,000€. 33 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
