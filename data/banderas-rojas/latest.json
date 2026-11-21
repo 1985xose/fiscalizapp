@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-11-20T14:49:18",
+    "generado": "2026-11-21T13:57:08",
     "version": "3.0",
-    "contratos_analizados": 201776,
-    "menores": 123237,
-    "licitaciones": 78539,
+    "contratos_analizados": 204060,
+    "menores": 124429,
+    "licitaciones": 79631,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 122,
+    "total_flags": 125,
     "por_tipo": {
-      "fraccionamiento": 45,
+      "fraccionamiento": 46,
       "concentracion": 3,
       "patron_umbral": 8,
       "omnipresente": 2,
-      "negociado_reiterado": 7,
-      "umbral_europeo": 57
+      "negociado_reiterado": 8,
+      "umbral_europeo": 58
     },
-    "severidad_alta": 63,
-    "severidad_media": 59
+    "severidad_alta": 64,
+    "severidad_media": 61
   },
   "flags": [
     {
@@ -1503,6 +1503,39 @@
           "objeto": "SERFER. CM. Suministro abierto de líquido espumógeno contraincendios con destino a buques de la Armada apoyados por el Arsenal de Ferrol.",
           "importe": 14999.25,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SpCB4C0iWq%2Fs%2BnLj3vAg5A%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "Expertositrepair SL",
+      "organo": "Jefatura de Enseñanza. Dirección General Guardia Civil",
+      "num_contratos": 3,
+      "importe_total": 43950.0,
+      "importe_medio": 14650.0,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 43,950€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "J/0007/M/26/1",
+          "objeto": "Curso avanzado de reparación y SWAP para Datarecovery en dispositivos Android y Apple.",
+          "importe": 14625.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=U61eYkh11JDN3k3tjedSGw%3D%3D"
+        },
+        {
+          "expediente": "J/0039/M/26/1",
+          "objeto": "Curso básico en ingeniería digital.",
+          "importe": 14700.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=NdnxiyFap3LjHF5qKI4aaw%3D%3D"
+        },
+        {
+          "expediente": "J/0038/M/26/1",
+          "objeto": "Curso avanzado en ingeniería digital.",
+          "importe": 14625.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2B8Sc7480%2Ftd9PLkba5eRog%3D%3D"
         }
       ]
     },
@@ -3539,15 +3572,72 @@
       ]
     },
     {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "ITA CLINIC BCN, S.L",
+      "organo": "Presidencia del Institut Mallorquí d' Afers Socials",
+      "num_contratos": 2,
+      "importe_total": 229224.6,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 229,225€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "2026/107/CSER",
+          "objeto": "Contrato basado en el Acuerdo Marco (2025/46/AM) relativo a los contratos de servicios de plazas en centros residenciales de protección específica para personas menores de edad con problemas de conducta del IMAS",
+          "importe": 114612.3,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VVsQyVSsycrmnwcj%2BxbdTg%3D%3D"
+        },
+        {
+          "expediente": "2026/108/CSER",
+          "objeto": "Contrato basado en el Acuerdo Marco (2025/46/AM) relativo a los contratos de servicios de plazas en centros residenciales de protección específica para personas menores de edad con problemas de conducta del IMAS",
+          "importe": 114612.3,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=i%2Fjbfg%2Bw2H3i0Kd8%2Brcp6w%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "negociado_reiterado",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 3,
+      "adjudicatario": "Telefonica de España SAU",
+      "organo": "Dirección General del INTA",
+      "num_contratos": 3,
+      "importe_total": 241125.91,
+      "descripcion": "Telefonica de España SAU gana 3 contratos por negociado sin publicidad del Dirección General del INTA por 241,126€. El negociado sin publicidad es para situaciones excepcionales — usarlo repetidamente con el mismo proveedor huele a adjudicación a dedo.",
+      "contratos": [
+        {
+          "expediente": "582026015000",
+          "objeto": "Servicios e infraestructura telefonia fija, datos y enlaces especiales de la i3d",
+          "importe": 179273.55,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=OqLQygr9P7yKeVWTb9Scog%3D%3D"
+        },
+        {
+          "expediente": "582026015200",
+          "objeto": "Servicios e infraestructura telefonia fija, datos y enlaces especiales de la i3d",
+          "importe": 1806.52,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=caIv9hRatU%2FkY6rls5tG9A%3D%3D"
+        },
+        {
+          "expediente": "582026080700.",
+          "objeto": "Servicios e infraestructura telefonia fija, datos y enlaces especiales de la i3d",
+          "importe": 60045.84,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9Uqqix%2Bns8Q7%2B9FIQYNjeQ%3D%3D"
+        }
+      ]
+    },
+    {
       "tipo": "patron_umbral",
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
       "contratos_en_franja": 42,
-      "contratos_totales": 99,
-      "porcentaje": 42.4,
+      "contratos_totales": 100,
+      "porcentaje": 42.0,
       "proveedores_distintos": 33,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 42 de 99 menores (42%) entre 12,000-15,000€. 33 proveedores. Estadísticamente improbable sin intervención."
+      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 42 de 100 menores (42%) entre 12,000-15,000€. 33 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
