@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-11-21T13:57:08",
+    "generado": "2026-11-22T13:45:59",
     "version": "3.0",
-    "contratos_analizados": 204060,
-    "menores": 124429,
-    "licitaciones": 79631,
+    "contratos_analizados": 203759,
+    "menores": 124687,
+    "licitaciones": 79072,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,16 +15,16 @@
     ]
   },
   "stats": {
-    "total_flags": 125,
+    "total_flags": 123,
     "por_tipo": {
-      "fraccionamiento": 46,
+      "fraccionamiento": 45,
       "concentracion": 3,
       "patron_umbral": 8,
       "omnipresente": 2,
-      "negociado_reiterado": 8,
+      "negociado_reiterado": 7,
       "umbral_europeo": 58
     },
-    "severidad_alta": 64,
+    "severidad_alta": 62,
     "severidad_media": 61
   },
   "flags": [
@@ -240,45 +240,6 @@
           "objeto": "Instalación de paneles solares fotovoltaicos en OAL",
           "importe": 14080.59,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=nvlNP%2BihlhWAAM7L03kM8A%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 9,
-      "adjudicatario": "PLATAFORMA FEMAR S.L.",
-      "organo": "Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P.",
-      "num_contratos": 4,
-      "importe_total": 59996.99,
-      "importe_medio": 14999.25,
-      "umbral_legal": 15000,
-      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 59,997€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
-      "contratos": [
-        {
-          "expediente": "20264504003",
-          "objeto": "Adquisición de carne de mejillón para la elaboración del racionado de los internos del centro penitenciario de Ocaña II.",
-          "importe": 14999.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9I%2F1QBA2o2aGCFcHcNGIlQ%3D%3D"
-        },
-        {
-          "expediente": "20264501003",
-          "objeto": "Adquisición de aves de caza para la elaboración del racionado de los internos en el taller de alimentación del centro penitenciario de Ocaña I.",
-          "importe": 14999.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=KTI6xQVv%2ByC8ebB%2FXTwy0A%3D%3D"
-        },
-        {
-          "expediente": "20264504004",
-          "objeto": "Adquisición de carne de pavo del centro penitenciario Ocaña II.",
-          "importe": 14999.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=HB%2FUoNXa86vgL1BHd3qjQA%3D%3D"
-        },
-        {
-          "expediente": "20254103045",
-          "objeto": "Adquisición de embutido y charcutería para la elaboración del racionado del centro penitenciario de Sevilla II.",
-          "importe": 14999.99,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=quET%2BDVWjSGKeVWTb9Scog%3D%3D"
         }
       ]
     },
@@ -513,39 +474,6 @@
           "objeto": "Servicio de preparado y distribución de comidas. Proyecto de Apoyo Nutricional",
           "importe": 14480.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=4Q2DjvcJKXmP66GS%2BONYvQ%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 8,
-      "adjudicatario": "Ecoctrl SL",
-      "organo": "Presidencia de la Mancomunidad de la Canal de Navarrés",
-      "num_contratos": 3,
-      "importe_total": 43560.0,
-      "importe_medio": 14520.0,
-      "umbral_legal": 15000,
-      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 43,560€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
-      "contratos": [
-        {
-          "expediente": "568/2026",
-          "objeto": "2 ecoislas de 5 contenedores",
-          "importe": 14520.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=YjQqH%2FuZqe1%2FR5QFTlaM4A%3D%3D"
-        },
-        {
-          "expediente": "567/2026",
-          "objeto": "2 Ecoislas de 5 Contenedores",
-          "importe": 14520.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=bLipWZ3sxGj5Rey58Yagpg%3D%3D"
-        },
-        {
-          "expediente": "570/2026",
-          "objeto": "2 ecoislas de 5 contenedores",
-          "importe": 14520.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9mmNq2XscXS7JOCXkOhcDg%3D%3D"
         }
       ]
     },
@@ -1540,6 +1468,39 @@
       ]
     },
     {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "MAPACHE EVENTS SL",
+      "organo": "Alcaldía del Ayuntamiento de Casas Ibáñez",
+      "num_contratos": 3,
+      "importe_total": 39688.0,
+      "importe_medio": 13229.33,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 39,688€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "1629159X",
+          "objeto": "Contratación orquesta verbena de Feria y Fiestas 2026 para la noche 29/08/2026. ORQUESTA AZAHARA",
+          "importe": 13310.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=GJx8mHpGgQAadbH3CysQuQ%3D%3D"
+        },
+        {
+          "expediente": "1629151K",
+          "objeto": "Contratación orquesta verbena de Feria y Fiestas 2026 para la noche 28/08/2026. ORQUESTA LA BRUJULA",
+          "importe": 13310.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=BWmX7kJc75stm4eBPtV6eQ%3D%3D"
+        },
+        {
+          "expediente": "1629113H",
+          "objeto": "Contratación orquesta verbena de Feria y Fiestas 2026 para la noche 25/08/2026. ORQUESTA MAXIMS",
+          "importe": 13068.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=X48tAs0jFSw7%2B9FIQYNjeQ%3D%3D"
+        }
+      ]
+    },
+    {
       "tipo": "negociado_reiterado",
       "severidad": "alta",
       "emoji": "🔴",
@@ -2084,37 +2045,6 @@
           "objeto": "SECINFRA. Contrato basado 01/2027 en el acuerdo marco N.º 2025/ETSAE0921/00000516E para la ejecución de trabajos relacionados con el análisis, diseño, implantación y administración de los sistemas CIS del Ejército de Tierra.",
           "importe": 200860.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ZsUDDcv%2B497E6P%2FuLemXRw%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "negociado_reiterado",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 3,
-      "adjudicatario": "RODRIGUEZ LOPEZ AUTO, S.L.U.",
-      "organo": "Jefatura de Asuntos Económicos del Mando de Apoyo Logístico",
-      "num_contratos": 3,
-      "importe_total": 20249558.07,
-      "descripcion": "RODRIGUEZ LOPEZ AUTO, S.L.U. gana 3 contratos por negociado sin publicidad del Jefatura de Asuntos Económicos del Mando de Apoyo Logístico por 20,249,558€. El negociado sin publicidad es para situaciones excepcionales — usarlo repetidamente con el mismo proveedor huele a adjudicación a dedo.",
-      "contratos": [
-        {
-          "expediente": "2026/ETSAE0906/00003698E",
-          "objeto": "Adquisición Ambulancias TT SVA",
-          "importe": 6535108.97,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=6zJcDsbZoR7I8aL3PRS10Q%3D%3D"
-        },
-        {
-          "expediente": "2026/ETSAE0906/00003703E",
-          "objeto": "Adquisición ambulancias TT SVB",
-          "importe": 10081249.25,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=6rl8LwiND%2Fwtm4eBPtV6eQ%3D%3D"
-        },
-        {
-          "expediente": "2026/ETSAE0906/00003808E",
-          "objeto": "Adquisición ambulancias carretera SVA-SVB",
-          "importe": 3633199.85,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=d93Mwonvfmbi0Kd8%2Brcp6w%3D%3D"
         }
       ]
     },
