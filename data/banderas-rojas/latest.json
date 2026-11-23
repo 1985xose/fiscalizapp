@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-11-22T13:45:59",
+    "generado": "2026-11-23T16:48:10",
     "version": "3.0",
-    "contratos_analizados": 203759,
-    "menores": 124687,
-    "licitaciones": 79072,
+    "contratos_analizados": 202076,
+    "menores": 123716,
+    "licitaciones": 78360,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 123,
+    "total_flags": 119,
     "por_tipo": {
-      "fraccionamiento": 45,
+      "fraccionamiento": 43,
       "concentracion": 3,
-      "patron_umbral": 8,
+      "patron_umbral": 6,
       "omnipresente": 2,
       "negociado_reiterado": 7,
       "umbral_europeo": 58
     },
-    "severidad_alta": 62,
-    "severidad_media": 61
+    "severidad_alta": 61,
+    "severidad_media": 58
   },
   "flags": [
     {
@@ -474,39 +474,6 @@
           "objeto": "Servicio de preparado y distribución de comidas. Proyecto de Apoyo Nutricional",
           "importe": 14480.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=4Q2DjvcJKXmP66GS%2BONYvQ%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 8,
-      "adjudicatario": "AUTOCARES ESTEBAN SANCHEZ S.L.",
-      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
-      "num_contratos": 3,
-      "importe_total": 43506.39,
-      "importe_medio": 14502.13,
-      "umbral_legal": 15000,
-      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 43,506€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
-      "contratos": [
-        {
-          "expediente": "2026/038758",
-          "objeto": "TO - Transporte escolar ruta 104 IES. Alameda de la Sagra/Añover de Tajo",
-          "importe": 14555.52,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2BvpIJo%2Bc4LWP66GS%2BONYvQ%3D%3D"
-        },
-        {
-          "expediente": "2026/038852",
-          "objeto": "TO - Transporte escolar ruta 270 IP.- Pantoja",
-          "importe": 14395.35,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=5vilHQnQ9HNeKgd8LfVV9g%3D%3D"
-        },
-        {
-          "expediente": "2026/038855",
-          "objeto": "TO - Transporte escolar ruta 272 IES.- Pantoja/Numancia de la Sagra",
-          "importe": 14555.52,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=JqmBiF%2BFckJQFSeKCRun4Q%3D%3D"
         }
       ]
     },
@@ -2204,39 +2171,6 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 5,
-      "adjudicatario": "SOLPAVIFER SLU",
-      "organo": "Consejería de Fomento, Vivienda, Ordenación del Territorio y Medio Ambiente de la Comunidad Autónoma de Cantabria",
-      "num_contratos": 3,
-      "importe_total": 107341.88,
-      "importe_medio": 35780.63,
-      "umbral_legal": 40000,
-      "descripcion": "3 contratos menores de obras entre 32,000€ y 40,000€ del mismo proveedor al mismo órgano. Total: 107,342€ (supera el umbral de 40,000€ que obligaría a licitar).",
-      "contratos": [
-        {
-          "expediente": "A04OBR204700",
-          "objeto": "Reparacion De La Terminal De Autobuses De Sarón",
-          "importe": 34995.44,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=dyHqBy1Owft4zIRvjBVCSw%3D%3D"
-        },
-        {
-          "expediente": "A04OBR206000",
-          "objeto": "Acondicionamiento De Los Viales De Acceso Deteriorados De La Etap De Roiz Plan Hidraúlico Valdáliga",
-          "importe": 39482.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=aGAuKFSeQklLAIVZdUs8KA%3D%3D"
-        },
-        {
-          "expediente": "A04OBR205400",
-          "objeto": "Acondicionamiento De Pavimentos Superficiales En El Puerto De Colindres.",
-          "importe": 32864.44,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=bjkUQpgAXimqb7rCcv76BA%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "media",
-      "emoji": "🟡",
-      "score": 5,
       "adjudicatario": "JLD SERVICIOS E INGENIO S.L.U",
       "organo": "Jefatura de la Sección Económico Administrativa 14 - Cuartel General del Mando Aéreo de Canarias",
       "num_contratos": 3,
@@ -3557,28 +3491,6 @@
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9Uqqix%2Bns8Q7%2B9FIQYNjeQ%3D%3D"
         }
       ]
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
-      "organo": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo",
-      "contratos_en_franja": 42,
-      "contratos_totales": 100,
-      "porcentaje": 42.0,
-      "proveedores_distintos": 33,
-      "descripcion": "Delegación Provincial de la Consejería de Educación, Cultura y Deportes en Toledo: 42 de 100 menores (42%) entre 12,000-15,000€. 33 proveedores. Estadísticamente improbable sin intervención."
-    },
-    {
-      "tipo": "patron_umbral",
-      "severidad": "media",
-      "emoji": "🟡",
-      "organo": "Alcaldía del Ayuntamiento de Santa Úrsula",
-      "contratos_en_franja": 4,
-      "contratos_totales": 10,
-      "porcentaje": 40.0,
-      "proveedores_distintos": 4,
-      "descripcion": "Alcaldía del Ayuntamiento de Santa Úrsula: 4 de 10 menores (40%) entre 12,000-15,000€. 4 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
