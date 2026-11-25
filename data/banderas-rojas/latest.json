@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-11-24T16:48:08",
+    "generado": "2026-11-25T16:29:22",
     "version": "3.0",
-    "contratos_analizados": 202634,
-    "menores": 124259,
-    "licitaciones": 78375,
+    "contratos_analizados": 200295,
+    "menores": 122656,
+    "licitaciones": 77639,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 121,
+    "total_flags": 116,
     "por_tipo": {
-      "fraccionamiento": 43,
+      "fraccionamiento": 40,
       "concentracion": 3,
       "patron_umbral": 6,
-      "omnipresente": 3,
+      "omnipresente": 2,
       "negociado_reiterado": 8,
-      "umbral_europeo": 58
+      "umbral_europeo": 57
     },
-    "severidad_alta": 59,
-    "severidad_media": 62
+    "severidad_alta": 55,
+    "severidad_media": 61
   },
   "flags": [
     {
@@ -436,45 +436,6 @@
       "tipo": "fraccionamiento",
       "severidad": "alta",
       "emoji": "🔴",
-      "score": 9,
-      "adjudicatario": "María Luz Poyatos Fernández",
-      "organo": "Alcaldía del Ayuntamiento de Solana del Pino",
-      "num_contratos": 4,
-      "importe_total": 58400.0,
-      "importe_medio": 14600.0,
-      "umbral_legal": 15000,
-      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 58,400€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
-      "contratos": [
-        {
-          "expediente": "101/2021-2023-2S",
-          "objeto": "Servicio de preparado y distribución de comidas. Proyecto de Apoyo Nutricional",
-          "importe": 14720.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2BKkmJHka9CYzjChw4z%2FXvw%3D%3D"
-        },
-        {
-          "expediente": "101/2021-2023-1S",
-          "objeto": "Servicio de preparado y distribución de comidas. Proyecto de Apoyo Nutricional",
-          "importe": 14480.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2FjAr4Y5ZqmPI8aL3PRS10Q%3D%3D"
-        },
-        {
-          "expediente": "101/2021-2022-2S",
-          "objeto": "Servicio de preparado y distribución de comidas. Proyecto de Apoyo Nutricional",
-          "importe": 14720.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9JnYH%2BgtPBLgL1BHd3qjQA%3D%3D"
-        },
-        {
-          "expediente": "101/2021-2022-1S",
-          "objeto": "Servicio de preparado y distribución de comidas. Proyecto de Apoyo Nutricional",
-          "importe": 14480.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=4Q2DjvcJKXmP66GS%2BONYvQ%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "alta",
-      "emoji": "🔴",
       "score": 8,
       "adjudicatario": "ACEINSA SALAMANCA S.A.",
       "organo": "Alcaldía del Ayuntamiento de Santa Marta de Tormes",
@@ -501,39 +462,6 @@
           "objeto": "200 ud. instalación de 200 árboles de Navidad pequeños suministrados por el Ayto., 200 ud. suministro e instalación de guirnaldas para 200 árboles pequeños, y 1 ud. suministro material de iluminación para portal de Belén del Ayto",
           "importe": 12997.13,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XJUSy9cs4YSAAM7L03kM8A%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 8,
-      "adjudicatario": "SUMINISTROS SANTO DOMINGO SL",
-      "organo": "Jefatura de Intendencia de Asuntos Económicos Sur",
-      "num_contratos": 3,
-      "importe_total": 39457.85,
-      "importe_medio": 13152.62,
-      "umbral_legal": 15000,
-      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 39,458€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
-      "contratos": [
-        {
-          "expediente": "2026/ETSAE0226/00006551E",
-          "objeto": "CM Suministro material fungible para cursos de empleo: operaciones de fontanería y calefacción-climatización doméstica, USBA Menacho (Badajoz)",
-          "importe": 12021.1,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=BBo%2FKVXgRe19Zh%2FyRJgM8w%3D%3D"
-        },
-        {
-          "expediente": "2026/ETSAE0226/00008745E",
-          "objeto": "CM Suministro de diverso mobiliario y electrodomésticos para un pabellón de cargo 092019, USBA Menacho (Badajoz)",
-          "importe": 13357.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Ctt7SzIYYgyGCFcHcNGIlQ%3D%3D"
-        },
-        {
-          "expediente": "2026/ETSAE0226/00008865E",
-          "objeto": "CM Suministro de equipamiento para la USBA Menacho (Badajoz)",
-          "importe": 14079.75,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=EheJmdwiqOQeC9GJQOEBkQ%3D%3D"
         }
       ]
     },
@@ -831,39 +759,6 @@
           "objeto": "Difusión de la imagen de Extremadura, asociada al talento de la juventud extremeña, a través de publicidad institucional en una revista anual especializada en casos de éxito de trayectorias personales y profesionales, editada por grupo de prensa generalista con presencia en la región. Objetivo: Compra de espacios publicitarios en la revista Ex+, del grupo Prensa Ibérica, destinados a incrementar la visibilidad del talento extremeño. Prestaciones: Las detalladas en la propuesta. Soporte: Prensa en papel. Medio: Revista Ex+, de El Periódico Extremadura.",
           "importe": 14132.8,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=NIymmWkGQKj5Rey58Yagpg%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 8,
-      "adjudicatario": "ALCOZAP DISTRIBUCIONES, S.L.",
-      "organo": "Presidencia de la Diputación Provincial de Alicante",
-      "num_contratos": 3,
-      "importe_total": 42058.5,
-      "importe_medio": 14019.5,
-      "umbral_legal": 15000,
-      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 42,058€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
-      "contratos": [
-        {
-          "expediente": "DIPU/2026/19/0072",
-          "objeto": "Adquisición de productos alimenticios (ave y conejo) para los residentes del Centro Hogar Provincial Antonio F. Valenzuela.",
-          "importe": 14503.5,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Lj4YVeCOQf3E6P%2FuLemXRw%3D%3D"
-        },
-        {
-          "expediente": "DIPU/2026/19/0004",
-          "objeto": "Adquisición de productos alimenticios (huevos) para los residentes del Hogar Provincial Antonio Fernández Valenzuela.",
-          "importe": 12730.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=V2R%2FV7UTurpWhbmkna2nXQ%3D%3D"
-        },
-        {
-          "expediente": "DIPU/2026/19/0001",
-          "objeto": "Adquisición de productos alimenticios (carne fresca) para los residentes del Hogar Provincial Antonio Fernández Valenzuela.",
-          "importe": 14825.0,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=5hW7HiU2xW%2BkU02jNGj1Fw%3D%3D"
         }
       ]
     },
@@ -1623,38 +1518,6 @@
           "objeto": "Suministro De Actualizaciones Y Soporte Del Software De Backup (Ministerio De Industria Y Turismo-Oficina Española De Patentes Y Marcas, O.A.)",
           "importe": 125050.55,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=eA%2BY9wwlLcDs%2BnLj3vAg5A%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "umbral_europeo",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 6,
-      "adjudicatario": "Parque Grazalema SL",
-      "organo": "Paradores de Turismo de España, S.M.E., S.A.",
-      "num_contratos": 3,
-      "importe_total": 402744.63,
-      "umbral_legal": 140000,
-      "descripcion": "3 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 402,745€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
-      "contratos": [
-        {
-          "expediente": "AB PELLET TERUEL SEP 26",
-          "objeto": "Acuerdo marco del suministro de biomasa combustible en forma de pellet de madera con destino al Parador de Turismo de Teruel desde el 01 de septiembre de 2026 hasta el 30 de septiembre de 2026.",
-          "importe": 133350.23,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=73jlO1BL3m0UqXM96WStVA%3D%3D"
-        },
-        {
-          "expediente": "AB PELLET TERUEL OCT 26",
-          "objeto": "Acuerdo marco suministro de biomasa combustible en forma de pellet de madera con destino al Parador de Turismo de Teruel desde el 01 al 31 de octubre de 2026.",
-          "importe": 134697.2,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Irag8d8jodcwYTJJ03sHog%3D%3D"
-        },
-        {
-          "expediente": "AB PELLET TERUEL NOV 26",
-          "objeto": "Acuerdo marco Suministro de Biomasa combustible en forma de pellet de madera con destino al Parador de Turismo de Teruel desde el 01 al 30 de noviembre de 2026.",
-          "importe": 134697.2,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=dc%2FIZ4O%2FVOHIGlsa0Wad%2Bw%3D%3D"
         }
       ]
     },
@@ -2933,32 +2796,6 @@
       "severidad": "media",
       "emoji": "🟡",
       "score": 4,
-      "adjudicatario": "HIDEMAR, S.A.",
-      "organo": "Dirección General de Planificación Económica",
-      "num_contratos": 2,
-      "importe_total": 232392.6,
-      "umbral_legal": 140000,
-      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 232,393€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
-      "contratos": [
-        {
-          "expediente": "CS/99/1126053310/26/PNSP",
-          "objeto": "Adquisición de 142 Camillas Hidráulicas para el Servicio Extremeño de Salud",
-          "importe": 113401.2,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=rBohnWKU2f5xseVhcqrkhw%3D%3D"
-        },
-        {
-          "expediente": "CS/99/1126053430/26/PNSP",
-          "objeto": "Adquisición de 149 Camillas Hidráulicas para el Servicio Extremeño de Salud",
-          "importe": 118991.4,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=fYKAUresl567JOCXkOhcDg%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "umbral_europeo",
-      "severidad": "media",
-      "emoji": "🟡",
-      "score": 4,
       "adjudicatario": "SUR DE IMPORTACIÓN Y EXPORTACIÓN DE NAVALEZ DE CADIZ, SL",
       "organo": "Intendente de Rota",
       "num_contratos": 2,
@@ -3003,6 +2840,32 @@
           "objeto": "SINFO.- Suministro de equipos de sobremesa avanzados para laboratorios de CIberdefensa en las escuelas de la Armada.",
           "importe": 133979.67,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=1EB9JECf07UUqXM96WStVA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "Parque Grazalema SL",
+      "organo": "Paradores de Turismo de España, S.M.E., S.A.",
+      "num_contratos": 2,
+      "importe_total": 269394.4,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 269,394€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "AB PELLET TERUEL OCT 26",
+          "objeto": "Acuerdo marco suministro de biomasa combustible en forma de pellet de madera con destino al Parador de Turismo de Teruel desde el 01 al 31 de octubre de 2026.",
+          "importe": 134697.2,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Irag8d8jodcwYTJJ03sHog%3D%3D"
+        },
+        {
+          "expediente": "AB PELLET TERUEL NOV 26",
+          "objeto": "Acuerdo marco Suministro de Biomasa combustible en forma de pellet de madera con destino al Parador de Turismo de Teruel desde el 01 al 30 de noviembre de 2026.",
+          "importe": 134697.2,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=dc%2FIZ4O%2FVOHIGlsa0Wad%2Bw%3D%3D"
         }
       ]
     },
@@ -3575,21 +3438,6 @@
         "Consejería de Medio Ambiente y Energía de la Junta de Castilla y León"
       ],
       "descripcion": "EL NORTE DE CASTILLA, S.A. en 4 órganos distintos, todos en franja 12,000-15,000€. 6 contratos por 83,085€. Presencia sistemática justo bajo el umbral."
-    },
-    {
-      "tipo": "omnipresente",
-      "severidad": "media",
-      "emoji": "🟡",
-      "adjudicatario": "UNIPREX, S.A.U.",
-      "num_organos": 3,
-      "num_contratos": 5,
-      "importe_total": 73071.9,
-      "organos": [
-        "Consejería de la Presidencia de la Junta de Castilla y León",
-        "Junta de Gobierno del Ayuntamiento de Murcia",
-        "Presidencia de la Autoridad Portuaria de Ferrol San Cibrao"
-      ],
-      "descripcion": "UNIPREX, S.A.U. en 3 órganos distintos, todos en franja 12,000-15,000€. 5 contratos por 73,072€. Presencia sistemática justo bajo el umbral."
     },
     {
       "tipo": "omnipresente",
