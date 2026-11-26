@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-11-25T16:29:22",
+    "generado": "2026-11-26T16:03:04",
     "version": "3.0",
-    "contratos_analizados": 200295,
-    "menores": 122656,
-    "licitaciones": 77639,
+    "contratos_analizados": 201811,
+    "menores": 124866,
+    "licitaciones": 76945,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 116,
+    "total_flags": 125,
     "por_tipo": {
-      "fraccionamiento": 40,
-      "concentracion": 3,
-      "patron_umbral": 6,
-      "omnipresente": 2,
+      "fraccionamiento": 43,
+      "concentracion": 4,
+      "patron_umbral": 8,
+      "omnipresente": 5,
       "negociado_reiterado": 8,
       "umbral_europeo": 57
     },
-    "severidad_alta": 55,
-    "severidad_media": 61
+    "severidad_alta": 60,
+    "severidad_media": 65
   },
   "flags": [
     {
@@ -144,51 +144,6 @@
           "objeto": "CR- Contrato menor- tte escolar ruta 13003336-C (Bus) 2026/27",
           "importe": 14960.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=FJRGlen3x25rSd8H4b2soA%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 12,
-      "adjudicatario": "PC TENERIFE SERVICE S.L.",
-      "organo": "Rectorado de la Universidad de La Laguna",
-      "num_contratos": 5,
-      "importe_total": 72246.79,
-      "importe_medio": 14449.36,
-      "umbral_legal": 15000,
-      "descripcion": "5 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 72,247€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
-      "contratos": [
-        {
-          "expediente": "2026/MEN0000378",
-          "objeto": "El presente contrato tiene por objeto justificar la necesidad de adquirir veinte (20) ordenadores portátiles destinados a su cesión temporal, en régimen de préstamo, a estudiantes matriculados en primer curso de titulaciones oficiales de grado de la Universidad de La Laguna que acrediten insuficiencia de recursos económicos y carezcan de un equipo informático adecuado para el seguimiento de sus estudios universitarios.",
-          "importe": 14453.56,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=e09sNjiZXL9Vq4S9zvaQpQ%3D%3D"
-        },
-        {
-          "expediente": "2026/MEN0000391",
-          "objeto": "La actuación consiste en la compra y adquisición de 15 ordenadores de sobremesa Qi Slim, que serán destinados a la sala de informática de la Facultad de Farmacia, así como de 6 ordenadores portátiles Asus, que serán empleados en la biblioteca del centro.\nCon esta actuación se pretende renovar y reforzar la dotación tecnológica disponible para el estudiantado, facilitando el acceso a medios informáticos adecuados para el desarrollo de actividades docentes, prácticas, académicas y de apoyo al aprendizaje. Asimismo, la incorporación de estos equipos contribuirá a mejorar las condiciones de uso de los espacios destinados al estudio y a la formación, adaptándolos a las necesidades tecnológicas actuales.",
-          "importe": 14915.4,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=eJ0VCK1q5h6GCFcHcNGIlQ%3D%3D"
-        },
-        {
-          "expediente": "2026/MEN0000390",
-          "objeto": "Adquirir material informático de características especiales para docencia e investigación.",
-          "importe": 14745.35,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=QCM3iwd7zUh%2FR5QFTlaM4A%3D%3D"
-        },
-        {
-          "expediente": "2026/MEN0000560",
-          "objeto": "Prestación del servicio integral de mantenimiento preventivo,\ncorrectivo y soporte técnico para un parque estimado de 172\nordenadores portátiles, incluyendo asistencia remota y\npresencial, diagnóstico y reparación de incidencias de\nhardware y software, actualización de sistemas",
-          "importe": 14982.46,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SzHi6KomYI%2BcTfjQf3USOg%3D%3D"
-        },
-        {
-          "expediente": "2026/MEN0000452",
-          "objeto": "Suministro de mobiliario para las diferentes zonas de la facultad.",
-          "importe": 13150.02,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=7ufgMboe0YVVYjgxA4nMUw%3D%3D"
         }
       ]
     },
@@ -429,6 +384,45 @@
           "objeto": "Mantenimiento de viales municipales",
           "importe": 14990.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=gsAWsWUF3fg4NavIWzMcHA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 9,
+      "adjudicatario": "PC TENERIFE SERVICE S.L.",
+      "organo": "Rectorado de la Universidad de La Laguna",
+      "num_contratos": 4,
+      "importe_total": 57793.23,
+      "importe_medio": 14448.31,
+      "umbral_legal": 15000,
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 57,793€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/MEN0000391",
+          "objeto": "La actuación consiste en la compra y adquisición de 15 ordenadores de sobremesa Qi Slim, que serán destinados a la sala de informática de la Facultad de Farmacia, así como de 6 ordenadores portátiles Asus, que serán empleados en la biblioteca del centro.\nCon esta actuación se pretende renovar y reforzar la dotación tecnológica disponible para el estudiantado, facilitando el acceso a medios informáticos adecuados para el desarrollo de actividades docentes, prácticas, académicas y de apoyo al aprendizaje. Asimismo, la incorporación de estos equipos contribuirá a mejorar las condiciones de uso de los espacios destinados al estudio y a la formación, adaptándolos a las necesidades tecnológicas actuales.",
+          "importe": 14915.4,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=eJ0VCK1q5h6GCFcHcNGIlQ%3D%3D"
+        },
+        {
+          "expediente": "2026/MEN0000390",
+          "objeto": "Adquirir material informático de características especiales para docencia e investigación.",
+          "importe": 14745.35,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=QCM3iwd7zUh%2FR5QFTlaM4A%3D%3D"
+        },
+        {
+          "expediente": "2026/MEN0000560",
+          "objeto": "Prestación del servicio integral de mantenimiento preventivo,\ncorrectivo y soporte técnico para un parque estimado de 172\nordenadores portátiles, incluyendo asistencia remota y\npresencial, diagnóstico y reparación de incidencias de\nhardware y software, actualización de sistemas",
+          "importe": 14982.46,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SzHi6KomYI%2BcTfjQf3USOg%3D%3D"
+        },
+        {
+          "expediente": "2026/MEN0000452",
+          "objeto": "Suministro de mobiliario para las diferentes zonas de la facultad.",
+          "importe": 13150.02,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=7ufgMboe0YVVYjgxA4nMUw%3D%3D"
         }
       ]
     },
@@ -800,6 +794,39 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 8,
+      "adjudicatario": "ELECNOR SERVICIOS Y PROYECTOS,S.A.U.",
+      "organo": "Rectorado de la Universitat de València",
+      "num_contratos": 3,
+      "importe_total": 39318.62,
+      "importe_medio": 13106.21,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 39,319€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026OB00637CM",
+          "objeto": "Sustitución pantallas pasillos 3ª,  4ª y 5ª en FdE",
+          "importe": 12164.67,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=0UFy%2FNIHDyTjHF5qKI4aaw%3D%3D"
+        },
+        {
+          "expediente": "2026OB00648CM",
+          "objeto": "Sustitución de 8 ventanas originales de la Biblioteca por ventanas con rotura de puente térmico, con apertura oscilo batiente y vidrio 4/24/4. Se incluye pintura de contorno",
+          "importe": 13585.48,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=k7D8swdMEr%2FLIx6q1oPaMg%3D%3D"
+        },
+        {
+          "expediente": "2026OB00750CM",
+          "objeto": "Tratamiento antideslizante suelo cafetería",
+          "importe": 13568.47,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SdKRw8r4C74S7pcxhTeWOg%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
       "adjudicatario": "iacobus via slu",
       "organo": "Dirección Provincial de Educación en León",
       "num_contratos": 3,
@@ -1163,6 +1190,39 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 8,
+      "adjudicatario": "EURONAVAL SERVICIOS INTEGRALES SL",
+      "organo": "Intendente de Ferrol",
+      "num_contratos": 3,
+      "importe_total": 42809.7,
+      "importe_medio": 14269.9,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 42,810€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2026/AR42U/00003458E",
+          "objeto": "CM. Servicio abierto de archivo y encuadernación de documentación en oficinas de la ESCAÑO",
+          "importe": 13000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=TackPmSuX5iKeVWTb9Scog%3D%3D"
+        },
+        {
+          "expediente": "2026/AR42U/00003569E",
+          "objeto": "SERFER. CM. Suministro abierto de escalas de práctico con destino a buques de la Armada apoyados por el Arsenal de Ferrol.",
+          "importe": 14819.7,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=mx9ZR0vFvJ79pbnDwlaUlg%3D%3D"
+        },
+        {
+          "expediente": "2026/AR42U/00003454E",
+          "objeto": "SERFER.- C.M. Suministro abierto de artículos de cabuyería con destino a distintos buques del arsenal de Ferrol.",
+          "importe": 14990.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=AfFjrDATmv7s%2BnLj3vAg5A%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
       "adjudicatario": "Onretrieval Group SL",
       "organo": "Jefatura de Enseñanza. Dirección General Guardia Civil",
       "num_contratos": 3,
@@ -1287,6 +1347,39 @@
           "objeto": "Curso avanzado en ingeniería digital.",
           "importe": 14625.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2B8Sc7480%2Ftd9PLkba5eRog%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "Ted Spain 2014 SL",
+      "organo": "Jefatura de Enseñanza. Dirección General Guardia Civil",
+      "num_contratos": 3,
+      "importe_total": 42820.0,
+      "importe_medio": 14273.33,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 42,820€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "J/0031/M/26/2",
+          "objeto": "Servicios de apoyo para tribunales de idiomas.",
+          "importe": 13720.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=mbBomCSHqFeOUi78BmzhOQ%3D%3D"
+        },
+        {
+          "expediente": "J/0029/M/26/2",
+          "objeto": "Servicios de apoyo para tribunales de idiomas.",
+          "importe": 14550.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=snWwTRbax%2BNJ8Trn0ZPzLw%3D%3D"
+        },
+        {
+          "expediente": "J/0064/26/2",
+          "objeto": "Apoyo tribunales idiomas ITEMS.",
+          "importe": 14550.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=vxdp6jr%2FqH4QyBAnWzHfCg%3D%3D"
         }
       ]
     },
@@ -1908,6 +2001,19 @@
       "descripcion": "TESORERIA GENERAL DE LA JUNTA DE ANDALUCIA - TGJA - gana 85 de 94 contratos (90%) del Dirección del Centro Penitenciario de Málaga, 191,302€ de 384,707€ (50%). ¿Proveedor único justificado o cautividad?"
     },
     {
+      "tipo": "concentracion",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "adjudicatario": "OFICINA TECNICA MARTIN ARANDA HIGUERAS SOCIEDAD LIMITADA",
+      "organo": "Alcaldía del Ayuntamiento de Santiago de Calatrava",
+      "contratos_proveedor": 21,
+      "contratos_totales": 23,
+      "porcentaje_contratos": 91.3,
+      "importe_proveedor": 144522.4,
+      "porcentaje_importe": 100.0,
+      "descripcion": "OFICINA TECNICA MARTIN ARANDA HIGUERAS SOCIEDAD LIMITADA gana 21 de 23 contratos (91%) del Alcaldía del Ayuntamiento de Santiago de Calatrava, 144,522€ de 144,522€ (100%). ¿Proveedor único justificado o cautividad?"
+    },
+    {
       "tipo": "patron_umbral",
       "severidad": "alta",
       "emoji": "🔴",
@@ -1917,6 +2023,23 @@
       "porcentaje": 63.6,
       "proveedores_distintos": 7,
       "descripcion": "Dirección General de Comercio y Consumo del Gobierno de Canarias: 7 de 11 menores (64%) entre 12,000-15,000€. 7 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "omnipresente",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "adjudicatario": "ELECNOR SERVICIOS Y PROYECTOS, S.A.U.",
+      "num_organos": 5,
+      "num_contratos": 5,
+      "importe_total": 65078.4,
+      "organos": [
+        "Teniente Alcalde, Delegado de Contratación del Ayuntamiento de Lebrija",
+        "Rectorado de la Universidad de Cádiz",
+        "Jefatura de la Sección Económico Administrativa 14 - Cuartel General del Mando Aéreo de Canarias",
+        "Centro de Estudios y Experimentación de Obras Públicas (CEDEX)",
+        "Instituto Nacional de Estadística INE"
+      ],
+      "descripcion": "ELECNOR SERVICIOS Y PROYECTOS, S.A.U. en 5 órganos distintos, todos en franja 12,000-15,000€. 5 contratos por 65,078€. Presencia sistemática justo bajo el umbral."
     },
     {
       "tipo": "fraccionamiento",
@@ -3373,11 +3496,33 @@
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Instituto Canario de Igualdad",
+      "contratos_en_franja": 6,
+      "contratos_totales": 11,
+      "porcentaje": 54.5,
+      "proveedores_distintos": 6,
+      "descripcion": "Instituto Canario de Igualdad: 6 de 11 menores (55%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Alcaldía del Ayuntamiento de Valleseco",
+      "contratos_en_franja": 4,
+      "contratos_totales": 10,
+      "porcentaje": 40.0,
+      "proveedores_distintos": 3,
+      "descripcion": "Alcaldía del Ayuntamiento de Valleseco: 4 de 10 menores (40%) entre 12,000-15,000€. 3 proveedores. Estadísticamente improbable sin intervención."
+    },
+    {
+      "tipo": "patron_umbral",
+      "severidad": "media",
+      "emoji": "🟡",
+      "organo": "Dirección de Gestión Económica de la Jefatura de Apoyo Logístico de la Armada",
       "contratos_en_franja": 5,
       "contratos_totales": 10,
       "porcentaje": 50.0,
-      "proveedores_distintos": 5,
-      "descripcion": "Instituto Canario de Igualdad: 5 de 10 menores (50%) entre 12,000-15,000€. 5 proveedores. Estadísticamente improbable sin intervención."
+      "proveedores_distintos": 2,
+      "descripcion": "Dirección de Gestión Económica de la Jefatura de Apoyo Logístico de la Armada: 5 de 10 menores (50%) entre 12,000-15,000€. 2 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -3395,11 +3540,11 @@
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Miembros Corporativos con Delegaciones Especiales del Cabildo Insular de la Palma",
-      "contratos_en_franja": 5,
-      "contratos_totales": 10,
+      "contratos_en_franja": 6,
+      "contratos_totales": 12,
       "porcentaje": 50.0,
-      "proveedores_distintos": 5,
-      "descripcion": "Miembros Corporativos con Delegaciones Especiales del Cabildo Insular de la Palma: 5 de 10 menores (50%) entre 12,000-15,000€. 5 proveedores. Estadísticamente improbable sin intervención."
+      "proveedores_distintos": 6,
+      "descripcion": "Miembros Corporativos con Delegaciones Especiales del Cabildo Insular de la Palma: 6 de 12 menores (50%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -3429,15 +3574,46 @@
       "emoji": "🟡",
       "adjudicatario": "EL NORTE DE CASTILLA, S.A.",
       "num_organos": 4,
-      "num_contratos": 6,
-      "importe_total": 83084.6,
+      "num_contratos": 5,
+      "importe_total": 68184.6,
       "organos": [
         "Presidencia de la Diputación Provincial de Valladolid",
-        "Consejería de Agricultura, Ganadería, Medio Rural y Política Ambiental de la Junta de Castilla y León",
         "Instituto para la Competitividad Empresarial de la Junta de Castilla y León",
+        "Consejería de Agricultura, Ganadería, Medio Rural y Política Ambiental de la Junta de Castilla y León",
         "Consejería de Medio Ambiente y Energía de la Junta de Castilla y León"
       ],
-      "descripcion": "EL NORTE DE CASTILLA, S.A. en 4 órganos distintos, todos en franja 12,000-15,000€. 6 contratos por 83,085€. Presencia sistemática justo bajo el umbral."
+      "descripcion": "EL NORTE DE CASTILLA, S.A. en 4 órganos distintos, todos en franja 12,000-15,000€. 5 contratos por 68,185€. Presencia sistemática justo bajo el umbral."
+    },
+    {
+      "tipo": "omnipresente",
+      "severidad": "media",
+      "emoji": "🟡",
+      "adjudicatario": "OCIO Y CULTURA LA FABRICA SL",
+      "num_organos": 4,
+      "num_contratos": 5,
+      "importe_total": 69242.25,
+      "organos": [
+        "Junta de Gobierno del Ayuntamiento de Marbella",
+        "Concejalía Delegada de la Presidencia de la Junta Municipal del Distrito nº 10, Puerto de la Torre del Ayuntamiento de Málaga",
+        "Concejalía Delegada de la Presidencia de la Junta Municipal del Distrito nº 7, Carretera de Cádiz del Ayuntamiento de Málaga",
+        "Concejalía Delegada de la Presidencia de la Junta Municipal del Distrito nº 4, Bailén Miraflores del Ayuntamiento de Málaga"
+      ],
+      "descripcion": "OCIO Y CULTURA LA FABRICA SL en 4 órganos distintos, todos en franja 12,000-15,000€. 5 contratos por 69,242€. Presencia sistemática justo bajo el umbral."
+    },
+    {
+      "tipo": "omnipresente",
+      "severidad": "media",
+      "emoji": "🟡",
+      "adjudicatario": "ELECNOR SERVICIOS Y PROYECTOS,S.A.U.",
+      "num_organos": 3,
+      "num_contratos": 5,
+      "importe_total": 65520.92,
+      "organos": [
+        "Rectorado de la Universitat de València",
+        "Dirección General de la Entidad Valenciana de Vivienda y Suelo (EVHA)",
+        "Alcaldía del Ayuntamiento de Villa de Vés"
+      ],
+      "descripcion": "ELECNOR SERVICIOS Y PROYECTOS,S.A.U. en 3 órganos distintos, todos en franja 12,000-15,000€. 5 contratos por 65,521€. Presencia sistemática justo bajo el umbral."
     },
     {
       "tipo": "omnipresente",
