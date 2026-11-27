@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generado": "2026-11-26T16:03:04",
+    "generado": "2026-11-27T16:04:48",
     "version": "3.0",
-    "contratos_analizados": 201811,
-    "menores": 124866,
-    "licitaciones": 76945,
+    "contratos_analizados": 204782,
+    "menores": 125909,
+    "licitaciones": 78873,
     "reglas": [
       "Fraccionamiento: 3+ menores mismo proveedor/órgano en franja 80-99% umbral, total > umbral",
       "Concentración: 80%+ contratos de un órgano a un proveedor (mín 5)",
@@ -15,17 +15,17 @@
     ]
   },
   "stats": {
-    "total_flags": 125,
+    "total_flags": 128,
     "por_tipo": {
-      "fraccionamiento": 43,
+      "fraccionamiento": 44,
       "concentracion": 4,
       "patron_umbral": 8,
       "omnipresente": 5,
-      "negociado_reiterado": 8,
-      "umbral_europeo": 57
+      "negociado_reiterado": 9,
+      "umbral_europeo": 58
     },
-    "severidad_alta": 60,
-    "severidad_media": 65
+    "severidad_alta": 62,
+    "severidad_media": 66
   },
   "flags": [
     {
@@ -1223,6 +1223,39 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 8,
+      "adjudicatario": "SONIDOS JUNIOR, S.L.U.",
+      "organo": "Consejería Insular del Área de Servicios Sociales, Educación, Cultura y Deportes del Cabildo Insular de la Gomera",
+      "num_contratos": 3,
+      "importe_total": 42222.89,
+      "importe_medio": 14074.3,
+      "umbral_legal": 15000,
+      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 42,223€ (supera el umbral de 15,000€ que obligaría a licitar). Importes sospechosamente similares.",
+      "contratos": [
+        {
+          "expediente": "2374/2026",
+          "objeto": "Producción y celebración del Ciclo Colombino de Conciertos de Piano. 07 y 08 de septiembre de 2026. Municipio de San Sebastián de la Gomera.",
+          "importe": 14524.18,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=I10CiSeIPKmLAncw3qdZkA%3D%3D"
+        },
+        {
+          "expediente": "2376/2026",
+          "objeto": "Producción y celebración de la actuación musical del grupo Aborá Cel. Municipio de San Sebastián. 06 de septiembre de 2026.",
+          "importe": 13909.25,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=DjyN6nM6pcqP%2Bo96UAV7cQ%3D%3D"
+        },
+        {
+          "expediente": "2421/2026",
+          "objeto": "Producción y celebración del espectáculo musical: \"Cuéntame Milongas\", de David Muñoz, el día 10 de septiembre de 2026 en el municipio de Agulo.",
+          "importe": 13789.46,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=CDl7mV%2B%2FtIpq1DdmE7eaXg%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 8,
       "adjudicatario": "Onretrieval Group SL",
       "organo": "Jefatura de Enseñanza. Dirección General Guardia Civil",
       "num_contratos": 3,
@@ -1618,6 +1651,44 @@
       "tipo": "umbral_europeo",
       "severidad": "alta",
       "emoji": "🔴",
+      "score": 8,
+      "adjudicatario": "Endesa Energia",
+      "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
+      "num_contratos": 4,
+      "importe_total": 493933.89,
+      "umbral_legal": 140000,
+      "descripcion": "4 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 493,934€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "CBA4600/2026",
+          "objeto": "Prórroga Del Contrato Basado A5195/2025 Con Código De Agrupación 7882. Código Actual De Agrupación 8406 (Ministerio De Economía, Comercio Y Empresa-S.G. De Oficinas Económicas Y Comerciales En El Exterior Y De Red Territorial De Comercio)",
+          "importe": 131043.01,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Dbn31CDq3FtxseVhcqrkhw%3D%3D"
+        },
+        {
+          "expediente": "CBA5085/2026",
+          "objeto": "Contrato Basado En El Am 23/2024 De Suministros De Energía Eléctrica. Lote 1. Agrupación 8459 (Tesoreria General De La Seguridad Social-Dirección Provincial De La Tgss De Zamora)",
+          "importe": 120777.98,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=gJL5dsy6178aF6cS8TCh%2FA%3D%3D"
+        },
+        {
+          "expediente": "CBA5273/2026",
+          "objeto": "Contrato Basado En El Am 23/2024 De Suministros De Energía Eléctrica. Lote 1. Agrupación 8442 (Tesoreria General De La Seguridad Social-Dirección Provincial De La Tgss De Burgos)",
+          "importe": 118439.62,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=FEf1dJHz6eOkU02jNGj1Fw%3D%3D"
+        },
+        {
+          "expediente": "CBA5893/2026",
+          "objeto": "Contrato De Suministro De Energía Eléctrica Mediante Contrato Basado Am 23/2024 Para El Consejo Económico Y Social Ces; Id Agregación 8631; Periodo Del 15/02/2027 Al 14/02/2028 (Ministerio De Trabajo Y Economía Social-Consejo Economico Y Social)",
+          "importe": 123673.28,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=rC0cmExr4P7L1rX3q%2FMAPA%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "umbral_europeo",
+      "severidad": "alta",
+      "emoji": "🔴",
       "score": 6,
       "adjudicatario": "UTE ECONOCOM SERVICIOS-ECONOCOM PRODUCTS AND SOLUTIONS",
       "organo": "Concejalía Delegada de Innovación, Tecnología, Agenda Digital y Captación de Inversiones del Ayuntamiento de València",
@@ -1775,38 +1846,6 @@
       ]
     },
     {
-      "tipo": "umbral_europeo",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 6,
-      "adjudicatario": "Endesa Energia",
-      "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
-      "num_contratos": 3,
-      "importe_total": 370260.61,
-      "umbral_legal": 140000,
-      "descripcion": "3 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 370,261€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
-      "contratos": [
-        {
-          "expediente": "CBA4600/2026",
-          "objeto": "Prórroga Del Contrato Basado A5195/2025 Con Código De Agrupación 7882. Código Actual De Agrupación 8406 (Ministerio De Economía, Comercio Y Empresa-S.G. De Oficinas Económicas Y Comerciales En El Exterior Y De Red Territorial De Comercio)",
-          "importe": 131043.01,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Dbn31CDq3FtxseVhcqrkhw%3D%3D"
-        },
-        {
-          "expediente": "CBA5085/2026",
-          "objeto": "Contrato Basado En El Am 23/2024 De Suministros De Energía Eléctrica. Lote 1. Agrupación 8459 (Tesoreria General De La Seguridad Social-Dirección Provincial De La Tgss De Zamora)",
-          "importe": 120777.98,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=gJL5dsy6178aF6cS8TCh%2FA%3D%3D"
-        },
-        {
-          "expediente": "CBA5273/2026",
-          "objeto": "Contrato Basado En El Am 23/2024 De Suministros De Energía Eléctrica. Lote 1. Agrupación 8442 (Tesoreria General De La Seguridad Social-Dirección Provincial De La Tgss De Burgos)",
-          "importe": 118439.62,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=FEf1dJHz6eOkU02jNGj1Fw%3D%3D"
-        }
-      ]
-    },
-    {
       "tipo": "negociado_reiterado",
       "severidad": "alta",
       "emoji": "🔴",
@@ -1873,6 +1912,68 @@
       "severidad": "alta",
       "emoji": "🔴",
       "score": 3,
+      "adjudicatario": "PEGASUS AVIACION S.A.",
+      "organo": "Sección de Asuntos Económicos del Parque y Centro de Mantenimiento de Helicópteros",
+      "num_contratos": 3,
+      "importe_total": 1800000.0,
+      "descripcion": "PEGASUS AVIACION S.A. gana 3 contratos por negociado sin publicidad del Sección de Asuntos Económicos del Parque y Centro de Mantenimiento de Helicópteros por 1,800,000€. El negociado sin publicidad es para situaciones excepcionales — usarlo repetidamente con el mismo proveedor huele a adjudicación a dedo.",
+      "contratos": [
+        {
+          "expediente": "2026/ETSAE0065/00000870E",
+          "objeto": "Servicio de Mantenimiento y Adquisición de repuestos de los Helicópteros Modelo AB-212 del ET",
+          "importe": 600000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=hyvQuUdo%2Bbtq1DdmE7eaXg%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0065/00000869E",
+          "objeto": "Servicio de Mantenimiento y Adquisición de repuestos de los Helicópteros Modelo AB-212 del  ET",
+          "importe": 500000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9rjqIzrkUHp%2FP7lJ7Fu0SA%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0065/00001456E",
+          "objeto": "Contrato basado en Acuerdo Marco 2025/ETSAE0906/00000516, cuyo objeto es: Servicio de Mantenimiento y Adquisición de repuestos de los Helicópteros Modelo AB-212 del ET",
+          "importe": 700000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=djPaH51aWcQQyBAnWzHfCg%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "negociado_reiterado",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 3,
+      "adjudicatario": "EUROPAVIA ESPAÑA SA",
+      "organo": "Sección de Asuntos Económicos del Parque y Centro de Mantenimiento de Helicópteros",
+      "num_contratos": 3,
+      "importe_total": 1720000.0,
+      "descripcion": "EUROPAVIA ESPAÑA SA gana 3 contratos por negociado sin publicidad del Sección de Asuntos Económicos del Parque y Centro de Mantenimiento de Helicópteros por 1,720,000€. El negociado sin publicidad es para situaciones excepcionales — usarlo repetidamente con el mismo proveedor huele a adjudicación a dedo.",
+      "contratos": [
+        {
+          "expediente": "2026/ETSAE0065/00000868E",
+          "objeto": "Mantenimiento y suministro de repuestos de los componentes rotables de las aeronaves del Ejército de Tierra",
+          "importe": 700000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=x1UXOPNGKwh%2BF6L2uCfUWg%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0065/00000867E",
+          "objeto": "Mantenimiento y suministro de repuestos de los componentes rotables de las aeronaves del Ejército de Tierra",
+          "importe": 800000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=WemaFffqOyB9PLkba5eRog%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0065/00001447E",
+          "objeto": "Contrato basado del AM Número exp 2024/ETSAE0906/00004065E. Prestaciones del servicio de mantenimiento y suministro de equipos de aviónica e instrumentos embarcados en las aeronaves del ejército de tierra, a entregar o ejecutar en PCMHEL",
+          "importe": 220000.0,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=buTzd6Be%2FkZeKgd8LfVV9g%3D%3D"
+        }
+      ]
+    },
+    {
+      "tipo": "negociado_reiterado",
+      "severidad": "alta",
+      "emoji": "🔴",
+      "score": 3,
       "adjudicatario": "URO VEHICULOS ESPECIALES, S.A.",
       "organo": "Jefatura de Asuntos Económicos del Mando de Apoyo Logístico",
       "num_contratos": 3,
@@ -1931,37 +2032,6 @@
       ]
     },
     {
-      "tipo": "negociado_reiterado",
-      "severidad": "alta",
-      "emoji": "🔴",
-      "score": 3,
-      "adjudicatario": "TRC INFORMATICA, S.L.",
-      "organo": "Subdirección General de Contratación de Tecnologías de la Información y de las Comunicaciones (TIC)",
-      "num_contratos": 3,
-      "importe_total": 282973310.58,
-      "descripcion": "TRC INFORMATICA, S.L. gana 3 contratos por negociado sin publicidad del Subdirección General de Contratación de Tecnologías de la Información y de las Comunicaciones (TIC) por 282,973,311€. El negociado sin publicidad es para situaciones excepcionales — usarlo repetidamente con el mismo proveedor huele a adjudicación a dedo.",
-      "contratos": [
-        {
-          "expediente": "2026/SP03032003/00001423E",
-          "objeto": "Contrato Basado 1 en la prórroga del Lote 2: Suministros y servicios profesionales para la gestión de eventos de seguridad de la I3D,  del Acuerdo Marco de Herramientas y servicios de Ciberseguridad para la Infraestructura Integral de Información para la Defensa (I3D) (2022/SP03032003/00000330).",
-          "importe": 408621.91,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=AhtPbCyK%2F9Bt5r0ngvMetA%3D%3D"
-        },
-        {
-          "expediente": "2025/SP03032003/00002230E",
-          "objeto": "Acuerdo Marco de Equipamiento y Servicios para la protección global de la Infraestructura Integral de Información para la Defensa, junto con las Herramientas de Ciberseguridad de uso Transversal del Ministerio de Defensa",
-          "importe": 281238816.54,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=y9ltxs%2Fy3ghLAIVZdUs8KA%3D%3D"
-        },
-        {
-          "expediente": "2026/SP03032003/00001449E",
-          "objeto": "Contrato Basado 1 en la prórroga del Lote 3: Suministros y servicios profesionales para la interoperabilidad y coordinación en la prevención, detección y respuesta de amenazas en la I3D, del Acuerdo Marco de Herramientas y servicios de Ciberseguridad para la Infraestructura Integral de Información para la Defensa (I3D) (expediente N.º 2022/SP03032003/00000330).",
-          "importe": 1325872.13,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=sjJd4Mrugm%2FXOjazN1Dw9Q%3D%3D"
-        }
-      ]
-    },
-    {
       "tipo": "concentracion",
       "severidad": "alta",
       "emoji": "🔴",
@@ -1993,12 +2063,12 @@
       "emoji": "🔴",
       "adjudicatario": "TESORERIA GENERAL DE LA JUNTA DE ANDALUCIA - TGJA -",
       "organo": "Dirección del Centro Penitenciario de Málaga",
-      "contratos_proveedor": 85,
-      "contratos_totales": 94,
-      "porcentaje_contratos": 90.4,
-      "importe_proveedor": 191302.28,
-      "porcentaje_importe": 49.7,
-      "descripcion": "TESORERIA GENERAL DE LA JUNTA DE ANDALUCIA - TGJA - gana 85 de 94 contratos (90%) del Dirección del Centro Penitenciario de Málaga, 191,302€ de 384,707€ (50%). ¿Proveedor único justificado o cautividad?"
+      "contratos_proveedor": 93,
+      "contratos_totales": 102,
+      "porcentaje_contratos": 91.2,
+      "importe_proveedor": 224375.41,
+      "porcentaje_importe": 53.7,
+      "descripcion": "TESORERIA GENERAL DE LA JUNTA DE ANDALUCIA - TGJA - gana 93 de 102 contratos (91%) del Dirección del Centro Penitenciario de Málaga, 224,375€ de 417,780€ (54%). ¿Proveedor único justificado o cautividad?"
     },
     {
       "tipo": "concentracion",
@@ -2007,11 +2077,11 @@
       "adjudicatario": "OFICINA TECNICA MARTIN ARANDA HIGUERAS SOCIEDAD LIMITADA",
       "organo": "Alcaldía del Ayuntamiento de Santiago de Calatrava",
       "contratos_proveedor": 21,
-      "contratos_totales": 23,
-      "porcentaje_contratos": 91.3,
+      "contratos_totales": 24,
+      "porcentaje_contratos": 87.5,
       "importe_proveedor": 144522.4,
       "porcentaje_importe": 100.0,
-      "descripcion": "OFICINA TECNICA MARTIN ARANDA HIGUERAS SOCIEDAD LIMITADA gana 21 de 23 contratos (91%) del Alcaldía del Ayuntamiento de Santiago de Calatrava, 144,522€ de 144,522€ (100%). ¿Proveedor único justificado o cautividad?"
+      "descripcion": "OFICINA TECNICA MARTIN ARANDA HIGUERAS SOCIEDAD LIMITADA gana 21 de 24 contratos (88%) del Alcaldía del Ayuntamiento de Santiago de Calatrava, 144,522€ de 144,522€ (100%). ¿Proveedor único justificado o cautividad?"
     },
     {
       "tipo": "patron_umbral",
@@ -2029,17 +2099,57 @@
       "severidad": "alta",
       "emoji": "🔴",
       "adjudicatario": "ELECNOR SERVICIOS Y PROYECTOS, S.A.U.",
-      "num_organos": 5,
-      "num_contratos": 5,
-      "importe_total": 65078.4,
+      "num_organos": 6,
+      "num_contratos": 6,
+      "importe_total": 78562.93,
       "organos": [
         "Teniente Alcalde, Delegado de Contratación del Ayuntamiento de Lebrija",
         "Rectorado de la Universidad de Cádiz",
         "Jefatura de la Sección Económico Administrativa 14 - Cuartel General del Mando Aéreo de Canarias",
         "Centro de Estudios y Experimentación de Obras Públicas (CEDEX)",
-        "Instituto Nacional de Estadística INE"
+        "Instituto Nacional de Estadística INE",
+        "Alcaldía del Ayuntamiento de Santa María de Guía"
       ],
-      "descripcion": "ELECNOR SERVICIOS Y PROYECTOS, S.A.U. en 5 órganos distintos, todos en franja 12,000-15,000€. 5 contratos por 65,078€. Presencia sistemática justo bajo el umbral."
+      "descripcion": "ELECNOR SERVICIOS Y PROYECTOS, S.A.U. en 6 órganos distintos, todos en franja 12,000-15,000€. 6 contratos por 78,563€. Presencia sistemática justo bajo el umbral."
+    },
+    {
+      "tipo": "fraccionamiento",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 6,
+      "adjudicatario": "FERRETERIA FERAYU S.L.",
+      "organo": "Jefatura de Intendencia de Asuntos Económicos Centro",
+      "num_contratos": 4,
+      "importe_total": 54983.44,
+      "importe_medio": 13745.86,
+      "umbral_legal": 15000,
+      "descripcion": "4 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 54,983€ (supera el umbral de 15,000€ que obligaría a licitar).",
+      "contratos": [
+        {
+          "expediente": "2026/ETHC00004/00000067E",
+          "objeto": "Suministro de cristales y mamparas a la Base Militar El Goloso",
+          "importe": 13772.28,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=0U7dsyk2%2Bul%2FR5QFTlaM4A%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0038/00004418E",
+          "objeto": "Adquisición de una transpaleta elevadora eléctrica para la Agrupación de Transporte Nº1.",
+          "importe": 12723.83,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=krUxTV6hQ83ECtSnloz%2BZQ%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0038/00004787E",
+          "objeto": "Adquisición de diversos electrodomésticos (lavadoras, secadoras y calandra) para la Academia de Ingenieros.",
+          "importe": 14995.98,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=yJibJbzXGaOopEMYCmrbmw%3D%3D"
+        },
+        {
+          "expediente": "2026/ETSAE0038/00004240E",
+          "objeto": "Adquisición de equipamiento de taller del Grupo Mantenimiento de la Agrupación de Apoyo Logístico nº11 de la Base San Pedro.",
+          "importe": 13491.35,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=IGBoyx0k17o2wEhQbcAqug%3D%3D"
+        }
+      ]
     },
     {
       "tipo": "fraccionamiento",
@@ -2077,39 +2187,6 @@
           "objeto": "CR-Contrato menor tte escolar ruta 13000815-A",
           "importe": 12250.0,
           "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=xDgLrX1kmT%2FN3k3tjedSGw%3D%3D"
-        }
-      ]
-    },
-    {
-      "tipo": "fraccionamiento",
-      "severidad": "media",
-      "emoji": "🟡",
-      "score": 5,
-      "adjudicatario": "FERRETERIA FERAYU S.L.",
-      "organo": "Jefatura de Intendencia de Asuntos Económicos Centro",
-      "num_contratos": 3,
-      "importe_total": 41492.09,
-      "importe_medio": 13830.7,
-      "umbral_legal": 15000,
-      "descripcion": "3 contratos menores de servicios entre 12,000€ y 15,000€ del mismo proveedor al mismo órgano. Total: 41,492€ (supera el umbral de 15,000€ que obligaría a licitar).",
-      "contratos": [
-        {
-          "expediente": "2026/ETHC00004/00000067E",
-          "objeto": "Suministro de cristales y mamparas a la Base Militar El Goloso",
-          "importe": 13772.28,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=0U7dsyk2%2Bul%2FR5QFTlaM4A%3D%3D"
-        },
-        {
-          "expediente": "2026/ETSAE0038/00004418E",
-          "objeto": "Adquisición de una transpaleta elevadora eléctrica para la Agrupación de Transporte Nº1.",
-          "importe": 12723.83,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=krUxTV6hQ83ECtSnloz%2BZQ%3D%3D"
-        },
-        {
-          "expediente": "2026/ETSAE0038/00004787E",
-          "objeto": "Adquisición de diversos electrodomésticos (lavadoras, secadoras y calandra) para la Academia de Ingenieros.",
-          "importe": 14995.98,
-          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=yJibJbzXGaOopEMYCmrbmw%3D%3D"
         }
       ]
     },
@@ -3461,6 +3538,32 @@
       ]
     },
     {
+      "tipo": "umbral_europeo",
+      "severidad": "media",
+      "emoji": "🟡",
+      "score": 4,
+      "adjudicatario": "ALHAMBRA SYSTEMS SA",
+      "organo": "Intendente de Rota",
+      "num_contratos": 2,
+      "importe_total": 247645.68,
+      "umbral_legal": 140000,
+      "descripcion": "2 contratos entre 112,000€ y 140,000€ del mismo proveedor al mismo órgano. Total: 247,646€ — supera el umbral europeo de 140,000€ que obligaría a publicar en el DOUE y someterse a supervisión europea.",
+      "contratos": [
+        {
+          "expediente": "2026/AR46U/00001875E",
+          "objeto": "Expediente 2026/AR46U/00001875E CB AM 2024/AR21U/00001095E Servicios para la gestión integral de las actividades de apoyo de las funciones económicas administrativas de la Armada, en la Intendencia de Rota.",
+          "importe": 112399.5,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=2%2BoisG7L81RxseVhcqrkhw%3D%3D"
+        },
+        {
+          "expediente": "2026/AR46U/00002113E",
+          "objeto": "Expediente 2026/AR46U/00002113E CB Sexto AM 2024/AR40U/00002309E Gestión integral de las actividades de apoyo de las funciones económico-administrativas en la Armada.",
+          "importe": 135246.18,
+          "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=HlABaSsn0NuOUi78BmzhOQ%3D%3D"
+        }
+      ]
+    },
+    {
       "tipo": "negociado_reiterado",
       "severidad": "media",
       "emoji": "🟡",
@@ -3540,11 +3643,11 @@
       "severidad": "media",
       "emoji": "🟡",
       "organo": "Miembros Corporativos con Delegaciones Especiales del Cabildo Insular de la Palma",
-      "contratos_en_franja": 6,
-      "contratos_totales": 12,
-      "porcentaje": 50.0,
-      "proveedores_distintos": 6,
-      "descripcion": "Miembros Corporativos con Delegaciones Especiales del Cabildo Insular de la Palma: 6 de 12 menores (50%) entre 12,000-15,000€. 6 proveedores. Estadísticamente improbable sin intervención."
+      "contratos_en_franja": 7,
+      "contratos_totales": 13,
+      "porcentaje": 53.8,
+      "proveedores_distintos": 7,
+      "descripcion": "Miembros Corporativos con Delegaciones Especiales del Cabildo Insular de la Palma: 7 de 13 menores (54%) entre 12,000-15,000€. 7 proveedores. Estadísticamente improbable sin intervención."
     },
     {
       "tipo": "patron_umbral",
@@ -3621,14 +3724,14 @@
       "emoji": "🟡",
       "adjudicatario": "FERRETERIA FERAYU S.L.",
       "num_organos": 3,
-      "num_contratos": 5,
-      "importe_total": 68138.41,
+      "num_contratos": 6,
+      "importe_total": 81629.76,
       "organos": [
         "Jefatura de Intendencia de Asuntos Económicos Centro",
         "Jefatura de Asuntos Económicos de la Fuerza Terrestre",
         "Jefatura de Asuntos Económicos del Mando de Personal"
       ],
-      "descripcion": "FERRETERIA FERAYU S.L. en 3 órganos distintos, todos en franja 12,000-15,000€. 5 contratos por 68,138€. Presencia sistemática justo bajo el umbral."
+      "descripcion": "FERRETERIA FERAYU S.L. en 3 órganos distintos, todos en franja 12,000-15,000€. 6 contratos por 81,630€. Presencia sistemática justo bajo el umbral."
     }
   ]
 }
